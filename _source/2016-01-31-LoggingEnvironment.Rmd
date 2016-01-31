@@ -61,7 +61,7 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 readGL()、readMCH()関数に情報を与えて結果を受け取ります。
 
 ```{r}
-readXX(ロガーのID+チャンネル, まとめてほしい日時の範囲, 他引数)
+# readXX(ロガーのID+チャンネル, まとめてほしい日時の範囲, 他引数)
 ```
 
 ## 出力
@@ -139,7 +139,7 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 <b>実験が増えるとフォルダ構造がカオス化し、管理が難しくなります</b>  
 
 GL用・MCH用の親フォルダをそれぞれ作り、その中にログを蓄積します  
-<span class="image featured"><img src="/images/2016-01-31/fig4.png" alt=""></span>
+<span class="image featured"><img src="/figure/2016-01-31-LoggingEnvironment/fig4.png" alt=""></span>
 
 
 この親フォルダのパスをreadXX関数の引数 (LogPath) に与えます  
