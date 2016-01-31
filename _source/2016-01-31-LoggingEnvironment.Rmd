@@ -1,4 +1,4 @@
-```{r setup, eval = TRUE, echo = FALSE}
+```{r setup, eval = TRUE, echo = FALSE, message= F}
 require(MASS)
 require(ggplot2)
 require(RColorBrewer) 
@@ -52,10 +52,10 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 ## Overview
 
 日常的な栽培時に記録している環境要素とその測器は以下の通り  
-温度: [**midiLOGGERシリーズ, GRAPHTECH**](http://www.graphtec.co.jp/site_instrument/instrument/gl220/) + 熱電対
+温度: [**midiLOGGERシリーズ, GRAPHTECH**](http://www.graphtec.co.jp/site_instrument/instrument/gl220/) + 熱電対  
 相対湿度、CO<sub>2</sub>濃度: [**MCH383-SD, 佐藤商事**](http://www.ureruzo.com/gas/CO2mch.htm)
 
-とくにRHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、  
+RHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、  
 栽培に問題がなかったことを確認することが主目的です  
 
 readGL()、readMCH()関数に情報を与えて結果を受け取ります。
@@ -139,7 +139,7 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 <b>実験が増えるとフォルダ構造がカオス化し、管理が難しくなります</b>  
 
 GL用・MCH用の親フォルダをそれぞれ作り、その中にログを蓄積します  
-<span class="image featured"><img src="/figure/2016-01-31-LoggingEnvironment/fig4.png" alt=""></span>
+<span class="image featured"><img src="/figure/source/2016-01-31-LoggingEnvironment/fig4.png" alt=""></span>
 
 
 この親フォルダのパスをreadXX関数の引数 (LogPath) に与えます  
