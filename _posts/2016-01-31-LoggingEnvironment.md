@@ -384,7 +384,7 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 <b>実験が増えるとフォルダ構造がカオス化し、管理が難しくなります</b>  
 
 GL用・MCH用の親フォルダをそれぞれ作り、その中にログを蓄積します  
-![plot of chunk demo4](/figure/source/2016-01-31-LoggingEnvironment/fig4.png)
+![plot of chunk demo4](/figure/source/2016-01-31-LoggingEnvironment/fig4.svg)
 
 
 この親フォルダのパスをreadXX関数の引数 (LogPath) に与えます  

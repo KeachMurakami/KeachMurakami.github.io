@@ -183,3 +183,5 @@ PC側に測定開始日 (YYMMDD形式) を名前としたフォルダを作り�
 ```{r informations}
 sessionInfo()
 ```
+
+{% include footer.html %}
