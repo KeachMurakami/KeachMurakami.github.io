@@ -1,3 +1,5 @@
+{% include header.html %}
+
 ```{r setup, eval = TRUE, echo = FALSE, message= F}
 require(MASS)
 require(ggplot2)
@@ -35,38 +37,34 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 ```
 
 # データロガーに収録された栽培環境情報をさくっとまとめたい。  
+
 [**蛇口を捻れば水が出る**](https://github.com/dichika/jaguchi)かのように、簡単に栽培環境の情報をとってきたい  
 
 
 ## Introduction
-現所属研究室では、植物を栽培条件下での温度をはじめとした、  
-いくつかの環境要素 (以下、ログ) を計測しています  
-毎年、研究室の新入生がログをまとめるのに、  
-多大な時間を浪費しているような気がします  
-データの扱いを覚える機会としては悪くはないのですが  
-自分の研究について考えるプロセスにもう少し時間を割いた方がいいようにも思えます  
+現所属研究室では、植物を栽培条件下での温度をはじめとした、いくつかの環境要素 (以下、ログ) を計測している  
+毎年、研究室の新入生がログをまとめるのに、多大な時間を浪費しているような気がしている  
+データの扱いを覚える機会としては悪くはないが、自分の研究について考えるプロセスにもう少し時間を割いた方がいいようにも思える  
 
-なので、これらのデータをさくっとまとめるR用関数を作成しました  
+なので、これらのデータをさくっとまとめるR用関数を作成した  
 
 
 ## Overview
 
 日常的な栽培時に記録している環境要素とその測器は以下の通り  
 温度: [**midiLOGGERシリーズ, GRAPHTECH**](http://www.graphtec.co.jp/site_instrument/instrument/gl220/) + 熱電対  
-相対湿度、CO<sub>2</sub>濃度: [**MCH383-SD, 佐藤商事**](http://www.ureruzo.com/gas/CO2mch.htm)
+相対湿度・CO<sub>2</sub>濃度: [**MCH383-SD, 佐藤商事**](http://www.ureruzo.com/gas/CO2mch.htm)
 
-RHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、  
-栽培に問題がなかったことを確認することが主目的です  
+RHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、栽培に問題がなかったことを確認することが主目的  
 
-readGL()、readMCH()関数に情報を与えて結果を受け取ります。
+readGL()、readMCH()関数に情報を与えて結果を受け取る  
 
 ```{r}
 # readXX(ロガーのID+チャンネル, まとめてほしい日時の範囲, 他引数)
 ```
 
 ## 出力
-リストを返します。
-リストの中身は
+以下の内容を含むリストを返す  
 
 1. $Raw: 生値
 2. $Hourly: 1時間の平均値 (昼夜別)  
@@ -119,10 +117,10 @@ example2$Raw %>%
   geom_histogram(alpha = .3, position = "identity", col = "grey")
 ```
 
-## How to use  
+#### How to use  
 
-パッケージ化がうまくできなかったへたれなので、テキストとして読み込みます  
-以下をコンソールにコピペ→実行  
+技術不足ゆえにパッケージ化はできない  
+テキストとして読み込むため、以下をコンソールにコピペ→実行  
 ```{r sources}
 # RCurlパッケージがいるので、インストールされていない場合にインストール
 if(class(try(library(RCurl), silent = T)) == "try-error") install.packages("RCurl")
@@ -132,18 +130,18 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami/Sources/master/MCH.R", ssl.verifypeer = FALSE)))
 ```
 
-## PC側の設定
-ファイルをread関数に読み込ませるため、ログを一箇所にまとめます  
+#### PC側の設定
+ファイルをread関数に読み込ませるため、ログを一箇所にまとめる  
 
-実験ごとにフォルダを作ってその中に保存という形式はオススメできません   
-<b>実験が増えるとフォルダ構造がカオス化し、管理が難しくなります</b>  
+実験ごとにフォルダを作ってその中に保存という形式はオススメできない   
+<b>実験が増えるとフォルダ構造がカオス化し、管理が難しくなることが理由</b>  
 
-GL用・MCH用の親フォルダをそれぞれ作り、その中にログを蓄積します  
+GL用・MCH用の親フォルダをそれぞれ作り、その中にログを蓄積する  
 ![plot of chunk demo4](/figure/source/2016-01-31-LoggingEnvironment/fig4.svg)
 
 
-この親フォルダのパスをreadXX関数の引数 (LogPath) に与えます  
-親フォルダの中には以下が含まれます  
+この親フォルダのパスをreadXX関数の引数 (LogPath) に与える  
+親フォルダの中には以下が含まれる  
 
 1. 校正係数を載せたファイル (CalbXXX.csv)  
 ```{r dir1}
@@ -157,23 +155,23 @@ data.table::fread("~/Dropbox/MCH_log/CalbMCH.csv") %>% head
 dir("~/Dropbox/GL_log/")
 dir("~/Dropbox/MCH_log/")
 ```
-子フォルダの中には収録開始日を名前としたフォルダを作り、ログを蓄積します  
+子フォルダの中には収録開始日を名前としたフォルダを作り、ログを蓄積する  
 ```{r dir3}
 dir("~/Dropbox/GL_log/A")
 dir("~/Dropbox/MCH_log/No03")
 ```
 
-### データの保存について  
-#### Graphtecの場合  
-収録開始とともに、その日 (YYMMDD形式, 2015年12月31日なら151231) の名前でフォルダが生成され、その中に.CSVが作成されます  
-なのでGraphtec用USB内のフォルダをそのままコピー&ペーストすればOK  
+#### データの保存について  
+Graphtecの場合  
+収録開始とともに、その日 (YYMMDD形式, 2015年12月31日なら151231) の名前でフォルダが生成され、その中に.CSVが作成される  
+なのでGraphtec用USB内のフォルダをそのままコピペすればOK  
   
-#### MCHの場合  
-.XLSファイルに上書きを繰り返すのでやや面倒です  
-一回の測定が終わったら、SDカードから.XLSを吸い上げます  
+MCHの場合  
+.XLSファイルに上書きを繰り返すのでやや面倒  
+一回の測定が終わったら、SDカードから.XLSを吸い上げる 
 PC側に測定開始日 (YYMMDD形式) を名前としたフォルダを作り、  
-その中に.XLSファイルをカット&ペーストします  
-<b>MCH側には.XLSを残しません</b> 
+その中に.XLSファイルをカット&ペースト  
+<b>MCH側には.XLSを残さない</b> 
 
 ## Future prospect  
 データをメディアから直接アップロードし、クラウドから取り出す形にしたい (無線内蔵USB的な)   
