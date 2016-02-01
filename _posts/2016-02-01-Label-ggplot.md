@@ -1,5 +1,5 @@
 
-# expression関数内に変数部を組み込みたかった話  
+# expression関数内に変数を動的に組み込みたかった話  
 
 研究生活では、図を書くことが多い  
 例えば以下のような図  
@@ -24,12 +24,12 @@ plot1 +
 
 単位によく現れるギリシャ文字、上・下付き、イタリックといった書式を  
 サポートするのは、expression関数だ  
-この関数の書体の指定はword使いの僕にはしんどい  
 
+この関数の書体の指定はword使いの僕にはしんどい  
 なので、軸のテキスト部分を変数化して楽をしようとした   
 
 
-## しかし、expression関数の中では文字列を評価してくれない
+#### しかし、expression関数の中では文字列を評価してくれない
 
 ```r
 labeler1 <- function(text){
@@ -40,7 +40,7 @@ plot1 + xlab(labeler1("value2"))
 
 ![plot of chunk unnamed-chunk-2](/figure/source/2016-02-01-Label-ggplot/unnamed-chunk-2-1.png) 
 
-## pasteを先に実行すると、`mu`がないことを怒られる  
+#### pasteを先に実行すると、`mu`がないことを怒られる  
 
 ```r
 paste(text, "[", mu, "g", m^-2, "]") %>% expression
@@ -52,7 +52,7 @@ paste(text, "[", mu, "g", m^-2, "]") %>% expression
 
 遅延評価 (lazy evaluation)、変数の作る環境あたりが原因だということはわかった  
 
-# どうすればいいのか  
+#### どうすればいいのか  
 `base::bquote()`でいけた
 
 ```r
@@ -65,8 +65,8 @@ plot1 + xlab(labeler2("Light intensity")) + ylab(labeler2("Net photosynthetic ra
 ![plot of chunk unnamed-chunk-4](/figure/source/2016-02-01-Label-ggplot/unnamed-chunk-4-1.png) 
 
 
-bquote内では、.(変数)とすることで、変数を引くことができる  
-概ねexpressionと同じ使い方  
+bquote内では、.(変数)とすることで、変数を受け取ることができる  
+それ以外は概ねexpressionと同じ使い方  
 文字間を詰める場合は*で、スペースを開ける場合には~で結合  
 
 ```r
@@ -82,7 +82,7 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 
 ![plot of chunk bquoteExamples](/figure/source/2016-02-01-Label-ggplot/bquoteExamples-1.png) 
 
-## 以下、bquoteの使い方の曖昧和訳→ [https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]
+#### 以下、bquoteの使い方の曖昧和訳
 > ### bquote {base}  
 > expression関数に部分的に変数をいれる  
 > 
@@ -96,6 +96,7 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 > #### 引数
 > expr: 言語オブジェクト (name, call, expression)
 > where: 言語オブジェクトを評価する環境
+> [https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]  
 
 
 未消化気味ではあるが、Rと少し仲良くなれた気がする  
