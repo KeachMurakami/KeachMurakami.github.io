@@ -1,92 +1,4 @@
 
-```
-## Loading required package: MASS
-## Loading required package: ggplot2
-## Loading required package: RColorBrewer
-## Loading required package: grid
-## Loading required package: plyr
-## Loading required package: dplyr
-## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:plyr':
-## 
-##     arrange, count, desc, failwith, id, mutate, rename, summarise,
-##     summarize
-## 
-## The following object is masked from 'package:MASS':
-## 
-##     select
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-## 
-## Loading required package: reshape2
-## Loading required package: xlsx
-## Loading required package: rJava
-## Loading required package: methods
-## Loading required package: xlsxjars
-## Loading required package: knitr
-## Loading required package: gtable
-## Loading required package: foreach
-## Loading required package: gridExtra
-## Loading required package: magrittr
-## Loading required package: agricolae
-## Loading required package: stringr
-## Loading required package: data.table
-## 
-## Attaching package: 'data.table'
-## 
-## The following objects are masked from 'package:reshape2':
-## 
-##     dcast, melt
-## 
-## The following objects are masked from 'package:dplyr':
-## 
-##     between, last
-## 
-## Loading required package: lubridate
-## 
-## Attaching package: 'lubridate'
-## 
-## The following objects are masked from 'package:data.table':
-## 
-##     hour, mday, month, quarter, wday, week, yday, year
-## 
-## The following object is masked from 'package:plyr':
-## 
-##     here
-## 
-## Loading required package: scales
-## Loading required package: pforeach
-## Loading required package: devtools
-## Loading required package: tidyr
-## 
-## Attaching package: 'tidyr'
-## 
-## The following object is masked from 'package:magrittr':
-## 
-##     extract
-## 
-## Loading required package: slackr
-## Loading required package: RCurl
-## Loading required package: bitops
-## 
-## Attaching package: 'RCurl'
-## 
-## The following object is masked from 'package:tidyr':
-## 
-##     complete
-## 
-## The following object is masked from 'package:rJava':
-## 
-##     clone
-```
 
 # データロガーに収録された栽培環境情報をさくっとまとめたい。  
 [**蛇口を捻れば水が出る**](https://github.com/dichika/jaguchi)かのように、簡単に栽培環境の情報をとってきたい  
@@ -106,10 +18,10 @@
 ## Overview
 
 日常的な栽培時に記録している環境要素とその測器は以下の通り  
-温度: [**midiLOGGERシリーズ, GRAPHTECH**](http://www.graphtec.co.jp/site_instrument/instrument/gl220/) + 熱電対
+温度: [**midiLOGGERシリーズ, GRAPHTECH**](http://www.graphtec.co.jp/site_instrument/instrument/gl220/) + 熱電対  
 相対湿度、CO<sub>2</sub>濃度: [**MCH383-SD, 佐藤商事**](http://www.ureruzo.com/gas/CO2mch.htm)
 
-とくにRHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、  
+RHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、  
 栽培に問題がなかったことを確認することが主目的です  
 
 readGL()、readMCH()関数に情報を与えて結果を受け取ります。
@@ -531,3 +443,5 @@ sessionInfo()
 ## [37] iterators_1.0.8   R6_2.1.1          boot_1.3-17      
 ## [40] nlme_3.1-122
 ```
+
+{% include footer.html %}
