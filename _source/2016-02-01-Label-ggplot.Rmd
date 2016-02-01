@@ -1,0 +1,126 @@
+```{r setup, eval = TRUE, echo = FALSE, message= F}
+require(MASS)
+require(ggplot2)
+require(RColorBrewer) 
+require(grid)
+require(plyr)
+require(dplyr)
+require(reshape2)
+require(xlsx)
+require(knitr)
+require(gtable)
+require(foreach)
+require(gridExtra)
+require(magrittr)
+require(agricolae)
+require(stringr)
+require(data.table)
+require(lubridate)
+require(scales)
+require(pforeach)
+require(devtools)
+require(tidyr)
+require(slackr)
+require(RCurl)
+opts_chunk$set(eval = TRUE,
+               error = FALSE,
+               prompt = FALSE,
+               message = FALSE,
+               echo = TRUE,
+               fig.hight = 4,
+               fig.width = 10,
+               warning =FALSE)
+```
+# expression関数内に変数部を組み込みたかった話  
+
+研究生活では、図を書くことが多い  
+例えば以下のような図  
+
+```{r}
+plot1 <-
+  data_frame(x = seq(from = 0, to = 100, length.out = 500), y = log(x) + rnorm(500, 0, 0.1)) %>%
+  ggplot(aes(x = x, y = y)) +
+  theme_bw(base_size = 20, base_family = "serif") +
+  geom_point(alpha = .5)
+
+plot1 +
+  xlab(expression(paste("Light intensity ["  * mu * "mol" ~ m^-2 ~ s^-1 * "]"))) +
+  ylab(expression(paste("Net photosynthetic rate [" * mu * "mol" ~ m^-2 ~ s^-1 * "]")))
+```
+  
+光の強さ (PPFD) に応じて、葉の光合成速度が大きくなるなど  
+似たような単位で似たような図をたくさん書く  
+
+単位によく現れるギリシャ文字、上・下付き、イタリックといった書式を  
+サポートするのは、expression関数だ  
+この関数の書体の指定はword使いの僕にはしんどい  
+
+なので、軸のテキスト部分を変数化して楽をしようとした   
+
+
+## しかし、expression関数の中では文字列を評価してくれない
+```{r}
+labeler1 <- function(text){
+  expression(paste(text ~ "["  * mu * "mol" ~ m^-2 ~ s^-1 * "]"))
+}
+plot1 + xlab(labeler1("value2"))
+```
+
+## pasteを先に実行すると、`mu`がないことを怒られる  
+```{r, error=TRUE}
+paste(text, "[", mu, "g", m^-2, "]") %>% expression
+```
+
+遅延評価 (lazy evaluation)、変数の作る環境あたりが原因だということはわかった  
+
+# どうすればいいのか  
+`base::bquote()`でいけた
+```{r}
+labeler2 <- function(text){
+  bquote(.(text) ~ "["  * mu * "mol" ~ m^-2 ~ s^-1 * "]")
+}
+plot1 + xlab(labeler2("Light intensity")) + ylab(labeler2("Net photosynthetic rate"))   
+```
+
+
+bquote内では、.(変数)とすることで、変数を引くことができる  
+概ねexpressionと同じ使い方  
+文字間を詰める場合は*で、スペースを開ける場合には~で結合  
+```{r bquoteExamples}
+plot(0, 0, type = "n", xlim = c(0, 1), ylim = c(0, 4), xlab = "", ylab = "")
+
+moji <- letters
+
+par(family = "Times New Roman")
+text(.5, 3, labels = bquote(.(moji[1]) ~ "[" * mu * "g" ~ m^-2 * "]"), cex = 2)
+text(.5, 2, labels = bquote(.(moji[2]) ~ "[" ~ mu ~ "g" ~ m^-2 ~ "]"), cex = 2)
+text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 2)
+```
+
+## 以下、bquoteの使い方の曖昧和訳  
+### bquote {base}  
+expression関数に部分的に変数をいれる  
+
+#### 概要
+LISPのbackquote macroに似たやつ  
+.()で囲われた部分以外を引数whereで指定された環境の下で評価する    
+
+#### 使用法
+bquote(expr, where = parent.frame())
+
+#### 引数
+expr: 言語オブジェクト (name, call, expression)
+where: 言語オブジェクトを評価する環境
+
+未消化気味ではあるが、Rと少し仲良くなれた気がする  
+言語オブジェクト→ 
+  [http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583]
+
+
+## expression関数で同じことできないの？
+要勉強
+
+
+```{r informations}
+sessionInfo()
+```
