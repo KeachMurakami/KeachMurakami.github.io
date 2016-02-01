@@ -82,20 +82,21 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 
 ![plot of chunk bquoteExamples](/figure/source/2016-02-01-Label-ggplot/bquoteExamples-1.png) 
 
-## 以下、bquoteの使い方の曖昧和訳  
-### bquote {base}  
-expression関数に部分的に変数をいれる  
+## 以下、bquoteの使い方の曖昧和訳→ [https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]
+> ### bquote {base}  
+> expression関数に部分的に変数をいれる  
+> 
+> #### 概要
+> LISPのbackquote macroに似たやつ  
+> .()で囲われた部分以外を引数whereで指定された環境の下で評価する    
+> 
+> #### 使用法
+> bquote(expr, where = parent.frame())
+> 
+> #### 引数
+> expr: 言語オブジェクト (name, call, expression)
+> where: 言語オブジェクトを評価する環境
 
-#### 概要
-LISPのbackquote macroに似たやつ  
-.()で囲われた部分以外を引数whereで指定された環境の下で評価する    
-
-#### 使用法
-bquote(expr, where = parent.frame())
-
-#### 引数
-expr: 言語オブジェクト (name, call, expression)
-where: 言語オブジェクトを評価する環境
 
 未消化気味ではあるが、Rと少し仲良くなれた気がする  
 言語オブジェクト→ 
