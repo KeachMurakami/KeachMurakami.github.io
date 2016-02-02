@@ -1,3 +1,9 @@
+---
+title: "labeling_ggplot2"
+output: html_document
+layout: page
+---
+
 ```{r setup, eval = TRUE, echo = FALSE, message= F}
 require(MASS)
 require(ggplot2)
@@ -121,7 +127,6 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 
 ## expression関数で同じことできないの？
 要勉強
-
 
 ```{r informations}
 sessionInfo()

@@ -1,4 +1,8 @@
-{% include header.html %}
+---
+title: "logging_data"
+output: html_document
+layout: page
+---
 
 ```{r setup, eval = TRUE, echo = FALSE, message= F}
 require(MASS)
@@ -181,5 +185,3 @@ PC側に測定開始日 (YYMMDD形式) を名前としたフォルダを作り�
 ```{r informations}
 sessionInfo()
 ```
-
-{% include footer.html %}
