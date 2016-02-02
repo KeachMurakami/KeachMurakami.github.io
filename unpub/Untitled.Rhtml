@@ -1,0 +1,30 @@
+<html>
+
+<head>
+<title>Publication list</title>
+</head>
+
+<body>
+
+<p></p>
+
+<!--begin.rcode
+library(scholar)
+library(magrittr)
+library(dplyr)
+
+MyID <- "IgtMr-oAAAAJ"
+get_publications(MyID) %>%
+  select(-cid, -pubid) %>%
+  kable
+
+end.rcode-->
+
+<p>You can also embed plots, for example:</p>
+
+<!--begin.rcode fig.width=7, fig.height=6
+plot(cars)
+end.rcode-->
+
+</body>
+</html>

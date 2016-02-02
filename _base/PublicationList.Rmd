@@ -1,0 +1,18 @@
+---
+title: "PublicationList"
+output: html_document
+permalink: /publication_list/
+layout: default
+---
+
+```{r, message = F, echo = F}
+library(scholar)
+library(magrittr)
+library(dplyr)
+library(knitr)
+
+MyID <- "IgtMr-oAAAAJ"
+get_publications(MyID) %>%
+  select(-cid, -pubid) %>%
+  kable
+```
