@@ -1,3 +1,6 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+_posts/About.md
+
+_posts/PublicationList.md
