@@ -2,7 +2,7 @@
 title: "logging_data"
 output: html_document
 layout: page
-categories: lab, R
+categories: lab R
 ---
 
 

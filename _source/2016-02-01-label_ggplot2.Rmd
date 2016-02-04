@@ -2,7 +2,7 @@
 title: "labeling_ggplot2"
 output: html_document
 layout: page
-categories: lab, R, ggplot2
+categories: lab R ggplot2
 ---
 
 ```{r setup, eval = TRUE, echo = FALSE, message= F}
