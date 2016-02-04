@@ -6,13 +6,117 @@ layout: default
 ---
 
 ```{r, message = F, echo = F}
-library(scholar)
 library(magrittr)
 library(dplyr)
 library(knitr)
 
-MyID <- "IgtMr-oAAAAJ"
-get_publications(MyID) %>%
-  select(-cid, -pubid) %>%
+ 
+# ToRecord <-
+#   function(title, authors, year, journal, type, url)
+#   c(Title = paste0("<a href=", url, ">", title, "</a>"),
+#     Authors = authors,
+#     Year = year,
+#     Journal = journal,
+#     Type = type)
+ToRecord <-
+  function(title, authors, year, journal, type, url)
+  c(Title = title,
+    Authors = authors,
+    Year = year,
+    Journal = journal,
+    Type = type)
+
+
+
+KM <- "<b>Keach Murakami</b>"
+RM <- "Ryo Matsuda"
+KF <- "Kazuhiro Fujiwara"
+
+PublicationList <-
+  matrix(byrow = T, ncol = 5,
+        c(
+##### Original articles #####
+         ToRecord(
+           "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus<i/> spectrum",
+           paste(KM, RM, KF, sep = ",<br> "),
+           "2014",
+           "Original Article (peer-reviewd)",
+           "Plant Biology",
+           "http://onlinelibrary.wiley.com/doi/10.1111/plb.12055/abstract"),
+        ToRecord(
+          "Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper",
+          paste(KM, RM, KF, sep = ",<br> "),
+          "2013",
+          "Original Article (peer-reviewd)",
+          "Journal of Agricultural Meteorology",
+          "https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.2/_article"),
+        ToRecord(
+          "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
+          paste(KM, RM, KF, sep = ",<br> "),
+          "2016 (in press)",
+          "Original Article (peer-reviewd)",
+          "Physiologia Plantarum",
+          "http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract"),
+        ToRecord(
+          "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
+          paste(RM, "Takuto Yamano", KM, KF, sep = ",<br> "),
+          "2016",
+          "Original Article (peer-reviewd)",
+          "Scientia Horticulturae",
+          "http://www.sciencedirect.com/science/article/pii/S0304423815303198"),
+
+##### Original articles #####
+
+
+##### Review articles & Book chapters (peer-reviewed) #####
+        ToRecord(
+          "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
+          paste(RM, KM, sep = ",<br> "),
+          "2016 (in press)",
+          "Book chapter (peer-reviewd)",
+          "Progress in Botany",
+          "http://www.springer.com/in/book/9783319256863"),
+        # ToRecord(
+        #   "Optical and physiological properties of a leaf",
+        #   paste(KM, RM, sep = ", "),
+        #   "(submitted)",
+        #   "NA",
+        #   "Book chapter (peer-reviewd)",
+        #   "NA"),
+
+##### Review articles & Book chapters (peer-reviewed) #####
+
+
+##### Presentations in international academic conferences #####
+        ToRecord(
+          "A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light",
+          paste(KM, RM, KF, sep = ",<br> "),
+          "2015",
+          "Poster (International Symposium)",
+          "GreenSys 2015. Évora, Portugal. July.",
+          ""),
+        ToRecord(
+          "Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper",
+          paste(KM, RM, KF, sep = ",<br> "),
+          "2012",
+          "Poster (International Symposium)",
+          "7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct",
+          ""
+        )
+      )
+    )
+
+colnames(PublicationList) = c('Title', 'Authors', 'Year', 'Type', 'Journal_Venue')
+PublicationList %>%
+  data.frame %>%
+  arrange(Type, desc(Year)) %>%
   kable
+# datatable(PublicationList, escape = F)  #
+```
+
+
+```{r eval = F, echo = F}
+# rmarkdown::render("~/Dropbox/KeachMurakami.github.io/PublicationList.Rmd")
+# knit(input = "~/Dropbox/KeachMurakami.github.io/PublicationList.Rmd",
+#      output = "~/Dropbox/KeachMurakami.github.io/PublicationList.md")
 ```
