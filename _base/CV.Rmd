@@ -1,0 +1,86 @@
+---
+title: "CV"
+output: html_document
+permalink: /CV/
+layout: default
+---
+
+Keach Murakami
+
+-----
+
+Ph.D student  
+[BioEnvironmental Engineering (BEE) Group](http://www.kankyo.en.a.u-tokyo.ac.jp/index-E.htm),  
+Department of Biological and Environmental Engineering,  
+Graduate School of Agricultural and Life Sciences,  
+The University of Tokyo  
+
+-------
+
+Address: 1-1-1 Yayoi, Bunkyo, Tokyo, 113-8657 Japan  
+Office: Room #413, Building 7A  
+E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp  
+
+```{r, message = F, echo = F}
+library(magrittr)
+library(dplyr)
+library(knitr)
+```
+
+<!-- ### Expertise -->
+<!-- ```{r Expertise, echo = F} -->
+
+<!-- ``` -->
+
+<!-- ------ -->
+
+<!-- ### Research Areas -->
+<!-- ```{r Research_Areas, echo = F} -->
+
+<!-- ``` -->
+
+------
+
+
+
+
+### Education
+```{r Education, echo = F}
+data.frame(
+  Year = c("2012.03", "2014.03"),
+  Degree = c("M.S. in Agricultural Engineering, The University of Tokyo",
+             "B.S. in Agricultural Engineering, The University of Tokyo")
+) %>%
+  kable
+```
+
+------
+
+
+
+
+### Professional Experience
+```{r Professional_Experience, echo = F}
+data.frame(
+  Year = c("2014.4-2017.3"),
+  Category = c("JSPS Research Fellow"),
+  Affiliation = c("BEE, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Japan"),
+  Advisor = c("Prof: Kazuhiro Fujiwara")
+) %>%
+  kable
+```
+
+------
+
+
+
+
+### Academic Society Membership
+```{r Academic_Society_Membership, echo = F}
+data.frame(
+  Year = c("2013-", "2013-"),
+  Society = c("Japanese Society of Agricultural, Biological and Environmental Engineers and Scientists",
+              "The Society of Agricultural Meteorology of Japan")
+) %>%
+  kable
+```
