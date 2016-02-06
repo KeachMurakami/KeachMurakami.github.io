@@ -10,110 +10,216 @@ library(magrittr)
 library(dplyr)
 library(knitr)
 
- 
-# ToRecord <-
-#   function(title, authors, year, journal, type, url)
-#   c(Title = paste0("<a href=", url, ">", title, "</a>"),
-#     Authors = authors,
-#     Year = year,
-#     Journal = journal,
-#     Type = type)
+# Record generator
 ToRecord <-
-  function(title, authors, year, journal, type, url)
+  function(title, authors, year, in_what, type, url)
   c(Title = title,
     Authors = authors,
     Year = year,
-    Journal = journal,
+    In = in_what,
     Type = type)
 
+# Table generator
+ToKable <-
+  function(PublicationList, in_what){
+  PublicationList %<>%
+      matrix(byrow = T, ncol = 5)
+  colnames(PublicationList) = c('Title', 'Authors', 'Year', 'Type', in_what)
+  PublicationList %>%
+    data.frame %>%
+    arrange(desc(Year), Type) %>%
+    kable
+  }
 
-
+AddUnderline <- function(text) paste0("<u>", text, "</u>")
+# Frequently appears
 KM <- "<b>Keach Murakami</b>"
 RM <- "Ryo Matsuda"
 KF <- "Kazuhiro Fujiwara"
 
-PublicationList <-
-  matrix(byrow = T, ncol = 5,
-        c(
-##### Original articles #####
-         ToRecord(
-           "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus<i/> spectrum",
-           paste(KM, RM, KF, sep = ",<br> "),
-           "2014",
-           "Original Article (peer-reviewd)",
-           "Plant Biology",
-           "http://onlinelibrary.wiley.com/doi/10.1111/plb.12055/abstract"),
-        ToRecord(
-          "Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper",
-          paste(KM, RM, KF, sep = ",<br> "),
-          "2013",
-          "Original Article (peer-reviewd)",
-          "Journal of Agricultural Meteorology",
-          "https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.2/_article"),
-        ToRecord(
-          "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
-          paste(KM, RM, KF, sep = ",<br> "),
-          "2016 (in press)",
-          "Original Article (peer-reviewd)",
-          "Physiologia Plantarum",
-          "http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract"),
-        ToRecord(
-          "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
-          paste(RM, "Takuto Yamano", KM, KF, sep = ",<br> "),
-          "2016",
-          "Original Article (peer-reviewd)",
-          "Scientia Horticulturae",
-          "http://www.sciencedirect.com/science/article/pii/S0304423815303198"),
+KM_ <- "<b>村上 貴一</b>"
+RM_ <- "松田 怜"
+KF_ <- "富士原 和宏"
 
-##### Original articles #####
-
-
-##### Review articles & Book chapters (peer-reviewed) #####
-        ToRecord(
-          "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
-          paste(RM, KM, sep = ",<br> "),
-          "2016 (in press)",
-          "Book chapter (peer-reviewd)",
-          "Progress in Botany",
-          "http://www.springer.com/in/book/9783319256863"),
-        # ToRecord(
-        #   "Optical and physiological properties of a leaf",
-        #   paste(KM, RM, sep = ", "),
-        #   "(submitted)",
-        #   "NA",
-        #   "Book chapter (peer-reviewd)",
-        #   "NA"),
-
-##### Review articles & Book chapters (peer-reviewed) #####
-
-
-##### Presentations in international academic conferences #####
-        ToRecord(
-          "A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light",
-          paste(KM, RM, KF, sep = ",<br> "),
-          "2015",
-          "Poster (International Symposium)",
-          "GreenSys 2015. Évora, Portugal. July.",
-          ""),
-        ToRecord(
-          "Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper",
-          paste(KM, RM, KF, sep = ",<br> "),
-          "2012",
-          "Poster (International Symposium)",
-          "7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct",
-          ""
-        )
-      )
-    )
-
-colnames(PublicationList) = c('Title', 'Authors', 'Year', 'Type', 'Journal_Venue')
-PublicationList %>%
-  data.frame %>%
-  arrange(Type, desc(Year)) %>%
-  kable
-# datatable(PublicationList, escape = F)  #
 ```
 
+--------------
+
+### Journal Articles
+```{r JournalArticles, message = F, echo = F}
+c(
+   ToRecord(
+     "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus<i/> spectrum",
+     paste(KM, RM, KF, sep = ",<br> "),
+     "2014",
+     "Original Article (peer-reviewd)",
+     "Plant Biology",
+     "http://onlinelibrary.wiley.com/doi/10.1111/plb.12055/abstract"),
+   
+  ToRecord(
+    "Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper",
+    paste(KM, RM, KF, sep = ",<br> "),
+    "2013",
+    "Original Article (peer-reviewd)",
+    "Journal of Agricultural Meteorology",
+    "https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.2/_article"),
+  
+  ToRecord(
+    "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
+    paste(KM, RM, KF, sep = ",<br> "),
+    "2016 (in press)",
+    "Original Article (peer-reviewd)",
+    "Physiologia Plantarum",
+    "http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract"),
+  
+  ToRecord(
+    "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
+    paste(RM, "Takuto Yamano", KM, KF, sep = ",<br> "),
+    "2016",
+    "Original Article (peer-reviewd)",
+    "Scientia Horticulturae",
+    "http://www.sciencedirect.com/science/article/pii/S0304423815303198")
+) %>%
+  ToKable(in_what = "Journal")
+```
+
+--------------
+
+### Book Chapters
+```{r Books, message = F, echo = F}
+c(
+  ToRecord(
+    "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
+    paste(RM, KM, sep = ",<br> "),
+    "2016 (in press)",
+    "Book chapter (peer-reviewd)",
+    "Progress in Botany",
+    "http://www.springer.com/in/book/9783319256863"),
+  
+  ToRecord(
+    "Optical and physiological properties of a leaf",
+    paste(KM, RM, sep = ",<br> "),
+    "(submitted)",
+    "Book chapter",
+    "--",
+    "http://www.springer.com/in/book/9783319256863")
+) %>%
+  ToKable(in_what = "Book")
+```
+
+--------------
+
+### Presentations in International Academic Conferences
+```{r Symposiums_International, message = F, echo = F}
+c(
+  ToRecord(
+    "A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light",
+    paste(KM, RM, KF, sep = ",<br> "),
+    "2015",
+    "Poster",
+    "GreenSys 2015. Évora, Portugal. July.",
+    ""),
+  
+  ToRecord(
+    "Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper",
+    paste(KM, RM, KF, sep = ",<br> "),
+    "2012",
+    "Poster",
+    "7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct",
+    "")
+) %>%
+  ToKable(in_what = "Venue Date")
+```
+
+--------------
+
+### Presentations in Domestic Academic Conferences
+```{r Symposiums_Domestic, message = F, echo = F}
+c(
+  ToRecord(
+    "夜間に照射する LED 光の分光分布および PPFD がトマト苗の成育および可視障害に及ぼす影響",
+    paste(AddUnderline(RM_), "山埜 拓人", KM_, KF_, sep = ",<br> "),
+    "2016",
+    "Oral",
+    "日本農業気象学会 2016 年全国大会, 岡山, 2016.03",
+    ""),
+  
+  ToRecord(
+    "サンプルサイズ（<i>n</i>）の検定力分析による決定 ―グロースチャンバでの植物栽培実験の例—",
+    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    "2016",
+    "Poster",
+    "日本農業気象学会 2016 年全国大会, 岡山, 2016.03",
+    ""),
+  
+  ToRecord(
+    "栽培中の遠赤色光添加は栽培後の葉の光合成速度を小さくするのか？",
+    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    "2015",
+    "Oral",
+    "日本生物環境工学会 2015 年宮崎大会, 宮崎, 2015.09",
+    ""),
+  
+  ToRecord(
+    "異なる分光分布の光照射下で成育した葉の光合成速度比較結果は測定光分光分布に影響される",
+    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    "2015",
+    "Oral",
+    "日本農業気象学会 2015 年全国大会, つくば, 2015.03",
+    ""),
+  
+  ToRecord(
+    "異なる狭波長帯 LED 光の混合照射下における個葉の総光合成速度の推定",
+    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    "2014",
+    "Poster",
+    "第 5 回日本光合成学会年会および公開シンポジウム, 奈良, 2014.05.",
+    ""),
+
+  ToRecord(
+    "下位葉補光・終夜補光の光質が植物の光合成特性と成育に及ぼす影響",
+    paste(AddUnderline(RM_), "山埜 拓人", KM_, KF_, sep = ",<br> "),
+    "2014",
+    "Oral",
+    "日本農業気象学会 2014 年全国大会, 札幌, 2014.03",
+    ""),
+  
+  ToRecord(
+    "種々のピーク波長の LED を用いた混合光照射下におけるコスレタス葉の光合成量子収率",
+    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    "2014",
+    "Oral",
+    "日本農業気象学会 2014 年全国大会, 札幌, 2014.03",
+    ""),
+  
+  ToRecord(
+    "異なるピーク波長の LED を用いた混合光照射下における個葉の光合成量子収率",
+    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    "2013",
+    "Oral",
+    "日本生物環境工学会 2013 年香川大会, 高松, 2013.09",
+    ""),
+  
+  ToRecord(
+    "インゲンマメ下位葉への単色 LED 光照射が上位葉の光合成特性に及ぼす影響",
+    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    "2013",
+    "Oral",
+    "日本生物環境工学会 2012 年東京大会, 東京, 2012.09",
+    ""),
+  
+  ToRecord(
+    "トマト養液栽培における葉面積指数推定モデルの構築: 気孔コンダクタンスモデルの検討",
+    paste(AddUnderline(RM_), KM_, KF_, sep = ",<br> "),
+    "2012",
+    "Poster",
+    "日本農業気象学会 2012 年全国大会, 大阪, 2012.03",
+    "")
+) %>%
+  ToKable(in_what = "Venue Date")
+```
+
+----
 
 ```{r eval = F, echo = F}
 # rmarkdown::render("~/Dropbox/KeachMurakami.github.io/PublicationList.Rmd")
