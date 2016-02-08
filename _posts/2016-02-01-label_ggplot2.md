@@ -24,9 +24,9 @@ plot1 +
   ylab(expression(paste("Net photosynthetic rate [" * mu * "mol" ~ m^-2 ~ s^-1 * "]")))
 ```
 
-![plot of chunk unnamed-chunk-1](/figure/source/2016-02-01-label_ggplot2/unnamed-chunk-1-1.png) 
+![plot of chunk Example](/figure/source/2016-02-01-label_ggplot2/Example-1.png) 
   
-光の強さ (PPFD) に応じて、葉の光合成速度が大きくなるなど  
+光の強さに応じて、葉の光合成速度が大きくなるなど  
 似たような単位で似たような図をたくさん書く  
 
 単位によく現れるギリシャ文字、上・下付き、イタリックといった書式を  
@@ -45,7 +45,7 @@ labeler1 <- function(text){
 plot1 + xlab(labeler1("value2"))
 ```
 
-![plot of chunk unnamed-chunk-2](/figure/source/2016-02-01-label_ggplot2/unnamed-chunk-2-1.png) 
+![plot of chunk NG1](/figure/source/2016-02-01-label_ggplot2/NG1-1.png) 
 
 #### pasteを先に実行すると、`mu`がないことを怒られる  
 
@@ -69,7 +69,7 @@ labeler2 <- function(text){
 plot1 + xlab(labeler2("Light intensity")) + ylab(labeler2("Net photosynthetic rate"))   
 ```
 
-![plot of chunk unnamed-chunk-4](/figure/source/2016-02-01-label_ggplot2/unnamed-chunk-4-1.png) 
+![plot of chunk OK](/figure/source/2016-02-01-label_ggplot2/OK-1.png) 
 
 
 bquote内では、.(変数)とすることで、変数を受け取ることができる  
@@ -90,12 +90,13 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 ![plot of chunk bquoteExamples](/figure/source/2016-02-01-label_ggplot2/bquoteExamples-1.png) 
 
 #### 以下、bquoteの使い方の曖昧和訳
+![https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]  
 > ### bquote {base}  
 > expression関数に部分的に変数をいれる  
 > 
 > #### 概要
 > LISPのbackquote macroに似たやつ  
-> .()で囲われた部分以外を引数whereで指定された環境の下で評価する    
+> .()で囲まれた部分以外を引数whereで指定された環境の下で評価する    
 > 
 > #### 使用法
 > bquote(expr, where = parent.frame())
@@ -103,16 +104,17 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 > #### 引数
 > expr: 言語オブジェクト (name, call, expression)
 > where: 言語オブジェクトを評価する環境
-> [https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]  
 
 
-未消化気味ではあるが、Rと少し仲良くなれた気がする  
-言語オブジェクト→ 
-  [http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583]
+#### expression関数で同じことできないの？
+要勉強  
+言語オブジェクトと環境のあたりをもう少し理解できればうまく行く気がする  
+言語オブジェクト→ [http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583]
 
 
-## expression関数で同じことできないの？
-要勉強
+#### 参考
+![https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]  
+![http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583]
 
 
 ```r
