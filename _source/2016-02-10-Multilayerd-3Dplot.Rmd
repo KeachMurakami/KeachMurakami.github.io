@@ -1,0 +1,102 @@
+---
+title: "Multilayered_3Dplot"
+output: html_document
+layout: page
+categories: lab R 
+---
+
+```{r setup, eval = TRUE, echo = FALSE, message= F}
+require(MASS)
+require(ggplot2)
+require(RColorBrewer) 
+require(grid)
+require(plyr)
+require(dplyr)
+require(reshape2)
+require(xlsx)
+require(knitr)
+require(gtable)
+require(foreach)
+require(gridExtra)
+require(magrittr)
+require(agricolae)
+require(stringr)
+require(data.table)
+require(lubridate)
+require(scales)
+require(pforeach)
+require(devtools)
+require(tidyr)
+require(slackr)
+require(RCurl)
+require(akima)
+require(rgl)
+opts_chunk$set(eval = TRUE,
+               error = FALSE,
+               prompt = FALSE,
+               message = FALSE,
+               echo = TRUE,
+               fig.hight = 4,
+               fig.width = 10,
+               warning =FALSE)
+```
+
+# 多層の3Dプロットを作る (メモ
+
+[英語で検索](https://www.google.co.jp/search?q=3D+plot+R+multilayer&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiBrbXvle3KAhVEiKYKHXJNCQMQ_AUIBygB&biw=1280&bih=925)しても、[日本語で検索](https://www.google.co.jp/search?q=R+3%E6%AC%A1%E5%85%83+%E5%B1%A4&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi9r7uJlu3KAhXCqaYKHfeED68Q_AUIBygB&biw=1280&bih=925)しても、[Rcmdrを用いた対話的な3D散布図](https://www1.doshisha.ac.jp/~mjin/R/39/39.html)くらいしか簡単に見つからなかったので (20160210現在)
+
+
+#### データ作り
+```{r make_dt}
+df_3d <-
+  data_frame(x = rep(1:20, each = 20),
+             y = rep(1:20, times = 20),
+             z1 = x + y + 0.5 * x * y,
+             z2 = 5 * x + 3 * y - 0.5 * x * y) %>%
+  tidyr::gather(group, z, -x, -y)
+
+df_3d %>% str
+```
+
+#### グラフ作り
+rglをjekyll生成のページに埋め込むのがきつそうなのでコードのみ
+```{r make_fig, eval = F}
+library(rgl)
+
+df_3d_group1 <-
+  df_3d %>%
+  filter(group == "z1")
+df_3d_group2 <-
+  df_3d %>%
+  filter(group == "z2")
+
+plot3d(df_3d_group1$x, df_3d_group1$y, df_3d_group1$z, zlim = c(-50, 250))
+plot3d(df_3d_group2$x, df_3d_group2$y, df_3d_group2$z, col = "red", zlim = c(-50, 250))
+```
+
+#### 出力 (画像)
+![points](/figure/source/2016-02-10-Multilayerd-3Dplot/points.png) 
+
+曲面もつける
+
+```{r make_fig2, eval = F}
+library(akima)
+
+surf1 <- interp(df_3d_group1$x, df_3d_group1$y, df_3d_group1$z)
+surf2 <- interp(df_3d_group2$x, df_3d_group2$y, df_3d_group2$z)
+
+plot3d(df_3d_group1$x, df_3d_group1$y, df_3d_group1$z, col = "grey10", zlim = c(-50, 250))
+plot3d(df_3d_group2$x, df_3d_group2$y, df_3d_group2$z, col = "red", zlim = c(-50, 250))
+
+surface3d(surf1$x, surf1$y, surf1$z, col = "grey", alpha = .3)
+surface3d(surf2$x, surf2$y, surf2$z, col = "red", alpha = .3)
+```
+
+#### 出力 (画像)
+![surface](/figure/source/2016-02-10-Multilayerd-3Dplot/surf.png) 
+
+[参考: 不規則な間隔のデータ点を曲面プロットする](http://qiita.com/yohm13/items/204a2cf9a248ca0cf28a)
+
+```{r informations}
+sessionInfo()
+```
