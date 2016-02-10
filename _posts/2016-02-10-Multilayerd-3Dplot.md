@@ -22,15 +22,34 @@ df_3d <-
              z2 = 5 * x + 3 * y - 0.5 * x * y) %>%
   tidyr::gather(group, z, -x, -y)
 
-df_3d %>% str
+df_3d_group1 <-
+  df_3d %>%
+  filter(group == "z1")
+df_3d_group2 <-
+  df_3d %>%
+  filter(group == "z2")
+
+df_3d_group1 %>% str
 ```
 
 ```
-## Classes 'tbl_df', 'tbl' and 'data.frame':	800 obs. of  4 variables:
+## Classes 'tbl_df', 'tbl' and 'data.frame':	400 obs. of  4 variables:
 ##  $ x    : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ y    : int  1 2 3 4 5 6 7 8 9 10 ...
 ##  $ group: Factor w/ 2 levels "z1","z2": 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ z    : num  2.5 4 5.5 7 8.5 10 11.5 13 14.5 16 ...
+```
+
+```r
+df_3d_group2 %>% str
+```
+
+```
+## Classes 'tbl_df', 'tbl' and 'data.frame':	400 obs. of  4 variables:
+##  $ x    : int  1 1 1 1 1 1 1 1 1 1 ...
+##  $ y    : int  1 2 3 4 5 6 7 8 9 10 ...
+##  $ group: Factor w/ 2 levels "z1","z2": 2 2 2 2 2 2 2 2 2 2 ...
+##  $ z    : num  7.5 10 12.5 15 17.5 20 22.5 25 27.5 30 ...
 ```
 
 #### グラフ作り
@@ -39,22 +58,11 @@ rglをjekyll生成のページに埋め込むのがきつそうなのでコー�
 ```r
 library(rgl)
 
-df_3d_group1 <-
-  df_3d %>%
-  filter(group == "z1")
-df_3d_group2 <-
-  df_3d %>%
-  filter(group == "z2")
-
 plot3d(df_3d_group1$x, df_3d_group1$y, df_3d_group1$z, zlim = c(-50, 250))
 plot3d(df_3d_group2$x, df_3d_group2$y, df_3d_group2$z, col = "red", zlim = c(-50, 250))
 ```
 
-#### 出力 (画像)
-![points](/figure/source/2016-02-10-Multilayerd-3Dplot/points.png) 
-
-曲面もつける
-
+曲面を追加する
 
 ```r
 library(akima)
@@ -70,7 +78,7 @@ surface3d(surf2$x, surf2$y, surf2$z, col = "red", alpha = .3)
 ```
 
 #### 出力 (画像)
-![surface](/figure/source/2016-02-10-Multilayerd-3Dplot/surf.png) 
+![surface](/figure/source/2016-02-10-Multilayerd-3Dplot/figs.svg) 
 
 [参考: 不規則な間隔のデータ点を曲面プロットする](http://qiita.com/yohm13/items/204a2cf9a248ca0cf28a)
 
