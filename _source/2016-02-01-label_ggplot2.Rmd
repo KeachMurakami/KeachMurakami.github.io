@@ -1,5 +1,5 @@
 ---
-title: "labeling_ggplot2"
+title: "図のラベル (ggplot2"
 output: html_document
 layout: page
 categories: lab R ggplot2

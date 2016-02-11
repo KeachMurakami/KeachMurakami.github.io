@@ -1,5 +1,5 @@
 ---
-title: "logging_data"
+title: "実験環境のデータをまとめる"
 output: html_document
 layout: page
 categories: lab R
