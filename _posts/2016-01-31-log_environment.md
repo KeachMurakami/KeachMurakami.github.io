@@ -1,8 +1,9 @@
 ---
 title: "実験環境のデータをまとめる"
 output: html_document
-layout: page
-categories: lab R
+layout: post
+categories: R
+tags: lab R
 ---
 
 

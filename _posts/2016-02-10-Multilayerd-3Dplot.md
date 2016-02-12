@@ -1,8 +1,9 @@
 ---
 title: "複数層の3次元プロットを1枚の図で (rgl"
 output: html_document
-layout: page
-categories: lab R 
+layout: post
+categories: R
+tags: lab R rgl 3D
 ---
 
 

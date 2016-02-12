@@ -1,8 +1,9 @@
 ---
-title: "図のラベル (ggplot2"
+title: "図のラベルを楽に付けたい (ggplot2"
 output: html_document
-layout: page
-categories: lab R ggplot2
+layout: post
+categories: R
+tags: lab R ggplot2
 ---
 
 
