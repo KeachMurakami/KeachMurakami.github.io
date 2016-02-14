@@ -6,3 +6,7 @@ github_username:  KeachMurakami
 encoding: utf-8
 pygments: true
 markdown: kramdown
+comments :
+  provider : disqus
+  disqus :
+    short_name : keachmurakami
