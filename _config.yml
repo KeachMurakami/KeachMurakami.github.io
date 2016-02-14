@@ -4,7 +4,6 @@ email: your-email@domain.com
 url: "http://locahost:4000" # the base hostname & protocol for your site
 github_username:  KeachMurakami
 encoding: utf-8
-pygments: true
 markdown: kramdown
 comments :
   provider : disqus
