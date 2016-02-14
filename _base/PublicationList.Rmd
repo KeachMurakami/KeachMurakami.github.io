@@ -2,7 +2,7 @@
 title: "PublicationList"
 output: html_document
 permalink: /publication_list/
-layout: default
+layout: page
 ---
 
 ```{r, message = F, echo = F}
@@ -45,6 +45,12 @@ KF_ <- "富士原 和宏"
 
 --------------
 
+
+
+
+
+
+
 ### Journal Articles
 ```{r JournalArticles, message = F, echo = F}
 c(
@@ -85,6 +91,12 @@ c(
 
 --------------
 
+
+
+
+
+
+
 ### Book Chapters
 ```{r Books, message = F, echo = F}
 c(
@@ -109,6 +121,12 @@ c(
 
 --------------
 
+
+
+
+
+
+
 ### Presentations in International Academic Conferences
 ```{r Symposiums_International, message = F, echo = F}
 c(
@@ -132,6 +150,12 @@ c(
 ```
 
 --------------
+
+
+
+
+
+
 
 ### Presentations in Domestic Academic Conferences
 ```{r Symposiums_Domestic, message = F, echo = F}

@@ -2,12 +2,18 @@
 title: "PublicationList"
 output: html_document
 permalink: /publication_list/
-layout: default
+layout: page
 ---
 
 
 
 --------------
+
+
+
+
+
+
 
 ### Journal Articles
 
@@ -20,6 +26,12 @@ layout: default
 
 --------------
 
+
+
+
+
+
+
 ### Book Chapters
 
 |Title                                                                     |Authors                                |Year            |Type                        |Book               |
@@ -29,6 +41,12 @@ layout: default
 
 --------------
 
+
+
+
+
+
+
 ### Presentations in International Academic Conferences
 
 |Title                                                                                                                                               |Authors                                                       |Year |Type   |Venue.Date                                                                                                      |
@@ -37,6 +55,12 @@ layout: default
 |Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper        |<b>Keach Murakami</b>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2012 |Poster |7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct |
 
 --------------
+
+
+
+
+
+
 
 ### Presentations in Domestic Academic Conferences
 
