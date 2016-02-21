@@ -12,13 +12,13 @@ tags: lab R
 
 ## 論文をどこに投稿するか
 論文をLetterで出すことを検討している  
-読者層やその雑誌の特徴 (生態学より・農学よりなど) を主に考慮するが  
+読者層やその雑誌の特徴 (生態学より・農学よりなど) を考慮するが  
 <b>ImpactFactor</b>もやっぱり気になる  
 
 ## ImpactFactor (IF) とは
 Thomson Reuters社が公表している論文誌の引用されやすさの指標のようなもの  
 高IF誌に乗った論文は、読んでくれる人が多い傾向にある  
-「IFが高ければいいってもんじゃない」という意見も多いが
+「IFが高ければいいってもんじゃない」という意見も多い
 
 <b>「高IF誌に載っている論文 ⇒ 内容が良い」は偽</b>だが  
 <b>「内容が良い論文 ⇒ 高IF誌に載っている」は真</b>な気がする  
@@ -33,6 +33,7 @@ IFは毎年更新される
 ## データの取得
 今回のletterはPlant Scienceっぽいもの  
 [Journal Citation Reports (JCR)](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/research-management-and-evaluation/journal-citation-reports.html)にアクセスし、Plant Science分野の論文のIF一覧を取得する  
+ここは手作業でぽちぽちした
 
 
 ```r
@@ -96,6 +97,7 @@ IFdata %<>%
 ```
 
 データを以下のような感じに整形  
+JCRがフリーアクセスではないので雑誌名だけ伏せて匿名化  
 EigenFactorとArticleInfluenceScoreも雑誌の指標で比較的最近導入されたもの  
 
 ```r
@@ -220,6 +222,9 @@ IFdata %>%
 なんとなくIFが徐々に高くなっているような気がする  
 階層モデルで解析してみるパートに続きたい  
 
+### 参考ページ
+[CRAN.R-project.org](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)  
+[Journal Citation Reports](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/research-management-and-evaluation/journal-citation-reports.html)  
 
 ```r
 sessionInfo()
