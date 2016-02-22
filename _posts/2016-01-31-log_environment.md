@@ -45,7 +45,7 @@ readGL()、readMCH()関数に情報を与えて結果を受け取る
 4. $Span: 指定した期間の平均値 (昼夜別)  
 5. $inputs: 入力値
 
-## 例1
+### 例1
 対象: Graphtec (ID B) のch. 3  
 期間: 2015年5月1日15:00から2015年5月15日13:00  
 明期暗期: 7:00から明期、23:00から暗期  
@@ -149,7 +149,7 @@ example1
 ```
 
 
-## 例2
+### 例2
 対象: MCH (ID 3)  
 期間: 2015年5月25日15:00から2015年5月28日13:00  
 明期暗期: 7:00から明期、23:00から暗期  
@@ -249,7 +249,7 @@ example2
 ```
 
 
-#### 例3
+### 例3
 例1・例2からグラフ化  
 
 ```r
@@ -279,7 +279,7 @@ example2$Raw %>%
 
 ![plot of chunk demo3](/figure/source/2016-01-31-log_environment/demo3-3.png) 
 
-#### How to use  
+## How to use  
 
 技術不足ゆえにパッケージ化はできない  
 テキストとして読み込むため、以下をコンソールにコピペ→実行  
@@ -293,7 +293,7 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami/Sources/master/MCH.R", ssl.verifypeer = FALSE)))
 ```
 
-#### PC側の設定
+### PC側の設定
 ファイルをread関数に読み込ませるため、ログを一箇所にまとめる  
 
 実験ごとにフォルダを作ってその中に保存という形式はオススメできない   
@@ -386,7 +386,7 @@ dir("~/Dropbox/MCH_log/No03")
 ## [15] "151216" "151229" "160109" "160115" "160126"
 ```
 
-#### データの保存について  
+### データの保存について  
 Graphtecの場合  
 収録開始とともに、その日 (YYMMDD形式, 2015年12月31日なら151231) の名前でフォルダが生成され、その中に.CSVが作成される  
 なのでGraphtec用USB内のフォルダをそのままコピペすればOK  
@@ -401,8 +401,11 @@ PC側に測定開始日 (YYMMDD形式) を名前としたフォルダを作り�
 ## Future prospect  
 データをメディアから直接アップロードし、クラウドから取り出す形にしたい (無線内蔵USB的な)   
 
-# Summary
+## Summary
 データロガーのデータをさくっとまとめる関数ができました。  
+
+### 参考ページ
+[jaguchi (dichikaさん@Github)](https://github.com/dichika/jaguchi)
 
 ```r
 sessionInfo()

@@ -47,7 +47,7 @@ opts_chunk$set(eval = TRUE,
 [英語で検索](https://www.google.co.jp/search?q=3D+plot+R+multilayer&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiBrbXvle3KAhVEiKYKHXJNCQMQ_AUIBygB&biw=1280&bih=925)しても、[日本語で検索](https://www.google.co.jp/search?q=R+3%E6%AC%A1%E5%85%83+%E5%B1%A4&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi9r7uJlu3KAhXCqaYKHfeED68Q_AUIBygB&biw=1280&bih=925)しても、[Rcmdrを用いた対話的な3D散布図](https://www1.doshisha.ac.jp/~mjin/R/39/39.html)くらいしか簡単に見つからなかったので (20160210現在)
 
 
-#### データ作り
+## データ作り
 ```{r make_dt}
 df_3d <-
   data_frame(x = rep(1:20, each = 20),
@@ -67,7 +67,7 @@ df_3d_group1 %>% str
 df_3d_group2 %>% str
 ```
 
-#### グラフ作り
+## グラフ作り
 rglをjekyll生成のページに埋め込むのがきつそうなのでコードのみ
 ```{r make_fig, eval = F}
 library(rgl)
@@ -90,10 +90,11 @@ surface3d(surf1$x, surf1$y, surf1$z, col = "grey", alpha = .3)
 surface3d(surf2$x, surf2$y, surf2$z, col = "red", alpha = .3)
 ```
 
-#### 出力 (画像)
+## 出力 (画像)
 ![surface](/figure/source/2016-02-10-Multilayerd-3Dplot/figs.svg) 
 
-[参考: 不規則な間隔のデータ点を曲面プロットする](http://qiita.com/yohm13/items/204a2cf9a248ca0cf28a)
+### 参考ページ
+[不規則な間隔のデータ点を曲面プロットする (yohm13さん@Qiita)](http://qiita.com/yohm13/items/204a2cf9a248ca0cf28a)
 
 ```{r informations}
 sessionInfo()

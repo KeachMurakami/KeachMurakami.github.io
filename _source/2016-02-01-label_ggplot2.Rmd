@@ -81,7 +81,7 @@ paste(text, "[", mu, "g", m^-2, "]") %>% expression
 
 遅延評価 (lazy evaluation)、変数の作る環境あたりが原因だということはわかった  
 
-#### どうすればいいのか  
+## どうすればいいのか  
 `base::bquote()`でいけた
 ```{r OK}
 labeler2 <- function(text){
@@ -105,8 +105,7 @@ text(.5, 2, labels = bquote(.(moji[2]) ~ "[" ~ mu ~ "g" ~ m^-2 ~ "]"), cex = 2)
 text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 2)
 ```
 
-#### 以下、bquoteの使い方の曖昧和訳
-![https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]  
+## 以下、[bquote](https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html)の使い方の曖昧和訳  
 > ### bquote {base}  
 > expression関数に部分的に変数をいれる  
 > 
@@ -122,15 +121,14 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 > where: 言語オブジェクトを評価する環境
 
 
-#### expression関数で同じことできないの？
+## expression関数で同じことできないの？
 要勉強  
-言語オブジェクトと環境のあたりをもう少し理解できればうまく行く気がする  
-言語オブジェクト→ [http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583]
+[言語オブジェクト](http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583)と環境のあたりをもう少し理解できればうまく行く気がする  
 
 
-#### 参考
-![https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html]  
-![http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583]
+### 参考
+[bquote (R Documentation)](https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html)  
+[言語オブジェクト (どんな鳥も@Hatena::Diary)](http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583)
 
 ```{r informations}
 sessionInfo()
