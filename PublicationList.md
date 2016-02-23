@@ -24,6 +24,9 @@ layout: page
 |Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus<i/> spectrum |<b>Keach Murakami</b>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2014            |Original Article (peer-reviewd) |Plant Biology                       |
 |Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper                                            |<b>Keach Murakami</b>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2013            |Original Article (peer-reviewd) |Journal of Agricultural Meteorology |
 
+<br>
+<br>
+
 --------------
 
 
@@ -39,6 +42,9 @@ layout: page
 |Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis |Ryo Matsuda,<br> <b>Keach Murakami</b> |2016 (in press) |Book chapter (peer-reviewd) |Progress in Botany |
 |Optical and physiological properties of a leaf                            |<b>Keach Murakami</b>,<br> Ryo Matsuda |(submitted)     |Book chapter                |--                 |
 
+<br>
+<br>
+
 --------------
 
 
@@ -53,6 +59,9 @@ layout: page
 |:---------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|:----|:------|:---------------------------------------------------------------------------------------------------------------|
 |A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light |<b>Keach Murakami</b>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2015 |Poster |GreenSys 2015. Évora, Portugal. July.                                                                           |
 |Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper        |<b>Keach Murakami</b>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2012 |Poster |7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct |
+
+<br>
+<br>
 
 --------------
 

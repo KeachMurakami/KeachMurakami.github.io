@@ -89,6 +89,9 @@ c(
   ToKable(in_what = "Journal")
 ```
 
+<br>
+<br>
+
 --------------
 
 
@@ -119,6 +122,9 @@ c(
   ToKable(in_what = "Book")
 ```
 
+<br>
+<br>
+
 --------------
 
 
@@ -148,6 +154,9 @@ c(
 ) %>%
   ToKable(in_what = "Venue Date")
 ```
+
+<br>
+<br>
 
 --------------
 
