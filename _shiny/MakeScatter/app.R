@@ -1,4 +1,4 @@
-# ui.R
+
 library(shiny)
 library(ggplot2)
 library(dplyr)
@@ -51,22 +51,24 @@ server <-
       }
     })
     output$downloadData <- downloadHandler(
-      filename = function() {paste0('fig-', Sys.time(), '.emf')},
-      content = function(){
-        file <- input$file
-        filepath <- file$datapath
+      filename = function() {paste0(Sys.Date(), 'data.emf')},
+      content = function(file){
+        devEMF::emf(file)
+        csv_file <- input$file
+        filepath <- csv_file$datapath
         data <-
           read.csv(filepath) 
-        {data %>%
+        fig <-
+          data %>%
           melt(id.vars = colnames(data)[1]) %>%
           ggplot(aes_string(x = colnames(data)[1], y = "value", col = "variable")) +
-          geom_line()} %>%
-          plot
+          geom_line()
+          print(fig)
+        dev.off()
       },
-      contentType = "image/png"
+      contentType = "image/emf"
     )
   }
 
-    
-    shinyApp(ui = ui, server = server)
-    
+
+shinyApp(ui = ui, server = server)
