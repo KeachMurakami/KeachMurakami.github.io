@@ -1,0 +1,164 @@
+---
+title: "Excel作図で困ること"
+output: html_document
+layout: post
+tags: lab MSoffice R Shiny
+---
+
+```{r setup, eval = TRUE, echo = FALSE, message= F}
+require(MASS)
+require(ggplot2)
+require(RColorBrewer) 
+require(grid)
+require(plyr)
+require(dplyr)
+require(reshape2)
+require(xlsx)
+require(knitr)
+require(gtable)
+require(foreach)
+require(gridExtra)
+require(magrittr)
+require(agricolae)
+require(stringr)
+require(data.table)
+require(lubridate)
+require(scales)
+require(pforeach)
+require(devtools)
+require(tidyr)
+require(slackr)
+require(RCurl)
+opts_chunk$set(eval = TRUE,
+               error = FALSE,
+               prompt = FALSE,
+               message = FALSE,
+               echo = TRUE,
+               fig.hight = 4,
+               fig.width = 10,
+               warning =FALSE)
+```
+
+
+最近はMSoffice離れが進み、作図はR、たまにInkscapeで微調整という感じに落ち着いた  
+Excel+Powerpointでもそこそこ頑張れる  
+キレイに作図したいときはExcel上で図をコピーして、Powerpointに拡張メタファイル (.emf) 形式で貼付け (Winでは`Alt+E → S`)、グループ化を解除すれば、要素に分解して微調整ができる   
+が、こんなことが起こる  
+
+![sine_noise](/figure/source/2016-02-29-MSofficeFigure/sine_noise.svg)
+
+線の折り返し部分が妙な感じになる  
+この原因は、Excel上で作られた線が枠+内部の2つの情報を持っていること  
+どうやらExcelでの作図では、すべてのオブジェクトがこのような袋構造になるようで、いかんともしがたい  
+少なくともExcel2003までは、Excel上で表示される線には線の情報しかなかったので、このようなことは起こらなかった  
+  
+この描画問題で困っている人がいた    
+Rに限らず、全員がなんらかのソフトで作図できるようになればいいがそうもいかない  
+個々人に教えるのはあまりにも大変なので、どうにかしたい  
+
+ということで、Shinyで[データからpdf画像を作成するアプリ](https://keachmurakami.shinyapps.io/Scatter/)を作った  
+emfで出力しても、Shiny越しだとpowerpoint上で分解できる形式にならなかったのでpdfで妥協  
+[ここ](http://d.hatena.ne.jp/hoxo_m/20121228/p1)でも触れられているように、最近はなんでもRでやろうとするからダメ  
+
+## 使い方
+csvファイルをアップロードし、downloadボタンを押すとpdf画像が保存できる  
+アップロードしたcsvファイルの第1カラムが横軸、以降のカラムが縦軸に表示される  
+とりあえず散布図にだけ対応  
+「pdfファイルで出力 → ドローソフト (Illustratorとか) で分解 → メタファイル出力してPowerpointへ」とやることになるんだけど、かなり面倒だ  
+
+## 結局　
+各自がローカルでやるのがいいのだろう  
+ローカルだと3行で終わる話   
+```{r DrawLocally, eval = F}
+# Macだとemfを書き込むためにパッケージが必要
+# Winだとデフォルトの関数でいける
+devEMF::emf(file = "test.emf")
+plot(1:10)
+dev.off()
+```
+
+「ハイクオリティな図が作りたいけど、そういうソフトを使うのは難しそうだし、ちょっと...。でもドローソフトは使えます！」なんていう人はかなりレアなので、出番はなさそう  
+
+### 参考ページ
+[Scatter (keachmurakami@shinyapps.io)](https://keachmurakami.shinyapps.io/Scatter/)  
+[RStudio Shiny TIPS (ほくそ笑む@Hatena::Diary)](http://d.hatena.ne.jp/hoxo_m/20121228/p1)  
+[File Downloads (Shiny by RStudio)](http://shiny.rstudio.com/reference/shiny/latest/downloadHandler.html)  
+
+### 実行環境
+Mac: Office 2016 for Mac
+Win: Office 2013
+
+以下、[Shinyのコード](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_shiny/MakeScatter/app.R)
+```{r app.R, eval = F}
+library(shiny)
+library(ggplot2)
+library(dplyr)
+library(reshape2)
+
+ui <-
+  shinyUI(
+    pageWithSidebar(
+      headerPanel(title="Scatter plot drawer"),
+      sidebarPanel(
+        fileInput("file", label="Input File:"),
+        downloadLink('downloadData', 'Download')),
+      mainPanel(
+        h4("File Information:"),
+        verbatimTextOutput("info"),
+        h4("Figure"),
+        plotOutput("plot")
+      )
+    ))
+
+# server.R
+server <-
+  function(input, output) {
+    output$info <- reactiveText(function(){
+      file <- input$file
+      if(is.null(file)) {
+        "please upload file"
+      } else {
+        name <- paste("File Name: ", iconv(file$name, from="latin1", to="UTF-8"))
+        size <- paste("File Size: ", file$size, "B")
+        type <- paste("File Type: ", file$type)
+        paste(name, size, type, sep="\n")
+      }
+    })
+    output$plot <- reactivePlot(function() {
+      file <- input$file
+      if(is.null(file)) {
+        "please upload file"
+      } else {
+        filepath <- file$datapath
+        data <-
+          read.csv(filepath) 
+        data %>%
+          melt(id.vars = colnames(data)[1]) %>%
+          ggplot(aes_string(x = colnames(data)[1], y = "value", col = "variable")) +
+          geom_line()
+      }
+    })
+    output$downloadData <- downloadHandler(
+      filename = function() {paste0(Sys.Date(), 'data.pdf')},
+      content = function(file){
+        pdf(file)
+        csv_file <- input$file
+        filepath <- csv_file$datapath
+        data <-
+          read.csv(filepath) 
+        fig <-
+          data %>%
+          melt(id.vars = colnames(data)[1]) %>%
+          ggplot(aes_string(x = colnames(data)[1], y = "value", col = "variable")) +
+          geom_line()
+          print(fig)
+        dev.off()
+      },
+      contentType = "image/pdf"
+    )
+  }
+```
+
+```{r informations}
+sessionInfo()
+```

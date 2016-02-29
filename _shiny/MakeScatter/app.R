@@ -3,8 +3,6 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 library(reshape2)
-# library(lubridate)
-# library(devEMF)
 
 ui <-
   shinyUI(
@@ -18,7 +16,6 @@ ui <-
         verbatimTextOutput("info"),
         h4("Figure"),
         plotOutput("plot")
-        # plotOutput("plot")
       )
     ))
 
@@ -51,10 +48,8 @@ server <-
       }
     })
     output$downloadData <- downloadHandler(
-#      filename = function() {paste0(Sys.Date(), 'data.emf')},
       filename = function() {paste0(Sys.Date(), 'data.pdf')},
       content = function(file){
-        # devEMF::emf(file)
         pdf(file)
         csv_file <- input$file
         filepath <- csv_file$datapath
@@ -69,9 +64,5 @@ server <-
         dev.off()
       },
       contentType = "image/pdf"
-      # contentType = "image/emf"
     )
   }
-
-
-shinyApp(ui = ui, server = server)
