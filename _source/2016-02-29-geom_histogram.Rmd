@@ -1,0 +1,89 @@
+---
+title: "Excel作図で困ること"
+output: html_document
+layout: post
+tags: lab MSoffice R Shiny
+---
+
+```{r setup, eval = TRUE, echo = FALSE, message= F}
+require(MASS)
+require(ggplot2)
+require(RColorBrewer) 
+require(grid)
+require(plyr)
+require(dplyr)
+require(reshape2)
+require(xlsx)
+require(knitr)
+require(gtable)
+require(foreach)
+require(gridExtra)
+require(magrittr)
+require(agricolae)
+require(stringr)
+require(data.table)
+require(lubridate)
+require(scales)
+require(pforeach)
+require(devtools)
+require(tidyr)
+require(slackr)
+require(RCurl)
+opts_chunk$set(eval = TRUE,
+               error = FALSE,
+               prompt = FALSE,
+               message = FALSE,
+               echo = TRUE,
+               fig.hight = 4,
+               fig.width = 10,
+               warning =FALSE)
+```
+
+# ヒストグラムをマスターする
+元ネタはr-wakalangのggplot2チャンネル
+
+
+ggplot2縛りで、
+1. ヒストグラムの上に度数のテキストラベルを載せたい
+2. ヒストグラムの区切りのアルゴリズムを指定したい
+
+
+どうせなので、my log (研究室の出入記録) を可視化する
+```{r loadData}
+# データ読み込む
+Timecard <-
+  data.table::fread("~/Dropbox/R/my.data/TimeCard.csv")
+
+# ざっとみる
+Timecard %>% head
+Timecard %>% str
+```
+
+記録の付け方が良くないので、少しデータクレンジング
+
+```{r cleansingData}
+InOutLab <-
+  Timecard %>%
+  transmute(arrive = as.numeric(str_sub(Arrive, 1, 2)) + as.numeric(str_sub(Arrive, 4, 5)) / 60,
+            leave = as.numeric(str_sub(Leave, 1, 2)) + as.numeric(str_sub(Leave, 4, 5)) / 60)
+
+InOutLab %>% head
+```
+
+### 本番
+可視化する
+```{r visualize}
+InOutLab %>%
+  melt(id.vars = NULL) %>%
+  ggplot(aes(x = value)) + 
+  geom_histogram(aes(y = ..count..)) +
+  stat_bin(aes(y=..count.., label=..count..), geom="text", vjust = -.5) +
+  facet_grid(variable ~ .)
+```
+
+## ..XXX..
+この`..`は何なのか...
+..density..とか..count..とか
+
+http://notchained.hatenablog.com/entry/2015/10/11/162819
+http://stackoverflow.com/questions/23768546/how-to-show-count-of-each-bin-on-histogram-on-the-plot
