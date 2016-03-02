@@ -54,7 +54,7 @@ dev.off()
 [File Downloads (Shiny by RStudio)](http://shiny.rstudio.com/reference/shiny/latest/downloadHandler.html)  
 
 ### 実行環境
-Mac: Office 2016 for Mac
+Mac: Office 2016 for Mac  
 Win: Office 2013
 
 以下、[Shinyのコード](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_shiny/MakeScatter/app.R)

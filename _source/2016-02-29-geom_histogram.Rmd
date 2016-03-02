@@ -1,8 +1,8 @@
 ---
-title: "Excel作図で困ること"
+title: "geom_histogramをより使えるようになるために (ggplot2"
 output: html_document
 layout: post
-tags: lab MSoffice R Shiny
+tags: lab ggplot2 R
 ---
 
 ```{r setup, eval = TRUE, echo = FALSE, message= F}
@@ -39,16 +39,16 @@ opts_chunk$set(eval = TRUE,
                warning =FALSE)
 ```
 
-# ヒストグラムをマスターする
-元ネタはr-wakalangのggplot2チャンネル
+# ggplot2::geom_histogramを使いこなしたい
+元ネタは[r-wakalang](http://qiita.com/uri/items/5583e91bb5301ed5a4ba)のggplot2チャンネル  
+Rの初心者の域を脱していないが、自分にわかる (わかっているつもりになっている) 範囲には答えるようにしている  
+<b>答える → プロが現れる → わかっていなかったことがわかる → ひとり赤面する → 勉強する</b>のループが重要だ (たぶん)
+今回もひとり赤面していたので、ggplot2を再履修する  
 
+### お題
+ggplot2縛りで、ヒストグラムの上に度数のテキストラベルを載せたい  
 
-ggplot2縛りで、
-1. ヒストグラムの上に度数のテキストラベルを載せたい
-2. ヒストグラムの区切りのアルゴリズムを指定したい
-
-
-どうせなので、my log (研究室の出入記録) を可視化する
+どうせなので、こつこつためたマイデータ (研究室への出入などの記録およそ2年分) を可視化する  
 ```{r loadData}
 # データ読み込む
 Timecard <-
@@ -59,31 +59,189 @@ Timecard %>% head
 Timecard %>% str
 ```
 
-記録の付け方が良くないので、少しデータクレンジング
-
+記録の付け方が良くないので、少しデータクレンジング  
+`reshape2::melt`に慣れてしまい、`tidyr::gather`に未だに移行できないでいる  
 ```{r cleansingData}
 InOutLab <-
+  Timecard %>%
+  # {lubridate}あたりでどうにかなりそう、勉強する
+  transmute(arrive = as.numeric(str_sub(Arrive, 1, 2)) + as.numeric(str_sub(Arrive, 4, 5)) / 60,
+            leave = as.numeric(str_sub(Leave, 1, 2)) + as.numeric(str_sub(Leave, 4, 5)) / 60) %>%
+  melt(id.vars = NULL)
+
+InOutLab %>% str
+```
+
+------
+
+## 可視化  
+#### 素直に表示  
+平日は9:00–10:00に研究室入りし、21:00–22:00に研究室を出ることが多い  
+```{r visualize1}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram()
+```
+
+#### 積み上げ表示の解除・透過率の指定  
+```{r visualize2}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(position = "identity", alpha = .5)
+```
+
+#### 度数ラベルの追加  
+`..count..`で、`ggplot2`が内部で計算した結果として持っている度数を取ってくる  
+`..XXX..`はgenerated variables、あるいはcomputed variablesと呼ばれているらしい  
+`stat = "bin"`を指定しているのは、`geom_text`関数のデフォルトでは度数を計算してくれないから  
+[こちら](http://notchained.hatenablog.com/entry/2015/10/11/162819)が詳しくて分かりやすい  
+```{r vosialize3}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(position = "identity", alpha = .5) +
+  geom_text(aes(y = ..count.., label = ..count.., col = variable),
+            stat = "bin")
+```
+
+#### ラベル位置の調節  
+`vjust`で鉛直 (vertical) 方向の位置を調節 (adjust) する  
+```{r vosialize4}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(position = "identity", alpha = .5) +
+  geom_text(aes(y = ..count.., label = ..count.., col = variable),
+            stat = "bin", vjust = -.5)
+```
+
+#### 度数0を非表示  
+度数0の表示が邪魔なので非表示にする  
+`ifelse`関数を使って、`..count.. > 0` なら`..count..`を、それ以外なら空白を返す  
+```{r vosialize_fin}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(position = "identity", alpha = .5) +
+  geom_text(aes(y = ..count.., label = ifelse(..count.. > 0, ..count.., ""), col = variable),
+            stat = "bin", vjust = -.5)
+```
+
+## ひとまず完成  
+
+------
+
+## 凝る
+#### 0で上下に分割  
+`ifelse`関数を使って、`..group.. == 1`(arriveが1、leaveが2) なら`..count..`を、それ以外なら`-1 * ..count..`を返す  
+```{r visualize_plus_minus1}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(aes(y = ifelse(..group.. == 1, ..count.., -1 * ..count..)),
+                 position="identity", alpha = .5)
+```
+
+#### 度数ラベルの追加  
+度数ラベルのy座標にも`ifelse`関数を使って上下に分割  
+```{r visualize_plus_minus2}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(aes(y = ifelse(..group.. == 1, ..count.., -1 * ..count..)),
+                 position="identity", alpha = .5) +
+  geom_text(aes(y = ..count.. * ifelse(..group.. == 1, 1, -1), label = ifelse(..count.. != 0, ..count.., ""), col = variable),
+            stat = "bin", vjust = -.5)
+```
+
+#### ラベル位置の調節
+`vjust`を微調整  
+```{r visualize_plus_minus_fin}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(aes(y = ifelse(..group.. == 1, ..count.., -1 * ..count..)),
+                 position="identity", alpha = .5) +
+  geom_text(aes(y = ..count.. * ifelse(..group.. == 1, 1, -1), label = ifelse(..count.. != 0, ..count.., ""), col = variable, vjust = ifelse(..group.. == 1, -.5, 1.5)),
+            stat = "bin")
+```
+
+## 満足
+3以上の変数がある場合には使えないが、2変数ならデータを捉えやすい  
+
+------
+
+## 補足
+`stat`系は簡単な計算には便利だが速度は遅く、大規模データの可視化では先にready plotな状態にしてから`ggplot2`に渡すのがよいらしい   
+```{r handling_for_hist}
+InOutLab_wideForm <-
   Timecard %>%
   transmute(arrive = as.numeric(str_sub(Arrive, 1, 2)) + as.numeric(str_sub(Arrive, 4, 5)) / 60,
             leave = as.numeric(str_sub(Leave, 1, 2)) + as.numeric(str_sub(Leave, 4, 5)) / 60)
 
-InOutLab %>% head
+x_bins <-
+  InOutLab$value %>%
+  hist %>%
+  .[["breaks"]] %>%
+  stats::filter(., c(1/2, 1/2)) %>%
+  na.omit %>%
+  as.vector
+
+x_counts <-
+  InOutLab$value %>%
+  hist %>%
+  .[["counts"]]
+
+data.frame(x = x_bins, y = x_counts) %>%
+  ggplot(data = ., aes(x = x, y = y)) +
+  geom_bar(stat = "identity", fill = "pink") +
+  geom_text(aes(x = x, y = y + 300, label = sprintf("%2.0f", y)))
 ```
 
-### 本番
-可視化する
-```{r visualize}
+## NG集  
+#### generated variablesは`aes()`の中でしか呼べない  
+```{r NG1, eval = F}
 InOutLab %>%
-  melt(id.vars = NULL) %>%
-  ggplot(aes(x = value)) + 
-  geom_histogram(aes(y = ..count..)) +
-  stat_bin(aes(y=..count.., label=..count..), geom="text", vjust = -.5) +
-  facet_grid(variable ~ .)
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(aes(y = ifelse(..group.. == 1, ..count.., -1 * ..count..)),
+                 position="identity", alpha = .5) +
+  geom_text(aes(y = ..count.. * ifelse(..group.. == 1, 1, -1), label = ifelse(..count.. != 0, ..count.., ""), col = variable),
+            stat = "bin", vjust = ifelse(..group.. == 1, -.5, 1.5))
+
+"Error in ifelse(..group.. == 1, -0.5, 1.5) : object '..group..' not found"
 ```
 
-## ..XXX..
-この`..`は何なのか...
-..density..とか..count..とか
+#### stat_binの謎の挙動  
+[こちらのページ](http://stackoverflow.com/questions/23768546/how-to-show-count-of-each-bin-on-histogram-on-the-plot)で答えられている方法にしたがって、`stat_bin()`内で`geom = "text"`を指定すると、うまくグループ化するとラベルが表示されない  
+```{r NG2}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(position = "identity", alpha = .5) +
+  stat_bin(aes(group = variable, y = ..count.., label = ..count.., col = variable), geom = "text", vjust = -.5)
+```
+`stat_bin()`では、`geom_histogram()`で指定した`position = "identity`を引き継いでおらず、積み上げ型の表示になる  
+`stat_bin()`内でも`position = "identity`を指定する必要がある  
+冗長になるので、`geom_text(stat = "bin")`の方がよさそう？  
+わかった風になっていたがわかっていなかったので、キチンと`stat`と`geom`の使い分けを勉強する必要がある  
+[check!](http://www.slideshare.net/yutannihilation/ggplot2-53851875)  
+```{r NG2_OK}
+InOutLab %>%
+  ggplot(aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(position = "identity", alpha = .5) +
+  stat_bin(aes(group = variable, y = ..count.., label = ..count.., col = variable), position = "identity", geom = "text", vjust = -.5)
 
-http://notchained.hatenablog.com/entry/2015/10/11/162819
-http://stackoverflow.com/questions/23768546/how-to-show-count-of-each-bin-on-histogram-on-the-plot
+# 参照用:
+#  上で示したgeom_textを使った場合
+#  geom_text()ではposition = "identity"を指定しなくてもOK 
+#
+# InOutLab %>%
+#   ggplot(aes(x = value, fill = variable, group = variable)) + 
+#   geom_histogram(position = "identity", alpha = .5) +
+#   geom_text(aes(y = ..count.., label = ..count.., col = variable),
+#             stat = "bin", vjust = -.5)
+```
+
+#### 参考ページ  
+[r-wakalangへようこそ (uriさん@Qiita)](http://qiita.com/uri/items/5583e91bb5301ed5a4ba)  
+[ggplot2のgenerated variables（..変数名..）の使い方 (Technically, technophobic.@Hatena::Diary)](http://notchained.hatenablog.com/entry/2015/10/11/162819)  
+[ggplot2で指定できるgenerated variableの一覧 (Technically, technophobic.@Hatena::Diary)](http://notchained.hatenablog.com/entry/2015/06/27/215316)  
+[How to show count of each bin on histogram on the plot (Stack Overflow)](http://stackoverflow.com/questions/23768546/how-to-show-count-of-each-bin-on-histogram-on-the-plot)  
+[ggplot2再入門 (yutannihilationさん@SlideShare)](http://www.slideshare.net/yutannihilation/ggplot2-53851875)  
+
+```{r info}
+session_info()
+```
