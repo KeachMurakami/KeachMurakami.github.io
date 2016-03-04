@@ -1,5 +1,5 @@
 ---
-title: "geom_histogramをより使えるようになるために (ggplot2"
+title: "ggplot2を再履修する"
 output: html_document
 layout: post
 tags: lab ggplot2 R
@@ -39,7 +39,7 @@ opts_chunk$set(eval = TRUE,
                warning =FALSE)
 ```
 
-# ggplot2::geom_histogramを使いこなしたい
+# ggplot2を使いこなしたい
 元ネタは[r-wakalang](http://qiita.com/uri/items/5583e91bb5301ed5a4ba)のggplot2チャンネル  
 Rの初心者の域を脱していないが、自分にわかる (わかっているつもりになっている) 範囲には答えるようにしている  
 <b>答える → プロが現れる → わかっていなかったことがわかる → ひとり赤面する → 勉強する</b>のループが重要だ (たぶん)
@@ -104,7 +104,7 @@ InOutLab %>%
 ```
 
 #### ラベル位置の調節  
-`vjust`で鉛直 (vertical) 方向の位置を調節 (adjust) する  
+`vjust`で鉛直 (<b>v</b>ertical) 方向の位置を調節 (ad<b>just</b>) する  
 ```{r vosialize4}
 InOutLab %>%
   ggplot(aes(x = value, fill = variable, group = variable)) + 
@@ -129,6 +129,7 @@ InOutLab %>%
 ------
 
 ## 凝る
+
 #### 0で上下に分割  
 `ifelse`関数を使って、`..group.. == 1`(arriveが1、leaveが2) なら`..count..`を、それ以外なら`-1 * ..count..`を返す  
 ```{r visualize_plus_minus1}
@@ -166,33 +167,38 @@ InOutLab %>%
 ------
 
 ## 補足
-`stat`系は簡単な計算には便利だが速度は遅く、大規模データの可視化では先にready plotな状態にしてから`ggplot2`に渡すのがよいらしい   
+`stat`系は簡単な計算には便利だが速度は遅いため、大規模データの可視化では先にready plotな状態にしてから`ggplot2`に渡した方がよいらしい   
 ```{r handling_for_hist}
-InOutLab_wideForm <-
-  Timecard %>%
-  transmute(arrive = as.numeric(str_sub(Arrive, 1, 2)) + as.numeric(str_sub(Arrive, 4, 5)) / 60,
-            leave = as.numeric(str_sub(Leave, 1, 2)) + as.numeric(str_sub(Leave, 4, 5)) / 60)
+hist_ <-
+  function(vec, algorithm = "Sturges"){
+    x_bins <-
+      vec %>%
+        hist(., breaks = algorithm, plot = FALSE) %>%
+        .[["breaks"]] %>%
+        stats::filter(., c(1/2, 1/2)) %>%
+        na.omit %>%
+        as.vector
+    
+    x_counts <-
+      vec %>%
+        hist(., breaks = algorithm, plot = FALSE) %>%
+        .[["counts"]]
+    
+    data.frame(bins = x_bins, freqs = x_counts) %>%
+      return
+  }
 
-x_bins <-
-  InOutLab$value %>%
-  hist %>%
-  .[["breaks"]] %>%
-  stats::filter(., c(1/2, 1/2)) %>%
-  na.omit %>%
-  as.vector
-
-x_counts <-
-  InOutLab$value %>%
-  hist %>%
-  .[["counts"]]
-
-data.frame(x = x_bins, y = x_counts) %>%
-  ggplot(data = ., aes(x = x, y = y)) +
-  geom_bar(stat = "identity", fill = "pink") +
-  geom_text(aes(x = x, y = y + 300, label = sprintf("%2.0f", y)))
+InOutLab %>%
+  group_by(variable) %>% # groupごとにbinwidthが違うことがありえる仕様になっている
+  do(.$value %>% hist_ %>% return) %>%
+  ggplot(aes(x = bins, y = freqs, col = variable, fill = variable)) +
+  geom_bar(stat = "identity", position = "identity", alpha = .5) +
+  geom_text(aes(label = freqs), vjust = -.5)
 ```
 
+
 ## NG集  
+
 #### generated variablesは`aes()`の中でしか呼べない  
 ```{r NG1, eval = F}
 InOutLab %>%
@@ -205,7 +211,7 @@ InOutLab %>%
 "Error in ifelse(..group.. == 1, -0.5, 1.5) : object '..group..' not found"
 ```
 
-#### stat_binの謎の挙動  
+#### stat_bin(stat = "text")とgeom_text(stat = "bin")の違い  
 [こちらのページ](http://stackoverflow.com/questions/23768546/how-to-show-count-of-each-bin-on-histogram-on-the-plot)で答えられている方法にしたがって、`stat_bin()`内で`geom = "text"`を指定すると、うまくグループ化するとラベルが表示されない  
 ```{r NG2}
 InOutLab %>%
@@ -213,8 +219,9 @@ InOutLab %>%
   geom_histogram(position = "identity", alpha = .5) +
   stat_bin(aes(group = variable, y = ..count.., label = ..count.., col = variable), geom = "text", vjust = -.5)
 ```
-`stat_bin()`では、`geom_histogram()`で指定した`position = "identity`を引き継いでおらず、積み上げ型の表示になる  
-`stat_bin()`内でも`position = "identity`を指定する必要がある  
+
+`stat_bin()`では、`geom_histogram()`で指定した`position = "identity"`を引き継いでおらず、ラベルの表示位置が積み上げ型の場合の表示位置になる  
+これを修正するためには、`stat_bin()`内でも`position = "identity"`を指定する必要がある  
 冗長になるので、`geom_text(stat = "bin")`の方がよさそう？  
 わかった風になっていたがわかっていなかったので、キチンと`stat`と`geom`の使い分けを勉強する必要がある  
 [check!](http://www.slideshare.net/yutannihilation/ggplot2-53851875)  
