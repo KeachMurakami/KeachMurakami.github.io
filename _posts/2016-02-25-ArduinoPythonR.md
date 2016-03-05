@@ -1,5 +1,5 @@
 ---
-title: "Arduinoを測器に (Arduino, Python"
+title: "Arduinoを測器に (Python"
 output: html_document
 layout: post
 categories: Python R Arduino
@@ -8,29 +8,26 @@ tags: Arduino lab Python R
 
 
 
-# Arduinoとフォトダイオードで光の強さ (PFD) を測定する簡易測器を作る with Python
-
+# Arduinoとフォトダイオードで光の強さ (PFD) を測定する簡易測器を作る with Python  
 小さな容器の中の温度・湿度・光環境などを測定したい場合には、市販の測器だと大きすぎてうまく測定できない場合がある  
 操作性の悪い測器を使うのが面倒な場合もある  
 こういうとき、[Arduino](https://www.arduino.cc/)という小型マイコンと各種センサを使えば簡易な測定可能な場合がある  
-
 もっぱらセンサとしてフォトダイオードを使って、可視外の光の強さ (PFD) の測定に使用している  
 フォトダイオードは１つ数百円程度、波長選択性が高いなど、なかなか便利  
-光の強さに応じて出力電流が変わるので適当な抵抗をかませて電圧をとる
+光の強さに応じて出力電流が変わるので適当な抵抗をかませて電圧をとる  
 
-### Arduinoでシリアル通信
+### Arduinoでシリアル通信  
 Arduinoのマイコン上にコードを載せて操作するのが一般的な使用法  
 この場合、言語がC/C++ライクなものになる (ちょっとやったけどしんどかった)  
-即座に逃げた  
+すぐに逃げた  
 
 ### Rでシリアル通信  
 [こちら](http://d.hatena.ne.jp/dichika/20150611/p1)のサイトなどをみた  
 ぱっとみ難しい  
-ちょっと迷って逃げた
+ちょっと迷って逃げた  
 
-### Pythonでシリアル通信
+### Pythonでシリアル通信  
 `pyserial`というモジュールでいけそう  
-
 
 ```python
 import csv
@@ -51,7 +48,7 @@ print("csv wrote")
 Arduinoからserialポートへ流れてくる値を100文字読み込み、ArduinoRead.csvというファイルに書き込む  
 ArduinoをUSBポートに挿して、`py Write_Python.py`でおしまい  
 
-### Rで可視化
+### Rで可視化  
 データを可視化する  
 
 ```r
@@ -106,11 +103,54 @@ Ard_graph(InputType = "X") # InputType: Temperature, Weight... (calibrated befor
 
 ![plot of chunk Read_R](/figure/source/2016-02-25-ArduinoPythonR/Read_R-1.png) 
 
-### RからPythonを動かしたい
+### RからPythonを動かしたい  
 "PythonでRを動かす"系は多いが逆は少ない  
 コンパイルなる作業が必要な言語はどうしても避けてしまう  
 
 ### 参考ページ
 [Arduino](https://www.arduino.cc/)  
 [pyserial](https://pypi.python.org/pypi/pyserial)  
-[シリアル通信用のパッケージ作りてえ (盆栽日記@Hatena::Diary)](http://d.hatena.ne.jp/dichika/20150611/p1)
+[シリアル通信用のパッケージ作りてえ (盆栽日記@Hatena::Diary)](http://d.hatena.ne.jp/dichika/20150611/p1)  
+
+
+```r
+session_info()
+```
+
+```
+##  setting  value                       
+##  version  R version 3.2.3 (2015-12-10)
+##  system   x86_64, darwin14.5.0        
+##  ui       X11                         
+##  language (EN)                        
+##  collate  en_US.UTF-8                 
+##  tz       Asia/Tokyo                  
+##  date     2016-03-05                  
+## 
+##  package    * version date       source        
+##  assertthat   0.1     2013-12-06 CRAN (R 3.1.0)
+##  chron        2.3-47  2015-06-24 CRAN (R 3.1.3)
+##  colorspace   1.2-6   2015-03-11 CRAN (R 3.1.3)
+##  data.table * 1.9.6   2015-09-19 CRAN (R 3.1.3)
+##  DBI          0.3.1   2014-09-24 CRAN (R 3.1.1)
+##  devtools   * 1.9.1   2015-09-11 CRAN (R 3.2.0)
+##  digest       0.6.8   2014-12-31 CRAN (R 3.1.2)
+##  dplyr      * 0.4.3   2015-09-01 CRAN (R 3.1.3)
+##  evaluate     0.8     2015-09-18 CRAN (R 3.1.3)
+##  formatR      1.2.1   2015-09-18 CRAN (R 3.1.3)
+##  ggplot2    * 2.0.0   2015-12-18 CRAN (R 3.2.3)
+##  gtable       0.1.2   2012-12-05 CRAN (R 3.1.0)
+##  knitr      * 1.11    2015-08-14 CRAN (R 3.2.3)
+##  labeling     0.3     2014-08-23 CRAN (R 3.1.1)
+##  lazyeval     0.1.10  2015-01-02 CRAN (R 3.1.2)
+##  magrittr   * 1.5     2014-11-22 CRAN (R 3.1.2)
+##  memoise      0.2.1   2014-04-22 CRAN (R 3.1.0)
+##  munsell      0.4.2   2013-07-11 CRAN (R 3.1.0)
+##  plyr       * 1.8.3   2015-06-12 CRAN (R 3.1.3)
+##  R6           2.1.1   2015-08-19 CRAN (R 3.1.3)
+##  Rcpp         0.12.2  2015-11-15 CRAN (R 3.1.3)
+##  scales       0.3.0   2015-08-25 CRAN (R 3.1.3)
+##  stringi      1.0-1   2015-10-22 CRAN (R 3.1.3)
+##  stringr    * 1.0.0   2015-04-30 CRAN (R 3.1.3)
+##  tidyr      * 0.3.1   2015-09-10 CRAN (R 3.2.0)
+```

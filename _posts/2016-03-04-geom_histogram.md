@@ -10,12 +10,11 @@ tags: lab ggplot2 R
 # ggplot2を使いこなしたい
 元ネタは[r-wakalang](http://qiita.com/uri/items/5583e91bb5301ed5a4ba)のggplot2チャンネル  
 Rの初心者の域を脱していないが、自分にわかる (わかっているつもりになっている) 範囲には答えるようにしている  
-<b>答える → プロが現れる → わかっていなかったことがわかる → ひとり赤面する → 勉強する</b>のループが重要だ (たぶん)
+<b>答える → プロが現れる → わかっていなかったことがわかる → ひとり赤面する → 勉強する</b>のループが重要だ (たぶん)  
 今回もひとり赤面していたので、ggplot2を再履修する  
 
-### お題
+### お題  
 ggplot2縛りで、ヒストグラムの上に度数のテキストラベルを載せたい  
-
 どうせなので、こつこつためたマイデータ (研究室への出入などの記録およそ2年分) を可視化する  
 
 ```r
@@ -42,7 +41,7 @@ Timecard %>% str
 ```
 
 ```
-## Classes 'data.table' and 'data.frame':	553 obs. of  6 variables:
+## Classes 'data.table' and 'data.frame':	554 obs. of  6 variables:
 ##  $ day   : chr  "8/30/14" "8/31/14" "9/1/14" "9/2/14" ...
 ##  $ week  : chr  "Sat" "Sun" "Mon" "Tue" ...
 ##  $ Arrive: chr  "13:30" "14:30" "09:59" "09:56" ...
@@ -67,7 +66,7 @@ InOutLab %>% str
 ```
 
 ```
-## Classes 'data.table' and 'data.frame':	1106 obs. of  2 variables:
+## Classes 'data.table' and 'data.frame':	1108 obs. of  2 variables:
 ##  $ variable: Factor w/ 2 levels "arrive","leave": 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ value   : num  13.5 14.5 9.98 9.93 9.97 ...
 ##  - attr(*, ".internal.selfref")=<externalptr>
@@ -101,7 +100,7 @@ InOutLab %>%
 `..count..`で、`ggplot2`が内部で計算した結果として持っている度数を取ってくる  
 `..XXX..`はgenerated variables、あるいはcomputed variablesと呼ばれているらしい  
 `stat = "bin"`を指定しているのは、`geom_text`関数のデフォルトでは度数を計算してくれないから  
-[こちら](http://notchained.hatenablog.com/entry/2015/10/11/162819)が詳しくて分かりやすい  
+[こちら](http://notchained.hatenablog.com/entry/2015/10/11/162819)が詳しくて分かりやすかった  
 
 ```r
 InOutLab %>%
@@ -144,8 +143,7 @@ InOutLab %>%
 
 ------
 
-## 凝る
-
+## 凝る  
 #### 0で上下に分割  
 `ifelse`関数を使って、`..group.. == 1`(arriveが1、leaveが2) なら`..count..`を、それ以外なら`-1 * ..count..`を返す  
 
@@ -172,7 +170,7 @@ InOutLab %>%
 
 ![plot of chunk visualize_plus_minus2](/figure/source/2016-03-04-geom_histogram/visualize_plus_minus2-1.png) 
 
-#### ラベル位置の調節
+#### ラベル位置の調節  
 `vjust`を微調整  
 
 ```r
@@ -186,12 +184,12 @@ InOutLab %>%
 
 ![plot of chunk visualize_plus_minus_fin](/figure/source/2016-03-04-geom_histogram/visualize_plus_minus_fin-1.png) 
 
-## 満足
+## 満足  
 3以上の変数がある場合には使えないが、2変数ならデータを捉えやすい  
 
 ------
 
-## 補足
+## 補足  
 `stat`系は簡単な計算には便利だが速度は遅いため、大規模データの可視化では先にready plotな状態にしてから`ggplot2`に渡した方がよいらしい   
 
 ```r
@@ -224,9 +222,9 @@ InOutLab %>%
 
 ![plot of chunk handling_for_hist](/figure/source/2016-03-04-geom_histogram/handling_for_hist-1.png) 
 
+----
 
 ## NG集  
-
 #### generated variablesは`aes()`の中でしか呼べない  
 
 ```r
@@ -240,7 +238,7 @@ InOutLab %>%
 "Error in ifelse(..group.. == 1, -0.5, 1.5) : object '..group..' not found"
 ```
 
-#### stat_bin(stat = "text")とgeom_text(stat = "bin")の違い  
+#### stat_bin(stat = "text") とgeom_text(stat = "bin") の違い  
 [こちらのページ](http://stackoverflow.com/questions/23768546/how-to-show-count-of-each-bin-on-histogram-on-the-plot)で答えられている方法にしたがって、`stat_bin()`内で`geom = "text"`を指定すると、うまくグループ化するとラベルが表示されない  
 
 ```r
@@ -299,7 +297,7 @@ session_info()
 ##  language (EN)                        
 ##  collate  en_US.UTF-8                 
 ##  tz       Asia/Tokyo                  
-##  date     2016-03-04                  
+##  date     2016-03-05                  
 ## 
 ##  package      * version    date       source                          
 ##  agricolae    * 1.2-3      2015-10-06 CRAN (R 3.1.3)                  

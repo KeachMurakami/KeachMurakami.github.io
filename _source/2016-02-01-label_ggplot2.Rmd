@@ -43,7 +43,6 @@ opts_chunk$set(eval = TRUE,
 
 研究生活では、図を書くことが多い  
 例えば以下のような図  
-
 ```{r Example}
 plot1 <-
   data_frame(x = seq(from = 0, to = 100, length.out = 500), y = log(x) + rnorm(500, 0, 0.1)) %>%
@@ -55,18 +54,15 @@ plot1 +
   xlab(expression(paste("Light intensity ["  * mu * "mol" ~ m^-2 ~ s^-1 * "]"))) +
   ylab(expression(paste("Net photosynthetic rate [" * mu * "mol" ~ m^-2 ~ s^-1 * "]")))
 ```
-  
+
 光の強さに応じて、葉の光合成速度が大きくなるなど  
 似たような単位で似たような図をたくさん書く  
-
 単位によく現れるギリシャ文字、上・下付き、イタリックといった書式を  
-サポートするのは、expression関数だ  
-
-この関数の書体の指定はword使いの僕にはしんどい  
+サポートするのは、`expression`関数だ  
+毎度`expression(paste("Light intensity ["  * mu * "mol" ~ m^-2 ~ s^-1 * "]"))`なんて書くのは大変だし、`expression(paste("Net photosynthetic rate ["  * mu * "mol" ~ m^-2 ~ s^-1 * "]"))`に変えるときにコピペするのもキレイではない  
 なので、軸のテキスト部分を変数化して楽をしようとした   
 
-
-#### しかし、expression関数の中では文字列を評価してくれない
+#### expression関数の中では文字列を評価してくれない  
 ```{r NG1}
 labeler1 <- function(text){
   expression(paste(text ~ "["  * mu * "mol" ~ m^-2 ~ s^-1 * "]"))
@@ -82,7 +78,7 @@ paste(text, "[", mu, "g", m^-2, "]") %>% expression
 遅延評価 (lazy evaluation)、変数の作る環境あたりが原因だということはわかった  
 
 ## どうすればいいのか  
-`base::bquote()`でいけた
+`base::bquote()`でいけた  
 ```{r OK}
 labeler2 <- function(text){
   bquote(.(text) ~ "["  * mu * "mol" ~ m^-2 ~ s^-1 * "]")
@@ -90,10 +86,9 @@ labeler2 <- function(text){
 plot1 + xlab(labeler2("Light intensity")) + ylab(labeler2("Net photosynthetic rate"))   
 ```
 
-
-bquote内では、.(変数)とすることで、変数を受け取ることができる  
-それ以外は概ねexpressionと同じ使い方  
-文字間を詰める場合は*で、スペースを開ける場合には~で結合  
+`bquote()`内では、`.(変数)`とすることで、変数を受け取ることができる  
+それ以外は`expression`と同じ使い方  
+文字間を詰める場合は`*`で、スペースを開ける場合には`~`で結合  
 ```{r bquoteExamples}
 plot(0, 0, type = "n", xlim = c(0, 1), ylim = c(0, 4), xlab = "", ylab = "")
 
@@ -105,7 +100,7 @@ text(.5, 2, labels = bquote(.(moji[2]) ~ "[" ~ mu ~ "g" ~ m^-2 ~ "]"), cex = 2)
 text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 2)
 ```
 
-## 以下、[bquote](https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html)の使い方の曖昧和訳  
+## [bquote](https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html)の使い方の曖昧和訳  
 > ### bquote {base}  
 > expression関数に部分的に変数をいれる  
 > 
@@ -120,16 +115,14 @@ text(.5, 1, labels = bquote(.(moji[3]) ~ "[" ~~ mu ~~ "g" ~ m^-2 ~~ "]"), cex = 
 > expr: 言語オブジェクト (name, call, expression)
 > where: 言語オブジェクトを評価する環境
 
-
-## expression関数で同じことできないの？
+## expression関数で同じことできないのか  
 要勉強  
 [言語オブジェクト](http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583)と環境のあたりをもう少し理解できればうまく行く気がする  
-
 
 ### 参考
 [bquote (R Documentation)](https://stat.ethz.ch/R-manual/R-devel/library/base/html/bquote.html)  
 [言語オブジェクト (どんな鳥も@Hatena::Diary)](http://d.hatena.ne.jp/tsutatsutatsuta/20120114/1326542583)
 
 ```{r informations}
-sessionInfo()
+session_info()
 ```

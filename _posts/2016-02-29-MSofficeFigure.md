@@ -12,23 +12,22 @@ tags: lab MSoffice R Shiny
 Excel+Powerpointでもそこそこ頑張れる  
 キレイに作図したいときはExcel上で図をコピーして、Powerpointに拡張メタファイル (.emf) 形式で貼付け (Winでは`Alt+E → S`)、グループ化を解除すれば、要素に分解して微調整ができる   
 が、こんなことが起こる  
-
-![sine_noise](/figure/source/2016-02-29-MSofficeFigure/sine_noise.svg)
-
+![sine_noise](/figure/source/2016-02-29-MSofficeFigure/sine_noise.svg)  
 線の折り返し部分が妙な感じになる  
 この原因は、Excel上で作られた線が枠+内部の2つの情報を持っていること  
 どうやらExcelでの作図では、すべてのオブジェクトがこのような袋構造になるようで、いかんともしがたい  
 少なくともExcel2003までは、Excel上で表示される線には線の情報しかなかったので、このようなことは起こらなかった  
-  
+
+<br>
+
 この描画問題で困っている人がいた    
 Rに限らず、全員がなんらかのソフトで作図できるようになればいいがそうもいかない  
 個々人に教えるのはあまりにも大変なので、どうにかしたい  
-
 ということで、Shinyで[データからpdf画像を作成するアプリ](https://keachmurakami.shinyapps.io/Scatter/)を作った  
 emfで出力しても、Shiny越しだとpowerpoint上で分解できる形式にならなかったのでpdfで妥協  
 [ここ](http://d.hatena.ne.jp/hoxo_m/20121228/p1)でも触れられているように、最近はなんでもRでやろうとするからダメ  
 
-## 使い方
+## 使い方  
 csvファイルをアップロードし、downloadボタンを押すとpdf画像が保存できる  
 アップロードしたcsvファイルの第1カラムが横軸、以降のカラムが縦軸に表示される  
 とりあえず散布図にだけ対応  
@@ -48,16 +47,16 @@ dev.off()
 
 「ハイクオリティな図が作りたいけど、そういうソフトを使うのは難しそうだし、ちょっと...。でもドローソフトは使えます！」なんていう人はかなりレアなので、出番はなさそう  
 
-### 参考ページ
+### 参考ページ  
 [Scatter (keachmurakami@shinyapps.io)](https://keachmurakami.shinyapps.io/Scatter/)  
 [RStudio Shiny TIPS (ほくそ笑む@Hatena::Diary)](http://d.hatena.ne.jp/hoxo_m/20121228/p1)  
 [File Downloads (Shiny by RStudio)](http://shiny.rstudio.com/reference/shiny/latest/downloadHandler.html)  
 
-### 実行環境
+### 実行環境  
 Mac: Office 2016 for Mac  
-Win: Office 2013
+Win: Office 2013  
 
-以下、[Shinyのコード](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_shiny/MakeScatter/app.R)
+以下、[Shinyのコード](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_shiny/MakeScatter/app.R)  
 
 ```r
 library(shiny)

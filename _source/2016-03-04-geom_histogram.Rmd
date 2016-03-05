@@ -42,12 +42,11 @@ opts_chunk$set(eval = TRUE,
 # ggplot2を使いこなしたい
 元ネタは[r-wakalang](http://qiita.com/uri/items/5583e91bb5301ed5a4ba)のggplot2チャンネル  
 Rの初心者の域を脱していないが、自分にわかる (わかっているつもりになっている) 範囲には答えるようにしている  
-<b>答える → プロが現れる → わかっていなかったことがわかる → ひとり赤面する → 勉強する</b>のループが重要だ (たぶん)
+<b>答える → プロが現れる → わかっていなかったことがわかる → ひとり赤面する → 勉強する</b>のループが重要だ (たぶん)  
 今回もひとり赤面していたので、ggplot2を再履修する  
 
-### お題
+### お題  
 ggplot2縛りで、ヒストグラムの上に度数のテキストラベルを載せたい  
-
 どうせなので、こつこつためたマイデータ (研究室への出入などの記録およそ2年分) を可視化する  
 ```{r loadData}
 # データ読み込む
@@ -94,7 +93,7 @@ InOutLab %>%
 `..count..`で、`ggplot2`が内部で計算した結果として持っている度数を取ってくる  
 `..XXX..`はgenerated variables、あるいはcomputed variablesと呼ばれているらしい  
 `stat = "bin"`を指定しているのは、`geom_text`関数のデフォルトでは度数を計算してくれないから  
-[こちら](http://notchained.hatenablog.com/entry/2015/10/11/162819)が詳しくて分かりやすい  
+[こちら](http://notchained.hatenablog.com/entry/2015/10/11/162819)が詳しくて分かりやすかった  
 ```{r vosialize3}
 InOutLab %>%
   ggplot(aes(x = value, fill = variable, group = variable)) + 
@@ -128,8 +127,7 @@ InOutLab %>%
 
 ------
 
-## 凝る
-
+## 凝る  
 #### 0で上下に分割  
 `ifelse`関数を使って、`..group.. == 1`(arriveが1、leaveが2) なら`..count..`を、それ以外なら`-1 * ..count..`を返す  
 ```{r visualize_plus_minus1}
@@ -150,7 +148,7 @@ InOutLab %>%
             stat = "bin", vjust = -.5)
 ```
 
-#### ラベル位置の調節
+#### ラベル位置の調節  
 `vjust`を微調整  
 ```{r visualize_plus_minus_fin}
 InOutLab %>%
@@ -161,12 +159,12 @@ InOutLab %>%
             stat = "bin")
 ```
 
-## 満足
+## 満足  
 3以上の変数がある場合には使えないが、2変数ならデータを捉えやすい  
 
 ------
 
-## 補足
+## 補足  
 `stat`系は簡単な計算には便利だが速度は遅いため、大規模データの可視化では先にready plotな状態にしてから`ggplot2`に渡した方がよいらしい   
 ```{r handling_for_hist}
 hist_ <-
@@ -196,9 +194,9 @@ InOutLab %>%
   geom_text(aes(label = freqs), vjust = -.5)
 ```
 
+----
 
 ## NG集  
-
 #### generated variablesは`aes()`の中でしか呼べない  
 ```{r NG1, eval = F}
 InOutLab %>%
@@ -211,7 +209,7 @@ InOutLab %>%
 "Error in ifelse(..group.. == 1, -0.5, 1.5) : object '..group..' not found"
 ```
 
-#### stat_bin(stat = "text")とgeom_text(stat = "bin")の違い  
+#### stat_bin(stat = "text") とgeom_text(stat = "bin") の違い  
 [こちらのページ](http://stackoverflow.com/questions/23768546/how-to-show-count-of-each-bin-on-histogram-on-the-plot)で答えられている方法にしたがって、`stat_bin()`内で`geom = "text"`を指定すると、うまくグループ化するとラベルが表示されない  
 ```{r NG2}
 InOutLab %>%

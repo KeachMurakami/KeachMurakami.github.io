@@ -47,38 +47,39 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 [**蛇口を捻れば水が出る**](https://github.com/dichika/jaguchi)かのように、簡単に栽培環境の情報をとってきたい  
 
 
-## Introduction
-現所属研究室では、植物を栽培条件下での温度をはじめとした、いくつかの環境要素 (以下、ログ) を計測している  
+## 背景  
+現所属研究室では、植物を栽培する条件下での、温度などの環境要素を記録している  
 毎年、研究室の新入生がログをまとめるのに、多大な時間を浪費しているような気がしている  
-データの扱いを覚える機会としては悪くはないが、自分の研究について考えるプロセスにもう少し時間を割いた方がいいようにも思える  
+データの扱いを覚える機会としては悪くはないが、それだけで時間を使いすぎては意味がない    
+なので、栽培環境情報をさくっとまとめるR用関数を作成した  
 
-なので、これらのデータをさくっとまとめるR用関数を作成した  
-
-
-## Overview
-
-日常的な栽培時に記録している環境要素とその測器は以下の通り  
+## 概要  
+日常的に記録している環境要素とその測器は以下の通り  
 温度: [**midiLOGGERシリーズ, GRAPHTECH**](http://www.graphtec.co.jp/site_instrument/instrument/gl220/) + 熱電対  
-相対湿度・CO<sub>2</sub>濃度: [**MCH383-SD, 佐藤商事**](http://www.ureruzo.com/gas/CO2mch.htm)
+相対湿度・CO<sub>2</sub>濃度: [**MCH383-SD, 佐藤商事**](http://www.ureruzo.com/gas/CO2mch.htm)  
+RHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、栽培に問題 (湿度が異常に低いなど) がなかったことを確認すること が主目的  
 
-RHとCO<sub>2</sub>濃度の測定精度はさほど高くないので、栽培に問題がなかったことを確認することが主目的  
-
-readGL()、readMCH()関数に情報を与えて結果を受け取る  
-
-```{r}
-# readXX(ロガーのID+チャンネル, まとめてほしい日時の範囲, 他引数)
+## 関数の機能  
+`readGL()`、`readMCH()`関数に情報を与えて結果を受け取る  
+```{r eval = F}
+readMCH(ID, # ロガーのID
+       StartDay, EndDay, StartTime, EndTime, # まとめたい日時の範囲
+       ONtime, OFFtime, # 昼 (明期)、夜 (暗期) の開始時間
+       LogPath) # ログを蓄積しているフォルダのパス
+readGL(ID, ch, # ロガーのID, チャンネル
+       StartDay, EndDay, StartTime, EndTime, # まとめたい日時の範囲
+       ONtime, OFFtime, # 昼 (明期)、夜 (暗期) の開始時間
+       LogPath) # ログを蓄積しているフォルダのパス 
 ```
 
-## 出力
 以下の内容を含むリストを返す  
+1. $Raw: 生の出力値
+2. $Hourly: 1時間の平均値と標準偏差 (昼夜別)  
+3. $Daily: 1日の平均値と標準偏差 (昼夜別)  
+4. $Span: 指定した期間の平均値と標準偏差 (昼夜別)  
+5. $inputs: `readXXX`関数への入力値
 
-1. $Raw: 生値
-2. $Hourly: 1時間の平均値 (昼夜別)  
-3. $Daily: 1日の平均値 (昼夜別)  
-4. $Span: 指定した期間の平均値 (昼夜別)  
-5. $inputs: 入力値
-
-### 例1
+#### 例1  
 対象: Graphtec (ID B) のch. 3  
 期間: 2015年5月1日15:00から2015年5月15日13:00  
 明期暗期: 7:00から明期、23:00から暗期  
@@ -90,8 +91,7 @@ example1 <-
 example1
 ```
 
-
-### 例2
+#### 例2  
 対象: MCH (ID 3)  
 期間: 2015年5月25日15:00から2015年5月28日13:00  
 明期暗期: 7:00から明期、23:00から暗期  
@@ -103,8 +103,7 @@ example2 <-
 example2
 ```
 
-
-### 例3
+#### 例3  
 例1・例2からグラフ化  
 ```{r demo3}
 # 気温の1時間平均経時データ  
@@ -123,10 +122,10 @@ example2$Raw %>%
   geom_histogram(alpha = .3, position = "identity", col = "grey")
 ```
 
-## How to use  
-
+## 使い方  
+#### R側の準備  
 技術不足ゆえにパッケージ化はできない  
-テキストとして読み込むため、以下をコンソールにコピペ→実行  
+以下をRのコンソールにコピペ→実行  
 ```{r sources}
 # RCurlパッケージがいるので、インストールされていない場合にインストール
 if(class(try(library(RCurl), silent = T)) == "try-error") install.packages("RCurl")
@@ -136,42 +135,41 @@ eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami
 eval(parse(text = RCurl::getURL("https://raw.githubusercontent.com/KeachMurakami/Sources/master/MCH.R", ssl.verifypeer = FALSE)))
 ```
 
-### PC側の設定
-ファイルをread関数に読み込ませるため、ログを一箇所にまとめる  
-
+#### PC側の準備  
+ファイルを`readXXX`関数に読み込ませるため、ログを一箇所にまとめる  
 実験ごとにフォルダを作ってその中に保存という形式はオススメできない   
 <b>実験が増えるとフォルダ構造がカオス化し、管理が難しくなることが理由</b>  
 
-GL用・MCH用の親フォルダをそれぞれ作り、その中にログを蓄積する  
-![plot of chunk demo4](/figure/source/2016-01-31-log_environment/fig4.svg)
-
-
-この親フォルダのパスをreadXX関数の引数 (LogPath) に与える  
+元データは図のように一元管理する  
+![plot of chunk demo4](/figure/source/2016-01-31-log_environment/fig4.svg)  
+MCH用・GL用の親フォルダをそれぞれ作り、その中にログを蓄積する  
+必要に応じて`readXXX`関数を使って、元データをまとめてレポートを作成することが望ましい  
+この親フォルダのパスを`readXX`関数の引数 (LogPath) に与える  
+上の図でいうと、`readMCH`では`LogPath = "~/MCH_log`、`readGL`では`LogPath = "~/GL_log"`と指定する  
 親フォルダの中には以下が含まれる  
 
 1. 校正係数を載せたファイル (CalbXXX.csv)  
 ```{r dir1}
 # 独立変数に真値、従属変数に各プローブの表示値を
 # プロットした校正直線の回帰係数
-data.table::fread("~/Dropbox/GL_log/CalbGL.csv") %>% head
 data.table::fread("~/Dropbox/MCH_log/CalbMCH.csv") %>% head
-```
-2. ロガーのIDごとの子フォルダ (YYMMDD)  
-```{r dir2}
-dir("~/Dropbox/GL_log/")
-dir("~/Dropbox/MCH_log/")
-```
-子フォルダの中には収録開始日を名前としたフォルダを作り、ログを蓄積する  
-```{r dir3}
-dir("~/Dropbox/GL_log/A")
-dir("~/Dropbox/MCH_log/No03")
+data.table::fread("~/Dropbox/GL_log/CalbGL.csv") %>% head
 ```
 
-### データの保存について  
-Graphtecの場合  
-収録開始とともに、その日 (YYMMDD形式, 2015年12月31日なら151231) の名前でフォルダが生成され、その中に.CSVが作成される  
-なのでGraphtec用USB内のフォルダをそのままコピペすればOK  
-  
+2. ロガーのIDを名前にした子フォルダ   
+```{r dir2}
+dir("~/Dropbox/MCH_log/")
+dir("~/Dropbox/GL_log/")
+```
+
+子フォルダの中  
+```{r dir3}
+# 収録開始日 (YYMMDD) を名前にしたフォルダを作り、ログを蓄積する  
+dir("~/Dropbox/MCH_log/No03")
+dir("~/Dropbox/GL_log/A")
+```
+
+#### ロガーからのデータの吸い上げについて  
 MCHの場合  
 .XLSファイルに上書きを繰り返すのでやや面倒  
 一回の測定が終わったら、SDカードから.XLSを吸い上げる 
@@ -179,14 +177,18 @@ PC側に測定開始日 (YYMMDD形式) を名前としたフォルダを作り�
 その中に.XLSファイルをカット&ペースト  
 <b>MCH側には.XLSを残さない</b> 
 
-## Future prospect  
-データをメディアから直接アップロードし、クラウドから取り出す形にしたい (無線内蔵USB的な)   
+Graphtecの場合  
+収録開始とともに、その日 (YYMMDD形式, 2015年12月31日なら151231) の名前でフォルダが生成され、その中に.CSVが作成される  
+なのでGraphtec用USB内のフォルダをそのままコピペすればOK  
 
-## Summary
+## 展望  
+データをUSBから直接オンラインにアップロード、各時の環境で取り出す形にしたい (無線内蔵USB的なものを使う)   
+
+## まとめ  
 データロガーのデータをさくっとまとめる関数ができました。  
 
-### 参考ページ
-[jaguchi (dichikaさん@Github)](https://github.com/dichika/jaguchi)
+### 参考ページ  
+[jaguchi (dichikaさん@Github)](https://github.com/dichika/jaguchi)  
 ```{r informations}
-sessionInfo()
+session_info()
 ```

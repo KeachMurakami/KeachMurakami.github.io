@@ -40,40 +40,35 @@ opts_chunk$set(eval = TRUE,
                warning =FALSE)
 ```
 
-# ImpactFacotrの推移を可視化する
+# ImpactFacotrの推移を可視化する  
 
-## 論文をどこに投稿するか
+## 論文をどこに投稿するか  
 論文をLetterで出すことを検討している  
 読者層やその雑誌の特徴 (生態学より・農学よりなど) を考慮するが  
 <b>ImpactFactor</b>もやっぱり気になる  
 
-## ImpactFactor (IF) とは
+## ImpactFactor (IF) とは  
 Thomson Reuters社が公表している論文誌の引用されやすさの指標のようなもの  
 高IF誌に乗った論文は、読んでくれる人が多い傾向にある  
-「IFが高ければいいってもんじゃない」という意見も多い
-
+「IFが高ければいいってもんじゃない」という意見も多い  
 <b>「高IF誌に載っている論文 ⇒ 内容が良い」は偽</b>だが  
 <b>「内容が良い論文 ⇒ 高IF誌に載っている」は真</b>な気がする  
 
-
-## ImpactFactorの推移
+## ImpactFactorの推移  
 IFは毎年更新される  
 あまり意味はないが、どうせなら右肩上がりの論文誌を狙いたいような気がする  
-ので、IFの推移を可視化した  
+なので、IFの推移を可視化した  
 
-
-## データの取得
-今回のletterはPlant Scienceっぽいもの  
+## データの取得  
+今回のletterはPlant Science分野のもの  
 [Journal Citation Reports (JCR)](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/research-management-and-evaluation/journal-citation-reports.html)にアクセスし、Plant Science分野の論文のIF一覧を取得する  
-ここは手作業でぽちぽちした
-
+ここは手作業でぽちぽちした  
 ```{r files}
 setwd("~/GitHub/BeeLabR/Entertainment/ImpactFactor/PlantScience/")
 dir()
 ```
 
-出力の都合で年ごとにログを蓄積
-
+出力の都合で年ごとにログを蓄積  
 ```{r data_handling}
 setwd("~/GitHub/BeeLabR/Entertainment/ImpactFactor/PlantScience/")
 
@@ -125,8 +120,8 @@ IFdata %>%
   kable
 ```
 
-## JCRへ登録されている雑誌数の推移
-右肩上がり
+## JCRへ登録されている雑誌数の推移  
+右肩上がり  
 ```{r JournalNumber}
 # 雑誌数
 IFdata$Year %>%
@@ -137,8 +132,8 @@ IFdata$Year %>%
   geom_line()
 ```
 
-## IFのヒストグラム
-そのままだとポアソン分布っぽい？
+## IFのヒストグラム  
+そのままだとポアソン分布っぽい (整数データではないので不適切)？  
 ```{r IFhist}
 # IFの分布
 IFdata %>%
@@ -148,7 +143,7 @@ IFdata %>%
   geom_histogram(col = "grey", alpha = .75)
 ```
 
-対数化すると正規分布っぽい？
+対数化すると正規分布っぽい？  
 ```{r IFhist_log10}
 IFdata %>%
   filter(Year == 2014) %>%
@@ -158,8 +153,7 @@ IFdata %>%
   scale_x_log10()
 ```
 
-
-## 雑誌ごとに推移を表示
+## 雑誌ごとに推移を表示  
 ```{r timecourse1}
 IFdata %>%
   ggplot(aes(x = Year, y = ImpactFactor, group = Journal, col = Journal)) +
@@ -169,7 +163,6 @@ IFdata %>%
 ```
 
 みづらいので`IF > 1`で範囲を絞る  
-
 ```{r timecourse2}
 IFdata %>%
   filter(ImpactFactor > 1) %>%
@@ -190,13 +183,11 @@ IFdata %>%
   plot
 ```
 ただ、Jekyllに載せる技術はなかったのでスクリーンショットのみ  
-![googleVis](/figure/source/2016-02-21-ImpactFactor/IF_googleVis.svg) 
+![googleVis](/figure/source/2016-02-21-ImpactFactor/IF_googleVis.svg)  
+[このページ](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)   にあるようなインタラクティブな可視化が簡単にできる  
 
-[このページ](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html) にあるようなインタラクティブな可視化が簡単にできる  
 
-
-## 全体の傾向を掴みたい
-
+## 全体の傾向を掴みたい  
 なんとなくIFが徐々に高くなっているような気がする  
 階層モデルで解析してみるパートに続きたい  
 
@@ -204,5 +195,5 @@ IFdata %>%
 [CRAN.R-project.org](https://cran.r-project.org/web/packages/googleVis/vignettes/Using_googleVis_with_knitr.html)  
 [Journal Citation Reports](http://thomsonreuters.com/en/products-services/scholarly-scientific-research/research-management-and-evaluation/journal-citation-reports.html)  
 ```{r informations}
-sessionInfo()
+session_info()
 ```
