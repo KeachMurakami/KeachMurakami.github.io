@@ -1,23 +1,25 @@
 
 library(shiny)
+library(shinydashboard)
 library(ggplot2)
 library(dplyr)
 library(reshape2)
 
-ui <-
-  shinyUI(
-    pageWithSidebar(
-      headerPanel(title="Scatter plot drawer"),
-      sidebarPanel(
-        fileInput("file", label="Input File:"),
-        downloadLink('downloadData', 'Download')),
-      mainPanel(
+ui <- 
+  dashboardPage(
+    dashboardHeader(title="Scatter plot drawer"),
+    
+    dashboardSidebar(
+        fileInput("file", label="Input File:")),
+    
+    dashboardBody(
         h4("File Information:"),
         verbatimTextOutput("info"),
         h4("Figure"),
-        plotOutput("plot")
+        plotOutput("plot"),
+        downloadLink('downloadData', 'Download')
       )
-    ))
+    )
 
 # server.R
 server <-
@@ -66,3 +68,5 @@ server <-
       contentType = "image/pdf"
     )
   }
+
+shinyApp(ui, server)
