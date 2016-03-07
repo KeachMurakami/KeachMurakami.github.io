@@ -1,0 +1,10 @@
+---
+title: "pandoc経由で.Rmdから.docxを作る"
+output: html_document
+layout: post
+categories: 
+tags: lab R MSoffice
+---
+
+# knitrでRmdからMSwordファイル (docx) を作る (メモ  
+[こんな感じで](https://github.com/KeachMurakami/KeachMurakami.github.io/tree/master/_supplemental/rmd2docx)
