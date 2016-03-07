@@ -3,7 +3,7 @@ title: "pandoc経由で.Rmdから.docxを作る"
 output: html_document
 layout: post
 categories: 
-tags: lab R MSoffice
+tags: lab R MSoffice pandoc
 ---
 
 # knitrでRmdからMSwordファイル (docx) を作る (メモ  
