@@ -303,9 +303,9 @@ MCH用・GL用の親フォルダをそれぞれ作り、その中にログを蓄
 必要に応じて`readXXX`関数を使って、元データをまとめてレポートを作成することが望ましい  
 この親フォルダのパスを`readXX`関数の引数 (LogPath) に与える  
 上の図でいうと、`readMCH`では`LogPath = "~/MCH_log`、`readGL`では`LogPath = "~/GL_log"`と指定する  
-親フォルダの中には以下が含まれる  
+親フォルダの中身は以下の通り
 
-1. 校正係数を載せたファイル (CalbXXX.csv)  
+校正係数を載せたファイル (CalbXXX.csv)  
 
 ```r
 # 独立変数に真値、従属変数に各プローブの表示値を
@@ -344,7 +344,7 @@ data.table::fread("~/Dropbox/GL_log/CalbGL.csv") %>% head
 ## 6:     A     6 1.0157949 -0.3449836 20131023 Murakami
 ```
 
-2. ロガーのIDを名前にした子フォルダ   
+ロガーのIDを名前にした子フォルダ   
 
 ```r
 dir("~/Dropbox/MCH_log/")
@@ -422,7 +422,7 @@ session_info()
 ##  language (EN)                        
 ##  collate  en_US.UTF-8                 
 ##  tz       Asia/Tokyo                  
-##  date     2016-03-05                  
+##  date     2016-03-07                  
 ## 
 ##  package      * version    date       source                          
 ##  agricolae    * 1.2-3      2015-10-06 CRAN (R 3.1.3)                  
