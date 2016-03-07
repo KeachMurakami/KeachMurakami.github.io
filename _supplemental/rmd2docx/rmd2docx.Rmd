@@ -16,7 +16,7 @@ knit時に"pandoc: Could not find image"が出たが、pandocをアップデー�
 画像ファイルはRmdファイルと同じフォルダに置くと楽  
 ![picture1](test.png)  
 相対パスでも指定可能  
-![picture2](../../Images/banner.jpg)  
+![picture2](../../images/banner.jpg)  
 
 ----
 
