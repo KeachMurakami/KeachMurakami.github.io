@@ -1,0 +1,83 @@
+---
+title: "aes(group) (ggplot2"
+output: html_document
+layout: post
+tags: lab ggplot2 R memo
+---
+
+```{r setup, eval = TRUE, echo = FALSE, message= F}
+require(MASS)
+require(ggplot2)
+require(RColorBrewer) 
+require(grid)
+require(plyr)
+require(dplyr)
+require(reshape2)
+require(xlsx)
+require(knitr)
+require(gtable)
+require(foreach)
+require(gridExtra)
+require(magrittr)
+require(agricolae)
+require(stringr)
+require(data.table)
+require(lubridate)
+require(scales)
+require(pforeach)
+require(devtools)
+require(tidyr)
+require(slackr)
+require(RCurl)
+opts_chunk$set(eval = TRUE,
+               error = FALSE,
+               prompt = FALSE,
+               message = FALSE,
+               echo = TRUE,
+               fig.hight = 4,
+               fig.width = 10,
+               warning =FALSE)
+```
+
+# ggplot2のaes(group)内で処理をする (メモ
+
+`aes(group = paste(グループ化したい変数1, 変数2))`とすると楽
+```{r}
+data_yield <-
+  data_frame(
+    ExptID = rep(letters[1:3], each = 10),
+    Water = rep(c(0.1, 1), times = 15),
+    Fertilizer = rep(1:10, times = 3),
+    Yield = Fertilizer * 5 +  Water * 10 + rnorm(30, 0, 1)
+    )
+
+data_yield %>%
+  kable
+
+data_yield %>%
+  ggplot(aes(x = Fertilizer, y = Yield, col = ExptID, group = Water)) + 
+  geom_point() +
+  geom_line()
+
+data_yield %>%
+  ggplot(aes(x = Fertilizer, y = Yield, col = ExptID, group = ExptID)) + 
+  geom_point() +
+  geom_line()
+
+# こうじゃなくて
+data_yield %>%
+  mutate(Groups = paste0(ExptID, "_", Water)) %>%
+  ggplot(aes(x = Fertilizer, y = Yield, col = ExptID, group = Groups)) + 
+  geom_point() +
+  geom_line()
+
+# こう
+data_yield %>%
+  ggplot(aes(x = Fertilizer, y = Yield, col = ExptID, group = paste0(ExptID, Water))) + 
+  geom_point() +
+  geom_line()
+```
+
+```{r info}
+session_info()
+```
