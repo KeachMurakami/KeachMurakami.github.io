@@ -2,7 +2,7 @@
 title: "二項演算子 %in% を改良したかった"
 output: html_document
 layout: post
-tags: lab ggplot2 R memo
+tags: lab R memo
 ---
 
 ```{r setup, eval = TRUE, echo = FALSE, message= F}
