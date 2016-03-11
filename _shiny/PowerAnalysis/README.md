@@ -44,11 +44,11 @@ style="color:red">X</span>以上の効果がある処理です。
 --------
 
 [サンプルサイズの決め方 (永田,
-2003)](%22http://www.asakura.co.jp/books/isbn/978-4-254-12665-5/)  
+2003)](http://www.asakura.co.jp/books/isbn/978-4-254-12665-5/)  
 [検定力分析入門－Ｒで学ぶ最新データ解析 (豊田,
-2009)](http://www.tokyo-tosho.co.jp/books/ISBN978-4-489-02065-0.html%22)  
+2009)](http://www.tokyo-tosho.co.jp/books/ISBN978-4-489-02065-0.html)  
 [伝えるための心理統計: 効果量・信頼区間・検定力 (大久保・岡田,
-2012)](http://www.keisoshobo.co.jp/book/b97219.html%22)
+2012)](http://www.keisoshobo.co.jp/book/b97219.html)
 
 ------------------------------------------------------------------------
 
