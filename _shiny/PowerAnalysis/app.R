@@ -25,7 +25,7 @@ ui <-
         tabItem(tabName = "plot",
           h2("Dashboard tab content"),
           textInput("samplesize", "(c) サンプルサイズ (n) の上限値 (縦軸最大値):", 30),
-          textInput("signal", "(d) 処理区の平均値の上限値 (横軸最大値):", 50),
+          textInput("signal", "(d) 母平均の増加・減少率の上限値 (横軸最大値):", 50),
           htmlOutput("plot"),
           h4("概要"),
           h5(
