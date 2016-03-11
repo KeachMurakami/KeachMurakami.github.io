@@ -1,0 +1,49 @@
+---
+title: "README.Rmd"
+author: "KeachMurakami"
+date: "March 11, 2016"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE)
+```
+
+## 概要  
+2つの母平均の差の検定の際の検定力分析を行うためのShinyアプリケーションです。  
+サイドバーの`Plot`をクリックすると、検定力分析を行います。  
+サイドバーの`Description`をクリックすると簡単な説明が、`Source Code`をクリックするとGithubページが、それぞれ表示されます。  
+
+----
+
+## 使い方  
+
+1. `(a)`で検定力を指定します。  
+2. `(b)`で偶然誤差のSDを指定します。平均値100に対するSD (= 変動係数) を入力してください。  
+3. `(c)`・`(d)`で図の表示範囲を設定します。  
+
+図の横軸`母平均の増加・減少率`は、対照区の母平均 ($\mu_{ctrl} = 100$) に対する処理区の母平均 ($\mu_{trtm}$) の変化率 ($|\frac{\mu_{trtm} - \mu_{ctrl}}{\mu_{ctrl}} - 1|$) です。  
+図の縦軸`必要となるサンプルサイズ`は対照区・処理区**それぞれ**に必要となるサンプルサイズです。  
+
+図内に表示された線にマウスオーバーすると2つの値が表示されます。  
+<span style="color:red">上の値 (X)</span> は`母平均の増加・減少率`、<span style="color:blue">下の値 (Y)</span> は`必要となるサンプルサイズ`です。  
+
+#### パターン1: <span style="color:red">X</span>以上の効果がある処理の検出を目標としたときに必要なサンプルサイズを知りたい  
+`(b)`で指定した偶然誤差が存在する条件のなかで、効果を十分な確率 (`(a)`で指定した検定力) で検出するために必要なサンプルサイズは対照区・処理区**それぞれ**<span style="color:blue">Y</span>です。  
+
+#### パターン2: サンプルサイズを<span style="color:blue">Y</span>とした実験で、指定した確率で検出できる効果の大きさを見積もりたい  
+`(b)`で指定した偶然誤差が存在する条件のなかで、Y反復した実験では、`(a)`で指定した検定力を維持して検出できるのは、<span style="color:red">X</span>以上の効果がある処理です。  
+
+----
+
+## 参考文献  
+[サンプルサイズの決め方 (永田, 2003)]("http://www.asakura.co.jp/books/isbn/978-4-254-12665-5/)  
+[検定力分析入門－Ｒで学ぶ最新データ解析 (豊田, 2009)](http://www.tokyo-tosho.co.jp/books/ISBN978-4-489-02065-0.html")  
+[伝えるための心理統計: 効果量・信頼区間・検定力 (大久保・岡田, 2012)](http://www.keisoshobo.co.jp/book/b97219.html")  
+
+----
+
+## 実行環境
+```{r}
+devtools::session_info()
+```
