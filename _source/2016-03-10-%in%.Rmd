@@ -39,8 +39,6 @@ opts_chunk$set(eval = TRUE,
                warning =FALSE)
 ```
 
-!%in%を演算子で実装 (メモ
-
 `%in%`をよく使う  
 ```{r demo1}
 iris %>%
@@ -95,7 +93,8 @@ iris %>%
   }
 
 # 関数作成はできる
-`!%in%`
+`!%in%` %>%
+  print
 
 # 実行はできない
 iris %>%
