@@ -2,8 +2,8 @@ name: PowerAnalysis
 account: keachmurakami
 server: shinyapps.io
 appId: 88325
-bundleId: 392946
+bundleId: 393089
 url: https://keachmurakami.shinyapps.io/PowerAnalysis/
-when: 1457690649.6187
+when: 1457699602.30876
 asMultiple: FALSE
 asStatic: FALSE

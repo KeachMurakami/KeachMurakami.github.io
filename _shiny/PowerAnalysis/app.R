@@ -23,7 +23,6 @@ ui <-
     dashboardBody(
       tabItems(
         tabItem(tabName = "plot",
-          h2("Dashboard tab content"),
           textInput("samplesize", "(c) サンプルサイズ (n) の上限値 (縦軸最大値):", 30),
           textInput("signal", "(d) 母平均の増加・減少率の上限値 (横軸最大値):", 50),
           htmlOutput("plot")
@@ -114,7 +113,7 @@ server <-
             title =  paste0("検定力: ", data_set()[1, 3], "%; 偶然誤差のSD: ", data_set()[1, 4]),
             vAxis="{title:'必要となるサンプルサイズ'}",
             hAxis = "{title:'母平均の増加・減少率 [%]'}", 
-            width = "100%", height = 600)
+            width = "100%", height = 400)
         )
     )
   }
