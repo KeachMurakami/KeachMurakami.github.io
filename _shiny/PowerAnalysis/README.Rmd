@@ -9,6 +9,7 @@ output: md_document
 knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE)
 ```
 
+
 ## 概要  
 2つの母平均の差の検定の際の検定力分析を行うためのShinyアプリケーションです。  
 サイドバーの`Plot`をクリックすると、検定力分析を行います。  
@@ -18,9 +19,10 @@ knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE)
 
 ## 使い方  
 
-1. `(a)`で検定力を指定します。  
-2. `(b)`で偶然誤差のSDを指定します。平均値100に対するSD (= 変動係数) を入力してください。  
-3. `(c)`・`(d)`で図の表示範囲を設定します。  
+1. [アプリケーションにアクセスする](https://keachmurakami.shinyapps.io/PowerAnalysis/)  
+2. `(a)`で検定力を指定します。  
+3. `(b)`で偶然誤差のSDを指定します。平均値100に対するSD (= 変動係数) を入力してください。  
+4. `(c)`・`(d)`で図の表示範囲を設定します。  
 
 図の横軸`母平均の増加・減少率`は、対照区の母平均 ($\mu_{ctrl} = 100$) に対する処理区の母平均 ($\mu_{trtm}$) の変化率 ($|\frac{\mu_{trtm} - \mu_{ctrl}}{\mu_{ctrl}} - 1|$) です。  
 図の縦軸`必要となるサンプルサイズ`は対照区・処理区**それぞれ**に必要となるサンプルサイズです。  
