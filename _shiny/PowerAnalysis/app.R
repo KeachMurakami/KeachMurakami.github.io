@@ -13,8 +13,8 @@ ui <-
       sidebarMenu(
         menuItem("Plot", tabName = "plot", icon = icon("line-chart")),
         menuItem("Description", tabName = "description", icon = icon("file-text-o")),
-        menuItem("Source code", icon(github)),
-                 href = "https://github.com/KeachMurakami/KeachMurakami.github.io/_shiny/")
+        menuItem("Source code (Github)", icon = icon("github"),
+                 href = "https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_shiny/PowerAnalysis/app.R"),
         sliderInput("power", "(a) 検定力", 5, 100, 80),
         sliderInput("noise", "(b) 偶然誤差のSD", 0, 50, 10)
       )
@@ -27,9 +27,13 @@ ui <-
           textInput("samplesize", "(c) サンプルサイズ (n) の上限値 (縦軸最大値):", 30),
           textInput("signal", "(d) 処理区の平均値の上限値 (横軸最大値):", 50),
           htmlOutput("plot"),
+          h4("概要"),
+          h5(
+            "対照区・処理区の母平均の差の検定 (t検定) を行う際のサンプルサイズ (いわゆるn) を決定するための事前の検定力分析を行います。
+            'Description'にとても簡単なものではありますが、用語の説明があります。", br()
+          ),
           h4("使い方"),
           h5(
-            "対照区・処理区の母平均の差の検定 (t検定) を行う際のサンプルサイズ (いわゆるn) を決定するための事前の検定力分析を行います。", br(),
             "(a)で検定力を指定します。", br(),
             "(b)で偶然誤差のSDを指定します。平均値100に対するSD (= 変動係数) を入力してください。", br(),
             "(c)・(d)で図の表示範囲を設定します", br(),
