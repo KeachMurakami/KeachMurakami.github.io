@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE)
 ## 概要  
 2つの母平均の差の検定の際の検定力分析を行うためのShinyアプリケーションです。  
 サイドバーの`Plot`をクリックすると、検定力分析を行います。  
-サイドバーの`Description`をクリックすると簡単な説明が、`Source Code`をクリックするとこのページが、それぞれ表示されます。  
+サイドバーの`Description`をクリックすると簡単な説明が、`How to use?`をクリックするとこのページが、それぞれ表示されます。  
 
 ----
 
