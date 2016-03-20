@@ -1,5 +1,5 @@
 ---
-title: "dplyr::selectではベクトル出力はできない (メモ"
+title: "データフレームからのベクトル出力"
 output: html_document
 layout: post
 tags: R memo dplyr
@@ -10,6 +10,7 @@ library(dplyr)
 library(magrittr)
 ```
 
+### dplyr::selectでvector出力はできない (メモ
 
 ```{r ok1}
 # デフォルトの列選択
