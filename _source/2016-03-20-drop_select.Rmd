@@ -53,5 +53,5 @@ print(extract2)
 [Extract a dplyr tbl column as a vector (Stack Overflow)](http://stackoverflow.com/questions/21618423/extract-a-dplyr-tbl-column-as-a-vector)  
 
 ```{r info}
-session_info()
+devtools::session_info()
 ```
