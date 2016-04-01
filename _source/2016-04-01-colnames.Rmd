@@ -144,12 +144,13 @@ data_frame(funs = factor(c("dplyr::rename", "dplyr::select", "dplyr::transmute",
   guides(fill = F)
 ```
 
-set_names, setnamesが速い  
-airquality %>% data.table() %>% set_names(letters[1:6])
+
+transmuteがかなり遅く、set_names、setnamesが速い  
+
 とはいえ  
 1. カラム名変更を繰り返すシチュエーションが考えづらいこと  
 2. 列名が多いデータ (wide形式) をほとんど使わないこと  
-ので無視してもよさそう  
+から無視してもよさそう  
 
 それと、データハンドリングの過程でmutate, selectに頼らないパターンが稀なので、  
 その意味でもdplyr系をわざわざ外すメリットが少ない気がする。  
