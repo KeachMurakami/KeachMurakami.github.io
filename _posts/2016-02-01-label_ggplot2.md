@@ -1,5 +1,5 @@
 ---
-title: "図のラベルを楽に付けたい (ggplot2"
+title: "図のラベルを楽に付けたい"
 output: html_document
 layout: post
 categories: R
@@ -121,7 +121,7 @@ session_info()
 ##  language (EN)                        
 ##  collate  en_US.UTF-8                 
 ##  tz       Asia/Tokyo                  
-##  date     2016-03-05                  
+##  date     2016-04-01                  
 ## 
 ##  package      * version    date       source                          
 ##  agricolae    * 1.2-3      2015-10-06 CRAN (R 3.1.3)                  

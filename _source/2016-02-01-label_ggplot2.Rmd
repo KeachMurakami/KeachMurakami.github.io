@@ -1,5 +1,5 @@
 ---
-title: "図のラベルを楽に付けたい (ggplot2"
+title: "図のラベルを楽に付けたい"
 output: html_document
 layout: post
 categories: R

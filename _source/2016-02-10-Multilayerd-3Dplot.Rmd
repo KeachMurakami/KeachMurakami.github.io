@@ -1,5 +1,5 @@
 ---
-title: "複数層の3次元プロットを1枚の図で (rgl"
+title: "複数層の3次元プロットを1枚の図で"
 output: html_document
 layout: post
 categories: R
