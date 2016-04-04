@@ -1,0 +1,10 @@
+---
+title: "自分用リンク置き場"
+output: html_document
+layout: post
+categories: stat
+tags: memo
+---
+
+<a href="http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a>  
+パーティクルフィルタに関する資料がいくつかある。
