@@ -6,8 +6,15 @@ categories: stat
 tags: memo
 ---
 
+
+## 状態空間モデル、パーティクルフィルタ  
 <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a>  
 パーティクルフィルタに関する資料がいくつかある。
 
 <a href = "http://d.hatena.ne.jp/teramonagi/20140525/1400996808"">逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた</a>  
 teramonagiさんのBlog。リンクもいくつかある。
+
+## Shiny 
+<a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference<a>  
+デブコン。　 
+
