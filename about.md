@@ -5,6 +5,10 @@ permalink: /about/
 layout: default
 ---
 
+<FONT color="grey">Last update: 2016-04-16  </FONT><br>
+
+-----
+
 研究に関することの備忘録です  
 
 -----
