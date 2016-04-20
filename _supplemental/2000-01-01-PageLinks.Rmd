@@ -9,6 +9,14 @@ categories: stat
 tags: memo
 ---
 
+# 研究全般
+
+## よい報告の仕方  
+<a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a>  
+プログラムに限らず、研究一般でも同じ。  
+「ダメでした」で報告終わりを卒業するべき。  
+
+
 # 統計  
 
 ## マルコフ連鎖  
@@ -27,3 +35,4 @@ teramonagiさんのBlog。リンクもいくつかある。
 ## Shiny 
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference<a>  
 デブコン。　 
+
