@@ -11,7 +11,7 @@ tags: memo
 
 # 研究全般
 
-## よい報告の仕方  
+### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a>  
 プログラムに限らず、研究一般でも同じ。  
 「ダメでした」で報告終わりを卒業するべき。  
@@ -19,11 +19,32 @@ tags: memo
 
 # 統計  
 
-## マルコフ連鎖  
+### 擬似反復01  
+<a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
+"擬似反復 (pseudoreplication)"というフレーズの初出。  
+良論分。  
+
+
+### 擬似反復02
+<a href = "http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html">'Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)</a>  
+Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩いている。  
+"批判的検討"の項がよろしい。  
+
+
+### 擬似反復03  
+<a href = "http://ci.nii.ac.jp/naid/110001747104">土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)</a>  
+擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
+
+
+## ベイズ統計  
+
+## 計算統計  
+
+### マルコフ連鎖  
 <a href = "http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf">マルコフ連鎖モンテカルロ法入門</a>  
 webでフリーのMCMCだと一番丁寧な印象。
 
-## 状態空間モデル、パーティクルフィルタ  
+### 状態空間モデル、パーティクルフィルタ  
 <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a>  
 パーティクルフィルタに関する資料がいくつかある。
 
@@ -32,7 +53,7 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 # R  
 
-## Shiny 
+### Shiny 
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference<a>  
 デブコン。　 
 
