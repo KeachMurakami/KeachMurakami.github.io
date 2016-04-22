@@ -11,10 +11,17 @@ tags: memo
 
 # 研究全般
 
+## 進捗報告
+
 ### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a>  
 プログラムに限らず、研究一般でも同じ。  
 「ダメでした」で報告終わりを卒業するべき。  
+
+## 申請書
+<a href = "http://xn--w8yz0bc56a.com/">科研費.com</a>  
+科研費申請書のコツ。  
+大勢がコツに頼りだすとその業界はおしまいでもある。  
 
 
 # 統計  
@@ -23,7 +30,6 @@ tags: memo
 <a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
 "擬似反復 (pseudoreplication)"というフレーズの初出。  
 良論分。  
-
 
 ### 擬似反復02
 <a href = "http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html">'Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)</a>  
