@@ -26,23 +26,20 @@ tags: memo
 
 # 統計  
 
-### 擬似反復01  
+## 実験計画法
+
+### 擬似反復  
+
 <a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
 "擬似反復 (pseudoreplication)"というフレーズの初出。  
 良論分。  
 
-### 擬似反復02
 <a href = "http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html">'Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)</a>  
 Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩いている。  
 "批判的検討"の項がよろしい。  
 
-
-### 擬似反復03  
 <a href = "http://ci.nii.ac.jp/naid/110001747104">土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)</a>  
 擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
-
-
-## ベイズ統計  
 
 ## 計算統計  
 
@@ -59,7 +56,17 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 # R  
 
-### Shiny 
-<a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference<a>  
-デブコン。　 
+## パッケージ紹介  
 
+### よく使うパッケージ集  
+<a href = "https://github.com/rstudio/RStartHere">RStartHere</a>  
+RStudio謹製のHadleyの哲学に従ったオススメリスト。
+
+<a href = "https://github.com/qinwf/awesome-R">awesome-R</a>  
+なんでもありなオススメリスト。  
+
+## パッケージ  
+
+### Shiny  
+<a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a>  
+デブコン。　 
