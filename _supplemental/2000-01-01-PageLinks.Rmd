@@ -26,10 +26,17 @@ tags: memo
 
 # 統計  
 
+## 全般
+
+
+
 ## 実験計画法
 
-### 擬似反復  
+### 分散分析　　
+<a href = "http://ofmind.net/doc/anova-note">分散分析のノート</a>  
 
+
+### 擬似反復  
 <a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
 "擬似反復 (pseudoreplication)"というフレーズの初出。  
 良論分。  
