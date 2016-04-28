@@ -56,14 +56,24 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 # R  
 
-## パッケージ紹介  
 
-### よく使うパッケージ集  
+## まとめ系
+
+### 初心者向けまとめ  
+<a href = "http://r-beginners.com/">初心者のR入門</a>  
+日本語。  
+期待。  
+
+## サンプルデータまとめ  
+<a href = "http://www.trifields.jp/r-sample-data-491">R言語 サンプルデータ一覧</a>  
+Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
+
+### パッケージまとめ  
 <a href = "https://github.com/rstudio/RStartHere">RStartHere</a>  
-RStudio謹製のHadleyの哲学に従ったオススメリスト。
+RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。
 
 <a href = "https://github.com/qinwf/awesome-R">awesome-R</a>  
-なんでもありなオススメリスト。  
+なんでもありなパッケージリスト。  
 
 ## パッケージ  
 
