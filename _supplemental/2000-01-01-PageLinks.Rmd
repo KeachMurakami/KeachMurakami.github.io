@@ -11,12 +11,17 @@ tags: memo
 
 # 研究全般
 
-## 進捗報告
+## 進捗
+
+### ないとき  
+<a href = "http://scienceandtechnology.jp/archives/9655">沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード</a>  
+あつい。  
+
+## セミナー・報告
 
 ### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a>  
 プログラムに限らず、研究一般でも同じ。  
-「ダメでした」で報告終わりを卒業するべき。  
 
 ## 申請書
 <a href = "http://xn--w8yz0bc56a.com/">科研費.com</a>  
@@ -28,13 +33,10 @@ tags: memo
 
 ## 全般
 
-
-
 ## 実験計画法
 
 ### 分散分析　　
 <a href = "http://ofmind.net/doc/anova-note">分散分析のノート</a>  
-
 
 ### 擬似反復  
 <a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
@@ -58,8 +60,11 @@ webでフリーのMCMCだと一番丁寧な印象。
 <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a>  
 パーティクルフィルタに関する資料がいくつかある。
 
-<a href = "http://d.hatena.ne.jp/teramonagi/20140525/1400996808"">逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた</a>  
+<a href = "http://d.hatena.ne.jp/teramonagi/20140525/1400996808">逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた</a>  
 teramonagiさんのBlog。リンクもいくつかある。
+
+<a href = "http://data-assimilation.jp/en/events/da_seminar/index.html">Data Assimilation Seminar Series</a>  
+理研データ同化チームのセミナー資料など。  
 
 # R  
 
