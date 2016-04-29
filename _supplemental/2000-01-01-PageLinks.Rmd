@@ -1,5 +1,5 @@
 ---
-title: "自分用リンク置き場"
+title: "MyBookmarks"
 output:
   html_document:
     toc: true
@@ -92,3 +92,14 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 ### Shiny  
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a>  
 デブコン。　 
+
+
+# ソフトウェア  
+
+## 画像系
+
+<a href = "http://dev.to/rly">O RLY Cover Generator</a>  
+O'Reilly本の表紙風の画像作成。  
+
+<a href = "https://research.preferred.jp/2015/09/chainer-gogh/"></a>  
+DNN風加工。  
