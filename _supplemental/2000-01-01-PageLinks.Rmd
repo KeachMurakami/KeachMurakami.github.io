@@ -9,6 +9,8 @@ categories: stat
 tags: memo
 ---
 
+-------
+
 # 研究全般
 
 ## 進捗
@@ -28,6 +30,12 @@ tags: memo
 科研費申請書のコツ。  
 大勢がコツに頼りだすとその業界はおしまいでもある。  
 
+## 科学哲学
+
+<a href = "http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm">“Strong Inference”について</a>  
+真偽だけが重要なときはこれ。  
+
+-------
 
 # 統計  
 
@@ -66,8 +74,9 @@ teramonagiさんのBlog。リンクもいくつかある。
 <a href = "http://data-assimilation.jp/en/events/da_seminar/index.html">Data Assimilation Seminar Series</a>  
 理研データ同化チームのセミナー資料など。  
 
-# R  
+-------
 
+# R  
 
 ## まとめ系
 
@@ -93,6 +102,7 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a>  
 デブコン。　 
 
+-------
 
 # ソフトウェア  
 
