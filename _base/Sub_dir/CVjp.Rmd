@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title: "経歴 (日本語)"
 output: html_document
 permalink: /about/CVjp/
 layout: default
