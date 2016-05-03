@@ -1,7 +1,7 @@
 ---
 title: "CV"
 output: html_document
-permalink: /CV/
+permalink: /about/CVen/
 layout: default
 ---
 

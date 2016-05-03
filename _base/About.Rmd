@@ -14,7 +14,7 @@ layout: default
 -----
 
 ### 研究関連
-経歴→ [CV](https://keachmurakami.github.io/CV/jp.html/)  
+経歴→ [CV](https://keachmurakami.github.io/about/CVjp/)  
 研究紹介→ [作成予定](https://keachmurakami.github.io/)  
 論文→ [PublicationList](https://keachmurakami.github.io/publication_list/)  
 
