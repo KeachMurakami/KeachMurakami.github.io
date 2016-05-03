@@ -5,7 +5,7 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2016-04-16  </FONT><br>
+<FONT color="grey">Last update: 2016-05-03  </FONT><br>
 
 -----
 
@@ -14,8 +14,8 @@ layout: default
 -----
 
 ### 研究関連
+経歴→ [CV](https://keachmurakami.github.io/CV/jp.html/)  
 研究紹介→ [作成予定](https://keachmurakami.github.io/)  
-CV→ [作成予定](https://keachmurakami.github.io/)  
 論文→ [PublicationList](https://keachmurakami.github.io/publication_list/)  
 
 <br>
