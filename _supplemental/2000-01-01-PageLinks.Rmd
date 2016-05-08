@@ -13,25 +13,30 @@ tags: memo
 
 # 研究全般
 
-## 進捗
+
+## 進捗・報告
 
 ### ないとき  
 <a href = "http://scienceandtechnology.jp/archives/9655">沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード</a>  
 あつい。  
 
-## セミナー・報告
-
 ### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a>  
 プログラムに限らず、研究一般でも同じ。  
+
+
+## 研究者のブログ   
+<a href = "http://next49.hatenadiary.jp/entry/20080105/p3">発声練習</a>  
+とても参考になる。  
+
 
 ## 申請書
 <a href = "http://xn--w8yz0bc56a.com/">科研費.com</a>  
 科研費申請書のコツ。  
 大勢がコツに頼りだすとその業界はおしまいでもある。  
 
-## 科学哲学
 
+## 科学哲学
 <a href = "http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm">“Strong Inference”について</a>  
 真偽だけが重要なときはこれ。  
 
@@ -39,7 +44,9 @@ tags: memo
 
 # 統計  
 
+
 ## 全般
+
 
 ## 実験計画法
 
@@ -57,6 +64,7 @@ Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩�
 
 <a href = "http://ci.nii.ac.jp/naid/110001747104">土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)</a>  
 擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
+
 
 ## 計算統計  
 
@@ -78,12 +86,21 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 # R  
 
+
+## 紹介ブログ系
+
+### English  
+<a href = "http://www.r-bloggers.com/">R-bloggers</a>  
+あまりレベルの高いことや面白いことは流れてこない。  
+
+
 ## まとめ系
 
 ### 初心者向けまとめ  
 <a href = "http://r-beginners.com/">初心者のR入門</a>  
 日本語。  
 期待。  
+
 
 ## サンプルデータまとめ  
 <a href = "http://www.trifields.jp/r-sample-data-491">R言語 サンプルデータ一覧</a>  
@@ -96,11 +113,16 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 <a href = "https://github.com/qinwf/awesome-R">awesome-R</a>  
 なんでもありなパッケージリスト。  
 
+
 ## パッケージ  
 
 ### Shiny  
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a>  
 デブコン。　 
+
+### Plotly
+<a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a>  
+Shiny×Plotlyのギャラリー。 
 
 -------
 
@@ -111,5 +133,5 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 <a href = "http://dev.to/rly">O RLY Cover Generator</a>  
 O'Reilly本の表紙風の画像作成。  
 
-<a href = "https://research.preferred.jp/2015/09/chainer-gogh/"></a>  
+<a href = "https://research.preferred.jp/2015/09/chainer-gogh/">画風を変換するアルゴリズム</a>  
 DNN風加工。  
