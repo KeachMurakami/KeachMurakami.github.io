@@ -50,6 +50,9 @@ tags: memo
 
 ## 実験計画法
 
+<a href = "http://lbm.ab.a.u-tokyo.ac.jp/~omori/"></a>  
+実験計画法全般、生物統計全般の資料。  
+
 ### 分散分析　　
 <a href = "http://ofmind.net/doc/anova-note">分散分析のノート</a>  
 
