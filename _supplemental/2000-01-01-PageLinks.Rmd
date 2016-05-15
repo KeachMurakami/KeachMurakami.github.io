@@ -5,13 +5,26 @@ output:
     toc: true
     toc_float: true
 layout: post
-categories: stat
+categories: bookmarks
 tags: memo
 ---
 
 -------
 
 # 研究全般
+
+## グループ
+
+### 国内  
+<a href = "http://www.agrmet.jp/">農業気象学会</a>  
+
+
+### 国際  
+<a href = "http://www.ishs.org/">ISHS</a><a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
+<a href = "http://www.controlledenvironments.org/">NCERA-101</a>  
+<a href = "http://www.ceug.ac.uk/">UK CEUG</a>  
+
+
 
 
 ## 進捗・報告
