@@ -13,7 +13,9 @@ tags: memo
 
 # 研究全般
 
+
 ## グループ
+
 
 ### 国内  
 <a href = "http://www.agrmet.jp/">日本農業気象学会</a>  
@@ -29,9 +31,11 @@ tags: memo
 
 ## 進捗・報告
 
+
 ### ないとき  
 <a href = "http://scienceandtechnology.jp/archives/9655">沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード</a>  
 あつい。  
+
 
 ### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a>  
@@ -41,6 +45,13 @@ tags: memo
 ## 研究者のブログ   
 <a href = "http://next49.hatenadiary.jp/entry/20080105/p3">発声練習</a>  
 とても参考になる。  
+
+
+## 研究助成
+<a href = "http://scienceportal.jst.go.jp/funding/application/">Science Portal</a>  
+<a href = "http://www.canon-foundation.jp/index.html">キヤノン財団</a>  
+<a href = "http://www.sgkz.or.jp/outline/">公益財団法人 新技術開発財団</a>  
+<a href = "https://r.lne.st/grants/">リバネス研究費</a>  
 
 
 ## 申請書
