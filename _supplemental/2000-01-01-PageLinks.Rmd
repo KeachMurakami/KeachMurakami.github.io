@@ -22,6 +22,8 @@ tags: memo
 <a href = "http://photosyn.jp/">日本光合成学会</a>  
 <a href = "http://jsabees.org/">日本生物環境工学会</a>  
 <a href = "http://www.jshs.jp/">園芸学会</a>  
+<a href = "http://bsj.or.jp/">日本植物学会</a>  
+
 
 ### 国際  
 <a href = "http://www.ishs.org/">ISHS</a><a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
