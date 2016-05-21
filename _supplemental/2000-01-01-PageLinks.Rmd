@@ -135,9 +135,9 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 ### 初心者向けまとめ  
 <a href = "http://r-beginners.com/">初心者のR入門</a>  
-日本語。  
-期待。  
-
+日本語。期待。  
+<a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a>  
+Rでのデータサイエンスのチュートリアル。  
 
 ## サンプルデータまとめ  
 <a href = "http://www.trifields.jp/r-sample-data-491">R言語 サンプルデータ一覧</a>  
