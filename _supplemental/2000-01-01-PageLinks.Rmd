@@ -124,14 +124,16 @@ teramonagiさんのBlog。リンクもいくつかある。
 # R  
 
 
-## 紹介ブログ系
+## ブログ系
 
-### English  
 <a href = "http://www.r-bloggers.com/">R-bloggers</a>  
 あまりレベルの高いことや面白いことは流れてこない。  
+<a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a>  
+rChart、d3.jsあたりの人。  
 
 
 ## まとめ系
+
 
 ### 初心者向けまとめ  
 <a href = "http://r-beginners.com/">初心者のR入門</a>  
@@ -139,19 +141,21 @@ teramonagiさんのBlog。リンクもいくつかある。
 <a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a>  
 Rでのデータサイエンスのチュートリアル。  
 
-## サンプルデータまとめ  
+
+### サンプルデータまとめ  
 <a href = "http://www.trifields.jp/r-sample-data-491">R言語 サンプルデータ一覧</a>  
 Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
+
 
 ### パッケージまとめ  
 <a href = "https://github.com/rstudio/RStartHere">RStartHere</a>  
 RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。
-
 <a href = "https://github.com/qinwf/awesome-R">awesome-R</a>  
 なんでもありなパッケージリスト。  
 
 
 ## パッケージ  
+
 
 ### Shiny  
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a>  
@@ -165,8 +169,8 @@ Shiny×Plotlyのギャラリー。
 
 # ソフトウェア  
 
-## 画像系
 
+## 画像系
 <a href = "http://dev.to/rly">O RLY Cover Generator</a>  
 O'Reilly本の表紙風の画像作成。  
 
