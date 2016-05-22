@@ -26,7 +26,7 @@ tags: memo
 
 
 ### 国際  
-<a href = "http://www.ishs.org/">ISHS</a><a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
+<a href = "http://www.ishs.org/">ISHS</a> <a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
 <a href = "http://www.controlledenvironments.org/">NCERA-101</a>  
 <a href = "http://www.ceug.ac.uk/">UK CEUG</a>  
 <a href = "http://www.photosynthesisresearch.org/">International Society of Photosynthesis Research</a>  
@@ -71,35 +71,30 @@ tags: memo
 # 統計  
 
 
-## 全般
-
-
 ## 実験計画法
 
-<a href = "http://lbm.ab.a.u-tokyo.ac.jp/~omori/"></a>  
-実験計画法全般、生物統計全般の資料。  
 
 ### 分散分析　　
 <a href = "http://ofmind.net/doc/anova-note">分散分析のノート</a>  
+<a href = "http://lbm.ab.a.u-tokyo.ac.jp/~omori/">大森先生@東大農</a>  
+実験計画法全般、生物統計全般の資料。  
 
 ### 擬似反復  
 <a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
-"擬似反復 (pseudoreplication)"というフレーズの初出。  
-良論分。  
-
+"擬似反復 (pseudoreplication)"というフレーズの初出。良論分。  
 <a href = "http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html">'Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)</a>  
-Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩いている。  
-"批判的検討"の項がよろしい。  
-
+Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩いている。"批判的検討"の項がよろしい。  
 <a href = "http://ci.nii.ac.jp/naid/110001747104">土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)</a>  
 擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
 
 
 ## 計算統計  
 
+
 ### マルコフ連鎖  
 <a href = "http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf">マルコフ連鎖モンテカルロ法入門</a>  
-webでフリーのMCMCだと一番丁寧な印象。
+webでフリーのMCMC解説だと一番丁寧な印象。
+
 
 ### 状態空間モデル、パーティクルフィルタ  
 <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a>  
@@ -128,6 +123,9 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 <a href = "http://www.r-bloggers.com/">R-bloggers</a>  
 あまりレベルの高いことや面白いことは流れてこない。  
+<a href = "http://d.hatena.ne.jp/hoxo_m/">ほくそ笑む</a>  
+<a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
+<a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
 <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a>  
 rChart、d3.jsあたりの人。  
 
@@ -154,7 +152,7 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 なんでもありなパッケージリスト。  
 
 
-## パッケージ  
+## パッケージ・その他  
 
 
 ### Shiny  
@@ -164,6 +162,11 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 ### Plotly
 <a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a>  
 Shiny×Plotlyのギャラリー。 
+
+
+### Sankey diagram
+<a href = "http://stackoverflow.com/questions/9968433/sankey-diagrams-in-r">Sankey Diagrams in R?</a>  
+物質・エネルギーの収支をRで書きたい。<a href = "http://www.sankey-diagrams.com/sankey-diagram-software/">リスト</a>発見。  
 
 -------
 
