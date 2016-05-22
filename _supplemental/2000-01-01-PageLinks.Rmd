@@ -155,9 +155,14 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 ## パッケージ・その他  
 
 
+### ggplot2
+<a href = "http://yutannihilation.github.io/ggplot2-gyakubiki/">ggplot2逆引き</a>  
+
+
 ### Shiny  
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a>  
 デブコン。　 
+
 
 ### Plotly
 <a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a>  
@@ -171,6 +176,12 @@ Shiny×Plotlyのギャラリー。
 -------
 
 # ソフトウェア  
+
+## d3.js  
+可視化に強いので手を出したい。いずれ。  
+<a href = "https://d3js.org/">Data-Driven Documents</a>  
+<a href = "http://thedata.co/sites/thedata.co/files/u1/D3-Tips-and-Tricks_Book_v4.pdf"> D3 Tips and Tricks</a>  
+
 
 
 ## 画像系
