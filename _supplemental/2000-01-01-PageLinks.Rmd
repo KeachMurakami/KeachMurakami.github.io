@@ -169,6 +169,13 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 Shiny×Plotlyのギャラリー。 
 
 
+## Data visualization
+
+
+### heatmap
+<a href = "https://github.com/talgalili/heatmaply">talgalili/heatmaply</a>  
+インタラクティブなヒートマップ。
+
 ### Sankey diagram
 <a href = "http://stackoverflow.com/questions/9968433/sankey-diagrams-in-r">Sankey Diagrams in R?</a>  
 物質・エネルギーの収支をRで書きたい。<a href = "http://www.sankey-diagrams.com/sankey-diagram-software/">リスト</a>発見。  
