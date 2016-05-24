@@ -91,18 +91,16 @@ Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩�
 ## 計算統計  
 
 
-### マルコフ連鎖  
+### マルコフ連鎖モンテカルロ法  
 <a href = "http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf">マルコフ連鎖モンテカルロ法入門</a>  
 webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 ### 状態空間モデル、パーティクルフィルタ  
 <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a>  
-パーティクルフィルタに関する資料がいくつかある。
-
+パーティクルフィルタに関する資料がいくつかある。  
 <a href = "http://d.hatena.ne.jp/teramonagi/20140525/1400996808">逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた</a>  
-teramonagiさんのBlog。リンクもいくつかある。
-
+teramonagiさんのBlog。リンクもいくつかある。  
 <a href = "http://data-assimilation.jp/en/events/da_seminar/index.html">Data Assimilation Seminar Series</a>  
 理研データ同化チームのセミナー資料など。  
 
@@ -125,6 +123,7 @@ teramonagiさんのBlog。リンクもいくつかある。
 あまりレベルの高いことや面白いことは流れてこない。  
 <a href = "http://d.hatena.ne.jp/hoxo_m/">ほくそ笑む</a>  
 <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
+<a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
 <a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
 <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a>  
 rChart、d3.jsあたりの人。  
