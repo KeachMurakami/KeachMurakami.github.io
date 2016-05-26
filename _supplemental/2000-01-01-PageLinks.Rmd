@@ -156,6 +156,7 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 
 
 ### ggplot2
+<a href = "http://docs.ggplot2.org/current/index.html">Official</a>  
 <a href = "http://yutannihilation.github.io/ggplot2-gyakubiki/">ggplot2逆引き</a>  
 
 
