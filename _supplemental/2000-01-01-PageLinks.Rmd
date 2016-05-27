@@ -65,6 +65,7 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 <a href = "http://www.canon-foundation.jp/index.html">キヤノン財団</a>  
 <a href = "http://www.sgkz.or.jp/outline/">公益財団法人 新技術開発財団</a>  
 <a href = "https://r.lne.st/grants/">リバネス研究費</a>  
+<a href = "http://www.nakashima-foundation.org/kieikai/index.html">一般財団法人 旗影会</a>  
 
 
 ## 申請書
