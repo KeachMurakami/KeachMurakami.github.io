@@ -31,6 +31,17 @@ tags: memo
 <a href = "http://www.ceug.ac.uk/">UK CEUG</a>  
 <a href = "http://www.photosynthesisresearch.org/">International Society of Photosynthesis Research</a>  
 
+
+## 遺伝資源系ポータル  
+使いこなすときが来る気がしない。  
+<a href = "https://phytozome.jgi.doe.gov/pz/portal.html">Phytozome</a>  
+the Plant Comparative Genomics portal  
+<a href = "http://www.arabidopsis.org/">TAIR</a>  
+The Arabidopsis Information Resource  
+<a href = "http://1001genomes.org/">1001 Genomes</a>  
+A Catalog of Arabidopsis thaliana Genetic Variation  
+
+
 ## 進捗・報告
 
 
