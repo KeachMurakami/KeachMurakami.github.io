@@ -11,11 +11,11 @@ tags: memo
 
 -------
 
+
 # 研究全般
 
 
 ## グループ
-
 
 ### 国内  
 <a href = "http://www.agrmet.jp/">日本農業気象学会</a>  
@@ -24,16 +24,21 @@ tags: memo
 <a href = "http://www.jshs.jp/">園芸学会</a>  
 <a href = "http://bsj.or.jp/">日本植物学会</a>  
 
-
 ### 国際  
-<a href = "http://www.ishs.org/">ISHS</a> <a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
+<a href = "http://www.ishs.org/">ISHS</a> → <a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
 <a href = "http://www.controlledenvironments.org/">NCERA-101</a>  
 <a href = "http://www.ceug.ac.uk/">UK CEUG</a>  
 <a href = "http://www.photosynthesisresearch.org/">International Society of Photosynthesis Research</a>  
 
 
+
+## 研究室ほか
+
+
+
 ## 遺伝資源系ポータル  
 使いこなすときが来る気がしない。  
+
 <a href = "https://phytozome.jgi.doe.gov/pz/portal.html">Phytozome</a>  
 the Plant Comparative Genomics portal  
 <a href = "http://www.arabidopsis.org/">TAIR</a>  
@@ -42,22 +47,36 @@ The Arabidopsis Information Resource
 A Catalog of Arabidopsis thaliana Genetic Variation  
 
 
-## 進捗・報告
 
+## 英語
+
+### 論文書き  
+<a href = "http://lsd-project.jp/cgi-bin/lsdproj/ejlookup04.pl">LifeScienceDictonary</a> 共起表現が便利  
+<a href = "http://www.phrasebank.manchester.ac.uk/">Academic Phrasebank</a>  
+<a href = "https://www.gfd-dennou.org/arch/hiroki/homepage/english/english.html">科学英語メモ</a>  
+<a href = "https://www.gfd-dennou.org/arch/hiroki/homepage/english/english2.html">科学英語メモ (新版)</a>  
+<a href = "http://homepage1.nifty.com/Mercury/ohoyamak/index.html">科学論文で役立つ英語</a>  
+
+### スライド
+
+
+
+## 進捗・報告
 
 ### ないとき  
 <a href = "http://scienceandtechnology.jp/archives/9655">沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード</a>  
 あつい。  
-
 
 ### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a>  
 プログラムに限らず、研究一般でも同じ。  
 
 
+
 ## 研究者のブログ   
 <a href = "http://next49.hatenadiary.jp/entry/20080105/p3">発声練習</a>  
 とても参考になる。  
+
 
 
 ## 研究助成
@@ -68,15 +87,21 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 <a href = "http://www.nakashima-foundation.org/kieikai/index.html">一般財団法人 旗影会</a>  
 
 
+
 ## 申請書
 <a href = "http://xn--w8yz0bc56a.com/">科研費.com</a>  
 科研費申請書のコツ。  
 大勢がコツに頼りだすとその業界はおしまいでもある。  
 
 
+
 ## 科学哲学
+
+### Strong Inference
 <a href = "http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm">“Strong Inference”について</a>  
 真偽だけが重要なときはこれ。  
+
+
 
 -------
 
@@ -84,7 +109,6 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 
 
 ## 実験計画法
-
 
 ### 分散分析　　
 <a href = "http://ofmind.net/doc/anova-note">分散分析のノート</a>  
@@ -100,13 +124,13 @@ Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩�
 擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
 
 
-## 計算統計  
 
+## 計算統計  
 
 ### マルコフ連鎖モンテカルロ法  
 <a href = "http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf">マルコフ連鎖モンテカルロ法入門</a>  
 webでフリーのMCMC解説だと一番丁寧な印象。
-
+<a href = "http://users.aims.ac.za/~ioana/">Review Course: Markov Chains and Monte Carlo Methods</a>  
 
 ### 状態空間モデル、パーティクルフィルタ  
 <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a>  
@@ -117,33 +141,35 @@ teramonagiさんのBlog。リンクもいくつかある。
 理研データ同化チームのセミナー資料など。  
 
 
+
 ## 機械学習
 <a href = "http://ibisforest.org/index.php?FrontPage">朱鷺の杜<a>  
 
+
+
 ## 統計ネタの多いブログ
 <a href = "http://d.hatena.ne.jp/ryamada22/">ryamadaの遺伝学・遺伝統計学メモ</a>  
+
 
 
 -------
 
 # R  
 
-
 ## ブログ系
-
 <a href = "http://www.r-bloggers.com/">R-bloggers</a>  
-あまりレベルの高いことや面白いことは流れてこない。  
+<a href = "http://www.r-statistics.com/">R-statistics blog</a>  
 <a href = "http://d.hatena.ne.jp/hoxo_m/">ほくそ笑む</a>  
 <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
 <a href = "http://notchained.hatenablog.com/">Technically, technophobic.</a>  
 <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
+<a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
 <a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
 <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a>  
-rChart、d3.jsあたりの人。  
+
 
 
 ## まとめ系
-
 
 ### 初心者向けまとめ  
 <a href = "http://r-beginners.com/">初心者のR入門</a>  
@@ -151,11 +177,9 @@ rChart、d3.jsあたりの人。
 <a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a>  
 Rでのデータサイエンスのチュートリアル。  
 
-
 ### サンプルデータまとめ  
 <a href = "http://www.trifields.jp/r-sample-data-491">R言語 サンプルデータ一覧</a>  
 Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
-
 
 ### パッケージまとめ  
 <a href = "https://github.com/rstudio/RStartHere">RStartHere</a>  
@@ -164,26 +188,27 @@ RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト�
 なんでもありなパッケージリスト。  
 
 
-## パッケージ・その他  
 
+## パッケージ・その他  
 
 ### ggplot2
 <a href = "http://docs.ggplot2.org/current/index.html">Official</a>  
 <a href = "http://yutannihilation.github.io/ggplot2-gyakubiki/">ggplot2逆引き</a>  
 
-
 ### Shiny  
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a>  
 デブコン。　 
-
 
 ### Plotly
 <a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a>  
 Shiny×Plotlyのギャラリー。 
 
 
+
 ## Data visualization
 
+### Google Chart
+<a href = "https://developers.google.com/chart/interactive/docs/gallery">Chart Gallery</a>  
 
 ### heatmap
 <a href = "https://github.com/talgalili/heatmaply">talgalili/heatmaply</a>  
@@ -193,20 +218,24 @@ Shiny×Plotlyのギャラリー。
 <a href = "http://stackoverflow.com/questions/9968433/sankey-diagrams-in-r">Sankey Diagrams in R?</a>  
 物質・エネルギーの収支をRで書きたい。<a href = "http://www.sankey-diagrams.com/sankey-diagram-software/">リスト</a>発見。  
 
--------
-
-# ソフトウェア  
-
-## d3.js  
+### d3.js  
 可視化に強いので手を出したい。いずれ。  
 <a href = "https://d3js.org/">Data-Driven Documents</a>  
 <a href = "http://thedata.co/sites/thedata.co/files/u1/D3-Tips-and-Tricks_Book_v4.pdf"> D3 Tips and Tricks</a>  
 
 
 
+-------
+
+# ソフトウェア  
+
+## Windows系
+<a href = "http://www.eonet.ne.jp/~gakana/">X-Finder</a> → タブファイラ。<a href = http://www29.atwiki.jp/xfinder/>wiki。</a>
+
+
+
 ## 画像系
 <a href = "http://dev.to/rly">O RLY Cover Generator</a>  
 O'Reilly本の表紙風の画像作成。  
-
 <a href = "https://research.preferred.jp/2015/09/chainer-gogh/">画風を変換するアルゴリズム</a>  
 DNN風加工。  
