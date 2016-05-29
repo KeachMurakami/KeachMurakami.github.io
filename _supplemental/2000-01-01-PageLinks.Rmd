@@ -97,6 +97,9 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 
 ## 科学哲学
 
+### 4つのなぜ (Nikolaas Tinbergen)
+<a href = "https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C">ティンバーゲンの4つのなぜ</a>  
+
 ### Strong Inference
 <a href = "http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm">“Strong Inference”について</a>  
 真偽だけが重要なときはこれ。  
@@ -144,6 +147,12 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 ## 機械学習
 <a href = "http://ibisforest.org/index.php?FrontPage">朱鷺の杜<a>  
+
+
+
+##時系列ネタ
+<a href = "http://togetter.com/li/939366">こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定</a>  
+"６回を独立とみなす"はダメでしょう  
 
 
 
@@ -206,6 +215,8 @@ Shiny×Plotlyのギャラリー。
 
 
 ## Data visualization
+<a href = "http://qiita.com/keiono/items/9042bf58224ca54bdb45">プログラマーが効果的な可視化を作成する</a>  
+<a href = "http://qiita.com/keiono/items/2dd8228c88abcc4db0b0">データ可視化の実践者が共有すべき知識</a>  
 
 ### Google Chart
 <a href = "https://developers.google.com/chart/interactive/docs/gallery">Chart Gallery</a>  
@@ -235,7 +246,9 @@ Shiny×Plotlyのギャラリー。
 
 
 ## 画像系
-<a href = "http://dev.to/rly">O RLY Cover Generator</a>  
-O'Reilly本の表紙風の画像作成。  
-<a href = "https://research.preferred.jp/2015/09/chainer-gogh/">画風を変換するアルゴリズム</a>  
-DNN風加工。  
+<a href = "http://dev.to/rly">O RLY Cover Generator</a> O'Reilly本の表紙風の画像作成。  
+<a href = "https://research.preferred.jp/2015/09/chainer-gogh/">画風を変換するアルゴリズム</a> DNN風加工。  
+
+
+## 動画系
+<a href = "http://giphy.com/create/gifeditor">GIPHY</a> GIF作成。  
