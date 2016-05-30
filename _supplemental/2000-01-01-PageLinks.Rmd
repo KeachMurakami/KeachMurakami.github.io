@@ -14,7 +14,6 @@ tags: memo
 
 # 研究全般
 
-
 ## グループ
 
 ### 国内  
@@ -86,6 +85,7 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 <a href = "http://www.sgkz.or.jp/outline/">公益財団法人 新技術開発財団</a>  
 <a href = "https://r.lne.st/grants/">リバネス研究費</a>  
 <a href = "http://www.nakashima-foundation.org/kieikai/index.html">一般財団法人 旗影会</a>  
+<a href = "http://www.hfsp.org/funding/research-grants/information-and-guidelines">Human Frontier Science Program</a>  
 
 
 
@@ -110,7 +110,6 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 -------
 
 # 統計  
-
 
 ## 実験計画法
 
@@ -151,9 +150,10 @@ teramonagiさんのBlog。リンクもいくつかある。
 
 
 
-##時系列ネタ
+##時系列解析ネタ
 <a href = "http://togetter.com/li/939366">こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定</a>  
 "６回を独立とみなす"はダメでしょう  
+<a href = "http://www.analyticbridge.com/profiles/blogs/the-curse-of-big-data">The curse of big data</a>  
 
 
 
@@ -253,3 +253,12 @@ Shiny×Plotlyのギャラリー。
 
 ## 動画系
 <a href = "http://giphy.com/create/gifeditor">GIPHY</a> GIF作成。  
+
+
+
+-------
+
+# その他
+
+## 考え方など
+<a href = "http://acthouse.net/meeting">「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。</a> プライベートでの遅刻には寛容
