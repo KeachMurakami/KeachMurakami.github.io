@@ -28,12 +28,17 @@ tags: memo
 
 ### 国際学会
 <a href = "http://www.ishs.org/">ISHS</a> → <a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
-<a href = "http://www.controlledenvironments.org/">NCERA-101</a>  
-<a href = "http://www.ceug.ac.uk/">UK CEUG</a>  
 <a href = "http://www.photosynthesisresearch.org/">International Society of Photosynthesis Research</a>  
 
 ### 国内グループ
+<a href = "http://www.naro.affrc.go.jp/">農研機構</a>  
 <a href = "http://adpmit.dc.affrc.go.jp/index.html">気候変動対応プログラム 農研機構</a>  
+
+### 国外グループ
+<a href = "http://www.controlledenvironments.org/">NCERA-101</a>  
+<a href = "http://www.ceug.ac.uk/">UK CEUG</a>  
+<a href = "http://leds.hrt.msu.edu/">Developing LED Lighting Technologies and Practices
+for Sustainable Specialty-Crop Production</a>  
 
 ### 国際グループ
 <a href = "http://www.ipcc.ch/index.htm">IPCC</a>  
@@ -62,8 +67,12 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 <a href = "http://homepage1.nifty.com/Mercury/ohoyamak/index.html">科学論文で役立つ英語</a>  
 <a href = "http://www.shiga-med.ac.jp/~koyama/eng/eng-index.html">論文英語ナビ</a>  
 
-### スライド
 
+
+## 学会
+<a href = "http://takenaka-akio.org/index_01.html">学会発表の心得</a>  
+
+### スライド
 
 
 ## 進捗・報告
@@ -108,7 +117,22 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 
 -------
 
-# 統計  
+# 植物科学
+
+## 植物生理学
+<a href = "http://www.biology.kyushu-u.ac.jp/~plant/shinryoiki/index.html">植物生理学・分子生理学コンソーシアムによる陸上植物の高CO~2~応答の包括的解明 (新学術領域研究)</a>  
+<a href = "http://esplant.net/index.html">植物の環境感覚：刺激受容から細胞応答まで (新学術領域研究)</a>  
+<a href = "http://www.jst.go.jp/presto/plantsci/">二酸化炭素資源化を目指した植物の物質生産力強化と生産物活用のための基盤技術の創出 (CREST+さきがけ)</a>  
+<a href = "http://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html">情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出 (さきがけ)</a>  
+
+### 光合成生理生態学
+<a href = "http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8">光合成事典 (Web版)</a>  
+<a href = "http://www.publish.csiro.au/nid/103/issue/2664.htm">Sun/Shade acclimation (1988; 特集号 Australian Journal of Plant Physiology; 現 Functional Plant Biology)</a>  
+
+
+-------
+
+# 統計学  
 <a href = "http://ebsa.ism.ac.jp/">統計科学のための電子図書システム</a>  
 
 ## 実験計画法
@@ -146,7 +170,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 
-##時系列解析ネタ
+## 時系列解析ネタ
 <a href = "http://togetter.com/li/939366">こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定</a> "６回を独立とみなす"はダメでしょう。  
 <a href = "http://www.analyticbridge.com/profiles/blogs/the-curse-of-big-data">The curse of big data</a> 時系列を回帰するやつ。
 
@@ -163,12 +187,15 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ## ブログ系
 <a href = "http://www.r-bloggers.com/">R-bloggers</a>  
+<a href = "https://blog.rstudio.org/">RStudio Blog</a>  
 <a href = "http://www.r-statistics.com/">R-statistics blog</a>  
 <a href = "http://d.hatena.ne.jp/hoxo_m/">ほくそ笑む</a>  
 <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
 <a href = "http://notchained.hatenablog.com/">Technically, technophobic.</a>  
+<a href = "http://blog.kz-md.net/">日々是独想</a>  
 <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
 <a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
+<a href = "http://tjo.hatenablog.com/">東京で働くデータサイエンティストのブログ</a>  
 <a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
 <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a>  
 <a href = "http://kanosuke.hatenadiary.jp/">Rでデータマイニング</a>  
@@ -178,6 +205,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ## まとめ系
 
 ### 初心者向けまとめ  
+<a href = "http://www.is.titech.ac.jp/~mase/Rstatman.pdf">R基本統計関数マニュアル</a>  
 <a href = "http://r-beginners.com/">初心者のR入門</a> 日本語。期待。  
 <a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a> Rでのデータサイエンスのチュートリアル。  
 
@@ -229,7 +257,8 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "https://d3js.org/">Data-Driven Documents</a>  
 <a href = "http://thedata.co/sites/thedata.co/files/u1/D3-Tips-and-Tricks_Book_v4.pdf"> D3 Tips and Tricks</a>  
 
-
+### Multidimensional
+<a href = "http://www.sthda.com/english/wiki/impressive-package-for-3d-and-4d-graph-r-software-and-data-visualization">Impressive package for 3D and 4D graph - R software and data visualization</a>
 
 -------
 
