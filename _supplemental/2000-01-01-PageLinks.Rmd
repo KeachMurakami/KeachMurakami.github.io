@@ -188,9 +188,11 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ## グループ
 
-### TokyoR
-<a href = "http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7">
+### JapanRs
+<a href = "http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7"> 
 
+- <a href = "https://groups.google.com/forum/#!forum/r-study-tokyo">TokyoR</a>
+- <a href = "http://seesaawiki.jp/w/syou6162/">TsukubaR</a>
 
 ## ブログ系
 <a href = "http://www.r-bloggers.com/">R-bloggers</a>  
@@ -267,6 +269,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ### Multidimensional
 <a href = "http://www.sthda.com/english/wiki/impressive-package-for-3d-and-4d-graph-r-software-and-data-visualization">Impressive package for 3D and 4D graph - R software and data visualization</a>
+
+### 個別案件
+ポイント＋関数回帰曲線をggplot2で → <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
 
 -------
 
