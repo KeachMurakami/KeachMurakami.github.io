@@ -184,6 +184,13 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 -------
 
 # R  
+<a href = "http://r4ds.had.co.nz/">R for Data Science (R4DS)</a>
+
+## グループ
+
+### TokyoR
+<a href = "http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7">
+
 
 ## ブログ系
 <a href = "http://www.r-bloggers.com/">R-bloggers</a>  
@@ -197,9 +204,10 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
 <a href = "http://tjo.hatenablog.com/">東京で働くデータサイエンティストのブログ</a>  
 <a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
+<a href = "http://estrellita.hatenablog.com/">INPUTしたらOUTPUT!</a>  
 <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a>  
 <a href = "http://kanosuke.hatenadiary.jp/">Rでデータマイニング</a>  
-
+<a href = "https://rweekly.org/">RWeekly.org</a>  
 
 
 ## まとめ系
