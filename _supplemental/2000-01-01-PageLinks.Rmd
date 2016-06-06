@@ -105,6 +105,14 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 
 
 
+## 物品購入
+
+### 中古装置
+<a href = "http://www.hitechfacility.co.jp/">Hightech&Facility</a>  
+<a href = "http://www.n-denkei.co.jp/">日本電計</a>  
+
+
+
 ## 科学哲学
 
 ### 4つのなぜ (Nikolaas Tinbergen)
@@ -316,3 +324,4 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ## 考え方など
 <a href = "http://acthouse.net/meeting">「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。</a> プライベートでの遅刻には寛容。
+
