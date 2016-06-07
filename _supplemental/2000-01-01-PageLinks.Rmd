@@ -130,8 +130,9 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 ## 植物生理学
 <a href = "http://www.biology.kyushu-u.ac.jp/~plant/shinryoiki/index.html">植物生理学・分子生理学コンソーシアムによる陸上植物の高CO~2~応答の包括的解明 (新学術領域研究)</a>  
 <a href = "http://esplant.net/index.html">植物の環境感覚：刺激受容から細胞応答まで (新学術領域研究)</a>  
-<a href = "http://www.jst.go.jp/presto/plantsci/">二酸化炭素資源化を目指した植物の物質生産力強化と生産物活用のための基盤技術の創出 (CREST+さきがけ)</a>  
-<a href = "http://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html">情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出 (さきがけ)</a>  
+<a href = "http://www.jst.go.jp/presto/plantsci/">二酸化炭素資源化を目指した植物の物質生産力強化と生産物活用のための基盤技術の創出 (CREST+さきがけ研究領域)</a>  
+<a href = "http://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html">情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出 (さきがけ研究領域)</a>  
+<a href = "http://hostgk3.biology.tohoku.ac.jp/hikosaka/CREST/index.html">将来の地球環境において最適な光合成・物質生産システムを持った強化植物の創出 (CREST研究課題)</a>  
 
 ### 光合成生理生態学
 <a href = "http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8">光合成事典 (Web版)</a>  
@@ -223,6 +224,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
 <a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
 <a href = "http://tjo.hatenablog.com/">東京で働くデータサイエンティストのブログ</a>  
+<a href = "http://abrahamcow.hatenablog.com/">廿TT</a>  
 <a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
 <a href = "http://estrellita.hatenablog.com/">INPUTしたらOUTPUT!</a>  
 <a href = "http://kanosuke.hatenadiary.jp/">Rでデータマイニング</a>  
