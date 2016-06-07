@@ -173,6 +173,13 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 
+## 統計モデリング
+
+### 一般化線形モデル
+<a href = "http://masaqol.hatenablog.com/entry/2016/03/30/003254">一般化線形モデル周りのRのパッケージと関数まとめ</a>  
+
+
+
 ## 機械学習
 <a href = "http://ibisforest.org/index.php?FrontPage">朱鷺の杜<a>  
 
@@ -197,34 +204,38 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ## グループ
 
 ### JapanRs
-<a href = "http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7"> 
+<a href = "http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7">  
 
 - <a href = "https://groups.google.com/forum/#!forum/r-study-tokyo">TokyoR</a>
 - <a href = "http://seesaawiki.jp/w/syou6162/">TsukubaR</a>
+- <a href = "https://kobexr.doorkeeper.jp/">KobeR</a>
+
+
 
 ## ブログ系
-<a href = "http://www.r-bloggers.com/">R-bloggers</a>  
+<a href = "http://www.r-bloggers.com/">R-bloggers</a> もろもろ。  
 <a href = "https://blog.rstudio.org/">RStudio Blog</a>  
 <a href = "http://www.r-statistics.com/">R-statistics blog</a>  
 <a href = "http://d.hatena.ne.jp/hoxo_m/">ほくそ笑む</a>  
 <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
 <a href = "http://notchained.hatenablog.com/">Technically, technophobic.</a>  
-<a href = "http://blog.kz-md.net/">日々是独想</a>  
+<a href = "http://blog.kz-md.net/">日々是独想</a> ぞうさん通信  
 <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
 <a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
 <a href = "http://tjo.hatenablog.com/">東京で働くデータサイエンティストのブログ</a>  
 <a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
 <a href = "http://estrellita.hatenablog.com/">INPUTしたらOUTPUT!</a>  
-<a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a>  
 <a href = "http://kanosuke.hatenadiary.jp/">Rでデータマイニング</a>  
 <a href = "https://rweekly.org/">RWeekly.org</a>  
+<a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a> 金融より。  
+<a href = "http://masaqol.hatenablog.com/archive/2015">今週も特にありません 進捗どうですか？</a> 金融より。  
 
 
 ## まとめ系
 
 ### 初心者向けまとめ  
 <a href = "http://www.is.titech.ac.jp/~mase/Rstatman.pdf">R基本統計関数マニュアル</a>  
-<a href = "http://r-beginners.com/">初心者のR入門</a> 日本語。期待。  
+<a href = "http://r-beginners.com/">初心者のR入門</a> 日本語。  
 <a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a> Rでのデータサイエンスのチュートリアル。  
 
 ### サンプルデータまとめ  
@@ -280,6 +291,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ### 個別案件
 ポイント＋関数回帰曲線をggplot2で → <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
+ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>
+
+
 
 -------
 
@@ -313,8 +327,6 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ## 動画系
 <a href = "http://giphy.com/create/gifeditor">GIPHY</a> GIF作成。  
-
-
 
 
 
