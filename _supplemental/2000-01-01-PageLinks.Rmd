@@ -82,21 +82,27 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 
 ### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a> プログラムに限らず、研究一般でも同じ。  
-
+http://www.aremachi.com/
 
 
 ## 研究者のブログ   
+
+### 
 <a href = "http://next49.hatenadiary.jp/entry/20080105/p3">発声練習</a> とても参考になる。  
+
+### 
+<a href = "http://www.aremachi.com/">アレ待チろまん</a> 専門は分子細胞生理学っぽい。  
 
 
 
 ## 研究助成
-<a href = "http://scienceportal.jst.go.jp/funding/application/">Science Portal</a>  
-<a href = "http://www.canon-foundation.jp/index.html">キヤノン財団</a>  
-<a href = "http://www.sgkz.or.jp/outline/">公益財団法人 新技術開発財団</a>  
-<a href = "https://r.lne.st/grants/">リバネス研究費</a>  
-<a href = "http://www.nakashima-foundation.org/kieikai/index.html">一般財団法人 旗影会</a>  
-<a href = "http://www.hfsp.org/funding/research-grants/information-and-guidelines">Human Frontier Science Program</a>  
+<a href = "http://scienceportal.jst.go.jp/funding/application/">Science Portal</a> 研究助成情報  
+<a href = "http://www.canon-foundation.jp/index.html">キヤノン財団</a> 産業基盤の創生・理想の追求  
+<a href = "https://r.lne.st/grants/">リバネス研究費</a> 科学技術の発展と地球貢献の実現  
+<a href = "http://www.nakashima-foundation.org/kieikai/index.html">一般財団法人 旗影会</a> 畜産、畜産工業その他農畜産、食品工業等に関する学術研究  
+<a href = "http://www.sgkz.or.jp/">公益財団法人 新技術開発財団</a> 広く科学技術に関する独創的な研究や新技術 (会社への助成)  
+<a href = "http://www.mayekawa.org/">公益財団法人 前川報恩会</a> 球温暖化対策を目的とした、熱エネルギーの有効利用に資する研究 農業分野等との学際的研究も含む）  
+<a href = "http://www.hfsp.org/funding/research-grants/information-and-guidelines">Human Frontier Science Program</a> Research Grants・Postdoctoral fellowships  
 
 
 
@@ -138,6 +144,10 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 <a href = "http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8">光合成事典 (Web版)</a>  
 <a href = "http://www.publish.csiro.au/nid/103/issue/2664.htm">Sun/Shade acclimation (1988; 特集号 Australian Journal of Plant Physiology; 現 Functional Plant Biology)</a>  
 
+### 光形態形成・光質応答
+<a href = "http://onlinelibrary.wiley.com/book/10.1002/9780470988893">Annual Plant Reviews Volume 30: Light and Plant Development</a>  
+
+
 
 -------
 
@@ -164,7 +174,7 @@ Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩�
 
 ### マルコフ連鎖モンテカルロ法  
 <a href = "http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf">マルコフ連鎖モンテカルロ法入門</a>  
-webでフリーのMCMC解説だと一番丁寧な印象。
+webでフリーのMCMC解説だと一番丁寧な印象。  
 <a href = "http://users.aims.ac.za/~ioana/">Review Course: Markov Chains and Monte Carlo Methods</a>  
 
 ### 状態空間モデル、パーティクルフィルタ  
@@ -239,6 +249,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://www.is.titech.ac.jp/~mase/Rstatman.pdf">R基本統計関数マニュアル</a>  
 <a href = "http://r-beginners.com/">初心者のR入門</a> 日本語。  
 <a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a> Rでのデータサイエンスのチュートリアル。  
+<a href = "http://www.agr.nagoya-u.ac.jp/~seitai/document/R2009/Rsettings.pdf">Rの設定</a> 環境変数など。
 
 ### サンプルデータまとめ  
 <a href = "http://www.trifields.jp/r-sample-data-491">R言語 サンプルデータ一覧</a> Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
