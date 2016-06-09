@@ -67,6 +67,9 @@ A Catalog of Arabidopsis thaliana Genetic Variation
 <a href = "http://homepage1.nifty.com/Mercury/ohoyamak/index.html">科学論文で役立つ英語</a>  
 <a href = "http://www.shiga-med.ac.jp/~koyama/eng/eng-index.html">論文英語ナビ</a>  
 
+### 一般
+<a href = "http://www.f.waseda.jp/shinoda/technique-index.htm">社会で役立つ英語習得のテクニック</a> 決まり文句など  
+
 
 
 ## 学会
@@ -142,6 +145,7 @@ http://www.aremachi.com/
 
 ### 光合成生理生態学
 <a href = "http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8">光合成事典 (Web版)</a>  
+<a href = "http://www.lowtem.hokudai.ac.jp/plantadapt/photosynthesis_way-j.html">光合成研究法</a>  
 <a href = "http://www.publish.csiro.au/nid/103/issue/2664.htm">Sun/Shade acclimation (1988; 特集号 Australian Journal of Plant Physiology; 現 Functional Plant Biology)</a>  
 
 ### 光形態形成・光質応答
@@ -278,6 +282,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 ## Data visualization
+<a href = "http://tsutawarudesign.web.fc2.com/">伝わるデザイン 研究発表のユニバーサルデザイン</a>  
 <a href = "http://qiita.com/keiono/items/9042bf58224ca54bdb45">プログラマーが効果的な可視化を作成する</a>  
 <a href = "http://qiita.com/keiono/items/2dd8228c88abcc4db0b0">データ可視化の実践者が共有すべき知識</a>  
 
