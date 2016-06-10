@@ -54,6 +54,8 @@ the Plant Comparative Genomics portal
 The Arabidopsis Information Resource  
 <a href = "http://1001genomes.org/">1001 Genomes</a>  
 A Catalog of Arabidopsis thaliana Genetic Variation  
+<a href = "http://signal.salk.edu/">SIGnAl</a>  
+Salk Institute Genomic Analysis Laboratory  
 
 
 
@@ -146,10 +148,16 @@ http://www.aremachi.com/
 ### 光合成生理生態学
 <a href = "http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8">光合成事典 (Web版)</a>  
 <a href = "http://www.lowtem.hokudai.ac.jp/plantadapt/photosynthesis_way-j.html">光合成研究法</a>  
-<a href = "http://www.publish.csiro.au/nid/103/issue/2664.htm">Sun/Shade acclimation (1988; 特集号 Australian Journal of Plant Physiology; 現 Functional Plant Biology)</a>  
+<a href = "http://www.publish.csiro.au/nid/103/issue/2664.htm">Sun/Shade acclimation (1988; Special Issue of *Australian Journal of Plant Physiology*)</a>  
+<a href = "http://www.sciencedirect.com/science/journal/00052728/1807/8">Regulation of photosynthetic electron transport (2011; Special Issue of *Biochimica et Biophysica Acta (BBA) - Bioenergetics*)</a>  
 
 ### 光形態形成・光質応答
 <a href = "http://onlinelibrary.wiley.com/book/10.1002/9780470988893">Annual Plant Reviews Volume 30: Light and Plant Development</a>  
+
+
+
+## 栽培方法について
+<a href = "http://www.controlledenvironments.org/Growth_Chamber_Handbook/Plant_Growth_Chamber_Handbook.htm">Plant Growth Chamber Handbook</a>  
 
 
 
@@ -278,6 +286,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ### Plotly
 <a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a> Shiny×Plotlyのギャラリー。 
+
+### rCharts
+<a href = "https://rpubs.com/kohske/12409">rCharts featuring highcharts</a> rCharts::hPlot。  
 
 
 
