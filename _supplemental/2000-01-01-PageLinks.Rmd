@@ -222,7 +222,8 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 -------
 
 # R  
-<a href = "http://r4ds.had.co.nz/">R for Data Science (R4DS)</a>
+<a href = "http://r4ds.had.co.nz/">R for Data Science (R4DS)</a>  
+<a href = "http://rpubs.com/">RPubs</a>  
 
 ## グループ
 
@@ -243,6 +244,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
 <a href = "http://notchained.hatenablog.com/">Technically, technophobic.</a>  
 <a href = "http://blog.kz-md.net/">日々是独想</a> ぞうさん通信  
+<a href = "http://statmodeling.hatenablog.com/">StatModeling Memorandum</a>  
 <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
 <a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
 <a href = "http://tjo.hatenablog.com/">東京で働くデータサイエンティストのブログ</a>  
