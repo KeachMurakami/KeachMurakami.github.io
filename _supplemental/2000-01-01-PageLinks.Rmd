@@ -122,6 +122,10 @@ http://www.aremachi.com/
 <a href = "http://www.hitechfacility.co.jp/">Hightech&Facility</a>  
 <a href = "http://www.n-denkei.co.jp/">日本電計</a>  
 
+### ものづくり
+<a href = "http://www.nogatadenki.jp/">野方電機工業</a> 金属加工  
+<a href = "http://www.sunstep.net/">(有) サンステップ</a> プリント基板  
+
 
 
 ## 科学哲学
