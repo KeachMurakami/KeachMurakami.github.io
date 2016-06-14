@@ -90,13 +90,14 @@ Salk Institute Genomic Analysis Laboratory
 http://www.aremachi.com/
 
 
-## 研究者のブログ   
+## 研究系ブログ   
 
-### 
+### 研究者 (他分野)
 <a href = "http://next49.hatenadiary.jp/entry/20080105/p3">発声練習</a> とても参考になる。  
-
-### 
 <a href = "http://www.aremachi.com/">アレ待チろまん</a> 専門は分子細胞生理学っぽい。  
+
+### 企業・会社
+<a href = "http://emj.sblo.jp/">日本環境計測のブログ</a> 日本環境計測株式会社さん。エンジニア魂を感じる。  
 
 
 
