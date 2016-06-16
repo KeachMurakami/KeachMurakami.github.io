@@ -327,7 +327,8 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ### 個別案件
 ポイント＋関数回帰曲線をggplot2で → <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
-ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>
+ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
+facetへ数式を書き込む → <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
 
 
 
@@ -346,7 +347,7 @@ ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teram
 <a href = "http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93">BibTeX活用術</a>  
 <a href = "http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html">bibtex Yamamoto's Laboratory</a>  
 <a href = "http://tex.stackexchange.com/questions/186848/superscript-in-my-reference-bibtex">superscript in my reference--bibtex</a> 下付き・上付きにする
-- {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) 
+- {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) → <a href = "https://keachmurakami.github.io/lab/2016/06/14/bibtex2.html">書いた</a>  
 
 
 
