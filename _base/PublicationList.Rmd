@@ -33,17 +33,17 @@ ToKable <-
 
 AddUnderline <- function(text) paste0("<u>", text, "</u>")
 # Frequently appears
-KM <- "<b>Keach Murakami</b>"
+KM <- "<FONT color='green'>Keach Murakami</FONT>"
 RM <- "Ryo Matsuda"
 KF <- "Kazuhiro Fujiwara"
 
-KM_ <- "<b>村上 貴一</b>"
+KM_ <- "<FONT color='green'>村上 貴一</FONT>"
 RM_ <- "松田 怜"
 KF_ <- "富士原 和宏"
 
 ```
 
-<FONT color="grey">Last update: 2016-04-16  </FONT><br>
+<FONT color="grey">Last update: 2016-06-18  </FONT><br>
 
 --------------
 
@@ -53,14 +53,14 @@ KF_ <- "富士原 和宏"
 
 
 
-### Journal Articles
+### Journal Articles (peer-reviewed)
 ```{r JournalArticles, message = F, echo = F}
 c(
    ToRecord(
      "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus<i/> spectrum",
      paste(KM, RM, KF, sep = ",<br> "),
      "2014",
-     "Original Article (peer-reviewd)",
+     "Original Article",
      "Plant Biology",
      "http://onlinelibrary.wiley.com/doi/10.1111/plb.12055/abstract"),
    
@@ -68,7 +68,7 @@ c(
     "Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper",
     paste(KM, RM, KF, sep = ",<br> "),
     "2013",
-    "Original Article (peer-reviewd)",
+    "Original Article",
     "Journal of Agricultural Meteorology",
     "https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.2/_article"),
   
@@ -76,7 +76,7 @@ c(
     "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
     paste(KM, RM, KF, sep = ",<br> "),
     "2016 (in press)",
-    "Original Article (peer-reviewd)",
+    "Original Article",
     "Physiologia Plantarum",
     "http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract"),
   
@@ -84,7 +84,7 @@ c(
     "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
     paste(RM, "Takuto Yamano", KM, KF, sep = ",<br> "),
     "2016",
-    "Original Article (peer-reviewd)",
+    "Original Article",
     "Scientia Horticulturae",
     "http://www.sciencedirect.com/science/article/pii/S0304423815303198")
 ) %>%
@@ -108,7 +108,7 @@ c(
   ToRecord(
     "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
     paste(RM, KM, sep = ",<br> "),
-    "2016 (in press)",
+    "2016",
     "Book chapter (peer-reviewd)",
     "Progress in Botany",
     "http://www.springer.com/in/book/9783319256863"),
@@ -137,7 +137,15 @@ c(
 
 ### Presentations in International Academic Conferences
 ```{r Symposiums_International, message = F, echo = F}
-c(
+c(  
+  ToRecord(
+    "Non-destructive estimation of light energy distribution between photosystems",
+    paste(KM, RM, KF, sep = ",<br> "),
+    "2016",
+    "Oral (Sumitted)",
+    "AusPheno2016. Camberra, Australia. Sep.",
+    ""),
+  
   ToRecord(
     "A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light",
     paste(KM, RM, KF, sep = ",<br> "),
@@ -208,7 +216,7 @@ c(
     paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
     "2014",
     "Poster",
-    "第 5 回日本光合成学会年会および公開シンポジウム, 奈良, 2014.05.",
+    "第 5 回日本光合成学会年会, 奈良, 2014.05.",
     ""),
 
   ToRecord(
