@@ -308,6 +308,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ### Google Chart
 <a href = "https://developers.google.com/chart/interactive/docs/gallery">Chart Gallery</a>  
+<a href = "https://developers.google.com/chart/interactive/docs/reference">Google Visualization API Reference</a>    
 
 ### heatmap
 インタラクティブなヒートマップ。
@@ -325,10 +326,13 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ### Multidimensional
 <a href = "http://www.sthda.com/english/wiki/impressive-package-for-3d-and-4d-graph-r-software-and-data-visualization">Impressive package for 3D and 4D graph - R software and data visualization</a>
 
-### 個別案件
+
+
+## 個別案件
 ポイント＋関数回帰曲線をggplot2で → <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
 ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
 facetへ数式を書き込む → <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
+インタラクティブな図をpowerpointへ → <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/"</a>  
 
 
 
