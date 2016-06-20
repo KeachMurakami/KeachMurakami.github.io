@@ -119,6 +119,9 @@ http://www.aremachi.com/
 
 ## 物品購入
 
+### 気になる装置
+<a href = "https://www.cid-inc.com/">CID Bio-Science</a> CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
+
 ### 中古装置
 <a href = "http://www.hitechfacility.co.jp/">Hightech&Facility</a>  
 <a href = "http://www.n-denkei.co.jp/">日本電計</a>  
@@ -260,7 +263,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "https://rweekly.org/">RWeekly.org</a>  
 <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a> 金融より。  
 <a href = "http://masaqol.hatenablog.com/archive/2015">今週も特にありません 進捗どうですか？</a> 金融より。  
-
+<a href = "http://ill-identified.hatenablog.com/">ill-identified diary</a>  
 
 ## まとめ系
 
