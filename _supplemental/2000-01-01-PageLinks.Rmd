@@ -87,7 +87,6 @@ Salk Institute Genomic Analysis Laboratory
 
 ### よい報告の仕方  
 <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a> プログラムに限らず、研究一般でも同じ。  
-http://www.aremachi.com/
 
 
 ## 研究系ブログ   
@@ -335,7 +334,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ポイント＋関数回帰曲線をggplot2で → <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
 ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
 facetへ数式を書き込む → <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
-インタラクティブな図をpowerpointへ → <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/"</a>  
+インタラクティブな図をpowerpointへ → <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/">Embedding R-generated Interactive HTML pages in MS PowerPoint</a>  
 
 
 
