@@ -94,6 +94,7 @@ Salk Institute Genomic Analysis Laboratory
 ### 研究者 (他分野)
 <a href = "http://next49.hatenadiary.jp/entry/20080105/p3">発声練習</a> とても参考になる。  
 <a href = "http://www.aremachi.com/">アレ待チろまん</a> 専門は分子細胞生理学っぽい。  
+<a href = "http://takehiko-i-hayashi.hatenablog.com/">Take a Risk：林岳彦の研究メモ</a> リスク学と統計学。  
 
 ### 企業・会社
 <a href = "http://emj.sblo.jp/">日本環境計測のブログ</a> 日本環境計測株式会社さん。エンジニア魂を感じる。  
@@ -263,6 +264,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a> 金融より。  
 <a href = "http://masaqol.hatenablog.com/archive/2015">今週も特にありません 進捗どうですか？</a> 金融より。  
 <a href = "http://ill-identified.hatenablog.com/">ill-identified diary</a>  
+<a href = "http://temp20151223.blogspot.jp/">a log</a>  
 
 ## まとめ系
 
