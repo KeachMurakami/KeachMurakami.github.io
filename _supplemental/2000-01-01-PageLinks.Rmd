@@ -240,7 +240,10 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 - <a href = "https://groups.google.com/forum/#!forum/r-study-tokyo">TokyoR</a>
 - <a href = "http://seesaawiki.jp/w/syou6162/">TsukubaR</a>
-- <a href = "https://kobexr.doorkeeper.jp/">KobeR</a>
+- <a href = "https://kobexr.doorkeeper.jp/">KobeR</a>  
+
+### HOXO-M
+<a href = "http://mockquant.blogspot.jp/">HOXO-M - anonymous data analyst group in Japan - </a>  
 
 
 
@@ -337,6 +340,15 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
 facetへ数式を書き込む → <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
 インタラクティブな図をpowerpointへ → <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/">Embedding R-generated Interactive HTML pages in MS PowerPoint</a>  
+
+
+
+-------
+
+# プログラミング全般
+<a href = "http://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=2568ed82eb-Qiita_newsletter_213_06_22_2016&utm_medium=email&utm_term=0_e44feaa081-2568ed82eb-33203329">コードを書くさいの指針として見返すサイトまとめ</a>  
+
+##
 
 
 
