@@ -268,6 +268,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://masaqol.hatenablog.com/archive/2015">今週も特にありません 進捗どうですか？</a> 金融より。  
 <a href = "http://ill-identified.hatenablog.com/">ill-identified diary</a>  
 <a href = "http://temp20151223.blogspot.jp/">a log</a>  
+<a href = "http://teuder.hatenablog.com/">teuder's blog</a>  
+
+
 
 ## まとめ系
 
@@ -340,6 +343,11 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
 facetへ数式を書き込む → <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
 インタラクティブな図をpowerpointへ → <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/">Embedding R-generated Interactive HTML pages in MS PowerPoint</a>  
+
+
+
+## What's
+<a href = "https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html">Hybrid evaluation → </a>  
 
 
 
