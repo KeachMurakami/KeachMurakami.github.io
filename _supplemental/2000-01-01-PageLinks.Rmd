@@ -173,6 +173,7 @@ Salk Institute Genomic Analysis Laboratory
 
 # 統計学  
 <a href = "http://ebsa.ism.ac.jp/">統計科学のための電子図書システム</a>  
+<a href = "https://oku.edu.mie-u.ac.jp/~okumura/stat/">統計・データ解析 (奥村先生@三重大)</a>  
 
 ## 実験計画法
 
@@ -277,6 +278,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ### 初心者向けまとめ  
 <a href = "http://www.is.titech.ac.jp/~mase/Rstatman.pdf">R基本統計関数マニュアル</a>  
 <a href = "http://r-beginners.com/">初心者のR入門</a> 日本語。  
+<a href = "http://tryr.codeschool.com/">Try R</a> 打ち込み学習。  
 <a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a> Rでのデータサイエンスのチュートリアル。  
 <a href = "http://www.agr.nagoya-u.ac.jp/~seitai/document/R2009/Rsettings.pdf">Rの設定</a> 環境変数など。
 
@@ -302,6 +304,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a> デブコン。　 
 
 ### Plotly
+<a href = "https://plot.ly/r/user-guide/">plotly for R User Guide</a> 全般。  
 <a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a> Shiny×Plotlyのギャラリー。 
 
 ### rCharts
@@ -311,6 +314,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ## Data visualization
 <a href = "http://tsutawarudesign.web.fc2.com/">伝わるデザイン 研究発表のユニバーサルデザイン</a>  
+<a href = "https://oku.edu.mie-u.ac.jp/~okumura/stat/colors.html">統計グラフの色 (奥村先生@三重大)</a>  
 <a href = "http://qiita.com/keiono/items/9042bf58224ca54bdb45">プログラマーが効果的な可視化を作成する</a>  
 <a href = "http://qiita.com/keiono/items/2dd8228c88abcc4db0b0">データ可視化の実践者が共有すべき知識</a>  
 
