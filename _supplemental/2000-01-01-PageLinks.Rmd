@@ -343,10 +343,26 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 ## 個別案件
-ポイント＋関数回帰曲線をggplot2で → <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
-ggplot2の軸を対数軸べき乗で → <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
-facetへ数式を書き込む → <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
-インタラクティブな図をpowerpointへ → <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/">Embedding R-generated Interactive HTML pages in MS PowerPoint</a>  
+ポイント＋関数回帰曲線をggplot2で
+
+- <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
+
+ggplot2の軸を対数軸べき乗で
+
+- <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
+
+facetへ数式を書き込む
+
+- <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
+
+インタラクティブな図をpowerpointへ
+
+- <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/">Embedding R-generated Interactive HTML pages in MS PowerPoint</a>  
+
+論文っぽい表を出す
+
+- <a href = "http://rstudio-pubs-static.s3.amazonaws.com/13917_e79b7454b3ca4819a3255ab2f09d84f2.html">knitr + マークダウンでクールなLaTeXっぽい表</a>  
+- <a href = "https://www.karada-good.net/analyticsr/r-302/">Rで解析：レポートに便利な表の作成「xtable」パッケージ</a>  
 
 
 
@@ -357,10 +373,11 @@ facetへ数式を書き込む → <a href = "http://stackoverflow.com/questions/
 
 -------
 
-# プログラミング全般
+# プログラミング/その他・全般
 <a href = "http://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=2568ed82eb-Qiita_newsletter_213_06_22_2016&utm_medium=email&utm_term=0_e44feaa081-2568ed82eb-33203329">コードを書くさいの指針として見返すサイトまとめ</a>  
 
-##
+## Bioconductor
+<a href = "http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual#BIOCONPROGRAMS">R & Bioconductor Manual</a>  
 
 
 
