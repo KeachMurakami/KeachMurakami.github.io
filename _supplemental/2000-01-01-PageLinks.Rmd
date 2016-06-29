@@ -68,6 +68,7 @@ Salk Institute Genomic Analysis Laboratory
 <a href = "https://www.gfd-dennou.org/arch/hiroki/homepage/english/english2.html">科学英語メモ (新版)</a>  
 <a href = "http://homepage1.nifty.com/Mercury/ohoyamak/index.html">科学論文で役立つ英語</a>  
 <a href = "http://www.shiga-med.ac.jp/~koyama/eng/eng-index.html">論文英語ナビ</a>  
+<a href = "https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm">英語論文の査読表現集</a>  
 
 ### 一般
 <a href = "http://www.f.waseda.jp/shinoda/technique-index.htm">社会で役立つ英語習得のテクニック</a> 決まり文句など  
