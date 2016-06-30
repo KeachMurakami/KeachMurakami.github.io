@@ -311,6 +311,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ### rCharts
 <a href = "https://rpubs.com/kohske/12409">rCharts featuring highcharts</a> rCharts::hPlot。  
 
+### chunked
+重いデータをメモリに読み込まずに処理する  
+<a href = "https://github.com/edwindj/chunked">chunked</a> 
 
 
 ## Data visualization
