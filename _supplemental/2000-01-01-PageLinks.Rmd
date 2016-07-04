@@ -257,6 +257,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
 <a href = "http://notchained.hatenablog.com/">Technically, technophobic.</a>  
 <a href = "http://blog.kz-md.net/">日々是独想</a> ぞうさん通信  
+<a href = "http://d.hatena.ne.jp/tsutatsutatsuta/">どんな鳥も</a> 
 <a href = "http://statmodeling.hatenablog.com/">StatModeling Memorandum</a>  
 <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
 <a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
@@ -290,18 +291,31 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "https://github.com/rstudio/RStartHere">RStartHere</a> RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。  
 <a href = "https://github.com/qinwf/awesome-R">awesome-R</a> なんでもありなパッケージリスト。  
 
+### UseR!まとめ
+<a href = "https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md">2016</a>  
+
 
 
 ## パッケージ・その他  
 
 ### knitr
+解析の再現性を確保したレポート作成  
 <a href = "http://yihui.name/knitr/">`knitr` Elegant, flexible and fast dynamic report generation with R (yihui)</a>  
 
 ### ggplot2
+データの階層構造を活かしたグラフ作成
 <a href = "http://docs.ggplot2.org/current/index.html">Official</a>  
 <a href = "http://yutannihilation.github.io/ggplot2-gyakubiki/">ggplot2逆引き</a>  
 
-### Shiny  
+### dplyr・tidyr
+データハンドリング
+<a href = "http://notchained.hatenablog.com/entry/2016/07/01/001836">dplyrのmutate_if()とかについて</a>  
+
+### chunked
+重いデータをメモリに読み込まずに処理する。  
+<a href = "https://github.com/edwindj/chunked">chunked</a> 
+
+### Shiny
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a> デブコン。　 
 
 ### Plotly
@@ -311,9 +325,6 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ### rCharts
 <a href = "https://rpubs.com/kohske/12409">rCharts featuring highcharts</a> rCharts::hPlot。  
 
-### chunked
-重いデータをメモリに読み込まずに処理する  
-<a href = "https://github.com/edwindj/chunked">chunked</a> 
 
 
 ## Data visualization
