@@ -247,6 +247,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ### HOXO-M
 <a href = "http://mockquant.blogspot.jp/">HOXO-M - anonymous data analyst group in Japan - </a>  
 
+### UseR
+<a href = "https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016">useR! 2016 international R User conference</a>  
+
 
 
 ## ブログ系
