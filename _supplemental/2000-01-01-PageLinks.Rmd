@@ -302,6 +302,8 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 解析の再現性を確保したレポート作成  
 <a href = "http://yihui.name/knitr/">`knitr` Elegant, flexible and fast dynamic report generation with R (yihui)</a>  
 
+- <a href = "https://dl.dropboxusercontent.com/u/15335397/slides/2016-useR-bookdown-Yihui-Xie.html">bookdown</a> 
+
 ### ggplot2
 データの階層構造を活かしたグラフ作成
 <a href = "http://docs.ggplot2.org/current/index.html">Official</a>  
@@ -316,13 +318,16 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "https://github.com/edwindj/chunked">chunked</a> 
 
 ### Shiny
+共有プラットフォーム
 <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a> デブコン。　 
 
 ### Plotly
+インタラクティブな作図
 <a href = "https://plot.ly/r/user-guide/">plotly for R User Guide</a> 全般。  
 <a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a> Shiny×Plotlyのギャラリー。 
 
 ### rCharts
+インタラクティブな作図
 <a href = "https://rpubs.com/kohske/12409">rCharts featuring highcharts</a> rCharts::hPlot。  
 
 
@@ -382,7 +387,7 @@ facetへ数式を書き込む
 
 
 ## What's
-<a href = "https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html">Hybrid evaluation → </a>  
+<a href = "https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html">Hybrid evaluation</a> →  
 
 
 
@@ -409,6 +414,7 @@ facetへ数式を書き込む
 
 ### BibTeX
 <a href = "http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93">BibTeX活用術</a>  
+<a href = "ftp://ftp.fau.de/ctan/biblio/pbibtex/base/jbtxdoc.pdf">BIBTEXing：BIBTEXの使い方</a>  
 <a href = "http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html">bibtex Yamamoto's Laboratory</a>  
 <a href = "http://tex.stackexchange.com/questions/186848/superscript-in-my-reference-bibtex">superscript in my reference--bibtex</a> 下付き・上付きにする
 - {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) → <a href = "https://keachmurakami.github.io/lab/2016/06/14/bibtex2.html">書いた</a>  
