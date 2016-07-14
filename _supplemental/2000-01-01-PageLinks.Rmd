@@ -159,10 +159,13 @@ Salk Institute Genomic Analysis Laboratory
 <a href = "http://www.lowtem.hokudai.ac.jp/plantadapt/photosynthesis_way-j.html">光合成研究法</a>  
 <a href = "http://www.publish.csiro.au/nid/103/issue/2664.htm">Sun/Shade acclimation (1988; Special Issue of *Australian Journal of Plant Physiology*)</a>  
 <a href = "http://www.sciencedirect.com/science/journal/00052728/1807/8">Regulation of photosynthetic electron transport (2011; Special Issue of *Biochimica et Biophysica Acta (BBA) - Bioenergetics*)</a>  
+<a href = "http://jxb.oxfordjournals.org/content/56/411.toc">Light stress in plants: mechanismsand interactions special issue (2005; Special Issue of *Journal of Experimental Botany*)</a>  
 
 ### 光形態形成・光質応答
 <a href = "http://onlinelibrary.wiley.com/book/10.1002/9780470988893">Annual Plant Reviews Volume 30: Light and Plant Development</a>  
 
+### モデリング
+<a href = "http://jxb.oxfordjournals.org/content/61/8.toc">Plant modelling: new approaches to an old subject (2010; Special Issue of *Journal of Experimental Botany*)</a>  
 
 
 ## 栽培方法について
@@ -226,6 +229,18 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ## 統計ネタの多いブログ
 <a href = "http://d.hatena.ne.jp/ryamada22/">ryamadaの遺伝学・遺伝統計学メモ</a>  
+
+
+
+-------
+
+# デザイン
+<a href = "http://tsutawarudesign.web.fc2.com/">伝わるデザイン 研究発表のユニバーサルデザイン</a>  
+<a href = "http://piccsy.com/investors/">piccsy</a>  
+
+
+## スライド
+<a href = "http://www.slideshare.net/kotas/git-15276118">こわくない Git </a> かっこいい。  
 
 
 
@@ -336,7 +351,6 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 ## Data visualization
-<a href = "http://tsutawarudesign.web.fc2.com/">伝わるデザイン 研究発表のユニバーサルデザイン</a>  
 <a href = "https://oku.edu.mie-u.ac.jp/~okumura/stat/colors.html">統計グラフの色 (奥村先生@三重大)</a>  
 <a href = "http://qiita.com/keiono/items/9042bf58224ca54bdb45">プログラマーが効果的な可視化を作成する</a>  
 <a href = "http://qiita.com/keiono/items/2dd8228c88abcc4db0b0">データ可視化の実践者が共有すべき知識</a>  

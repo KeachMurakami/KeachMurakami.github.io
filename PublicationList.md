@@ -7,7 +7,7 @@ layout: page
 
 
 
-<FONT color="grey">Last update: 2016-06-18  </FONT><br>
+<FONT color="grey">Last update: 2016-07-14  </FONT><br>
 
 --------------
 
@@ -57,11 +57,11 @@ layout: page
 
 ### Presentations in International Academic Conferences
 
-|Title                                                                                                                                               |Authors                                                                           |Year |Type            |Venue.Date                                                                                                      |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|:----|:---------------|:---------------------------------------------------------------------------------------------------------------|
-|Non-destructive estimation of light energy distribution between photosystems                                                                        |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2016 |Oral (Sumitted) |AusPheno2016. Camberra, Australia. Sep.                                                                         |
-|A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2015 |Poster          |GreenSys 2015. Évora, Portugal. July.                                                                           |
-|Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper        |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2012 |Poster          |7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct |
+|Title                                                                                                                                               |Authors                                                                           |Year |Type   |Venue.Date                                                                                                      |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|:----|:------|:---------------------------------------------------------------------------------------------------------------|
+|Non-destructive estimation of light energy distribution between photosystems                                                                        |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2016 |Oral   |AusPheno2016. Camberra, Australia. Sep.                                                                         |
+|A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2015 |Poster |GreenSys 2015. Évora, Portugal. July.                                                                           |
+|Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper        |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara |2012 |Poster |7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct |
 
 <br>
 <br>
