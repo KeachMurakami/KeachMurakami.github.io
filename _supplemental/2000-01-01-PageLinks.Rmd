@@ -410,6 +410,24 @@ facetへ数式を書き込む
 
 -------
 
+# TeX
+よくわからずやっているので、危うい  
+とりあえず、導入した手順を思い出せるよう、時系列でURLログ。  
+<a href = "http://bicycle1885.hatenablog.com/entry/2014/10/15/032024">RStudioから使えるR Markdownで日本語のPDFを作成する</a>  
+BasicTeXで準備→設定→R Markdownファイルの作成までやっても
+
+> pandoc: pdflatex not found. pdflatex is needed for pdf output.
+> Error: pandoc document conversion failed with error 41
+> Execution halted
+> 
+> No TeX installation detected (TeX is required to create PDF output). You should install a recommended TeX distribution for your platform:
+
+だったので、MacTeX (June, 2016; 2.93GB) を導入  
+
+
+
+-------
+
 # プログラミング/その他・全般
 <a href = "http://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=2568ed82eb-Qiita_newsletter_213_06_22_2016&utm_medium=email&utm_term=0_e44feaa081-2568ed82eb-33203329">コードを書くさいの指針として見返すサイトまとめ</a>  
 
