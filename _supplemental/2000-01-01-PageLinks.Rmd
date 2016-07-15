@@ -177,7 +177,8 @@ Salk Institute Genomic Analysis Laboratory
 
 # 統計学  
 <a href = "http://ebsa.ism.ac.jp/">統計科学のための電子図書システム</a>  
-<a href = "https://oku.edu.mie-u.ac.jp/~okumura/stat/">統計・データ解析 (奥村先生@三重大)</a>  
+<a href = "https://oku.edu.mie-u.ac.jp/~okumura/stat/">統計・データ解析 (奥村先生@三重大学)</a>  
+<a href = "http://kasuya.ecology1.org/stats/index.html">統計webpages入口 (粕谷先生@九州大学)</a>  
 
 ## 実験計画法
 
@@ -275,6 +276,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
 <a href = "http://notchained.hatenablog.com/">Technically, technophobic.</a>  
 <a href = "http://blog.kz-md.net/">日々是独想</a> ぞうさん通信  
+<a href = "https://kohske.wordpress.com/">Hi!!</a>  
 <a href = "http://d.hatena.ne.jp/tsutatsutatsuta/">どんな鳥も</a> 
 <a href = "http://statmodeling.hatenablog.com/">StatModeling Memorandum</a>  
 <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
