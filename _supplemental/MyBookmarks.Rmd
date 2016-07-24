@@ -194,6 +194,10 @@ Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩�
 <a href = "http://ci.nii.ac.jp/naid/110001747104">土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)</a>  
 擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
 
+## マルチレベルモデリング
+要勉強  
+<a href = "http://www.bristol.ac.uk/cmm/learning/multilevel-models/">Multilevel models: An introduction and FAQs</a>  
+
 
 
 ## 計算統計  
@@ -317,6 +321,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 ## パッケージ・その他  
+
+### パッケージ作成
+<a href = "http://qiita.com/wakuteka/items/54f81f32baf50e243461">こわくないRパッケージ開発！2016</a>  
 
 ### knitr
 解析の再現性を確保したレポート作成  

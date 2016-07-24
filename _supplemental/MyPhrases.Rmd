@@ -1,0 +1,115 @@
+---
+title: "MyPhrases"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+layout: post
+categories: bookmarks
+tags: memo
+---
+
+-------
+
+<FONT color="grey">Last update: 2016-05-03  </FONT><br>
+
+<FONT color="green">フォーマル</FONT>  
+<FONT color="orange">フランク</FONT>  
+<FONT color="red">NG</FONT>  
+
+
+## イントロ
+大分類 (光合成の話です)  
+
+- Today, I'd like to talk to you about light use efficiency of the photosynthesis.
+
+中区分 (光合成の中でも)
+
+- There are three things I’d like to cover today.
+
+
+- I will share with you some of recent data.
+- I will show you some of the highlight data.  
+
+### 背景知識の紹介
+レベルに合わせて
+
+- Let me refresh your memory on XXX
+    - "Let me remind you of XXX" は避けた方が無難  
+
+
+
+## まとめ
+
+- We are coming to the end of today’s presentation.  
+- I’m now going to give a brief summary of what we have covered.  
+- Just to summarize, let’s quickly look at the main points again.  
+
+
+
+## つなぎ
+テーマの変わり目、スライドの変わり目、では一言を  
+
+ここまでのテーマをまとめる
+- I think that covers the topic of XXX  
+- Up to here, I have spoken about XXX
+
+次のテーマ/スライドを誘導する  
+- I’d like to start by looking at  
+- Next, I’d like to talk about  
+- Let’s move on to  
+
+ラストのまとめを誘導する  
+That brings us to the end of the final part.  
+
+
+
+## 質疑応答
+
+### 内容を確認する
+迷う余地がないとき以外は、「〜という意味の質問でよろしいですか？」と確認するのが安全  
+
+- Before I get to answer your question, let me just make sure that I understand you correctly.
+- 
+
+
+
+### 
+バリエーションが欲しい  
+
+- Sorry, I couldn't hear you very well.
+- I didn't fully catch your question.
+- I'm not following you, please repeat again.
+    - I don't understand は失礼な言い方らしい
+
+「〜に関する質問であることはわかったのですが、細かいところを聞き漏らしました」と伝えたい
+
+- I only heard you saying somthing about XXX, right?
+
+
+
+### 締める
+雰囲気でわかるけど、一応「この答えで満足いただけましたか？」
+
+- Did I answer your question?
+- <FONT color="orange">Am I clear?</FONT>  
+
+
+それでもダメなら  
+- Still I can't get the point, so let me answer your question later on.
+
+
+--------
+
+## まめ
+
+- I <FONT color="red">want to</FONT> ~  
+    - 幼児語らしい
+    - I'd like to ~ で
+
+- I am ~
+    - 死語らしい
+    - I'm
+
+- 図中でのred lines, red points  
+    - lines in red, points in red の方がそれっぽい
