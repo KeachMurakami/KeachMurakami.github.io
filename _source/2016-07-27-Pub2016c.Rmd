@@ -1,0 +1,21 @@
+---
+title: "初稿完成 (論文進捗2016c"
+output: html_document
+layout: post
+tags: lab log progress memo
+---
+
+アウトライン作成が20160714。  
+初稿までに13日。  
+引用などコミコミで4210 words。  
+
+```{r message = F, echo = T}
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/MyData/WriteLog.R")
+WriteLog("2016c")
+```
+
+執筆ログ表示関数も作成。  
+最近読んだ本に影響されたので。  
+
+#### 参考  
+[できる研究者の論文生産術 どうすれば「たくさん」書けるのか (KS科学一般書)](http://www.kspub.co.jp/book/detail/1531536.html)  
