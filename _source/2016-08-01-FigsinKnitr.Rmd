@@ -55,16 +55,10 @@ knitr::opts_chunk$set(fig.width = 5)
 
 ```
 
-```{r, fig.cap = caption_plain}
-# htmlタグなし
-# {r, fig.cap = caption_plain}
+htmlタグなしの場合のhtmlのソース  
+`{r, fig.cap = caption_plain}`  
 
-plot(1:10)
 ```
-
-タグなしの場合のhtmlのソース
-
-```{html}
 <img src="略=" alt="without html tag testtest." width="480">
 <p class="caption">
 without html tag testtest.
@@ -72,17 +66,11 @@ without html tag testtest.
 ```
 
 
-```{r, fig.cap = caption_html}
-# hook + htmlタグ
-# {r, fig.cap = caption_html}
-
-plot(1:10)
-```
-
-タグありの場合のhtmlのソース  
+htmlタグありの場合のhtmlのソース  
+`{r, fig.cap = caption_html}`  
 `.&quot;`のあたりでタグがコンタミしているため、fig.widthに引数が届いていない  
 
-```{html}
+```
 <img src="略=" alt="with html tag &lt;i&gt;test&lt;/i&gt;&lt;sup&gt;test&lt;/sup&gt;.&quot; width=“480” /&gt;
 &lt;p class=" caption">
 with html tag <i>test</i><sup>test</sup>.
@@ -93,22 +81,18 @@ with html tag <i>test</i><sup>test</sup>.
 chunkの表示だったり実行だったりを自分好みにする  
 setup chunkで読み込むのがよい  
 
-```{r, html.cap = caption_html}
-# hook + htmlタグ
-# {r, html.cap = caption_html}
-
+```{r}
 knitr::knit_hooks$set(html.cap = function(before, options, envir) {
   if(!before) {
     paste0('<p class="caption">', options$html.cap, "</p>")
   }
 })
-
-plot(1:10)
 ```
 
 hookしたタグありの場合のhtmlのソース  
+`{r, html.cap = caption_html}`
 
-```{html}
+```
 <img src="略=" width="480" />
 <p class="caption">
 with html tag <i>test</i><sup>test</sup>.
@@ -137,5 +121,5 @@ knitr::include_graphics(path = "path/to/image")
 [How to set size for local image using knitr for markdown?](http://stackoverflow.com/questions/15625990/how-to-set-size-for-local-image-using-knitr-for-markdown)  
 
 ```{r info}
-session_info()
+devtools::session_info()
 ```

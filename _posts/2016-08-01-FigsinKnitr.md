@@ -64,20 +64,10 @@ caption_plain <-
 knitr::opts_chunk$set(fig.width = 5)
 ```
 
+htmlタグなしの場合のhtmlのソース  
+`{r, fig.cap = caption_plain}`  
 
-```r
-# htmlタグなし
-# {r, fig.cap = caption_plain}
-
-plot(1:10)
 ```
-
-![without html tag testtest.](/figure/source/2016-08-01-FigsinKnitr/unnamed-chunk-5-1.png)
-
-タグなしの場合のhtmlのソース
-
-
-```html
 <img src="略=" alt="without html tag testtest." width="480">
 <p class="caption">
 without html tag testtest.
@@ -85,21 +75,11 @@ without html tag testtest.
 ```
 
 
-
-```r
-# hook + htmlタグ
-# {r, fig.cap = caption_html}
-
-plot(1:10)
-```
-
-![with html tag <i>test</i><sup>test</sup>.](/figure/source/2016-08-01-FigsinKnitr/unnamed-chunk-7-1.png)
-
-タグありの場合のhtmlのソース  
+htmlタグありの場合のhtmlのソース  
+`{r, fig.cap = caption_html}`  
 `.&quot;`のあたりでタグがコンタミしているため、fig.widthに引数が届いていない  
 
-
-```html
+```
 <img src="略=" alt="with html tag &lt;i&gt;test&lt;/i&gt;&lt;sup&gt;test&lt;/sup&gt;.&quot; width=“480” /&gt;
 &lt;p class=" caption">
 with html tag <i>test</i><sup>test</sup>.
@@ -112,24 +92,17 @@ setup chunkで読み込むのがよい
 
 
 ```r
-# hook + htmlタグ
-# {r, html.cap = caption_html}
-
 knitr::knit_hooks$set(html.cap = function(before, options, envir) {
   if(!before) {
     paste0('<p class="caption">', options$html.cap, "</p>")
   }
 })
-
-plot(1:10)
 ```
 
-![plot of chunk unnamed-chunk-9](/figure/source/2016-08-01-FigsinKnitr/unnamed-chunk-9-1.png)<p class="caption">with html tag <i>test</i><sup>test</sup>.</p>
-
 hookしたタグありの場合のhtmlのソース  
+`{r, html.cap = caption_html}`
 
-
-```html
+```
 <img src="略=" width="480" />
 <p class="caption">
 with html tag <i>test</i><sup>test</sup>.
@@ -160,9 +133,37 @@ knitr::include_graphics(path = "path/to/image")
 
 
 ```r
-session_info()
+devtools::session_info()
 ```
 
 ```
-## Error in eval(expr, envir, enclos): could not find function "session_info"
+## Session info --------------------------------------------------------------
+```
+
+```
+##  setting  value                       
+##  version  R version 3.2.3 (2015-12-10)
+##  system   x86_64, darwin14.5.0        
+##  ui       X11                         
+##  language (EN)                        
+##  collate  en_US.UTF-8                 
+##  tz       Asia/Tokyo                  
+##  date     2016-08-01
+```
+
+```
+## Packages ------------------------------------------------------------------
+```
+
+```
+##  package  * version date       source        
+##  devtools   1.9.1   2015-09-11 CRAN (R 3.2.0)
+##  digest     0.6.8   2014-12-31 CRAN (R 3.1.2)
+##  evaluate   0.8     2015-09-18 CRAN (R 3.1.3)
+##  formatR    1.2.1   2015-09-18 CRAN (R 3.1.3)
+##  knitr      1.13.1  2016-05-26 local         
+##  magrittr   1.5     2014-11-22 CRAN (R 3.1.2)
+##  memoise    0.2.1   2014-04-22 CRAN (R 3.1.0)
+##  stringi    1.0-1   2015-10-22 CRAN (R 3.1.3)
+##  stringr    1.0.0   2015-04-30 CRAN (R 3.1.3)
 ```
