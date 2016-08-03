@@ -122,6 +122,7 @@ Salk Institute Genomic Analysis Laboratory
 
 ### 気になる装置
 - <a href = "https://www.cid-inc.com/">CID Bio-Science</a> CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
+- <a href = "http://www.ollie.co.jp/JTS.html">JTS-10</a> デモをワークショップでみたやつ。  
 
 ### 中古装置
 - <a href = "http://www.hitechfacility.co.jp/">Hightech&Facility</a>  
@@ -188,6 +189,7 @@ Salk Institute Genomic Analysis Laboratory
 ### 分散分析　　
 - <a href = "http://ofmind.net/doc/anova-note">分散分析のノート</a>  
 - <a href = "http://lbm.ab.a.u-tokyo.ac.jp/~omori/">大森先生@東大農</a> 実験計画法全般、生物統計全般の資料。  
+- <a href = "http://ofmind.net/doc/anova-note">ぶんさんぶんせき@中西政志さん</a> Type I~IIIのANOVAの話など。  
 
 ### 擬似反復  
 - <a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
@@ -352,6 +354,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 - <a href = "http://docs.ggplot2.org/current/index.html">Official</a>  
 - <a href = "http://yutannihilation.github.io/ggplot2-gyakubiki/">ggplot2逆引き</a>  
+- <a href = "http://www.ggplot2-exts.org/">ggplot2 extensions</a> 拡張パッケージ
 
 ##### Plotly
 インタラクティブな作図  

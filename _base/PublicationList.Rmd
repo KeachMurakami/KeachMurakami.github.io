@@ -12,12 +12,21 @@ library(knitr)
 
 # Record generator
 ToRecord <-
-  function(title, authors, year, in_what, type, url)
-  c(Title = title,
-    Authors = authors,
-    Year = year,
-    In = in_what,
-    Type = type)
+  function(title, authors, year, in_what, type, url = NULL){
+    if(url == ""){
+      c(Title = title,
+        Authors = authors,
+        Year = year,
+        In = in_what,
+        Type = type)
+    } else {
+      c(Title = paste0("<a href = '", url, "'>", title, "</a>"),
+        Authors = authors,
+        Year = year,
+        In = in_what,
+        Type = type)
+    }
+  }
 
 # Table generator
 ToKable <-
@@ -43,7 +52,7 @@ KF_ <- "富士原 和宏"
 
 ```
 
-<FONT color="grey">Last update: 2016-06-18  </FONT><br>
+<FONT color="grey">Last update: 2016-08-03  </FONT><br>
 
 --------------
 
@@ -57,7 +66,7 @@ KF_ <- "富士原 和宏"
 ```{r JournalArticles, message = F, echo = F}
 c(
    ToRecord(
-     "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus<i/> spectrum",
+     "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus</i> spectrum",
      paste(KM, RM, KF, sep = ",<br> "),
      "2014",
      "Original Article",
@@ -107,7 +116,7 @@ c(
 c(
   ToRecord(
     "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
-    paste(RM, KM, sep = ",<br> "),
+    paste(RM, KM, sep = ",<br>"),
     "2016",
     "Book chapter (peer-reviewd)",
     "Progress in Botany",
@@ -115,11 +124,11 @@ c(
   
   ToRecord(
     "Optical and physiological properties of a leaf",
-    paste(KM, RM, sep = ",<br> "),
-    "(submitted)",
+    paste(KM, RM, sep = ",<br>"),
+    "in press",
     "Book chapter",
-    "--",
-    "http://www.springer.com/in/book/9783319256863")
+    "LED Lighting for Urban Agriculture",
+    "http://www.springer.com/us/book/9789811018466")
 ) %>%
   ToKable(in_what = "Book")
 ```
@@ -142,7 +151,7 @@ c(
     "Non-destructive estimation of light energy distribution between photosystems",
     paste(KM, RM, KF, sep = ",<br> "),
     "2016",
-    "Oral (Sumitted)",
+    "Oral",
     "AusPheno2016. Camberra, Australia. Sep.",
     ""),
   
