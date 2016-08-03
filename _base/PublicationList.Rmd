@@ -84,7 +84,7 @@ c(
   ToRecord(
     "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
     paste(KM, RM, KF, sep = ",<br> "),
-    "2016 (in press)",
+    "2016<br>(in press)",
     "Original Article",
     "Physiologia Plantarum",
     "http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract"),
@@ -118,14 +118,14 @@ c(
     "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
     paste(RM, KM, sep = ",<br>"),
     "2016",
-    "Book chapter (peer-reviewd)",
+    "Book chapter<br>(peer-reviewd)",
     "Progress in Botany",
     "http://www.springer.com/in/book/9783319256863"),
   
   ToRecord(
     "Optical and physiological properties of a leaf",
     paste(KM, RM, sep = ",<br>"),
-    "in press",
+    "2016<br>(in press)",
     "Book chapter",
     "LED Lighting for Urban Agriculture",
     "http://www.springer.com/us/book/9789811018466")
