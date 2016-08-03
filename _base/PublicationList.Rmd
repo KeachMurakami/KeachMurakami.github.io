@@ -20,7 +20,7 @@ ToRecord <-
         In = in_what,
         Type = type)
     } else {
-      c(Title = paste0("<a href = '", url, "'>", title, "</a>"),
+      c(Title = paste0("<a href = '", url, "' target='_blank'>", title, "</a>"),
         Authors = authors,
         Year = year,
         In = in_what,
