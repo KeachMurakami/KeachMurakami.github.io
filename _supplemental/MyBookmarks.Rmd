@@ -300,6 +300,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 - <a href = "http://ill-identified.hatenablog.com/">ill-identified diary</a>  
 - <a href = "http://temp20151223.blogspot.jp/">a log</a>  
 - <a href = "http://teuder.hatenablog.com/">teuder's blog</a>  
+- <a href = "http://kiito.hatenablog.com/">歩いたら休め</a>  
 
 
 
@@ -355,6 +356,23 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 - <a href = "http://docs.ggplot2.org/current/index.html">Official</a>  
 - <a href = "http://yutannihilation.github.io/ggplot2-gyakubiki/">ggplot2逆引き</a>  
 - <a href = "http://www.ggplot2-exts.org/">ggplot2 extensions</a> 拡張パッケージ
+
+geom_area・geom_barのfill順序をうまいことする
+
+- <a href = "http://stackoverflow.com/questions/15251816/how-do-you-order-the-fill-colours-within-ggplot2-geom-bar">How do you order the fill colours within ggplot2 geom bar</a>  
+    - `ggplot(aes(order = ...))`はdeprecated (> 2.0.0あたり)  
+
+ポイント＋関数回帰曲線をggplot2で
+
+- <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
+
+ggplot2の軸を対数軸べき乗で
+
+- <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
+
+facetへ数式を書き込む
+
+- <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
 
 ##### Plotly
 インタラクティブな作図  
@@ -431,17 +449,6 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 ## 個別案件
-ポイント＋関数回帰曲線をggplot2で
-
-- <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
-
-ggplot2の軸を対数軸べき乗で
-
-- <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
-
-facetへ数式を書き込む
-
-- <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
 
 インタラクティブな図をpowerpointへ
 
@@ -474,6 +481,12 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 > No TeX installation detected (TeX is required to create PDF output). You should install a recommended TeX distribution for your platform:
 
 だったので、MacTeX (June, 2016; 2.93GB) を導入  
+
+
+-------
+
+# Stan
+- <a href = "https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-%28Japanese%29">RStan Getting Started (Japanese)</a>  
 
 
 
