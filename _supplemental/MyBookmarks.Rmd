@@ -216,6 +216,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 - <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a> パーティクルフィルタに関する資料がいくつかある。  
 - <a href = "http://d.hatena.ne.jp/teramonagi/20140525/1400996808">逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた</a> teramonagiさんのBlog。リンクもいくつかある。  
 - <a href = "http://data-assimilation.jp/en/events/da_seminar/index.html">Data Assimilation Seminar Series</a> 理研データ同化チームのセミナー資料など。  
+- <a href = "https://www.jstage.jst.go.jp/browse/seitai/-char/ja/">生態学分野における状態空間モデルの利用 (2016; 日本生態学会誌)</a> 
 
 
 
