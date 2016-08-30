@@ -400,6 +400,7 @@ facetへ数式を書き込む
 共有プラットフォーム  
 
 - <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a> デブコン。　 
+- <a href = "http://deanattali.com/blog/advanced-shiny-tips/">Shiny tips & tricks for improving your apps and solving common problems</a> 小技のまとめ。  
 
 
 
