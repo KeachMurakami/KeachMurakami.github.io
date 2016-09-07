@@ -79,8 +79,9 @@ That brings us to the end of the final part.
 
 - Sorry, I couldn't hear you very well.
 - I didn't fully catch your question.
+- Can you rephrase that more simply?
 - I'm not following you, please repeat again.
-    - I don't understand は失礼な言い方らしい
+    - I don't understand は失礼な言い方
 
 「〜に関する質問であることはわかったのですが、細かいところを聞き漏らしました」と伝えたい
 
@@ -98,6 +99,7 @@ That brings us to the end of the final part.
 それでもダメなら  
 - I am not qualified to answer... .
 - Still I can't get the point, so let me answer your question later on.
+- Sorry, I’m having trouble understanding your question. Could we talk directly after this session?
 
 
 --------
