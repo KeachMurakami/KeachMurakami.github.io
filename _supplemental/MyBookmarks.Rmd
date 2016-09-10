@@ -348,11 +348,15 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 - <a href = "http://notchained.hatenablog.com/entry/2016/07/01/001836">dplyrのmutate_if()とかについて</a>  
 
-### chunked
+##### chunked
 重いデータをメモリに読み込まずに処理する。  
 
 - <a href = "https://github.com/edwindj/chunked">chunked</a> 
 
+##### rvest
+Webからデータを取ってくる。  
+
+- <a href = "https://book.mynavi.jp/manatee/detail/id=59386">rvestによるWebスクレイピング</a>  
 
 
 #### 作図
