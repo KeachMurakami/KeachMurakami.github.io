@@ -11,7 +11,6 @@ layout: default
 
 Keach Murakami
 
------
 
 Ph.D student  
 [BioEnvironmental Engineering (BEE) Group](http://www.kankyo.en.a.u-tokyo.ac.jp/index-E.htm),  
@@ -24,6 +23,8 @@ The University of Tokyo
 Address: 1-1-1 Yayoi, Bunkyo, Tokyo, 113-8657 Japan  
 Office: Room #413, Building 7A  
 E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp  
+
+<br>
 
 
 
@@ -41,8 +42,7 @@ E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp
 
 ------
 
-
-
+<br>
 
 ### Education
 
@@ -53,8 +53,7 @@ E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp
 
 ------
 
-
-
+<br>
 
 ### Professional Experience
 
@@ -64,8 +63,7 @@ E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp
 
 ------
 
-
-
+<br>
 
 ### Academic Society Membership
 

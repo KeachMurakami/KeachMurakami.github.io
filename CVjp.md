@@ -13,7 +13,6 @@ layout: default
 
 東京大学 大学院農学生命科学研究科の[生物環境工学研究室](http://www.kankyo.en.a.u-tokyo.ac.jp/index-E.htm)所属の博士課程学生 (D3) です。  
 
--------
 
 Address: 1-1-1 Yayoi, Bunkyo, Tokyo, 113-8657 Japan  
 Office: Room #413, Building 7A  
@@ -21,15 +20,23 @@ E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp
 
 
 
+<br>
+
 ### 専門分野  
 生物環境工学  
 光合成生理学  
+
+------
+
+<br>
 
 ### 研究テーマ  
 
 #### 高等植物の光合成電子伝達の光質応答  
 
 ------
+
+<br>
 
 ### 学歴
 
@@ -45,6 +52,8 @@ E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp
 
 ------
 
+<br>
+
 ### 職歴
 
 |Year          |Category                        |Advisor                      |
@@ -53,9 +62,21 @@ E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp
 
 ------
 
+<br>
+
 ### 学会活動
 
 |Year  |Society            |
 |:-----|:------------------|
 |2012- |日本生物環境工学会 |
 |2013- |日本農業気象学会   |
+
+-----
+
+<br>
+
+### 趣味  
+
+* サッカー  
+    * 都リーグ社会人4部 (2015~)  
+    * サッカー審判員4級 (2015~)  

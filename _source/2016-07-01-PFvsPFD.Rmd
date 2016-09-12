@@ -1,0 +1,12 @@
+---
+title: "PFvsPFD"
+author: "KeachMurakami"
+date: "June 21, 2016"
+output: html_document
+---
+
+#### PAQF
+Photosynthetically active quantum flux (Harbinson et al. 1989など)
+
+The term photosynthetic photon flux density (PPFD) is technically incorrect (redundant). The units of flux are micro meters per meter squared per second, and the value of that flux indicates the magnitude or "density" of that flux. Thus, PPFD is redundant and photosynthetic photon flux (PPF) should be used, as it is the correct way to define the term.   
+We have a different opinion.  “Photon flux density” and “photon flux” are both currently used as “the number of photons incident on a plane surface per unit area per unit time”, with the units of mol m–2 s–1.  Bell and Rose (1981) (Plant Cell Environ. 4, 89–96) have discussed the appropriate terminology of light environmental factors in detail.  Importantly, to be consistent with the terminology of radiant energy flow in a vector field, they point out that the correct unit of “photon flux” is mol s–1, not mol m–2 s–1.  For “the number of photons incident on a plane surface per unit area per unit time”, they recommend using the term “incident photon flux area density”.  Although this term is consistent with other terms related to light and is unambiguous, it is not used as often as “photon flux density” or “photon flux” and is somewhat redundant.  We have therefore elected to use “photon flux density” rather than “photon flux” because the former is a widely accepted term and can be more properly expressed as mol m–2 s–1.  

@@ -5,7 +5,73 @@ layout: post
 tags: lab knitr memo R
 ---
 
-## knitr + rmarkdown での作図出力に関するメモ
+## knitr + pandocでのpdfファイル出力に関するメモ
+
+### YAML
+
+```
+---
+title: "MyYAML"
+author: "Keach Murakami"
+date: "2016-08-23 12:27:27"
+bibliography: ~/GitHub/BeeLabR/BibTex/Full.bib
+header-includes:
+  - \setmainfont{Helvetica Neue} 
+  - \usepackage{zxjatype} # 日本語を使うためのパッケージ
+  - \setjamainfont{Hiragino Kaku Gothic Pro} # 日本語フォントの指定
+  - \usepackage{lscape} # 図を回転するためのパッケージ
+  - \newcommand{\blandscape}{\begin{landscape}} # 図回転用のbegin command
+  - \newcommand{\elandscape}{\end{landscape}} # 図回転用のend command
+  - \usepackage{setspace} # 行間の調節ためのパッケージ
+  - \newcommand{\bdoublespace}{\begin{spacing}{1.5}} # 行間を広げるbegin command
+  - \newcommand{\edoublespace}{\end{spacing}{1.5}} # 行間を広げるbegin command
+  - \usepackage{lineno} # 行番号を追加するためのパッケージ
+  - \linenumbers # 行番号を追加する
+
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: TRUE
+    toc_depth: 3
+    fig_caption: TRUE
+fontsize: 12pt
+geometry: margin=1.2in
+  html_document:
+    toc: TRUE
+    depth: 3
+    theme: sandstone
+    self_contained: TRUE
+    fig_caption: TRUE
+---
+```
+
+
+
+行番号
+<a href = "http://stackoverflow.com/questions/14883525/set-double-spacing-and-line-numbers-when-converting-from-markdown-to-pdf-with-pa">
+
+### Setup chunk
+
+```r
+# knitrごとに読み込まれているオブジェクトを全消去
+rm(list = ls())
+
+# ggplotの作図用。デフォルトの大きさを指定
+base_size_default <- 12 
+
+# 数式・図・表にオートで番号付け
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/TeX_accessory.R")
+EqnHead <- "4-"
+FigHead <- "Fig. 4-"
+TableHead <- "Table 4-"
+
+knitr::opts_chunk$set(echo = FALSE, fig.width = 5, fig.height = 5,
+                      out.width = '500pixel', out.height = '500pixel', dpi = 100,
+                      message = FALSE, warning = FALSE, cache = F, eval = T)
+```
+
+
+
 
 ### knitr + rmarkdownで図の大きさ調節
 
@@ -28,7 +94,7 @@ tags: lab knitr memo R
 plot(sin(1:100), type = "l")
 ```
 
-<img src="/figure/source/2016-08-01-FigsinKnitr/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="50%" />
+<img src="/figure/source/2016-08-05-YAMLknitr/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="50%" />
 
 
 ```r
@@ -37,7 +103,7 @@ plot(sin(1:100), type = "l")
 plot(sin(1:100), type = "l")
 ```
 
-<img src="/figure/source/2016-08-01-FigsinKnitr/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="50%" />
+<img src="/figure/source/2016-08-05-YAMLknitr/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="50%" />
 
 
 ```r
@@ -46,7 +112,7 @@ plot(sin(1:100), type = "l")
 plot(sin(1:100), type = "l")
 ```
 
-<img src="/figure/source/2016-08-01-FigsinKnitr/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="50%" />
+<img src="/figure/source/2016-08-05-YAMLknitr/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="50%" />
 
 
 ### 図のキャプションにhtmlタグを直打ちする
@@ -148,7 +214,7 @@ devtools::session_info()
 ##  language (EN)                        
 ##  collate  en_US.UTF-8                 
 ##  tz       Asia/Tokyo                  
-##  date     2016-08-01
+##  date     2016-08-23
 ```
 
 ```
