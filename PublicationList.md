@@ -5,26 +5,22 @@ permalink: /publication_list/
 layout: page
 ---
 
-
-
-<FONT color="grey">Last update: 2016-08-03  </FONT><br>
+<FONT color="grey">Last update: 2016-09-12  </FONT><br>
 
 --------------
 
 
 
 
-
-
-
 ### Journal Articles (peer-reviewed)
 
-|Title                                                                                                                                                                                                                                                                                        |Authors                                                                                              |Year               |Type             |Journal                             |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:------------------|:----------------|:-----------------------------------|
-|<a href = 'http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract' target='_blank'>Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves</a>                                  |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2016<br>(in press) |Original Article |Physiologia Plantarum               |
-|<a href = 'http://www.sciencedirect.com/science/article/pii/S0304423815303198' target='_blank'>Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury</a>                                     |Ryo Matsuda,<br> Takuto Yamano,<br> <FONT color='green'>Keach Murakami</FONT>,<br> Kazuhiro Fujiwara |2016               |Original Article |Scientia Horticulturae              |
-|<a href = 'http://onlinelibrary.wiley.com/doi/10.1111/plb.12055/abstract' target='_blank'>Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus</i> spectrum</a> |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2014               |Original Article |Plant Biology                       |
-|<a href = 'https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.2/_article' target='_blank'>Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper</a>                                      |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2013               |Original Article |Journal of Agricultural Meteorology |
+|Title                                                                                                                                                                                                                                                                                        |Authors                                                                                              |Year                      |Type             |Journal                             |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------|:----------------|:-----------------------------------|
+|A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions                                                                                                                                      |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |submitted<br>(09/12/2016) |Letter           |-                                   |
+|<a href = 'http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract' target='_blank'>Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves</a>                                  |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2016<br>(in press)        |Original Article |Physiologia Plantarum               |
+|<a href = 'http://www.sciencedirect.com/science/article/pii/S0304423815303198' target='_blank'>Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury</a>                                     |Ryo Matsuda,<br> Takuto Yamano,<br> <FONT color='green'>Keach Murakami</FONT>,<br> Kazuhiro Fujiwara |2016                      |Original Article |Scientia Horticulturae              |
+|<a href = 'http://onlinelibrary.wiley.com/doi/10.1111/plb.12055/abstract' target='_blank'>Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus</i> spectrum</a> |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2014                      |Original Article |Plant Biology                       |
+|<a href = 'https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.2/_article' target='_blank'>Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper</a>                                      |<FONT color='green'>Keach Murakami</FONT>,<br> Ryo Matsuda,<br> Kazuhiro Fujiwara                    |2013                      |Original Article |Journal of Agricultural Meteorology |
 
 <br>
 <br>

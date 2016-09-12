@@ -1,0 +1,17 @@
+---
+title: "論文投稿 (論文進捗2016b"
+output: html_document
+layout: post
+tags: lab log progress memo
+---
+
+光化学系間での光エネルギーの分配に関する論文 (Letter) を投稿  
+解説系の論文ははじめてだったのでなかなか苦戦  
+引用などコミコミで4417 words  
+
+この論文から、文章書き、データ解析、作図 (イラスト以外) を完全にRで行うようになった  
+
+```{r, message = F, echo = T, warning = F}
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/MyData/WriteLog.R")
+WriteLog("2016b")
+```
