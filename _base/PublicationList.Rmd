@@ -5,7 +5,7 @@ permalink: /publication_list/
 layout: page
 ---
 
-<FONT color="grey">Last update: 2016-09-12  </FONT><br>
+<FONT color="grey">Last update: 2016-09-16  </FONT><br>
 
 --------------
 
@@ -66,7 +66,7 @@ c(
      "2014",
      "Original Article",
      "Plant Biology",
-     "http://onlinelibrary.wiley.com/doi/10.1111/plb.12055/abstract"),
+     "http://onlinelibrary.wiley.com/wol1/doi/10.1111/plb.12055/abstract"),
    
   ToRecord(
     "Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper",
@@ -79,10 +79,10 @@ c(
   ToRecord(
     "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
     paste(KM, RM, KF, sep = ",<br> "),
-    "2016<br>(in press)",
+    "2016",
     "Original Article",
     "Physiologia Plantarum",
-    "http://onlinelibrary.wiley.com/doi/10.1111/ppl.12421/abstract"),
+    "http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12421/abstract"),
   
   ToRecord(
     "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
