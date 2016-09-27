@@ -5,7 +5,7 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2016-05-03  </FONT><br>
+<FONT color="grey">Last update: 2016-07-27  </FONT><br>
 
 -----
 
@@ -14,9 +14,13 @@ layout: default
 -----
 
 ### 研究関連
-経歴→ [CV](https://keachmurakami.github.io/about/CVjp/)  
-研究紹介→ [作成予定](https://keachmurakami.github.io/)  
-論文→ [PublicationList](https://keachmurakami.github.io/publication_list/)  
+- 経歴→ [CV](https://keachmurakami.github.io/about/CVjp/)  
+- 研究紹介→ 作成予定  
+- 論文など
+    - [PublicationList](https://keachmurakami.github.io/publication_list/)  
+    - [GoogleScholar](https://scholar.google.co.jp/citations?user=IgtMr-oAAAAJ&hl=en)  
+    - [ORCID id](https://orcid.org/0000-0001-8150-9535)  
+    - [ResearchGate](https://www.researchgate.net/profile/Keach_Murakami) 
 
 <br>
 <br>
@@ -29,16 +33,15 @@ layout: default
 データの記録から解析・レポート作成・作図まで  
 
 欠かせないパッケージ  
-<ul>
-  <li>ggplot2</li>
-  <li>plyr & dplyr</li>
-  <li>tidyr</li>
-  <li>stringr</li>
-  <li>knitr</li>
-  <li>magrittr</li>
-  <li>data.table</li>
-  <li>lubridate</li>
-</ul>  
+
+- knitr
+- ggplot2
+- plyr & dplyr
+- tidyr
+- stringr
+- magrittr
+- data.table
+- lubridate
 
 <br>
 
