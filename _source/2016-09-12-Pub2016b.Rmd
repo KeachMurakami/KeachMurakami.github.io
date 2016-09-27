@@ -2,7 +2,7 @@
 title: "論文投稿 (論文進捗2016b"
 output: html_document
 layout: post
-tags: lab log progress memo
+tags: lab log
 ---
 
 光化学系間での光エネルギーの分配に関する論文 (Letter) を投稿  

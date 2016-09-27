@@ -2,7 +2,7 @@
 title: "初稿完成 (論文進捗2016c"
 output: html_document
 layout: post
-tags: lab log progress memo
+tags: lab log
 ---
 
 アウトライン作成が20160714。  
