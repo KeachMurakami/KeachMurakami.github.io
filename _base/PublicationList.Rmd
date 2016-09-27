@@ -5,7 +5,7 @@ permalink: /publication_list/
 layout: page
 ---
 
-<FONT color="grey">Last update: 2016-09-16  </FONT><br>
+<FONT color="grey">Last update: 2016-09-27  </FONT><br>
 
 --------------
 
@@ -18,14 +18,12 @@ library(knitr)
 ToRecord <-
   function(title, authors, year, in_what, type, url = NULL){
     if(url == ""){
-      c(Title = title,
-        Authors = authors,
+      c(Title = paste0(title, "<br>&emsp;", authors),
         Year = year,
         In = in_what,
         Type = type)
     } else {
-      c(Title = paste0("<a href = '", url, "' target='_blank'>", title, "</a>"),
-        Authors = authors,
+      c(Title = paste0("<a href = '", url, "' target='_blank'>", title, "</a><br>&emsp;", authors),
         Year = year,
         In = in_what,
         Type = type)
@@ -36,8 +34,8 @@ ToRecord <-
 ToKable <-
   function(PublicationList, in_what){
   PublicationList %<>%
-      matrix(byrow = T, ncol = 5)
-  colnames(PublicationList) = c('Title', 'Authors', 'Year', 'Type', in_what)
+      matrix(byrow = T, ncol = 4)
+  colnames(PublicationList) = c('Title', 'Year', 'Type', in_what)
   PublicationList %>%
     data.frame %>%
     arrange(desc(Year), Type) %>%
@@ -62,7 +60,7 @@ KF_ <- "富士原 和宏"
 c(
    ToRecord(
      "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus</i> spectrum",
-     paste(KM, RM, KF, sep = ",<br> "),
+     paste(KM, RM, KF, sep = ", "),
      "2014",
      "Original Article",
      "Plant Biology",
@@ -70,7 +68,7 @@ c(
    
   ToRecord(
     "Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper",
-    paste(KM, RM, KF, sep = ",<br> "),
+    paste(KM, RM, KF, sep = ", "),
     "2013",
     "Original Article",
     "Journal of Agricultural Meteorology",
@@ -78,7 +76,7 @@ c(
   
   ToRecord(
     "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
-    paste(KM, RM, KF, sep = ",<br> "),
+    paste(KM, RM, KF, sep = ", "),
     "2016",
     "Original Article",
     "Physiologia Plantarum",
@@ -86,7 +84,7 @@ c(
   
   ToRecord(
     "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
-    paste(RM, "Takuto Yamano", KM, KF, sep = ",<br> "),
+    paste(RM, "Takuto Yamano", KM, KF, sep = ", "),
     "2016",
     "Original Article",
     "Scientia Horticulturae",
@@ -94,7 +92,7 @@ c(
     
   ToRecord(
     "A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions",
-    paste(KM, RM, KF, sep = ",<br> "),
+    paste(KM, RM, KF, sep = ", "),
     "submitted<br>(09/12/2016)",
     "Letter",
     "-",
@@ -119,7 +117,7 @@ c(
 c(
   ToRecord(
     "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
-    paste(RM, KM, sep = ",<br>"),
+    paste(RM, KM, sep = ", "),
     "2016",
     "Book chapter<br>(peer-reviewd)",
     "Progress in Botany",
@@ -127,7 +125,7 @@ c(
   
   ToRecord(
     "Optical and physiological properties of a leaf",
-    paste(KM, RM, sep = ",<br>"),
+    paste(KM, RM, sep = ", "),
     "2016<br>(in press)",
     "Book chapter",
     "LED Lighting for Urban Agriculture",
@@ -152,7 +150,7 @@ c(
 c(  
   ToRecord(
     "Non-destructive estimation of light energy distribution between photosystems",
-    paste(KM, RM, KF, sep = ",<br> "),
+    paste(KM, RM, KF, sep = ", "),
     "2016",
     "Oral",
     "AusPheno2016. Canberra, Australia. Sep.",
@@ -160,7 +158,7 @@ c(
   
   ToRecord(
     "A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light",
-    paste(KM, RM, KF, sep = ",<br> "),
+    paste(KM, RM, KF, sep = ", "),
     "2015",
     "Poster",
     "GreenSys 2015. Évora, Portugal. July.",
@@ -168,10 +166,10 @@ c(
   
   ToRecord(
     "Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper",
-    paste(KM, RM, KF, sep = ",<br> "),
+    paste(KM, RM, KF, sep = ", "),
     "2012",
     "Poster",
-    "7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct",
+    "7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct.",
     "")
 ) %>%
   ToKable(in_what = "Venue Date")
@@ -193,82 +191,82 @@ c(
 c(
   ToRecord(
     "夜間に照射する LED 光の分光分布および PPFD がトマト苗の成育および可視障害に及ぼす影響",
-    paste(AddUnderline(RM_), "山埜 拓人", KM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(RM_), "山埜 拓人", KM_, KF_, sep = ", "),
     "2016",
     "Oral",
-    "日本農業気象学会 2016 年全国大会, 岡山, 2016.03",
+    "日本農業気象学会 2016 年全国大会, 岡山, 3月",
     ""),
   
   ToRecord(
     "サンプルサイズ（<i>n</i>）の検定力分析による決定 ―グロースチャンバでの植物栽培試験での例—",
-    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(KM_), RM_, KF_, sep = ", "),
     "2016",
     "Poster",
-    "日本農業気象学会 2016 年全国大会, 岡山, 2016.03",
+    "日本農業気象学会 2016 年全国大会, 岡山, 3月",
     ""),
   
   ToRecord(
     "栽培中の遠赤色光添加は栽培後の葉の光合成速度を小さくするのか？",
-    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(KM_), RM_, KF_, sep = ", "),
     "2015",
     "Oral",
-    "日本生物環境工学会 2015 年宮崎大会, 宮崎, 2015.09",
+    "日本生物環境工学会 2015 年宮崎大会, 宮崎, 9月",
     ""),
   
   ToRecord(
     "異なる分光分布の光照射下で成育した葉の光合成速度比較結果は測定光分光分布に影響される",
-    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(KM_), RM_, KF_, sep = ", "),
     "2015",
     "Oral",
-    "日本農業気象学会 2015 年全国大会, つくば, 2015.03",
+    "日本農業気象学会 2015 年全国大会, つくば, 3月",
     ""),
   
   ToRecord(
     "異なる狭波長帯 LED 光の混合照射下における個葉の総光合成速度の推定",
-    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(KM_), RM_, KF_, sep = ", "),
     "2014",
     "Poster",
-    "第 5 回日本光合成学会年会, 奈良, 2014.05.",
+    "第 5 回日本光合成学会年会, 奈良, 5月",
     ""),
 
   ToRecord(
     "下位葉補光・終夜補光の光質が植物の光合成特性と成育に及ぼす影響",
-    paste(AddUnderline(RM_), "山埜 拓人", KM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(RM_), "山埜 拓人", KM_, KF_, sep = ", "),
     "2014",
     "Oral",
-    "日本農業気象学会 2014 年全国大会, 札幌, 2014.03",
+    "日本農業気象学会 2014 年全国大会, 札幌, 3月",
     ""),
   
   ToRecord(
     "種々のピーク波長の LED を用いた混合光照射下におけるコスレタス葉の光合成量子収率",
-    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(KM_), RM_, KF_, sep = ", "),
     "2014",
     "Oral",
-    "日本農業気象学会 2014 年全国大会, 札幌, 2014.03",
+    "日本農業気象学会 2014 年全国大会, 札幌, 3月",
     ""),
   
   ToRecord(
     "異なるピーク波長の LED を用いた混合光照射下における個葉の光合成量子収率",
-    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(KM_), RM_, KF_, sep = ", "),
     "2013",
     "Oral",
-    "日本生物環境工学会 2013 年香川大会, 高松, 2013.09",
+    "日本生物環境工学会 2013 年香川大会, 高松, 9月",
     ""),
   
   ToRecord(
     "インゲンマメ下位葉への単色 LED 光照射が上位葉の光合成特性に及ぼす影響",
-    paste(AddUnderline(KM_), RM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(KM_), RM_, KF_, sep = ", "),
     "2013",
     "Oral",
-    "日本生物環境工学会 2012 年東京大会, 東京, 2012.09",
+    "日本生物環境工学会 2012 年東京大会, 東京, 9月",
     ""),
   
   ToRecord(
     "トマト養液栽培における葉面積指数推定モデルの構築: 気孔コンダクタンスモデルの検討",
-    paste(AddUnderline(RM_), KM_, KF_, sep = ",<br> "),
+    paste(AddUnderline(RM_), KM_, KF_, sep = ", "),
     "2012",
     "Poster",
-    "日本農業気象学会 2012 年全国大会, 大阪, 2012.03",
+    "日本農業気象学会 2012 年全国大会, 大阪, 3月",
     "")
 ) %>%
   ToKable(in_what = "Venue Date")
