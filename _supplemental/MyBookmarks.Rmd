@@ -414,6 +414,8 @@ facetへ数式を書き込む
 - <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a> デブコン。　 
 - <a href = "http://deanattali.com/blog/advanced-shiny-tips/">Shiny tips & tricks for improving your apps and solving common problems</a> 小技のまとめ。  
 
+- <a href = "http://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform/Applications">Shiny app for sun paths and light transmission calculation</a> Shinyアプリを付けている素敵論文
+
 
 
 #### プレゼンテーション
