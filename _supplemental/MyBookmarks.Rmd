@@ -555,6 +555,11 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 
 
+## 可視化
+- <a href = "http://playground.tensorflow.org/">Deep playground</a> d3.jsで可視化したNN。
+
+
+
 -------
 
 # その他
