@@ -62,21 +62,27 @@ Salk Institute Genomic Analysis Laboratory
 ## 英語
 
 ### 論文書き  
-- <a href = "http://lsd-project.jp/cgi-bin/lsdproj/ejlookup04.pl">LifeScienceDictonary</a> 共起表現が便利  
-- <a href = "http://www.phrasebank.manchester.ac.uk/">Academic Phrasebank</a>  
-- <a href = "https://www.gfd-dennou.org/arch/hiroki/homepage/english/english.html">科学英語メモ</a>  
-- <a href = "https://www.gfd-dennou.org/arch/hiroki/homepage/english/english2.html">科学英語メモ (新版)</a>  
-- <a href = "http://homepage1.nifty.com/Mercury/ohoyamak/index.html">科学論文で役立つ英語</a>  
-- <a href = "http://www.shiga-med.ac.jp/~koyama/eng/eng-index.html">論文英語ナビ</a>  
-- <a href = "https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm">英語論文の査読表現集</a>  
+
+- [LifeScienceDictonary](http://lsd-project.jp/cgi-bin/lsdproj/ejlookup04.pl) 共起表現が便利  
+- [Academic Phrasebank](http://www.phrasebank.manchester.ac.uk/)  
+- [科学英語メモ](https://www.gfd-dennou.org/arch/hiroki/homepage/english/english.html)  
+- [科学英語メモ (新版)](https://www.gfd-dennou.org/arch/hiroki/homepage/english/english2.html)  
+- [科学論文で役立つ英語](http://homepage1.nifty.com/Mercury/ohoyamak/index.html)  
+- [論文英語ナビ](http://www.shiga-med.ac.jp/~koyama/eng/eng-index.html)  
+
+### 査読
+まだやったことないけど、近々くるだろう
+- [英語論文の査読表現集](https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm)
+
 
 ### 一般
-- <a href = "http://www.f.waseda.jp/shinoda/technique-index.htm">社会で役立つ英語習得のテクニック</a> 決まり文句など  
+普段遣いの英語がわからん
+- [社会で役立つ英語習得のテクニック](http://www.f.waseda.jp/shinoda/technique-index.htm) 決まり文句など  
 
 
 
 ## 学会
-- <a href = "http://takenaka-akio.org/index_01.html">学会発表の心得</a>  
+- [学会発表の心得](http://takenaka-akio.org/index_01.html)  
 
 ### スライド
 
@@ -84,10 +90,10 @@ Salk Institute Genomic Analysis Laboratory
 ## 進捗・報告
 
 ### ないとき  
-- <a href = "http://scienceandtechnology.jp/archives/9655">沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード</a> あつい。  
+- [沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード](http://scienceandtechnology.jp/archives/9655) あつい。  
 
 ### よい報告の仕方  
-- <a href = "http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html">効果的にバグを報告するには</a> プログラムに限らず、研究一般でも同じ。  
+- [効果的にバグを報告するには](http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html) プログラムに限らず、研究一般でも同じ。  
 
 
 ## 研究系ブログ   
@@ -98,7 +104,7 @@ Salk Institute Genomic Analysis Laboratory
 - <a href = "http://takehiko-i-hayashi.hatenablog.com/">Take a Risk：林岳彦の研究メモ</a> リスク学と統計学。  
 
 ### 企業・会社
-- <a href = "http://emj.sblo.jp/">日本環境計測のブログ</a> 日本環境計測株式会社さん。エンジニア魂を感じる。  
+- [日本環境計測のブログ](http://emj.sblo.jp/) 日本環境計測株式会社さん。エンジニア魂を感じる。  
 
 
 
@@ -112,11 +118,11 @@ Salk Institute Genomic Analysis Laboratory
 - <a href = "http://www.hfsp.org/funding/research-grants/information-and-guidelines">Human Frontier Science Program</a> Research Grants・Postdoctoral fellowships  
 
 ## 海外渡航助成
-- <a href = "https://internationaleducation.gov.au/Endeavour%20program/Scholarships-and-Fellowships/Pages/default.aspx">Endeavour Scholarships and Fellowships</a> オーストラリア・4--6ヶ月
+- [Endeavour Scholarships and Fellowships](https://internationaleducation.gov.au/Endeavour%20program/Scholarships-and-Fellowships/Pages/default.aspx) オーストラリア・4--6ヶ月
 
 
 ## 申請書
-- <a href = "http://xn--w8yz0bc56a.com/">科研費.com</a> 科研費申請書のコツ。大勢がコツに頼りだすとその業界はおしまいでもある。  
+- [科研費.com](http://xn--w8yz0bc56a.com/) 科研費申請書のコツ。大勢がコツに頼りだすとその業界はおしまいでもある。  
 
 
 

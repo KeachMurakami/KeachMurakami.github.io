@@ -153,7 +153,7 @@ c(
     paste(KM, RM, KF, sep = ", "),
     "2016",
     "Oral",
-    "AusPheno2016. Canberra, Australia. Sep.",
+    "ICEC/AusPheno 2016. Canberra, Australia. Sep.",
     ""),
   
   ToRecord(
