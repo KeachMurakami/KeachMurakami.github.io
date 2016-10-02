@@ -184,6 +184,10 @@ Salk Institute Genomic Analysis Laboratory
 - <a href = "http://www.controlledenvironments.org/Growth_Chamber_Handbook/Plant_Growth_Chamber_Handbook.htm">Plant Growth Chamber Handbook</a>  
 
 
+## データ提供
+- <a href = "http://speclib.jpl.nasa.gov/">ASTER Spectral Library - Version 2.0</a> 分光分布ライブラリ
+
+
 
 -------
 
@@ -345,10 +349,17 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 #### 下準備
 
-##### dplyr・tidyr
+##### [dplyr](https://github.com/hadley/dplyr)・[tidyr](https://github.com/hadley/tidyr)
 データハンドリング  
 
-- <a href = "http://notchained.hatenablog.com/entry/2016/07/01/001836">dplyrのmutate_if()とかについて</a>  
+- [dplyrを使いこなす！基礎編](http://qiita.com/matsuou1/items/e995da273e3108e2338e)
+- [dplyrのmutate_if()とかについて](http://notchained.hatenablog.com/entry/2016/07/01/001836)
+
+- tidyr::spreadで複数カラムをwide持ちしたい...
+
+##### [forcats](https://github.com/tidyverse/forcats)
+factorsを扱う
+
 
 ##### chunked
 重いデータをメモリに読み込まずに処理する。  
