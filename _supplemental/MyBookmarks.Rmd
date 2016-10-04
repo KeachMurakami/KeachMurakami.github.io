@@ -59,9 +59,9 @@ Salk Institute Genomic Analysis Laboratory
 
 
 
-## 英語
+## 書き仕事
 
-### 論文書き  
+### 英語  
 
 - [LifeScienceDictonary](http://lsd-project.jp/cgi-bin/lsdproj/ejlookup04.pl) 共起表現が便利  
 - [Academic Phrasebank](http://www.phrasebank.manchester.ac.uk/)  
@@ -71,21 +71,29 @@ Salk Institute Genomic Analysis Laboratory
 - [論文英語ナビ](http://www.shiga-med.ac.jp/~koyama/eng/eng-index.html)  
 - [英語例文を見て自然に英語・英会話を学ぶ](http://www.geocities.jp/kusumotokeiji/eigo.htm)  
 
+- [コミュニケーション@見延庄士郎のHP](http://www.sci.hokudai.ac.jp/~minobe/education.html)  
+- 
+
 ### 査読
 まだやったことないけど、近々くるだろう
 - [英語論文の査読表現集](https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm)
-
+- 
 
 ### 一般
 普段遣いの英語がわからん
 - [社会で役立つ英語習得のテクニック](http://www.f.waseda.jp/shinoda/technique-index.htm) 決まり文句など  
+- 
 
 
 
 ## 学会
 - [学会発表の心得](http://takenaka-akio.org/index_01.html)  
+- 
 
 ### スライド
+
+### ポスター
+
 
 
 ## 進捗・報告
@@ -97,12 +105,13 @@ Salk Institute Genomic Analysis Laboratory
 - [効果的にバグを報告するには](http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html) プログラムに限らず、研究一般でも同じ。  
 
 
+
 ## 研究系ブログ   
 
 ### 研究者 (他分野)
-- <a href = "http://next49.hatenadiary.jp/entry/20080105/p3">発声練習</a> とても参考になる。  
-- <a href = "http://www.aremachi.com/">アレ待チろまん</a> 専門は分子細胞生理学っぽい。  
-- <a href = "http://takehiko-i-hayashi.hatenablog.com/">Take a Risk：林岳彦の研究メモ</a> リスク学と統計学。  
+- [発声練習](http://next49.hatenadiary.jp/entry/20080105/p3) とても参考になる。  
+- [アレ待チろまん](http://www.aremachi.com/) 専門は分子細胞生理学っぽい。  
+- [Take a Risk：林岳彦の研究メモ](http://takehiko-i-hayashi.hatenablog.com/) リスク学と統計学。  
 
 ### 企業・会社
 - [日本環境計測のブログ](http://emj.sblo.jp/) 日本環境計測株式会社さん。エンジニア魂を感じる。  
@@ -110,16 +119,23 @@ Salk Institute Genomic Analysis Laboratory
 
 
 ## 研究助成
-- <a href = "http://scienceportal.jst.go.jp/funding/application/">Science Portal</a> 研究助成情報  
-- <a href = "http://www.canon-foundation.jp/index.html">キヤノン財団</a> 産業基盤の創生・理想の追求  
-- <a href = "https://r.lne.st/grants/">リバネス研究費</a> 科学技術の発展と地球貢献の実現  
-- <a href = "http://www.nakashima-foundation.org/kieikai/index.html">一般財団法人 旗影会</a> 畜産、畜産工業その他農畜産、食品工業等に関する学術研究  
-- <a href = "http://www.sgkz.or.jp/">公益財団法人 新技術開発財団</a> 広く科学技術に関する独創的な研究や新技術 (会社への助成)  
-- <a href = "http://www.mayekawa.org/">公益財団法人 前川報恩会</a> 球温暖化対策を目的とした、熱エネルギーの有効利用に資する研究 農業分野等との学際的研究も含む）  
-- <a href = "http://www.hfsp.org/funding/research-grants/information-and-guidelines">Human Frontier Science Program</a> Research Grants・Postdoctoral fellowships  
+- [Science Portal](http://scienceportal.jst.go.jp/funding/application/) 研究助成情報  
+- [キヤノン財団](http://www.canon-foundation.jp/index.html) 産業基盤の創生・理想の追求  
+- [リバネス研究費](https://r.lne.st/grants/) 科学技術の発展と地球貢献の実現  
+- [一般財団法人 旗影会](http://www.nakashima-foundation.org/kieikai/index.html) 畜産、畜産工業その他農畜産、食品工業等に関する学術研究  
+- [公益財団法人 新技術開発財団](http://www.sgkz.or.jp/) 広く科学技術に関する独創的な研究や新技術 (会社への助成)  
+- [公益財団法人 前川報恩会](http://www.mayekawa.org/) 球温暖化対策を目的とした、熱エネルギーの有効利用に資する研究 農業分野等との学際的研究も含む）  
 
 ## 海外渡航助成
-- [Endeavour Scholarships and Fellowships](https://internationaleducation.gov.au/Endeavour%20program/Scholarships-and-Fellowships/Pages/default.aspx) オーストラリア・4--6ヶ月
+- [Human Frontier Science Program](http://www.hfsp.org/funding/research-grants/information-and-guidelines)
+    - Research Grants/Postdoctoral fellowships
+    - 3 years
+    - 分野横断的であることが要件
+    - 採択率は10--15%程度 (全応募者 = native)
+- [Endeavour Scholarships and Fellowships](https://internationaleducation.gov.au/Endeavour%20program/Scholarships-and-Fellowships/Pages/default.aspx)
+    - Australia
+    - 4--6 months
+    - 採択率は不明
 
 
 ## 申請書
@@ -130,19 +146,19 @@ Salk Institute Genomic Analysis Laboratory
 ## 物品購入
 
 ### 気になる装置
-- <a href = "https://www.cid-inc.com/">CID Bio-Science</a> CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
-- <a href = "http://www.ollie.co.jp/JTS.html">JTS-10</a> デモをワークショップでみたやつ。  
+- [CID Bio-Science](https://www.cid-inc.com/) CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
+- [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
 
 ### 中古装置
-- <a href = "http://www.hitechfacility.co.jp/">Hightech&Facility</a>  
-- <a href = "http://www.n-denkei.co.jp/">日本電計</a>  
+- [Hightech&Facility](http://www.hitechfacility.co.jp/)  
+- [日本電計](http://www.n-denkei.co.jp/)  
 
 ### ものづくり
-- <a href = "http://www.nogatadenki.jp/">野方電機工業</a> 金属加工  
-- <a href = "http://www.sunstep.net/">(有) サンステップ</a> プリント基板  
+- [野方電機工業](http://www.nogatadenki.jp/) 金属加工。webページがとてもカッコイイ。  
+- [(有) サンステップ](http://www.sunstep.net/") プリント基板  
 
-### 便利な小物
-- <a href = "http://akizukidenshi.com/catalog/g/gP-08006/">AE-LED56V2</a> 小型・安価なLED基板
+### 便利そうな小物
+- [AE-LED56V2](http://akizukidenshi.com/catalog/g/gP-08006/) 小型・安価なLED基板
 
 
 
@@ -363,10 +379,15 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 - [dplyrのmutate_if()とかについて](http://notchained.hatenablog.com/entry/2016/07/01/001836)
 
 - tidyr::spreadで複数カラムをwide持ちしたい...
+    - [できないっぽい](http://stackoverflow.com/questions/29775461/tidyr-repeated-measures-multiple-variables-wide-format?noredirect=1&lq=1)  
+    - `tidyr::unite` -> `tidyr::spread` -> `tidyr::separate`は非常に回りくどい  
+    - `reshape2::a/dcast`は使いたくないなぁ
 
 ##### [forcats](https://github.com/tidyverse/forcats)
 factorsを扱う
 
+##### [broom](https://github.com/dgrtwo/broom)
+回帰モデルの返り値をキレイにする
 
 ##### chunked
 重いデータをメモリに読み込まずに処理する。  
