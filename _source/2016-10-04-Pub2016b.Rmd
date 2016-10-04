@@ -6,3 +6,9 @@ tags: lab log
 ---
 
 [Letter](https://keachmurakami.github.io/2016/09/28/Pub2016b.html)の査読へ対応し、投稿  
+
+引用などコミコミで4796 words。  
+```{r message = F, echo = T, warning = F}
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/MyData/WriteLog.R")
+WriteLog("2016b")
+```
