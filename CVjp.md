@@ -5,7 +5,7 @@ permalink: /about/CVjp/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2016-05-03  </FONT><br>
+<FONT color="grey">Last update: 2016-10-04  </FONT><br>
 
 --------------
 
