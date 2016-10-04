@@ -2,10 +2,10 @@
 title: "knitr figure"
 output: html_document
 layout: post
-tags: lab knitr memo R
+tags: lab knitr Rmd memo R
 ---
 
-## knitr + pandocでのpdfファイル出力に関するメモ
+## knitr + Rmarkdown + pandocメモ
 
 ### YAML
 
@@ -24,7 +24,7 @@ header-includes:
   - \newcommand{\elandscape}{\end{landscape}} # 図回転用のend command
   - \usepackage{setspace} # 行間の調節ためのパッケージ
   - \newcommand{\bdoublespace}{\begin{spacing}{1.5}} # 行間を広げるbegin command
-  - \newcommand{\edoublespace}{\end{spacing}{1.5}} # 行間を広げるbegin command
+  - \newcommand{\edoublespace}{\end{spacing}{}} # 行間を広げるbegin command
   - \usepackage{lineno} # 行番号を追加するためのパッケージ
   - \linenumbers # 行番号を追加する
 
@@ -34,11 +34,7 @@ output:
     toc: TRUE
     toc_depth: 3
     fig_caption: TRUE
-fontsize: 12pt
-geometry: margin=1.2in
   html_document:
-    toc: TRUE
-    depth: 3
     theme: sandstone
     self_contained: TRUE
     fig_caption: TRUE
@@ -46,9 +42,8 @@ geometry: margin=1.2in
 ```
 
 
-
-行番号
-<a href = "http://stackoverflow.com/questions/14883525/set-double-spacing-and-line-numbers-when-converting-from-markdown-to-pdf-with-pa">
+### 行番号をつける・ダブルスペースにする
+<a href = "http://stackoverflow.com/questions/14883525/set-double-spacing-and-line-numbers-when-converting-from-markdown-to-pdf-with-pa">Set double spacing and line numbers when converting from Markdown to PDF with pandoc</a>
 
 ### Setup chunk
 ```{r setup, eval = F}

@@ -2,10 +2,10 @@
 title: "knitr figure"
 output: html_document
 layout: post
-tags: lab knitr memo R
+tags: lab knitr Rmd memo R
 ---
 
-## knitr + pandocでのpdfファイル出力に関するメモ
+## knitr + Rmarkdown + pandocメモ
 
 ### YAML
 
@@ -13,7 +13,7 @@ tags: lab knitr memo R
 ---
 title: "MyYAML"
 author: "Keach Murakami"
-date: "2016-08-23 12:27:27"
+date: "2016-10-04 18:57:30"
 bibliography: ~/GitHub/BeeLabR/BibTex/Full.bib
 header-includes:
   - \setmainfont{Helvetica Neue} 
@@ -24,7 +24,7 @@ header-includes:
   - \newcommand{\elandscape}{\end{landscape}} # 図回転用のend command
   - \usepackage{setspace} # 行間の調節ためのパッケージ
   - \newcommand{\bdoublespace}{\begin{spacing}{1.5}} # 行間を広げるbegin command
-  - \newcommand{\edoublespace}{\end{spacing}{1.5}} # 行間を広げるbegin command
+  - \newcommand{\edoublespace}{\end{spacing}{}} # 行間を広げるbegin command
   - \usepackage{lineno} # 行番号を追加するためのパッケージ
   - \linenumbers # 行番号を追加する
 
@@ -34,11 +34,7 @@ output:
     toc: TRUE
     toc_depth: 3
     fig_caption: TRUE
-fontsize: 12pt
-geometry: margin=1.2in
   html_document:
-    toc: TRUE
-    depth: 3
     theme: sandstone
     self_contained: TRUE
     fig_caption: TRUE
@@ -46,9 +42,8 @@ geometry: margin=1.2in
 ```
 
 
-
-行番号
-<a href = "http://stackoverflow.com/questions/14883525/set-double-spacing-and-line-numbers-when-converting-from-markdown-to-pdf-with-pa">
+### 行番号をつける・ダブルスペースにする
+<a href = "http://stackoverflow.com/questions/14883525/set-double-spacing-and-line-numbers-when-converting-from-markdown-to-pdf-with-pa">Set double spacing and line numbers when converting from Markdown to PDF with pandoc</a>
 
 ### Setup chunk
 
@@ -208,13 +203,13 @@ devtools::session_info()
 
 ```
 ##  setting  value                       
-##  version  R version 3.2.3 (2015-12-10)
-##  system   x86_64, darwin14.5.0        
+##  version  R version 3.3.1 (2016-06-21)
+##  system   x86_64, darwin13.4.0        
 ##  ui       X11                         
 ##  language (EN)                        
 ##  collate  en_US.UTF-8                 
 ##  tz       Asia/Tokyo                  
-##  date     2016-08-23
+##  date     2016-10-04
 ```
 
 ```
@@ -223,13 +218,14 @@ devtools::session_info()
 
 ```
 ##  package  * version date       source        
-##  devtools   1.9.1   2015-09-11 CRAN (R 3.2.0)
-##  digest     0.6.8   2014-12-31 CRAN (R 3.1.2)
-##  evaluate   0.8     2015-09-18 CRAN (R 3.1.3)
-##  formatR    1.2.1   2015-09-18 CRAN (R 3.1.3)
-##  knitr      1.13.1  2016-05-26 local         
-##  magrittr   1.5     2014-11-22 CRAN (R 3.1.2)
-##  memoise    0.2.1   2014-04-22 CRAN (R 3.1.0)
-##  stringi    1.0-1   2015-10-22 CRAN (R 3.1.3)
-##  stringr    1.0.0   2015-04-30 CRAN (R 3.1.3)
+##  devtools   1.12.0  2016-06-24 CRAN (R 3.3.0)
+##  digest     0.6.10  2016-08-02 cran (@0.6.10)
+##  evaluate   0.9     2016-04-29 CRAN (R 3.3.1)
+##  formatR    1.4     2016-05-09 CRAN (R 3.3.1)
+##  knitr      1.14    2016-08-13 CRAN (R 3.3.1)
+##  magrittr   1.5     2014-11-22 CRAN (R 3.3.1)
+##  memoise    1.0.0   2016-01-29 CRAN (R 3.3.1)
+##  stringi    1.1.1   2016-05-27 CRAN (R 3.3.1)
+##  stringr    1.1.0   2016-08-19 cran (@1.1.0) 
+##  withr      1.0.2   2016-06-20 CRAN (R 3.3.1)
 ```
