@@ -1,0 +1,64 @@
+---
+title: "knitr equation (数式に連番をつけ、本文で呼び出す)"
+output: html_document
+layout: post
+tags: lab knitr Rmd memo R
+---
+
+## knitr + Rmarkdown + pandocメモ
+
+### 数式に連続番号 (タグ) を付けて、本文中でタグを呼び出す
+
+#### 連番作成用に関数を組む
+```{r}
+EqnNum_count <- 0
+head <- "Eqn."
+
+EqnNum <-
+  function(head){
+    EqnNum_count <<- EqnNum_count + 1
+    return(paste0(head, EqnNum_count))
+  }
+```
+Chapterごとに`EqnNum_count`を初期化し、`head`を"Eqn. ChapX-"のように変更  
+[クロージャ](http://qiita.com/HirofumiYashima/items/ed17c83f26de3d510b93)を使うとよりよいはず  
+
+#### .Rmdに書き込む
+```{eval = F}
+$$
+  P_{\rm{g}} = \displaystyle \sum^{i = n}_{i = 1} P_{\lambda, i} \times E_{\lambda, i} \tag{`r EqnNum(head)`}
+  \label{McCree1972}
+$$
+
+$$
+  \rm{ETR} \propto \rm{PPFD} \times \alpha \times \Phi_{\rm{PSII}}
+  \tag{`r EqnNum(head)`}
+  \label{Genty1989}
+$$
+
+総光合成速度 (*P*<sub>g</sub>) を推定する2つの数式 (\ref{McCree1972}, \ref{Genty1989})  
+```
+
+#### knitする
+$$
+  P_{\rm{g}} = \displaystyle \sum^{i = n}_{i = 1} P_{\lambda, i} \times E_{\lambda, i} \tag{`r EqnNum(head)`}
+  \label{McCree1972}
+$$
+
+$$
+  \rm{ETR} \propto \rm{PPFD} \times \alpha \times \Phi_{\rm{PSII}}
+  \tag{`r EqnNum(head)`}
+  \label{Genty1989}
+$$
+
+総光合成速度 (*P*<sub>g</sub>) を推定する2つの数式 (\ref{McCree1972}, \ref{Genty1989})  
+
+#### 雑感
+`\label{}`を追加すると、Rstudioの数式プレビューが機能しなくなる  
+
+
+#### 参考
+[論文投稿規程で学ぶ「てふ」スキル](http://d.hatena.ne.jp/ryamada/20140503)  
+[クロージャってどんなときに使うの？ ～ 利用場面を ３つ 挙げてみる](http://qiita.com/HirofumiYashima/items/ed17c83f26de3d510b93)   
+McCree KJ. 1972. *Plant Physiol.* **49**: 704--706.  
+Genty B, Briantais J-M, Baker NR. 1989. *Biochim. Biophys. Acta* **990**: 87--92.
