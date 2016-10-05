@@ -424,7 +424,11 @@ ggplot2の軸を対数軸べき乗で
 
 facetへ数式を書き込む
 
-- <a href = "http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph">ggplot2: Adding Regression Line Equation and R2 on graph</a>  
+- [ggplot2: Adding Regression Line Equation and R2 on graph](http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph)  
+
+aes(col)に複数のスケールをマッピングする  
+
+- できないと神が仰る → [Allow several simultaneous colour scales](https://github.com/hadley/ggplot2/issues/578)  
 
 ##### Plotly
 インタラクティブな作図  
