@@ -448,16 +448,18 @@ aes(col)に複数のスケールをマッピングする
 ##### knitr
 解析の再現性を確保したレポート作成  
 
-- <a href = "http://yihui.name/knitr/">`knitr` Elegant, flexible and fast dynamic report generation with R (yihui)</a>  
-    - <a href = "https://dl.dropboxusercontent.com/u/15335397/slides/2016-useR-bookdown-Yihui-Xie.html">bookdown</a> 
+- [`knitr` Elegant, flexible and fast dynamic report generation with R (yihui)](http://yihui.name/knitr/)  
+    - [bookdown](https://dl.dropboxusercontent.com/u/15335397/slides/2016-useR-bookdown-Yihui-Xie.html)に続く  
 
 ##### Shiny
 共有プラットフォーム  
 
-- <a href = "https://www.rstudio.com/resources/webinars/shiny-developer-conference/">Shiny-Developer-Conference</a> デブコン。　 
-- <a href = "http://deanattali.com/blog/advanced-shiny-tips/">Shiny tips & tricks for improving your apps and solving common problems</a> 小技のまとめ。  
+- [Shiny-Developer-Conference](https://www.rstudio.com/resources/webinars/shiny-developer-conference/) デブコン  
+- [Shiny tips & tricks for improving your apps and solving common problems](http://deanattali.com/blog/advanced-shiny-tips/) 小技のまとめ  
+- [Authentication of Shiny-server Application Using a Simple Method](http://withr.me/authentication-of-shiny-server-application-using-a-simple-method/) Shinyでパスワード保護  
+    - 予め指定したPWに適合しない場合は表示を抑える、というシンプルな戦略  
 
-- <a href = "http://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform/Applications">Shiny app for sun paths and light transmission calculation</a> Shinyアプリを付けている素敵論文
+- [Shiny app for sun paths and light transmission calculation](http://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform/Applications) Shinyアプリを付けている素敵論文  
 
 
 
