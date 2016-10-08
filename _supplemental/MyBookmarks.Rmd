@@ -471,12 +471,18 @@ aes(col)に複数のスケールをマッピングする
 
 
 
-## Data visualization
-- <a href = "https://oku.edu.mie-u.ac.jp/~okumura/stat/colors.html">統計グラフの色 (奥村先生@三重大)</a>  
-- <a href = "http://qiita.com/keiono/items/9042bf58224ca54bdb45">プログラマーが効果的な可視化を作成する</a>  
-- <a href = "http://qiita.com/keiono/items/2dd8228c88abcc4db0b0">データ可視化の実践者が共有すべき知識</a>  
+## [Bioconductor](https://www.bioconductor.org/)
+- [R & Bioconductor Manual](http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual#BIOCONPROGRAMS)  
 
-- <a href = "http://ayapin-film.sakura.ne.jp/PlotUtils/plotutils.html">計算機は楽し</a> 可視化ソフトが比較してある (Rはない)
+
+
+## Data visualization
+- [統計グラフの色 (奥村先生@三重大)](https://oku.edu.mie-u.ac.jp/~okumura/stat/colors.html)  
+- [プログラマーが効果的な可視化を作成する](http://qiita.com/keiono/items/9042bf58224ca54bdb45)  
+- [データ可視化の実践者が共有すべき知識](http://qiita.com/keiono/items/2dd8228c88abcc4db0b0)  
+- [The viridis color palettes](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)  
+
+- [計算機は楽し](http://ayapin-film.sakura.ne.jp/PlotUtils/plotutils.html) 可視化ソフトが比較してある (Rはない)
 
 ### Google Chart
 - <a href = "https://developers.google.com/chart/interactive/docs/gallery">Chart Gallery</a>  
@@ -547,17 +553,15 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 -------
 
 # Stan
-- <a href = "https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-%28Japanese%29">RStan Getting Started (Japanese)</a>  
-
+- [RStan Getting Started (Japanese)](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-%28Japanese%29)  
+- [Using the ggmcmc package](http://xavier-fim.net/packages/ggmcmc/) MCMC系 × ggplot2。使い勝手がよさそうなので。
+    - [`[stan] [jags]` ggmcmc でMCMCの事後診断 ](http://ill-identified.hatenablog.com/entry/2016/10/07/233000) 解説と改変版
 
 
 -------
 
 # プログラミング/その他・全般  
-- <a href = "http://goo.gl/G9lgXr">コードを書くさいの指針として見返すサイトまとめ</a>  
-
-## Bioconductor
-- <a href = "http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual#BIOCONPROGRAMS">R & Bioconductor Manual</a>  
+- [コードを書くさいの指針として見返すサイトまとめ](http://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=2568ed82eb-Qiita_newsletter_213_06_22_2016&utm_medium=email&utm_term=0_e44feaa081-2568ed82eb-33203329)  
 
 
 
