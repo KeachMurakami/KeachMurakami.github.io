@@ -611,19 +611,19 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 
 ## 画像系
-- <a href = "http://dev.to/rly">O RLY Cover Generator</a> O'Reilly本の表紙風の画像作成。  
-- <a href = "https://research.preferred.jp/2015/09/chainer-gogh/"> 画風を変換するアルゴリズム</a> DNN風加工。  
-- <a href = "http://texclip.marutank.net/">TeXClip</a> TeX数式を画像で出力。  
-
+- [O RLY Cover Generator](http://dev.to/rly) O'Reilly本の表紙風の画像作成。  
+- [画風を変換するアルゴリズム](https://research.preferred.jp/2015/09/chainer-gogh/) DNN風加工。  
+- [TeXClip](http://texclip.marutank.net/) TeX数式を画像で出力。  
+- [RoogleVision](https://github.com/cloudyr/RoogleVision) 画像認識
 
 
 ## 動画系
-- <a href = "http://giphy.com/create/gifeditor">GIPHY</a> GIF作成。  
+- [GIPHY](http://giphy.com/create/gifeditor) GIF作成。  
 
 
 
 ## 可視化
-- <a href = "http://playground.tensorflow.org/">Deep playground</a> d3.jsで可視化したNN。
+- [Deep playground](http://playground.tensorflow.org/) d3.jsで可視化したNN。
 
 
 
@@ -632,5 +632,5 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 # その他
 
 ## 考え方など
-- <a href = "http://acthouse.net/meeting">「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。</a> プライベートでの遅刻には寛容。
+- [1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容。  
 
