@@ -220,12 +220,12 @@ Salk Institute Genomic Analysis Laboratory
 
 
 ## 栽培方法について
-- <a href = "http://www.controlledenvironments.org/Growth_Chamber_Handbook/Plant_Growth_Chamber_Handbook.htm">Plant Growth Chamber Handbook</a>  
+- [Plant Growth Chamber Handbook](http://www.controlledenvironments.org/Growth_Chamber_Handbook/Plant_Growth_Chamber_Handbook.htm)  
 
 
 ## データ提供
-- <a href = "http://speclib.jpl.nasa.gov/">ASTER Spectral Library - Version 2.0</a> 分光分布ライブラリ
-
+- [ASTER Spectral Library - Version 2.0](http://speclib.jpl.nasa.gov/) 分光分布ライブラリ
+- [Natural Phenomena Simulation Group@University of Waterloo](http://www.npsg.uwaterloo.ca/data/leaves.php) 色素の吸収スペクトル  
 
 
 -------
