@@ -1,0 +1,15 @@
+---
+title: "査読対応round2 (2016b"
+output: html_document
+layout: post
+tags: lab log
+---
+
+[Letter](https://keachmurakami.github.io/2016/09/28/Pub2016b.html)の査読 (round 2) へ対応し、再投稿  
+このLetterに予定していたより時間をとられてD論が苦しい  
+
+引用などコミコミで4752 words  
+```{r message = F, echo = T, warning = F}
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/MyData/WriteLog.R")
+WriteLog("2016b")
+```
