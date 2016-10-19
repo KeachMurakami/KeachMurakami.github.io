@@ -156,7 +156,7 @@ c(
     paste(AddUnderline(KM), RM, KF, sep = ", "),
     "2016",
     "Oral",
-    "ICEC/AusPheno 2016. Canberra, Australia. Sep.",
+    "ICEC/AusPheno 2016.<br>Canberra, Australia. Sep.",
     ""),
   
   ToRecord(
@@ -164,7 +164,7 @@ c(
     paste(AddUnderline(KM), RM, KF, sep = ", "),
     "2015",
     "Poster",
-    "GreenSys 2015. Évora, Portugal. July.",
+    "GreenSys 2015.<br>Évora, Portugal. July.",
     ""),
   
   ToRecord(
@@ -172,7 +172,7 @@ c(
     paste(AddUnderline(KM), RM, KF, sep = ", "),
     "2012",
     "Poster",
-    "7th International Symposium on Light in Horticultural Systems (LightSym 2012). Wageningen, The Netherlands. Oct.",
+    "7th International Symposium on Light in Horticultural Systems (LightSym 2012).<br>Wageningen, The Netherlands. Oct.",
     "")
 ) %>%
   ToKable(in_what = "Venue Date")
