@@ -5,7 +5,7 @@ permalink: /publication_list/
 layout: page
 ---
 
-<FONT color="grey">Last update: 2016-09-27  </FONT><br>
+<FONT color="grey">Last update: 2016-10-18  </FONT><br>
 
 --------------
 
@@ -93,9 +93,9 @@ c(
   ToRecord(
     "A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions",
     paste(KM, RM, KF, sep = ", "),
-    "submitted<br>(09/12/2016)",
+    "2017<br>(in press)",
     "Letter",
-    "-",
+    "Environmental Control in Biology",
     "")
 ) %>%
   ToKable(in_what = "Journal")
