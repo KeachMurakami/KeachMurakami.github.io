@@ -77,13 +77,7 @@ E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp
 
 ### 趣味  
 
-- サッカー  
-    - 都リーグ社会人4部 (2015~)  
-    - サッカー審判員4級 (2015~)  
-
-```
-## Error in eval(expr, envir, enclos): object 'Football_dat' not found
-```
-
-- プログラミング (R言語)  
-- データを貯めること  
+* サッカー  
+    * 都リーグ社会人4部 (2015~)  
+    * サッカー審判員4級 (2015~)  
+<img src="/figure/base/CVjp/Football_Stats-1.png" title="plot of chunk Football_Stats" alt="plot of chunk Football_Stats" width="100%" />
