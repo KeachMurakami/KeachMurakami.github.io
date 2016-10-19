@@ -42,7 +42,7 @@ layout: page
 
 --------------
 <br>
-___ -> Speaker  
+<u>PERSON</u> -> Speaker  
 
 ### Presentations in International Academic Conferences
 

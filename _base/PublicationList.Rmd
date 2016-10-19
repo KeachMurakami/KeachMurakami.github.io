@@ -146,7 +146,7 @@ c(
 
 --------------
 <br>
-___ -> Speaker  
+<u>PERSON</u> -> Speaker  
 
 ### Presentations in International Academic Conferences
 ```{r Symposiums_International, message = F, echo = F}
