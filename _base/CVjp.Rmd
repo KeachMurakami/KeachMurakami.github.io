@@ -98,9 +98,9 @@ data.frame(
 
 ### 趣味  
 
-* サッカー  
-    * 都リーグ社会人4部 (2015~)  
-    * サッカー審判員4級 (2015~)  
+- サッカー  
+    - 都リーグ社会人4部 (2015~)  
+    - サッカー審判員4級 (2015~)  
 ```{r Football_Stats, echo = F, message = F, warning = F, out.width = '100%', fig.asp = .3, dpi = 500}
 library(lubridate)
 library(ggplot2)
@@ -111,29 +111,39 @@ FootballStats <-
 
 
 Blank_Days <-
-  FootballStats$Date %>%
-    range %>%
-    {seq(.[1], .[2], by = "1 day")} %>%
+  # FootballStats$Date %>%
+  #   range %>%
+    {seq(ymd("2016-01-01"), ymd("2016-12-31"), by = "1 day")} %>%
     data.frame(Date = ., Appearance_min = 0) %>%
     filter(!(Date %in% FootballStats$Date))
 
-Football_dat <-
+# Football_dat <-
   FootballStats %>%
-    bind_rows(., Blank_Days) %>%
-    mutate(Year = year(Date), week = week(Date), wday = wday(Date),
-           Goal = Goal_By_Head + Goal_By_RightFoot + Goal_By_LeftFoot + Goal_By_Other,
-           Contribute = Goal + Assist,
-           Label = ifelse(Contribute != 0, paste0("Goal: ", Goal, "\nAssist: ", Assist), ""))
+  bind_rows(., Blank_Days) %>%
+  arrange(Date) %>%
+  mutate(Year = year(Date), week = week(Date), wday = wday(Date), month = month(Date),
+         Goal = Goal_By_Head + Goal_By_RightFoot + Goal_By_LeftFoot + Goal_By_Other,
+         Contribute = Goal + Assist,
+         Label = ifelse(Contribute != 0, paste0("Goal: ", Goal, "\nAssist: ", Assist), "")) %>%
+  group_by(month) %>%
+  mutate(month_week = 1 + week - min(week)) %>%
+  select(Date, month, week, wday, month_week) %>% View
 
 Football_dat %>%
-  ggplot(aes(x = week, y = wday, fill = Appearance_min, col = Contribute, label = Label)) +
+  ggplot(aes(x = week, y = wday, fill = Appearance_min, col = week, label = Label)) +
   theme_light(base_size = 11) +
-  geom_tile(col = "white") +
+  geom_tile() +
   geom_text(size = 2) +
-  scale_color_gradient(low = "black", high = "magenta") +
+  scale_color_gradientn(values = seq(0, 1, by = .25), colours = muted(c("green", "blue", "orange", "grey"))) +
   scale_fill_gradient(low = "grey80", high = "green", na.value = "grey75") +
+  scale_x_continuous(breaks = c(7, 20, 33, 46),
+                     labels = c("Spring", "Summer", "Autumn", "Winter"),
+                     expand = c(0, 0)) +
   scale_y_continuous(breaks = 1:7, labels = c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), expand = c(0, 0)) +
   labs(x = "weeks", y = "", fill = "Appearance [min]") +
   guides(col = F) +
   facet_grid(Year ~ ., switch = "y")
 ```
+
+- プログラミング (R言語)  
+- データを貯めること  
