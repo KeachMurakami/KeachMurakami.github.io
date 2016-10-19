@@ -96,7 +96,16 @@ c(
     "2017<br>(in press)",
     "Letter",
     "Environmental Control in Biology",
+    ""),
+  
+  ToRecord(
+    "Quantification of excitation energy distribution between photosystems based on a mechanistic model of the photosynthetic electron transport",
+    paste(KM, "and others (to be determined)", sep = ", "),
+    "in prep.",
+    "Original Article",
+    "-",
     "")
+  
 ) %>%
   ToKable(in_what = "Journal")
 ```
