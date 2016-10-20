@@ -213,10 +213,10 @@ Salk Institute Genomic Analysis Laboratory
 
 
 ### 活性酸素
-- <a href = "http://www.plantphysiol.org/content/141/2">Reactive oxygen species (2006; Special Issue of *Plant Physiology*)</a>  
+- [Reactive oxygen species (2006; Special Issue of *Plant Physiology*)](http://www.plantphysiol.org/content/141/2)  
 
 ### モデリング
-- <a href = "http://jxb.oxfordjournals.org/content/61/8.toc">Plant modelling: new approaches to an old subject (2010; Special Issue of *Journal of Experimental Botany*)</a>  
+- [Plant modelling: new approaches to an old subject (2010; Special Issue of *Journal of Experimental Botany*)](http://jxb.oxfordjournals.org/content/61/8.toc)  
 
 
 ## 栽培方法について
