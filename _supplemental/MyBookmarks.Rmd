@@ -40,38 +40,34 @@ tags: memo
     - []() 毎年Ｘ月  
 
 ### 国外学会
-- <a href = "http://www.ashs.org/">ASHS</a>  
+- [American Society for Horticultural Science (ASHS)](http://www.ashs.org/)  
 
 ### 国際学会
-- <a href = "http://www.ishs.org/">ISHS</a> → <a href = "http://www.ishs.org/calendar">(イベントカレンダー)</a>  
-- <a href = "http://www.photosynthesisresearch.org/">International Society of Photosynthesis Research</a>  
+- [International Society for Horticultural Science (ISHS)](http://www.ishs.org/) → [(イベントカレンダー)](http://www.ishs.org/calendar)  
+- [International Society of Photosynthesis Research (ISPR)](http://www.photosynthesisresearch.org/)    
 
 ### 国内グループ
-- <a href = "http://www.naro.affrc.go.jp/">農研機構</a>  
-- <a href = "http://adpmit.dc.affrc.go.jp/index.html">気候変動対応プログラム 農研機構</a>  
+- [農研機構](http://www.naro.affrc.go.jp/)  
+    - [気候変動対応プログラム](http://adpmit.dc.affrc.go.jp/index.html)  
 
 ### 国外グループ
-- <a href = "http://www.controlledenvironments.org/">NCERA-101</a>  
-- <a href = "http://www.ceug.ac.uk/">UK CEUG</a>  
-- <a href = "http://leds.hrt.msu.edu/">Developing LED Lighting Technologies and Practices
-for Sustainable Specialty-Crop Production</a>  
+- [NCERA-101/NCR-101](http://www.controlledenvironments.org/)  
+- [UK CEUG](http://www.ceug.ac.uk/)  
+- [Developing LED Lighting Technologies and Practices for Sustainable Specialty-Crop Production](http://leds.hrt.msu.edu/)  
 
 ### 国際グループ
-- <a href = "http://www.ipcc.ch/index.htm">IPCC</a>  
+- [IPCC](http://www.ipcc.ch/index.htm/)  
 
 
 
 ## 遺伝資源系ポータル  
 使いこなすときが来る気がしない。  
 
-- <a href = "https://phytozome.jgi.doe.gov/pz/portal.html">Phytozome</a>  
+- [Phytozome](https://phytozome.jgi.doe.gov/pz/portal.html) 
 the Plant Comparative Genomics portal  
-- <a href = "http://www.arabidopsis.org/">TAIR</a>  
-The Arabidopsis Information Resource  
-- <a href = "http://1001genomes.org/">1001 Genomes</a>  
-A Catalog of Arabidopsis thaliana Genetic Variation  
-- <a href = "http://signal.salk.edu/">SIGnAl</a>  
-Salk Institute Genomic Analysis Laboratory  
+- [TAIR](http://www.arabidopsis.org/) The Arabidopsis Information Resource  
+- [1001 Genomes](http://1001genomes.org/) A Catalog of Arabidopsis thaliana Genetic Variation  
+- [SIGnAl](http://signal.salk.edu/) Salk Institute Genomic Analysis Laboratory  
 
 
 
@@ -91,7 +87,7 @@ Salk Institute Genomic Analysis Laboratory
 - 
 
 ### 査読
-まだやったことないけど、近々くるだろう
+まだやったことないけど、近々くるだろう。
 - [英語論文の査読表現集](https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm)
 - 
 
@@ -147,7 +143,7 @@ Salk Institute Genomic Analysis Laboratory
     - Research Grants/Postdoctoral fellowships
     - 3 years
     - 分野横断的であることが要件
-    - 採択率は10--15%程度 (全応募者 = native)
+    - 採択率は全応募者のうち10--15%程度
 - [Endeavour Scholarships and Fellowships](https://internationaleducation.gov.au/Endeavour%20program/Scholarships-and-Fellowships/Pages/default.aspx)
     - Australia
     - 4--6 months
@@ -548,13 +544,18 @@ aes(col)に複数のスケールをマッピングする
 <a href = "https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html">Hybrid evaluation</a> →  
 
 
+-------
+# Git/GitHub
+- [Gitでやらかした時に使える19個の奥義](http://qiita.com/muran001/items/dea2bbbaea1260098051)  
+
+
 
 -------
 
 # TeX
 よくわからずやっているので、危うい  
 とりあえず、導入した手順を思い出せるよう、時系列でURLログ。  
-<a href = "http://bicycle1885.hatenablog.com/entry/2014/10/15/032024">RStudioから使えるR Markdownで日本語のPDFを作成する</a>  
+[RStudioから使えるR Markdownで日本語のPDFを作成する](http://bicycle1885.hatenablog.com/entry/2014/10/15/032024)  
 BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 > pandoc: pdflatex not found. pdflatex is needed for pdf output.
@@ -576,6 +577,7 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
     - [`[stan] [jags]` ggmcmc でMCMCの事後診断 ](http://ill-identified.hatenablog.com/entry/2016/10/07/233000) 解説と改変版
 
 
+
 -------
 
 # プログラミング/その他・全般  
@@ -588,25 +590,25 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 # ソフトウェア  
 
 ## Windows系
-- <a href = "http://www.eonet.ne.jp/~gakana/">X-Finder</a> → タブファイラ。<a href = http://www29.atwiki.jp/xfinder/>wiki。</a>
+- [X-Finder](http://www.eonet.ne.jp/~gakana/) → タブファイラ。[wiki](http://www29.atwiki.jp/xfinder)
 
 
 
 ## 文献管理
 
 ### BibTeX  
-- <a href = "http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93">BibTeX活用術</a>  
-- <a href = "ftp://ftp.fau.de/ctan/biblio/pbibtex/base/jbtxdoc.pdf">BIBTEXing：BIBTEXの使い方</a>  
-- <a href = "http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html">bibtex Yamamoto's Laboratory</a>  
-- <a href = "http://tex.stackexchange.com/questions/186848/superscript-in-my-reference-bibtex">superscript in my reference--bibtex</a> 下付き・上付きにする
-    - {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) → <a href = "https://keachmurakami.github.io/lab/2016/06/14/bibtex2.html">書いた</a>  
+- [BibTeX活用術](http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93)  
+- [BIBTEXing：BIBTEXの使い方](ftp://ftp.fau.de/ctan/biblio/pbibtex/base/jbtxdoc.pdf)  
+- [bibtex Yamamoto's Laboratory](http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html)  
+- [superscript in my reference--bibtex](http://tex.stackexchange.com/questions/186848/superscript-in-my-reference-bibtex) 下付き・上付きにする
+    - {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) → [書いた](https://keachmurakami.github.io/lab/2016/06/14/bibtex2.html)  
 
-- <a href = "http://editor.citationstyles.org/searchByExample/">Find and edit CSL citation styles</a> 引用スタイルを探す
+- [Find and edit CSL citation styles](http://editor.citationstyles.org/searchByExample/) 引用スタイルを探す  
 
 
 
 ## 数学系
-- <a href = "https://www.wolframalpha.com/">Wolfram Alpha</a> 微分積分が苦手なので。
+- [Wolfram Alpha](https://www.wolframalpha.com/) 微分積分が苦手なので。
 
 
 
