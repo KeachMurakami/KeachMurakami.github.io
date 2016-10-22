@@ -157,9 +157,10 @@ the Plant Comparative Genomics portal
 
 ## 物品購入
 
-### 気になる装置
+### 気になる物品
 - [CID Bio-Science](https://www.cid-inc.com/) CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
 - [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
+- [酵素法　食品分析試薬　Fキット](https://premium.ipros.jp/azmax/product/detail/2000166418/) どこかの学会で見たやつ。安価・簡単に成分分析ができる。  
 
 ### 中古装置
 - [Hightech&Facility](http://www.hitechfacility.co.jp/)  
