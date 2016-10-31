@@ -5,7 +5,7 @@ permalink: /publication_list/
 layout: page
 ---
 
-<FONT color="grey">Last update: 2016-10-18  </FONT><br>
+<FONT color="grey">Last update: 2016-10-31  </FONT><br>
 
 --------------
 <br>
@@ -19,7 +19,7 @@ layout: page
 
 |Title                                                                                                                                                                                                                                                                                                                                                                                 |Year               |Type             |Journal                             |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|:----------------|:-----------------------------------|
-|Quantification of excitation energy distribution between photosystems based on a mechanistic model of the photosynthetic electron transport<br>&emsp;<FONT color='green'>Keach Murakami</FONT>*, and others (to be determined)                                                                                                                                                        |in prep.           |Original Article |-                                   |
+|Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport<br>&emsp;<FONT color='green'>Keach Murakami</FONT>*, Ryo Matsuda, Kazuhiro Fujiwara                                                                                                                                                           |in prep.           |Original Article |-                                   |
 |A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions<br>&emsp;<FONT color='green'>Keach Murakami</FONT>*, Ryo Matsuda, Kazuhiro Fujiwara                                                                                                                                           |2017<br>(in press) |Letter           |Environmental Control in Biology    |
 |<a href = 'http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12421/abstract' target='_blank'>Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves</a><br>&emsp;<FONT color='green'>Keach Murakami</FONT>*, Ryo Matsuda, Kazuhiro Fujiwara                                  |2016               |Original Article |Physiologia Plantarum               |
 |<a href = 'http://www.sciencedirect.com/science/article/pii/S0304423815303198' target='_blank'>Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury</a><br>&emsp;Ryo Matsuda*, Takuto Yamano, <FONT color='green'>Keach Murakami</FONT>, Kazuhiro Fujiwara                           |2016               |Original Article |Scientia Horticulturae              |
