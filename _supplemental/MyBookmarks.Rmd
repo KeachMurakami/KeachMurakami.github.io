@@ -17,6 +17,7 @@ tags: memo
 ## グループ
 
 ### 国内学会
+
 - 定期的
     - [日本農業気象学会](http://www.agrmet.jp/) 毎年３月  
     - [日本光合成学会](http://photosyn.jp/) 毎年？５--６月  
@@ -29,33 +30,38 @@ tags: memo
     - [農業施設学会](http://www.sasj.org/) 毎年８--９月  
     - [生態工学会](http://www.see.gr.jp/) 毎年６月  
     - [日本生態学会](http://www.esj.ne.jp/esj/) 毎年３月  
-    - []() 毎年Ｘ月  
-    - []() 毎年Ｘ月  
+    - [XXX]() 毎年Ｘ月  
+    - [XXX]() 毎年Ｘ月  
 
 - やや遠いが気になる
     - [日本生物工学会](http://www.sbj.or.jp/) 毎年９--１０月  
     - [日本芝草学会](http://www.jsts-online.com/start/) 毎年春秋開催  
     - [日本雑草学会](http://www.wssj.jp/) 毎年４月  
     - [日本バイオインフォマティクス学会](http://www.jsbi.org/) 毎年Ｘ月  
-    - []() 毎年Ｘ月  
+    - [XXX]() 毎年Ｘ月  
 
 ### 国外学会
+
 - [American Society for Horticultural Science (ASHS)](http://www.ashs.org/)  
 
 ### 国際学会
+
 - [International Society for Horticultural Science (ISHS)](http://www.ishs.org/) → [(イベントカレンダー)](http://www.ishs.org/calendar)  
 - [International Society of Photosynthesis Research (ISPR)](http://www.photosynthesisresearch.org/)    
 
 ### 国内グループ
+
 - [農研機構](http://www.naro.affrc.go.jp/)  
     - [気候変動対応プログラム](http://adpmit.dc.affrc.go.jp/index.html)  
 
 ### 国外グループ
+
 - [NCERA-101/NCR-101](http://www.controlledenvironments.org/)  
 - [UK CEUG](http://www.ceug.ac.uk/)  
 - [Developing LED Lighting Technologies and Practices for Sustainable Specialty-Crop Production](http://leds.hrt.msu.edu/)  
 
 ### 国際グループ
+
 - [IPCC](http://www.ipcc.ch/index.htm/)  
 
 
@@ -82,25 +88,23 @@ the Plant Comparative Genomics portal
 - [科学論文で役立つ英語](http://homepage1.nifty.com/Mercury/ohoyamak/index.html)  
 - [論文英語ナビ](http://www.shiga-med.ac.jp/~koyama/eng/eng-index.html)  
 - [英語例文を見て自然に英語・英会話を学ぶ](http://www.geocities.jp/kusumotokeiji/eigo.htm)  
-
 - [コミュニケーション@見延庄士郎のHP](http://www.sci.hokudai.ac.jp/~minobe/education.html)  
-- 
 
 ### 査読
 まだやったことないけど、近々くるだろう。
+
 - [英語論文の査読表現集](https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm)
-- 
 
 ### 一般
 普段遣いの英語がわからん
+
 - [社会で役立つ英語習得のテクニック](http://www.f.waseda.jp/shinoda/technique-index.htm) 決まり文句など  
-- 
 
 
 
 ## 学会
+
 - [学会発表の心得](http://takenaka-akio.org/index_01.html)  
-- 
 
 ### スライド
 
@@ -111,9 +115,11 @@ the Plant Comparative Genomics portal
 ## 進捗・報告
 
 ### ないとき  
+
 - [沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード](http://scienceandtechnology.jp/archives/9655) あつい。  
 
 ### よい報告の仕方  
+
 - [効果的にバグを報告するには](http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html) プログラムに限らず、研究一般でも同じ。  
 
 
@@ -121,16 +127,19 @@ the Plant Comparative Genomics portal
 ## 研究系ブログ   
 
 ### 研究者 (他分野)
+
 - [発声練習](http://next49.hatenadiary.jp/entry/20080105/p3) とても参考になる。  
 - [アレ待チろまん](http://www.aremachi.com/) 専門は分子細胞生理学っぽい。  
 - [Take a Risk：林岳彦の研究メモ](http://takehiko-i-hayashi.hatenablog.com/) リスク学と統計学。  
 
 ### 企業・会社
+
 - [日本環境計測のブログ](http://emj.sblo.jp/) 日本環境計測株式会社さん。エンジニア魂を感じる。  
 
 
 
 ## 研究助成
+
 - [Science Portal](http://scienceportal.jst.go.jp/funding/application/) 研究助成情報  
 - [キヤノン財団](http://www.canon-foundation.jp/index.html) 産業基盤の創生・理想の追求  
 - [リバネス研究費](https://r.lne.st/grants/) 科学技術の発展と地球貢献の実現  
@@ -139,6 +148,7 @@ the Plant Comparative Genomics portal
 - [公益財団法人 前川報恩会](http://www.mayekawa.org/) 球温暖化対策を目的とした、熱エネルギーの有効利用に資する研究 農業分野等との学際的研究も含む）  
 
 ## 海外渡航助成
+
 - [Human Frontier Science Program](http://www.hfsp.org/funding/research-grants/information-and-guidelines)
     - Research Grants/Postdoctoral fellowships
     - 3 years
@@ -151,6 +161,7 @@ the Plant Comparative Genomics portal
 
 
 ## 申請書
+
 - [科研費.com](http://xn--w8yz0bc56a.com/) 科研費申請書のコツ。大勢がコツに頼りだすとその業界はおしまいでもある。  
 
 
@@ -158,19 +169,23 @@ the Plant Comparative Genomics portal
 ## 物品購入
 
 ### 気になる物品
+
 - [CID Bio-Science](https://www.cid-inc.com/) CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
 - [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
 - [酵素法　食品分析試薬　Fキット](https://premium.ipros.jp/azmax/product/detail/2000166418/) どこかの学会で見たやつ。安価・簡単に成分分析ができる。  
 
 ### 中古装置
+
 - [Hightech&Facility](http://www.hitechfacility.co.jp/)  
 - [日本電計](http://www.n-denkei.co.jp/)  
 
 ### ものづくり
+
 - [野方電機工業](http://www.nogatadenki.jp/) 金属加工。webページがとてもカッコイイ。  
 - [(有) サンステップ](http://www.sunstep.net/") プリント基板  
 
 ### 便利そうな小物
+
 - [AE-LED56V2](http://akizukidenshi.com/catalog/g/gP-08006/) 小型・安価なLED基板
 
 
@@ -178,9 +193,11 @@ the Plant Comparative Genomics portal
 ## 科学哲学
 
 ### 4つのなぜ (Nikolaas Tinbergen)
+
 - [ティンバーゲンの4つのなぜ](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C)  
 
 ### Strong Inference
+
 - [“Strong Inference”について](http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm) 真偽だけが重要なときはこれ。  
 
 
@@ -190,6 +207,7 @@ the Plant Comparative Genomics portal
 # 植物科学
 
 ## 植物生理学
+
 - [植物生理学・分子生理学コンソーシアムによる陸上植物の高CO~2~応答の包括的解明 (新学術領域研究)](http://www.biology.kyushu-u.ac.jp/~plant/shinryoiki/index.html)  
 - [植物の環境感覚：刺激受容から細胞応答まで (新学術領域研究)](http://esplant.net/index.html)  
 - [二酸化炭素資源化を目指した植物の物質生産力強化と生産物活用のための基盤技術の創出 (CREST+さきがけ研究領域)](http://www.jst.go.jp/presto/plantsci/)  
@@ -197,6 +215,7 @@ the Plant Comparative Genomics portal
 - [将来の地球環境において最適な光合成・物質生産システムを持った強化植物の創出 (CREST研究課題)](http://hostgk3.biology.tohoku.ac.jp/hikosaka/CREST/index.html)  
 
 ### 光合成生理生態学
+
 - [光合成事典 (Web版)](http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8)  
 - [光合成研究法](http://www.lowtem.hokudai.ac.jp/plantadapt/photosynthesis_way-j.html)  
 - [Sun/Shade acclimation (1988; Special Issue of *Australian Journal of Plant Physiology*)](http://www.publish.csiro.au/nid/103/issue/2664.htm)  
@@ -205,26 +224,32 @@ the Plant Comparative Genomics portal
 - [新光合成 光エネルギー変換システムの再最適化](http://photosynthesis.nibb.ac.jp/)  
 
 ### 光形態形成・光質応答
+
 - [Annual Plant Reviews Volume 30: Light and Plant Development](http://onlinelibrary.wiley.com/book/10.1002/9780470988893)  
 
 ### Phenotyping
+
 - [Special issue on Computer vision and image analysis in plant phenotyping (2016; Special Issue of *Machine Vision and Applications*)](http://link.springer.com/journal/138/27/5/page/1)  
 
 ### 代謝  
 
 
 ### 活性酸素
+
 - [Reactive oxygen species (2006; Special Issue of *Plant Physiology*)](http://www.plantphysiol.org/content/141/2)  
 
 ### モデリング
+
 - [Plant modelling: new approaches to an old subject (2010; Special Issue of *Journal of Experimental Botany*)](http://jxb.oxfordjournals.org/content/61/8.toc)  
 
 
 ## 栽培方法について
+
 - [Plant Growth Chamber Handbook](http://www.controlledenvironments.org/Growth_Chamber_Handbook/Plant_Growth_Chamber_Handbook.htm)  
 
 
 ## データ提供
+
 - [ASTER Spectral Library - Version 2.0](http://speclib.jpl.nasa.gov/) 分光分布ライブラリ
 - [Natural Phenomena Simulation Group@University of Waterloo](http://www.npsg.uwaterloo.ca/data/leaves.php) 色素の吸収スペクトル  
 
@@ -232,6 +257,7 @@ the Plant Comparative Genomics portal
 -------
 
 # 統計学  
+
 - [統計科学のための電子図書システム](http://ebsa.ism.ac.jp/)  
 - [統計・データ解析 (奥村先生@三重大学)](https://oku.edu.mie-u.ac.jp/~okumura/stat/)  
 - [統計webpages入口 (粕谷先生@九州大学)](http://kasuya.ecology1.org/stats/index.html)  
@@ -239,11 +265,13 @@ the Plant Comparative Genomics portal
 ## 実験計画法
 
 ### 分散分析　　
+
 - [分散分析のノート](http://ofmind.net/doc/anova-note)  
 - [大森先生@東大農](http://lbm.ab.a.u-tokyo.ac.jp/~omori/) 実験計画法全般、生物統計全般の資料。  
 - [ぶんさんぶんせき@中西政志さん](http://ofmind.net/doc/anova-note) Type I~IIIのANOVAの話など。  
 
 ### 擬似反復  
+
 - [Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)](http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents)  
 "擬似反復 (pseudoreplication)"というフレーズの初出。良論分。  
 - ['Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)](http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html)  
@@ -253,6 +281,7 @@ Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩�
 
 ## マルチレベルモデリング
 要勉強  
+
 - [Multilevel models: An introduction and FAQs](http://www.bristol.ac.uk/cmm/learning/multilevel-models/)  
 
 
@@ -260,11 +289,13 @@ Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩�
 ## 計算統計  
 
 ### マルコフ連鎖モンテカルロ法  
+
 - [マルコフ連鎖モンテカルロ法入門](http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf)  
 webでフリーのMCMC解説だと一番丁寧な印象。  
 - [Review Course: Markov Chains and Monte Carlo Methods](http://users.aims.ac.za/~ioana/)  
 
 ### 状態空間モデル、パーティクルフィルタ  
+
 - [データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)](http://daweb.ism.ac.jp/koza/koza2008/) パーティクルフィルタに関する資料がいくつかある。  
 - [Data Assimilation Seminar Series](http://data-assimilation.jp/en/events/da_seminar/index.html) 理研データ同化チームのセミナー資料など。  
 - [逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた](http://d.hatena.ne.jp/teramonagi/20140525/1400996808) teramonagiさんのBlog。リンクもいくつかある。  
@@ -275,16 +306,19 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ## 統計モデリング
 
 ### 一般化線形モデル
+
 - [一般化線形モデル周りのRのパッケージと関数まとめ](http://masaqol.hatenablog.com/entry/2016/03/30/003254)  
 
 
 
 ## 機械学習
+
 - [朱鷺の杜](http://ibisforest.org/index.php?FrontPage)  
 
 
 
 ## 時系列解析ネタ
+
 - [こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定](http://togetter.com/li/939366) "６回を独立とみなす"はダメでしょう。  
 - [The curse of big data](http://www.analyticbridge.com/profiles/blogs/the-curse-of-big-data) 時系列を回帰するやつ。
 
@@ -360,6 +394,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 ## まとめ系
 
 ### 初心者向けまとめ  
+
 - [R基本統計関数マニュアル (pdf)](http://www.is.titech.ac.jp/~mase/Rstatman.pdf)  
 - [初心者のR入門](http://r-beginners.com/) 日本語。  
 - [Try R](http://tryr.codeschool.com/) 打ち込み学習。  
@@ -367,13 +402,16 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 - [Rの設定](http://www.agr.nagoya-u.ac.jp/~seitai/document/R2009/Rsettings.pdf) 環境変数など。
 
 ### サンプルデータまとめ  
+
 - [R言語 サンプルデータ一覧](http://www.trifields.jp/r-sample-data-491) Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
 
 ### パッケージまとめ  
+
 - [RStartHere](https://github.com/rstudio/RStartHere) RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。  
 - [awesome-R](https://github.com/qinwf/awesome-R) なんでもありなパッケージリスト。  
 
 ### UseR!まとめ
+
 - [2016](https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md)  
 
 
@@ -544,12 +582,14 @@ aes(col)に複数のスケールをマッピングする
 
 
 ## What's
+
 - [Hybrid evaluation](https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html) →  
 
 
 -------
 
 # Git/GitHub
+
 - [Gitでやらかした時に使える19個の奥義](http://qiita.com/muran001/items/dea2bbbaea1260098051)  
 
 
@@ -574,9 +614,9 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 -------
 
 # [Stan](http://mc-stan.org/)
+
 - [Case Studies](http://mc-stan.org/documentation/case-studies.html)  
 - [RStan Getting Started (Japanese)](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-%28Japanese%29)  
-
 - [Using the ggmcmc package](http://xavier-fim.net/packages/ggmcmc/) MCMC系 × ggplot2。使い勝手がよさそうなので。
     - [`[stan] [jags]` ggmcmc でMCMCの事後診断 ](http://ill-identified.hatenablog.com/entry/2016/10/07/233000) 解説と改変版
 
@@ -585,6 +625,7 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 -------
 
 # プログラミング/その他・全般  
+
 - [コードを書くさいの指針として見返すサイトまとめ](http://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=2568ed82eb-Qiita_newsletter_213_06_22_2016&utm_medium=email&utm_term=0_e44feaa081-2568ed82eb-33203329)  
 
 
@@ -594,6 +635,7 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 # ソフトウェア  
 
 ## Windows系
+
 - [X-Finder](http://www.eonet.ne.jp/~gakana/) → タブファイラ [wiki](http://www29.atwiki.jp/xfinder)
 
 
@@ -601,6 +643,7 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 ## 文献管理
 
 ### BibTeX  
+
 - [BibTeX活用術](http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93)  
 - [BIBTEXing：BIBTEXの使い方](ftp://ftp.fau.de/ctan/biblio/pbibtex/base/jbtxdoc.pdf)  
 - [bibtex Yamamoto's Laboratory](http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html)  
@@ -612,11 +655,13 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 
 ## 数学系
+
 - [Wolfram Alpha](https://www.wolframalpha.com/) 微分積分が苦手なので。
 
 
 
 ## 画像系
+
 - [O RLY Cover Generator](http://dev.to/rly) O'Reilly本の表紙風の画像作成  
 - [画風を変換するアルゴリズム](https://research.preferred.jp/2015/09/chainer-gogh/) DNN風加工  
 - [TeXClip](http://texclip.marutank.net/) TeX数式を画像で出力  
@@ -625,16 +670,19 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 
 ## 動画系
+
 - [GIPHY](http://giphy.com/create/gifeditor) GIF作成  
 
 
 
 ## 可視化
+
 - [Deep playground](http://playground.tensorflow.org/) d3.jsで可視化したNN  
 - [REGEXPER](https://regexper.com/) 正規表現のマッチングの可視化
 
 
 ## 素材
+
 - [Pixabay](https://pixabay.com/) 写真・画像素材 (商用可)
 
 
@@ -644,5 +692,6 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 # その他
 
 ## 考え方など
-- [1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容。  
+
+- [「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容。  
 
