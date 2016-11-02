@@ -178,10 +178,10 @@ the Plant Comparative Genomics portal
 ## 科学哲学
 
 ### 4つのなぜ (Nikolaas Tinbergen)
-- <a href = "https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C">ティンバーゲンの4つのなぜ</a>  
+- [ティンバーゲンの4つのなぜ](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C)  
 
 ### Strong Inference
-- <a href = "http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm">“Strong Inference”について</a> 真偽だけが重要なときはこれ。  
+- [“Strong Inference”について](http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm) 真偽だけが重要なときはこれ。  
 
 
 
@@ -190,21 +190,25 @@ the Plant Comparative Genomics portal
 # 植物科学
 
 ## 植物生理学
-- <a href = "http://www.biology.kyushu-u.ac.jp/~plant/shinryoiki/index.html">植物生理学・分子生理学コンソーシアムによる陸上植物の高CO~2~応答の包括的解明 (新学術領域研究)</a>  
-- <a href = "http://esplant.net/index.html">植物の環境感覚：刺激受容から細胞応答まで (新学術領域研究)</a>  
-- <a href = "http://www.jst.go.jp/presto/plantsci/">二酸化炭素資源化を目指した植物の物質生産力強化と生産物活用のための基盤技術の創出 (CREST+さきがけ研究領域)</a>  
-- <a href = "http://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html">情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出 (さきがけ研究領域)</a>  
-- <a href = "http://hostgk3.biology.tohoku.ac.jp/hikosaka/CREST/index.html">将来の地球環境において最適な光合成・物質生産システムを持った強化植物の創出 (CREST研究課題)</a>  
+- [植物生理学・分子生理学コンソーシアムによる陸上植物の高CO~2~応答の包括的解明 (新学術領域研究)](http://www.biology.kyushu-u.ac.jp/~plant/shinryoiki/index.html)  
+- [植物の環境感覚：刺激受容から細胞応答まで (新学術領域研究)](http://esplant.net/index.html)  
+- [二酸化炭素資源化を目指した植物の物質生産力強化と生産物活用のための基盤技術の創出 (CREST+さきがけ研究領域)](http://www.jst.go.jp/presto/plantsci/)  
+- [情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出 (さきがけ研究領域)](http://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html)  
+- [将来の地球環境において最適な光合成・物質生産システムを持った強化植物の創出 (CREST研究課題)](http://hostgk3.biology.tohoku.ac.jp/hikosaka/CREST/index.html)  
 
 ### 光合成生理生態学
-- <a href = "http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8">光合成事典 (Web版)</a>  
-- <a href = "http://www.lowtem.hokudai.ac.jp/plantadapt/photosynthesis_way-j.html">光合成研究法</a>  
-- <a href = "http://www.publish.csiro.au/nid/103/issue/2664.htm">Sun/Shade acclimation (1988; Special Issue of *Australian Journal of Plant Physiology*)</a>  
-- <a href = "http://www.sciencedirect.com/science/journal/00052728/1807/8">Regulation of photosynthetic electron transport (2011; Special Issue of *Biochimica et Biophysica Acta (BBA) - Bioenergetics*)</a>  
-- <a href = "http://jxb.oxfordjournals.org/content/56/411.toc">Light stress in plants: mechanismsand interactions special issue (2005; Special Issue of *Journal of Experimental Botany*)</a>  
+- [光合成事典 (Web版)](http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8)  
+- [光合成研究法](http://www.lowtem.hokudai.ac.jp/plantadapt/photosynthesis_way-j.html)  
+- [Sun/Shade acclimation (1988; Special Issue of *Australian Journal of Plant Physiology*)](http://www.publish.csiro.au/nid/103/issue/2664.htm)  
+- [Regulation of photosynthetic electron transport (2011; Special Issue of *Biochimica et Biophysica Acta (BBA) - Bioenergetics*)](http://www.sciencedirect.com/science/journal/00052728/1807/8)  
+- [Light stress in plants: mechanismsand interactions special issue (2005; Special Issue of *Journal of Experimental Botany*)](http://jxb.oxfordjournals.org/content/56/411.toc)  
+- [新光合成 光エネルギー変換システムの再最適化](http://photosynthesis.nibb.ac.jp/)  
 
 ### 光形態形成・光質応答
-- <a href = "http://onlinelibrary.wiley.com/book/10.1002/9780470988893">Annual Plant Reviews Volume 30: Light and Plant Development</a>  
+- [Annual Plant Reviews Volume 30: Light and Plant Development](http://onlinelibrary.wiley.com/book/10.1002/9780470988893)  
+
+### Phenotyping
+- [Special issue on Computer vision and image analysis in plant phenotyping (2016; Special Issue of *Machine Vision and Applications*)](http://link.springer.com/journal/138/27/5/page/1)  
 
 ### 代謝  
 
@@ -228,156 +232,157 @@ the Plant Comparative Genomics portal
 -------
 
 # 統計学  
-- <a href = "http://ebsa.ism.ac.jp/">統計科学のための電子図書システム</a>  
-- <a href = "https://oku.edu.mie-u.ac.jp/~okumura/stat/">統計・データ解析 (奥村先生@三重大学)</a>  
-- <a href = "http://kasuya.ecology1.org/stats/index.html">統計webpages入口 (粕谷先生@九州大学)</a>  
+- [統計科学のための電子図書システム](http://ebsa.ism.ac.jp/)  
+- [統計・データ解析 (奥村先生@三重大学)](https://oku.edu.mie-u.ac.jp/~okumura/stat/)  
+- [統計webpages入口 (粕谷先生@九州大学)](http://kasuya.ecology1.org/stats/index.html)  
 
 ## 実験計画法
 
 ### 分散分析　　
-- <a href = "http://ofmind.net/doc/anova-note">分散分析のノート</a>  
-- <a href = "http://lbm.ab.a.u-tokyo.ac.jp/~omori/">大森先生@東大農</a> 実験計画法全般、生物統計全般の資料。  
-- <a href = "http://ofmind.net/doc/anova-note">ぶんさんぶんせき@中西政志さん</a> Type I~IIIのANOVAの話など。  
+- [分散分析のノート](http://ofmind.net/doc/anova-note)  
+- [大森先生@東大農](http://lbm.ab.a.u-tokyo.ac.jp/~omori/) 実験計画法全般、生物統計全般の資料。  
+- [ぶんさんぶんせき@中西政志さん](http://ofmind.net/doc/anova-note) Type I~IIIのANOVAの話など。  
 
 ### 擬似反復  
-- <a href = "http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents">Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)</a>  
+- [Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)](http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents)  
 "擬似反復 (pseudoreplication)"というフレーズの初出。良論分。  
-- <a href = "http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html">'Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)</a>  
+- ['Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)](http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html)  
 Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩いている。"批判的検討"の項がよろしい。  
-- <a href = "http://ci.nii.ac.jp/naid/110001747104">土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)</a>  
+- [土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)](http://ci.nii.ac.jp/naid/110001747104)  
 擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
 
 ## マルチレベルモデリング
 要勉強  
-- <a href = "http://www.bristol.ac.uk/cmm/learning/multilevel-models/">Multilevel models: An introduction and FAQs</a>  
+- [Multilevel models: An introduction and FAQs](http://www.bristol.ac.uk/cmm/learning/multilevel-models/)  
 
 
 
 ## 計算統計  
 
 ### マルコフ連鎖モンテカルロ法  
-- <a href = "http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf">マルコフ連鎖モンテカルロ法入門</a>  
+- [マルコフ連鎖モンテカルロ法入門](http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf)  
 webでフリーのMCMC解説だと一番丁寧な印象。  
-- <a href = "http://users.aims.ac.za/~ioana/">Review Course: Markov Chains and Monte Carlo Methods</a>  
+- [Review Course: Markov Chains and Monte Carlo Methods](http://users.aims.ac.za/~ioana/)  
 
 ### 状態空間モデル、パーティクルフィルタ  
-- <a href = "http://daweb.ism.ac.jp/koza/koza2008/">データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)</a> パーティクルフィルタに関する資料がいくつかある。  
-- <a href = "http://d.hatena.ne.jp/teramonagi/20140525/1400996808">逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた</a> teramonagiさんのBlog。リンクもいくつかある。  
-- <a href = "http://data-assimilation.jp/en/events/da_seminar/index.html">Data Assimilation Seminar Series</a> 理研データ同化チームのセミナー資料など。  
-- <a href = "https://www.jstage.jst.go.jp/browse/seitai/-char/ja/">生態学分野における状態空間モデルの利用 (2016; 日本生態学会誌)</a> 
+- [データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)](http://daweb.ism.ac.jp/koza/koza2008/) パーティクルフィルタに関する資料がいくつかある。  
+- [Data Assimilation Seminar Series](http://data-assimilation.jp/en/events/da_seminar/index.html) 理研データ同化チームのセミナー資料など。  
+- [逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた](http://d.hatena.ne.jp/teramonagi/20140525/1400996808) teramonagiさんのBlog。リンクもいくつかある。  
+- [生態学分野における状態空間モデルの利用 (2016; 日本生態学会誌)](https://www.jstage.jst.go.jp/browse/seitai/-char/ja/) 
 
 
 
 ## 統計モデリング
 
 ### 一般化線形モデル
-- <a href = "http://masaqol.hatenablog.com/entry/2016/03/30/003254">一般化線形モデル周りのRのパッケージと関数まとめ</a>  
+- [一般化線形モデル周りのRのパッケージと関数まとめ](http://masaqol.hatenablog.com/entry/2016/03/30/003254)  
 
 
 
 ## 機械学習
-- <a href = "http://ibisforest.org/index.php?FrontPage">朱鷺の杜<a>  
+- [朱鷺の杜](http://ibisforest.org/index.php?FrontPage)  
 
 
 
 ## 時系列解析ネタ
-- <a href = "http://togetter.com/li/939366">こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定</a> "６回を独立とみなす"はダメでしょう。  
-- <a href = "http://www.analyticbridge.com/profiles/blogs/the-curse-of-big-data">The curse of big data</a> 時系列を回帰するやつ。
+- [こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定](http://togetter.com/li/939366) "６回を独立とみなす"はダメでしょう。  
+- [The curse of big data](http://www.analyticbridge.com/profiles/blogs/the-curse-of-big-data) 時系列を回帰するやつ。
 
 
 
 ## 統計ネタの多いブログ
-- <a href = "http://d.hatena.ne.jp/ryamada22/">ryamadaの遺伝学・遺伝統計学メモ</a>  
+- [ryamadaの遺伝学・遺伝統計学メモ](http://d.hatena.ne.jp/ryamada22/)  
 
 
 
 -------
 
 # デザイン
-- <a href = "http://tsutawarudesign.web.fc2.com/">伝わるデザイン 研究発表のユニバーサルデザイン</a>  
-- <a href = "http://piccsy.com/investors/">piccsy</a>  
+- [伝わるデザイン 研究発表のユニバーサルデザイン](http://tsutawarudesign.web.fc2.com/)  
+- [piccsy](http://piccsy.com/investors/)  
 
 
 ## スライド
-- <a href = "http://www.slideshare.net/kotas/git-15276118">こわくない Git </a> かっこいい。  
+- [こわくない Git ](http://www.slideshare.net/kotas/git-15276118) かっこいい。  
 
 
 
 -------
 
 # R  
-- <a href = "http://r4ds.had.co.nz/">R for Data Science (R4DS)</a>  
-- <a href = "http://rpubs.com/">RPubs</a>  
+- [R for Data Science (R4DS)](http://r4ds.had.co.nz/)  
+- [RPubs](http://rpubs.com/)  
 
 ## グループ
+- [meetingsR](https://github.com/jumpingrivers/meetingsR)  
 
 ### JapanRs
-- <a href = "http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7">  
-    - <a href = "https://groups.google.com/forum/#!forum/r-study-tokyo">TokyoR</a>
-    - <a href = "http://seesaawiki.jp/w/syou6162/">TsukubaR</a>
-    - <a href = "https://kobexr.doorkeeper.jp/">KobeR</a>  
+- [Japan.R](http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7) 更新死んでる  
+    - [TokyoR](https://groups.google.com/forum/#!forum/r-study-tokyo)
+    - [TsukubaR](http://seesaawiki.jp/w/syou6162/)
+    - [KobeR](https://kobexr.doorkeeper.jp/)  
 
-### HOXO-M
-- <a href = "http://mockquant.blogspot.jp/">HOXO-M - anonymous data analyst group in Japan - </a>  
+### [HOXO-M - anonymous data analyst group in Japan - ](http://mockquant.blogspot.jp/)
 
 ### UseR
-- <a href = "https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016">useR! 2016 international R User conference</a>  
+- [useR! 2016 international R User conference](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016)  
 
 
 
 ## ブログ系
-- <a href = "http://www.r-bloggers.com/">R-bloggers</a> もろもろ。  
-- <a href = "https://blog.rstudio.org/">RStudio Blog</a>  
-- <a href = "http://www.r-statistics.com/">R-statistics blog</a>  
-- <a href = "http://d.hatena.ne.jp/hoxo_m/">ほくそ笑む</a>  
-- <a href = "http://d.hatena.ne.jp/teramonagi/">My life as a Mock of Quant</a>  
-- <a href = "http://notchained.hatenablog.com/">Technically, technophobic.</a>  
-- <a href = "http://blog.kz-md.net/">日々是独想</a> ぞうさん通信  
-- <a href = "https://kohske.wordpress.com/">Hi!!</a>  
-- <a href = "http://d.hatena.ne.jp/tsutatsutatsuta/">どんな鳥も</a> 
-- <a href = "http://statmodeling.hatenablog.com/">StatModeling Memorandum</a>  
-- <a href = "http://d.hatena.ne.jp/dichika/">盆栽日記</a>  
-- <a href = "http://rion778.hatenablog.com/">もうカツ丼はいいよな</a>  
-- <a href = "http://tjo.hatenablog.com/">東京で働くデータサイエンティストのブログ</a>  
-- <a href = "http://abrahamcow.hatenablog.com/">廿TT</a>  
-- <a href = "http://uribo.hatenablog.com/">まだ厨二病</a>  
-- <a href = "http://estrellita.hatenablog.com/">INPUTしたらOUTPUT!</a>  
-- <a href = "http://kanosuke.hatenadiary.jp/">Rでデータマイニング</a>  
-- <a href = "https://rweekly.org/">RWeekly.org</a>  
-- <a href = "http://timelyportfolio.blogspot.jp/">Timely Prtfolio</a> 金融より。  
-- <a href = "http://masaqol.hatenablog.com/archive/2015">今週も特にありません 進捗どうですか？</a> 金融より。  
-- <a href = "http://ill-identified.hatenablog.com/">ill-identified diary</a>  
-- <a href = "http://temp20151223.blogspot.jp/">a log</a>  
-- <a href = "http://teuder.hatenablog.com/">teuder's blog</a>  
-- <a href = "http://kiito.hatenablog.com/">歩いたら休め</a>  
+- [R-bloggers](http://www.r-bloggers.com/) もろもろ薄く広く。  
+- [RStudio Blog](https://blog.rstudio.org/)  
+- [R-statistics blog](http://www.r-statistics.com/)  
+- [ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/)  
+- [My life as a Mock of Quant](http://d.hatena.ne.jp/teramonagi/)  
+- [Technically, technophobic.](http://notchained.hatenablog.com/)  
+- [日々是独想](http://blog.kz-md.net/) ぞうさん通信  
+- [Hi!!](https://kohske.wordpress.com/)  
+- [どんな鳥も](http://d.hatena.ne.jp/tsutatsutatsuta/) 
+- [StatModeling Memorandum](http://statmodeling.hatenablog.com/)  
+- [盆栽日記](http://d.hatena.ne.jp/dichika/)  
+- [もうカツ丼はいいよな](http://rion778.hatenablog.com/)  
+- [東京で働くデータサイエンティストのブログ](http://tjo.hatenablog.com/)  
+- [廿TT](http://abrahamcow.hatenablog.com/)  
+- [まだ厨二病](http://uribo.hatenablog.com/)  
+- [INPUTしたらOUTPUT!](http://estrellita.hatenablog.com/)  
+- [Rでデータマイニング](http://kanosuke.hatenadiary.jp/)  
+- [RWeekly.org](https://rweekly.org/)  
+- [Timely Prtfolio](http://timelyportfolio.blogspot.jp/) 金融より。  
+- [今週も特にありません 進捗どうですか？](http://masaqol.hatenablog.com/archive/2015) 金融より。  
+- [ill-identified diary](http://ill-identified.hatenablog.com/)  
+- [a log](http://temp20151223.blogspot.jp/)  
+- [teuder's blog](http://teuder.hatenablog.com/)  
+- [歩いたら休め](http://kiito.hatenablog.com/)  
 
 
 
 ## まとめ系
 
 ### 初心者向けまとめ  
-- <a href = "http://www.is.titech.ac.jp/~mase/Rstatman.pdf">R基本統計関数マニュアル</a>  
-- <a href = "http://r-beginners.com/">初心者のR入門</a> 日本語。  
-- <a href = "http://tryr.codeschool.com/">Try R</a> 打ち込み学習。  
-- <a href = "https://github.com/ujjwalkarn/DataScienceR">ujjwalkarn/DataScienceR</a> Rでのデータサイエンスのチュートリアル。  
-- <a href = "http://www.agr.nagoya-u.ac.jp/~seitai/document/R2009/Rsettings.pdf">Rの設定</a> 環境変数など。
+- [R基本統計関数マニュアル (pdf)](http://www.is.titech.ac.jp/~mase/Rstatman.pdf)  
+- [初心者のR入門](http://r-beginners.com/) 日本語。  
+- [Try R](http://tryr.codeschool.com/) 打ち込み学習。  
+- [ujjwalkarn/DataScienceR](https://github.com/ujjwalkarn/DataScienceR) Rでのデータサイエンスのチュートリアル。  
+- [Rの設定](http://www.agr.nagoya-u.ac.jp/~seitai/document/R2009/Rsettings.pdf) 環境変数など。
 
 ### サンプルデータまとめ  
-- <a href = "http://www.trifields.jp/r-sample-data-491">R言語 サンプルデータ一覧</a> Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
+- [R言語 サンプルデータ一覧](http://www.trifields.jp/r-sample-data-491) Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
 
 ### パッケージまとめ  
-- <a href = "https://github.com/rstudio/RStartHere">RStartHere</a> RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。  
-- <a href = "https://github.com/qinwf/awesome-R">awesome-R</a> なんでもありなパッケージリスト。  
+- [RStartHere](https://github.com/rstudio/RStartHere) RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。  
+- [awesome-R](https://github.com/qinwf/awesome-R) なんでもありなパッケージリスト。  
 
 ### UseR!まとめ
-- <a href = "https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md">2016</a>  
+- [2016](https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md)  
 
 
 
 ## パッケージ・その他  
 
 ### パッケージ作成
-- <a href = "http://qiita.com/wakuteka/items/54f81f32baf50e243461">こわくないRパッケージ開発！2016</a>  
+
+- [こわくないRパッケージ開発！2016](http://qiita.com/wakuteka/items/54f81f32baf50e243461)  
 
 
 
@@ -402,38 +407,35 @@ factorsを扱う
 ##### [broom](https://github.com/dgrtwo/broom)
 回帰モデルの返り値をキレイにする
 
-##### chunked
+##### [chunked](https://github.com/edwindj/chunked)
 重いデータをメモリに読み込まずに処理する。  
-
-- <a href = "https://github.com/edwindj/chunked">chunked</a> 
 
 ##### rvest
 Webからデータを取ってくる。  
 
-- <a href = "https://book.mynavi.jp/manatee/detail/id=59386">rvestによるWebスクレイピング</a>  
+- [rvestによるWebスクレイピング](https://book.mynavi.jp/manatee/detail/id=59386)  
 
 
 #### 作図
 
-##### ggplot2
+##### [ggplot2](http://docs.ggplot2.org/current/index.html)
 データの階層構造を活かしたグラフ作成  
 
-- <a href = "http://docs.ggplot2.org/current/index.html">Official</a>  
-- <a href = "http://yutannihilation.github.io/ggplot2-gyakubiki/">ggplot2逆引き</a>  
-- <a href = "http://www.ggplot2-exts.org/">ggplot2 extensions</a> 拡張パッケージ
+- [ggplot2逆引き](http://yutannihilation.github.io/ggplot2-gyakubiki/)  
+- [ggplot2 extensions](http://www.ggplot2-exts.org/) 拡張パッケージ
 
 geom_area・geom_barのfill順序をうまいことする
 
-- <a href = "http://stackoverflow.com/questions/15251816/how-do-you-order-the-fill-colours-within-ggplot2-geom-bar">How do you order the fill colours within ggplot2 geom bar</a>  
+- [How do you order the fill colours within ggplot2 geom bar](http://stackoverflow.com/questions/15251816/how-do-you-order-the-fill-colours-within-ggplot2-geom-bar)  
     - `ggplot(aes(order = ...))`はdeprecated (> 2.0.0あたり)  
 
 ポイント＋関数回帰曲線をggplot2で
 
-- <a href = "http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96">正規分布など好きな関数の曲線を描きたい</a>  
+- [正規分布など好きな関数の曲線を描きたい](http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96)  
 
 ggplot2の軸を対数軸べき乗で
 
-- <a href = "http://d.hatena.ne.jp/teramonagi/20160327/1459066096">ggplot2の軸を上付きのべき乗で書きたい</a>  
+- [ggplot2の軸を上付きのべき乗で書きたい](http://d.hatena.ne.jp/teramonagi/20160327/1459066096)  
 
 facetへ数式を書き込む
 
@@ -446,13 +448,13 @@ aes(col)に複数のスケールをマッピングする
 ##### Plotly
 インタラクティブな作図  
 
-- <a href = "https://plot.ly/r/user-guide/">plotly for R User Guide</a> 全般。  
-- <a href = "https://plot.ly/r/shiny-gallery/">Plotly Shiny Gallery</a> Shiny×Plotlyのギャラリー。 
+- [plotly for R User Guide](https://plot.ly/r/user-guide/) 全般。  
+- [Plotly Shiny Gallery](https://plot.ly/r/shiny-gallery/) Shiny×Plotlyのギャラリー。 
 
 ##### rCharts
 インタラクティブな作図  
 
-- <a href = "https://rpubs.com/kohske/12409">rCharts featuring highcharts</a> rCharts::hPlot。  
+- [rCharts featuring highcharts](https://rpubs.com/kohske/12409) rCharts::hPlot。  
 
 
 
@@ -480,7 +482,7 @@ aes(col)に複数のスケールをマッピングする
 
 ##### rmdshower
 
-- <a href = "https://github.com/MangoTheCat/rmdshower">rmdshower</a> 
+- [rmdshower](https://github.com/MangoTheCat/rmdshower) 
 
 
 
@@ -498,33 +500,33 @@ aes(col)に複数のスケールをマッピングする
 - [計算機は楽し](http://ayapin-film.sakura.ne.jp/PlotUtils/plotutils.html) 可視化ソフトが比較してある (Rはない)
 
 ### Google Chart
-- <a href = "https://developers.google.com/chart/interactive/docs/gallery">Chart Gallery</a>  
-- <a href = "https://developers.google.com/chart/interactive/docs/reference">Google Visualization API Reference</a>    
+- [Chart Gallery](https://developers.google.com/chart/interactive/docs/gallery)  
+- [Google Visualization API Reference](https://developers.google.com/chart/interactive/docs/reference)    
 
 ### heatmap
 インタラクティブなヒートマップ  
 
-- <a href = "https://github.com/talgalili/heatmaply">talgalili/heatmaply</a>  
+- [talgalili/heatmaply](https://github.com/talgalili/heatmaply)  
 
 ### Sankey diagram
-物質・エネルギーの収支をRで書きたい。<a href = "http://www.sankey-diagrams.com/sankey-diagram-software/">リスト</a>発見。  
+物質・エネルギーの収支をRで書きたい。  
 
-- <a href = "http://stackoverflow.com/questions/9968433/sankey-diagrams-in-r">Sankey Diagrams in R?</a>  
+- [リスト](http://www.sankey-diagrams.com/sankey-diagram-software/) 発見  
+- [Sankey Diagrams in R?](http://stackoverflow.com/questions/9968433/sankey-diagrams-in-r)  
 
-### d3.js  
+### [d3.js Data-Driven Documents](https://d3js.org/)
 可視化に強いので手を出したい。いずれ。  
 
-- <a href = "https://d3js.org/">Data-Driven Documents</a>  
-- <a href = "http://thedata.co/sites/thedata.co/files/u1/D3-Tips-and-Tricks_Book_v4.pdf"> D3 Tips and Tricks</a>  
+- [D3 Tips and Tricks](http://thedata.co/sites/thedata.co/files/u1/D3-Tips-and-Tricks_Book_v4.pdf)  
 
 ### Multidimensional
-- <a href = "http://www.sthda.com/english/wiki/impressive-package-for-3d-and-4d-graph-r-software-and-data-visualization">Impressive package for 3D and 4D graph - R software and data visualization</a>
+- [Impressive package for 3D and 4D graph - R software and data visualization](http://www.sthda.com/english/wiki/impressive-package-for-3d-and-4d-graph-r-software-and-data-visualization)
 
 ### animations
 基本的にアニメーションは正しい理解を阻害する  
 ただし、プレゼンで「わかった気にさせる」場合には有効  
 
-- <a href = "http://lenkiefer.com/2016/05/29/improving-R-animated-gifs-with-tweenr">Improving R animated GIFs with tweenr</a>  
+- [Improving R animated GIFs with tweenr](http://lenkiefer.com/2016/05/29/improving-R-animated-gifs-with-tweenr)  
 
 
 
@@ -532,20 +534,21 @@ aes(col)に複数のスケールをマッピングする
 
 インタラクティブな図をpowerpointへ
 
-- <a href = "http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/">Embedding R-generated Interactive HTML pages in MS PowerPoint</a>  
+- [Embedding R-generated Interactive HTML pages in MS PowerPoint](http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/)  
 
 論文っぽい表を出す
 
-- <a href = "http://rstudio-pubs-static.s3.amazonaws.com/13917_e79b7454b3ca4819a3255ab2f09d84f2.html">knitr + マークダウンでクールなLaTeXっぽい表</a>  
-- <a href = "https://www.karada-good.net/analyticsr/r-302/">Rで解析：レポートに便利な表の作成「xtable」パッケージ</a>  
+- [knitr + マークダウンでクールなLaTeXっぽい表](http://rstudio-pubs-static.s3.amazonaws.com/13917_e79b7454b3ca4819a3255ab2f09d84f2.html)  
+- [Rで解析：レポートに便利な表の作成「xtable」パッケージ](https://www.karada-good.net/analyticsr/r-302/)  
 
 
 
 ## What's
-<a href = "https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html">Hybrid evaluation</a> →  
+- [Hybrid evaluation](https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html) →  
 
 
 -------
+
 # Git/GitHub
 - [Gitでやらかした時に使える19個の奥義](http://qiita.com/muran001/items/dea2bbbaea1260098051)  
 
@@ -591,7 +594,7 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 # ソフトウェア  
 
 ## Windows系
-- [X-Finder](http://www.eonet.ne.jp/~gakana/) → タブファイラ。[wiki](http://www29.atwiki.jp/xfinder)
+- [X-Finder](http://www.eonet.ne.jp/~gakana/) → タブファイラ [wiki](http://www29.atwiki.jp/xfinder)
 
 
 
@@ -614,19 +617,25 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 
 ## 画像系
-- [O RLY Cover Generator](http://dev.to/rly) O'Reilly本の表紙風の画像作成。  
-- [画風を変換するアルゴリズム](https://research.preferred.jp/2015/09/chainer-gogh/) DNN風加工。  
-- [TeXClip](http://texclip.marutank.net/) TeX数式を画像で出力。  
+- [O RLY Cover Generator](http://dev.to/rly) O'Reilly本の表紙風の画像作成  
+- [画風を変換するアルゴリズム](https://research.preferred.jp/2015/09/chainer-gogh/) DNN風加工  
+- [TeXClip](http://texclip.marutank.net/) TeX数式を画像で出力  
 - [RoogleVision](https://github.com/cloudyr/RoogleVision) 画像認識
 
 
+
 ## 動画系
-- [GIPHY](http://giphy.com/create/gifeditor) GIF作成。  
+- [GIPHY](http://giphy.com/create/gifeditor) GIF作成  
 
 
 
 ## 可視化
-- [Deep playground](http://playground.tensorflow.org/) d3.jsで可視化したNN。
+- [Deep playground](http://playground.tensorflow.org/) d3.jsで可視化したNN  
+- [REGEXPER](https://regexper.com/) 正規表現のマッチングの可視化
+
+
+## 素材
+- [Pixabay](https://pixabay.com/) 写真・画像素材 (商用可)
 
 
 
