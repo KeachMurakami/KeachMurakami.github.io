@@ -5,7 +5,7 @@ permalink: /publication_list/
 layout: page
 ---
 
-<FONT color="grey">Last update: 2016-10-31  </FONT><br>
+<FONT color="grey">Last update: 2016-11-10  </FONT><br>
 
 --------------
 <br>
@@ -32,10 +32,10 @@ layout: page
 
 ### Book Chapters
 
-|Title                                                                                                                                                                                                                    |Year               |Type                           |Book                               |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|:------------------------------|:----------------------------------|
-|<a href = 'http://www.springer.com/us/book/9789811018466' target='_blank'>Optical and physiological properties of a leaf</a><br>&emsp;<FONT color='green'>Keach Murakami</FONT>*, Ryo Matsuda                            |2016<br>(in press) |Book chapter                   |LED Lighting for Urban Agriculture |
-|<a href = 'http://www.springer.com/in/book/9783319256863' target='_blank'>Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis</a><br>&emsp;Ryo Matsuda*, <FONT color='green'>Keach Murakami</FONT> |2016               |Book chapter<br>(peer-reviewd) |Progress in Botany                 |
+|Title                                                                                                                                                                                                                    |Year |Type                           |Book                               |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----|:------------------------------|:----------------------------------|
+|<a href = 'http://www.springer.com/us/book/9789811018466' target='_blank'>Optical and physiological properties of a leaf</a><br>&emsp;<FONT color='green'>Keach Murakami</FONT>*, Ryo Matsuda                            |2016 |Book chapter                   |LED Lighting for Urban Agriculture |
+|<a href = 'http://www.springer.com/in/book/9783319256863' target='_blank'>Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis</a><br>&emsp;Ryo Matsuda*, <FONT color='green'>Keach Murakami</FONT> |2016 |Book chapter<br>(peer-reviewd) |Progress in Botany                 |
 
 <br>
 <br>

@@ -105,6 +105,7 @@ the Plant Comparative Genomics portal
 ## 学会
 
 - [学会発表の心得](http://takenaka-akio.org/index_01.html)  
+- [伝わるデザイン 研究発表のユニバーサルデザイン](http://tsutawarudesign.web.fc2.com/)  
 
 ### スライド
 
@@ -329,19 +330,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 
--------
-
-# デザイン
-- [伝わるデザイン 研究発表のユニバーサルデザイン](http://tsutawarudesign.web.fc2.com/)  
-- [piccsy](http://piccsy.com/investors/)  
-
-
-## スライド
-- [こわくない Git ](http://www.slideshare.net/kotas/git-15276118) かっこいい。  
-
-
-
--------
+------
 
 # R  
 - [R for Data Science (R4DS)](http://r4ds.had.co.nz/)  
@@ -532,12 +521,10 @@ aes(col)に複数のスケールをマッピングする
 
 
 ## Data visualization
+- [THE R GRAPH GALLERY](http://www.r-graph-gallery.com/)  
+- [計算機は楽し](http://ayapin-film.sakura.ne.jp/PlotUtils/plotutils.html) 可視化ソフトが比較してある (Rはない)  
 - [統計グラフの色 (奥村先生@三重大)](https://oku.edu.mie-u.ac.jp/~okumura/stat/colors.html)  
-- [プログラマーが効果的な可視化を作成する](http://qiita.com/keiono/items/9042bf58224ca54bdb45)  
-- [データ可視化の実践者が共有すべき知識](http://qiita.com/keiono/items/2dd8228c88abcc4db0b0)  
 - [The viridis color palettes](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)  
-
-- [計算機は楽し](http://ayapin-film.sakura.ne.jp/PlotUtils/plotutils.html) 可視化ソフトが比較してある (Rはない)
 
 ### Google Chart
 - [Chart Gallery](https://developers.google.com/chart/interactive/docs/gallery)  
@@ -586,6 +573,7 @@ aes(col)に複数のスケールをマッピングする
 ## What's
 
 - [Hybrid evaluation](https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html) →  
+
 
 
 -------
@@ -679,13 +667,35 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 ## 可視化
 
+- [プログラマーが効果的な可視化を作成する](http://qiita.com/keiono/items/9042bf58224ca54bdb45)  
+- [データ可視化の実践者が共有すべき知識](http://qiita.com/keiono/items/2dd8228c88abcc4db0b0)  
+- [THE R GRAPH GALLERY](http://www.r-graph-gallery.com/)  
+- [information is beautiful](http://www.informationisbeautiful.net/)  
 - [Deep playground](http://playground.tensorflow.org/) d3.jsで可視化したNN  
-- [REGEXPER](https://regexper.com/) 正規表現のマッチングの可視化
+- [REGEXPER](https://regexper.com/) 正規表現のマッチングの可視
+
 
 
 ## 素材
 
-- [Pixabay](https://pixabay.com/) 写真・画像素材 (商用可)
+### 写真・画像
+
+- [Pixabay](https://pixabay.com/) 商用可  
+- [Compfight](http://compfight.com/) flickr経由なので出所次第
+
+
+
+## デザイン
+
+- [UI Garage](http://uigarage.net/) UIデザイン集  
+- [Web Design Recipes](http://webdesignrecipes.com/) 柔らかめ・Illustratorとか  
+- [色彩センスのいらない配色講座](http://www.slideshare.net/marippe/ss-9003317)  
+- [ノンデザイナーのための配色理論](http://www.slideshare.net/saucerjp/ss-14902681)  
+
+### 好きなデザイン
+
+- [piccsy](http://piccsy.com/investors/) かっこいい  
+- [こわくない Git ](http://www.slideshare.net/kotas/git-15276118) おしゃれ  
 
 
 
