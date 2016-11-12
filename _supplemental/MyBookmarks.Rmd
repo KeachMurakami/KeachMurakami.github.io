@@ -515,7 +515,16 @@ aes(col)に複数のスケールをマッピングする
 
 
 
+#### GIS
+
+- [leaflet](https://github.com/rstudio/leaflet)
+    - [Leaflet for R](https://rstudio.github.io/leaflet/)
+    - [地理データをRで可視化：コロプレス図](https://book.mynavi.jp/manatee/detail/id=59406)
+    - [leafletではじめるRによる地図プロット](https://rpubs.com/kazutan/leaflet_slide)
+
+
 ## [Bioconductor](https://www.bioconductor.org/)
+
 - [R & Bioconductor Manual](http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual#BIOCONPROGRAMS)  
 
 
