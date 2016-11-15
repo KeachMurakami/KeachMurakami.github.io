@@ -417,30 +417,40 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ### データ解析
 
-#### 下準備
+#### データハンドリング
 
-##### [dplyr](https://github.com/hadley/dplyr)・[tidyr](https://github.com/hadley/tidyr)
-データハンドリング  
+##### [dplyr](https://github.com/hadley/dplyr)
+Dplyr: A grammar of data manipulation  
 
 - [dplyrを使いこなす！基礎編](http://qiita.com/matsuou1/items/e995da273e3108e2338e)
 - [dplyrのmutate_if()とかについて](http://notchained.hatenablog.com/entry/2016/07/01/001836)
+
+##### [tidyr](https://github.com/hadley/tidyr)
+Easily tidy data with spread and gather functions  
 
 - tidyr::spreadで複数カラムをwide持ちしたい...
     - [できないっぽい](http://stackoverflow.com/questions/29775461/tidyr-repeated-measures-multiple-variables-wide-format?noredirect=1&lq=1)  
     - `tidyr::unite` -> `tidyr::spread` -> `tidyr::separate`は非常に回りくどい  
     - `reshape2::a/dcast`は使いたくないなぁ
 
+##### [purrr](https://github.com/hadley/purrr)
+Make your pure R function purrr with functional programming  
+
+- ベクトルに対して`dplyr`当てたい@r-wakalang
+    - `ymd(c("2014-09-01", "2014-10-01")) %>% keep(~ . != "2014-09-01")`
+
 ##### [forcats](https://github.com/tidyverse/forcats)
-factorsを扱う
+tools for working with categorical variables (factors)  
 
 ##### [broom](https://github.com/dgrtwo/broom)
-回帰モデルの返り値をキレイにする
+Convert statistical analysis objects from R into tidy format  
 
 ##### [chunked](https://github.com/edwindj/chunked)
-重いデータをメモリに読み込まずに処理する。  
+Chunkwise Text-file Processing for 'dplyr'  
+重いデータをメモリに読み込まずに処理する  
 
-##### rvest
-Webからデータを取ってくる。  
+##### [rvest](https://github.com/hadley/rvest)
+Simple web scraping for R  
 
 - [rvestによるWebスクレイピング](https://book.mynavi.jp/manatee/detail/id=59386)  
 
@@ -687,10 +697,14 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 ## 素材
 
+### データ
+
+- [Kaggle Datasets](https://www.kaggle.com/datasets) kaggle  
+
 ### 写真・画像
 
 - [Pixabay](https://pixabay.com/) 商用可  
-- [Compfight](http://compfight.com/) flickr経由なので出所次第
+- [Compfight](http://compfight.com/) flickr経由なので出所次第  
 
 
 
@@ -714,5 +728,5 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 ## 考え方など
 
-- [「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容。  
+- [「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容  
 
