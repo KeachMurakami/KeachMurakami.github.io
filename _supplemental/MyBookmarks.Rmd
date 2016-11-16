@@ -174,6 +174,7 @@ the Plant Comparative Genomics portal
 - [CID Bio-Science](https://www.cid-inc.com/) CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
 - [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
 - [酵素法　食品分析試薬　Fキット](https://premium.ipros.jp/azmax/product/detail/2000166418/) どこかの学会で見たやつ。安価・簡単に成分分析ができる。  
+- [CO2コントローラー「NMA-VRCシリーズ」](http://group.chcsys.net/jp/co2monitor) NDIRでこの値段...?
 
 ### 中古装置
 
@@ -484,6 +485,12 @@ aes(col)に複数のスケールをマッピングする
 
 - できないと神が仰る → [Allow several simultaneous colour scales](https://github.com/hadley/ggplot2/issues/578)  
 
+###### ggplot系Extension
+
+- [gganimate](https://github.com/dgrtwo/gganimate) Create easy animations with ggplot2  
+- [tweenr](https://github.com/thomasp85/tweenr) Interpolate your data  
+
+
 ##### Plotly
 インタラクティブな作図  
 
@@ -592,6 +599,23 @@ aes(col)に複数のスケールをマッピングする
 ## What's
 
 - [Hybrid evaluation](https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html) →  
+
+
+
+-------
+
+# Python
+たぶん手を出すことになるんだろうと思う
+
+## Packages
+
+- NumPy
+- Pandas
+- matplotlib
+- seaborn
+
+## Tools
+- [jicbioimage](https://github.com/JIC-CSB/jicbioimage) @[PeerJ](https://peerj.com/articles/2674/)  
 
 
 
