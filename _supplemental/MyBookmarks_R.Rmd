@@ -1,0 +1,274 @@
+---
+title: "MyBookmarks_R"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# R  
+- [R for Data Science (R4DS)](http://r4ds.had.co.nz/)  
+- [RPubs](http://rpubs.com/)  
+
+## グループ
+- [meetingsR](https://github.com/jumpingrivers/meetingsR)  
+
+### JapanRs
+- [Japan.R](http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7) 更新死んでる  
+    - [TokyoR](https://groups.google.com/forum/#!forum/r-study-tokyo)
+    - [TsukubaR](http://seesaawiki.jp/w/syou6162/)
+    - [KobeR](https://kobexr.doorkeeper.jp/)  
+
+### [HOXO-M - anonymous data analyst group in Japan - ](http://mockquant.blogspot.jp/)
+
+### UseR
+- [useR! 2016 international R User conference](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016)  
+
+
+
+## ブログ系
+- [R-bloggers](http://www.r-bloggers.com/) もろもろ薄く広く。  
+- [RStudio Blog](https://blog.rstudio.org/)  
+- [R-statistics blog](http://www.r-statistics.com/)  
+- [ほくそ笑む](http://d.hatena.ne.jp/hoxo_m/)  
+- [My life as a Mock of Quant](http://d.hatena.ne.jp/teramonagi/)  
+- [Technically, technophobic.](http://notchained.hatenablog.com/)  
+- [日々是独想](http://blog.kz-md.net/) ぞうさん通信  
+- [Hi!!](https://kohske.wordpress.com/)  
+- [どんな鳥も](http://d.hatena.ne.jp/tsutatsutatsuta/) 
+- [StatModeling Memorandum](http://statmodeling.hatenablog.com/)  
+- [盆栽日記](http://d.hatena.ne.jp/dichika/)  
+- [もうカツ丼はいいよな](http://rion778.hatenablog.com/)  
+- [東京で働くデータサイエンティストのブログ](http://tjo.hatenablog.com/)  
+- [廿TT](http://abrahamcow.hatenablog.com/)  
+- [まだ厨二病](http://uribo.hatenablog.com/)  
+- [INPUTしたらOUTPUT!](http://estrellita.hatenablog.com/)  
+- [Rでデータマイニング](http://kanosuke.hatenadiary.jp/)  
+- [RWeekly.org](https://rweekly.org/)  
+- [Timely Prtfolio](http://timelyportfolio.blogspot.jp/) 金融より。  
+- [今週も特にありません 進捗どうですか？](http://masaqol.hatenablog.com/archive/2015) 金融より。  
+- [ill-identified diary](http://ill-identified.hatenablog.com/)  
+- [a log](http://temp20151223.blogspot.jp/)  
+- [teuder's blog](http://teuder.hatenablog.com/)  
+- [歩いたら休め](http://kiito.hatenablog.com/)  
+- [驚異のアニヲタ社会復帰への道](http://d.hatena.ne.jp/MikuHatsune/)  
+- [300億円欲しい](http://gg-hogehoge.hatenablog.com/)  
+
+
+
+## まとめ系
+
+### 初心者向けまとめ  
+
+- [R基本統計関数マニュアル (pdf)](http://www.is.titech.ac.jp/~mase/Rstatman.pdf)  
+- [初心者のR入門](http://r-beginners.com/) 日本語。  
+- [Try R](http://tryr.codeschool.com/) 打ち込み学習。  
+- [ujjwalkarn/DataScienceR](https://github.com/ujjwalkarn/DataScienceR) Rでのデータサイエンスのチュートリアル。  
+- [Rの設定](http://www.agr.nagoya-u.ac.jp/~seitai/document/R2009/Rsettings.pdf) 環境変数など。
+
+### サンプルデータまとめ  
+
+- [R言語 サンプルデータ一覧](http://www.trifields.jp/r-sample-data-491) Rインストール時に導入されるサンプルデータの一覧と簡単な説明。  
+
+### パッケージまとめ  
+
+- [RStartHere](https://github.com/rstudio/RStartHere) RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。  
+- [awesome-R](https://github.com/qinwf/awesome-R) なんでもありなパッケージリスト。  
+
+### UseR!まとめ
+
+- [2016](https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md)  
+
+
+
+## パッケージ・その他  
+
+### パッケージ作成
+
+- [こわくないRパッケージ開発！2016](http://qiita.com/wakuteka/items/54f81f32baf50e243461)  
+
+
+
+### データ解析
+
+#### データハンドリング
+
+##### [dplyr](https://github.com/hadley/dplyr)
+Dplyr: A grammar of data manipulation  
+
+- [dplyrを使いこなす！基礎編](http://qiita.com/matsuou1/items/e995da273e3108e2338e)
+- [dplyrのmutate_if()とかについて](http://notchained.hatenablog.com/entry/2016/07/01/001836)
+
+##### [tidyr](https://github.com/hadley/tidyr)
+Easily tidy data with spread and gather functions  
+
+- tidyr::spreadで複数カラムをwide持ちしたい...
+    - [できないっぽい](http://stackoverflow.com/questions/29775461/tidyr-repeated-measures-multiple-variables-wide-format?noredirect=1&lq=1)  
+    - `tidyr::unite` -> `tidyr::spread` -> `tidyr::separate`は非常に回りくどい  
+    - `reshape2::a/dcast`は使いたくないなぁ
+
+##### [purrr](https://github.com/hadley/purrr)
+Make your pure R function purrr with functional programming  
+
+- ベクトルに対して`dplyr`当てたい@r-wakalang
+    - `ymd(c("2014-09-01", "2014-10-01")) %>% keep(~ . != "2014-09-01")`
+
+##### [forcats](https://github.com/tidyverse/forcats)
+tools for working with categorical variables (factors)  
+
+##### [broom](https://github.com/dgrtwo/broom)
+Convert statistical analysis objects from R into tidy format  
+
+##### [chunked](https://github.com/edwindj/chunked)
+Chunkwise Text-file Processing for 'dplyr'  
+重いデータをメモリに読み込まずに処理する  
+
+##### [rvest](https://github.com/hadley/rvest)
+Simple web scraping for R  
+
+- [rvestによるWebスクレイピング](https://book.mynavi.jp/manatee/detail/id=59386)  
+
+
+#### 作図
+
+##### [ggplot2](http://docs.ggplot2.org/current/index.html)
+データの階層構造を活かしたグラフ作成  
+
+- [ggplot2逆引き](http://yutannihilation.github.io/ggplot2-gyakubiki/)  
+- [ggplot2 extensions](http://www.ggplot2-exts.org/) 拡張パッケージ
+
+geom_area・geom_barのfill順序をうまいことする
+
+- [How do you order the fill colours within ggplot2 geom bar](http://stackoverflow.com/questions/15251816/how-do-you-order-the-fill-colours-within-ggplot2-geom-bar)  
+    - `ggplot(aes(order = ...))`はdeprecated (> 2.0.0あたり)  
+
+ポイント＋関数回帰曲線をggplot2で
+
+- [正規分布など好きな関数の曲線を描きたい](http://qiita.com/hoxo_b/items/a6522a6e6561f8ca7b96)  
+
+ggplot2の軸を対数軸べき乗で
+
+- [ggplot2の軸を上付きのべき乗で書きたい](http://d.hatena.ne.jp/teramonagi/20160327/1459066096)  
+
+facetへ数式を書き込む
+
+- [ggplot2: Adding Regression Line Equation and R2 on graph](http://stackoverflow.com/questions/7549694/ggplot2-adding-regression-line-equation-and-r2-on-graph)  
+
+aes(col)に複数のスケールをマッピングする  
+
+- できないと神が仰る → [Allow several simultaneous colour scales](https://github.com/hadley/ggplot2/issues/578)  
+
+###### ggplot系Extension
+
+- [gganimate](https://github.com/dgrtwo/gganimate) Create easy animations with ggplot2  
+- [tweenr](https://github.com/thomasp85/tweenr) Interpolate your data  
+
+
+##### Plotly
+インタラクティブな作図  
+
+- [plotly for R User Guide](https://plot.ly/r/user-guide/) 全般。  
+- [Plotly Shiny Gallery](https://plot.ly/r/shiny-gallery/) Shiny×Plotlyのギャラリー。 
+
+##### rCharts
+インタラクティブな作図  
+
+- [rCharts featuring highcharts](https://rpubs.com/kohske/12409) rCharts::hPlot。  
+
+
+
+#### レポート
+
+##### knitr
+解析の再現性を確保したレポート作成  
+
+- [`knitr` Elegant, flexible and fast dynamic report generation with R (yihui)](http://yihui.name/knitr/)  
+    - [bookdown](https://dl.dropboxusercontent.com/u/15335397/slides/2016-useR-bookdown-Yihui-Xie.html)に続く  
+
+##### Shiny
+共有プラットフォーム  
+
+- [Shiny-Developer-Conference](https://www.rstudio.com/resources/webinars/shiny-developer-conference/) デブコン  
+- [Shiny tips & tricks for improving your apps and solving common problems](http://deanattali.com/blog/advanced-shiny-tips/) 小技のまとめ  
+- [Authentication of Shiny-server Application Using a Simple Method](http://withr.me/authentication-of-shiny-server-application-using-a-simple-method/) Shinyでパスワード保護  
+    - 予め指定したPWに適合しない場合は表示を抑える、というシンプルな戦略  
+
+- [Shiny app for sun paths and light transmission calculation](http://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform/Applications) Shinyアプリを付けている素敵論文  
+
+
+
+#### プレゼンテーション
+
+##### rmdshower
+
+- [rmdshower](https://github.com/MangoTheCat/rmdshower) 
+
+
+
+#### GIS
+
+- [leaflet](https://github.com/rstudio/leaflet)
+    - [Leaflet for R](https://rstudio.github.io/leaflet/)
+    - [地理データをRで可視化：コロプレス図](https://book.mynavi.jp/manatee/detail/id=59406)
+    - [leafletではじめるRによる地図プロット](https://rpubs.com/kazutan/leaflet_slide)
+
+
+## [Bioconductor](https://www.bioconductor.org/)
+
+- [R & Bioconductor Manual](http://manuals.bioinformatics.ucr.edu/home/R_BioCondManual#BIOCONPROGRAMS)  
+
+
+
+## Data visualization
+- [THE R GRAPH GALLERY](http://www.r-graph-gallery.com/)  
+- [計算機は楽し](http://ayapin-film.sakura.ne.jp/PlotUtils/plotutils.html) 可視化ソフトが比較してある (Rはない)  
+- [統計グラフの色 (奥村先生@三重大)](https://oku.edu.mie-u.ac.jp/~okumura/stat/colors.html)  
+- [The viridis color palettes](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)  
+
+### Google Chart
+- [Chart Gallery](https://developers.google.com/chart/interactive/docs/gallery)  
+- [Google Visualization API Reference](https://developers.google.com/chart/interactive/docs/reference)    
+
+### heatmap
+インタラクティブなヒートマップ  
+
+- [talgalili/heatmaply](https://github.com/talgalili/heatmaply)  
+
+### Sankey diagram
+物質・エネルギーの収支をRで書きたい。  
+
+- [リスト](http://www.sankey-diagrams.com/sankey-diagram-software/) 発見  
+- [Sankey Diagrams in R?](http://stackoverflow.com/questions/9968433/sankey-diagrams-in-r)  
+
+### [d3.js Data-Driven Documents](https://d3js.org/)
+可視化に強いので手を出したい。いずれ。  
+
+- [D3 Tips and Tricks](http://thedata.co/sites/thedata.co/files/u1/D3-Tips-and-Tricks_Book_v4.pdf)  
+
+### Multidimensional
+- [Impressive package for 3D and 4D graph - R software and data visualization](http://www.sthda.com/english/wiki/impressive-package-for-3d-and-4d-graph-r-software-and-data-visualization)
+
+### animations
+基本的にアニメーションは正しい理解を阻害する  
+ただし、プレゼンで「わかった気にさせる」場合には有効  
+
+- [Improving R animated GIFs with tweenr](http://lenkiefer.com/2016/05/29/improving-R-animated-gifs-with-tweenr)  
+
+
+
+## 個別案件
+
+インタラクティブな図をpowerpointへ
+
+- [Embedding R-generated Interactive HTML pages in MS PowerPoint](http://www.mango-solutions.com/wp/2015/02/embedding-r-generated-interactive-html-pages-in-ms-powerpoint/)  
+
+論文っぽい表を出す
+
+- [knitr + マークダウンでクールなLaTeXっぽい表](http://rstudio-pubs-static.s3.amazonaws.com/13917_e79b7454b3ca4819a3255ab2f09d84f2.html)  
+- [Rで解析：レポートに便利な表の作成「xtable」パッケージ](https://www.karada-good.net/analyticsr/r-302/)  
+
+
+
+## What's
+
+- [Hybrid evaluation](https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html) →  
