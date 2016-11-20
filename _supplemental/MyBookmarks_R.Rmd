@@ -160,6 +160,7 @@ aes(col)に複数のスケールをマッピングする
 
 ###### ggplot系Extension
 
+- [cowplot](https://github.com/wilkelab/cowplot) meant to provide a publication-ready theme for ggplot2  
 - [gganimate](https://github.com/dgrtwo/gganimate) Create easy animations with ggplot2  
 - [tweenr](https://github.com/thomasp85/tweenr) Interpolate your data  
 
