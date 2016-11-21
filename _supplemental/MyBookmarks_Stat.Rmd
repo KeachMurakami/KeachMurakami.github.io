@@ -1,0 +1,79 @@
+---
+title: "MyBookmarks_Stat"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# 統計学  
+
+- [統計科学のための電子図書システム](http://ebsa.ism.ac.jp/)  
+- [統計・データ解析 (奥村先生@三重大学)](https://oku.edu.mie-u.ac.jp/~okumura/stat/)  
+- [統計webpages入口 (粕谷先生@九州大学)](http://kasuya.ecology1.org/stats/index.html)  
+- [早稲田大学文学部文学研究科 豊田研究室](http://www.waseda.jp/sem-toyoda-lab/index.html)  
+
+## 実験計画法
+
+### 分散分析　　
+
+- [分散分析のノート](http://ofmind.net/doc/anova-note)  
+- [大森先生@東大農](http://lbm.ab.a.u-tokyo.ac.jp/~omori/) 実験計画法全般、生物統計全般の資料。  
+- [ぶんさんぶんせき@中西政志さん](http://ofmind.net/doc/anova-note) Type I~IIIのANOVAの話など。  
+
+### 擬似反復  
+
+- [Pseudoreplication and the Design of Ecological Field Experiments (Hurlbert, 1984)](http://www.jstor.org/stable/1942661?seq=1#page_scan_tab_contents)  
+"擬似反復 (pseudoreplication)"というフレーズの初出。良論分。  
+- ['Pseudoreplication' problem‐接着したコドラートは何が悪いのか (大垣俊一, 2000)](http://www.mus-nh.city.osaka.jp/iso/argo/nl02/nl02-21-32.html)  
+Hurlbertの意見を認めつつ、イケてないHurlbertフォロワーを叩いている。"批判的検討"の項がよろしい。  
+- [土壌肥料学における数理統計手法の応用上の問題点 : 4. Pseudoreplicationと繰り返し測定 (山村光司, 1999)](http://ci.nii.ac.jp/naid/110001747104)  
+擬似反復による場所差の項の効果への混入の寄与が十分に小さいことを示すことができれば、擬似反復でもOKかもしれない、という考え方も示されている。  
+
+## マルチレベルモデリング
+要勉強  
+
+- [Multilevel models: An introduction and FAQs](http://www.bristol.ac.uk/cmm/learning/multilevel-models/)  
+
+
+
+## 計算統計  
+
+### マルコフ連鎖モンテカルロ法  
+
+- [マルコフ連鎖モンテカルロ法入門](http://ebsa.ism.ac.jp/ebooks/sites/default/files/ebook/1881/pdf/vol3_ch10.pdf)  
+webでフリーのMCMC解説だと一番丁寧な印象。  
+- [Review Course: Markov Chains and Monte Carlo Methods](http://users.aims.ac.za/~ioana/)  
+
+### 状態空間モデル、パーティクルフィルタ  
+
+- [データ同化論: 状態空間モデルとシミュレーション (統計数理研究所 公開講座)](http://daweb.ism.ac.jp/koza/koza2008/) パーティクルフィルタに関する資料がいくつかある。  
+- [Data Assimilation Seminar Series](http://data-assimilation.jp/en/events/da_seminar/index.html) 理研データ同化チームのセミナー資料など。  
+- [逐次モンテカルロ/(粒子|パーティクル|モンテカルロ)フィルタを実装してみた](http://d.hatena.ne.jp/teramonagi/20140525/1400996808) teramonagiさんのBlog。リンクもいくつかある。  
+- [生態学分野における状態空間モデルの利用 (2016; 日本生態学会誌)](https://www.jstage.jst.go.jp/browse/seitai/-char/ja/) 
+
+
+
+## 統計モデリング
+
+### 一般化線形モデル
+
+- [一般化線形モデル周りのRのパッケージと関数まとめ](http://masaqol.hatenablog.com/entry/2016/03/30/003254)  
+
+
+
+## 機械学習
+
+- [朱鷺の杜](http://ibisforest.org/index.php?FrontPage)  
+
+
+
+## 時系列解析ネタ
+
+- [こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定](http://togetter.com/li/939366) "６回を独立とみなす"はダメでしょう。  
+- [The curse of big data](http://www.analyticbridge.com/profiles/blogs/the-curse-of-big-data) 時系列を回帰するやつ。
+
+
+
+## 統計ネタの多いブログ
+- [ryamadaの遺伝学・遺伝統計学メモ](http://d.hatena.ne.jp/ryamada22/)  

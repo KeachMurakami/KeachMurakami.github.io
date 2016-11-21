@@ -1,0 +1,57 @@
+---
+title: "MyBookmarks_Plant"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# 植物科学
+
+## 植物生理学
+
+- [植物生理学・分子生理学コンソーシアムによる陸上植物の高CO~2~応答の包括的解明 (新学術領域研究)](http://www.biology.kyushu-u.ac.jp/~plant/shinryoiki/index.html)  
+- [植物の環境感覚：刺激受容から細胞応答まで (新学術領域研究)](http://esplant.net/index.html)  
+- [二酸化炭素資源化を目指した植物の物質生産力強化と生産物活用のための基盤技術の創出 (CREST+さきがけ研究領域)](http://www.jst.go.jp/presto/plantsci/)  
+- [情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出 (さきがけ研究領域)](http://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html)  
+- [将来の地球環境において最適な光合成・物質生産システムを持った強化植物の創出 (CREST研究課題)](http://hostgk3.biology.tohoku.ac.jp/hikosaka/CREST/index.html)  
+
+### 光合成生理生態学
+
+- [光合成事典 (Web版)](http://photosyn.jp/pwiki/index.php?%E5%85%89%E5%90%88%E6%88%90%E4%BA%8B%E5%85%B8)  
+- [光合成研究法](http://www.lowtem.hokudai.ac.jp/plantadapt/photosynthesis_way-j.html)  
+- [Sun/Shade acclimation (1988; Special Issue of *Australian Journal of Plant Physiology*)](http://www.publish.csiro.au/nid/103/issue/2664.htm)  
+- [Regulation of photosynthetic electron transport (2011; Special Issue of *Biochimica et Biophysica Acta (BBA) - Bioenergetics*)](http://www.sciencedirect.com/science/journal/00052728/1807/8)  
+- [Light stress in plants: mechanismsand interactions special issue (2005; Special Issue of *Journal of Experimental Botany*)](http://jxb.oxfordjournals.org/content/56/411.toc)  
+- [新光合成 光エネルギー変換システムの再最適化](http://photosynthesis.nibb.ac.jp/)  
+
+### 光形態形成・光質応答
+
+- [Annual Plant Reviews Volume 30: Light and Plant Development](http://onlinelibrary.wiley.com/book/10.1002/9780470988893)  
+
+### Phenotyping
+
+- [Special issue on Computer vision and image analysis in plant phenotyping (2016; Special Issue of *Machine Vision and Applications*)](http://link.springer.com/journal/138/27/5/page/1)  
+
+### 代謝  
+
+
+### 活性酸素
+
+- [Reactive oxygen species (2006; Special Issue of *Plant Physiology*)](http://www.plantphysiol.org/content/141/2)  
+
+### モデリング
+
+- [Plant modelling: new approaches to an old subject (2010; Special Issue of *Journal of Experimental Botany*)](http://jxb.oxfordjournals.org/content/61/8.toc)  
+
+
+## 栽培方法について
+
+- [Plant Growth Chamber Handbook](http://www.controlledenvironments.org/Growth_Chamber_Handbook/Plant_Growth_Chamber_Handbook.htm)  
+
+
+## データ提供
+
+- [ASTER Spectral Library - Version 2.0](http://speclib.jpl.nasa.gov/) 分光分布ライブラリ
+- [Natural Phenomena Simulation Group@University of Waterloo](http://www.npsg.uwaterloo.ca/data/leaves.php) 色素の吸収スペクトル  
+

@@ -186,6 +186,12 @@ aes(col)に複数のスケールをマッピングする
 - [`knitr` Elegant, flexible and fast dynamic report generation with R (yihui)](http://yihui.name/knitr/)  
     - [bookdown](https://dl.dropboxusercontent.com/u/15335397/slides/2016-useR-bookdown-Yihui-Xie.html)に続く  
 
+###### knitr × Rmarkdown × LaTeX絡み
+
+- [RStudio(Windows)でSweave(.Rnw)を使って一発でpdf作りたい](http://d.hatena.ne.jp/teramonagi/20140203/1391429752) LuaLaTeXを使うとき
+- [Ubuntu,R knitrで日本語のPDFを出力するための設定](http://www.trifields.jp/how-to-set-up-for-outputting-a-pdf-of-the-japanese-at-knitr-in-ubuntu-1404-and-r-1615) `ggplot2`でもやることは一緒
+    - chunk optionで`knitr::opts_chunk$set(dev="cairo_pdf", dev.args=list(family=""))`が超重要
+
 ##### Shiny
 共有プラットフォーム  
 
