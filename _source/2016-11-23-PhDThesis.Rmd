@@ -17,7 +17,7 @@ paste0("Thesis_", c("Intro", "Chap2", "Chap3", "Conclusion", "Abst")) %>%
   theme(legend.position = "right")
 ```
 
-- toXXのXX (イニシャルなど) がコメントを貰ったとき
+- toXX (XXはイニシャルなど) がコメントを貰ったとき
     - 余計なことを書きがちなので「先生に見てもらう → 減る」が顕著  
     - PRはproof reading
         - 投稿論文にはならない序論と結論の校正は、科研費で校正するのはどうなのか怪しかったので私費 (学振の研究遂行経費) で捻出  
