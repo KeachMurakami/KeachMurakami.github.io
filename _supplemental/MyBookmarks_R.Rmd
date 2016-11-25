@@ -9,6 +9,7 @@ output:
 # R  
 - [R for Data Science (R4DS)](http://r4ds.had.co.nz/)  
 - [RPubs](http://rpubs.com/)  
+- [60+ R resources to improve your data skills](http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html)
 
 ## グループ
 - [meetingsR](https://github.com/jumpingrivers/meetingsR)  
@@ -191,6 +192,7 @@ aes(col)に複数のスケールをマッピングする
 - [RStudio(Windows)でSweave(.Rnw)を使って一発でpdf作りたい](http://d.hatena.ne.jp/teramonagi/20140203/1391429752) LuaLaTeXを使うとき
 - [Ubuntu,R knitrで日本語のPDFを出力するための設定](http://www.trifields.jp/how-to-set-up-for-outputting-a-pdf-of-the-japanese-at-knitr-in-ubuntu-1404-and-r-1615) `ggplot2`でもやることは一緒
     - chunk optionで`knitr::opts_chunk$set(dev="cairo_pdf", dev.args=list(family=""))`が超重要
+- [RユーザーがLaTeXユーザーと仲良くするべき理由](http://qiita.com/uri/items/02883ef0f3e2962eac52) `latex2exp`がわりとイケる  
 
 ##### Shiny
 共有プラットフォーム  
