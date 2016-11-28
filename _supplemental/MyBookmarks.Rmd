@@ -346,7 +346,7 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 ### 写真・画像
 
-- [Pixabay](https://pixabay.com/) 商用可  
+- [Pixabay](https://pixabay.com/) 商用可、CC0  
 - [Compfight](http://compfight.com/) flickr経由なので出所次第  
 
 
@@ -372,4 +372,3 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 ## 考え方など
 
 - [「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容  
-
