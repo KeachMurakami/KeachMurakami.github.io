@@ -1,0 +1,130 @@
+---
+title: "MyBookmarks_Computer"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+layout: post
+categories: bookmarks
+tags: memo
+---
+
+-------
+
+# Python
+たぶん手を出すことになるんだろうと思う
+
+## Packages
+
+- NumPy
+- Pandas
+- matplotlib
+- seaborn
+
+## Tools
+- [jicbioimage](https://github.com/JIC-CSB/jicbioimage) @[PeerJ](https://peerj.com/articles/2674/)  
+
+
+
+-------
+
+# Git/GitHub
+
+- [Gitでやらかした時に使える19個の奥義](http://qiita.com/muran001/items/dea2bbbaea1260098051)  
+
+
+
+-------
+
+# TeX
+よくわからずやっているので、危うい  
+とりあえず、導入した手順を思い出せるよう、時系列でURLログ。  
+[RStudioから使えるR Markdownで日本語のPDFを作成する](http://bicycle1885.hatenablog.com/entry/2014/10/15/032024)  
+BasicTeXで準備→設定→R Markdownファイルの作成までやっても
+
+> pandoc: pdflatex not found. pdflatex is needed for pdf output.
+> Error: pandoc document conversion failed with error 41
+> Execution halted
+> 
+> No TeX installation detected (TeX is required to create PDF output). You should install a recommended TeX distribution for your platform:
+
+だったので、MacTeX (June, 2016; 2.93GB) を導入  
+
+
+-------
+
+# [Stan](http://mc-stan.org/)
+
+- [Case Studies](http://mc-stan.org/documentation/case-studies.html)  
+- [RStan Getting Started (Japanese)](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started-%28Japanese%29)  
+- [Using the ggmcmc package](http://xavier-fim.net/packages/ggmcmc/) MCMC系 × ggplot2。使い勝手がよさそうなので。
+    - [`[stan] [jags]` ggmcmc でMCMCの事後診断 ](http://ill-identified.hatenablog.com/entry/2016/10/07/233000) 解説と改変版
+
+## advent calendar
+
+- [Stan Advent Calendar 2016](http://qiita.com/advent-calendar/2016/stan)
+
+
+-------
+
+# プログラミング/その他・全般  
+
+- [コードを書くさいの指針として見返すサイトまとめ](http://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=2568ed82eb-Qiita_newsletter_213_06_22_2016&utm_medium=email&utm_term=0_e44feaa081-2568ed82eb-33203329)  
+
+
+
+-------
+
+# ソフトウェア  
+
+## Windows系
+
+- [X-Finder](http://www.eonet.ne.jp/~gakana/) → タブファイラ [wiki](http://www29.atwiki.jp/xfinder)
+
+
+
+## 文献管理
+
+### BibTeX  
+
+- [BibTeX活用術](http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93)  
+- [BIBTEXing：BIBTEXの使い方](ftp://ftp.fau.de/ctan/biblio/pbibtex/base/jbtxdoc.pdf)  
+- [bibtex Yamamoto's Laboratory](http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html)  
+- [superscript in my reference--bibtex](http://tex.stackexchange.com/questions/186848/superscript-in-my-reference-bibtex) 下付き・上付きにする
+    - {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) → [書いた](https://keachmurakami.github.io/lab/2016/06/14/bibtex2.html)  
+
+- [Find and edit CSL citation styles](http://editor.citationstyles.org/searchByExample/) 引用スタイルを探す  
+
+
+
+## 数学系
+
+- [Wolfram Alpha](https://www.wolframalpha.com/) 微分積分が苦手なので。
+
+
+
+## 画像系
+
+- [O RLY Cover Generator](http://dev.to/rly) O'Reilly本の表紙風の画像作成  
+- [画風を変換するアルゴリズム](https://research.preferred.jp/2015/09/chainer-gogh/) DNN風加工  
+- [TeXClip](http://texclip.marutank.net/) TeX数式を画像で出力  
+- [RoogleVision](https://github.com/cloudyr/RoogleVision) 画像認識
+
+
+
+## 動画系
+
+- [GIPHY](http://giphy.com/create/gifeditor) GIF作成  
+
+
+
+## 可視化
+
+- [プログラマーが効果的な可視化を作成する](http://qiita.com/keiono/items/9042bf58224ca54bdb45)  
+- [データ可視化の実践者が共有すべき知識](http://qiita.com/keiono/items/2dd8228c88abcc4db0b0)  
+- [THE R GRAPH GALLERY](http://www.r-graph-gallery.com/)  
+- [information is beautiful](http://www.informationisbeautiful.net/)  
+- [Deep playground](http://playground.tensorflow.org/) d3.jsで可視化したNN  
+- [REGEXPER](https://regexper.com/) 正規表現のマッチングの可視
+
+- [Shut up about the y-axis. It shouldn’t always start at zero.](https://www.youtube.com/watch?v=14VYnFhBKcY)
