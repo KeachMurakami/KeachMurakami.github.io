@@ -53,6 +53,8 @@ tags: memo
 
 - [農研機構](http://www.naro.affrc.go.jp/)  
     - [気候変動対応プログラム](http://adpmit.dc.affrc.go.jp/index.html)  
+- [国環研](http://www.nies.go.jp/)
+    - [気候変動適応情報プラットフォーム](http://www.adaptation-platform.nies.go.jp/)
 
 ### 国外グループ
 
