@@ -127,6 +127,9 @@ the Plant Comparative Genomics portal
 
 ### スライド
 
+-[研究発表Tips（プレゼンおよび資料作成のコツ）](http://maruyama.w3.kanazawa-u.ac.jp/20_presentation_tips.html) 注意点のまとめ
+-
+
 ### ポスター
 
 
@@ -189,10 +192,10 @@ the Plant Comparative Genomics portal
 
 ### 気になる物品
 
-- [CID Bio-Science](https://www.cid-inc.com/) CI-203, CI-710が便利そう？精度が低かったらダメだけど？  
+- [CID Bio-Science](https://www.cid-inc.com/) CI-203, CI-710が便利そう？精度が低かったらダメだけど。  
 - [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
 - [酵素法　食品分析試薬　Fキット](https://premium.ipros.jp/azmax/product/detail/2000166418/) どこかの学会で見たやつ。安価・簡単に成分分析ができる。  
-- [CO2コントローラー「NMA-VRCシリーズ」](http://group.chcsys.net/jp/co2monitor) NDIRでこの値段...?
+- [CO2コントローラー「NMA-VRCシリーズ」](http://group.chcsys.net/jp/co2monitor) 質の割に安い...?
 
 ### 中古装置
 

@@ -66,7 +66,8 @@ output:
 - [2013](https://atnd.org/events/45043)
 - 2014[その1](https://atnd.org/events/58648)[その2](http://qiita.com/advent-calendar/2014/r-rstudio)
 - [2015](http://qiita.com/advent-calendar/2015/r-rstudio)
-- [2016](http://qiita.com/advent-calendar/2016/r-rstudio)
+- 2016[R](http://qiita.com/advent-calendar/2016/r-rstudio)/[Rstudio](http://qiita.com/advent-calendar/2016/rstudio-ide)
+
 
 ### 初心者向けまとめ  
 
