@@ -50,6 +50,17 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 だったので、MacTeX (June, 2016; 2.93GB) を導入  
 
+## BibTeX  
+
+- [BibTeX活用術](http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93)  
+- [BIBTEXing：BIBTEXの使い方](ftp://ftp.fau.de/ctan/biblio/pbibtex/base/jbtxdoc.pdf)  
+- [bibtex Yamamoto's Laboratory](http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html)  
+- [superscript in my reference--bibtex](http://tex.stackexchange.com/questions/186848/superscript-in-my-reference-bibtex) 下付き・上付きにする
+    - {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) → [書いた](https://keachmurakami.github.io/lab/2016/06/14/bibtex2.html)  
+
+- [Find and edit CSL citation styles](http://editor.citationstyles.org/searchByExample/) 引用スタイルを探す  
+
+
 
 -------
 
@@ -63,6 +74,7 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 ## advent calendar
 
 - [Stan Advent Calendar 2016](http://qiita.com/advent-calendar/2016/stan)
+
 
 
 -------
@@ -80,20 +92,6 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 ## Windows系
 
 - [X-Finder](http://www.eonet.ne.jp/~gakana/) → タブファイラ [wiki](http://www29.atwiki.jp/xfinder)
-
-
-
-## 文献管理
-
-### BibTeX  
-
-- [BibTeX活用術](http://www.okomeda.net/?BibTeX%E6%B4%BB%E7%94%A8%E8%A1%93)  
-- [BIBTEXing：BIBTEXの使い方](ftp://ftp.fau.de/ctan/biblio/pbibtex/base/jbtxdoc.pdf)  
-- [bibtex Yamamoto's Laboratory](http://akita-nct.jp/yamamoto/comp/latex/bibtex/bibtex.html)  
-- [superscript in my reference--bibtex](http://tex.stackexchange.com/questions/186848/superscript-in-my-reference-bibtex) 下付き・上付きにする
-    - {}で囲ってTeXの記法 (e.g. `H{$_{2}$}O`) → [書いた](https://keachmurakami.github.io/lab/2016/06/14/bibtex2.html)  
-
-- [Find and edit CSL citation styles](http://editor.citationstyles.org/searchByExample/) 引用スタイルを探す  
 
 
 
@@ -128,3 +126,9 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 - [REGEXPER](https://regexper.com/) 正規表現のマッチングの可視
 
 - [Shut up about the y-axis. It shouldn’t always start at zero.](https://www.youtube.com/watch?v=14VYnFhBKcY)
+
+
+
+## 素材
+- [Pixabay](https://pixabay.com/) 商用可  
+- [Compfight](http://compfight.com/) flickr経由なので出所次第  

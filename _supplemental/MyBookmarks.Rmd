@@ -11,12 +11,9 @@ tags: memo
 
 -------
 
+# グループ
 
-# 研究全般
-
-## グループ
-
-### 国内学会
+## 国内学会
 
 - 定期的
     - [日本農業気象学会](http://www.agrmet.jp/) 毎年３月  
@@ -40,46 +37,39 @@ tags: memo
     - [日本バイオインフォマティクス学会](http://www.jsbi.org/) 毎年Ｘ月  
     - [XXX]() 毎年Ｘ月  
 
-### 国外学会
+## 国外学会
 
 - [American Society for Horticultural Science (ASHS)](http://www.ashs.org/)  
 
-### 国際学会
+## 国際学会
 
 - [International Society for Horticultural Science (ISHS)](http://www.ishs.org/) → [(イベントカレンダー)](http://www.ishs.org/calendar)  
 - [International Society of Photosynthesis Research (ISPR)](http://www.photosynthesisresearch.org/)    
 
-### 国内グループ
+## 国内グループ
 
 - [農研機構](http://www.naro.affrc.go.jp/)  
     - [気候変動対応プログラム](http://adpmit.dc.affrc.go.jp/index.html)  
 - [国環研](http://www.nies.go.jp/)
     - [気候変動適応情報プラットフォーム](http://www.adaptation-platform.nies.go.jp/)
 
-### 国外グループ
+## 国外グループ
 
 - [NCERA-101/NCR-101](http://www.controlledenvironments.org/)  
 - [UK CEUG](http://www.ceug.ac.uk/)  
 - [Developing LED Lighting Technologies and Practices for Sustainable Specialty-Crop Production](http://leds.hrt.msu.edu/)  
 
-### 国際グループ
+## 国際グループ
 
 - [IPCC](http://www.ipcc.ch/index.htm/)  
 
 
 
-## 遺伝資源系ポータル  
-使いこなすときが来る気がしない。  
+# 書き仕事
 
-- [Phytozome](https://phytozome.jgi.doe.gov/pz/portal.html) 
-the Plant Comparative Genomics portal  
-- [TAIR](http://www.arabidopsis.org/) The Arabidopsis Information Resource  
-- [1001 Genomes](http://1001genomes.org/) A Catalog of Arabidopsis thaliana Genetic Variation  
-- [SIGnAl](http://signal.salk.edu/) Salk Institute Genomic Analysis Laboratory  
+## 論文書き
 
-
-
-## 書き仕事
+- [松尾ぐみの論文執筆](http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.htm)
 
 ### 英語  
 
@@ -92,12 +82,21 @@ the Plant Comparative Genomics portal
 - [英語例文を見て自然に英語・英会話を学ぶ](http://www.geocities.jp/kusumotokeiji/eigo.htm)  
 - [コミュニケーション@見延庄士郎のHP](http://www.sci.hokudai.ac.jp/~minobe/education.html)  
 
-### 査読
+## 申請書
+
+- [科研費.com](http://xn--w8yz0bc56a.com/) 科研費申請書のコツ。大勢がコツに頼りだすとその業界はおしまいでもある。  
+
+## 査読
 まだやったことないけど、近々くるだろう
 
 - [英語論文の査読表現集](https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm)
 
-### 論文誌
+## 一般
+普段遣いの英語がわからん
+
+- [社会で役立つ英語習得のテクニック](http://www.f.waseda.jp/shinoda/technique-index.htm) 決まり文句など  
+
+## 論文誌
 評価とか、predatory journalとか
 
 - [Beall’s List](https://scholarlyoa.com/publishers/) 
@@ -113,35 +112,19 @@ the Plant Comparative Genomics portal
         - Journal of Plant Physiology & Pathology (2016/11/11)
         - VEGETOS: An International Journal of Plant Research (2016/11/19)
 
-### 一般
-普段遣いの英語がわからん
-
-- [社会で役立つ英語習得のテクニック](http://www.f.waseda.jp/shinoda/technique-index.htm) 決まり文句など  
 
 
+# 報告系
 
-## 学会
+## 学会発表
 
 - [学会発表の心得](http://takenaka-akio.org/index_01.html)  
 - [伝わるデザイン 研究発表のユニバーサルデザイン](http://tsutawarudesign.web.fc2.com/)  
-
-### スライド
-
--[研究発表Tips（プレゼンおよび資料作成のコツ）](http://maruyama.w3.kanazawa-u.ac.jp/20_presentation_tips.html) 注意点のまとめ
--
-
-### ポスター
-
-
+- [研究発表Tips（プレゼンおよび資料作成のコツ）](http://maruyama.w3.kanazawa-u.ac.jp/20_presentation_tips.html) 注意点のまとめ
 
 ## 進捗・報告
 
-### ないとき  
-
 - [沼 正作 博士 (1929-1992) ：沼研の伝説的なエピソード](http://scienceandtechnology.jp/archives/9655) あつい。  
-
-### よい報告の仕方  
-
 - [効果的にバグを報告するには](http://www.chiark.greenend.org.uk/~sgtatham/bugs-jp.html) プログラムに限らず、研究一般でも同じ。  
 
 
@@ -182,50 +165,56 @@ the Plant Comparative Genomics portal
     - 採択率は不明
 
 
-## 申請書
 
-- [科研費.com](http://xn--w8yz0bc56a.com/) 科研費申請書のコツ。大勢がコツに頼りだすとその業界はおしまいでもある。  
+# 物品購入
 
-
-
-## 物品購入
-
-### 気になる物品
+## 気になる物品
 
 - [CID Bio-Science](https://www.cid-inc.com/) CI-203, CI-710が便利そう？精度が低かったらダメだけど。  
 - [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
 - [酵素法　食品分析試薬　Fキット](https://premium.ipros.jp/azmax/product/detail/2000166418/) どこかの学会で見たやつ。安価・簡単に成分分析ができる。  
 - [CO2コントローラー「NMA-VRCシリーズ」](http://group.chcsys.net/jp/co2monitor) 質の割に安い...?
 
-### 中古装置
+## 中古装置
 
 - [Hightech&Facility](http://www.hitechfacility.co.jp/)  
 - [日本電計](http://www.n-denkei.co.jp/)  
 
-### ものづくり
+## ものづくり
 
 - [野方電機工業](http://www.nogatadenki.jp/) 金属加工。webページがとてもカッコイイ。  
 - [(有) サンステップ](http://www.sunstep.net/") プリント基板  
 
-### 便利そうな小物
+## 便利そうな小物
 
 - [AE-LED56V2](http://akizukidenshi.com/catalog/g/gP-08006/) 小型・安価なLED基板
 
 
 
-## 科学哲学
+# 遺伝資源系ポータル  
+使いこなすときが来る気がしない。  
 
-### 4つのなぜ (Nikolaas Tinbergen)
+- [Phytozome](https://phytozome.jgi.doe.gov/pz/portal.html) 
+the Plant Comparative Genomics portal  
+- [TAIR](http://www.arabidopsis.org/) The Arabidopsis Information Resource  
+- [1001 Genomes](http://1001genomes.org/) A Catalog of Arabidopsis thaliana Genetic Variation  
+- [SIGnAl](http://signal.salk.edu/) Salk Institute Genomic Analysis Laboratory  
 
-- [ティンバーゲンの4つのなぜ](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C)  
-
-### Strong Inference
-
-- [“Strong Inference”について](http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm) 真偽だけが重要なときはこれ。  
 
 
 
 -------
+
+# 科学哲学
+
+## 4つのなぜ (Nikolaas Tinbergen)
+
+- [ティンバーゲンの4つのなぜ](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C)  
+
+## Strong Inference
+
+- [“Strong Inference”について](http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm) 真偽だけが重要なときはこれ。  
+
 
 # その他
 
