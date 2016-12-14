@@ -67,9 +67,12 @@ tags: memo
 
 # 書き仕事
 
+- [学生に役立つページ](http://www.b.s.osakafu-u.ac.jp/~mishiha/for-student.html) リンク先が死んでいる場合あり
+
 ## 論文書き
 
 - [松尾ぐみの論文執筆](http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.htm)
+- [科学技術論文の書き方](http://www.okada-lab.org/Ronbun/TableOfContents.php)
 
 ### 英語  
 
@@ -91,11 +94,14 @@ tags: memo
 まだやったことないけど、近々くるだろう
 
 - [英語論文の査読表現集](https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm)
+- [投稿論文の査読のしかたを考える](http://takenaka-akio.org/doc/researcher/reviewer.html)  
 
 ## 一般
 普段遣いの英語がわからん
 
 - [社会で役立つ英語習得のテクニック](http://www.f.waseda.jp/shinoda/technique-index.htm) 決まり文句など  
+- [ちさとの英語メール教室](http://www.write4u.jp/) tag:論文など  
+
 
 ## 論文誌
 評価とか、predatory journalとか
@@ -112,6 +118,7 @@ tags: memo
         - The SDRP Journal Of Plant Science (2016/11/10)
         - Journal of Plant Physiology & Pathology (2016/11/11)
         - VEGETOS: An International Journal of Plant Research (2016/11/19)
+        - Integrative Food, Nutrition and Metabolism (2016/12/07)
 
 
 

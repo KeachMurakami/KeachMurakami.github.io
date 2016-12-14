@@ -22,21 +22,30 @@ tags: memo
 - seaborn
 
 ## Tools
-- [jicbioimage](https://github.com/JIC-CSB/jicbioimage) @[PeerJ](https://peerj.com/articles/2674/)  
 
+- [jicbioimage](https://github.com/JIC-CSB/jicbioimage) @[PeerJ](https://peerj.com/articles/2674/)  
 
 
 -------
 
+# Julia
+こっちもあるかも？
+
+- [RユーザーのためのJulia100問100答](http://bicycle1885.hatenablog.com/entry/2016/12/13/205646)
+
+------
+
+
 # Git/GitHub
 
 - [Gitでやらかした時に使える19個の奥義](http://qiita.com/muran001/items/dea2bbbaea1260098051)  
-
+- [Learn Git Branching](http://k.swd.cc/learnGitBranching-ja/)
 
 
 -------
 
 # TeX
+
 よくわからずやっているので、危うい  
 とりあえず、導入した手順を思い出せるよう、時系列でURLログ。  
 [RStudioから使えるR Markdownで日本語のPDFを作成する](http://bicycle1885.hatenablog.com/entry/2014/10/15/032024)  
