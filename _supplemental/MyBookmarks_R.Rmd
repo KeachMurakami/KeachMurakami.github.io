@@ -212,6 +212,7 @@ aes(col)に複数のスケールをマッピングする
 - [Shiny tips & tricks for improving your apps and solving common problems](http://deanattali.com/blog/advanced-shiny-tips/) 小技のまとめ  
 - [Authentication of Shiny-server Application Using a Simple Method](http://withr.me/authentication-of-shiny-server-application-using-a-simple-method/) Shinyでパスワード保護  
     - 予め指定したPWに適合しない場合は表示を抑える、というシンプルな戦略  
+- [R - ShinyによるWebアプリケーション作成Tips: shinydashboardでの画面遷移制御](http://qiita.com/tomotagwork/items/bc061a363eb36382d2e2)
 
 - [Shiny app for sun paths and light transmission calculation](http://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform/Applications) Shinyアプリを付けている素敵論文  
 
