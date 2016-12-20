@@ -129,14 +129,16 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 
 - [プログラマーが効果的な可視化を作成する](http://qiita.com/keiono/items/9042bf58224ca54bdb45)  
 - [データ可視化の実践者が共有すべき知識](http://qiita.com/keiono/items/2dd8228c88abcc4db0b0)  
-- [THE R GRAPH GALLERY](http://www.r-graph-gallery.com/)  
-- [information is beautiful](http://www.informationisbeautiful.net/)  
 - [Deep playground](http://playground.tensorflow.org/) d3.jsで可視化したNN  
 - [REGEXPER](https://regexper.com/) 正規表現のマッチングの可視
 
 - [Shut up about the y-axis. It shouldn’t always start at zero.](https://www.youtube.com/watch?v=14VYnFhBKcY)
 
+### ギャラリー
 
+- [THE R GRAPH GALLERY](http://www.r-graph-gallery.com/)  
+- [information is beautiful](http://www.informationisbeautiful.net/)  
+- [ギャラリー 今日の Viz | tableau public](https://public.tableau.com/s/gallery)
 
 ## 素材
 - [Pixabay](https://pixabay.com/) 商用可  

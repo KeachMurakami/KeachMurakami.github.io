@@ -92,7 +92,9 @@ output:
 
 - [2016](https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md)  
 
+### 雑多に
 
+- [daattali/addinslist](https://github.com/daattali/addinslist#addinslist-table)
 
 ## パッケージ作成
 
@@ -130,6 +132,11 @@ tools for working with categorical variables (factors)
 
 #### [broom](https://github.com/dgrtwo/broom)
 Convert statistical analysis objects from R into tidy format  
+
+#### [foreach](https://CRAN.R-project.org/package=foreach)
+Provides Foreach Looping Construct for R
+
+- [【超訳】foreach パッケージの使い方 #rstatsj](http://qiita.com/hoxo_m/items/04903cbbe9d023f0ed6d)
 
 #### [chunked](https://github.com/edwindj/chunked)
 Chunkwise Text-file Processing for 'dplyr'  
