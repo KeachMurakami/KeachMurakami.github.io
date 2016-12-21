@@ -229,3 +229,4 @@ the Plant Comparative Genomics portal
 ## 考え方など
 
 - [「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容  
+- [質問は恥ではないし役に立つ](http://qiita.com/seki_uk/items/4001423b3cd3db0dada7?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=18cb4db5ce-Qiita_newsletter_239_12_21_2016&utm_medium=email&utm_term=0_e44feaa081-18cb4db5ce-33203329)
