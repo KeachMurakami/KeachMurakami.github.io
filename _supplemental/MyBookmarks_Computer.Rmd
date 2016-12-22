@@ -80,6 +80,9 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 - [Using the ggmcmc package](http://xavier-fim.net/packages/ggmcmc/) MCMC系 × ggplot2。使い勝手がよさそうなので。
     - [`[stan] [jags]` ggmcmc でMCMCの事後診断 ](http://ill-identified.hatenablog.com/entry/2016/10/07/233000) 解説と改変版
 
+- [bayesplot](https://github.com/stan-dev/bayesplot) 
+    - [Visual MCMC diagnostics using the bayesplot package](https://cran.rstudio.com/web/packages/bayesplot/vignettes/MCMC-diagnostics.html)
+
 ## advent calendar
 
 - [Stan Advent Calendar 2016](http://qiita.com/advent-calendar/2016/stan)
