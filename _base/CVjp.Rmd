@@ -101,12 +101,13 @@ data.frame(
 * サッカー  
     * 都リーグ社会人4部 (2015~)  
     * サッカー審判員4級 (2015~)  
+
 ```{r Football_Stats, echo = F, message = F, warning = F, out.width = '100%', fig.asp = .3, dpi = 500}
 library(lubridate)
 library(ggplot2)
 
 FootballStats <-
-  read.csv("~/Dropbox/R/my.data/MyStats.csv", fileEncoding='cp932') %>%
+  read.csv("~/Dropbox/R/my.data/MyStats.csv") %>%
     mutate(Date = ymd(Date))
 
 

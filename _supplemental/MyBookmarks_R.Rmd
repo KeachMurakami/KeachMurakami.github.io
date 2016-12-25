@@ -95,6 +95,9 @@ output:
 ### 雑多に
 
 - [daattali/addinslist](https://github.com/daattali/addinslist#addinslist-table)
+- [R言語関連書籍を執筆＆翻訳したときに使っていたルールまとめ](http://qiita.com/_stakaya/items/32224698308411b0473b) お作法
+
+
 
 ## パッケージ作成
 

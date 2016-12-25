@@ -17,6 +17,8 @@ tags: memo
     - バックアップのUSB
     - 投影用のコネクタ (MiniDisplay port -> D-Sub or HDMI)
     - レーザーポインタ
+        - 電池
+    - 内容が飛んだときの自分ルール
 - ポスター
     - ポスター
     - 画鋲
