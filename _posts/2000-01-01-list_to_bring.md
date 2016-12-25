@@ -15,8 +15,10 @@ tags: memo
     - 電車
 - オーラル
     - バックアップのUSB
-    - 投影用のコネクタ (MiniDisplay port)
+    - 投影用のコネクタ (MiniDisplay port -> D-Sub or HDMI)
     - レーザーポインタ
+        - 電池
+    - 内容が飛んだときの自分ルール
 - ポスター
     - ポスター
     - 画鋲

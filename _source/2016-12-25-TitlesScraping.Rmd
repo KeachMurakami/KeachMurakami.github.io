@@ -1,0 +1,182 @@
+---
+title: "論文タイトルのweb scraping (rvest"
+output: html_document
+layout: post
+tags: lab R rvest
+---
+
+論文のタイトルはとても重要  
+近年のトレンドを追いかける意味も込めて、web scrapingした  
+
+
+### 対象
+
+- UIが好みなので、Wileyの雑誌からタイトルを抜き出す  
+- 今回は`rvest`に慣れるため、自分でコードを作成  
+    - [ここ<sup>1</sup>](https://ytake2.github.io/ldastan/lda.html)とか[ここ<sup>2</sup>](https://www.r-bloggers.com/how-to-search-pubmed-with-rismed-package-in-r/)を踏まえると、出版社に依らず全文献情報を解析できる (はず)  
+
+```{r setup, message = F}
+library(tidyverse) # ggplotとかdplyrとか
+library(rvest) # webスクレイピング用
+library(XML) # rvestで必要なので
+library(stringr) # 文字列操作用
+library(knitr)
+```
+
+
+#### 概要
+
+フローチャート
+
+1. ISSNからcurrent issueページへ遷移する
+2. 同ページから、タイトルを取得する
+3. previous issueページへ遷移する
+4. 2--3を繰り返し、適当な数のタイトルを取得
+
+
+##### 実装1
+
+- [ここ<sup>3</sup>](https://book.mynavi.jp/manatee/detail/id=59386)を参考にしつつ、2と3を実装
+    - current issueページを起点に、掲載論文のタイトルを取得  
+    - previous issueページのURLを抽出  
+
+```{r flow2-3}
+extract_titles <-
+  function(issue_url){
+    html_issue <- 
+      issue_url %>%
+      read_html
+    
+    # 雑誌名、出版年月、巻号を取得。
+    journal <-
+      html_issue %>%
+      html_nodes("h1#productTitle") %>% # タグがh1, IDがproductTitle
+      html_text
+    date <-
+      html_issue %>%
+      html_nodes("h2.noMargin") %>% # タグがh2, クラスがnoMargin
+      html_text
+    issue_volume <-
+      html_issue %>%
+      html_nodes("p.issueAndVolume") %>% # タグがp, クラスがissueAndVolume
+      html_text
+    
+    # タイトル一覧を抽出
+    titles_issue <-
+      html_issue %>%
+      # タグがdiv, クラスがcitation.tocArticle以下のaタグのついた要素を抜き出す
+      html_nodes("div.citation.tocArticle a") %>%
+      html_text %>%
+      data_frame(title = .) %>%
+      # いくつか余計な要素が含まれているので、文字列の一致不一致で抽出箇所を限定する
+      filter(str_detect(title, "pages")) %>% # extract titles
+      filter(!str_detect(title, "Issue Information")) %>% # exclude issue info
+      mutate(journal = journal,
+             date = date,
+             issue_volume = issue_volume)
+
+    # 該当Issueの１号前のIssueのTOCのURLを取得する
+    previous_url <-
+      html_issue %>%
+      html_nodes("a.previous") %>% # タグがa, クラスがprevious
+      html_attr("href") %>% # href (URLリンク) 要素を抽出
+      paste0("http://onlinelibrary.wiley.com/", .)
+    
+    return(list(titles_issue, previous_url))
+  }
+```
+
+
+##### 実装2
+
+- フローの1を実装
+    - ISSNからcurrent issueページへのURLリンクを抽出
+    - `extract_titles`関数を再帰的にあてる
+        - closureが未だに使えないのでコードがひどい
+
+```{r flow1}
+extract_ISSN <-
+  function(ISSN, number_parse = 10){
+    # get Current issue URL from ISSN
+    current_url <-
+      paste0("http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)", ISSN, "/issues") %>%
+      read_html %>%
+      html_nodes("a#currentIssueLink") %>%
+      html_attr("href") %>%
+      paste0("http://onlinelibrary.wiley.com/", .)
+
+    lapply(1:number_parse, function(i){
+      extract_titles(current_url) %>%
+        {
+          current_url <<- .[[2]] # 親環境で結果を保存
+          cat("ISSN", ISSN, "; finish: volume", i, "\n", sep = "")
+          .[[1]] %>% return
+        }
+    })
+  }
+```
+
+
+#### 実行
+
+- 複数のISSNを与えてWiley系のいくつかの雑誌からタイトルを抽出する
+    - 最近よく見る[{purrr}<sup>4</sup>](https://github.com/hadley/purrr)がなかなか
+        - 入れ子状のデータ構造につよい
+    - 正規表現+`tidyr::extract`の使い勝手がよい
+        - r-wakalangでちら見したヤツ
+
+```{r}
+NP <- "1469-8137" #New Phytologist
+PCE <- "1365-3040"  # Plant, Cell & Environment
+PJ <- "1365-313X" # The Plant Journal
+PP <- "1399-3054" # Physiologia Plantarum
+PB <- "1438-8677" # Plant Biology
+
+title_list <-
+  lapply(c(NP, PCE, PJ, PP, PB), function(i) extract_ISSN(ISSN = i, number_parse = 3))
+
+# これだとエラー
+# title_list %>%
+#   dplyr::bind_rows 
+# 入れ子リストだから
+
+# purrr::flatten_XXXだと一発
+# {purrr}はまだしっくり来てないがつよい  
+
+title_df <-
+  title_list %>%
+  flatten_df %>%
+  tidyr::extract(col = title, into = c("title", "start", "end"), regex = "(.+)\\(pages(.+[0-9]+)–([0-9]+)") %>% # remove pages
+  tidyr::extract(col = issue_volume, into = c("vol", "issue"), regex = "([0-9]+).+([0-9]+)") %>% # separate volume and issue
+  tidyr::extract(col = date, into = c("month", "year"), regex = "([a-zA-Z]+).([0-9]+)") # separate month and year
+```
+
+
+#### 結果
+
+無事に抽出できている
+
+```{r, results = "asis"}
+title_df %>%
+  arrange(title) %>%
+  head(20) %>%
+  kable 
+```
+
+<br>
+<br>
+
+
+#### 明日しらべる
+
+- 流行り単語
+- 経時トレンド
+- 雑誌ごとの特徴
+
+
+#### 参考ページ
+
+[<sup>1</sup>StanでLDA: wordcloudクラスタリング](https://ytake2.github.io/ldastan/lda.html)  
+[<sup>2</sup>How to Search PubMed with RISmed package in R](https://www.r-bloggers.com/how-to-search-pubmed-with-rismed-package-in-r/)  
+[<sup>3</sup>rvestによるWebスクレイピング](https://book.mynavi.jp/manatee/detail/id=59386)  
+[<sup>4</sup>hadley/purrr](https://github.com/hadley/purrr)  
