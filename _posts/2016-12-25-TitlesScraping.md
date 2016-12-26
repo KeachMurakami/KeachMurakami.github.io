@@ -1,5 +1,5 @@
 ---
-title: "論文タイトルのweb scraping (rvest"
+title: "論文タイトルのweb scraping (rvest)"
 output: html_document
 layout: post
 tags: lab R rvest

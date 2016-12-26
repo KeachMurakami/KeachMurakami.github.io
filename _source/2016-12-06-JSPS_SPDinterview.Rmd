@@ -8,6 +8,11 @@ tags: log
 学振SPDの面接を受けてきた  
 自分もwebから情報を得たので、有益そうなことをまとめる  
 
+<FONT color="pink">
+結果、不採用 (追記: 2016-12-26)
+</FONT>
+
+
 「すーぱーぽすどく」、だと思っていたけど、実際には「Superlative Postdoctoral Fellow」が正しいらしい [<sup>1</sup>](https://www.jsps.go.jp/english/e-pd/)  
 
 #### 前情報
