@@ -56,6 +56,8 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 ## 統計モデリング
 
+- [Logics of Blue](http://logics-of-blue.com/) 非常に丁寧・幅広い
+
 ### 一般化線形モデル
 
 - [一般化線形モデル周りのRのパッケージと関数まとめ](http://masaqol.hatenablog.com/entry/2016/03/30/003254)  
@@ -77,4 +79,5 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 
 ## 統計ネタの多いブログ
+
 - [ryamadaの遺伝学・遺伝統計学メモ](http://d.hatena.ne.jp/ryamada22/)  

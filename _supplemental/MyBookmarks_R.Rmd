@@ -156,8 +156,11 @@ Simple web scraping for R
 #### [ggplot2](http://docs.ggplot2.org/current/index.html)
 データの階層構造を活かしたグラフ作成  
 
+##### 基礎
 - [ggplot2逆引き](http://yutannihilation.github.io/ggplot2-gyakubiki/)  
-- [ggplot2 extensions](http://www.ggplot2-exts.org/) 拡張パッケージ
+
+##### 応用
+- [ggplot2のgenerated variables（..変数名..）の使い方](http://notchained.hatenablog.com/entry/2015/10/11/162819)
 
 geom_area・geom_barのfill順序をうまいことする
 
@@ -182,6 +185,7 @@ aes(col)に複数のスケールをマッピングする
 
 ##### ggplot系Extension
 
+- [ggplot2 extensions](http://www.ggplot2-exts.org/) 拡張パッケージ
 - [cowplot](https://github.com/wilkelab/cowplot) meant to provide a publication-ready theme for ggplot2  
 - [gganimate](https://github.com/dgrtwo/gganimate) Create easy animations with ggplot2  
 - [tweenr](https://github.com/thomasp85/tweenr) Interpolate your data  
