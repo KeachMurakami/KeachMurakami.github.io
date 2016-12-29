@@ -1,0 +1,160 @@
+---
+title: "MyTemplate"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+layout: post
+categories: bookmarks
+tags: memo
+---
+
+
+**繰り返す作業をテンプレ化していきたい**
+
+
+# 論文書き
+
+## Cover Letter
+
+慣れていないから意外と時間がかかる
+
+### 書くこと
+
+段落別に、
+
+1.
+    - タイトル + 著者
+    - 投稿意志
+2.
+    - 論文内容の簡単な説明
+    - 3--4文におさめる
+3. 
+    - 二重投稿がないことの確認
+    - 共著者が投稿に同意していることの確認
+    - 利益相反 (Conflict of interest) の確認
+4.
+    - 「スコープにあっていると思うよ」
+    - Grammer checkをしていること
+
+その他に、
+
+- 査読者
+- 著作権
+
+なども必要な場合あり  
+Author Guidelineをよく読む  
+
+### Sample
+
+- `[]`囲み部分を変える
+- 他の部分はだいたいいつもこうなるはず
+
+```
+[DATE]
+[EDITOR]
+Editor-in-Chief
+[JOURNAL]
+
+Dear Professor [EDITOR],
+
+  Please find enclosed our manuscript entitled “[TITLE]” by [AUTHORS], which we request you to consider for publication as [TYPE; e.g. Original Article] in [JOURNAL].
+
+  [SHORT INTRODUCTION; This paper introduces ...]
+  
+  This manuscript has not been published elsewhere and is not under consideration by another journal.
+  The authors have approved the manuscript and agree with submission to [JOURNAL].
+  There are no conflicts of interest to declare.
+
+  We believe that the findings of this study are relevant to the scope of your journal and will be of interest to its readership.
+  The manuscript has been carefully reviewed by an experienced editor whose first language is English and who specializes in editing papers written by scientists whose native language is not English.
+  We look forward to hearing from you at your earliest convenience.
+
+Sincerely,
+[AUTHOR]
+[AFFILIATION]
+[POSTAL_ADDRESS]
+Phone No: 
+Fax No: 
+Email Address: 
+```
+
+## Abstract
+
+### 戦略
+
+- 欠かせない語句一覧を書き出す
+    - この時点である程度の文字数が固まる
+    - それに加えて何が書けるかが決まる
+- ラフに書き上げる
+    - 規定の文字数を超える場合がほとんど
+- 削る
+    - 流れを変えることを考える
+    - 小手先の技 (`These results suggest that ...` -> `~, suggesting ...`とか) は最終手段
+
+### 書くこと
+
+0. (トピックの概要)
+    - 一般紙になるほど記載されている場合が多い印象
+    - いきなり専門の話に入っても伝わらないから
+    - 1文でさらっとまとめる
+1. 取り組んだ問題
+2. 着眼点
+3. 対象
+4. 手法
+5. 結果 + 考察
+6. 結論
+
+
+`formula = zzz ~ (xxx|env) * (yyy|env)`
+
+#### 0. トピックの概要
+
+
+#### 1. 取り組んだ問題
+
+**現象確認型**
+
+- We investigated the effects of `xxx` and `yyy` on the `zzz` using `PLANT` in a growth-chamber experiment (RM2016SH).
+- The objectives of this work using `PLANT` were to examine whether the `xxx` is related to `zzz` (KM2014PB).
+
+
+**現象解析型**
+
+- The mechanisms underlying the `zzz` and its acclimation to the `xxx` are quantitatively addressed, combining in vivo physiological and in vitro molecular methods (SWH2012PC).
+- To assess the roles of `xxx` and `yyy` under `env` condition, we grew the wild type and `MUTANT` mutant of `PLANT`, we measured ~ (MK2014PCP).
+
+
+**仮説検証型**
+
+-
+
+
+**手法開発型**
+
+- Using simultaneous measurements of `xxx` and `yyy`, we determined the `zzz`, in the mesophyll cells for individual leaves of `PLANT` (AL1996PP).
+-
+
+
+#### 2. 着眼点
+
+
+#### 3. 対象
+
+
+#### 4. 手法
+
+
+#### 5. 結果 + 考察
+
+
+#### 6. 結論
+
+- Thus, `xxx` and `yyy` were demonstrated to affect `zzz` (RM2016SH).
+- Based on these results, we concluded that the `xxx` has little effects on the `zzz` and that the regulation of `zzz` was largely accounted for by `yyy` (KM2014PB).
+- We show quantitatively that leaves acclimate their `zzz` to `xxx` and how this `zzz~xxx` the wavelength dependence of the photosystem excitation balance and quantum yield for CO2 fixation. This also proves that combining different wavelengths can enhance quantum yields substantially.
+- The results suggest that `xxx` is a potent stress to `zzz` and that `yyy` is essential to protect `zzz` from this stress (MK2014PCP).
+
+## 参考
+
+- [これから論文を書く若者のために](http://www.kyoritsu-pub.co.jp/bookdetail/9784320005952)
