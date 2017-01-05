@@ -9,8 +9,8 @@ layout: page
 
 --------------
 <br>
-\* -> Corresponding Author  
-<sup>+</sup> -> Equally Contributed  
+<sup>+</sup> -> Corresponding Author  
+<!-- <sup>1st</sup> -> First Author -->
 
 ```{r, message = F, echo = F}
 library(magrittr)
@@ -46,8 +46,8 @@ ToKable <-
   }
 
 AddUnderline <- function(text) paste0("<u>", text, "</u>")
-AddCrsp <- function(text) paste0(text, "*")
-AddEqual <- function(text) paste0(text, "<sup>+</sup>")
+AddCrsp <- function(text) paste0(text, "<sup>+</sup>")
+AddEqual <- function(text) paste0(text, "<sup>1st</sup>")
 # Frequently appears
 KM <- "<FONT color='green'>Keach Murakami</FONT>"
 RM <- "Ryo Matsuda"
@@ -105,8 +105,8 @@ c(
   
   ToRecord(
     "Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport",
-    paste(AddCrsp(KM), RM, KF, sep = ", "),
-    "in prep.",
+    paste(AddCrsp(KM), AddCrsp(RM), KF, sep = ", "),
+    "submitted",
     "Original Article",
     "-",
     "")
