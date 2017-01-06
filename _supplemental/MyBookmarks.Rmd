@@ -73,6 +73,8 @@ tags: memo
 
 - [松尾ぐみの論文執筆](http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.htm)
 - [科学技術論文の書き方](http://www.okada-lab.org/Ronbun/TableOfContents.php)
+- [（英語版）こう言い換えろ→論文に死んでも書いてはいけない言葉３０](http://readingmonkey.blog45.fc2.com/blog-entry-650.html) 日本語版もある
+- [論文に何を書くべきか→これだけは埋めろ→論文作成穴埋めシート](http://readingmonkey.blog45.fc2.com/blog-entry-563.html)
 
 ### 英語  
 
@@ -119,6 +121,7 @@ tags: memo
         - Journal of Plant Physiology & Pathology (2016/11/11)
         - VEGETOS: An International Journal of Plant Research (2016/11/19)
         - Integrative Food, Nutrition and Metabolism (2016/12/07)
+        - Innovative Energy & Research (2017/01/02)
 
 
 
@@ -187,6 +190,7 @@ tags: memo
 
 - [Hightech&Facility](http://www.hitechfacility.co.jp/)  
 - [日本電計](http://www.n-denkei.co.jp/)  
+- [タナカ・トレーディング株式会社](http://www.3915.jp/) グロースチャンバなど
 
 ## ものづくり
 
@@ -222,6 +226,11 @@ the Plant Comparative Genomics portal
 ## Strong Inference
 
 - [“Strong Inference”について](http://neuro.med.tohoku.ac.jp/japanese/education/yawo_strong%20inference.htm) 真偽だけが重要なときはこれ。  
+
+## 博士号
+
+- [博士号の要件を考えるために：『博士号への道』抜き書き](http://d.hatena.ne.jp/extinx0109y/20091024/asin4495865315)
+
 
 
 # その他
