@@ -14,6 +14,9 @@ tags: memo
 # Python
 たぶん手を出すことになるんだろうと思う
 
+## Enviroment
+- [最強のPython開発環境 PyCharmのすゝめ](http://qiita.com/pashango2/items/de342abc10722ed7a569)
+
 ## Packages
 
 - NumPy
@@ -94,6 +97,10 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 # プログラミング/その他・全般  
 
 - [コードを書くさいの指針として見返すサイトまとめ](http://qiita.com/kenichi_cc/items/c3ecca7b7d5fc5c6bf2e?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=2568ed82eb-Qiita_newsletter_213_06_22_2016&utm_medium=email&utm_term=0_e44feaa081-2568ed82eb-33203329)  
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.html) 機械学習向けのデータセット。
+    - [Water Treatment Plant Data Set](https://archive.ics.uci.edu/ml/datasets/Water+Treatment+Plant)
+    - [One-hundred plant species leaves data set Data Set](https://archive.ics.uci.edu/ml/datasets/One-hundred+plant+species+leaves+data+set)
+    - [Leaf Data Set](https://archive.ics.uci.edu/ml/datasets/Leaf)
 
 
 
