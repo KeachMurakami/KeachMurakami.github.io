@@ -88,9 +88,10 @@ output:
 - [RStartHere](https://github.com/rstudio/RStartHere) RStudio謹製のHadleyの哲学に従ったオススメパッケージリスト。  
 - [awesome-R](https://github.com/qinwf/awesome-R) なんでもありなパッケージリスト。  
 
-### UseR!まとめ
+### symposiumまとめ
 
-- [2016](https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md)  
+- [UseR! 2016](https://github.com/rweekly/rweekly.org/blob/gh-pages/draft.md)  
+- [rstudio::conf 2017](https://github.com/kbroman/RStudioConf2017Slides)
 
 ### 雑多に
 
@@ -189,6 +190,7 @@ aes(col)に複数のスケールをマッピングする
 - [cowplot](https://github.com/wilkelab/cowplot) meant to provide a publication-ready theme for ggplot2  
 - [gganimate](https://github.com/dgrtwo/gganimate) Create easy animations with ggplot2  
 - [tweenr](https://github.com/thomasp85/tweenr) Interpolate your data  
+- [ggalluvial](https://github.com/corybrunson/ggalluvial)Sanky diagramっぽい
 
 
 #### Plotly
