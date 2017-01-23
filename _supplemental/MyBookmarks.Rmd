@@ -123,8 +123,6 @@ tags: memo
         - Integrative Food, Nutrition and Metabolism (2016/12/07)
         - Innovative Energy & Research (2017/01/02)
         - Global Advanced Research Journal of Agricultural Science (GARJAS) (2017/01/11)
-        - 
-
 
 
 # 報告系
@@ -240,5 +238,5 @@ the Plant Comparative Genomics portal
 ## 考え方など
 
 - [「1秒でも遅れる人」とは「1秒でも仕事しない」方が良い。](http://acthouse.net/meeting) プライベートでの遅刻には寛容  
-- [質問は恥ではないし役に立つ](http://qiita.com/seki_uk/items/4001423b3cd3db0dada7?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=18cb4db5ce-Qiita_newsletter_239_12_21_2016&utm_medium=email&utm_term=0_e44feaa081-18cb4db5ce-33203329) D -> 0--1OI, M2 -> 1--2OI, B4~M1 -> 2--3OI, 研究室入りたて -> 4OI くらい
+- [質問は恥ではないし役に立つ](http://qiita.com/seki_uk/items/4001423b3cd3db0dada7?utm_source=Qiita%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9&utm_campaign=18cb4db5ce-Qiita_newsletter_239_12_21_2016&utm_medium=email&utm_term=0_e44feaa081-18cb4db5ce-33203329) D: 0~1OI, M2: 1~2OI, B4~M1: 2~3OI, 研究室入りたて: 4OI くらい
 - [業務改善を現場に求める狂気](http://megamouth.hateblo.jp/entry/2016/11/19/232203) 研究室も同じだよなーと思う
