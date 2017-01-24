@@ -1,0 +1,61 @@
+---
+output: html_document
+permalink: /about/literatures/
+layout: default
+---
+
+ダウンロードしたことすら忘れるので、ダウンロードした論文とそのひとことメモ
+
+## 2017
+
+### 201701
+
+#### 20170119
+
+1. [Gimenez-Ibanez et al. 2017; New Phytol]()
+    - バクテリアの感染と気孔開度の調節の仕組みに関して
+    - 感染で一度閉じた気孔を、Coronatineというphytotoxinにより再度開かせる
+    - 後輩に投げつける
+
+2. [de Vries et al. 2017; TPS]()
+    - 光獲得と対被食のトレードオフに関して
+    - R/FR比がメイン
+
+
+#### 20170120
+
+3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract)
+    - Shade avoidance syndrome
+    - 
+
+4. [Uematsu et al. 2017; New Phytol]()
+    - いつか出してやると思っている*New Phytologist*に、研究科の元先輩がacceptされていたので記念に
+    - 水田イネへの放射性セシウムの吸い上げについて
+
+
+#### 20170121
+
+5. [Wientjes et al. 2017; BBA]()
+    - 画像解析 & 蛍光寿命解析でPSII/PSI比を面的に
+    - 以下の6.の発展
+    
+6. [Iermak et al. 2016; BBA]()
+    - 上記5.から
+    - two-photonとFLIMで深度情報まで考慮して光化学系組成を解析
+        - 厳密には、LCHII/PSII比とPSII/PSI比
+        - PSII/PSIエネルギー分配の絶対定量はできない
+    - 見逃してたので、投稿論文に追加する？
+
+
+#### 20170124
+
+7. [Galvão Fankhauser. 2015; Current Opinion in Neurobiology]()
+    - 植物の光センシングに関する異分野への概説系レビュー
+    - Current Opinion in Neurobiology
+    - Chemical寄り
+
+8. EarlyView: [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract)
+    - ヨーロッパアカマツ苗の光強度 x R/FR比への応答
+    - 胚軸長、色素蓄積など
+    - 被子植物・裸子植物の差異を絡めている
+    - abstractだとPCEに載るほどのものはないが...なにかあるんだろう
