@@ -6,40 +6,45 @@ layout: default
 
 ダウンロードしたことすら忘れるので、ダウンロードした論文とそのひとことメモ
 
+- `低中高`は優先度
+- `未刊`はin press
+
+-----
+
 ## 2017
 
 ### 201701
 
 #### 20170119
 
-1. [Gimenez-Ibanez et al. 2017; New Phytol]()
+1. [Gimenez-Ibanez et al. 2017; New Phytol](); 中
     - バクテリアの感染と気孔開度の調節の仕組みに関して
     - 感染で一度閉じた気孔を、Coronatineというphytotoxinにより再度開かせる
     - 後輩に投げつける
 
-2. [de Vries et al. 2017; TPS]()
+2. [de Vries et al. 2017; Trends Plant Sci](); 高・未刊
     - 光獲得と対被食のトレードオフに関して
     - R/FR比がメイン
 
 
 #### 20170120
 
-3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract)
+3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract); 高
     - Shade avoidance syndrome
     - 
 
-4. [Uematsu et al. 2017; New Phytol]()
+4. [Uematsu et al. 2017; New Phytol](); 低
     - いつか出してやると思っている*New Phytologist*に、研究科の元先輩がacceptされていたので記念に
     - 水田イネへの放射性セシウムの吸い上げについて
 
 
 #### 20170121
 
-5. [Wientjes et al. 2017; BBA]()
+5. [Wientjes et al. 2017; BBA](); 中
     - 画像解析 & 蛍光寿命解析でPSII/PSI比を面的に
     - 以下の6.の発展
     
-6. [Iermak et al. 2016; BBA]()
+6. [Iermak et al. 2016; BBA](); 済
     - 上記5.から
     - two-photonとFLIMで深度情報まで考慮して光化学系組成を解析
         - 厳密には、LCHII/PSII比とPSII/PSI比
@@ -49,13 +54,33 @@ layout: default
 
 #### 20170124
 
-7. [Galvão Fankhauser. 2015; Current Opinion in Neurobiology]()
+7. [Galvão Fankhauser. 2015; Cur Opin Neurobiol](); 低
     - 植物の光センシングに関する異分野への概説系レビュー
     - Current Opinion in Neurobiology
     - Chemical寄り
 
-8. EarlyView: [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract)
+8. [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract); 高・未刊
     - ヨーロッパアカマツ苗の光強度 x R/FR比への応答
     - 胚軸長、色素蓄積など
     - 被子植物・裸子植物の差異を絡めている
-    - abstractだとPCEに載るほどのものはないが...なにかあるんだろう
+    - abstractだとPCEに載るほどのものはない印象を受けるが...なにかあるんだろう
+
+
+#### 20170125
+
+9. [Morena et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S1011134416309733); 低・未刊
+    - 長波長 (980 nm) LED光での*Pseudomonas aeruginosa* (緑膿菌) 繁殖の抑制
+    - 口腔衛生、小児科学などの人たち
+
+10. [Munafò et al. 2017; Nat Hum Behav](http://www.nature.com/articles/s41562-016-0021); 高
+    - 再現性の担保について
+        - *P*-hackingとか、そのあたり
+        - 去年のASAのstar-counting 統計の批判以来、流行っている
+        - *eLife*でも特集されてた
+    - 探索的な研究だと仕方ない側面もあるよね、と思いつつ、着々と脱検定を進めている
+
+11. [Shirai et al. 2017; J Food Eng](http://www.sciencedirect.com/science/article/pii/S0260877416303739); 低
+    - 肉の表面から内部へのバクテリアの侵入のモデル化
+    - 博士の公開審査で聞いたので
+    - 「鉛直プロファイルの*in vivo*値とモデル推定値を比較していないのですか」という質問は、まっとうだけどしんどい
+
