@@ -1,7 +1,5 @@
 ---
 output: html_document
-permalink: /about/literatures/
-layout: default
 ---
 
 ダウンロードしたことすら忘れるので、ダウンロードした論文とそのひとことメモ
@@ -9,11 +7,7 @@ layout: default
 - `低中高`は優先度
 - `未刊`はin press
 
------
-
-
-
-```{r, eval = F}
+```{r, eval = T}
 library(rvest)
 library(magrittr)
 library(tidyverse)
@@ -24,14 +18,7 @@ data_html <-
 
 num_paper <-
   data_html %>%
-  html_nodes("article") %>%
-  html_nodes("ol") %>% html_text
-  html_nodes("ol li p")
-
-
-  data_html %>%
-  html_nodes("article") %>%
-  html_nodes("h4") %>%
+  html_nodes("article ul li p") %>%
   html_text
 
 ```
@@ -41,9 +28,9 @@ num_paper <-
 
 - 2017
     
-    - 201701
+    - 01
         
-        - 20170119
+        - 19
         
             1. [Gimenez-Ibanez et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14354/abstract); 中
                 - バクテリアの感染と気孔開度の調節の仕組みに関して
@@ -55,7 +42,7 @@ num_paper <-
                 - R/FR比がメイン
         
         
-        - 20170120
+        - 20
     
             3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract); 高
                 - Shade avoidance syndrome
@@ -66,7 +53,7 @@ num_paper <-
                 - 水田イネへの放射性セシウムの吸い上げについて
         
         
-        - 20170121
+        - 21
         
             5. [Wientjes et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300099?np=y); 中
                 - 画像解析 & 蛍光寿命解析でPSII/PSI比を面的に
@@ -80,7 +67,7 @@ num_paper <-
                 - 見逃してたので、投稿論文に追加する？
         
         
-        - 20170124
+        - 24
         
             7. [Galvão & Fankhauser 2015; Cur Opin Neurobiol](http://www.sciencedirect.com/science/article/pii/S0959438815000227); 低
                 - 植物の光センシングに関する異分野への概説系レビュー
@@ -93,7 +80,7 @@ num_paper <-
                 - abstractだとPCEに載るほどのものはない印象を受けるが...なにかあるんだろう
         
         
-        - 20170125
+        - 25
         
             9. [Morena et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S1011134416309733); 低・未刊
                 - 長波長 (980 nm) LED光での*Pseudomonas aeruginosa* (緑膿菌) 繁殖の抑制
@@ -114,7 +101,7 @@ num_paper <-
                 - 「鉛直プロファイルの*in vivo*値とモデル推定値を比較していないのですか」という質問は、まっとうだけどしんどい
         
         
-        - 20170126
+        - 26
         
             12. [Izumi et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/01/25/tpc.16.00637.short?rss=1); 中・未刊
                 - chlorophagyなるフレーズ
