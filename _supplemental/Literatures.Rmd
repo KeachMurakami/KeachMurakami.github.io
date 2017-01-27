@@ -18,8 +18,10 @@ data_html <-
 
 num_paper <-
   data_html %>%
-  html_nodes("article ul li p") %>%
-  html_text
+  html_nodes("article") %>%
+  html_nodes(xpath = "//ul//li//p//a")
+  # html_nodes("p") %>%
+  html_structure()
 
 ```
 
@@ -108,3 +110,6 @@ num_paper <-
                 - photodamageを受けた葉緑体が液胞中心に移動する
                 - 「移動して、そのあとどうなる」が意図的に書かれていなさそう
             
+            13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); 高
+                - FRで変動光下でのPSI阻害が抑制できる話
+                - 内容は知っているやつ
