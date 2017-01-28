@@ -71,13 +71,22 @@ tags: memo
 
 ## 論文書き
 
-- [松尾ぐみの論文執筆](http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.htm)
+### 卒論レベル
+上から順に読むとよさそう
+
+- [論文に何を書くべきか→これだけは埋めろ→論文作成穴埋めシート](http://readingmonkey.blog45.fc2.com/blog-entry-563.html) 全体を考える
+- [こう言い換えろ→論文に死んでも書いてはいけない言葉３０](http://readingmonkey.blog45.fc2.com/blog-entry-557.html) 口語を卒業する。英語版もある
+- [卒論・修論tips](http://szdr.hatenablog.com/entry/2017/01/28/164405) とくに係り受けの部分が参考になる。誤解のない言葉づかいを考える
+
+### 修論レベル
+まっとうな修論が書きたかったらこれくらい？
+
 - [科学技術論文の書き方](http://www.okada-lab.org/Ronbun/TableOfContents.php)
-- [（英語版）こう言い換えろ→論文に死んでも書いてはいけない言葉３０](http://readingmonkey.blog45.fc2.com/blog-entry-650.html) 日本語版もある
-- [論文に何を書くべきか→これだけは埋めろ→論文作成穴埋めシート](http://readingmonkey.blog45.fc2.com/blog-entry-563.html)
+- [松尾ぐみの論文執筆](http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.htm)
 
 ### 英語  
 
+- [（英語版）こう言い換えろ→論文に死んでも書いてはいけない言葉３０](http://readingmonkey.blog45.fc2.com/blog-entry-650.html)
 - [LifeScienceDictonary](http://lsd-project.jp/cgi-bin/lsdproj/ejlookup04.pl) 共起表現が便利  
 - [Academic Phrasebank](http://www.phrasebank.manchester.ac.uk/)  
 - [科学英語メモ](https://www.gfd-dennou.org/arch/hiroki/homepage/english/english.html)  

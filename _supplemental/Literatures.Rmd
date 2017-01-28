@@ -6,8 +6,9 @@ output: html_document
 
 - `低中高`は優先度
 - `未刊`はin press
+- `費`はアクセス権がなくて有償なもの、おもに書籍
 
-```{r, eval = T}
+```{r, eval = F}
 library(rvest)
 library(magrittr)
 library(tidyverse)
@@ -61,7 +62,7 @@ num_paper <-
                 - 画像解析 & 蛍光寿命解析でPSII/PSI比を面的に
                 - 以下の`Iermak et al. 2016`の発展
                 
-            6. [Iermak et al. 2016; BBA](http://www.sciencedirect.com/science/article/pii/S0005272816305564); 済
+            6. [Iermak et al. 2016; BBA](http://www.sciencedirect.com/science/article/pii/S0005272816305564); 20170121済
                 - `Wientjes et al. 2017`から
                 - two-photonとFLIMで深度情報まで考慮して光化学系組成を解析
                     - 厳密には、LCHII/PSII比とPSII/PSI比
@@ -112,4 +113,26 @@ num_paper <-
             
             13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); 高
                 - FRで変動光下でのPSI阻害が抑制できる話
-                - 内容は知っているやつ
+                - 内容は既知のものなので、引用されている文献など、知識収集メインで読むべし
+        
+        
+        - 28
+        
+            14. [Riikonen 2017; Forest Ecol Manag](http://www.sciencedirect.com/science/article/pii/S0378112716311173); 20170128済
+                - Content of far-red light in supplemental light modified characteristics related to drought tolerance and post-planting growth in Scots pine seedlings
+                - アカマツの苗木にFR添加したときの耐乾燥性とその後の成長
+                - *in situ*水利用効率 (P~n~/g~s~) をRGB光源で測定した値で議論
+                    - *in situ*な光 (=太陽光) のもとでは？
+                    - 典型的な栽培光x測定光の交互作用問題
+                - GLMMで、`ORIG x FR`項の係数を水準ごとに解析できるようダミー変数でバラすテクニック
+                    - TS先生に今度あったときに話そう
+            
+            15. [Pierik & de Wit 2014; JXB](https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/ert389); 低
+                - Shade avoidance: phytochrome signalling and other aboveground neighbour detection cues
+                - 群落の成長に伴うR/FRの変化と、その他の光質・物理的接触・VOCと関連付けてレビュー
+                
+            16. [Cocetta et al. 2017; BookChap](http://link.springer.com/article/10.1140/epjp/i2017-11298-x); 
+                - Light use efficiency for vegetables production in protected and indoor environments
+                - 37.75 euro
+                - D論周りとぴったしだけど、引用文献を見るにあまり得るものはなさそう...?
+                - 年度末に学振の研究遂行経費が残っていれば落とす
