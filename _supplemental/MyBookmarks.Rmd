@@ -134,6 +134,13 @@ tags: memo
         - Global Advanced Research Journal of Agricultural Science (GARJAS) (2017/01/11)
 
 
+# 読み仕事
+
+## 英語
+
+- [自然科学系研究者のタマゴ向け「論文を読むということ」](http://www.chem.waseda.ac.jp/koide/20160108.pdf) 学部生にこそ読んでほしいけど、多くの場合修士にならないとしっかり読めない/読まない
+
+
 # 報告系
 
 ## 学会発表

@@ -131,7 +131,7 @@ num_paper <-
                 - Shade avoidance: phytochrome signalling and other aboveground neighbour detection cues
                 - 群落の成長に伴うR/FRの変化と、その他の光質・物理的接触・VOCと関連付けてレビュー
                 
-            16. [Cocetta et al. 2017; BookChap](http://link.springer.com/article/10.1140/epjp/i2017-11298-x); 
+            16. [Cocetta et al. 2017; BookChap](http://link.springer.com/article/10.1140/epjp/i2017-11298-x); 低・費
                 - Light use efficiency for vegetables production in protected and indoor environments
                 - 37.75 euro
                 - D論周りとぴったしだけど、引用文献を見るにあまり得るものはなさそう...?
