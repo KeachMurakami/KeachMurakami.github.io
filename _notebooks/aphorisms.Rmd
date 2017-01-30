@@ -6,9 +6,23 @@ layout: default
 
 いつか引用したいフレーズとその出典
 
+# 統計系
+
+## 金言
+
 > サンプルという部分的な情報から、全体の構造をどれだけ推測できるかという能力を「汎化能力」と呼ぶ。
 > (赤穂 2008, カーネル多変量解析; p. 8)
 
 > 唯一無二の究極的モデルなどは存在せず、常により良いものを求めて前進することになる。
 > (*孫引き*; 北川・樋口 1998, 数理科学; p. 12)
 
+
+# 光合成系
+
+## 金言
+
+
+## 論文
+
+> Given that IMMUTANS and the Ndh complex are found in non-green tissues, it may be more appropriate to use the term plastid respiration rather than chlororespiration to describe this phenomenon.
+> (Nixon 2000, Phil Trans R Soc Lond B; p. 1546)

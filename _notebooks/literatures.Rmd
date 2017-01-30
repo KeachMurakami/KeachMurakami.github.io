@@ -6,7 +6,7 @@ output: html_document
 
 - `低中高`は優先度
 - `未刊`はin press
-- `費`はアクセス権がなくて有償なもの、おもに書籍
+- `有償`はアクセス権がなくて有償なもの、おもに書籍
 
 ```{r, eval = F}
 library(rvest)
@@ -35,30 +35,30 @@ num_paper <-
         
         - 19
         
-            1. [Gimenez-Ibanez et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14354/abstract); 中
+            1. [Gimenez-Ibanez et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14354/abstract); <FONT color="blue">中</FONT>
                 - バクテリアの感染と気孔開度の調節の仕組みに関して
                 - 感染で一度閉じた気孔を、Coronatineというphytotoxinにより再度開かせる
                 - 後輩に投げつける
             
-            2. [de Vries et al. 2017; Trends Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302060); 高・未刊
+            2. [de Vries et al. 2017; Trends Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302060); <FONT color="green">高・未刊</FONT>
                 - 光獲得と対被食のトレードオフに関して
                 - R/FR比がメイン
         
         
         - 20
     
-            3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract); 高
+            3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract); <FONT color="green">高</FONT>
                 - Shade avoidance syndrome
                 - “syndrome”ってつけるとキャッチーだ
             
-            4. [Uematsu et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14416/abstract); 低
+            4. [Uematsu et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14416/abstract); <FONT color="grey">低</FONT>
                 - いつか出してやると思っている*New Phytologist*に、研究科の元先輩がacceptされていたので記念に
                 - 水田イネへの放射性セシウムの吸い上げについて
         
         
         - 21
         
-            5. [Wientjes et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300099?np=y); 中
+            5. [Wientjes et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300099?np=y); <FONT color="blue">中</FONT>
                 - 画像解析 & 蛍光寿命解析でPSII/PSI比を面的に
                 - 以下の`Iermak et al. 2016`の発展
                 
@@ -72,11 +72,11 @@ num_paper <-
         
         - 24
         
-            7. [Galvão & Fankhauser 2015; Cur Opin Neurobiol](http://www.sciencedirect.com/science/article/pii/S0959438815000227); 低
+            7. [Galvão & Fankhauser 2015; Cur Opin Neurobiol](http://www.sciencedirect.com/science/article/pii/S0959438815000227); <FONT color="green">低</FONT>
                 - 植物の光センシングに関する異分野への概説系レビュー
                 - Chemical寄り
             
-            8. [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract); 高・未刊
+            8. [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract); <FONT color="blue">高・未刊</FONT>
                 - ヨーロッパアカマツ苗の光強度 x R/FR比への応答
                 - 胚軸長、色素蓄積など
                 - 被子植物・裸子植物の差異を絡めている
@@ -85,11 +85,11 @@ num_paper <-
         
         - 25
         
-            9. [Morena et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S1011134416309733); 低・未刊
+            9. [Morena et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S1011134416309733); <FONT color="blue">低・未刊</FONT>
                 - 長波長 (980 nm) LED光での*Pseudomonas aeruginosa* (緑膿菌) 繁殖の抑制
                 - 口腔衛生、小児科学などの人たち
             
-            10. [Munafò et al. 2017; Nat Hum Behav](http://www.nature.com/articles/s41562-016-0021); 高
+            10. [Munafò et al. 2017; Nat Hum Behav](http://www.nature.com/articles/s41562-016-0021); <FONT color="blue">高</FONT>
                 - 再現性の担保について
                     - *P*-hackingとか、そのあたり
                     - 去年のASAのstar-counting 統計の批判以来、流行っている
@@ -98,7 +98,7 @@ num_paper <-
                         - 癌研究だとか、生体の実験でRCTだときついだろう
                 - 探索的な研究だと仕方ない側面もあるよね、と思いつつ、着々と脱検定を進めている
             
-            11. [Shirai et al. 2017; J Food Eng](http://www.sciencedirect.com/science/article/pii/S0260877416303739); 低
+            11. [Shirai et al. 2017; J Food Eng](http://www.sciencedirect.com/science/article/pii/S0260877416303739); <FONT color="grey">低</FONT>
                 - 食肉の表面から内部へのバクテリアの侵入のモデル化
                 - 博士の公開審査で聞いたので
                 - 「鉛直プロファイルの*in vivo*値とモデル推定値を比較していないのですか」という質問は、まっとうだけどしんどい
@@ -106,12 +106,12 @@ num_paper <-
         
         - 26
         
-            12. [Izumi et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/01/25/tpc.16.00637.short?rss=1); 中・未刊
+            12. [Izumi et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/01/25/tpc.16.00637.short?rss=1); <FONT color="blue">中・未刊</FONT>
                 - chlorophagyなるフレーズ
                 - photodamageを受けた葉緑体が液胞中心に移動する
                 - 「移動して、そのあとどうなる」が意図的に書かれていなさそう
             
-            13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); 高
+            13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); <FONT color="blue">高</FONT>
                 - FRで変動光下でのPSI阻害が抑制できる話
                 - 内容は既知のものなので、引用されている文献など、知識収集メインで読むべし
         
@@ -127,12 +127,25 @@ num_paper <-
                 - GLMMで、`ORIG x FR`項の係数を水準ごとに解析できるようダミー変数でバラすテクニック
                     - TS先生に今度あったときに話そう
             
-            15. [Pierik & de Wit 2014; JXB](https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/ert389); 低
+            15. [Pierik & de Wit 2014; JXB](https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/ert389); <FONT color="green">低</FONT>
                 - Shade avoidance: phytochrome signalling and other aboveground neighbour detection cues
                 - 群落の成長に伴うR/FRの変化と、その他の光質・物理的接触・VOCと関連付けてレビュー
                 
-            16. [Cocetta et al. 2017; BookChap](http://link.springer.com/article/10.1140/epjp/i2017-11298-x); 低・費
+            16. [Cocetta et al. 2017; BookChap](http://link.springer.com/article/10.1140/epjp/i2017-11298-x); <FONT color="green">低・有償</FONT>
                 - Light use efficiency for vegetables production in protected and indoor environments
                 - 37.75 euro
                 - D論周りとぴったしだけど、引用文献を見るにあまり得るものはなさそう...?
                 - 年度末に学振の研究遂行経費が残っていれば落とす
+                
+        - 30
+        
+            - 17. [Geigenberger et al. 2017; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302217); <FONT color="green">中・未刊</FONT>
+                - The Unprecedented Versatility of the Plant Thioredoxin System
+                -
+            
+            - 18. [Endo et al. 1999; FEBS Letters](http://onlinelibrary.wiley.com/wol1/doi/10.1016/S0014-5793(99)00989-8/full)
+                - The role of chloroplastic NAD(P)H dehydrogenase in photoprotection
+                - NDHが強光に対するphotoprotectionとして機能する話
+                - いまさら読む
+                - いまNDH-光阻害界隈がどうなってるのかはしっかり追えてないが、さほど効果的な防御システムになっているとは考えられていない (と思う, Nawrocki et al.2015とか)
+                    - Nawrockiはこれ引いてないな...

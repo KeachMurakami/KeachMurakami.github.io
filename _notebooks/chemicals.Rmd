@@ -1,0 +1,185 @@
+---
+title: "chemicals"
+author: "KeachMurakami"
+output: html_document
+---
+
+---
+
+# 光合成電子伝達の阻害剤
+
+==========
+
+## DCMU
+
+3-(3,4-dichlorophenyl)-1, 1-dimethylurea
+
+### 特性
+
+- DBMIBと並んで有名どころ
+- PSII-Q~B~キノン電子受容体部に結合する
+
+### 文献
+
+- 
+
+
+----
+
+## DBMIB
+
+2,5-dibromo-3-methyl-6-isopropyl-1,4-benzoquinone
+
+### 特性
+
+- 有名どころ
+- cytochrome *b*~6~*f* 複合体のPQ結合部位に結合する
+- “DBMIBは10 μM 以上の濃度ではシトクロムb*6*f複合体をスキップして光化学系Ⅰに直接電子を渡すようになるので注意が必要である” (光合成事典)
+
+### 文献
+
+- 
+
+
+----
+
+## MV (methylviologen)
+
+1,1'-dimethyl-4,4'-bipyridinium
+
+### 特性
+
+- 有名どころ、その３
+    - = パラコート
+- PSIの人工的な電子受容体
+- Mehlerを起こしたいとき (ROSを生成したいとき) など
+- NADPHからの電子受容
+
+### 文献
+
+- 
+
+
+----
+
+## *n*-PG
+
+*n*-propyl gallate (3,4,5-trihydroxy benzoic acid n-propyl ester)
+
+### 特性
+
+- PTOX依存の酸素発生を阻害する
+    - SHAMより強い阻害剤
+- 元々はAOXsの阻害剤っぽい
+- “Thus, AOXs and PTOX share similar structural and catalytic features.” (Josse et al. 2003, EJB)
+
+### 文献
+
+- Shirao et al. (2013)
+- Josse et al. (2003)
+- 
+
+
+----
+
+## Norflurazon
+
+### 特性
+
+- カロテノイドの合成を阻害することで、光阻害を誘導する
+- 光要求性除草剤として利用
+
+### 文献
+
+- 
+
+
+----
+
+# 染色剤
+
+==========
+
+## NBT
+
+- nitroblue tetrazolium
+
+### 特性
+
+- superoxideを検出
+
+### 文献
+
+- Driever & Baker (2013)
+
+
+----
+
+# ミトコンドリア呼吸の阻害剤
+
+==========
+
+## rotenone
+
+### 特性
+
+- ミトコンドリア電子伝達複合体IでのNADH分解を阻害する
+    - 植物だと耐性NDHがあるので即死はしない
+- ピエリシジンも同様
+
+### 文献
+
+- 
+
+
+## Malonic acid
+
+### 特性
+
+- ミトコンドリア電子伝達複合体IIでのコハク酸の分解を阻害する
+
+### 文献
+
+- 
+
+
+## Antymicin A
+
+### 特性
+
+- ミトコンドリア電子伝達複合体IIIでのcyt *c*への電子伝達を阻害する
+    - 致命的
+- prg5型CEF-PSIも阻害する
+
+### 文献
+
+- 
+
+
+## CO/KCN/NaN<sub>2</sub>
+
+### 特性
+
+- ミトコンドリア電子伝達複合体IVでのO<sub>2</sub>->H<sub>2</sub>Oを阻害する
+
+### 文献
+
+- Bennoun (1982)
+
+
+## SHAM
+
+salicylhydroxamic acid
+
+### 特性
+
+- AOXsを阻害する
+- PTOX依存の酸素発生を阻害する
+    - *n*-PGより弱い阻害剤
+
+### 文献
+
+- Bennoun (1982)
+- Josse et al. (2003)
+
+
