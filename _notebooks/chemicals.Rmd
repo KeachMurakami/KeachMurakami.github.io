@@ -21,7 +21,7 @@ output: html_document
 
 ### 文献
 
-- 
+- `REF`
 
 
 ----
@@ -57,10 +57,8 @@ output: html_document
 
 ### 文献
 
-- 
+- Endo et al. (1999)
 
-
-----
 
 ## *n*-PG
 
@@ -71,13 +69,12 @@ output: html_document
 - PTOX依存の酸素発生を阻害する
     - SHAMより強い阻害剤
 - 元々はAOXsの阻害剤っぽい
-- “Thus, AOXs and PTOX share similar structural and catalytic features.” (Josse et al. 2003, EJB)
+- “Thus, AOXs and PTOX share similar structural and catalytic features.” (Josse et al. 2003)
 
 ### 文献
 
 - Shirao et al. (2013)
 - Josse et al. (2003)
-- 
 
 
 ----
@@ -91,10 +88,25 @@ output: html_document
 
 ### 文献
 
-- 
+- `REF`
 
 
 ----
+
+## Lincomycin
+
+### 特性
+
+- タンパク質合成の阻害剤
+- PSIIタンパク (D1) の修復を止めるために使う場合が多い
+
+### 文献
+
+- `REF`
+
+
+----
+
 
 # 染色剤
 
@@ -129,7 +141,7 @@ output: html_document
 
 ### 文献
 
-- 
+- `REF`
 
 
 ## Malonic acid
@@ -140,7 +152,7 @@ output: html_document
 
 ### 文献
 
-- 
+- `REF`
 
 
 ## Antymicin A
@@ -153,7 +165,7 @@ output: html_document
 
 ### 文献
 
-- 
+- `REF`
 
 
 ## CO/KCN/NaN<sub>2</sub>

@@ -141,11 +141,19 @@ num_paper <-
         
             - 17. [Geigenberger et al. 2017; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302217); <FONT color="green">中・未刊</FONT>
                 - The Unprecedented Versatility of the Plant Thioredoxin System
-                -
+                - Redoxといえばthioredoxin見たいな感じがあるので読んでおこう
             
-            - 18. [Endo et al. 1999; FEBS Letters](http://onlinelibrary.wiley.com/wol1/doi/10.1016/S0014-5793(99)00989-8/full)
+            - 18. [Endo et al. 1999; FEBS Letters](http://onlinelibrary.wiley.com/wol1/doi/10.1016/S0014-5793(99)00989-8/full); 20170130済
                 - The role of chloroplastic NAD(P)H dehydrogenase in photoprotection
-                - NDHが強光に対するphotoprotectionとして機能する話
-                - いまさら読む
+                - NDHが強光に対するphotoprotectionとして機能していることを主張
+                    - 他にはあまりNDH-CEF単体で効いている話がないので、解釈が難しい
+                - MV添加でPSI donorを作ると、ΔndhBでもPSIの励起が抑えられるから、NDH-CEF-PSIが効いてる
                 - いまNDH-光阻害界隈がどうなってるのかはしっかり追えてないが、さほど効果的な防御システムになっているとは考えられていない (と思う, Nawrocki et al.2015とか)
                     - Nawrockiはこれ引いてないな...
+                
+            - 19. [Heyno et al. 2014; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/369/1640/20130228); 20170130済
+                - Putative role of the malate valve enzyme NADP–malate dehydrogenase in H~2~O~2~ signalling in *Arabidopsis*
+                - `Geigenberger et al. 2017`をつらつら読んでいて引っかかったので
+                - Malate valveでのNADP-malate-DHがH~2~O~2~経由のシグナリングとリンクしている
+                    - 因果関係をダイレクトに示すものではないように思うが
+                - Supporting Tableの1より大きいΦ(II)とは...

@@ -24,5 +24,14 @@ layout: default
 
 ## 論文
 
+> Energy transduction in photosynthesis depends on the coordinated electron turn over by two photosystems in a linear electron-transport process.
+> (Chow et al., 1990; PNAS)
+
+> The two photosystems of the chloroplast have slightly different absorption maxima, which can lead to an imbalance in the energy distribution from absorbed light between them.
+> (Oelze et al., 2008; BBA)
+
 > Given that IMMUTANS and the Ndh complex are found in non-green tissues, it may be more appropriate to use the term plastid respiration rather than chlororespiration to describe this phenomenon.
 > (Nixon 2000, Phil Trans R Soc Lond B; p. 1546)
+
+> Therefore, enzymes that metabolize ROS must play a dual role: in an active state, they keep ROS concentrations at safe levels, and in an inactivated state, they can allow internal ROS concentrations to reach critical levels for activation of signalling components.
+> (Heyno et al. 2017, Phil Trans R Soc Lond B; p. 2)
