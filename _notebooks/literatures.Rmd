@@ -148,12 +148,32 @@ num_paper <-
                 - NDHが強光に対するphotoprotectionとして機能していることを主張
                     - 他にはあまりNDH-CEF単体で効いている話がないので、解釈が難しい
                 - MV添加でPSI donorを作ると、ΔndhBでもPSIの励起が抑えられるから、NDH-CEF-PSIが効いてる
-                - いまNDH-光阻害界隈がどうなってるのかはしっかり追えてないが、さほど効果的な防御システムになっているとは考えられていない (と思う, Nawrocki et al.2015とか)
+                - いまNDH-光阻害界隈がどうなってるのかはしっかり追えてないが、さほど効果的な防御システムになっているとは考えられていない (と思う, `Nawrocki et al. (2015)`とか)
                     - Nawrockiはこれ引いてないな...
                 
             - 19. [Heyno et al. 2014; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/369/1640/20130228); 20170130済
                 - Putative role of the malate valve enzyme NADP–malate dehydrogenase in H~2~O~2~ signalling in *Arabidopsis*
-                - `Geigenberger et al. 2017`をつらつら読んでいて引っかかったので
+                - `Geigenberger et al. (2017)`をつらつら読んでいて引っかかったので
                 - Malate valveでのNADP-malate-DHがH~2~O~2~経由のシグナリングとリンクしている
                     - 因果関係をダイレクトに示すものではないように思うが
-                - Supporting Tableの1より大きいΦ(II)とは...
+                - Supporting Tableの1より大きいphi(II)とは...
+            
+      - 31
+      
+          - 20. [星野・岡田 2006; J Natl Inst Public Health](https://www.niph.go.jp/journal/data/55-3/j55-3.html) <FONT color="green">低</FONT>
+              - 傾向スコアを用いた共変量調整による因果効果の推定と臨床医学・疫学・薬学・公衆衛生分野での応用について
+              - `岩波DS Vol. 3`から
+              
+          - 21. [丹後 2000; J Natl Inst Public Health](https://www.niph.go.jp/journal/data/49-4/j49-4.html) 20170131済
+              - 良質の根拠を生む randomization の本質 ー科学研究者としてのセンスー
+              - `星野・岡田 (2006)`の引用文献をちら見して
+              - 標準化・ルール整備が重要
+              - 実験条件を“揃える”の定義は分野によるのがなんとも
+                  - 生態学の`Hurlbert (1984)`は、“揃える”によりシビア
+                  - 「条件」を受ける時間が長いと、微差を気にする必要があるから
+                  - その基準は主観
+          - 22. [Gerszberg & Hnatuszko-Konka 2017; Plant Growth Regul](http://link.springer.com/article/10.1007/s10725-017-0251-x) <FONT color="green">低</FONT>
+              - Tomato tolerance to abiotic stress: a review of most often engineered target sequences
+              - 非生物耐性のレビュー
+              
+              
