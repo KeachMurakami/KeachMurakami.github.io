@@ -99,7 +99,7 @@ journal_articles <-
     ToRecord(
       "A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions",
       paste(correspond(KM), RM, KF, sep = ", "),
-      "2017<br>(in press)",
+      "2017",
       "Letter",
       paste0("Environmental Control in Biology", impacts[5]),
       ""),
