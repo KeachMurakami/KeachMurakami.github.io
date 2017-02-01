@@ -7,6 +7,7 @@ output: html_document
 - `低中高`は優先度
 - `未刊`はin press
 - `有償`はアクセス権がなくて有償なもの、おもに書籍
+- <FONT color="green">緑</FONT>: Review article
 
 ```{r, eval = F}
 library(rvest)
@@ -35,34 +36,40 @@ num_paper <-
         
         - 19
         
-            1. [Gimenez-Ibanez et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14354/abstract); <FONT color="blue">中</FONT>
+            1. [Gimenez-Ibanez et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14354/abstract); 中
+                - JAZ2 controls stomata dynamics during bacterial invasion
                 - バクテリアの感染と気孔開度の調節の仕組みに関して
                 - 感染で一度閉じた気孔を、Coronatineというphytotoxinにより再度開かせる
                 - 後輩に投げつける
             
             2. [de Vries et al. 2017; Trends Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302060); <FONT color="green">高・未刊</FONT>
+                - Dynamic Plant–Plant– Herbivore Interactions Govern Plant Growth–Defence
+Integration
                 - 光獲得と対被食のトレードオフに関して
                 - R/FR比がメイン
         
         
         - 20
     
-            3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract); <FONT color="green">高</FONT>
-                - Shade avoidance syndrome
+            3. [Ballaré & Pierik 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12914/abstract); <FONT color="green">高・未刊</FONT>
+                - The shade avoidance syndrome: Multiple signals and ecological consequences
                 - “syndrome”ってつけるとキャッチーだ
             
             4. [Uematsu et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14416/abstract); <FONT color="grey">低</FONT>
+                - Foliar uptake of radiocaesium from irrigation water by paddy rice (*Oryza sativa*): an overlooked pathway in contaminated environments
                 - いつか出してやると思っている*New Phytologist*に、研究科の元先輩がacceptされていたので記念に
                 - 水田イネへの放射性セシウムの吸い上げについて
         
         
         - 21
         
-            5. [Wientjes et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300099?np=y); <FONT color="blue">中</FONT>
+            5. [Wientjes et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300099?np=y); 中
+                - Imaging the Photosystem I/Photosystem II chlorophyll ratio inside the leaf
                 - 画像解析 & 蛍光寿命解析でPSII/PSI比を面的に
                 - 以下の`Iermak et al. 2016`の発展
                 
             6. [Iermak et al. 2016; BBA](http://www.sciencedirect.com/science/article/pii/S0005272816305564); 20170121済
+                - Visualizing heterogeneity of photosynthetic properties of plant leaves with two-photon fluorescence lifetime imaging microscopy
                 - `Wientjes et al. 2017`から
                 - two-photonとFLIMで深度情報まで考慮して光化学系組成を解析
                     - 厳密には、LCHII/PSII比とPSII/PSI比
@@ -73,10 +80,12 @@ num_paper <-
         - 24
         
             7. [Galvão & Fankhauser 2015; Cur Opin Neurobiol](http://www.sciencedirect.com/science/article/pii/S0959438815000227); <FONT color="green">低</FONT>
+                - Sensing the light environment in plants: photoreceptors and early signaling steps
                 - 植物の光センシングに関する異分野への概説系レビュー
                 - Chemical寄り
             
-            8. [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract); <FONT color="blue">高・未刊</FONT>
+            8. [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract); 高・未刊
+                - Differential response of Scots pine seedlings to variable intensity and ratio of R and FR light
                 - ヨーロッパアカマツ苗の光強度 x R/FR比への応答
                 - 胚軸長、色素蓄積など
                 - 被子植物・裸子植物の差異を絡めている
@@ -85,11 +94,13 @@ num_paper <-
         
         - 25
         
-            9. [Morena et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S1011134416309733); <FONT color="blue">低・未刊</FONT>
+            9. [Morena et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S1011134416309733); 低・未刊
+                - *In vitro* antimicrobial activity of LED irradiation on *Pseudomonas aeruginosa*
                 - 長波長 (980 nm) LED光での*Pseudomonas aeruginosa* (緑膿菌) 繁殖の抑制
                 - 口腔衛生、小児科学などの人たち
             
-            10. [Munafò et al. 2017; Nat Hum Behav](http://www.nature.com/articles/s41562-016-0021); <FONT color="blue">高</FONT>
+            10. [Munafò et al. 2017; Nat Hum Behav](http://www.nature.com/articles/s41562-016-0021); <FONT color="green">高</FONT>
+                - A manifesto for reproducible science
                 - 再現性の担保について
                     - *P*-hackingとか、そのあたり
                     - 去年のASAのstar-counting 統計の批判以来、流行っている
@@ -99,6 +110,7 @@ num_paper <-
                 - 探索的な研究だと仕方ない側面もあるよね、と思いつつ、着々と脱検定を進めている
             
             11. [Shirai et al. 2017; J Food Eng](http://www.sciencedirect.com/science/article/pii/S0260877416303739); <FONT color="grey">低</FONT>
+                - Penetration of aerobic bacteria into meat: A mechanistic understanding
                 - 食肉の表面から内部へのバクテリアの侵入のモデル化
                 - 博士の公開審査で聞いたので
                 - 「鉛直プロファイルの*in vivo*値とモデル推定値を比較していないのですか」という質問は、まっとうだけどしんどい
@@ -106,12 +118,14 @@ num_paper <-
         
         - 26
         
-            12. [Izumi et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/01/25/tpc.16.00637.short?rss=1); <FONT color="blue">中・未刊</FONT>
+            12. [Izumi et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/01/25/tpc.16.00637.short?rss=1); 低・未刊
+                - Entire Photodamaged Chloroplasts Are Transported to the Central Vacuole by Autophagy
                 - chlorophagyなるフレーズ
                 - photodamageを受けた葉緑体が液胞中心に移動する
                 - 「移動して、そのあとどうなる」が意図的に書かれていなさそう
             
-            13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); <FONT color="blue">高</FONT>
+            13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); 高
+                - Photoprotection of PSI by Far-Red Light Against the Fluctuating Light-Induced Photoinhibition in Arabidopsis thaliana and Field-Grown Plants
                 - FRで変動光下でのPSI阻害が抑制できる話
                 - 内容は既知のものなので、引用されている文献など、知識収集メインで読むべし
         
@@ -121,7 +135,7 @@ num_paper <-
             14. [Riikonen 2017; Forest Ecol Manag](http://www.sciencedirect.com/science/article/pii/S0378112716311173); 20170128済
                 - Content of far-red light in supplemental light modified characteristics related to drought tolerance and post-planting growth in Scots pine seedlings
                 - アカマツの苗木にFR添加したときの耐乾燥性とその後の成長
-                - *in situ*水利用効率 (P~n~/g~s~) をRGB光源で測定した値で議論
+                - *in situ*水利用効率 (*P*~n~/*g*~s~) をRGB光源で測定した値で議論
                     - *in situ*な光 (=太陽光) のもとでは？
                     - 典型的な栽培光x測定光の交互作用問題
                 - GLMMで、`ORIG x FR`項の係数を水準ごとに解析できるようダミー変数でバラすテクニック
@@ -139,11 +153,11 @@ num_paper <-
                 
         - 30
         
-            - 17. [Geigenberger et al. 2017; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302217); <FONT color="green">中・未刊</FONT>
+            17. [Geigenberger et al. 2017; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302217); <FONT color="green">中・未刊</FONT>
                 - The Unprecedented Versatility of the Plant Thioredoxin System
                 - Redoxといえばthioredoxin見たいな感じがあるので読んでおこう
             
-            - 18. [Endo et al. 1999; FEBS Letters](http://onlinelibrary.wiley.com/wol1/doi/10.1016/S0014-5793(99)00989-8/full); 20170130済
+            18. [Endo et al. 1999; FEBS Letters](http://onlinelibrary.wiley.com/wol1/doi/10.1016/S0014-5793(99)00989-8/full); 20170130済
                 - The role of chloroplastic NAD(P)H dehydrogenase in photoprotection
                 - NDHが強光に対するphotoprotectionとして機能していることを主張
                     - 他にはあまりNDH-CEF単体で効いている話がないので、解釈が難しい
@@ -151,29 +165,51 @@ num_paper <-
                 - いまNDH-光阻害界隈がどうなってるのかはしっかり追えてないが、さほど効果的な防御システムになっているとは考えられていない (と思う, `Nawrocki et al. (2015)`とか)
                     - Nawrockiはこれ引いてないな...
                 
-            - 19. [Heyno et al. 2014; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/369/1640/20130228); 20170130済
+            19. [Heyno et al. 2014; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/369/1640/20130228); 20170130済
                 - Putative role of the malate valve enzyme NADP–malate dehydrogenase in H~2~O~2~ signalling in *Arabidopsis*
                 - `Geigenberger et al. (2017)`をつらつら読んでいて引っかかったので
                 - Malate valveでのNADP-malate-DHがH~2~O~2~経由のシグナリングとリンクしている
                     - 因果関係をダイレクトに示すものではないように思うが
                 - Supporting Tableの1より大きいphi(II)とは...
             
-      - 31
+        - 31
       
-          - 20. [星野・岡田 2006; J Natl Inst Public Health](https://www.niph.go.jp/journal/data/55-3/j55-3.html) <FONT color="green">低</FONT>
-              - 傾向スコアを用いた共変量調整による因果効果の推定と臨床医学・疫学・薬学・公衆衛生分野での応用について
-              - `岩波DS Vol. 3`から
-              
-          - 21. [丹後 2000; J Natl Inst Public Health](https://www.niph.go.jp/journal/data/49-4/j49-4.html) 20170131済
-              - 良質の根拠を生む randomization の本質 ー科学研究者としてのセンスー
-              - `星野・岡田 (2006)`の引用文献をちら見して
-              - 標準化・ルール整備が重要
-              - 実験条件を“揃える”の定義は分野によるのがなんとも
-                  - 生態学の`Hurlbert (1984)`は、“揃える”によりシビア
-                  - 「条件」を受ける時間が長いと、微差を気にする必要があるから
-                  - その基準は主観
-          - 22. [Gerszberg & Hnatuszko-Konka 2017; Plant Growth Regul](http://link.springer.com/article/10.1007/s10725-017-0251-x) <FONT color="green">低</FONT>
-              - Tomato tolerance to abiotic stress: a review of most often engineered target sequences
-              - 非生物耐性のレビュー
-              
-              
+            20. [星野・岡田 2006; J Natl Inst Public Health](https://www.niph.go.jp/journal/data/55-3/j55-3.html); <FONT color="green">低</FONT>
+                - 傾向スコアを用いた共変量調整による因果効果の推定と臨床医学・疫学・薬学・公衆衛生分野での応用について
+                - `岩波DS Vol. 3`から
+                
+            21. [丹後 2000; J Natl Inst Public Health](https://www.niph.go.jp/journal/data/49-4/j49-4.html); <FONT color="green">20170131済</FONT>
+                - 良質の根拠を生む randomization の本質 ー科学研究者としてのセンスー
+                - `星野・岡田 (2006)`の引用文献をちら見して
+                - 標準化・ルール整備が重要
+                - 実験条件を“揃える”の定義は分野によるのがなんとも
+                    - 生態学の`Hurlbert (1984)`は、“揃える”によりシビア
+                    - 「条件」を受ける時間が長いと、微差を気にする必要があるから
+                    - その基準は主観
+            22. [Gerszberg & Hnatuszko-Konka 2017; Plant Growth Regul](http://link.springer.com/article/10.1007/s10725-017-0251-x); <FONT color="green">低</FONT>
+                - Tomato tolerance to abiotic stress: a review of most often engineered target sequences
+                - 非生物耐性のレビュー
+                
+    - 02
+        
+        - 01
+        
+            23. [Cai et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S101113441631065X); 20170201済・未刊
+                - The water-water cycle is a major electron sink in *Camellia* species when CO~2~ assimilation is restricted
+                - ツバキ３品種のAEF活性について
+                    - ツバキはなぜか赤青光下で速やかに気孔が閉じる
+                - WWCが強光かつ低*P*~n~条件 (光呼吸条件) で重要になる
+                    1. 気孔が閉じてCO~2~供給が遅れる (これはツバキでユニークっぽい)
+                    2. *V*~o~/*V*~c~が上がる
+                    3. ATP/NADPH要求が増える (*V*~o~だと1.5, *V*~c~だと1.75なので)
+                    4. WWCでNADPH生産を減らす
+                - 実験・議論ともエレガントで明快
+            
+            24. [Nishikawa et al. 2012; PCP](https://academic.oup.com/pcp/article-lookup/doi/10.1093/pcp/pcs153); 中
+                - PGR5-Dependent Cyclic Electron Transport Around PSI Contributes to the Redox Homeostasis in Chloroplasts Rather Than CO2 Fixation and Biomass Production in Rice
+                - 
+            
+            25. [Williamson 2007; Nutrition Bulletin](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-3010.2007.00628.x/abstract); 
+                - Is organic food better for our health?
+                - まっとうな研究としてまっとうな研究者の本で引用されていたので、気になって
+                - ニュートラル・客観的な論調
