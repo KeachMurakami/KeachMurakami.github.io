@@ -9,7 +9,57 @@ categories: bookmarks
 tags: memo
 ---
 
--------
+# 書き英語
+
+
+## 平均値が反復で揃わないとき
+
+> Because of the destructive nature of low-temperature experiments, the results reported in Table 2 required a number of measurements on different sections from the same leaf in order to approach meaningful averages. From the standard deviations and number of measurements, it seems likely that the average values for each experiment are significant.
+> (Canaani et al. 1984; PNAS)
+
+
+## Enhancement effect の説明によさそう。
+
+> When photosynthesis is driven experimentally by two lights of different wavelength, the rate of photosynthesis with both lights may exceed the sum of the rates obtained with each beam alone.
+> 
+
+> If all LHCII detached from PS II upon phosphorylation becomes attached instead to PS I [95,96], then these results fall short of the required increases in absorption cross-section of PS I of at least 16% for broad-band excitation and of 40-70%for Chi b excitation.
+> (Allen 1992; BBA)
+
+
+## 解釈しづらい結果が出たとき
+
+> ~ cannot be distinguished and requires further investigation, which however is beyond the scope of the present study.
+> (Wargner et al. 2008; Planta)
+
+> At the present state, we do not have an explanation for this difference.
+
+
+## AはBと相関がある (A縦軸、B横軸)
+
+- A (show, represent) a (considerable, strong, positive correlation with B.
+    - Dark respiration rate reportedly represents a positive correlation with the amount of leaf N per LA.
+
+
+## AはBと関係している (A→B)
+
+- A can be involved in B
+- A can be (closely) related to B
+- (an) involvement of A in B can be suggested.
+- B is (strongly) dependent on A.
+    - leaf photosynthetic capacity of C3 plants is strongly dependent on the amount of N.
+
+
+## AはBによって説明できる (B⇒A)
+- A can be (largely, partly) accounted for by B.
+    - The light-induced systemic regulation was largely accounted for by PPFD.
+- B might explain A.
+- A can be attributable to B.
+- (possible, likely) causes of A are B 
+
+
+
+# オーラル系
 
 <FONT color="grey">Last update: 2016-05-03  </FONT><br>
 
@@ -119,43 +169,3 @@ x    - I'm
 
 
 
-
-==========
-
-At the present state, we do not have an explanation for this difference.
-
-
-
-以降は～をＡと、～をＢと呼ぶ。
-We refer to light passing only thorough the heat filters as ‘white’ light and light that passed additionally through the yellow filters as ‘500-700 nm’ light. (Gorton et al. 1999 Physiol. Plant.)
-
-平均値がロットによってばらついたとき。
-Because of the destructive nature of low-temperature experiments, the results reported in Table 2 required a number of measurements on different sections from the same leaf in order to approach meaningful averages. From the standard deviations and number of measurements, it seems likely that the average values for each experiment are significant. (Canaani et al. 1984 PNAS)
-
-Enhancement effect の説明によさそう。
-When photosynthesis is driven experimentally by two lights of different wavelength, the rate of photosynthesis with both lights may exceed the sum of the rates obtained with each beam alone.
-
-
-If all LHCII detached from PS II upon phosphorylation becomes attached instead to PS I [95,96], then these results fall short of the required increases in absorption cross-section of PS I of at least 16% for broad-band excitation and of 40-70%for Chi b excitation. (Allen 1992 BBA)
-
-予想外の結果が出て、やや面白いけど、深く触れないとき。
-~ cannot be distinguished and requires further investigation, which however is beyond the scope of the present study (Wargner et al. 2008, Planta)
-
-The molecular mechanisms of primary redox-sensing steps are quite diverse and in some cases still not understood (Pfannschmidt et al. 2001)
-
-・AはBと相関がある (A縦軸、B横軸)
-A (show, represent) a (considerable, strong, positive correlation with B.
- cf) Dark respiration rate reportedly represents a positive correlation with the amount of leaf N per LA.
-
-・AはBと関係している (A→B)
-A can be involved in B
-A can be (closely) related to B
-(an) involvement of A in B can be suggested.
-B is (strongly) dependent on A.
-cf) leaf photosynthetic capacity of C3 plants is strongly dependent on the amount of N (Evans 1989)
-・AはBによって説明できる (B⇒A)
-A can be (largely, partly) accounted for by B.
- cf) The light-induced systemic regulation was largely accounted for by PPFD.
-B might explain A.
-A can be attributable to B.
-A (possible, likely) cause of A is B 

@@ -205,11 +205,20 @@ Integration
                     4. WWCでNADPH生産を減らす
                 - 実験・議論ともエレガントで明快
             
-            24. [Nishikawa et al. 2012; PCP](https://academic.oup.com/pcp/article-lookup/doi/10.1093/pcp/pcs153); 中
-                - PGR5-Dependent Cyclic Electron Transport Around PSI Contributes to the Redox Homeostasis in Chloroplasts Rather Than CO2 Fixation and Biomass Production in Rice
-                - 
+            24. [Nishikawa et al. 2012; PCP](https://academic.oup.com/pcp/article-lookup/doi/10.1093/pcp/pcs153); 20170202済
+                - PGR5-Dependent Cyclic Electron Transport Around PSI Contributes to the Redox Homeostasis in Chloroplasts Rather Than CO~2~ Fixation and Biomass Production in Rice
+                - `Cai et al. 2017`が`Yamori et al. 2015; Sci Rep`と並べて低PFDでのCEF-PSIをサポートするとして引用していたので
+                    - *pgr5*欠損は、強光下での*P*~n~も小さくしている (有意差はないけど)
+                    - *pgr5*欠損は、とくに強光下でPMF (ECS解析) を低下させる
+                    - やや強引な引用なのではないか...?
             
-            25. [Williamson 2007; Nutrition Bulletin](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-3010.2007.00628.x/abstract); 
+            25. [Williamson 2007; Nutrition Bulletin](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-3010.2007.00628.x/abstract); <FONT color="green">低</FONT>
                 - Is organic food better for our health?
                 - まっとうな研究としてまっとうな研究者の本で引用されていたので、気になって
                 - ニュートラル・客観的な論調
+        - 02
+        
+            26. [園池 2012; 光合成研究](http://photosyn.jp/journal.html#64); 20170202済
+                - 果実の光合成
+                - 文章に優しさが溢れている
+            

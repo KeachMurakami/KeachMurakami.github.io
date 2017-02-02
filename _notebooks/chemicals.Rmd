@@ -4,6 +4,9 @@ author: "KeachMurakami"
 output: html_document
 ---
 
+
+論文で使われている薬品を片っ端から上げていく自分用メモ
+
 ---
 
 # 光合成電子伝達の阻害剤
@@ -155,7 +158,7 @@ output: html_document
 - `REF`
 
 
-## Antymicin A
+## Antimycin A
 
 ### 特性
 
@@ -165,7 +168,8 @@ output: html_document
 
 ### 文献
 
-- `REF`
+- Okegawa et al. 2008
+- Nishikawa et al. 2012
 
 
 ## CO/KCN/NaN<sub>2</sub>

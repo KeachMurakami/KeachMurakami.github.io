@@ -102,7 +102,7 @@ journal_articles <-
       "2017",
       "Letter",
       paste0("Environmental Control in Biology", impacts[5]),
-      ""),
+      "https://www.jstage.jst.go.jp/article/ecb/55/1/55_1/_article"),
     
     ToRecord(
       "Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport",
