@@ -12,17 +12,19 @@ format
 ```
 ---
 
-## `通称`
+## 通称
 
-`正式名称`
+正式名称
 
 ### 特性
 
-- `charateristics`
+- 特性1
+- 特性2
 
 ### 文献
 
-- `REF`
+- 使用文献1
+- 使用文献2
 ```
 
 
@@ -111,6 +113,20 @@ format
 ### 文献
 
 - `REF`
+
+
+---
+
+## nigericin
+
+### 特性
+
+- “dissipates the ΔpH without significantly affecting the potential gradient.” (Joliot & Johnson 2011)
+
+### 文献
+
+- 
+- 使用文献2
 
 
 ----

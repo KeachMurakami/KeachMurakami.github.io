@@ -243,4 +243,12 @@ Integration
                 - 光化学反応の時定数 *k*~psii~ を定量する話は[Joliot & Joliot 2008; BBA](http://www.sciencedirect.com/science/article/pii/S0005272808000972)
                 - 励起エネルギー分配との区分にやや困る
                 - 非常にエレガントな論文だと再読して気づく
-                
+        
+        - 04
+            
+            30. [Zhang et al. 2017; Comput Electron Agric ](http://www.sciencedirect.com/science/article/pii/S0168169917300820); 低
+                - Leaf image based cucumber disease recognition using sparse representation classification
+                - Sparse modelかと思ったら違った
+                - 可視障害の病斑箇所をK-meansでクラスタ分析して、そのパターンからSparse representationで障害の種類を診断
+                - 生データを出せば病斑認識データセットとしてよく引用されそうだけども...
+                - この雑誌をほとんど見たことがなかったけど、好みなのでフォロー
