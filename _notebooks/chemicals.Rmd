@@ -182,6 +182,8 @@ format
 - `REF`
 
 
+----
+
 ## Malonic acid
 
 ### 特性
@@ -192,6 +194,8 @@ format
 
 - `REF`
 
+
+----
 
 ## Antimycin A
 
@@ -207,6 +211,8 @@ format
 - Nishikawa et al. 2012
 
 
+----
+
 ## CO/KCN/NaN<sub>2</sub>
 
 ### 特性
@@ -217,6 +223,8 @@ format
 
 - Bennoun (1982)
 
+
+----
 
 ## SHAM
 
@@ -232,5 +240,18 @@ salicylhydroxamic acid
 
 - Bennoun (1982)
 - Josse et al. (2003)
+- Dang et al. (2014)
 
 
+----
+
+# Myxothiazol
+
+### 特性
+
+- cyt *bc*~1~を阻害する
+- cyanobacteriaでは、SHAMとMyxoの同時添加でミトコンドリア電子伝達が完全に停止する
+
+### 文献
+
+- Dang et al. (2014)

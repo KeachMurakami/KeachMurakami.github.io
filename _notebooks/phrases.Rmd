@@ -166,6 +166,3 @@ x    - I'm
 
 - 図中でのred lines, red points  
     - lines in red, points in red の方がそれっぽい
-
-
-

@@ -11,10 +11,10 @@ layout: default
 ## 金言
 
 > サンプルという部分的な情報から、全体の構造をどれだけ推測できるかという能力を「汎化能力」と呼ぶ。
-> (赤穂 2008, カーネル多変量解析; p. 8)
+> (赤穂 2008; カーネル多変量解析, p. 8)
 
 > 唯一無二の究極的モデルなどは存在せず、常により良いものを求めて前進することになる。
-> (*孫引き*; 北川・樋口 1998, 数理科学; p. 12)
+> (*孫引き*; 北川・樋口 1998; 数理科学, p. 12)
 
 
 # 光合成系
@@ -25,13 +25,16 @@ layout: default
 ## 論文
 
 > Energy transduction in photosynthesis depends on the coordinated electron turn over by two photosystems in a linear electron-transport process.
-> (Chow et al., 1990; PNAS)
+> (Chow et al. 1990; PNAS)
 
 > The two photosystems of the chloroplast have slightly different absorption maxima, which can lead to an imbalance in the energy distribution from absorbed light between them.
-> (Oelze et al., 2008; BBA)
+> (Oelze et al. 2008; BBA)
 
 > Given that IMMUTANS and the Ndh complex are found in non-green tissues, it may be more appropriate to use the term plastid respiration rather than chlororespiration to describe this phenomenon.
-> (Nixon 2000, Phil Trans R Soc Lond B; p. 1546)
+> (Nixon 2000; Phil Trans R Soc Lond B, p. 1546)
 
 > Therefore, enzymes that metabolize ROS must play a dual role: in an active state, they keep ROS concentrations at safe levels, and in an inactivated state, they can allow internal ROS concentrations to reach critical levels for activation of signalling components.
-> (Heyno et al. 2017, Phil Trans R Soc Lond B; p. 2)
+> (Heyno et al. 2017; Phil Trans R Soc Lond B, p. 2)
+
+> We conclude from these experiments that PGRL1-dependent CEF is not essential for steady state growth under a wide range of CO2 levels and light intensities but is important when HL transients are experienced at low CO2 concentration.
+> (Dang et al. 2014; Plant Cell, p. 3039)

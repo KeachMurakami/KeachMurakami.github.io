@@ -252,3 +252,12 @@ Integration
                 - 可視障害の病斑箇所をK-meansでクラスタ分析して、そのパターンからSparse representationで障害の種類を診断
                 - 生データを出せば病斑認識データセットとしてよく引用されそうだけども...
                 - この雑誌をほとんど見たことがなかったけど、好みなのでフォロー
+            
+            31. [Dang et al. 2014; Plant Cell](http://www.plantcell.org/content/26/7/3036.abstract); 20170205済
+                - Combined Increases in Mitochondrial Cooperation and Oxygen Photoreduction Compensate for Deficiency in Cyclic Electron Flow in *Chlamydomonas reinhardtii*
+                - WTと*pgr*5の電子伝達のPFD・CO~2~応答を網羅的に解析している労力が凄まじい研究
+                - 根底には、「PGR-CEFの欠損によりATP不足がWTよりさらに厳しい状態で、電子伝達はどう対応しているのか？」がある
+                - Malate valve (mitorespiration) とO~2~還元 (FLV・Mehler) がATP不足をサポートする
+                - *pgr*5はRCIを減らして系I結合LHCIIを増やしている...？
+                - 変動光下ではやっぱり成育阻害が起こる
+                - Ruuska、Drieverあたりでも思ったがMIMSいいな
