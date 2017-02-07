@@ -32,6 +32,9 @@ tags: memo
 > ~ cannot be distinguished and requires further investigation, which however is beyond the scope of the present study.
 > (Wargner et al. 2008; Planta)
 
+>  It is not known what the differences between spinach and sunflower may be with respect to the operation of chlororespiration, but this difference could be accounted for by a lower capacity for dark PQ reduction in the spinach leaves used in the Harris and Heber (1993) study.
+> (Feild et al. 1998; Plant Physiol)
+
 > At the present state, we do not have an explanation for this difference.
 
 

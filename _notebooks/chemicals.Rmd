@@ -78,10 +78,12 @@ format
 - PSIの人工的な電子受容体
 - Mehlerを起こしたいとき (ROSを生成したいとき) など
 - NADPHからの電子受容
+- “It is well known that MV can catalyze a rapid, light- dependent depletion of chloroplast stromal reductants, in- cluding NADPH and ascorbate (Ort and Izawa, 1973; Aristarkhov et al., 1987).” (Feild et al. 1998; Plant Physiol)
 
 ### 文献
 
 - Endo et al. (1999)
+- Feild et al. (1998)
 
 
 ## *n*-PG
@@ -176,10 +178,11 @@ format
 - ミトコンドリア電子伝達複合体IでのNADH分解を阻害する
     - 植物だと耐性NDHがあるので即死はしない
 - ピエリシジンも同様
+- “Rotenone is an inhibitor of the type-I primary oxidoreductase of mitochondria that catalyzes electron transfer from NADH to the quinone pool and is coupled to transmembrane proton translocation” (Feild et al. 1998; Plant Physiol)
 
 ### 文献
 
-- `REF`
+- Feild et al. (1998)
 
 
 ----
@@ -218,11 +221,12 @@ format
 ### 特性
 
 - ミトコンドリア電子伝達複合体IVでのO<sub>2</sub>->H<sub>2</sub>Oを阻害する
+- “CO is a well-known inhibitor of hemoprotein oxidases such as Cyt oxidase, in which CO exerts its inhibitory effect by competing with oxygen for the sixth coordinate of the heme *a* iron.” (Feild et al. 1998; Plant Physiol, p. 1212)
 
 ### 文献
 
 - Bennoun (1982)
-
+- Feild et al. (1998)
 
 ----
 

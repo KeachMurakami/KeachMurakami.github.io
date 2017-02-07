@@ -2,7 +2,7 @@
 output: html_document
 ---
 
-ダウンロードしたことすら忘れるので、ダウンロードした論文とそのひとことメモ
+ダウンロードしたことすら忘れるので、ダウンロードした (眠っていた) 論文とそのひとことメモ
 
 - `低中高`は優先度
 - `未刊`はin press
@@ -273,6 +273,16 @@ Integration
                 - リモートセンシング系雑誌をまったくカバーしていなかったので、feedを集め始めた
                 - 簡単には読めないが、
                 
-            34/ [Bailleul et al. 2010; Photosyn Res](http://link.springer.com/article/10.1007/s11120-010-9579-z); <FONT color="green">20170206済 (再)</FONT>
+            34. [Bailleul et al. 2010; Photosyn Res](http://link.springer.com/article/10.1007/s11120-010-9579-z); <FONT color="green">20170206済 (再)</FONT>
                 - Electrochromism: a useful probe to study algal photosynthesis
                 - ECS解析のレビュー (ECSの知識はほぼこれのみ)
+        - 07
+        
+            35. [Feild et al. 1998; Plant Physiol](http://www.plantphysiol.org/content/116/4/1209.long); 20170207済
+                - Nonphotochemical Reduction of the Plastoquinone Pool in Sunflower Leaves Originates from Chlororespiration
+                - *F*~o~と阻害剤を多用した暗条件下でのchlororesprationの挙動の解析
+                - ヒマワリのpreincubation条件を振って、postilluminationでdark下での*F*~o~を観察
+                    - illuminationが10 min 1000 µmol m^-2^ s^-1^なのにそれにincubation条件がキャンセルされないのが新鮮
+                - この論文のchlororespirationのターンオーバ速度を、0.1 mmolChl m^-2^でフラックスに換算すると、mmole^-1^ molChl^-1^ s^-1^ ~ 10^-1^ µmole^-1^ m^-2^ s^-1^で、暗条件でのPQへの電子伝達は、0.07 µmole^-1^ m^-2^ s^-1^程度の微弱なもの
+                - rotenoneを加えてNDH経路を止めてもPQの再還元が起こる理由を、“Although this may indicate a rotenone-insensitive pathway for dark PQ reduction, it is equally likely that incomplete infiltration of rotenone into the leaves is the explanation.”と書いているが、単純にrotenone耐性の2型NDHなのでは...?
+                    - 追っかければわかりそうだけど、深入りしない
