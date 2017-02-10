@@ -7,7 +7,8 @@ output: html_document
 - `低中高`は優先度
 - `未刊`はin press
 - `有償`はアクセス権がなくて有償なもの、おもに書籍
-- <FONT color="green">緑</FONT>: Review article
+- <FONT color="green">緑文字</FONT>: Review article
+- <FONT color="blue">青文字</FONT>: Meta analysis
 
 ```{r, eval = F}
 library(rvest)
@@ -286,3 +287,19 @@ Integration
                 - この論文のchlororespirationのターンオーバ速度を、0.1 mmolChl m^-2^でフラックスに換算すると、mmole^-1^ molChl^-1^ s^-1^ ~ 10^-1^ µmole^-1^ m^-2^ s^-1^で、暗条件でのPQへの電子伝達は、0.07 µmole^-1^ m^-2^ s^-1^程度の微弱なもの
                 - rotenoneを加えてNDH経路を止めてもPQの再還元が起こる理由を、“Although this may indicate a rotenone-insensitive pathway for dark PQ reduction, it is equally likely that incomplete infiltration of rotenone into the leaves is the explanation.”と書いているが、単純にrotenone耐性の2型NDHなのでは...?
                     - 追っかければわかりそうだけど、深入りしない
+                    
+        - 09
+        
+            36. [Yan et al. 2017; Global Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/gcb.13654/abstract); <FONT color="blue">低・未刊</FONT>
+                - Contrasting responses of leaf stomatal characteristics to climate change: a considerable challenge to predict carbon and water cycles
+                - CO~2~、temperature、droughtで気孔密度をメタ解析
+                - 標高・時代を交絡因子として扱っているっぽい
+                - メタ解析、いつかやってみたいので
+        
+        -10
+        
+            37. [Vialet-Chabrand et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/02/09/pp.16.01767.short?rss=1); 高・未刊
+                - Importance of fluctuations in light on pant photosynthetic acclimation
+                - タイトルがtypoってる
+                - 変動光、はやってる
+                

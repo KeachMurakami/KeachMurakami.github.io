@@ -16,26 +16,26 @@ tags: memo
 ## 国内学会
 
 - 定期的
-    - [日本農業気象学会](http://www.agrmet.jp/) 毎年３月  
-    - [日本光合成学会](http://photosyn.jp/) 毎年？５--６月  
-    - [日本生物環境工学会](http://jsabees.org/) 毎年９月  
-    - [園芸学会](http://www.jshs.jp/) 毎年３月＠関東・９月＠他地方  
+    - [日本農業気象学会](http://www.agrmet.jp/) 毎年３月
+    - [日本光合成学会](http://photosyn.jp/) 毎年？５--６月
+    - [日本生物環境工学会](http://jsabees.org/) 毎年９月
+    - [園芸学会](http://www.jshs.jp/) 毎年３月＠関東・９月＠他地方
 
 - 積極的に参加したい
-    - [日本植物学会](http://bsj.or.jp/) 毎年９月  
-    - [日本植物生理学会](https://jspp.org/) 毎年３月  
-    - [農業施設学会](http://www.sasj.org/) 毎年８--９月  
-    - [生態工学会](http://www.see.gr.jp/) 毎年６月  
-    - [日本生態学会](http://www.esj.ne.jp/esj/) 毎年３月  
-    - [XXX]() 毎年Ｘ月  
-    - [XXX]() 毎年Ｘ月  
+    - [日本植物学会](http://bsj.or.jp/) 毎年９月
+    - [日本植物生理学会](https://jspp.org/) 毎年３月
+    - [農業施設学会](http://www.sasj.org/) 毎年８--９月
+    - [生態工学会](http://www.see.gr.jp/) 毎年６月
+    - [日本生態学会](http://www.esj.ne.jp/esj/) 毎年３月
+    - [XXX]() 毎年Ｘ月
+    - [XXX]() 毎年Ｘ月
 
 - やや遠いが気になる
-    - [日本生物工学会](http://www.sbj.or.jp/) 毎年９--１０月  
-    - [日本芝草学会](http://www.jsts-online.com/start/) 毎年春秋開催  
-    - [日本雑草学会](http://www.wssj.jp/) 毎年４月  
-    - [日本バイオインフォマティクス学会](http://www.jsbi.org/) 毎年Ｘ月  
-    - [XXX]() 毎年Ｘ月  
+    - [日本生物工学会](http://www.sbj.or.jp/) 毎年９--１０月
+    - [日本芝草学会](http://www.jsts-online.com/start/) 毎年春秋開催
+    - [日本雑草学会](http://www.wssj.jp/) 毎年４月
+    - [日本バイオインフォマティクス学会](http://www.jsbi.org/) 毎年Ｘ月
+    - [XXX]() 毎年Ｘ月
 
 ## 国外学会
 
@@ -55,9 +55,10 @@ tags: memo
 
 ## 国外グループ
 
-- [NCERA-101/NCR-101](http://www.controlledenvironments.org/)  
-- [UK CEUG](http://www.ceug.ac.uk/)  
-- [Developing LED Lighting Technologies and Practices for Sustainable Specialty-Crop Production](http://leds.hrt.msu.edu/)  
+- [NCERA-101/NCR-101](http://www.controlledenvironments.org/)
+- [UK CEUG](http://www.ceug.ac.uk/)
+- [Developing LED Lighting Technologies and Practices for Sustainable Specialty-Crop Production](http://leds.hrt.msu.edu/)
+- [IPPN | International Plant Phenotyping Network](http://www.plant-phenotyping.org/)
 
 ## 国際グループ
 

@@ -308,6 +308,7 @@ aes(col)に複数のスケールをマッピングする
 
 
 
-# What's
+# 未分類
 
+- [「R言語徹底解説」をご恵贈いただきました](http://keiku.hatenablog.jp/entry/2016/02/21/221831) NSEと{lazyeval}
 - [Hybrid evaluation](https://cran.r-project.org/web/packages/dplyr/vignettes/hybrid-evaluation.html) →  
