@@ -202,6 +202,8 @@ tags: memo
 - [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
 - [酵素法　食品分析試薬　Fキット](https://premium.ipros.jp/azmax/product/detail/2000166418/) どこかの学会で見たやつ。安価・簡単に成分分析ができる。  
 - [CO2コントローラー「NMA-VRCシリーズ」](http://group.chcsys.net/jp/co2monitor) 質の割に安い...?
+- [冷却CCDカメラ](http://www.bitran.co.jp/ccd/product/bu40/) CCDといえばこの会社感
+
 
 ## 中古装置
 

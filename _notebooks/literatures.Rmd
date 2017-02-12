@@ -300,6 +300,14 @@ Integration
         
             37. [Vialet-Chabrand et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/02/09/pp.16.01767.short?rss=1); 高・未刊
                 - Importance of fluctuations in light on pant photosynthetic acclimation
-                - タイトルがtypoってる
+                - タイトルがtypoってる (pantじゃなくてplantだろう、たぶん)
                 - 変動光、はやってる
-                
+              
+        - 12
+        
+            38. [Mishanin et al. 2017; Photosynth Res](http://link.springer.com/article/10.1007/s11120-017-0339-1); 高
+                - Acclimation of shade-tolerant and light-resistant *Tradescantia* species to growth light: chlorophyll *a* fluorescence, electron transport, and xanthophyll content
+                - Tikhonovのグループ
+                    - このグループも含め、なんとなくロシア・バルトあたりの論文は個人的に読みづらく感じる
+                - ツユクサの陰性・陽性を弱光(LL)・強光(HL)で栽培して光合成特性
+                - LLだと77K蛍光ピーク強度比のstate transitionが単相だが、HLだと二相？
