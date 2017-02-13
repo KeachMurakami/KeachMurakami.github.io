@@ -40,6 +40,9 @@ layout: default
 > (Dang et al. 2014; Plant Cell, p. 3039)
 
 >  In contrast to other techniques employed before, such as biochemical assessments of complex subunits (e.g. Anderson et al. 1995), evaluations of oxygen evolution versus P700 oxidation extents (Melis 1989) and EPR mea- surements (Danielsson et al. 2004), the ECS approach provides a more reliable quantification procedure (e.g. Chow et al. 2000; Fan et al. 2007) as it does not require any normalisation between the different parameters employed to assess the amounts of PSII and PSI.
-> (Bailleul et al. 2010; Photosyn Res, p. 184)
+> (Bailleul et al. 2010; Photosynth Res, p. 184)
 
 でも、阻害剤は必要。藻類だと、部分的に使う、が可能だけど葉だとそれができないので、そこら辺に問題がある。
+
+> A slow decay of Chl a  uorescence may be caused by the following events taking place within the chloroplast: (a) photochemical quenching, (b) non-photochemical quench- ing, (c) re-distribution of light energy between PSII and PSI, and (d) reversible/irreversible inactivation of PSII.
+> (Mishanin et al. 2017; Photosynth Res, p.)

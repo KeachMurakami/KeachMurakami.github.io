@@ -309,5 +309,31 @@ Integration
                 - Acclimation of shade-tolerant and light-resistant *Tradescantia* species to growth light: chlorophyll *a* fluorescence, electron transport, and xanthophyll content
                 - Tikhonovのグループ
                     - このグループも含め、なんとなくロシア・バルトあたりの論文は個人的に読みづらく感じる
-                - ツユクサの陰性・陽性を弱光(LL)・強光(HL)で栽培して光合成特性
+                    - と思ってたらこの人のはめちゃくちゃ読みやすかったのでサンプリングバイアス
+                - ツユクサの陰性・陽性を弱光(LL)・強光(HL)で栽培して光合成特性を解析
+                - *F*~685~/*F*~740~比に注力
+                    - NPQ・state transition・chloroplast movementの３要素に分解
+                    - NPQ: 早い
+                    - State transition: 中間程度
+                    - chloroplast movement: *t*~1/2~ ~ 10 min (Ptushenko et al. 2017)
                 - LLだと77K蛍光ピーク強度比のstate transitionが単相だが、HLだと二相？
+                - *T*~light~/*T*~dark~の絶対値の議論には意味がない
+                    - *T*~dark~が小さい場合
+                
+        - 13
+        
+            39. [Michelet et al. 2013; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2013.00470/full); <FONT color="green">低</FONT>
+                - Redox regulation of the Calvin–Benson cycle: something old, something new
+                - カルビン回路の活性化についてレビュー
+                - PQ-redoxではなく、thiore系のredox
+                - `Mishanin et al. 2017`から
+                
+            40. [Mishanin et al. 2016; Photosynth Res](http://link.springer.com/article/10.1007%2Fs11120-016-0252-z); 中
+                - Light acclimation of shade-tolerant and light-resistant *Tradescantia* species: induction of chlorophyll *a* fluorescence and P~700~ photooxidation, expression of PsbS and Lhcb1 proteins
+                - `Mishanin et al. 2017`から
+                
+            41. [Davis et al. 2011; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2011.02402.x/full)
+                - Changes in leaf optical properties associated with light-dependent chloroplast movements
+                - `Mishanin et al. 2017`から
+                    - “who examined how leaf anatomy in uenced chlo- roplast movements in 24 plant species, reported that chlo- roplast movement-dependent changes in leaf absorptance were greatest in shade species, in which absorptance changes of >10% were observed between HL and LL treatment”
+                - あまり引用されていないので知らなかったが、良さそう
