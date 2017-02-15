@@ -337,3 +337,11 @@ Integration
                 - `Mishanin et al. 2017`から
                     - “who examined how leaf anatomy in uenced chlo- roplast movements in 24 plant species, reported that chlo- roplast movement-dependent changes in leaf absorptance were greatest in shade species, in which absorptance changes of >10% were observed between HL and LL treatment”
                 - あまり引用されていないので知らなかったが、良さそう
+                
+      - 15
+      
+          42. [Kawase et al. 2016; Climatic Change](http://link.springer.com/article/10.1007%2Fs10584-016-1781-3); 低
+              - Enhancement of heavy daily snowfall in central Japan due to global warming as projected by large ensemble of regional climate simulations
+              - 気候シナリオシンポ@つくば (2017/02/14) の発表者の論文
+              - 門外漢だけどとても話が面白かったので
+              - 温暖化 (海温上昇) により気象現象の極端化が進むと、日本海側の山間部で豪雪が生じる危険性がある
