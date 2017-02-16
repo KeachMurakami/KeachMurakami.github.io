@@ -345,3 +345,10 @@ Integration
               - 気候シナリオシンポ@つくば (2017/02/14) の発表者の論文
               - 門外漢だけどとても話が面白かったので
               - 温暖化 (海温上昇) により気象現象の極端化が進むと、日本海側の山間部で豪雪が生じる危険性がある
+          
+      - 16
+      
+          43. [Vogelmann et al. 1989; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/323/1216/411); 20170216済
+              - Photosynthetic Light Gradients and Spectral Regime within Leaves of Medicago sativa
+              - 細胞のレンズ効果の話
+              - T先生 (1985) の論文のフォロワーを探していて、「あれこれ読んでないなー」ってなったので
