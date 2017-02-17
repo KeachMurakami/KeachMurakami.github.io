@@ -296,7 +296,7 @@ Integration
                 - 標高・時代を交絡因子として扱っているっぽい
                 - メタ解析、いつかやってみたいので
         
-        -10
+        - 10
         
             37. [Vialet-Chabrand et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/02/09/pp.16.01767.short?rss=1); 高・未刊
                 - Importance of fluctuations in light on pant photosynthetic acclimation
@@ -332,10 +332,11 @@ Integration
                 - Light acclimation of shade-tolerant and light-resistant *Tradescantia* species: induction of chlorophyll *a* fluorescence and P~700~ photooxidation, expression of PsbS and Lhcb1 proteins
                 - `Mishanin et al. 2017`から
                 
-            41. [Davis et al. 2011; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2011.02402.x/full)
+            41. [Davis et al. 2011; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2011.02402.x/full); 中
                 - Changes in leaf optical properties associated with light-dependent chloroplast movements
                 - `Mishanin et al. 2017`から
-                    - “who examined how leaf anatomy in uenced chlo- roplast movements in 24 plant species, reported that chlo- roplast movement-dependent changes in leaf absorptance were greatest in shade species, in which absorptance changes of >10% were observed between HL and LL treatment”
+                - 葉緑体の動きが吸収率に及ぼす影響が栽培条件で異なる話らしい
+                    - “who examined how leaf anatomy in uenced chloroplast movements in 24 plant species, reported that chloroplast movement-dependent changes in leaf absorptance were greatest in shade species, in which absorptance changes of >10% were observed between HL and LL treatment”
                 - あまり引用されていないので知らなかったが、良さそう
                 
       - 15
@@ -347,8 +348,41 @@ Integration
               - 温暖化 (海温上昇) により気象現象の極端化が進むと、日本海側の山間部で豪雪が生じる危険性がある
           
       - 16
+          - 査読対応のため、T先生 (1985) の論文のフォロワー掘り
       
           43. [Vogelmann et al. 1989; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/323/1216/411); 20170216済
               - Photosynthetic Light Gradients and Spectral Regime within Leaves of Medicago sativa
-              - 細胞のレンズ効果の話
-              - T先生 (1985) の論文のフォロワーを探していて、「あれこれ読んでないなー」ってなったので
+              - 細胞の集光レンズ効果の話
+          
+          44. [Pantaleoni et al. 2009; Planta](http://link.springer.com/article/10.1007/s00425-009-1004-5); 20170216済
+              - Photosystem II organisation in chloroplasts of *Arum italicum* leaf depends on tissue location
+              - Aroのグループ
+              - 光合成系の組成を、柵状・海綿状組織に加え、葉柄柔組織 (parenchyma w/ chl)、葉柄通気組織 (aerenchyma w/o chl) で解析するやや博物学的要素が強い論文
+              - State transitionとphotosystem stoichiometry以外で光分配が制御されていることを示してある
+                  - 2016で引用すべきだった
+                  - こっちを主題で書けばいいのに、と勝手に思う
+              - この植物は部位ごとに分けるのに便利な様子
+                  - “*Arum italicum* Miller (Araceae) leaf ... allows analysing separately four different photosynthetic tissues: the palisade and the spongy tissues, which form the lamina mesophyll, and the outer chlorenchyma and the inner aerenchyma, which form the petiole parenchyma”
+              - 単子葉類は、PSII超複合体が不安定で、LHCII-trimerを過大評価しがち
+                  - “in monocots the presence of less stable PSII supercomplexes could reduce the sensitivity of BN-PAGE analysis and lead to overestimation of the amount of LHCII trimers and misleading results (Ciambella et al. 2005)”
+              - Palisade vs spongy の解析で、spongyの77K蛍光のPSI側が増えている
+                  - free LHCII trimerが増えて熱放散、という解釈
+                      - 2D-PAGEとも整合的
+                      - preparation/77K計測までの条件で変わりそう (非NPQ形成状態でやったらstoichiometry影響が見えそう)
+                  - 明快、という感じではないが、リーズナブル
+                  
+          45. [Kanervo et al. 2005; Photochem Photobiol Sci ](http://pubs.rsc.org/en/content/articlelanding/2005/pp/b507866k/unauth#!divAbstract); <FONT color="green">低</FONT>
+              - Functional flexibility and acclimation of the thylakoid membrane
+              - Aroグループ (Pantaleoniから)
+              - 知らない雑誌だ
+                  - 植物率低そうだけど、一応 feed を取る
+                  
+      - 17
+      
+          46. [Chow et al. 1987; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.1987.tb06131.x/full); 20170217済
+              - The composition and function of thylakoid membranes from pea plants grown under white or green light with or without far-red light
+              - “the amounts of light-harvesting and electron transport components may be regulated by photosynthesis itself”
+              - FR照射は、励起バランスが崩すのはかなり堅いはなし
+              - しかし、FR照射で光合成系の組成が大きく変化する話は (知っている限り) ない
+              - 自分のデータ (2016, Physiol Plant) もそうだし
+              - 結局、やっぱりよくわからない部分があるなぁ
