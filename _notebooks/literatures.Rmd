@@ -305,7 +305,7 @@ Integration
               
         - 12
         
-            38. [Mishanin et al. 2017; Photosynth Res](http://link.springer.com/article/10.1007/s11120-017-0339-1); 高
+            38. [Mishanin et al. 2017; Photosynth Res](http://link.springer.com/article/10.1007/s11120-017-0339-1); 20170219済
                 - Acclimation of shade-tolerant and light-resistant *Tradescantia* species to growth light: chlorophyll *a* fluorescence, electron transport, and xanthophyll content
                 - Tikhonovのグループ
                     - このグループも含め、なんとなくロシア・バルトあたりの論文は個人的に読みづらく感じる
@@ -318,7 +318,7 @@ Integration
                     - chloroplast movement: *t*~1/2~ ~ 10 min (Ptushenko et al. 2017)
                 - LLだと77K蛍光ピーク強度比のstate transitionが単相だが、HLだと二相？
                 - *T*~light~/*T*~dark~の絶対値の議論には意味がない
-                    - *T*~dark~が小さい場合
+                    - *T*~dark~が小さい場合に安定しないので
                 
         - 13
         
@@ -386,3 +386,11 @@ Integration
               - しかし、FR照射で光合成系の組成が大きく変化する話は (知っている限り) ない
               - 自分のデータ (2016, Physiol Plant) もそうだし
               - 結局、やっぱりよくわからない部分があるなぁ
+              
+      - 20
+      
+          47. [Smirnakou et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2017.00188/full); 低
+              - Continuous Spectrum LEDs Promote Seedling Quality Traits and Performance of *Quercus ithaburensis* var. *macrolepis*
+              - タルボガシなる木の苗について
+              - 調べるのが面倒だからスペクトル出してほしい...
+              - 根の外観の話をするなら写真を...なんで紙媒体じゃないのにスペースをケチるのか
