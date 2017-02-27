@@ -400,3 +400,11 @@ Integration
           48. [Vavasseur & Raghavendra 2005; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.2004.01276.x/full); <FONT color="green">低</FONT>
               - Guard cell metabolism and CO~2~ sensing
               - 第二著者の本 (Photosynthesis) を裁断するにあたり、なんとなく調べた
+      
+      - 27
+      
+          49. [Motohashi & Myouga 2015; bio-protocol](http://www.bio-protocol.org/e1464); 20170227済
+              - Chlorophyll Fluorescence Measurements in *Arabidopsis* Plants Using a Pulse-amplitude-modulated (PAM) Fluorometer
+              - 学部生なんかへのMINI-PAMの使い方の説明によさそう
+              - ただ、abstractの1文目からの`Fv=Fm ± Fo`はいかん...
+              - bio-protocolは論文でいいのか...?
