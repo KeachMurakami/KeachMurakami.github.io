@@ -406,5 +406,17 @@ Integration
           49. [Motohashi & Myouga 2015; bio-protocol](http://www.bio-protocol.org/e1464); 20170227済
               - Chlorophyll Fluorescence Measurements in *Arabidopsis* Plants Using a Pulse-amplitude-modulated (PAM) Fluorometer
               - 学部生なんかへのMINI-PAMの使い方の説明によさそう
-              - ただ、abstractの1文目からの`Fv=Fm ± Fo`はいかん...
+              - ただ、abstractの1文目からの`Fv = Fm ± Fo`はいかん...
               - bio-protocolは論文でいいのか...?
+      
+      - 28
+          
+          50. [Granier & Vile 2014; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526614000259); 20170228済
+              - Phenotyping and beyond: modelling the relationships between traits
+              - phenotyping系のレビューが乱立しているような
+          
+          51. [Bos et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300403); 低
+              - Multiple LHCII antennae can transfer energy efficiently to a single Photosystem I
+              - Croce, Wientjesグループ
+              - 複数のLCHIIが単一PSIへEET
+              - このグループのは、ちょっともう厳しい (物理すぎて)

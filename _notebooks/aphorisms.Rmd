@@ -44,5 +44,8 @@ layout: default
 
 でも、阻害剤は必要。藻類だと、部分的に使う、が可能だけど葉だとそれができないので、そこら辺に問題がある。
 
-> A slow decay of Chl a  uorescence may be caused by the following events taking place within the chloroplast: (a) photochemical quenching, (b) non-photochemical quench- ing, (c) re-distribution of light energy between PSII and PSI, and (d) reversible/irreversible inactivation of PSII.
+> A slow decay of Chl a fluorescence may be caused by the following events taking place within the chloroplast: (a) photochemical quenching, (b) non-photochemical quenching, (c) re-distribution of light energy between PSII and PSI, and (d) reversible/irreversible inactivation of PSII.
 > (Mishanin et al. 2017; Photosynth Res, p.)
+
+> a cyclic electron transfer (CET) around PSI in stroma thylakoids, and other regulation mechanisms, have evolved to optimize and/or protect the photosynthetic apparatus under varying environmental conditions.
+> (Kanervo et al. 2005; Photochem Photobiol Sci, p. 1072)
