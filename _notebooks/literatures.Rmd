@@ -339,84 +339,109 @@ Integration
                     - “who examined how leaf anatomy in uenced chloroplast movements in 24 plant species, reported that chloroplast movement-dependent changes in leaf absorptance were greatest in shade species, in which absorptance changes of >10% were observed between HL and LL treatment”
                 - あまり引用されていないので知らなかったが、良さそう
                 
-      - 15
-      
-          42. [Kawase et al. 2016; Climatic Change](http://link.springer.com/article/10.1007%2Fs10584-016-1781-3); 低
-              - Enhancement of heavy daily snowfall in central Japan due to global warming as projected by large ensemble of regional climate simulations
-              - 気候シナリオシンポ@つくば (2017/02/14) の発表者の論文
-              - 門外漢だけどとても話が面白かったので
-              - 温暖化 (海温上昇) により気象現象の極端化が進むと、日本海側の山間部で豪雪が生じる危険性がある
-          
-      - 16
-          - 査読対応のため、T先生 (1985) の論文のフォロワー掘り
-      
-          43. [Vogelmann et al. 1989; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/323/1216/411); 20170216済
-              - Photosynthetic Light Gradients and Spectral Regime within Leaves of Medicago sativa
-              - 細胞の集光レンズ効果の話
-          
-          44. [Pantaleoni et al. 2009; Planta](http://link.springer.com/article/10.1007/s00425-009-1004-5); 20170216済
-              - Photosystem II organisation in chloroplasts of *Arum italicum* leaf depends on tissue location
-              - Aroのグループ
-              - 光合成系の組成を、柵状・海綿状組織に加え、葉柄柔組織 (parenchyma w/ chl)、葉柄通気組織 (aerenchyma w/o chl) で解析するやや博物学的要素が強い論文
-              - State transitionとphotosystem stoichiometry以外で光分配が制御されていることを示してある
-                  - 2016で引用すべきだった
-                  - こっちを主題で書けばいいのに、と勝手に思う
-              - この植物は部位ごとに分けるのに便利な様子
-                  - “*Arum italicum* Miller (Araceae) leaf ... allows analysing separately four different photosynthetic tissues: the palisade and the spongy tissues, which form the lamina mesophyll, and the outer chlorenchyma and the inner aerenchyma, which form the petiole parenchyma”
-              - 単子葉類は、PSII超複合体が不安定で、LHCII-trimerを過大評価しがち
-                  - “in monocots the presence of less stable PSII supercomplexes could reduce the sensitivity of BN-PAGE analysis and lead to overestimation of the amount of LHCII trimers and misleading results (Ciambella et al. 2005)”
-              - Palisade vs spongy の解析で、spongyの77K蛍光のPSI側が増えている
-                  - free LHCII trimerが増えて熱放散、という解釈
-                      - 2D-PAGEとも整合的
-                      - preparation/77K計測までの条件で変わりそう (非NPQ形成状態でやったらstoichiometry影響が見えそう)
-                  - 明快、という感じではないが、リーズナブル
-                  
-          45. [Kanervo et al. 2005; Photochem Photobiol Sci ](http://pubs.rsc.org/en/content/articlelanding/2005/pp/b507866k/unauth#!divAbstract); <FONT color="green">低</FONT>
-              - Functional flexibility and acclimation of the thylakoid membrane
-              - Aroグループ (Pantaleoniから)
-              - 知らない雑誌だ
-                  - 植物率低そうだけど、一応 feed を取る
-                  
-      - 17
-      
-          46. [Chow et al. 1987; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.1987.tb06131.x/full); 20170217済
-              - The composition and function of thylakoid membranes from pea plants grown under white or green light with or without far-red light
-              - “the amounts of light-harvesting and electron transport components may be regulated by photosynthesis itself”
-              - FR照射は、励起バランスが崩すのはかなり堅いはなし
-              - しかし、FR照射で光合成系の組成が大きく変化する話は (知っている限り) ない
-              - 自分のデータ (2016, Physiol Plant) もそうだし
-              - 結局、やっぱりよくわからない部分があるなぁ
-              
-      - 20
-      
-          47. [Smirnakou et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2017.00188/full); 低
-              - Continuous Spectrum LEDs Promote Seedling Quality Traits and Performance of *Quercus ithaburensis* var. *macrolepis*
-              - タルボガシなる木の苗について
-              - 調べるのが面倒だからスペクトル出してほしい...
-              - 根の外観の話をするなら写真を...なんで紙媒体じゃないのにスペースをケチるのか
-              
-      - 22
-      
-          48. [Vavasseur & Raghavendra 2005; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.2004.01276.x/full); <FONT color="green">低</FONT>
-              - Guard cell metabolism and CO~2~ sensing
-              - 第二著者の本 (Photosynthesis) を裁断するにあたり、なんとなく調べた
-      
-      - 27
-      
-          49. [Motohashi & Myouga 2015; bio-protocol](http://www.bio-protocol.org/e1464); 20170227済
-              - Chlorophyll Fluorescence Measurements in *Arabidopsis* Plants Using a Pulse-amplitude-modulated (PAM) Fluorometer
-              - 学部生なんかへのMINI-PAMの使い方の説明によさそう
-              - ただ、abstractの1文目からの`Fv = Fm ± Fo`はいかん...
-              - bio-protocolは論文でいいのか...?
-      
-      - 28
-          
-          50. [Granier & Vile 2014; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526614000259); 20170228済
-              - Phenotyping and beyond: modelling the relationships between traits
-              - phenotyping系のレビューが乱立しているような
-          
-          51. [Bos et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300403); 低
-              - Multiple LHCII antennae can transfer energy efficiently to a single Photosystem I
-              - Croce, Wientjesグループ
-              - 複数のLCHIIが単一PSIへEET
-              - このグループのは、ちょっともう厳しい (物理すぎて)
+        - 15
+        
+            42. [Kawase et al. 2016; Climatic Change](http://link.springer.com/article/10.1007%2Fs10584-016-1781-3); 低
+                - Enhancement of heavy daily snowfall in central Japan due to global warming as projected by large ensemble of regional climate simulations
+                - 気候シナリオシンポ@つくば (2017/02/14) の発表者の論文
+                - 門外漢だけどとても話が面白かったので
+                - 温暖化 (海温上昇) により気象現象の極端化が進むと、日本海側の山間部で豪雪が生じる危険性がある
+            
+        - 16
+            - 査読対応のため、T先生 (1985) の論文のフォロワー掘り
+        
+            43. [Vogelmann et al. 1989; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/323/1216/411); 20170216済
+                - Photosynthetic Light Gradients and Spectral Regime within Leaves of Medicago sativa
+                - 細胞の集光レンズ効果の話
+            
+            44. [Pantaleoni et al. 2009; Planta](http://link.springer.com/article/10.1007/s00425-009-1004-5); 20170216済
+                - Photosystem II organisation in chloroplasts of *Arum italicum* leaf depends on tissue location
+                - Aroのグループ
+                - 光合成系の組成を、柵状・海綿状組織に加え、葉柄柔組織 (parenchyma w/ chl)、葉柄通気組織 (aerenchyma w/o chl) で解析するやや博物学的要素が強い論文
+                - State transitionとphotosystem stoichiometry以外で光分配が制御されていることを示してある
+                    - 2016で引用すべきだった
+                    - こっちを主題で書けばいいのに、と勝手に思う
+                - この植物は部位ごとに分けるのに便利な様子
+                    - “*Arum italicum* Miller (Araceae) leaf ... allows analysing separately four different photosynthetic tissues: the palisade and the spongy tissues, which form the lamina mesophyll, and the outer chlorenchyma and the inner aerenchyma, which form the petiole parenchyma”
+                - 単子葉類は、PSII超複合体が不安定で、LHCII-trimerを過大評価しがち
+                    - “in monocots the presence of less stable PSII supercomplexes could reduce the sensitivity of BN-PAGE analysis and lead to overestimation of the amount of LHCII trimers and misleading results (Ciambella et al. 2005)”
+                - Palisade vs spongy の解析で、spongyの77K蛍光のPSI側が増えている
+                    - free LHCII trimerが増えて熱放散、という解釈
+                        - 2D-PAGEとも整合的
+                        - preparation/77K計測までの条件で変わりそう (非NPQ形成状態でやったらstoichiometry影響が見えそう)
+                    - 明快、という感じではないが、リーズナブル
+                    
+            45. [Kanervo et al. 2005; Photochem Photobiol Sci ](http://pubs.rsc.org/en/content/articlelanding/2005/pp/b507866k/unauth#!divAbstract); <FONT color="green">低</FONT>
+                - Functional flexibility and acclimation of the thylakoid membrane
+                - Aroグループ (Pantaleoniから)
+                - 知らない雑誌だ
+                    - 植物率低そうだけど、一応 feed を取る
+                    
+        - 17
+        
+            46. [Chow et al. 1987; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.1987.tb06131.x/full); 20170217済
+                - The composition and function of thylakoid membranes from pea plants grown under white or green light with or without far-red light
+                - “the amounts of light-harvesting and electron transport components may be regulated by photosynthesis itself”
+                - FR照射は、励起バランスが崩すのはかなり堅いはなし
+                - しかし、FR照射で光合成系の組成が大きく変化する話は (知っている限り) ない
+                - 自分のデータ (2016, Physiol Plant) もそうだし
+                - 結局、やっぱりよくわからない部分があるなぁ
+                
+        - 20
+        
+            47. [Smirnakou et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2017.00188/full); 低
+                - Continuous Spectrum LEDs Promote Seedling Quality Traits and Performance of *Quercus ithaburensis* var. *macrolepis*
+                - タルボガシなる木の苗について
+                - 調べるのが面倒だからスペクトル出してほしい...
+                - 根の外観の話をするなら写真を...なんで紙媒体じゃないのにスペースをケチるのか
+                
+        - 22
+        
+            48. [Vavasseur & Raghavendra 2005; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.2004.01276.x/full); <FONT color="green">低</FONT>
+                - Guard cell metabolism and CO~2~ sensing
+                - 第二著者の本 (Photosynthesis) を裁断するにあたり、なんとなく調べた
+        
+        - 27
+        
+            49. [Motohashi & Myouga 2015; bio-protocol](http://www.bio-protocol.org/e1464); 20170227済
+                - Chlorophyll Fluorescence Measurements in *Arabidopsis* Plants Using a Pulse-amplitude-modulated (PAM) Fluorometer
+                - 学部生なんかへのMINI-PAMの使い方の説明によさそう
+                - ただ、abstractの1文目からの`Fv = Fm ± Fo`はいかん...
+                - bio-protocolは論文でいいのか...?
+        
+        - 28
+            
+            50. [Granier & Vile 2014; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526614000259); 20170228済
+                - Phenotyping and beyond: modelling the relationships between traits
+                - phenotyping系のレビューが乱立しているような
+            
+            51. [Bos et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300403); 低
+                - Multiple LHCII antennae can transfer energy efficiently to a single Photosystem I
+                - Croce, Wientjesグループ
+                - 複数のLCHIIが単一PSIへEET
+                - このグループのは、ちょっともう厳しい (物理すぎて)
+            
+    - 3
+    
+        - 01
+        
+            52. [Kalaji et al. 2016; Photosynthe Res](https://link.springer.com/article/10.1007%2Fs11120-016-0318-y); <FONT color="green">低</FONT>
+                - Frequently asked questions about chlorophyll fluorescence, the sequel
+                - `Kalaji et al. 2014`の続編
+                
+            53. [Singh et al. 2017; Plant Cell Tiss Organ Cult](https://link.springer.com/article/10.1007/s11240-017-1170-2); 低
+                - High light intensity stress as the limiting factor in micropropagation of sugar maple (*Acer saccharum* Marsh.)
+                - PFD 3水準 x 光質 2水準で育てて2DのイメージングPAM
+                - メープルは陰性植物らしい
+                - “40 µmol 程度の光でも強光ストレスがあり、最適とは言えない”という結論だが、ストレスの根拠はred pigmentationであり、ダイレクトではない
+                - 平行したクロロフィルの減少が、バイオマス (FW・DW) 減少につながっていないし、あまり納得できない
+                - 結論ありきの研究という印象
+            
+            54. [Baerr et al. 2005; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.2005.00506.x/abstract); 低
+                - Differential photosynthetic compensatory mechanisms exist in the *immutans* mutant of *Arabidopsis thaliana*
+                - `Kanervo et al. 2005`から
+                    - “the IM-knock-out mutants were recently shown to be more susceptible to photoinhibition than the wild type Arabidopsis plants”
+                    
+            55. [van Langevelde et al. 2017; Biol Lett](http://rsbl.royalsocietypublishing.org/content/13/3/20160874?rss=1); 低
+                - Artificial night lighting inhibits feeding in moths
+                - 蛾への光害
