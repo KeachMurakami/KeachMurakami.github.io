@@ -4,7 +4,7 @@ output: html_document
 
 ダウンロードしたことすら忘れるので、ダウンロードした (眠っていた) 論文とそのひとことメモ
 
-- `低中高`は優先度
+- `低中高`は優先度、`引`は引用に使いそうなもの
 - `未刊`はin press
 - `有償`はアクセス権がなくて有償なもの、おもに書籍
 - <FONT color="green">緑文字</FONT>: Review article
@@ -445,3 +445,22 @@ Integration
             55. [van Langevelde et al. 2017; Biol Lett](http://rsbl.royalsocietypublishing.org/content/13/3/20160874?rss=1); 低
                 - Artificial night lighting inhibits feeding in moths
                 - 蛾への光害
+                
+        - 02
+            
+            56. [McMillan et al. 1970; Genetics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1212449/); 低
+                - Quantitative Genetics of Fertility I. Lifetime Egg Production of *DROSOPHILA MELANOGASTER*---THEORETICAL
+                - 上がって下がる三角形の経時パターンのモデル化
+                - ショウジョウバエの産卵数
+                
+            57. [古在 2017; 植物環境工学](https://www.jstage.jst.go.jp/article/shita/29/1/29_3/_article/-char/ja/); <FONT color="green">引</FONT>
+                - 植物工場研究に関する用語と単位
+                - PPF vs PPFD論争は果たして...
+                    - “米国園芸学会では、PPFDをPPFと表記するように求めているようだが、いずれ修正されるであろう (p. 6)”
+            
+            58. [Suga et al. 2017; Nature](http://www.nature.com/nature/journal/v543/n7643/full/nature21400.html); 低
+                - Light-induced structural changes and the site of O=O bond formation in PSII caught by XFEL
+                - 沈グループ (岡山)
+                - 構造解析とかそこら辺は全然わからん
+                - が、とりあえず落とす
+            
