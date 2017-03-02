@@ -464,3 +464,8 @@ Integration
                 - 構造解析とかそこら辺は全然わからん
                 - が、とりあえず落とす
             
+            59. [Fukao 2017; Proc R Soc B](http://rspb.royalsocietypublishing.org/content/284/1850/20162650); 低
+                - Vine tendrils use contact chemoreception to avoid conspecific leaves
+                - 田無の農場の先生
+                - この時代に単著とはすごい...
+                
