@@ -1,9 +1,44 @@
+``` r
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/Startup_silent.R")
+
+stem_dat <-
+  fread("~/Dropbox/KeachMurakami.github.io/_supplemental/protocols/cucumber/stem_height_log.csv") %>%
+  mutate(Date_measured = ymd(Date_measured), Date_sowing = ymd(Date_sowing),
+         days = Date_measured - Date_sowing) %>%
+  filter(Remark %in% c("W", "WFR", ""), !(Experiment %in% c("1607", "1608", "x1"))) %>%
+  select(days, Experiment, PlantNo, Remark, stem_mean = Stem_length)
+
+selection_plot <-
+  stem_dat %>%
+  filter(days == "8") %>%
+  mutate(Remark = if_else(Remark %in% c("", " "), "not used", Remark)) %>%
+  ggplot(aes(x = stem_mean, fill = Remark)) +
+  geom_histogram() +
+  facet_grid(Remark ~ .) +
+  labs(x = "stem height [cm]")
+
+stem_plot <-
+  stem_dat %>%
+  filter(!(Remark %in% c("", " "))) %>%
+  group_by(Experiment, Remark, days) %>%
+  summarise(stem_sd = sd(stem_mean, na.rm = T), stem_mean = mean(stem_mean, na.rm = T)) %>%
+  ggplot(aes(x = days, y = stem_mean, col = Experiment, group = Experiment)) +
+  geom_point() +
+  geom_point(data = stem_dat %>% filter(Remark != ""), alpha = .25) +
+  geom_line() +
+  facet_grid(~ Remark) +
+  gg_y(c(0, 12)) +
+  labs(x = "days from sowing [d]", y = "stem height [cm]")
+```
+
 キュウリの栽培プロトコル
 ========================
 
 第一本葉で光合成速度を測定できる程度の大きさのキュウリ苗をつくるためのプロトコルです
+不明な点は問い合わせてください
 
 -   供試品種: [北進 (タキイ種苗)](http://www.takii.co.jp/CGI/tsk/shohin/shohin.cgi?breed_seq=00000108)
+-   必要な育苗日数: 14日
 
 播種から処理開始まで (day 00--08)
 ---------------------------------
@@ -31,7 +66,7 @@
 移植/処理開始
 -------------
 
-1.  地上部の高さ・第一本葉の長さ・外観 (奇形の本葉がないか)、を評価する
+1.  地上部の高さ・第一本葉の長さ・外観 (奇形葉がないか)、を評価する
 2.  試験区間で上記の評価項目にばらつきが生じないよう、適切に区分けする
 
 -   経験上、地上部の高さは2.0 cm 前後のものがよい
@@ -39,33 +74,13 @@
 
 ![day08の外観](photo_day08_1.png)
 
-地上部の高さの推移
+選抜時の地上部の高さの分布
 
 ``` r
-devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/Startup_silent.R")
-
-stem_dat <-
-  fread("~/Dropbox/KeachMurakami.github.io/_supplemental/protocols/cucumber/stem_height_log.csv") %>%
-  mutate(Date_measured = ymd(Date_measured), Date_sowing = ymd(Date_sowing),
-         days = Date_measured - Date_sowing) %>%
-  filter(Remark %in% c("W", "WFR"), !(Experiment %in% c("1607", "1608", "x1"))) %>%
-  select(days, Experiment, PlantNo, Remark, stem_mean = Stem_length)
-
-stem_plot <-
-  stem_dat %>%
-  group_by(Experiment, Remark, days) %>%
-  summarise(stem_sd = sd(stem_mean, na.rm = T), stem_mean = mean(stem_mean, na.rm = T)) %>%
-  ggplot(aes(x = days, y = stem_mean, col = Experiment, group = Experiment)) +
-  geom_point() +
-  geom_point(data = stem_dat, alpha = .25) +
-  geom_line() +
-  facet_grid(~ Remark) +
-  gg_y(c(0, 12))
-
-stem_plot
+selection_plot
 ```
 
-![](cucumber_protocol_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![](cucumber_protocol_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 処理開始から測定まで (day 08--14/15/16)
 ---------------------------------------
@@ -75,6 +90,14 @@ stem_plot
     -   毎日の世話が面倒ならば、湛液でもよいかもしれない
 -   1日1回、セルトレイを回転させ、個体の光環境が均一になるよう心がける
 -   2日に1回程度、地上部の高さを測定して成長記録をとっておく
+
+処理開始後の地上部の高さの推移
+
+``` r
+stem_plot
+```
+
+![](cucumber_protocol_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
 測定 (day 14/15/16)
 -------------------
@@ -91,3 +114,8 @@ References
 -   [Murakami et al. (2016, *Physiologia Plantarum*)](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12421/abstract)
 -   [タキイ種苗株式会社, 品種カタログ](http://www.takii.co.jp/CGI/tsk/shohin/shohin.cgi?breed_seq=00000108)
 -   [日東紡 グロダンロックウール ONLINE](http://www.nittobo.co.jp/business/environment-health/green/grodan/syouhin.html)
+
+Disclaimer
+==========
+
+プロトコルの利用により生じたいかなる問題に対しても、著者は責任を持ちません
