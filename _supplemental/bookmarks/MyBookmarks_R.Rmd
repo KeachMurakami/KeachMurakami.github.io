@@ -13,6 +13,7 @@ output:
 
 ## グループ
 - [meetingsR](https://github.com/jumpingrivers/meetingsR)  
+- [rOpenSci](https://ropensci.org/)
 
 ### JapanRs
 - [Japan.R](http://lab.sakaue.info/wiki.cgi/JapanR2010?page=%CA%D9%B6%AF%B2%F1%C8%AF%C9%BD%C6%E2%CD%C6%B0%EC%CD%F7) 更新死んでる  
@@ -106,6 +107,7 @@ output:
 - []()
 
 
+====
 
 ## データ解析
 
@@ -255,6 +257,24 @@ aes(col)に複数のスケールをマッピングする
     - [Leaflet for R](https://rstudio.github.io/leaflet/)
     - [地理データをRで可視化：コロプレス図](https://book.mynavi.jp/manatee/detail/id=59406)
     - [leafletではじめるRによる地図プロット](https://rpubs.com/kazutan/leaflet_slide)
+
+==== 
+
+## 機械学習
+
+### [mlr](https://github.com/mlr-org/mlr)
+Machine Learning in R
+
+`makeLearner()`で分類器の種類切り替えなど  
+UIがよさそう
+`caret`との２大巨頭？
+
+- [mlrチュートリアルの写経（その1）](https://rpubs.com/nakamichi_/mlr_shakyo1)
+- [mlrパッケージによる予測モデルの構築・評価](http://d.hatena.ne.jp/sfchaos/20141206/p1)
+
+### [caret]()
+
+- [Rによる機械学習：caretパッケージの使い方](http://logics-of-blue.com/r%E3%81%AB%E3%82%88%E3%82%8B%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%EF%BC%9Acaret%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/)
 
 
 # Bioinfomatics系

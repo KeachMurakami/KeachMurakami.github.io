@@ -15,12 +15,20 @@ tags: memo
 たぶん手を出すことになるんだろうと思う
 
 ## Enviroment
-- [最強のPython開発環境 PyCharmのすゝめ](http://qiita.com/pashango2/items/de342abc10722ed7a569)
+
+- PyCharm
+    - [最強のPython開発環境 PyCharmのすゝめ](http://qiita.com/pashango2/items/de342abc10722ed7a569)
+- jupyter
+    - []()
+- Rodeo
+    - []()
 
 ## Packages
 
 - NumPy
 - Pandas
+    - 概ねdplyr/tidyrらしい
+    - [Python pandas 関連エントリの目次](http://sinhrks.hatenablog.com/entry/2015/04/28/235430)
 - matplotlib
 - seaborn
 

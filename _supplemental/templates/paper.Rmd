@@ -1,0 +1,146 @@
+---
+csl: PCE.csl
+bibliography: ~/GitHub/BeeLabR/BibTex/Full.bib
+header-includes:
+  - \usepackage{zxjatype} # 日本語を使う
+  - \setjamainfont{Hiragino Mincho Pro} # 日本語フォント
+  - \setmainfont{Times} 
+  - \usepackage{fouriernc} # 立体のギリシア文字など
+  - \usepackage{lscape} # 図を回転する
+  - \usepackage{setspace} # 行間の調節
+  - \setstretch{2.5}
+  - \setlength\parskip{0pt} #段落間間隔
+  - \usepackage{lineno} # 行番号を追加するためのパッケージ
+  - \usepackage{color, caption} # フォントカラー
+  # - \pagestyle{empty}
+output:
+  pdf_document:
+    latex_engine: xelatex
+    fig_caption: TRUE
+    number_sections: FALSE
+---
+
+
+```{r setup, echo = F, message = F, warning = F}
+# 念のため、全オブジェクトを除去
+rm(list = ls())
+
+main_path <- "~/XXX/main.rmd"
+sup_path <- "~/XXX/supplemental.rmd"
+
+eval_fig <- T
+
+TITLE <- "my title"
+RUNING_TITLE <- "short title"
+AUTHOR <- "Keach Murakami^1^"
+AFFILIATIONS <- "^1^Graduate School of Agricultural and Life Sciences, The University of Tokyo"
+ADDRESS <- "^1^Yayoi, Bunkyo, Tokyo, 113--8657, Japan"
+MAIL <- "keach.murakami@gmail.com"
+
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/TeX_accessory.R")
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/ggplot_accessory.R")
+devtools::source_url("https://raw.githubusercontent.com/KeachMurakami/Sources/master/Startup_silent.R")
+
+
+fig_prefix <- c("Fig.", "Fig.")
+fig_ref <-
+  function(fig_label, prefix = T){
+    fig_num <- length(fig_label)
+    if(!prefix) fig_prefix <- c("", "")
+    
+    if(fig_num == 1){
+      paste0(fig_prefix[1], " \\ref{fig:", fig_label, "}")
+    } else {
+      paste0(" \\ref{fig:", fig_label, "}") %>%
+      str_c(., collapse = ",") %>%
+      paste0(fig_prefix[2], .)
+    }
+  }
+
+table_prefix <- c("Table", "Table")
+table_ref <-
+  function(table_label, prefix = T){
+    table_num <- length(fig_label)
+    if(!prefix) fig_prefix <- c("", "")
+    
+    if(table_num == 1){
+      paste0(table_prefix[1], " \\ref{table:", table_label, "}")
+    } else {
+      paste0(" \\ref{table:", table_label, "}") %>%
+      str_c(., collapse = ",") %>%
+      paste0(table_prefix[2], .)
+    }
+  }
+
+knitr::opts_chunk$set(echo = FALSE, fig.width = 5, fig.height = 5, dpi = 400,
+                      message = FALSE, warning = FALSE, cache = F, eval = T)
+
+
+Eqn_Eq <- c("Eqn", "Eqns")
+```
+
+
+- Title:
+    - `r TITLE`
+- Running title:
+    - `r RUNING_TITLE`
+- Authors:
+    - `r AUTHOR`
+- Affiliation:
+    - `r AFFILIATION`
+- Address:
+    - `r ADDRESS`
+- E-mail:
+    - `r MAIL`
+
+\newpage
+
+\linenumbers
+
+**Abstract**
+
+------
+
+**Keywords**
+
+------
+
+**Abbreviations**
+
+
+\newpage
+
+\captionsetup[figure]{labelsep=period, name=Fig.}
+\captionsetup[table]{labelsep=none, name=Table}
+
+
+```{r child = main_path}
+```
+
+\newpage
+\noindent  
+**Author contributions**  
+
+
+\noindent  
+**Acknowledgements**  
+This work was supported by JSPS KAKENHI Grant Number 26·9372 to KM.
+
+
+
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+
+```{r child = sup_path}
+```
+
+
+\newpage  
+\noindent  
+
+\listoffigures
+\listoftables
+
+**References**  
