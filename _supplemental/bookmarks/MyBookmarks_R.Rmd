@@ -215,6 +215,19 @@ aes(col)に複数のスケールをマッピングする
 
 
 
+### 作表
+
+- [kableExtra](https://github.com/haozhu233/kableExtra)
+
+
+
+### モデリング
+
+- [ベイズ構造時系列モデルを推定する{bsts}パッケージを試してみた](http://tjo.hatenablog.com/entry/2017/03/07/190000)
+- [Prophet: Automatic Forecasting Procedure](https://github.com/facebookincubator/prophet)
+
+
+
 ### 文芸的プログラミング
 
 #### knitr

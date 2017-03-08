@@ -1,10 +1,14 @@
 ---
-output: html_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ダウンロードしたことすら忘れるので、ダウンロードした (眠っていた) 論文とそのひとことメモ
 
-- `低中高`は優先度、`引`は引用に使いそうなもの
+- `低/中/高`は優先度
+- `無`は現時点で(自分にとって)読む必要がないもの
+- `引`は引用に使いそうなもの
 - `未刊`はin press
 - `有償`はアクセス権がなくて有償なもの、おもに書籍
 - <FONT color="green">緑文字</FONT>: Review article
@@ -37,7 +41,7 @@ num_paper <-
         
         - 19
         
-            1. [Gimenez-Ibanez et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14354/abstract); 中
+            1. [Gimenez-Ibanez et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14354/abstract); 無
                 - JAZ2 controls stomata dynamics during bacterial invasion
                 - バクテリアの感染と気孔開度の調節の仕組みに関して
                 - 感染で一度閉じた気孔を、Coronatineというphytotoxinにより再度開かせる
@@ -56,7 +60,7 @@ Integration
                 - The shade avoidance syndrome: Multiple signals and ecological consequences
                 - “syndrome”ってつけるとキャッチーだ
             
-            4. [Uematsu et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14416/abstract); <FONT color="grey">低</FONT>
+            4. [Uematsu et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14416/abstract); <FONT color="grey">無</FONT>
                 - Foliar uptake of radiocaesium from irrigation water by paddy rice (*Oryza sativa*): an overlooked pathway in contaminated environments
                 - いつか出してやると思っている*New Phytologist*に、研究科の元先輩がacceptされていたので記念に
                 - 水田イネへの放射性セシウムの吸い上げについて
@@ -110,7 +114,7 @@ Integration
                         - 癌研究だとか、生体の実験でRCTだときついだろう
                 - 探索的な研究だと仕方ない側面もあるよね、と思いつつ、着々と脱検定を進めている
             
-            11. [Shirai et al. 2017; J Food Eng](http://www.sciencedirect.com/science/article/pii/S0260877416303739); <FONT color="grey">低</FONT>
+            11. [Shirai et al. 2017; J Food Eng](http://www.sciencedirect.com/science/article/pii/S0260877416303739); <FONT color="grey">無</FONT>
                 - Penetration of aerobic bacteria into meat: A mechanistic understanding
                 - 食肉の表面から内部へのバクテリアの侵入のモデル化
                 - 博士の公開審査で聞いたので
@@ -119,7 +123,7 @@ Integration
         
         - 26
         
-            12. [Izumi et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/01/25/tpc.16.00637.short?rss=1); 低・未刊
+            12. [Izumi et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/01/25/tpc.16.00637.short?rss=1); 無・未刊
                 - Entire Photodamaged Chloroplasts Are Transported to the Central Vacuole by Autophagy
                 - chlorophagyなるフレーズ
                 - photodamageを受けた葉緑体が液胞中心に移動する
@@ -187,6 +191,7 @@ Integration
                     - 生態学の`Hurlbert (1984)`は、“揃える”によりシビア
                     - 「条件」を受ける時間が長いと、微差を気にする必要があるから
                     - その基準は主観
+                    
             22. [Gerszberg & Hnatuszko-Konka 2017; Plant Growth Regul](http://link.springer.com/article/10.1007/s10725-017-0251-x); <FONT color="green">低</FONT>
                 - Tomato tolerance to abiotic stress: a review of most often engineered target sequences
                 - 非生物耐性のレビュー
@@ -213,7 +218,7 @@ Integration
                     - *pgr5*欠損は、とくに強光下でpmf (ECS解析) を低下させる
                     - やや強引な引用なのではないか...?
             
-            25. [Williamson 2007; Nutrition Bulletin](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-3010.2007.00628.x/abstract); <FONT color="green">低</FONT>
+            25. [Williamson 2007; Nutrition Bulletin](http://onlinelibrary.wiley.com/doi/10.1111/j.1467-3010.2007.00628.x/abstract); <FONT color="green">無</FONT>
                 - Is organic food better for our health?
                 - まっとうな研究としてまっとうな研究者の本で引用されていたので、気になって
                 - ニュートラル・客観的な論調
@@ -247,7 +252,7 @@ Integration
         
         - 04
             
-            30. [Zhang et al. 2017; Comput Electron Agric ](http://www.sciencedirect.com/science/article/pii/S0168169917300820); 低
+            30. [Zhang et al. 2017; Comput Electron Agric ](http://www.sciencedirect.com/science/article/pii/S0168169917300820); 無
                 - Leaf image based cucumber disease recognition using sparse representation classification
                 - Sparse modelかと思ったら違った
                 - 可視障害の病斑箇所をK-meansでクラスタ分析して、そのパターンからSparse representationで障害の種類を診断
@@ -274,7 +279,7 @@ Integration
                 - リモートセンシング系雑誌をまったくカバーしていなかったので、feedを集め始めた
                 - 簡単には読めないが、
                 
-            34. [Bailleul et al. 2010; Photosyn Res](http://link.springer.com/article/10.1007/s11120-010-9579-z); <FONT color="green">20170206済 (再)</FONT>
+            34. [Bailleul et al. 2010; Photosynth Res](http://link.springer.com/article/10.1007/s11120-010-9579-z); <FONT color="green">20170206済 (再)</FONT>
                 - Electrochromism: a useful probe to study algal photosynthesis
                 - ECS解析のレビュー (ECSの知識はほぼこれのみ)
         - 07
@@ -341,7 +346,7 @@ Integration
                 
         - 15
         
-            42. [Kawase et al. 2016; Climatic Change](http://link.springer.com/article/10.1007%2Fs10584-016-1781-3); 低
+            42. [Kawase et al. 2016; Climatic Change](http://link.springer.com/article/10.1007%2Fs10584-016-1781-3); 無
                 - Enhancement of heavy daily snowfall in central Japan due to global warming as projected by large ensemble of regional climate simulations
                 - 気候シナリオシンポ@つくば (2017/02/14) の発表者の論文
                 - 門外漢だけどとても話が面白かったので
@@ -379,7 +384,7 @@ Integration
                     
         - 17
         
-            46. [Chow et al. 1987; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.1987.tb06131.x/full); 20170217済
+            46. [Chow et al. 1987; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.1987.tb06131.x/full); 20170217済・引
                 - The composition and function of thylakoid membranes from pea plants grown under white or green light with or without far-red light
                 - “the amounts of light-harvesting and electron transport components may be regulated by photosynthesis itself”
                 - FR照射は、励起バランスが崩すのはかなり堅いはなし
@@ -415,7 +420,7 @@ Integration
                 - Phenotyping and beyond: modelling the relationships between traits
                 - phenotyping系のレビューが乱立しているような
             
-            51. [Bos et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300403); 低
+            51. [Bos et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300403); 無
                 - Multiple LHCII antennae can transfer energy efficiently to a single Photosystem I
                 - Croce, Wientjesグループ
                 - 複数のLCHIIが単一PSIへEET
@@ -425,7 +430,7 @@ Integration
     
         - 01
         
-            52. [Kalaji et al. 2016; Photosynthe Res](https://link.springer.com/article/10.1007%2Fs11120-016-0318-y); <FONT color="green">低</FONT>
+            52. [Kalaji et al. 2016; Photosynthe Res](https://link.springer.com/article/10.1007%2Fs11120-016-0318-y); <FONT color="green">低・引</FONT>
                 - Frequently asked questions about chlorophyll fluorescence, the sequel
                 - `Kalaji et al. 2014`の続編
                 
@@ -437,35 +442,129 @@ Integration
                 - 平行したクロロフィルの減少が、バイオマス (FW・DW) 減少につながっていないし、あまり納得できない
                 - 結論ありきの研究という印象
             
-            54. [Baerr et al. 2005; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.2005.00506.x/abstract); 低
+            54. [Baerr et al. 2005; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.2005.00506.x/abstract); 20170307済・引
                 - Differential photosynthetic compensatory mechanisms exist in the *immutans* mutant of *Arabidopsis thaliana*
                 - `Kanervo et al. 2005`から
                     - “the IM-knock-out mutants were recently shown to be more susceptible to photoinhibition than the wild type Arabidopsis plants”
+                - この論文の意図には反しており、あまりよい引用ではない
+                    - どちらかというと、「*im*、思ったより光阻害でない。でも斑入り程度によって阻害程度が異なるのは面白い。」
+                    - “We found, on both a whole plant and individual leaf basis, that there were minimal differences in susceptibility to photoinhibition between im and the wild-type, as determined by the Fv/Fm ratios (Fig. 4). However, the general trend pointed towards an increased susceptibility in im, with the green sectors of the imw leaves being somewhat more susceptible than the img leaves (Fig. 4)”
+                - 斑なし部 (green部) が斑入り部 (im部) の成長を補填している、という考え方
                     
-            55. [van Langevelde et al. 2017; Biol Lett](http://rsbl.royalsocietypublishing.org/content/13/3/20160874?rss=1); 低
+            55. [van Langevelde et al. 2017; Biol Lett](http://rsbl.royalsocietypublishing.org/content/13/3/20160874?rss=1); 無
                 - Artificial night lighting inhibits feeding in moths
                 - 蛾への光害
                 
         - 02
             
-            56. [McMillan et al. 1970; Genetics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1212449/); 低
+            56. [McMillan et al. 1970; Genetics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1212449/); 無・引
                 - Quantitative Genetics of Fertility I. Lifetime Egg Production of *DROSOPHILA MELANOGASTER*---THEORETICAL
                 - 上がって下がる三角形の経時パターンのモデル化
                 - ショウジョウバエの産卵数
                 
-            57. [古在 2017; 植物環境工学](https://www.jstage.jst.go.jp/article/shita/29/1/29_3/_article/-char/ja/); <FONT color="green">引</FONT>
+            57. [古在 2017; 植物環境工学](https://www.jstage.jst.go.jp/article/shita/29/1/29_3/_article/-char/ja/); <FONT color="green">201703XX済・引</FONT>
                 - 植物工場研究に関する用語と単位
                 - PPF vs PPFD論争は果たして...
                     - “米国園芸学会では、PPFDをPPFと表記するように求めているようだが、いずれ修正されるであろう (p. 6)”
             
-            58. [Suga et al. 2017; Nature](http://www.nature.com/nature/journal/v543/n7643/full/nature21400.html); 低
+            58. [Suga et al. 2017; Nature](http://www.nature.com/nature/journal/v543/n7643/full/nature21400.html); 無
                 - Light-induced structural changes and the site of O=O bond formation in PSII caught by XFEL
                 - 沈グループ (岡山)
                 - 構造解析とかそこら辺は全然わからん
                 - が、とりあえず落とす
             
-            59. [Fukao 2017; Proc R Soc B](http://rspb.royalsocietypublishing.org/content/284/1850/20162650); 低
+            59. [Fukao 2017; Proc R Soc B](http://rspb.royalsocietypublishing.org/content/284/1850/20162650); 無
                 - Vine tendrils use contact chemoreception to avoid conspecific leaves
                 - 田無の農場の先生
                 - この時代に単著とはすごい...
+            
+        - 03
+        
+            60. [Dhondt et al. 2013; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138513000812); <FONT color="green">低・未刊</FONT>
+                - Cell to whole-plant phenotyping: the best is yet to come
+                - レベル (器官とか細胞とか) 別のphenotyping手法など
+                - スケール貫通で統一的にやるには？
+            
+            61. [Zhen & van Iersel, 2017; J Plant Physiol](http://www.sciencedirect.com/science/article/pii/S0176161716302826); 20170303済
+                - Far-red light is needed for efficient photochemistry and photosynthesis
+                - 所属・引用文献を見る限り、ガチ光合成の人ではなく、親近感を覚える
+                - FR添加に対して、PSIIの光化学反応は速やかに応答してEmerson様の*Y*~II~上昇が生じるが、NPQ形成には時間遅れがある
+                - FR-doseに関してはほとんどなし、これはPSIIリミットがすぐに解消されて律速の切り替わりが起こるから
+                - Pn/PPFDを出すことで、FRの影響を除いたPAR領域の利用率に言及
+                    - 藻類時代の片側enhancementのあたりで誰かやってたはず
+                    - `Inada (1978)`も高等植物でやってた
+                - 多項式回帰で*P* = .nnn を書くのはややアレではないか
+                    - 単回帰でも切片か係数か不明だからアレではあるが、誤認は難しいので許容できる
+                - `Murakami et al. (2016)`も引用していただきたかった...
+            
+            62. [van Iersel & Gianino, 2017; HortScience](http://hortsci.ashspublications.org/content/52/1/72.abstract); 無
+                - An Adaptive Control Approach for Light-emitting Diode Lights Can Reduce the Energy Costs of Supplemental Lighting in Greenhouses
+                - 閾値制御でPWM-LED補光を行うシステム
+                - このラボはうちに似ているなぁ...
+        
+        - 05
+        
+            63. [Schmidt & Gaudin 2017; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138517300249); <FONT color="green">無</FONT>
+                - Toward an Integrated Root Ideotype for Irrigated Systems
+                - 灌水系での根域の理想形
+                - 根、流行ってる
+                - 次はblue revolutionと言われるだけあり、金も人もかかっている
+        
+        - 06
+        
+            64. [Lechenet et al. 2017; Nat Plant](http://www.nature.com/articles/nplants20178); <FONT color="green">無</FONT>
+                - Reducing pesticide use while preserving crop productivity and profitability on arable farms
+                - Natureハイライトから
+                - あんまりご縁はなさそう
+        
+        - 07
+        
+            65. [Puthiyaveetil et al. 2017; Nat Plant](http://www.nature.com/articles/nplants201720); 無
+                - Surface charge dynamics in photosynthetic membranes and the structural consequences
+                - Kirchhoffグループ
+                - PSII-supercomplex内でのvan der Waalsと静電相互作用を分解
+                - abstすらついていけないレベル
                 
+            66. [Votoshkina et al. 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12560/abstract); 中・未刊
+                - Involvement of the chloroplast plastoquinone pool in the Mehler reaction
+                - はじめて見るかも、Borisova-Mubarakshinaグループ
+            
+            67. [Santabarbara et al. 2017; Phys Chem Chem Phys](http://pubs.rsc.org/en/content/articlelanding/2017/cp/c7cp00554g#!divAbstract); 低・未刊
+                - Kinetics and Heterogeneity of Energy Transfer from Light Harvesting Complex II to Photosystem I in the Supercomplex Isolated from Arabidopsis
+                
+            68. [Semchonok et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300439); 低・未刊
+                - Interaction between the photoprotective protein LHCSR3 and C~2~S~2~ Photosystem II supercomplex in *Chlamydomonas reinhardtii*
+                - LHCSR3はdimerとしてPSIへ結合する
+                - LHCSR3のPSIへの結合部位は複数ある...?
+                
+            69. [Rosso et al. 2006](http://www.plantphysiol.org/content/142/2/574.short); 20170308済・引
+                - IMMUTANS does not act as a stress-induced safety valve in the protection of the photosynthetic apparatus of Arabidopsis during steady-state photosynthesis
+                - PTOX (IM) を6-fold or 16-foldにOXしたナズナで光阻害耐性を調査
+                - 言い切り論文は引用しやすくて助かる
+                - `Ort & Baker (2002)`をサポーティング
+                - “強光✕低温で成育する高山植物にはPTOXが多く含まれ、PQを酸化よりに維持する作用により光阻害を防ぐ”という`Streb et al. (2005)`を否定する
+                    - 低温成育植物では、光合成能力が向上する場合があるので、IMには関係ないのでは？という解釈
+                - むしろ*im*でWTより酸化気味、OX系でWTより還元気味 1 - qP (or 1- qL) なデータ
+                    - “... inactivating IM has induced the expression and biosynthesis of yet another plastoqui- nol oxidase in the chloroplast, which is more effective than IM.”
+                    - もしくは、“... an up-regulation of the metabolic electron sink capacity at the acceptor side of PSI.”
+            
+        - 08
+        
+            70. [Joët et al. 2002; J Biol Chem](http://www.jbc.org/content/277/35/31623.long); 低
+                - Involvement of a Plastid Terminal Oxidase in Plastoquinone Oxidation as Evidenced by Expression of the Arabidopsis thaliana Enzyme in Tobacco
+                
+            71. [Heyno et al. 2009; J Biol Chem](http://www.jbc.org/content/284/45/31174.full); 低
+                - Plastid Alternative Oxidase (PTOX) promotes oxidative stress when overexpressed in Tobacco.
+            
+            72. [Nikolova et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/03/07/pp.17.00110.short?rss=1); 無・未刊
+                - Temperature induced remodeling of the photosynthetic machinery tunes photosynthesis in a thermophyllic alga
+                - 落とすのみ
+            
+            73. [Tomeo & Rosenthal 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/03/07/pp.16.01940.short?rss=1); 無・未刊
+                - Mesophyll conductance among soybean cultivars sets a tradeoff between photosynthesis and water-use
+                - 落とすのみ
+            
+            74. [Peltier et al. 2010; Photosynth Res](https://link.springer.com/article/10.1007/s11120-010-9575-3); <FONT color="green">低</FONT>
+                - Auxiliary electron transport pathways in chloroplasts of microalgae
+            
+            75. [McDonald et al. 2011; BBA](http://www.sciencedirect.com/science/article/pii/S0005272810007425); <FONT color="green">低</FONT>

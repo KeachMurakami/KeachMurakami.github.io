@@ -85,6 +85,22 @@ tags: memo
 - We show quantitatively that leaves acclimate their `zzz` to `xxx` and how this `zzz~xxx` the wavelength dependence of the photosystem excitation balance and quantum yield for CO2 fixation. This also proves that combining different wavelengths can enhance quantum yields substantially.
 - The results suggest that `xxx` is a potent stress to `zzz` and that `yyy` is essential to protect `zzz` from this stress (MK2014PCP).
 
+## その他
+
+*Nature Plants*で散見された例
+
+1. `zzz`が重要
+    - `zzz` is essential for ...
+    - `zzz` plays a vital role in ...
+2. `xxx`が`zzz`に関与するが、その機構はよくわかっていない
+    - `xxx` that leads to `zzz`, however, are poorly understood.
+    -  however, whether `xxx` are possible without impacting `zzz` is debatable. 
+3. そこで...
+    - Here we evaluate ...
+    - Here we show ...
+
+
+
 ## 参考
 
 - [これから論文を書く若者のために](http://www.kyoritsu-pub.co.jp/bookdetail/9784320005952)

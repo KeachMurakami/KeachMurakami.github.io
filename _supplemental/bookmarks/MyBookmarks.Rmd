@@ -78,6 +78,7 @@ tags: memo
 - [論文に何を書くべきか→これだけは埋めろ→論文作成穴埋めシート](http://readingmonkey.blog45.fc2.com/blog-entry-563.html) 全体を考える
 - [こう言い換えろ→論文に死んでも書いてはいけない言葉３０](http://readingmonkey.blog45.fc2.com/blog-entry-557.html) 口語を卒業する。英語版もある
 - [卒論・修論tips](http://szdr.hatenablog.com/entry/2017/01/28/164405) とくに係り受けの部分が参考になる。誤解のない言葉づかいを考える
+- [卒業論文・修士論文を書く人へ](http://isabelle.cc.kyushu-u.ac.jp/~amano/how_to_write/#chui) ページ数の話と論文提出までの作法は是非読んでほしいものである
 
 ### 修論レベル
 まっとうな修論が書きたかったらこれくらい？

@@ -45,7 +45,7 @@ format
 
 ### 文献
 
-- `REF`
+- Rosso et al. (2006)
 
 
 ----
@@ -62,7 +62,7 @@ format
 
 ### 文献
 
-- 
+- Rosso et al. (2006)
 
 
 ----
