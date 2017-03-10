@@ -568,3 +568,10 @@ Integration
                 - Auxiliary electron transport pathways in chloroplasts of microalgae
             
             75. [McDonald et al. 2011; BBA](http://www.sciencedirect.com/science/article/pii/S0005272810007425); <FONT color="green">低</FONT>
+                - Flexibility in photosynthetic electron transport: The physiological role of plastoquinol terminal oxidase (PTOX)
+        
+        - 10
+        
+            76. [Knoblauch & Peters 2017; JIPB](http://onlinelibrary.wiley.com/wol1/doi/10.1111/jipb.12532/abstract); <FONT color="green">低</FONT>
+                - What actually is the Münch hypothesis? A short history of assimilate transport by mass flow
+                - 圧流説の歴史系レビュー
