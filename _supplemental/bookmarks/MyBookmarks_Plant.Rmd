@@ -24,6 +24,7 @@ output:
 - [Regulation of photosynthetic electron transport (2011; Special Issue of *Biochimica et Biophysica Acta (BBA) - Bioenergetics*)](http://www.sciencedirect.com/science/journal/00052728/1807/8)  
 - [Light stress in plants: mechanismsand interactions special issue (2005; Special Issue of *Journal of Experimental Botany*)](http://jxb.oxfordjournals.org/content/56/411.toc)  
 - [新光合成 光エネルギー変換システムの再最適化](http://photosynthesis.nibb.ac.jp/)  
+- [PLANT STOMATA ENCYCLOPEDIA](https://plantstomata.wordpress.com/)
 
 ### 光形態形成・光質応答
 
@@ -57,3 +58,7 @@ output:
 - [ASTER Spectral Library - Version 2.0](http://speclib.jpl.nasa.gov/) 分光分布ライブラリ
 - [Natural Phenomena Simulation Group@University of Waterloo](http://www.npsg.uwaterloo.ca/data/leaves.php) 色素の吸収スペクトル  
 - [MeteoCrop](http://meteocrop.dc.affrc.go.jp/)
+
+# 施設園芸系
+
+- [Michigan State University 2017 Lighting Solutions Open House](http://urbanagnews.com/blog/michigan-state-university-2017-lighting-solutions-open-house/) スライド資料がいくつか

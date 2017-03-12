@@ -575,3 +575,10 @@ Integration
             76. [Knoblauch & Peters 2017; JIPB](http://onlinelibrary.wiley.com/wol1/doi/10.1111/jipb.12532/abstract); <FONT color="green">低</FONT>
                 - What actually is the Münch hypothesis? A short history of assimilate transport by mass flow
                 - 圧流説の歴史系レビュー
+        
+        - 11
+        
+            77. [Ogawa et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-017-0367-x); 低
+                - Estimation of photosynthesis in cyanobacteria by pulse-amplitude modulation chlorophyll fluorescence: problems and solutions
+                - 園池グループ
+                - 藻類はstate transitionやらFLVやら多くて手に負えないという印象
