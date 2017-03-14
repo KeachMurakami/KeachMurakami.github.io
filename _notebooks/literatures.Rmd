@@ -582,3 +582,29 @@ Integration
                 - Estimation of photosynthesis in cyanobacteria by pulse-amplitude modulation chlorophyll fluorescence: problems and solutions
                 - 園池グループ
                 - 藻類はstate transitionやらFLVやら多くて手に負えないという印象
+        
+        - 13
+        
+            78. [Onoda et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14496/abstract); <FONT color="blue">低</FONT>
+                - Physiological and structural tradeoffs underlying the leaf economics spectrum
+                - カッコイイ研究だ
+                - そして錚々たる顔ぶれだ...
+                
+        - 14
+        
+            79. [Wang et al. 2015; Plant Growth Regul](https://link.springer.com/article/10.1007/s10725-015-0046-x); 20170314済
+                - Green light augments far-red-light-induced shade response
+                - Foltaグループ
+                - 緑とFRが上記のpetiole/leaf比に対して加法的に作用する
+                    - 避陰反応の判断基準として妥当か？
+                    - 比に対して加法的ということはつまり？
+                - cryでも緑が効いているので、青/緑の可逆ではない
+                - 検定と相性の悪い実験計画だ
+                
+            80. [Li et al. 2017; Int J Hydrogen Energy](http://www.sciencedirect.com/science/article/pii/S0360319917302756); 高・未刊
+                - Light conversion film promotes CO~2~ assimilation by increasing cyclic electron flow around Photosystem I in *Arabidopsis thaliana*
+                - 初見の雑誌 & グループ
+                - これで光質が“significantly altered”は無茶だろう...
+                    - conclusionではslightlyだけども
+                - conclusionで触れているように、要因をCEFのみに限定できる実験系ではないので、タイトル詐欺気味だと思う
+                - そもそもなぜこの内容で光合成系のジャーナルに出さないのか、とか個人的な第一印象が非常に悪い
