@@ -585,7 +585,7 @@ Integration
         
         - 13
         
-            78. [Onoda et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14496/abstract); <FONT color="blue">低</FONT>
+            78. [Onoda et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14496/abstract); <FONT color="blue">低・引</FONT>
                 - Physiological and structural tradeoffs underlying the leaf economics spectrum
                 - カッコイイ研究だ
                 - そして錚々たる顔ぶれだ...
@@ -608,3 +608,15 @@ Integration
                     - conclusionではslightlyだけども
                 - conclusionで触れているように、要因をCEFのみに限定できる実験系ではないので、タイトル詐欺気味だと思う
                 - そもそもなぜこの内容で光合成系のジャーナルに出さないのか、とか個人的な第一印象が非常に悪い
+        
+        - 15
+        
+            81. [遠藤 2017; 領域融合レビュー](http://leading.lifesciencedb.jp/6-e001/); <FONT color="green">無</FONT>
+                - 植物における概日リズムの組織特異性および組織間での時間情報の伝達
+                - とりあえずダウンロード
+                - 新着論文レビューの同著者の[シロイヌナズナは組織特異的な概日時計をもつ (2014)](http://first.lifesciencedb.jp/archives/9444)も参照
+                
+            82. [Tikhonov & Vershubskii 2017; Photosynth Res](http://link.springer.com/article/10.1007/s11120-017-0349-z); 
+                - Connectivity between electron transport complexes and modulation of photosystem II activity in chloroplasts
+                - Tikhonovグループ
+                - ちょっと超えてる
