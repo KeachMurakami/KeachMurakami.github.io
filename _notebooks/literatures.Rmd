@@ -620,3 +620,17 @@ Integration
                 - Connectivity between electron transport complexes and modulation of photosystem II activity in chloroplasts
                 - Tikhonovグループ
                 - ちょっと超えてる
+                
+        - 16
+        
+            83. [Takagi et al. 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12562/abstract); 中・引
+                - Diversity of strategies for escaping reactive oxygen species production within photosystem I among land plants: P700 oxidation system is prerequisite for alleviating photoinhibition in photosystem I
+                - 三宅グループ、相変わらず勢いすごい...
+                - PSI周りのalternative flowを属別に解析
+                - Cytが能動的に役割を果たす、というのはどうも違和感がある考え方
+                - 因果関係をさらうべき
+                
+        - 21
+        
+            84. [Karasov et al.2017; Plant Cell](http://www.plantcell.org/content/early/2017/03/20/tpc.16.00931.short?rss=1); <FONT color="green">低</FONT>
+                - Mechanisms to mitigate the tradeoff between growth and defense
