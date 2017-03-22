@@ -634,3 +634,31 @@ Integration
         
             84. [Karasov et al.2017; Plant Cell](http://www.plantcell.org/content/early/2017/03/20/tpc.16.00931.short?rss=1); <FONT color="green">低</FONT>
                 - Mechanisms to mitigate the tradeoff between growth and defense
+                
+        - 22
+        
+            85. [Dierck et al. 2017; Sci Hort](http://www.sciencedirect.com/science/article/pii/S0304423817301012); 低
+                - Light quality regulates plant architecture in different genotypes of *Chrysanthemum morifolium* Ramat
+                - ベルギーILVOグループ
+                - あまり心は惹かれないなぁ
+            
+            86. [Scheres & van der Putten 2017; Nature](http://www.nature.com/nature/journal/v543/n7645/full/nature22010.html); <FONT color="green">中</FONT>
+                - The plant perceptron connects environment to development
+                - ホルモンを介したbiotic/abioticな応答のレビュー
+                - ニューラルネットを想起させる図
+                
+            87. [Zipfel & Oldroyd 2017; Nature](http://www.nature.com/nature/journal/v543/n7645/full/nature22009.html); <FONT color="green">低</FONT>
+                - Plant signalling in symbiosis and immunity
+                - 共生・免疫流行ってる感がある
+            
+            88. [Ilík et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14536/full); 中
+                - Alternative electron transport mediated by flavodiiron proteins is operational in organisms from cyanobacteria up to gymnosperms
+                - 鹿内グループ
+                - flvも気にしないといけなくなるのか...?
+            
+            89. [Chloroplast: Current Research and Future Trends](http://www.caister.com/chloroplasts)
+                - Kirchhoffの編集
+                - およそ37000 yen
+                - Caister Academic Pressの本ははじめて
+                    - １回だけアクセスできるページからpdfで配布する形式
+                    - リンクが403エラーで死んだので、ヒヤヒヤしながらコンタクトしたら、即座に対応してくれて印象グッド
