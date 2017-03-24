@@ -662,3 +662,13 @@ Integration
                 - Caister Academic Pressの本ははじめて
                     - １回だけアクセスできるページからpdfで配布する形式
                     - リンクが403エラーで死んだので、ヒヤヒヤしながらコンタクトしたら、即座に対応してくれて印象グッド
+                    
+        - 24
+        
+            90. [Kume 2017; J Plant Res](https://link.springer.com/article/10.1007/s10265-017-0910-z); 低
+                - Importance of the green color, absorption gradient, and spectral absorption of chloroplasts for the radiative energy balance of leaves
+                
+            91. [Silva-Pérez et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12953/abstract); 低・未刊
+                - Biochemical model of C~3~ photosynthesis applied to wheat at different temperatures
+                - Evansグループ
+                - C3光合成モデルの応答解析をフィールド、温室、チャンバレベルのwheatで
