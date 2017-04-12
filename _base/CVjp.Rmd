@@ -5,18 +5,9 @@ permalink: /about/CVjp/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2016-10-04  </FONT><br>
+<FONT color="grey">Last update: 2017-04-12  </FONT><br>
 
---------------
-
-村上 貴一 (むらかみ きいち)
-
-東京大学 大学院農学生命科学研究科の[生物環境工学研究室](http://www.kankyo.en.a.u-tokyo.ac.jp/index-E.htm)所属の博士課程学生 (D3) です。  
-
-
-Address: 1-1-1 Yayoi, Bunkyo, Tokyo, 113-8657 Japan  
-Office: Room #413, Building 7A  
-E-mail: 4518921281(ATSIGN)mail.ecc.u-tokyo.ac.jp  
+------
 
 ```{r, message = F, echo = F}
 library(magrittr)
@@ -27,8 +18,9 @@ library(knitr)
 <br>
 
 ### 専門分野  
-生物環境工学  
-光合成生理学  
+
+- 生物環境工学  
+- 光合成生理学  
 
 ------
 
@@ -36,7 +28,8 @@ library(knitr)
 
 ### 研究テーマ  
 
-#### 高等植物の光合成電子伝達の光質応答  
+- 高等植物の光合成電子伝達の光質応答 (博士課程\@東大環境研)
+- 光合成特性の光環境応答のモデル化と予測 (学振PD\@山口大荊木研)
 
 ------
 
@@ -51,14 +44,16 @@ data.frame(
            "2012.03",
            "2012.04",
            "2014.03",
-           "2014.04"),
+           "2014.04",
+           "2017.03"),
   Degree = c("鳥取県立米子東高等学校 卒業",
              "東京大学 理科一類 入学",
              "東京大学 農学部 生物・環境工学専修 進学",
              "同 卒業",
              "東京大学 大学院農学生命科学研究科 生物・環境工学専攻 修士課程 入学",
              "同 修了",
-             "東京大学 大学院農学生命科学研究科 生物・環境工学専攻 博士後期課程 進学"
+             "東京大学 大学院農学生命科学研究科 生物・環境工学専攻 博士後期課程 進学",
+             "同 修了"
              )
   ) %>%
   kable
@@ -71,9 +66,11 @@ data.frame(
 ### 職歴
 ```{r Professional_Experience, echo = F}
 data.frame(
-  Year = c("2014.4-2017.3"),
-  Category = c("日本学術振興会 特別研究員 (DC1)"),
-  Advisor = c("受入研究者: 富士原 和宏 教授")
+  Year = c("2014.4-2017.3", "2017.04-2020.03"),
+  Category = c("日本学術振興会 特別研究員 (DC1)",
+               "日本学術振興会 特別研究員 (PD)"),
+  Advisor = c("受入研究者: 富士原 和宏 教授 (生物環境工学研究室)",
+              "受入研究者: 荊木 康臣 教授 (生物環境情報工学研究室)")
 ) %>%
   kable
 ```
@@ -90,51 +87,4 @@ data.frame(
               "日本農業気象学会")
 ) %>%
   kable
-```
-
------
-
-<br>
-
-### 趣味  
-
-* サッカー  
-    * 都リーグ社会人4部 (2015~)  
-    * サッカー審判員4級 (2015~)  
-
-```{r Football_Stats, echo = F, message = F, warning = F, out.width = '100%', fig.asp = .3, dpi = 500}
-library(lubridate)
-library(ggplot2)
-
-FootballStats <-
-  read.csv("~/Dropbox/R/my.data/MyStats.csv") %>%
-    mutate(Date = ymd(Date))
-
-
-Blank_Days <-
-  FootballStats$Date %>%
-    range %>%
-    {seq(.[1], .[2], by = "1 day")} %>%
-    data.frame(Date = ., Appearance_min = 0) %>%
-    filter(!(Date %in% FootballStats$Date))
-
-Football_dat <-
-  FootballStats %>%
-    bind_rows(., Blank_Days) %>%
-    mutate(Year = year(Date), week = week(Date), wday = wday(Date),
-           Goal = Goal_By_Head + Goal_By_RightFoot + Goal_By_LeftFoot + Goal_By_Other,
-           Contribute = Goal + Assist,
-           Label = ifelse(Contribute != 0, paste0("Goal: ", Goal, "\nAssist: ", Assist), ""))
-
-Football_dat %>%
-  ggplot(aes(x = week, y = wday, fill = Appearance_min, col = Contribute, label = Label)) +
-  theme_light(base_size = 11) +
-  geom_tile(col = "white") +
-  geom_text(size = 2) +
-  scale_color_gradient(low = "black", high = "magenta") +
-  scale_fill_gradient(low = "grey80", high = "green", na.value = "grey75") +
-  scale_y_continuous(breaks = 1:7, labels = c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), expand = c(0, 0)) +
-  labs(x = "weeks", y = "", fill = "Appearance [min]") +
-  guides(col = F) +
-  facet_grid(Year ~ ., switch = "y")
 ```

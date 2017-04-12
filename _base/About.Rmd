@@ -5,16 +5,49 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2016-07-27  </FONT><br>
+<FONT color="grey">Last update: 2017-04-12  </FONT><br>
 
 -----
 
-研究に関することの備忘録です  
+おもに研究に関するメモです  
 
 -----
 
-### 研究関連
-- 経歴→ [CV](https://keachmurakami.github.io/about/CVjp/)  
+### Author
+
+<ruby>村上<rp>（</rp><rt>むらかみ</rt><rp>）</rp></ruby>   <ruby>貴一<rp>（</rp><rt>きいち</rt><rp>）</rp></ruby> 博士 (農学)  
+Keach MURAKAMI (PhD)
+
+[CV jpn](https://keachmurakami.github.io/about/CVjp/) / [CV eng](https://keachmurakami.github.io/about/CVen/)  
+
+#### 現所属
+
+2017.04 \~  
+山口大学 大学院創成科学研究科の生物環境情報工学研究室で博士研究員をしています  
+
+Address: 1677-1 Yoshida, Yamaguchi, 753-8515 Japan  
+Office: Room #323  
+E-mail: keach+yamaguchi-u.ac.jp  
+
+<br>
+
+#### 旧所属
+
+<FONT color="grey">
+
+2012.04 ~ 2017.03  <br>
+東京大学 大学院農学生命科学研究科の生物環境工学研究室所属の博士課程学生でした<br><br>
+
+</FONT>
+
+
+<br>
+<br>
+
+-----
+
+### 研究
+
 - 研究紹介→ 作成予定  
 - 論文など
     - [PublicationList](https://keachmurakami.github.io/publication_list/)  
@@ -27,9 +60,10 @@ layout: default
 
 -----
 
-### よく使うソフトウェア  
+### よく使うソフトウェア
 
 #### [R](https://www.r-project.org/)
+
 データの記録から解析・レポート作成・作図まで  
 
 欠かせないパッケージ  
@@ -46,6 +80,7 @@ layout: default
 <br>
 
 #### [Inkscape](https://inkscape.org/ja/)
+
 画像素材・イラスト作成
 
 <br>
@@ -53,11 +88,56 @@ layout: default
 
 -----
 
-### その他  
-このページの作成には[jekyll](https://jekyllrb.com)と[GitHub](https://github.com/)を使っています  
-更新履歴→ {% include icon-github.html username="KeachMurakami" %}  
+#### 趣味  
+
+* サッカー  
+    * 都リーグ社会人4部 (2015~2016)  
+    * サッカー審判員4級 (2015~2016)  
+
+```{r Football_Stats, echo = F, message = F, warning = F, out.width = '100%', fig.asp = .5, dpi = 500}
+library(lubridate)
+library(ggplot2)
+library(tidyverse)
+
+football_stats <-
+  read.csv("~/Dropbox/R/my.data/MyFootball.csv") %>%
+    mutate(Date = ymd(Date))
+
+
+blank_days <-
+  football_stats$Date %>%
+    range %>%
+    {seq(.[1], .[2], by = "1 day")} %>%
+    data.frame(Date = ., Appearance_min = 0) %>%
+    filter(!(Date %in% football_stats$Date))
+
+football_dat <-
+  football_stats %>%
+    bind_rows(., blank_days) %>%
+    mutate(Year = year(Date), week = week(Date), wday = wday(Date),
+           Goal = Goal_By_Head + Goal_By_RightFoot + Goal_By_LeftFoot + Goal_By_Other,
+           Contribute = Goal + Assist,
+           Label = ifelse(Contribute != 0, paste0("Goal: ", Goal, "\nAssist: ", Assist), ""))
+
+football_dat %>%
+  ggplot(aes(x = week, y = wday, fill = Appearance_min, col = Contribute, label = Label)) +
+  theme_light(base_size = 11) +
+  geom_tile(col = "white") +
+  geom_text(size = 2) +
+  scale_color_gradient(low = "black", high = "magenta") +
+  scale_fill_gradient(low = "grey80", high = "green", na.value = "grey75") +
+  scale_y_continuous(breaks = 1:7, labels = c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), expand = c(0, 0)) +
+  labs(x = "weeks", y = "", fill = "Appearance [min]") +
+  guides(col = F) +
+  facet_grid(Year ~ ., switch = "y")
+```
 
 <br>
 <br>
 
 -----
+
+### その他  
+
+このページの作成には[jekyll](https://jekyllrb.com)と[GitHub](https://github.com/)を使っています  
+更新履歴→ {% include icon-github.html username="KeachMurakami" %}  
