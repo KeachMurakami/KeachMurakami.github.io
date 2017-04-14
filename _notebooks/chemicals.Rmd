@@ -167,6 +167,22 @@ format
 
 ----
 
+## [Amplex Red](https://www.thermofisher.com/order/catalog/product/A12222)
+
+
+### 特性
+
+- H~2~O~2~を検出
+- 530 nm 励起-580 nm 蛍光
+
+### 文献
+
+- Miller et al. (2009)
+
+
+----
+
+
 # ミトコンドリア呼吸の阻害剤
 
 ==========
