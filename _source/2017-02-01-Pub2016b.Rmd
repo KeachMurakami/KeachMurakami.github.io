@@ -1,5 +1,5 @@
 ---
-title: "論文掲載 (2016b→2017a)"
+title: "論文掲載 (Letter_001)"
 output: html_document
 layout: post
 tags: lab log

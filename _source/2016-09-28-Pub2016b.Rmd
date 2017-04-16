@@ -1,5 +1,5 @@
 ---
-title: "査読結果 (2016b"
+title: "査読結果 (Letter_001)"
 output: html_document
 layout: post
 tags: lab log

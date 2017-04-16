@@ -1,5 +1,5 @@
 ---
-title: "初稿完成 (論文進捗2016c"
+title: "初稿完成 (Regular_005)"
 output: html_document
 layout: post
 tags: lab log
