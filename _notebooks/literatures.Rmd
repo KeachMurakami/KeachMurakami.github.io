@@ -684,10 +684,15 @@ Integration
                 - ecosystemレベルでもKok効果様の挙動があるらしい (`Bruhn et al. 2011`)
                     - 線形の項が多数重なったらそうなるだろう
                 
-            93. [Yin et al. 2014; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-014-0030-8); 中
+            93. [Yin et al. 2014; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-014-0030-8); 20170417済
                 - Accounting for the decrease of photosystem photochemical efficiency with increasing irradiance to estimate quantum yield of leaf photosynthesis
+                - Y~II~を測定することで、ガス交換の最大量子収率を上方修正する手法について
+                    - 利用側ではなく、理解側の観点がつよい
                 - `Tcherkez et al. 2017`から
-                    - ... both the light partition to PSII (a) and the photochemical yield of PSII (ΦPSII) have been found to increase at low light (Oberhuber et al., 1993; Yin et al., 2014)
+                    - “... both the light partition to PSII (a) and the photochemical yield of PSII (ΦPSII) have been found to increase at low light (Oberhuber et al., 1993; Yin et al., 2014)”
+                    - PSIなら見たことあるが、PSIIでも起こるというのはは直感に反する
+                    - Fig. 3aのことを言っているのか？引用怪しい
+                - “Actually the maximum photochemical efficiency of PSII as revealed by chlorophyll fluorescence for the dark-adapted leaves is generally not higher than 0.83 (Björkman and Demmig 1987; Schreiber et al. 1995; Morales et al. 1991), and the photochemical efficiency of PSII under strictly limiting light is only about 0.84- 0.95 of the value for the dark-adapted leaves (Bernacchi et al. 2003; Yin et al. 2009)”
                     
         - 27
         
@@ -791,3 +796,27 @@ Integration
             108. [Karpinska et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12960/abstract); 中・未刊
                 - The redox state of the apoplast influences the acclimation of photosynthesis and leaf metabolism to changing irradiance 
                 - Foyerグループ
+            
+        - 16
+        
+            109. [Demmig-Adams et al. 2017; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526616301704); <FONT color="green">20170416済</FONT>
+                - Environmental regulation of intrinsic photosynthetic capacity: an integrated view
+                - 最大光合成能力の環境応答を制御する要因について
+                    - おもに気温・光に着目
+                - conduitsってなんだと思ったら導管
+                
+            110. [Hüner et al. 2016; J Plant Physiol](http://www.sciencedirect.com/science/article/pii/S0176161716300360); <FONT color="green">中</FONT>
+                - Photosynthetic acclimation, vernalization, crop productivity and ‘the grand design of photosynthesis’
+                - `Demmig-Adams et al. 2017`から
+                - J M Anderson のあれをイメージさせるなぁ 
+            
+            111. [Yin et al. 2009; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2009.01934.x/full); 高
+                - Using combined measurements of gas exchange and chlorophyll fluorescence to estimate parameters of a biochemical C~3~ photosynthesis model: a critical appraisal and a new integrated approach applied to leaves in a wheat (*Triticum aestivum*) canopy
+                - `Yin et al. 2014`から
+                    - “To estimate Φ~2LL~, we used the equation that describes the decline of Φ~2~ with increasing irradiance (Yin et al. 2009):”
+                -
+                
+            112. [Zhang et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2017.00328/full); 低
+                - Can the responses of photosynthesis and stomatal conductance to water and nitrogen stress combinations be modeled using a single set of parameters?
+                - 前にメールで*Murakami et al. 2016*への質問を貰った人
+                - ヘヴィな実験っぽい
