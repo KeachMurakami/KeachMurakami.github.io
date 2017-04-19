@@ -825,7 +825,7 @@ Integration
             - Plant DirectというOA論文が、SEB、ASPB、Wileyのコラボで始まるらしい
                 - ちょっと気になる
         
-            113. [Singsaas et al. 2001; Oecologia](https://link.springer.com/article/10.1007/s004420000624); <FONT color="blue">中</FONT>
+            113. [Singsaas et al. 2001; Oecologia](https://link.springer.com/article/10.1007/s004420000624); <FONT color="blue">20170418済</FONT>
                 - Variation in measured values of photosynthetic quantum yield in ecophysiological studies
                 - `Yin et al. 2014`から
                 - “初期勾配が文献で結構小さいけど、変じゃない？ちゃんと測定できてないだけじゃない？”という渋い話
@@ -851,4 +851,59 @@ Integration
                 - “the modulation of different photoprotective mechanisms is crucial to mitigate the effects caused by the excess energy”
                 - matureだとどうなるのか？
                 
+        - 19
+        
+            - PRI (`Gamon et al. 1997`) の文献掘り
+            
+            117. [Gamon & Surfus 1999; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1046/j.1469-8137.1999.00424.x/abstract); 高
+                - Assessing leaf pigment content and activity with a reflectometer
+                
+            118. [Peñuelas & Filella 1998; Trend in Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138598012138);
+                - Visible and near-infrared reflectance techniques for diagnosing plant physiological status
+            
+            119. [Sims & Gamon 2002; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S003442570200010X);
+                - Relationships between leaf pigment content and spectral reflectance across a wide range of species, leaf structures and developmental stages
+                - Systemic regulationのSims (`Sims et al. 1997`)と同一人物？
+                
+            120. [Barton & North 2001; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425701002243); 
+                - Remote sensing of canopy light use efficiency using the photochemical reflectance index: Model and sensitivity analysis
+                
+            121. [Garbulsky et al. 2011; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425710002634)<FONT color="green">高・引</FONT>
+                - The photochemical reflectance index (PRI) and the remote sensing of leaf, canopy and ecosystem radiation use efficiencies: A review and meta-analysis
+            
+            122. [Filella et al. 2009; Int J Remote Sens](http://www.tandfonline.com/doi/full/10.1080/01431160802575661?scroll=top&needAccess=true); 高
+                - PRI assessment of long-term changes in carotenoids/chlorophyll ratio and short-term changes in de-epoxidation state of the xanthophyll cycle
+                
+            123. [Gamon et al. 2001; Photosynth Res](https://link.springer.com/article/10.1023%2FA%3A1010677605091?LI=true); 高
+                - Assessing photosynthetic downregulation in sunflower stands with an optically-based model
+                - standに対してPRIで光合成機能の評価
+            
+            124. [Peñuelas et al. 2011; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.2011.03791.x/full); <FONT color="green">20170419済・引</FONT>
+                - Photochemical reflectance index (PRI) and remote sensing of plant CO~2~ uptake
+                - 衛星ベースのPRIの限界について、`Grace et al. 2007`を簡単にまとめると、群落構造、バックグラウンドから来るドリフト、反射強度の入射角・計測角に対する依存性
+                    - “In brief, these problems are related to the structural differences of the canopies, to varying ‘background effects’ (e.g. soil color, moisture, shadows, or presence of other nongreen landscape components) or to the different reflectance signals derived from illumination and viewing angles variations (Filella et al., 2004; Sims et al., 2006; Hilker et al., 2010).”
+                    - 環境調節条件下であれば、いずれも軽減できるので、自分の研究ではあまり影響なし
+                    
+            125. [Grace et al. 2007; Global Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-2486.2007.01352.x/full); <FONT color="green">中</FONT>
+                - Can we measure terrestrial photosynthesis from space directly, using spectral reflectance and fluorescence?
+                
+            126. [Gamon et al. 1990; Oecologia](https://link.springer.com/article/10.1007%2FBF00317336?LI=true); 高
+                - Remote sensing of xanthophyll cycle and chlorophyll fluorescence in sunflower leaves and canopies
+                - 531, 685, 738 nm の光照射開始後の変化を調べ、その出所を解析
+            
+            127. [Porcar-Castell et al. 2012; Oecologia](https://link.springer.com/article/10.1007/s00442-012-2317-9); 中
+                - Physiology of the seasonal relationship between the photochemical reflectance index and photosynthetic light use efficiency
+                - PRIは短期的には、うまく光合成状態を反映するが、長期的には色素組成の変化に影響される
+                - `Porcar-Castell et al. 2014; JXB`も深いし、この人はフォローすべき
+                    - “the seasonal variation in leaf-level PRI seems to be controlled by the slow changes in pigment pools rather than NPQ (Stylinski et al., 2002; Filella et al., 2009; Porcar-Castell et al., 2012).”
+                
+            128. [Zhang et al. 2016; Remote Sens](http://www.mdpi.com/2072-4292/8/9/677/htm); <FONT color="green">中</FONT>
+                - Affecting Factors and Recent Improvements of the Photochemical Reflectance Index (PRI) for Remotely Sensing Foliar, Canopy and Ecosystemic Radiation-Use Efficiencies
+            
+            13X. [Renzaglia et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/04/18/pp.17.00156.short?rss=1); 無
+                - Hornwort stomata: Architecture and fate shared with 400 million year old fossil plants without leaves
+                - 原始的な植物であるツノゴケを使って、気孔の起源と機能を解析
+                
+            13. [Bernacchi et al. 2013; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12118/full); <FONT color="green">低</FONT>
+                - Modelling C~3~ photosynthesis from the chloroplast to the ecosystem
             
