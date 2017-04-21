@@ -926,3 +926,17 @@ Integration
                 - A narrow-waveband spectral index that tracks diurnal changes in photosynthetic efficiency
                 - `Gamon et al. 1990`で、531 nm がxanthophyll cycleを反映することを示し、この論文では正規化のref波長を主成分分析で決定
                 - この論文だと、refは550 nm だけど、後続は570 nm がメイン
+            
+        - 21
+        
+            134. [Albanese et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272816305710?dgcid=Newsletters%20%26%20Alerts_email_SDPR-EXP3-VAR1); 中
+                - Dynamic reorganization of photosystem II supercomplexes in response to variations in light intensities
+                - トリノ工科大学のBioSolar Labなる機関のグループ
+                - PSII超複合体の構造 (リン酸化かな？) の短期的な光強度応答
+                
+            135. [Willocquet et al. 2017; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138517300237?dgcid=Newsletters%20%26%20Alerts_email_SDPR-EXP3-VAR1); <FONT color="green">無・未刊</FONT>
+                - とりあえず
+            
+            136. [Weng et al. 2010; Tree Physiol](https://academic.oup.com/treephys/article/30/4/469/1682565/Relationship-between-photochemical-efficiency-of); 高
+                - Relationship between photochemical efficiency of photosystem II and the photochemical reflectance index of mango tree: merging data from different illuminations, seasons and leaf colors
+                - PRIとY~ii~の相関を、光条件、季節、葉色の異なる複数条件からマージ
