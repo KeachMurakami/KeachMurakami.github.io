@@ -952,7 +952,13 @@ Integration
                 - Brodersenは、Vogelmannとよく組んでるあの人と同一っぽい
                     - ミドルネーム入れるか入れないか、統一してほしいなぁ
             
-            138. [Armbruster et al. 2017; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S136952661730002X); <FONT color="green">中</FONT>
+            138. [Armbruster et al. 2017; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S136952661730002X); <FONT color="green">20170422済</FONT>
                 - The regulation of the chloroplast proton motive force plays a key role for photosynthesis in fluctuating light
-                - とりあえず
-                - pmfの概説に良さそうなので読もう    
+                - pmfの概説に良かった
+                    - pmfのうち、ψとΔpHはそれぞれPSII阻害・PSI阻害に対応するイメージ
+                    - 後者の方が、修復しにくい点でネガティブ
+                - γ-subunitの構造変化で、ATP合成へのpmf要求度が変わる
+                    - “Flux of protons via the chloro- plast ATP synthase, and thus pmf, can additionally be regulated by structural changes in the g-subunit, which occur in response to oxidation/reduction of two redox sensitive cysteines and change the requirement for pmf to drive ATP synthesis [22,23].”
+                - 最近の英語って、なんだかカンマが減っているような感じがする
+                    - “When grown in the field *best1/vccn1* mutants have increased levels of PSII photoinhibition”
+                    - “in the filed”のあとに入れたくなる
