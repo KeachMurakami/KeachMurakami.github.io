@@ -876,9 +876,16 @@ Integration
             122. [Filella et al. 2009; Int J Remote Sens](http://www.tandfonline.com/doi/full/10.1080/01431160802575661?scroll=top&needAccess=true); 高
                 - PRI assessment of long-term changes in carotenoids/chlorophyll ratio and short-term changes in de-epoxidation state of the xanthophyll cycle
                 
-            123. [Gamon et al. 2001; Photosynth Res](https://link.springer.com/article/10.1023%2FA%3A1010677605091?LI=true); 高
+            123. [Gamon et al. 2001; Photosynth Res](https://link.springer.com/article/10.1023%2FA%3A1010677605091?LI=true); 20170424済・引
                 - Assessing photosynthetic downregulation in sunflower stands with an optically-based model
                 - standに対してPRIで光合成機能の評価
+                - 下葉だとEPSとPRIが完全にはリンクしない
+                - 推定Pn自体は、値が小さいせいもあり、ずれていないように見えるが、これは推定がうまくいっているという訳ではない
+                    - 最下部葉から新出葉への光合成産物系のシグナル自体は、無視してもいいと解釈できる
+                    - シグナリングの重みづけがさほど重要ではないということ
+                - 間違いなく引用することになるが、この論文は力技でねじ込んでる感あるなぁ
+                    - “the results of this study are consistent with a large body of literature...”
+                    - “remote sensing can be applied to predict whole-stand photosynthesis using the simple light-use efficiency model depicted in Equation (2).”
             
             124. [Peñuelas et al. 2011; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.2011.03791.x/full); <FONT color="green">20170419済・引</FONT>
                 - Photochemical reflectance index (PRI) and remote sensing of plant CO~2~ uptake
@@ -962,3 +969,13 @@ Integration
                 - 最近の英語って、なんだかカンマが減っているような感じがする
                     - “When grown in the field *best1/vccn1* mutants have increased levels of PSII photoinhibition”
                     - “in the filed”のあとに入れたくなる
+                    
+        - 24
+        
+            139. [Junge & Nelson 2015; Annu Rev Biochem](http://www.annualreviews.org/doi/full/10.1146/annurev-biochem-060614-034124#article-denial); <FONT color="green">低・引</FONT>
+                - ATP synthase
+                - えらいばっくりしたタイトルだけど、とりあえず
+                
+            140. [Hikosaka 2005; Ann Bot](https://academic.oup.com/aob/article/95/3/521/322923/Leaf-Canopy-as-a-Dynamic-System-Ecophysiology-and); <FONT color="green">低</FONT>
+                - Leaf canopy as a dynamic system: ecophysiology and optimality in leaf turnover
+                - `Hikosaka et al. 1994`の横に這わせる実験を参考にしていて
