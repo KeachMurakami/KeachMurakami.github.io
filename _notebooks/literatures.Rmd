@@ -979,3 +979,27 @@ Integration
             140. [Hikosaka 2005; Ann Bot](https://academic.oup.com/aob/article/95/3/521/322923/Leaf-Canopy-as-a-Dynamic-System-Ecophysiology-and); <FONT color="green">低</FONT>
                 - Leaf canopy as a dynamic system: ecophysiology and optimality in leaf turnover
                 - `Hikosaka et al. 1994`の横に這わせる実験を参考にしていて
+            
+        - 25
+        
+            141. [Zhu et al. 2012; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526612000222); <FONT color="green">20170425済</FONT>
+                - Elements of a dynamic systems model of canopy photosynthesis
+                - 群落レベルでの光合成モデルを“dynamic systems model”へ発展させるためには、何が必要か？がテーマ
+                - maximal productivity model/resource-use efficiency model/big-leaf model/sunlit– shaded model/multi-layer modelをレビュー
+                - 複雑化され、全体をとらえたdynamic systems modelモデルは、最適化に向けた具体的なアプローチの提案に便利
+                    - “A dynamic systems model of photosynthesis ... would provide a robustframework to systematically re-evaluate the potential of different canopy features ... to improve Ac from a whole systems’ energy and resource use efficiency perspective.”
+                    - ただ、パラメタライズに計測はやっぱり多く必要になる
+                    - phenotyping系の技術をプッシュする
+                
+            - 生態学会誌の葉寿命特集号
+            
+            142. [及川 & 長田 2013; 日本生態学会誌](http://ci.nii.ac.jp/naid/110009604255); <FONT color="green">高</FONT>
+                - 葉の枯死と個体の炭素収支
+            
+            143. [長田ら 2013; 日本生態学会誌](http://ci.nii.ac.jp/naid/110009604252); <FONT color="green">高</FONT>
+                - 環境条件に応じた葉寿命の種内変異：一般的傾向と機能型間の差異
+                
+            144. [小野 & 永野; 日本生態学会誌](http://ci.nii.ac.jp/naid/110009604254); <FONT color="green">高</FONT>
+                - 葉の老化に影響を与える環境要因と葉の老化の制御機構
+                - 枯死は急激な変化に起因するものだ、という
+            
