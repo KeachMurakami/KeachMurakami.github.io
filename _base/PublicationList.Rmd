@@ -1,6 +1,7 @@
 ---
 title: Publications
-output: html_document
+# output: html_document
+output: word_document
 permalink: /about/publications/
 layout: default
 ---
@@ -39,7 +40,8 @@ ToKable <-
   colnames(PublicationList) = c('Title', 'Year', 'Category', in_what)
   PublicationList %>%
     data.frame %>%
-    arrange(desc(Year), Category) %>%
+    # arrange(desc(Year), Category) %>%
+    arrange(Year, Category) %>%
     kable
   }
 
@@ -60,7 +62,7 @@ KF_ <- "富士原 和宏"
 
 ```{r journal, message = F, echo = F}
 impacts <-
-  Vectorize(ifelse)(add_if, paste0("<br><FONT color='grey'>IF: ", c(0.467, 2.216, 3.520, 1.538, NA, NA), "</FONT>"), "")
+  Vectorize(ifelse)(add_if, paste0("<br><FONT color='grey'>IF: ", c(0.467, 2.216, 3.520, 1.538, NA, 6.169), "</FONT>"), "")
 
 journal_articles <-
   c(
@@ -105,11 +107,11 @@ journal_articles <-
       "https://www.jstage.jst.go.jp/article/ecb/55/1/55_1/_article"),
     
     ToRecord(
-      "Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport",
+      "<FONT color='red'><sup>New </sup></FONT>Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport",
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
-      "submitted<br>20170109",
+      "Accepted",
       "Original Article",
-      paste0("-", impacts[6]),
+      paste0("Plant, Cell & Environment", impacts[6]),
       "")
   )
 ```
