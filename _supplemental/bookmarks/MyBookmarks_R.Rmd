@@ -118,6 +118,9 @@ Dplyr: A grammar of data manipulation
 
 - [dplyrを使いこなす！基礎編](http://qiita.com/matsuou1/items/e995da273e3108e2338e)
 - [dplyrのmutate_if()とかについて](http://notchained.hatenablog.com/entry/2016/07/01/001836)
+- [dplyr再入門](http://notchained.hatenablog.com/entry/2017/04/23/115342)
+    - 基本編・colwise編・tidyeval編がある
+    - yutaniさんの記事はいつも素晴らしい
 
 #### [tidyr](https://github.com/hadley/tidyr)
 Easily tidy data with spread and gather functions  
@@ -126,11 +129,14 @@ Easily tidy data with spread and gather functions
     - [できないっぽい](http://stackoverflow.com/questions/29775461/tidyr-repeated-measures-multiple-variables-wide-format?noredirect=1&lq=1)  
     - `tidyr::unite` -> `tidyr::spread` -> `tidyr::separate`は非常に回りくどい  
     - `reshape2::a/dcast`は使いたくないなぁ
+- tidyrによる補完 ([メモ：時系列とか連番のデータを補完するときはtidyrのcomplete()とfull_seq()が便利そう](http://notchained.hatenablog.com/entry/2015/09/22/072820))
+    - `tidyr::complete`、`tidyr::full_seq()`で埋める話
+    - `RcppRoll`も便利だ
 
 #### [purrr](https://github.com/hadley/purrr)
 Make your pure R function purrr with functional programming  
 
-- ベクトルに対して`dplyr`当てたい@r-wakalang
+- ベクトルに対して`dplyr`当てた\@r-wakalang
     - `ymd(c("2014-09-01", "2014-10-01")) %>% keep(~ . != "2014-09-01")`
 
 #### [forcats](https://github.com/tidyverse/forcats)
@@ -153,6 +159,14 @@ Simple web scraping for R
 
 - [rvestによるWebスクレイピング](https://book.mynavi.jp/manatee/detail/id=59386)  
 
+
+### 画像解析
+
+#### [EBImage]()
+
+- [Introduction to *EBImage*](https://www.bioconductor.org/packages/devel/bioc/vignettes/EBImage/inst/doc/EBImage-introduction.html)
+- [\[R\]EBImageを使った画像処理](http://d.hatena.ne.jp/Rion778/20091210/1260414280)
+    - 一部、deprecatedになっている (文字の書き込みのとか)
 
 ### 作図
 
@@ -270,6 +284,7 @@ aes(col)に複数のスケールをマッピングする
     - [Leaflet for R](https://rstudio.github.io/leaflet/)
     - [地理データをRで可視化：コロプレス図](https://book.mynavi.jp/manatee/detail/id=59406)
     - [leafletではじめるRによる地図プロット](https://rpubs.com/kazutan/leaflet_slide)
+    - [leafletでベースタイルを表示させずにポリゴンだけを表示する方法と投影法を変更する方法](http://uribo.hatenablog.com/entry/2017/04/05/090600)
 
 ==== 
 

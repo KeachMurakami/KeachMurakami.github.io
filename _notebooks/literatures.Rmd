@@ -7,7 +7,8 @@ output:
 ダウンロードしたことすら忘れるので、ダウンロードした (眠っていた) 論文とそのひとことメモ
 
 - `低/中/高`は優先度
-- `無`は現時点で(自分にとって)読む必要がないもの
+    - `概`はざっと目を通したうえで、必要ないと判断したもの
+    - `無`は現時点で(自分にとって)読む必要がないもの
 - `引`は引用に使いそうなもの
 - `未刊`はin press
 - `有償`はアクセス権がなくて有償なもの、おもに書籍
@@ -1002,4 +1003,18 @@ Integration
             144. [小野 & 永野; 日本生態学会誌](http://ci.nii.ac.jp/naid/110009604254); <FONT color="green">高</FONT>
                 - 葉の老化に影響を与える環境要因と葉の老化の制御機構
                 - 枯死は急激な変化に起因するものだ、という
+            
+        - 27
+        
+            145. [Gamon et al. 2015; Biogeosciences](http://www.biogeosciences.net/12/4149/2015/); 20170427概
+                - Monitoring seasonal and diurnal changes in photosynthetic pigments with automated PRI and NDVI sensors
+                - NDVIとPRIは相補的
+                - 安いセンサーがイイね
+                    - “... new small and inexpensive optical sensors are emerg- ing that can monitor dynamic vegetation indices such as PRI and NDVI (Garrity et al., 2010; Ryu et al., 2010; Eklundh et al., 2011; Harris et al., 2014).”
+                - SRSというDecagonのPRIセンサーを使ったラージスケールの話で、読む必要はなさそう
+            
+            146. [Hoang et al. 2017; PCTOC](https://link.springer.com/article/10.1007/s11240-017-1219-2); 無
+                - A comparative study on growth and morphology of wasabi plantlets under the influence of the micro-environment in shoot and root zones during photoautotrophic and photomixotrophic micropropagation
+                - 府大北宅グループ
+                
             
