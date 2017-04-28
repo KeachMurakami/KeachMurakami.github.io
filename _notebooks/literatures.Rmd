@@ -1017,4 +1017,8 @@ Integration
                 - A comparative study on growth and morphology of wasabi plantlets under the influence of the micro-environment in shoot and root zones during photoautotrophic and photomixotrophic micropropagation
                 - 府大北宅グループ
                 
-            
+        - 28
+        
+            147. [Imada et al. 2016; Plant Pathol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppa.12443/abstract); 無
+                - Magnesium oxide nanoparticles induce systemic resistance in tomato against bacterial wilt disease
+                - 研究室内の課題
