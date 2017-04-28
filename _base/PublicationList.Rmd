@@ -170,6 +170,14 @@ symp_int <-
 symp_domestic <-
   c(
     ToRecord(
+      "<FONT color='red'><sup>New </sup></FONT>光化学系I・II間での励起エネルギー分配比の非破壊定量法の開発",
+      paste(speaker(KM_), RM_, KF_, sep = ", "),
+      "2017<参加予定>",
+      "Poster",
+      "第 8 回日本光合成学会年会<br>滋賀, 5月",
+      ""),
+
+    ToRecord(
       "夜間に照射する LED 光の分光分布および PPFD がトマト苗の成育および可視障害に及ぼす影響",
       paste(speaker(RM_), "山埜 拓人", KM_, KF_, sep = ", "),
       "2016",
