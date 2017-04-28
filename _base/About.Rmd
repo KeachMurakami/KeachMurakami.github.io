@@ -5,7 +5,7 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-04-12  </FONT><br>
+<FONT color="grey">Last update: 2017-04-28  </FONT><br>
 
 -----
 
@@ -35,7 +35,7 @@ E-mail: keach+yamaguchi-u.ac.jp
 
 <FONT color="grey">
 
-2012.04 ~ 2017.03  <br>
+2014.04 ~ 2017.03  <br>
 東京大学 大学院農学生命科学研究科の生物環境工学研究室所属の博士課程学生でした<br><br>
 
 </FONT>
