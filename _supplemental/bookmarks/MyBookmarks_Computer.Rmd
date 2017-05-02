@@ -23,7 +23,7 @@ tags: memo
 - Rodeo
     - []()
 
-## Packages
+## Libraries
 
 - NumPy
 - Pandas
@@ -31,6 +31,8 @@ tags: memo
     - [Python pandas 関連エントリの目次](http://sinhrks.hatenablog.com/entry/2015/04/28/235430)
 - matplotlib
 - seaborn
+- Chainer
+    - [{PythonInR}を使ってChainerを動かす](http://yamano357.hatenadiary.com/entry/2015/10/13/033135) RからPython経由
 
 ## Tools
 

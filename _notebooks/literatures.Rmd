@@ -1022,3 +1022,10 @@ Integration
             147. [Imada et al. 2016; Plant Pathol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppa.12443/abstract); 無
                 - Magnesium oxide nanoparticles induce systemic resistance in tomato against bacterial wilt disease
                 - 研究室内の課題
+            
+        - 30
+        
+            148. [Savvides et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12835/full); 中
+                - Phenotypic plasticity to altered apical bud temperature in *Cucumis sativus*: more leaves-smaller leaves and vice versa
+                - Wageningenグループ
+                - このネタ結構つづいているなぁ
