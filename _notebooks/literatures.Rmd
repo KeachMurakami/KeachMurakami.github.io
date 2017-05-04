@@ -1029,3 +1029,17 @@ Integration
                 - Phenotypic plasticity to altered apical bud temperature in *Cucumis sativus*: more leaves-smaller leaves and vice versa
                 - Wageningenグループ
                 - このネタ結構つづいているなぁ
+        
+    - 5
+    
+        - 3
+        
+            149. [Ruban 2009; Commun Integr Biol](); <FONT color="green">低</FONT>
+                - Plants in light
+                - 初雑誌
+                - 異分野向け概説
+                
+            150. [Demmig-Adams et al. 1996; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1034/j.1399-3054.1996.980206.x/abstract); 概
+                - Using chlorophyll fluorescence to assess the fraction of absorbed light allocated to thermal dissipation of excess excitation
+                - 陽葉vs陰葉でPSII周りのエネルギーの流れ、とくにNPQ、を解析した比較的古い文献
+                - これまでに読んでなかったらしい
