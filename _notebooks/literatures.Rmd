@@ -1022,6 +1022,7 @@ Integration
             147. [Imada et al. 2016; Plant Pathol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppa.12443/abstract); 無
                 - Magnesium oxide nanoparticles induce systemic resistance in tomato against bacterial wilt disease
                 - 研究室内の課題
+                - MgOは溶液としてではなく、不溶性の粒子自体が根に接触することが重要らしい
             
         - 30
         
@@ -1043,3 +1044,5 @@ Integration
                 - Using chlorophyll fluorescence to assess the fraction of absorbed light allocated to thermal dissipation of excess excitation
                 - 陽葉vs陰葉でPSII周りのエネルギーの流れ、とくにNPQ、を解析した比較的古い文献
                 - これまでに読んでなかったらしい
+            
+        
