@@ -272,10 +272,8 @@ aes(col)に複数のスケールをマッピングする
 
 ### プレゼンテーション
 
-#### rmdshower
-
 - [rmdshower](https://github.com/MangoTheCat/rmdshower) 
-
+- [fullpagejs](https://github.com/kazutan/fullpagejs) ゾウさん
 
 
 ### GIS

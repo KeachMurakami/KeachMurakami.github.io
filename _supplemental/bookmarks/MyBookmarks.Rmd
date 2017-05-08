@@ -79,6 +79,7 @@ tags: memo
 - [こう言い換えろ→論文に死んでも書いてはいけない言葉３０](http://readingmonkey.blog45.fc2.com/blog-entry-557.html) 口語を卒業する。英語版もある
 - [卒論・修論tips](http://szdr.hatenablog.com/entry/2017/01/28/164405) とくに係り受けの部分が参考になる。誤解のない言葉づかいを考える
 - [卒業論文・修士論文を書く人へ](http://isabelle.cc.kyushu-u.ac.jp/~amano/how_to_write/#chui) ページ数の話と論文提出までの作法は是非読んでほしいものである
+- [「卒業研究をコツコツ進めなさい！」「どう進めるの？」](http://next49.hatenadiary.jp/entry/20170506/1494047648) 毎度、内容が充実している。
 
 ### 修論レベル
 まっとうな修論が書きたかったらこれくらい？
@@ -116,7 +117,7 @@ tags: memo
 - [ちさとの英語メール教室](http://www.write4u.jp/) tag:論文など  
 
 
-## 論文誌
+## 雑誌
 評価とか、predatory journalとか
 
 - [Beall’s List](https://scholarlyoa.com/publishers/) 
