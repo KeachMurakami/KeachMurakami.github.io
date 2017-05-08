@@ -85,7 +85,7 @@ Integration
         
         - 24
         
-            7. [Galvão & Fankhauser 2015; Cur Opin Neurobiol](http://www.sciencedirect.com/science/article/pii/S0959438815000227); <FONT color="green">低</FONT>
+            7. [Galvão & Fankhauser 2015; Curr Opin Neurobiol](http://www.sciencedirect.com/science/article/pii/S0959438815000227); <FONT color="green">低</FONT>
                 - Sensing the light environment in plants: photoreceptors and early signaling steps
                 - 植物の光センシングに関する異分野への概説系レビュー
                 - Chemical寄り
@@ -417,7 +417,7 @@ Integration
         
         - 28
             
-            50. [Granier & Vile 2014; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526614000259); 20170228済
+            50. [Granier & Vile 2014; Curr Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526614000259); 20170228済
                 - Phenotyping and beyond: modelling the relationships between traits
                 - phenotyping系のレビューが乱立しているような
             
@@ -800,7 +800,7 @@ Integration
             
         - 16
         
-            109. [Demmig-Adams et al. 2017; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526616301704); <FONT color="green">20170416済</FONT>
+            109. [Demmig-Adams et al. 2017; Curr Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526616301704); <FONT color="green">20170416済</FONT>
                 - Environmental regulation of intrinsic photosynthetic capacity: an integrated view
                 - 最大光合成能力の環境応答を制御する要因について
                     - おもに気温・光に着目
@@ -896,6 +896,7 @@ Integration
                     
             125. [Grace et al. 2007; Global Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-2486.2007.01352.x/full); <FONT color="green">中</FONT>
                 - Can we measure terrestrial photosynthesis from space directly, using spectral reflectance and fluorescence?
+                - Fig. 1のスケールおかしくね？
                 
             126. [Gamon et al. 1990; Oecologia](https://link.springer.com/article/10.1007%2FBF00317336?LI=true); 20170420済
                 - Remote sensing of xanthophyll cycle and chlorophyll fluorescence in sunflower leaves and canopies
@@ -960,7 +961,7 @@ Integration
                 - Brodersenは、Vogelmannとよく組んでるあの人と同一っぽい
                     - ミドルネーム入れるか入れないか、統一してほしいなぁ
             
-            138. [Armbruster et al. 2017; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S136952661730002X); <FONT color="green">20170422済</FONT>
+            138. [Armbruster et al. 2017; Curr Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S136952661730002X); <FONT color="green">20170422済</FONT>
                 - The regulation of the chloroplast proton motive force plays a key role for photosynthesis in fluctuating light
                 - pmfの概説に良かった
                     - pmfのうち、ψとΔpHはそれぞれPSII阻害・PSI阻害に対応するイメージ
@@ -983,7 +984,7 @@ Integration
             
         - 25
         
-            141. [Zhu et al. 2012; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526612000222); <FONT color="green">20170425済</FONT>
+            141. [Zhu et al. 2012; Curr Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526612000222); <FONT color="green">20170425済</FONT>
                 - Elements of a dynamic systems model of canopy photosynthesis
                 - 群落レベルでの光合成モデルを“dynamic systems model”へ発展させるためには、何が必要か？がテーマ
                 - maximal productivity model/resource-use efficiency model/big-leaf model/sunlit– shaded model/multi-layer modelをレビュー
@@ -1050,3 +1051,44 @@ Integration
             151. [Matsuda et al. 2017; J Biosci Bioeng](http://www.sciencedirect.com/science/article/pii/S1389172317300853); 無・未刊
                 - Effect of temperature post viral vector inoculation on the amount of hemagglutinin transiently expressed in *Nicotiana benthamiana* leaves
                 - 松田先生
+            
+        - 8
+        
+            152. [Kanazawa et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2017.00719/full); 低
+                - Chloroplast ATP synthase modulation of the thylakoid proton motive force: implications for photosystem I and photosystem II photoprotection
+                - Kramerグループ
+                - この人は日本人なのだろうか、よくみかける
+                - *pmf*流行っている感あるなぁ
+            
+            153. Gamon et al. 1993; Curr Top Plant Physiol  ; 20170508済
+                - The dynamic 531-nanometer reflectance signal a survey of twenty angiosperm species
+                - 公式ページ見つからず、ResearchGateから
+                - leaf-level reflectrometerを作る話
+                    - 分岐ファイバの片方から励起・測定光として使うハロゲン光を葉に照射、他方のファイバから分光
+                    - 前日から暗順応した (\*コレは他の論文では違う場合もある) 葉にファイバを当てて光照射
+                    - 照射開始から5秒以内にoriginを取る
+                    - その後、10分推移を見る
+                    - 531nm reflectanceのドリフトは、およそ0.02
+                    
+            154. [Gamon et al. 2016; PNAS](http://www.pnas.org/content/113/46/13087.full); 20170508概
+                - A remotely sensed pigment index reveals photosynthetic phenology in evergreen conifers
+                - chlorophyll/carotenoid index (CCI) でフェノロジー
+                    - Modis band 11/1 が531/645 nm なのでそれを使う
+                - フェノロジーは、全球光合成モデルの季節項のようなものに必要らしい
+                    - 風呂敷感があって非常にうまい
+                    
+            155. [Rascher et al. 2007; Photogramm Eng Remote Sens](http://www.ingentaconnect.com/content/asprs/pers/2007/00000073/00000001/art00003); 20170508済
+                - Monitoring the spatio-temporal dynamics with a portable hyperspectral imaging system
+                - 初雑誌
+                - `Grace et al. 2007`から
+                - PRIの2Dイメージングをマルチスペクトルカメラで出している
+                    - カメラ性能もあり、イケている画像ではない
+                        - 主成分分析をかけてPCでスムージングをするというハイソな方法でスペクトルを平滑化している
+                    - 時間分解能は分レベル
+                    - Fig. 3では、光照射開始以降の推移が安定しているが、Fig. 5を見る限り、個体差は大きい
+                - いくつか文献を読まないと
+                    - “The PRI ... is negatively correlated with NPQ and has been successfully used to detect changes in photosynthetic efficiency at the leaf level (Peñuelas et al., 1995b and 1997; Gamon et al., 1997; **Guo and Trotter, 2004**), small canopy level (Gamon et al., 1992; Filella et al., 1996; **Stylinski et al., 2002**; **Trotter et al., 2002**), and recently at the ecosystem level (Peñuelas and Inoue, 2000; Rahman et al., 2001; Nichol et al., 2000 and 2002)”
+                - いわく、「PRIは光合成反応に直接関係する唯一の反射指標」
+                    - “Nevertheless, PRI still remains as the only valid reflectance index directly implicated in the photosynthetic reactions.”
+                    - 強気だ
+                    - Sunlight-induced chlorophyll fluorescenceとか...
