@@ -11,9 +11,24 @@ output:
     - `無`は現時点で(自分にとって)読む必要がないもの
 - `引`は引用に使いそうなもの
 - `未刊`はin press
+- `未取得`はダウンロードしていないもの
 - `有償`はアクセス権がなくて有償なもの、おもに書籍
-- <FONT color="green">緑文字</FONT>: Review article
-- <FONT color="blue">青文字</FONT>: Meta analysis
+- 文字: Research article
+- <FONT color="green">文字</FONT>: Review article
+- <FONT color="blue">文字</FONT>: Meta analysis
+- <FONT color="cyan">文字</FONT>: Other article without data
+
+アクセスできないリスト
+
+- 東大
+    - HortScience
+    - HortTechnology
+    - J ASHS
+
+- 山口大
+    - Funct Plant Biol
+    - Nature Plants (刊行後しばらく)
+    - Plant Cell (刊行後しばらく)
 
 ```{r, eval = F}
 library(rvest)
@@ -48,7 +63,7 @@ num_paper <-
                 - 感染で一度閉じた気孔を、Coronatineというphytotoxinにより再度開かせる
                 - 後輩に投げつける
             
-            2. [de Vries et al. 2017; Trends Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302060); <FONT color="green">高・未刊</FONT>
+            2. [de Vries et al. 2017; Trends Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138516302060); <FONT color="cyan">高</FONT>
                 - Dynamic Plant–Plant– Herbivore Interactions Govern Plant Growth–Defence
 Integration
                 - 光獲得と対被食のトレードオフに関して
@@ -90,7 +105,7 @@ Integration
                 - 植物の光センシングに関する異分野への概説系レビュー
                 - Chemical寄り
             
-            8. [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract); 高・未刊
+            8. [Razzak et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12921/abstract); 高
                 - Differential response of Scots pine seedlings to variable intensity and ratio of R and FR light
                 - ヨーロッパアカマツ苗の光強度 x R/FR比への応答
                 - 胚軸長、色素蓄積など
@@ -201,7 +216,7 @@ Integration
         
         - 01
         
-            23. [Cai et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S101113441631065X); 20170201済・未刊
+            23. [Cai et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S101113441631065X); 20170201済
                 - The water-water cycle is a major electron sink in *Camellia* species when CO~2~ assimilation is restricted
                 - ツバキ３品種のAEF活性について
                     - ツバキはなぜか赤青光下で速やかに気孔が閉じる
@@ -304,10 +319,17 @@ Integration
         
         - 10
         
-            37. [Vialet-Chabrand et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/02/09/pp.16.01767.short?rss=1); 高・未刊
-                - Importance of fluctuations in light on pant photosynthetic acclimation
-                - タイトルがtypoってる (pantじゃなくてplantだろう、たぶん)
+            37. [Vialet-Chabrand et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/02/09/pp.16.01767.short?rss=1); 高
+                - Importance of fluctuations in light on ~~pant~~ plant photosynthetic acclimation
+                - ~~タイトルがtypoってる (pantじゃなくてplantだろう、たぶん)~~治った
                 - 変動光、はやってる
+                - ようやくダウンロード (20170509)
+                    - これはいい論文のにおいがする
+                    - 変動x強光は定常x強光と比較して陰葉よりの資源利用 (厚さ・呼吸速度など) だが、PPFD-Pn~area~は同レベルで、PPFD-Pn~mass~だと有利
+                        - タンパク系はあまり差なし
+                    - 変動光は、光合成順化的にはよい (曖昧) こともあるが、乾物生産の面では不利
+                    - ggplotのデフォルトカラーなので、色に意味をつけてほしかった (FL: 赤系・SQ: 青系とか)
+                    - SE、SDじゃなくてCIで出してきたが、*n*はたぶん疑似反復だ
               
         - 12
         
@@ -463,7 +485,7 @@ Integration
                 - 上がって下がる三角形の経時パターンのモデル化
                 - ショウジョウバエの産卵数
                 
-            57. [古在 2017; 植物環境工学](https://www.jstage.jst.go.jp/article/shita/29/1/29_3/_article/-char/ja/); <FONT color="green">201703XX済・引</FONT>
+            57. [古在 2017; 植物環境工学](https://www.jstage.jst.go.jp/article/shita/29/1/29_3/_article/-char/ja/); <FONT color="cyan">201703XX済・引</FONT>
                 - 植物工場研究に関する用語と単位
                 - PPF vs PPFD論争は果たして...
                     - “米国園芸学会では、PPFDをPPFと表記するように求めているようだが、いずれ修正されるであろう (p. 6)”
@@ -944,6 +966,7 @@ Integration
                 - PSII超複合体の構造 (リン酸化かな？) の短期的な光強度応答
                 
             135. [Willocquet et al. 2017; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138517300237?dgcid=Newsletters%20%26%20Alerts_email_SDPR-EXP3-VAR1); <FONT color="green">無・未刊</FONT>
+                - Multiscale phenotyping and decision strategies in breeding for resistance
                 - とりあえず
             
             136. [Weng et al. 2010; Tree Physiol](https://academic.oup.com/treephys/article/30/4/469/1682565/Relationship-between-photochemical-efficiency-of); 高
@@ -1092,3 +1115,61 @@ Integration
                     - “Nevertheless, PRI still remains as the only valid reflectance index directly implicated in the photosynthetic reactions.”
                     - 強気だ
                     - Sunlight-induced chlorophyll fluorescenceとか...
+                
+        - 9
+        
+            156. [Gamon et al. 1997; Oecologia](https://link.springer.com/article/10.1007/s004420050337); 高
+                - The photochemical ref̄ectance index: an optical indicator of photosynthetic radiation use effciency across species, functional types, and nutrient levels
+                - PRIのPPFD・CO~2~への時間応答
+                    - 時間応答系だと、あとは、`Peñuelas et al. 1995` (リーズナブルなレンジ)、`Méthy 2000` (個人的に不信)、`Rascher et al. 2007` (イメージングでやっている)
+                
+            157.  [Fankhauser & Batschauer 2016; Cell](http://www.sciencedirect.com/science/article/pii/S0092867415017079); <FONT color="cyan">20170509済</FONT>
+                - Shadow on the plant: a strategy to exit
+                - Mendeleyのメールアラートから
+                - SAS (shade avoidance syndrome) というフレーズが、最近プッシュされている
+                    - syndromeって少なくとも日本語ではネガティブな意味を持つから気持ち悪いフレーズ
+                    - 英語でもポジティブ要素はない (Cambridge dictionary: “US: a combination of medical problems that commonly go together and that show the existence of a disease”, ‘UK: a type of negative behaviour or mental state that is typical of a person in a particular situation:’)
+                - 同誌の`Pedmale et al. 2016`では、弱青色光のもとではcry1/2とPIF4/5が協調し、同一のSASプロモータに影響していることを示しているらしい
+                - 「R/FR比センシングに最適化されたPhy系に加え、他波長帯の受容体が存在する意義は何か？」について
+                    1. 群落内のノイジィな光環境に応答するため (共変量だから説明できない、と思う)
+                    2. 遮蔽が起こっていなくてもFRの高反射によりR/FRが低下しうるため、光量・光質のダブルチェックがベター (Rへの応答とR/FRへの応答を重複させる、という解決でもいいからあまりリーズナブルな説明ではない)
+                    3. 応答速度の異なる反応 (青色光反応の方が遅いらしい) を併用することが、“a sustanable program to escape from shade”
+                - PHY/PIF7系はおもにauxin生成量と分配量のupregulationに起因、CRY/PIF4/5系はおもに“cell wall modification”に起因するらしく、メカニズムが違う
+                - CRYのblue/green可逆についてもちらっと
+                    - CRYの色素団のFADのredoxで吸収帯が変わる
+                
+            158. [Pedmale et al. 2016; Cell](http://www.sciencedirect.com/science/article/pii/S0092867415016426); 無
+                - Cryptochromes interact directly with PIFs to control plant growth in limiting blue light
+                - `Fankhauser & Batschauer 2016`から
+                - 一応、って感じ
+              
+            159. [Karasov et al. 2017; Plant Cell](http://www.plantcell.org/content/29/4/666.short?rss=1); <FONT color = "green">高・未刊・未取得</FONT>
+                - Mechanisms to mitigate the trade-off between growth and defense
+                - はじめて見るグループ (Max Planck Inst.とChicago Univ.)
+                    - abstにreviewってあるが...
+                    - “Exciting new evidence ... lending plants shape their microbiome to enhance” defense
+                - まだアクセス権がないので、印刷待ち
+            
+            160. [Thomas et al. 2017; Funct Plant Biol](http://www.publish.csiro.au/FP/FP16127); 中・未取得
+                - Observation of plant–pathogen interaction by simultaneous hyperspectral imaging reflection and transmission measurements
+                - ResearchGate経由でRequest
+                    - FPBはいい論文が多いのに人気はないのが不思議
+                    - CSIRO/ANUの人がやんごとなき理由で出してる？
+                
+            161. [Rascher & Pieruschka 2008; Precis Agric](https://link.springer.com/article/10.1007/s11119-008-9074-0); 20170509済
+                - Spatio-temporal variations of photosynthesis: the potential of optical remote sensing to better understand and scale light use efficiency and stresses of plant ecosystems
+                - CO2・O3のSoy-FACEに対してPRIで光合成への影響を解析
+                    - いずれの区もリング外でPRIが上がっており、期待にあわず
+                        - “We assume that these differences are related to the manual selection of the regions of interest.”
+                    - CO2リングとO3リングでPRIの絶対値に隔たりがあるのは、1時間空いて太陽高度などが代わったせいだろう、と解釈
+                - 残りはLIFT vs PAMや太陽光クロロフィル蛍光などに話題がシフト
+                - あまり完成度が高い論文ではない
+                
+            162. [Méthy 2000; Photosynthica](https://link.springer.com/article/10.1023/A:1012449104831); 20170509済
+                - Analysis of photosynthetic activity at the leaf and canopy levels from reflectance measurements: a case study
+                - PRIと光利用効率は群落レベルだと相関がとれない、という`Rascher & Pieruschka 2008`の引用から
+                - Fig.3Bが問題の図
+                    - 渦相関で出したCO~2~ FluxとPRIの時系列
+                    - {CO~2~ Flux / PPFD} vs PRIで書いていないから議論にならない
+                    - Discussionで相関がとれない文献として引いている`Carter 1998` はPRI vs photosynthetic capacityなので不適、`Gamon et al. 1992`は老化した下位葉では相関がとれない、という話なのでイマイチ引用
+                - Fig.1の尋常じゃなく速いPRI応答とFig.2の尋常じゃなくよいPSII-PRI回帰のこともあり、この論文を信じることができない
