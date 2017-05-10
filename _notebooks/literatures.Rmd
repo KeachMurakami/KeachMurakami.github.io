@@ -1173,3 +1173,42 @@ Integration
                     - {CO<sub>2</sub> Flux / PPFD} vs PRIで書いていないから議論にならない
                     - Discussionで相関がとれない文献として引いている`Carter 1998` はPRI vs photosynthetic capacityなので不適、`Gamon et al. 1992`は老化した下位葉では相関がとれない、という話なのでイマイチ引用
                 - Fig.1の尋常じゃなく速いPRI応答とFig.2の尋常じゃなくよいPSII-PRI回帰のこともあり、この論文を信じることができない
+                
+        - 10
+        
+            LIFTサーベイ
+                - いずれもOsmond@ANUのグループ
+            
+            
+            163. [Ananyev et al. 2005; Global Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-2486.2005.00988.x/full); 20170510済
+                - Remote sensing of heterogeneity in photosynthetic efficiency, electron transport and dissipation of excess light in Populus deltoides stands under ambient and elevated CO<sub>2</sub> concentrations, and in a tropical forest canopy, using a new laser-induced fluorescence transient device
+        
+            164. [Kolber et al. 2005; Photosynth Res](https://link.springer.com/article/10.1007/s11120-005-5092-1); 20170510済
+                - Measuring photosynthetic parameters at a distance: laser induced fluorescence transient (LIFT) method for remote measurements of photosynthesis in terrestrial vegetation
+                - PSIIの光吸収断面積も出せるらしい (PCEの論文に引用できていない...)
+                - 高PFD条件だとMINI-PAMと比べてノイジィなデータになっているが、たぶんS/N比の問題だろう、と解釈
+                    - “... at high irradiance the LIFT-based ETR values are much noisier than the Mini-PAM data (Figure 2b)”.
+                    - 強励起光下では、
+                        - Q<sub>A</sub>の酸化還元レベルの変動幅が小さい
+                        - 励起光による蛍光とそのノイズが卓越する
+                - *F*<sub>v</sub>/*F*<sub>m</sub>が、9%程度ずれており、そのくらいの系統誤差はあるだろう、と考えている (どっちが高いのかは書いていない)
+                - 光照射後のNPQ誘導は複相で、それぞれ半減期が60秒、15--30分
+                    - “The wild type (Figure 4a) displayed two characteristic components in the NPQ response; a fast component, with a t<sub>1/2</sub> of about 60 s, and a slow one, with t<sub>1/2</sub> of about 15–30 min”
+                - Light on直後のNPQのマイナス方向の変化 (i.e. *F*'<sub>m</sub>のプラス方向の変化) についてはうまく説明できない、という結果
+                    - *F*<sub>m</sub>時にPAM方で使っているExcitation energyの方がよっぽど大きいので、そこの問題ではないとのこと
+            
+            165. [Osmond et al. 2004; Global Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1529-8817.2003.00747.x/full); <FONT color = "cyan">低</FONT>
+                - Changing the way we think about global change research: scaling up in experimental ecosystem science
+                - `Kolber et al. 2005`で“LIFTはもともと...”、というようなところで触れられていたので
+                    - “The LIFT method was developed primarily for continuous monitoring of the photosynthetic properties in the relatively inaccessible outer canopy of trees over long time periods (Osmond et al. 2004; Ananyev et al. 2005).”
+                
+            166. [Pieruschka et al. 2012; Book chapter](https://link.springer.com/protocol/10.1007/978-1-61779-995-2_5); <FONT color = "cyan">20170510済</FONT>
+                - Remote chlorophyll fluorescence measurements with the laser-induced fluorescence transient approach
+                - ResearchGateから
+                - とても簡単なLIFTのサマリー
+                - Osmondグループのセットアップだと、およそ680 µmol m<sup>-2</sup> s<sup>-1</sup>で直径9cm程度
+                - コリメートしたらポンプ&プローブで簡単にいけないかなぁ
+            
+            167. [Malenovslý et al. 2009; JXB](https://academic.oup.com/jxb/article/60/11/2987/533160/Scientific-and-technical-challenges-in-remote); <FONT color = "cyan">低</FONT>
+                - Scientific and technical challenges in remote sensing of plant canopy reflectance and fluorescence
+                - リモートセンシングでの反射・蛍光計測型の手法に関する全般的なレビュー
