@@ -17,10 +17,12 @@ layout: default
 > (*孫引き*; 北川・樋口 1998; 数理科学, p. 12)
 
 
-# 光合成系
+# 植物系
 
 ## 金言
 
+> Scaling is a naturally iterative and bi-directional component of problem solving in ecology and in climate science.
+> (Osmond et al. 2004; GCB)
 
 ## 論文
 
