@@ -156,7 +156,7 @@ Integration
             14. [Riikonen 2017; Forest Ecol Manag](http://www.sciencedirect.com/science/article/pii/S0378112716311173); 20170128済
                 - Content of far-red light in supplemental light modified characteristics related to drought tolerance and post-planting growth in Scots pine seedlings
                 - アカマツの苗木にFR添加したときの耐乾燥性とその後の成長
-                - *in situ*水利用効率 (*P*~n~/*g*~s~) をRGB光源で測定した値で議論
+                - *in situ*水利用効率 (*P*<sub>n</sub>/*g*<sub>s</sub>) をRGB光源で測定した値で議論
                     - *in situ*な光 (=太陽光) のもとでは？
                     - 典型的な栽培光x測定光の交互作用問題
                 - GLMMで、`ORIG x FR`項の係数を水準ごとに解析できるようダミー変数でバラすテクニック
@@ -187,9 +187,9 @@ Integration
                     - Nawrockiはこれ引いてないな...
                 
             19. [Heyno et al. 2014; Phil Trans R Soc Lond B](http://rstb.royalsocietypublishing.org/content/369/1640/20130228); 20170130済
-                - Putative role of the malate valve enzyme NADP–malate dehydrogenase in H~2~O~2~ signalling in *Arabidopsis*
+                - Putative role of the malate valve enzyme NADP–malate dehydrogenase in H<sub>2</sub>O<sub>2</sub> signalling in *Arabidopsis*
                 - `Geigenberger et al. (2017)`をつらつら読んでいて引っかかったので
-                - Malate valveでのNADP-malate-DHがH~2~O~2~経由のシグナリングとリンクしている
+                - Malate valveでのNADP-malate-DHがH<sub>2</sub>O<sub>2</sub>経由のシグナリングとリンクしている
                     - 因果関係をダイレクトに示すものではないように思うが
                 - Supporting Tableの1より大きいphi(II)とは...
             
@@ -217,20 +217,20 @@ Integration
         - 01
         
             23. [Cai et al. 2017; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S101113441631065X); 20170201済
-                - The water-water cycle is a major electron sink in *Camellia* species when CO~2~ assimilation is restricted
+                - The water-water cycle is a major electron sink in *Camellia* species when CO<sub>2</sub> assimilation is restricted
                 - ツバキ３品種のAEF活性について
                     - ツバキはなぜか赤青光下で速やかに気孔が閉じる
-                - WWCが強光かつ低*P*~n~条件 (光呼吸条件) で重要になる
-                    1. 気孔が閉じてCO~2~供給が遅れる (これはツバキでユニークっぽい)
-                    2. *V*~o~/*V*~c~が上がる
-                    3. ATP/NADPH要求が増える (*V*~o~だと1.5, *V*~c~だと1.75なので)
+                - WWCが強光かつ低*P*<sub>n</sub>条件 (光呼吸条件) で重要になる
+                    1. 気孔が閉じてCO<sub>2</sub>供給が遅れる (これはツバキでユニークっぽい)
+                    2. *V*<sub>o</sub>/*V*<sub>c</sub>が上がる
+                    3. ATP/NADPH要求が増える (*V*<sub>o</sub>だと1.5, *V*<sub>c</sub>だと1.75なので)
                     4. WWCでNADPH生産を減らす
                 - 実験・議論ともエレガントで明快
             
             24. [Nishikawa et al. 2012; PCP](https://academic.oup.com/pcp/article-lookup/doi/10.1093/pcp/pcs153); 20170202済
-                - PGR5-Dependent Cyclic Electron Transport Around PSI Contributes to the Redox Homeostasis in Chloroplasts Rather Than CO~2~ Fixation and Biomass Production in Rice
+                - PGR5-Dependent Cyclic Electron Transport Around PSI Contributes to the Redox Homeostasis in Chloroplasts Rather Than CO<sub>2</sub> Fixation and Biomass Production in Rice
                 - `Cai et al. 2017`が`Yamori et al. 2015; Sci Rep`と並べて低PFDでのCEF-PSIをサポートするとして引用していたので
-                    - *pgr5*欠損は、強光下での*P*~n~も小さくしている (有意差はないけど)
+                    - *pgr5*欠損は、強光下での*P*<sub>n</sub>も小さくしている (有意差はないけど)
                     - *pgr5*欠損は、とくに強光下でpmf (ECS解析) を低下させる
                     - やや強引な引用なのではないか...?
             
@@ -253,16 +253,16 @@ Integration
                 - このグループは勢いが凄まじい
             
             28. [Chaux et al. 2015; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2015.00875/full); <FONT color="green">20170202済</FONT>
-                - A security network in PSI photoprotection: regulation of photosynthetic control, NPQ and O~2~ photoreduction by cyclic electron flow
+                - A security network in PSI photoprotection: regulation of photosynthetic control, NPQ and O<sub>2</sub> photoreduction by cyclic electron flow
                 - “photosynthetic control”をテクニカルタームとして使っているが、流行らない気がする
-                - Cyt *b*~6~*f*の制御というよりはPSIの収率の制御だと、自分は思っている
+                - Cyt *b*<sub>6</sub>*f*の制御というよりはPSIの収率の制御だと、自分は思っている
             
             29. [Joliot & Johnson 2011; PNAS](http://www.sciencedirect.com/science/article/pii/S0005272808000972); 20170203済 (再)
                 - Regulation of cyclic and linear electron flow in higher plants
                 - arabidopsisでCEFモードの起動・終了の時間を議論
                     - 起動は20秒程度の飽和赤色光で十分
                     - 終了の1/2tはdarkで20秒程度
-                - 光化学反応の時定数 *k*~psii~ を定量する話は[Joliot & Joliot 2008; BBA](http://www.sciencedirect.com/science/article/pii/S0005272808000972)
+                - 光化学反応の時定数 *k*<sub>psii</sub> を定量する話は[Joliot & Joliot 2008; BBA](http://www.sciencedirect.com/science/article/pii/S0005272808000972)
                 - 励起エネルギー分配との区分にやや困る
                 - 非常にエレガントな論文だと再読して気づく
         
@@ -277,9 +277,9 @@ Integration
             
             31. [Dang et al. 2014; Plant Cell](http://www.plantcell.org/content/26/7/3036.abstract); 20170205済
                 - Combined Increases in Mitochondrial Cooperation and Oxygen Photoreduction Compensate for Deficiency in Cyclic Electron Flow in *Chlamydomonas reinhardtii*
-                - WTと*pgr*5の電子伝達のPFD・CO~2~応答を網羅的に解析している労力が凄まじい研究
+                - WTと*pgr*5の電子伝達のPFD・CO<sub>2</sub>応答を網羅的に解析している労力が凄まじい研究
                 - 根底には、「PGR-CEFの欠損によりATP不足がWTよりさらに厳しい状態で、電子伝達はどう対応しているのか？」がある
-                - Malate valve (mitorespiration) とO~2~還元 (FLV・Mehler) がATP不足をサポートする
+                - Malate valve (mitorespiration) とO<sub>2</sub>還元 (FLV・Mehler) がATP不足をサポートする
                 - *pgr*5はRCIを減らして系I結合LHCIIを増やしている...？
                 - 変動光下ではやっぱり成育阻害が起こる
                 - Ruuska、Drieverあたりでも思ったがMIMSいいな
@@ -302,8 +302,8 @@ Integration
         
             35. [Feild et al. 1998; Plant Physiol](http://www.plantphysiol.org/content/116/4/1209.long); 20170207済
                 - Nonphotochemical Reduction of the Plastoquinone Pool in Sunflower Leaves Originates from Chlororespiration
-                - *F*~o~と阻害剤を多用した暗条件下でのchlororesprationの挙動の解析
-                - ヒマワリのpreincubation条件を振って、postilluminationでdark下での*F*~o~を観察
+                - *F*<sub>o</sub>と阻害剤を多用した暗条件下でのchlororesprationの挙動の解析
+                - ヒマワリのpreincubation条件を振って、postilluminationでdark下での*F*<sub>o</sub>を観察
                     - illuminationが10 min 1000 µmol m^-2^ s^-1^なのにそれにincubation条件がキャンセルされないのが新鮮
                 - この論文のchlororespirationのターンオーバ速度を、0.1 mmolChl m^-2^でフラックスに換算すると、mmole^-1^ molChl^-1^ s^-1^ ~ 10^-1^ µmole^-1^ m^-2^ s^-1^で、暗条件でのPQへの電子伝達は、0.07 µmole^-1^ m^-2^ s^-1^程度の微弱なもの
                 - rotenoneを加えてNDH経路を止めてもPQの再還元が起こる理由を、“Although this may indicate a rotenone-insensitive pathway for dark PQ reduction, it is equally likely that incomplete infiltration of rotenone into the leaves is the explanation.”と書いているが、単純にrotenone耐性の2型NDHなのでは...?
@@ -313,7 +313,7 @@ Integration
         
             36. [Yan et al. 2017; Global Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/gcb.13654/abstract); <FONT color="blue">低・未刊</FONT>
                 - Contrasting responses of leaf stomatal characteristics to climate change: a considerable challenge to predict carbon and water cycles
-                - CO~2~、temperature、droughtで気孔密度をメタ解析
+                - CO<sub>2</sub>、temperature、droughtで気孔密度をメタ解析
                 - 標高・時代を交絡因子として扱っているっぽい
                 - メタ解析、いつかやってみたいので
         
@@ -325,7 +325,7 @@ Integration
                 - 変動光、はやってる
                 - ようやくダウンロード (20170509)
                     - これはいい論文のにおいがする
-                    - 変動x強光は定常x強光と比較して陰葉よりの資源利用 (厚さ・呼吸速度など) だが、PPFD-Pn~area~は同レベルで、PPFD-Pn~mass~だと有利
+                    - 変動x強光は定常x強光と比較して陰葉よりの資源利用 (厚さ・呼吸速度など) だが、PPFD-Pn<sub>area</sub>は同レベルで、PPFD-Pn<sub>mass</sub>だと有利
                         - タンパク系はあまり差なし
                     - 変動光は、光合成順化的にはよい (曖昧) こともあるが、乾物生産の面では不利
                     - ggplotのデフォルトカラーなので、色に意味をつけてほしかった (FL: 赤系・SQ: 青系とか)
@@ -339,14 +339,14 @@ Integration
                     - このグループも含め、なんとなくロシア・バルトあたりの論文は個人的に読みづらく感じる
                     - と思ってたらこの人のはめちゃくちゃ読みやすかったのでサンプリングバイアス
                 - ツユクサの陰性・陽性を弱光(LL)・強光(HL)で栽培して光合成特性を解析
-                - *F*~685~/*F*~740~比に注力
+                - *F*<sub>685</sub>/*F*<sub>740</sub>比に注力
                     - NPQ・state transition・chloroplast movementの３要素に分解
                     - NPQ: 早い
                     - State transition: 中間程度
-                    - chloroplast movement: *t*~1/2~ ~ 10 min (Ptushenko et al. 2017)
+                    - chloroplast movement: *t*<sub>1/2</sub> ~ 10 min (Ptushenko et al. 2017)
                 - LLだと77K蛍光ピーク強度比のstate transitionが単相だが、HLだと二相？
-                - *T*~light~/*T*~dark~の絶対値の議論には意味がない
-                    - *T*~dark~が小さい場合に安定しないので
+                - *T*<sub>light</sub>/*T*<sub>dark</sub>の絶対値の議論には意味がない
+                    - *T*<sub>dark</sub>が小さい場合に安定しないので
                 
         - 13
         
@@ -357,7 +357,7 @@ Integration
                 - `Mishanin et al. 2017`から
                 
             40. [Mishanin et al. 2016; Photosynth Res](http://link.springer.com/article/10.1007%2Fs11120-016-0252-z); 中
-                - Light acclimation of shade-tolerant and light-resistant *Tradescantia* species: induction of chlorophyll *a* fluorescence and P~700~ photooxidation, expression of PsbS and Lhcb1 proteins
+                - Light acclimation of shade-tolerant and light-resistant *Tradescantia* species: induction of chlorophyll *a* fluorescence and P<sub>700</sub> photooxidation, expression of PsbS and Lhcb1 proteins
                 - `Mishanin et al. 2017`から
                 
             41. [Davis et al. 2011; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2011.02402.x/full); 中
@@ -426,7 +426,7 @@ Integration
         - 22
         
             48. [Vavasseur & Raghavendra 2005; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.2004.01276.x/full); <FONT color="green">低</FONT>
-                - Guard cell metabolism and CO~2~ sensing
+                - Guard cell metabolism and CO<sub>2</sub> sensing
                 - 第二著者の本 (Photosynthesis) を裁断するにあたり、なんとなく調べた
         
         - 27
@@ -511,7 +511,7 @@ Integration
             61. [Zhen & van Iersel, 2017; J Plant Physiol](http://www.sciencedirect.com/science/article/pii/S0176161716302826); 20170303済
                 - Far-red light is needed for efficient photochemistry and photosynthesis
                 - 所属・引用文献を見る限り、ガチ光合成の人ではなく、親近感を覚える
-                - FR添加に対して、PSIIの光化学反応は速やかに応答してEmerson様の*Y*~II~上昇が生じるが、NPQ形成には時間遅れがある
+                - FR添加に対して、PSIIの光化学反応は速やかに応答してEmerson様のY<sub>II</sub>上昇が生じるが、NPQ形成には時間遅れがある
                 - FR-doseに関してはほとんどなし、これはPSIIリミットがすぐに解消されて律速の切り替わりが起こるから
                 - Pn/PPFDを出すことで、FRの影響を除いたPAR領域の利用率に言及
                     - 藻類時代の片側enhancementのあたりで誰かやってたはず
@@ -556,7 +556,7 @@ Integration
                 - Kinetics and Heterogeneity of Energy Transfer from Light Harvesting Complex II to Photosystem I in the Supercomplex Isolated from Arabidopsis
                 
             68. [Semchonok et al. 2017; BBA](http://www.sciencedirect.com/science/article/pii/S0005272817300439); 低・未刊
-                - Interaction between the photoprotective protein LHCSR3 and C~2~S~2~ Photosystem II supercomplex in *Chlamydomonas reinhardtii*
+                - Interaction between the photoprotective protein LHCSR3 and C<sub>2</sub>S<sub>2</sub> Photosystem II supercomplex in *Chlamydomonas reinhardtii*
                 - LHCSR3はdimerとしてPSIへ結合する
                 - LHCSR3のPSIへの結合部位は複数ある...?
                 
@@ -625,7 +625,7 @@ Integration
                 - 検定と相性の悪い実験計画だ
                 
             80. [Li et al. 2017; Int J Hydrogen Energy](http://www.sciencedirect.com/science/article/pii/S0360319917302756); 高・未刊
-                - Light conversion film promotes CO~2~ assimilation by increasing cyclic electron flow around Photosystem I in *Arabidopsis thaliana*
+                - Light conversion film promotes CO<sub>2</sub> assimilation by increasing cyclic electron flow around Photosystem I in *Arabidopsis thaliana*
                 - 初見の雑誌 & グループ
                 - これで光質が“significantly altered”は無茶だろう...
                     - conclusionではslightlyだけども
@@ -692,7 +692,7 @@ Integration
                 - Importance of the green color, absorption gradient, and spectral absorption of chloroplasts for the radiative energy balance of leaves
                 
             91. [Silva-Pérez et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12953/abstract); 低・未刊
-                - Biochemical model of C~3~ photosynthesis applied to wheat at different temperatures
+                - Biochemical model of C<sub>3</sub> photosynthesis applied to wheat at different temperatures
                 - Evansグループ
                 - C3光合成モデルの応答解析をフィールド、温室、チャンバレベルのwheatで
                 
@@ -709,7 +709,7 @@ Integration
                 
             93. [Yin et al. 2014; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-014-0030-8); 20170417済
                 - Accounting for the decrease of photosystem photochemical efficiency with increasing irradiance to estimate quantum yield of leaf photosynthesis
-                - Y~II~を測定することで、ガス交換の最大量子収率を上方修正する手法について
+                - Y<sub>II</sub>を測定することで、ガス交換の最大量子収率を上方修正する手法について
                     - 利用側ではなく、理解側の観点がつよい
                 - `Tcherkez et al. 2017`から
                     - “... both the light partition to PSII (a) and the photochemical yield of PSII (ΦPSII) have been found to increase at low light (Oberhuber et al., 1993; Yin et al., 2014)”
@@ -750,7 +750,7 @@ Integration
                 - 遮蔽による光質変化のうち、UVが気孔応答のセンシティブさに効いているらしいというデータを、Full sunlight, neutral shade (70%), UV cut, vs vegetational shadeの比較で示す
                     - 植生によるUVのカットが、気孔の応答性を高めるらしい
                     - “stomatal conductance (in high light) is lowered in plants grown under supplementary UV (Nogués et al., 1998, 1999; Yao and Liu, 2006; Martínez-Lüscher et al., 2013) and increased in plants grown under UV absorbing filters (Albert et al., 2011; Berli et al., 2013; Kataria et al., 2013)”
-                - 葉内CO~2~濃度に応答した気孔開度変化の話
+                - 葉内CO<sub>2</sub>濃度に応答した気孔開度変化の話
                     - “The subsequent decrease in [CO2] of intercellular spaces (Roelfsema et al., 2002; Young et al., 2006; Araújo et al., 2011) and increase in balance between photosyn- thetic electron transport and carbon assimilation processes (Messinger et al., 2006; Busch, 2014) are signals for stomatal opening.”
                 - Greenの気孔開度影響の話
                     - GreenでのBlue開度の打ち消し効果は、UV cutで育った葉には顕著に現れるが、vegetational shadeで育った葉には生じない
@@ -767,8 +767,8 @@ Integration
             
             99. [Ibaraki & Matsuura 2005; J Agric Meteorol](https://www.jstage.jst.go.jp/article/agrmet/60/5/60_1073/_article/-char/ja/); 20170407済
                 - Non-destructive evaluation of the photosynthetic capacity of PSII in micropropagated plants
-                - *F*~v~/*F*~m~イメージング
-                - *F*~v~/*F*~m~既知のreference葉を並べて測定することで、距離係数のkを算出
+                - *F*<sub>v</sub>/*F*<sub>m</sub>イメージング
+                - *F*<sub>v</sub>/*F*<sub>m</sub>既知のreference葉を並べて測定することで、距離係数のkを算出
             
         - 07
         
@@ -779,7 +779,7 @@ Integration
                 
             101. [Trouwborst et al. 2016; EEB](); 20170407済 (再)
                 - Plasticity of photosynthesis after the ‘red light syndrome’ in cucumber
-                - PFD vs Φ~II~の部分を確認するついでに読み直し
+                - PFD vs Y<sub>II</sub>の部分を確認するついでに読み直し
         
         - 09
         
@@ -788,7 +788,7 @@ Integration
                 - ある程度かぶっていそうな、嫌な予感がする
             
             103. [Luján et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007/s11120-017-0375-x); 低
-                - A simple and efficient method to prepare pure dimers and monomers of the cytochrome *b*~6~*f* complex from spinach
+                - A simple and efficient method to prepare pure dimers and monomers of the cytochrome *b*<sub>6</sub>*f* complex from spinach
                 - 簡単ならやりたいが、single size-exclusion chromatography (？) という技術が必要
                 
             104. [Fujiuchi et al. 2017; Biothechnol Bioeng](http://onlinelibrary.wiley.com/doi/10.1002/bit.26303/full); 無
@@ -806,7 +806,7 @@ Integration
         - 13
         
             106. [Walker et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007/s11120-017-0369-8); 低
-                - Uncertainty in measurements of the photorespiratory CO~2~ compensation point and its impact on models of leaf photosynthesis
+                - Uncertainty in measurements of the photorespiratory CO<sub>2</sub> compensation point and its impact on models of leaf photosynthesis
                 - Ortグループ
                 - どこかの項が0に漸近する系の誤差の出方なんだろうと思う
             
@@ -834,9 +834,9 @@ Integration
                 - J M Anderson のあれをイメージさせるなぁ 
             
             111. [Yin et al. 2009; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2009.01934.x/full); 高
-                - Using combined measurements of gas exchange and chlorophyll fluorescence to estimate parameters of a biochemical C~3~ photosynthesis model: a critical appraisal and a new integrated approach applied to leaves in a wheat (*Triticum aestivum*) canopy
+                - Using combined measurements of gas exchange and chlorophyll fluorescence to estimate parameters of a biochemical C<sub>3</sub> photosynthesis model: a critical appraisal and a new integrated approach applied to leaves in a wheat (*Triticum aestivum*) canopy
                 - `Yin et al. 2014`から
-                    - “To estimate Φ~2LL~, we used the equation that describes the decline of Φ~2~ with increasing irradiance (Yin et al. 2009).”
+                    - “To estimate Φ<sub>2LL</sub>, we used the equation that describes the decline of Φ<sub>2</sub> with increasing irradiance (Yin et al. 2009).”
                 
             112. [Zhang et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2017.00328/full); 低
                 - Can the responses of photosynthesis and stomatal conductance to water and nitrogen stress combinations be modeled using a single set of parameters?
@@ -852,8 +852,8 @@ Integration
                 - Variation in measured values of photosynthetic quantum yield in ecophysiological studies
                 - `Yin et al. 2014`から
                 - “初期勾配が文献で結構小さいけど、変じゃない？ちゃんと測定できてないだけじゃない？”という渋い話
-                    - PFD-*P*~n~カーブの非直線領域まで入れるな
-                    - *C*~i~をちゃんと固定しろ
+                    - PFD-*P*<sub>n</sub>カーブの非直線領域まで入れるな
+                    - *C*<sub>i</sub>をちゃんと固定しろ
                 - 光質一緒じゃないのに議論になるのか？
                 - あたりまえ感を受けるが、生態学系の論文だとこれでもOKなのか？
                 
@@ -911,7 +911,7 @@ Integration
                     - “remote sensing can be applied to predict whole-stand photosynthesis using the simple light-use efficiency model depicted in Equation (2).”
             
             124. [Peñuelas et al. 2011; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.2011.03791.x/full); <FONT color="green">20170419済・引</FONT>
-                - Photochemical reflectance index (PRI) and remote sensing of plant CO~2~ uptake
+                - Photochemical reflectance index (PRI) and remote sensing of plant CO<sub>2</sub> uptake
                 - 衛星ベースのPRIの限界について、`Grace et al. 2007`を簡単にまとめると、群落構造、バックグラウンドから来るドリフト、反射強度の入射角・計測角に対する依存性
                     - “In brief, these problems are related to the structural differences of the canopies, to varying ‘background effects’ (e.g. soil color, moisture, shadows, or presence of other nongreen landscape components) or to the different reflectance signals derived from illumination and viewing angles variations (Filella et al., 2004; Sims et al., 2006; Hilker et al., 2010).”
                     - 環境調節条件下であれば、いずれも軽減できるので、自分の研究ではあまり影響なし
@@ -941,7 +941,7 @@ Integration
                 - 原始的な植物であるツノゴケを使って、気孔の起源と機能を解析
                 
             130. [Bernacchi et al. 2013; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12118/full); <FONT color="green">低</FONT>
-                - Modelling C~3~ photosynthesis from the chloroplast to the ecosystem
+                - Modelling C<sub>3</sub> photosynthesis from the chloroplast to the ecosystem
             
             131. [Nomura et al. 2012; Nat Commun](https://www.nature.com/articles/ncomms1926); 低
                 - Chloroplast-mediated activation of plant immune signalling in *Arabidopsis*
@@ -950,8 +950,8 @@ Integration
                 
             132. [Peñuelas et al. 1995; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.1995.tb03064.x/abstract); 20170420済
                 - Assessment of photosynthetic radiation-use efficiency with spectral reflectance
-                - 光強度変化への応答は、PRIではY~ii~より遅い
-                - “some species exhibited additional complicating features that could have influenced *R*~531~, including significant chloro- plast movement in *Phaseolus vulgaris* and a small xanthophyll content in the shade-adapted leaves of *Hedera canariensis* (unpublished).”
+                - 光強度変化への応答は、PRIではY<sub>II</sub>より遅い
+                - “some species exhibited additional complicating features that could have influenced *R*<sub>531</sub>, including significant chloro- plast movement in *Phaseolus vulgaris* and a small xanthophyll content in the shade-adapted leaves of *Hedera canariensis* (unpublished).”
                 
             133. [Gamon et al. 1992; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/003442579290059S); 20170420済
                 - A narrow-waveband spectral index that tracks diurnal changes in photosynthetic efficiency
@@ -971,13 +971,13 @@ Integration
             
             136. [Weng et al. 2010; Tree Physiol](https://academic.oup.com/treephys/article/30/4/469/1682565/Relationship-between-photochemical-efficiency-of); 高
                 - Relationship between photochemical efficiency of photosystem II and the photochemical reflectance index of mango tree: merging data from different illuminations, seasons and leaf colors
-                - PRIとY~ii~の相関を、光条件、季節、葉色の異なる複数条件からマージ
+                - PRIとY<sub>II</sub>の相関を、光条件、季節、葉色の異なる複数条件からマージ
         
         - 22
         
             137. [Earles et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/04/21/pp.17.00223.short?rss=1); 高・未刊
-                - Excess diffuse light absorption in upper mesophyll limits CO~2~ drawdown and depresses photosynthesis
-                - 散乱光は、個葉レベルではCO~2~固定にネガティブ
+                - Excess diffuse light absorption in upper mesophyll limits CO<sub>2</sub> drawdown and depresses photosynthesis
+                - 散乱光は、個葉レベルではCO<sub>2</sub>固定にネガティブ
                     - 1次元の有限要素法で鉛直方向の光環境をシミュレートしているらしい
                     - Rで組んだよ、とのことなのでコードを読みたい
                 - 葉-個体-群落の光系スケーリングでは、多くの場合、スケーリングが成り立つがこれはそうでもないらしく、結構おどろき
@@ -1120,7 +1120,7 @@ Integration
         
             156. [Gamon et al. 1997; Oecologia](https://link.springer.com/article/10.1007/s004420050337); 高
                 - The photochemical ref̄ectance index: an optical indicator of photosynthetic radiation use effciency across species, functional types, and nutrient levels
-                - PRIのPPFD・CO~2~への時間応答
+                - PRIのPPFD・CO<sub>2</sub>への時間応答
                     - 時間応答系だと、あとは、`Peñuelas et al. 1995` (リーズナブルなレンジ)、`Méthy 2000` (個人的に不信)、`Rascher et al. 2007` (イメージングでやっている)
                 
             157.  [Fankhauser & Batschauer 2016; Cell](http://www.sciencedirect.com/science/article/pii/S0092867415017079); <FONT color="cyan">20170509済</FONT>
@@ -1169,7 +1169,8 @@ Integration
                 - Analysis of photosynthetic activity at the leaf and canopy levels from reflectance measurements: a case study
                 - PRIと光利用効率は群落レベルだと相関がとれない、という`Rascher & Pieruschka 2008`の引用から
                 - Fig.3Bが問題の図
-                    - 渦相関で出したCO~2~ FluxとPRIの時系列
-                    - {CO~2~ Flux / PPFD} vs PRIで書いていないから議論にならない
+                    - 渦相関で出したCO<sub>2</sub> FluxとPRIの時系列
+                    - {CO<sub>2</sub> Flux / PPFD} vs PRIで書いていないから議論にならない
                     - Discussionで相関がとれない文献として引いている`Carter 1998` はPRI vs photosynthetic capacityなので不適、`Gamon et al. 1992`は老化した下位葉では相関がとれない、という話なのでイマイチ引用
                 - Fig.1の尋常じゃなく速いPRI応答とFig.2の尋常じゃなくよいPSII-PRI回帰のこともあり、この論文を信じることができない
+                
