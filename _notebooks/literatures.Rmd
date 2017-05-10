@@ -304,8 +304,8 @@ Integration
                 - Nonphotochemical Reduction of the Plastoquinone Pool in Sunflower Leaves Originates from Chlororespiration
                 - *F*<sub>o</sub>と阻害剤を多用した暗条件下でのchlororesprationの挙動の解析
                 - ヒマワリのpreincubation条件を振って、postilluminationでdark下での*F*<sub>o</sub>を観察
-                    - illuminationが10 min 1000 µmol m^-2^ s^-1^なのにそれにincubation条件がキャンセルされないのが新鮮
-                - この論文のchlororespirationのターンオーバ速度を、0.1 mmolChl m^-2^でフラックスに換算すると、mmole^-1^ molChl^-1^ s^-1^ ~ 10^-1^ µmole^-1^ m^-2^ s^-1^で、暗条件でのPQへの電子伝達は、0.07 µmole^-1^ m^-2^ s^-1^程度の微弱なもの
+                    - illuminationが10 min 1000 µmol m<sup>-2</sup> s<sup>-1</sup>なのにそれにincubation条件がキャンセルされないのが新鮮
+                - この論文のchlororespirationのターンオーバ速度を、0.1 mmolChl m<sup>-2</sup>でフラックスに換算すると、mmole<sup>-1</sup> molChl<sup>-1</sup> s<sup>-1</sup> ~ 10<sup>-1</sup> µmole<sup>-1</sup> m<sup>-2</sup> s<sup>-1</sup>で、暗条件でのPQへの電子伝達は、0.07 µmole<sup>-1</sup> m<sup>-2</sup> s<sup>-1</sup>程度の微弱なもの
                 - rotenoneを加えてNDH経路を止めてもPQの再還元が起こる理由を、“Although this may indicate a rotenone-insensitive pathway for dark PQ reduction, it is equally likely that incomplete infiltration of rotenone into the leaves is the explanation.”と書いているが、単純にrotenone耐性の2型NDHなのでは...?
                     - 追っかければわかりそうだけど、深入りしない
                     
@@ -703,7 +703,7 @@ Integration
                 - Kok効果のレビュー
                 - 弱光下での光合成が専門だけど、Kok効果を実感したことがない。
                 - 分解能も効いてるのかな
-                    - “A recommendation to solve this problem is to have a sufficient number of measurements: typically, at least three in the 0--10 lmol m^-2^ s^-1^ region.”
+                    - “A recommendation to solve this problem is to have a sufficient number of measurements: typically, at least three in the 0--10 lmol m<sup>-2</sup> s<sup>-1</sup> region.”
                 - ecosystemレベルでもKok効果様の挙動があるらしい (`Bruhn et al. 2011`)
                     - 線形の項が多数重なったらそうなるだろう
                 
@@ -1173,4 +1173,3 @@ Integration
                     - {CO<sub>2</sub> Flux / PPFD} vs PRIで書いていないから議論にならない
                     - Discussionで相関がとれない文献として引いている`Carter 1998` はPRI vs photosynthetic capacityなので不適、`Gamon et al. 1992`は老化した下位葉では相関がとれない、という話なのでイマイチ引用
                 - Fig.1の尋常じゃなく速いPRI応答とFig.2の尋常じゃなくよいPSII-PRI回帰のこともあり、この論文を信じることができない
-                
