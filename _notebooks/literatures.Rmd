@@ -26,9 +26,10 @@ output:
     - J ASHS
 
 - 山口大
-    - Funct Plant Biol
-    - Nature Plants (刊行後しばらく)
-    - Plant Cell (刊行後しばらく)
+    - Funct Plant Biol (契約なし)
+    - Nature Plants (契約なし)
+    - Philos Trans R Soc (契約なし)
+    - Plant Cell (刊行後しばらくアクセス権なし)
 
 ```{r, eval = F}
 library(rvest)
@@ -1212,3 +1213,24 @@ Integration
             167. [Malenovslý et al. 2009; JXB](https://academic.oup.com/jxb/article/60/11/2987/533160/Scientific-and-technical-challenges-in-remote); <FONT color = "cyan">低</FONT>
                 - Scientific and technical challenges in remote sensing of plant canopy reflectance and fluorescence
                 - リモートセンシングでの反射・蛍光計測型の手法に関する全般的なレビュー
+            
+        - 11
+        
+            168. [Hmimina et al. 2014; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12171/full); 20170511済 (イントロ未)
+                - Relationship between photochemical reflectance index and leaf ecophysiological and biochemical parameters under two different water statuses: towards a rapid and efficient correction method using real-time measurements
+                - 明条件下でのPRIから暗条件下での値を引いて、補正PRIを算出すると、色素濃度などの影響をオフセットできる、というシンプルな方法
+                - これもPRIのタイムコースを追っている
+                - やや注意不足で不安な論文
+                    - LUEの計算法がなく0.02程度のレンジ
+                        - よくわからん
+                    - 反射率が0.4% (単純に1/100)
+                    - コンダクタンスの単位は？
+                    - wavelengthではなくlambda...
+                    - なぜ赤青で色つけたのに散布図を形で認識させようとする...
+                    
+            169. [Gamon & Berry 2012; Isr J Plant Sci](http://www.tandfonline.com/doi/abs/10.1560/IJPS.60.1-2.85); 20170511概
+                - Facultative and constitutive pigment effects on the Photochemical Reflectance Index (PRI) in sun and shade conifer needles
+                - `Hmimina et al. 2014`より、PRIの定数部分 (cPRI) と変動部分 (ΔPRI) について
+                - cPRIが色素組成とリンクしている
+                - ΔPRIと*Y*<sub>II</sub>と来るかと思えばそうでもなし
+                - Gitelsonさんの70歳祝いらしい
