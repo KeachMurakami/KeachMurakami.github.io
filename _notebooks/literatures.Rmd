@@ -1151,10 +1151,17 @@ Integration
                     - “Exciting new evidence ... lending plants shape their microbiome to enhance” defense
                 - まだアクセス権がないので、印刷待ち
             
-            160. [Thomas et al. 2017; Funct Plant Biol](http://www.publish.csiro.au/FP/FP16127); 中・未取得
+            160. [Thomas et al. 2017; Funct Plant Biol](http://www.publish.csiro.au/FP/FP16127); 20170512
                 - Observation of plant–pathogen interaction by simultaneous hyperspectral imaging reflection and transmission measurements
-                - ResearchGate経由でRequest
-                    - FPBはいい論文が多いのに人気はないのが不思議
+                - Univ. BonnのMahleinグループ
+                    - ResearchGate経由でRequest
+                    - 即日でいただいた。ありがたい。
+                - オオムギ葉のうどん粉病の検出
+                - ハイパースペクトル画像に波長で主成分分析をかけるクラシカルな方法
+                    - ローディングを見る限り、可視の葉色の変化成分 (PC1) と光合成色素のバンドに対応しているクロロフィルっぽい成分 (PC2) を分離している
+                    - 反射 (表面側) 画像は早期検出
+                    - 透過 (whole-leaf) 画像は、反射との差から、病害の進行の仕方を解析するのに向いている
+                - FPBはいい論文が多いのに人気はないのが不思議
                     - CSIRO/ANUの人がやんごとなき理由で出してる？
                 
             161. [Rascher & Pieruschka 2008; Precis Agric](https://link.springer.com/article/10.1007/s11119-008-9074-0); 20170509済
@@ -1216,21 +1223,72 @@ Integration
             
         - 11
         
-            168. [Hmimina et al. 2014; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12171/full); 20170511済 (イントロ未)
+            168. [Hmimina et al. 2014; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12171/full); ~~20170511済 (イントロ未)~~ 20170512済
                 - Relationship between photochemical reflectance index and leaf ecophysiological and biochemical parameters under two different water statuses: towards a rapid and efficient correction method using real-time measurements
                 - 明条件下でのPRIから暗条件下での値を引いて、補正PRIを算出すると、色素濃度などの影響をオフセットできる、というシンプルな方法
                 - これもPRIのタイムコースを追っている
                 - やや注意不足で不安な論文
                     - LUEの計算法がなく0.02程度のレンジ
                         - よくわからん
+                        - 単純に*P*<sub>n</sub>/PFDでよさそう
                     - 反射率が0.4% (単純に1/100)
                     - コンダクタンスの単位は？
                     - wavelengthではなくlambda...
                     - なぜ赤青で色つけたのに散布図を形で認識させようとする...
                     
-            169. [Gamon & Berry 2012; Isr J Plant Sci](http://www.tandfonline.com/doi/abs/10.1560/IJPS.60.1-2.85); 20170511概
+            169. [Gamon & Berry 2012; Isr J Plant Sci](http://www.tandfonline.com/doi/abs/10.1560/IJPS.60.1-2.85); ~~20170511概~~ 20170512済
                 - Facultative and constitutive pigment effects on the Photochemical Reflectance Index (PRI) in sun and shade conifer needles
                 - `Hmimina et al. 2014`より、PRIの定数部分 (cPRI) と変動部分 (ΔPRI) について
                 - cPRIが色素組成とリンクしている
+                    - xanthophyll (V+A+Z) ではなく、lutein量と相関
+                    - “constitutive carotenoid pigment pool sizes, not xanthophyll cycle pigments, are the primary source of PRI variability across species and canopy positions.”
+                - sun-leafのdark-light transitionでのPRI変動を100%とすると、shade-leafでのdark-light時変動は60%
                 - ΔPRIと*Y*<sub>II</sub>と来るかと思えばそうでもなし
                 - Gitelsonさんの70歳祝いらしい
+                - 変動成分のdark-light (full sunlight) transition は10分程度
+                - lutein絡みのepoxidation cycleについても言及
+                    - “..., the lutein deepoxidase cycle appears to be involved in energy dis- sipation (García-Plazaola et al., 2007)”
+                    - “..., the lutein deepoxidation cycle has been observed in many species, including some trees (García-Plazaola et al., 2002; Matsubara et al., 2007), but to our knowledge its presence or function in conifers has not yet been conclusively demonstrated.”
+                
+      - 12
+      
+          170. [Soudani et al. 2014; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425714000303); 低
+              - Relationships between photochemical reflectance index and light-use efficiency in deciduous and evergreen broadleaf forests
+              
+          171. [Hmimina et al. 2015; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12509/abstract); 20170512概
+              - Deconvolution of pigment and physiologically related photochemical reflectance index variability at the canopy scale over an entire growing season
+              - `Hmimina et al. 2015`のLUEはこれと同じなら*P*<sub>n</sub>/PPFD
+                  - どうせモデルで出しているんだから、*R*<sub>d</sub>も補正した方がいいのに
+              - $PRI(t) = PRI_\rm{o} + \Delta PRI ~ \times ~ error\_funct(\dfrac{PPFD(t)}{PPFD_\rm{sat}})$でPRIをモデル化
+                  - 誤差関数の扱いが変じゃないか？
+                  - kineticsにするなら、履歴系の関数にする必要があるような
+              - Fig. 4は重複データなような？
+                  - そもそもガス交換の測定の詳細がないから十分に理解できない
+              - 引用には使いづらい
+              
+          172. [Nakaji et al. 2006; Int J Remote Sens](http://www.tandfonline.com/doi/abs/10.1080/01431160500329528); 高・未取得
+              - Seasonal changes in the relationship between photochemical reflectance index and photosynthetic light use efficiency of Japanese larch needles
+                    - ResearchGate経由でRequest
+              - `Hmimina et al. 2014, 2015`から
+                  - “Good relationships between the PRI and LUE over short periods have been shown for several species at the leaf (Gamon et al. 1992, 1997; Penuelas et al. 1995; Guo & Trotter 2004; Nakaji et al. 2006) and canopy scale (Filella et al. 1996; Trotter et al. 2002; Wu et al. 2010).”
+              - 光合成研究の`中路 2009`の詳細？
+          
+          173. [Hall et al. 2008; Rmote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425708001144); 低
+              - Multi-angle remote sensing of forest light use efficiency by observing PRI variation with canopy shadow fraction
+              - `Gamon & Berry 2012`の最後の方で触れられていた
+                  - 最後の方でちらっと振れるのは多くの場合、「これいいじゃん。直接は本筋とは関係ないけど、普及させたい。」だと思うので
+                  - “Recent studies that correct for sunlit fraction (Hall et al., 2008) are an exciting step in this direction, ...”
+              - 樹冠レベルでのPRI測定は複数角度で測るべし、って話
+                  
+                  
+          <!-- 173. [Takizawa et al. 2007; BBA](http://www.sciencedirect.com/science/article/pii/S0005272807001557) -->
+          <!--     - The thylakoid proton motive force *in vivo*. Quantitative, non-invasive probes, energetics, and regulatory consequences of light-induced *pmf* -->
+          <!--     - WSU Kramerグループ -->
+          <!--     - `Hmimina et al. 2015`から -->
+          <!--         - “The speed of xanthophyll de-epoxidation, which is associated with changes in the PRI, followed a Gaussian curve with changes in light intensity (Takizawa et al. 2007).” -->
+          <!--     - まさかPRIから*pmf*まで飛ばされるとは、Hmiminaさん、手広い -->
+          <!--         - が、もう少しいい文献がある気がする -->
+          
+          - 雑記
+              - ラボにデスクチェアが届いた
+              - 私物も事務に届くという羞恥プレイなのか...
