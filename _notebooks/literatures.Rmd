@@ -1292,3 +1292,16 @@ Integration
           - 雑記
               - ラボにデスクチェアが届いた
               - 私物も事務に届くという羞恥プレイなのか...
+      
+      - 14
+      
+          174. [Rahimzadeh-Bajgiran et al. 2012](https://link.springer.com/article/10.1007/s11120-012-9747-4); 20170514済
+              - Relationships between the photochemical reflectance index (PRI) and chlorophyll fluorescence parameters and plant pigment indices at different leaf growth stages
+              - 大政研の知らない人だ
+              - PRIドリフトの補正でCPRIという指標を提案
+                  - `Gamon & Berry 2012`や`Hmimina et al. 2014`の指標と比べてどうだろう
+                  - CPRIとdark-adapted PRIの相関を取ればわかるが...
+              
+          - 雑記
+              - PRIの像を掴んだので、一瞬で読めるになっている
+              - あとはreview/meta-analysis系の数報を読んでインプットはお終い
