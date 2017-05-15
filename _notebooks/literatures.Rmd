@@ -1331,4 +1331,5 @@ Integration
               - The photochemical reflectance index provides an optical indicator of spring photosynthetic activation in evergreen conifers
       
           - 雑記
-              - Remote Sensing を出しているMDPIはBeall's list に載ったようだが、`Zhang et al. 2016`を読むに、大丈夫そう (SRよりよっぽどイイ)
+              - Remote Sensing を出しているMDPIはBeall's list に載ったようだが、`Zhang et al. 2016`を読むに、いいんでないか？
+              - グループがいいだけ、って話もあるので要観察
