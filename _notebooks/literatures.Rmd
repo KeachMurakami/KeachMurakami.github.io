@@ -7,6 +7,7 @@ output:
 ダウンロードしたことすら忘れるので、ダウンロードした (眠っていた) 論文とそのひとことメモ
 
 - `低/中/高`は優先度
+    - `摘`は要旨のみ
     - `概`はざっと目を通したうえで、必要ないと判断したもの
     - `無`は現時点で(自分にとって)読む必要がないもの
 - `引`は引用に使いそうなもの
@@ -625,7 +626,7 @@ Integration
                 - cryでも緑が効いているので、青/緑の可逆ではない
                 - 検定と相性の悪い実験計画だ
                 
-            80. [Li et al. 2017; Int J Hydrogen Energy](http://www.sciencedirect.com/science/article/pii/S0360319917302756); 高・未刊
+            80. [Li et al. 2017; Int J Hydrogen Energy](http://www.sciencedirect.com/science/article/pii/S0360319917302756); 高
                 - Light conversion film promotes CO<sub>2</sub> assimilation by increasing cyclic electron flow around Photosystem I in *Arabidopsis thaliana*
                 - 初見の雑誌 & グループ
                 - これで光質が“significantly altered”は無茶だろう...
@@ -774,11 +775,11 @@ Integration
         - 07
         
             100. [Charbonnier et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12964/abstract); 高・未刊
-                - Increased Light-Use Efficiency Sustains Net Primary Productivity of Shaded Coffee Plants In Agroforestry System
+                - Increased light-use efficiency sustains net primary productivity of shaded coffee plants in agroforestry system
                 - 知らない人ばかり
                 - 植生による遮光下での受光量の低下と光利用効率の向上を個体レベルから圃場レベルで解析
                 
-            101. [Trouwborst et al. 2016; EEB](); 20170407済 (再)
+            101. [Trouwborst et al. 2016; EEB](http://www.sciencedirect.com/science/article/pii/S0098847215000854); 20170407済 (再)
                 - Plasticity of photosynthesis after the ‘red light syndrome’ in cucumber
                 - PFD vs Y<sub>II</sub>の部分を確認するついでに読み直し
         
@@ -877,7 +878,7 @@ Integration
                 
         - 19
         
-            - PRI (`Gamon et al. 1997`) の文献掘り
+            - PRI (`Gamon et al. 1997`) の文献掘り (PRIサーベイ)
             
             117. [Gamon & Surfus 1999; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1046/j.1469-8137.1999.00424.x/abstract); 高
                 - Assessing leaf pigment content and activity with a reflectometer
@@ -932,8 +933,17 @@ Integration
                 - `Porcar-Castell et al. 2014; JXB`も深いし、この人はフォローすべき
                     - “the seasonal variation in leaf-level PRI seems to be controlled by the slow changes in pigment pools rather than NPQ (Stylinski et al., 2002; Filella et al., 2009; Porcar-Castell et al., 2012).”
                 
-            128. [Zhang et al. 2016; Remote Sens](http://www.mdpi.com/2072-4292/8/9/677/htm); <FONT color="green">中</FONT>
+            128. [Zhang et al. 2016; Remote Sens](http://www.mdpi.com/2072-4292/8/9/677/htm); <FONT color="green">~~中~~ 20170515済</FONT>
                 - Affecting Factors and Recent Improvements of the Photochemical Reflectance Index (PRI) for Remotely Sensing Foliar, Canopy and Ecosystemic Radiation-Use Efficiencies
+                - 水生植物、コケ類、地衣類でもいけるらしい
+                    - “PRI has also been useful for studying aquatic vegetation [47], mosses [48–50] and lichens [51].”
+                - 衛星からの文献
+                    - “PRI obtained from MODIS (Moderate Resolution Imaging Spectroradiometer) [25,29,56–58], AVIRIS (Airborne Visible/Infrared Imaging Spectrometer) [59] and CHRIS/PROBA (Compact High Resolution Imaging Spectrometer launched aboard the Proba satellite) [60] can also track changes in photosynthetic performance and primary productivity at larger spatial scales.”
+                - Table 1のleaf-scaleはざらっと見ておくべし
+                    - Diurnalの話が多い
+                    - 分レベルでのinductionについては、あまりない
+                    - とくに面的イメージングでleafレベルはなさそう？
+                    - ただし、`Rascher et al. 2007`を落としているように、確実視できるわけではない
             
         - 20
             
@@ -1305,3 +1315,20 @@ Integration
           - 雑記
               - PRIの像を掴んだので、一瞬で読めるになっている
               - あとはreview/meta-analysis系の数報を読んでインプットはお終い
+              
+      - 15
+      
+          175. [Wong & Gamon 2015; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13159/full); 20170515摘
+              - Three causes of variation in the photochemical reflectance index (PRI) in evergreen conifers
+              - 色素組成変化 > 極度の低温により生じるアルベドの変化 > xanthophyll cycle
+              - アルベド変化は当面は気にしなくていい
+          
+          176. [Gamon & Bond 2013, Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425713001193); 20170515摘
+              - Effects of irradiance and photosynthetic downregulation on the photochemical reflectance index in Douglas-fir and ponderosa pine
+              - 光合成速度・気孔コンダクタンスのmidday depressionがPRIでも確認されている
+              
+          177. [Wong & Gamon](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13251/full);
+              - The photochemical reflectance index provides an optical indicator of spring photosynthetic activation in evergreen conifers
+      
+          - 雑記
+              - Remote Sensing を出しているMDPIはBeall's list に載ったようだが、`Zhang et al. 2016`を読むに、大丈夫そう (SRよりよっぽどイイ)
