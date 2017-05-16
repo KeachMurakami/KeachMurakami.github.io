@@ -1333,3 +1333,26 @@ Integration
           - 雑記
               - Remote Sensing を出しているMDPIはBeall's list に載ったようだが、`Zhang et al. 2016`を読むに、いいんでないか？
               - グループがいいだけ、って話もあるので要観察
+              
+      - 16
+      
+          178. [Kramer et al. 2016; HortTechnology](http://horttech.ashspublications.org/content/26/5/558.abstract); <FONT color="green">中</FONT>
+              - Statistics in a horticultural journal: problems and solutions
+              - サーベイとレビューまで、といったところ？
+              - 要旨までみても“solutions”に対応する何かは“教育”にしか読めない
+              - ある程度統計をやると、どのアプローチも統計的には完全ではないことがわかるせいで苦しむことになるんだよなあ
+          
+          179. [Konishi et al. 2008; ](https://link.springer.com/chapter/10.1007/978-1-4020-6709-9_141); 20170516済
+              - Spatiotemporal changes in PRI and NPQ under different light intensity gradients on leaf surfaces
+              - 大政研の小西さん
+                  - 大政先生が共著のは全部個人ページにアーカイブされているが...大丈夫なのか...？
+              - 光合成のinduction時のNPQとPRIのleaf-scaleでの空間分布を出している
+              - NPQは葉脈でコンパートメント化しているが、PRIは均一、という論調だが、Fig. 1は逆のように見える
+                  - “In Fig 1, NPQ on the leaf was heterogeneously observed (A),while PRI was homogeneously distributed (B)”
+              - PRIの変化は小さい、みたいなフレーズがあるが、画像を見る限り相対値の勾配はNPQと同レベルでありそう？
+                  - “In spite of the relatively large NPQ grdation, the pigment changes were not large enough to be detected by PRI”
+                  
+          - 雑記
+              - ボスと論文の流れのディスカッションを少し
+              − 光合成学会のポスターで丸一日
+              - 凝り性を発揮して、仕事が遅い
