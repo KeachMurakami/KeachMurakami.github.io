@@ -75,7 +75,7 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 - [こんなグラフがあって「XX時には野生型と変異体で差があります」を言いたいときに使う検定](http://togetter.com/li/939366) "６回を独立とみなす"はダメでしょう。  
 - [The curse of big data](http://www.analyticbridge.com/profiles/blogs/the-curse-of-big-data) 時系列を回帰するやつ。
 - [Rで計量時系列分析：AR, MA, ARMA, ARIMAモデル, 予測](http://tjo.hatenablog.com/entry/2013/07/12/184704)
-
+- [時系列データへの回帰分析](http://logics-of-blue.com/time-series-regression/) Logics of Blueでの単位根検定 (ADF)、共和分検定、一般化最小二乗法 (GLS)の解説
 
 
 ## 統計ネタの多いブログ
