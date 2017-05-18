@@ -882,6 +882,12 @@ Integration
             
             117. [Gamon & Surfus 1999; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1046/j.1469-8137.1999.00424.x/abstract); 高
                 - Assessing leaf pigment content and activity with a reflectometer
+                - 場所確保の色がつよい
+                    - “..., leaf reflectance has not been regarded as a particularly accurate method for assessing leaf pigment content... (because) pigments in the intact leaf are integrally bound with leaf structures.”
+                - PRIの経時変化について言及 (Fig. 4)
+                    - イントロでは、“Under typical room temperatures (25–30°C), a complete transition usually takes *c*. 5 min, but this can vary depending on the physiological state of the leaf.”
+                    - 
+                    
                 
             118. [Peñuelas & Filella 1998; Trend in Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138598012138); <FONT color="green">20170420済</FONT>
                 - Visible and near-infrared reflectance techniques for diagnosing plant physiological status
@@ -1375,3 +1381,14 @@ Integration
               - 統計と似たもので、文献読みも多くやると、「これももうやられている」「あれのマイナーチェンジでしかない」という苦しみが生じる
                   - 引用が少ない研究者は、エンジニアタイプで解決すべき問題ありきだから、読む必要を感じていない
                   - あるいは、努力する気がない (学生は多くの場合これか)
+              
+      - 18
+      
+          182. [Walter et al. 2004; Plant Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1055/s-2004-817828/abstract); 
+              - Transitions in photosynthetic parameters of midvein and interveinal regions of leaves and their importance during leaf growth and development
+              
+          183. [Hemming et al. 2008; Acta Hort](http://www.actahort.org/books/797/797_68.htm); 20170518概
+              - Diffuse greenhouse covering materials – material technology, measurements and evaluation of pptical properties 
+              - 散乱フィルムを買おうと思ったので参考に
+              - Made in Japanだし、Fクリーンがいいが...小売していないんだよなぁ
+                  - 問い合わせた
