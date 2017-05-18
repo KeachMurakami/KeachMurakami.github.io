@@ -19,7 +19,9 @@ protocols
 For colleagues reproducing my researches.
 
 -   cucumber
-    -   cultivating cucumber seedlings for photosynthetic measurements.
+    -   cultivate cucumber seedlings for photosynthetic measurements (in Japanese).
+-   dual\_pam
+    -   measure photochemical reactions in PSII and PSI (in Japanese)
 
 bookmarks
 ---------
@@ -29,4 +31,4 @@ My bookmarks.
 Disclaimer
 ==========
 
-Surf at your own risk.
+**Surf at your own risk.**
