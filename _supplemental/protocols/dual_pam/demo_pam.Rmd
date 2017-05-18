@@ -3,12 +3,12 @@ author: "KeachMurakami"
 csl: RefStyle.csl
 bibliography: ~/GitHub/BeeLabR/BibTex/Without.bib
 output:
-  # html_document:
-  #     toc: TRUE
-  #     toc_float: TRUE
-  #     toc_depth: 5
-  #     theme: cerulean
-  #     self_contained: TRUE
+  html_document:
+      toc: TRUE
+      toc_float: TRUE
+      toc_depth: 5
+      theme: cerulean
+      self_contained: TRUE
   md_document:
     variant: markdown_github
 ---
