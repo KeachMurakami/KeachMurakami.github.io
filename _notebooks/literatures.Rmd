@@ -880,14 +880,17 @@ Integration
         
             - PRI (`Gamon et al. 1997`) の文献掘り (PRIサーベイ)
             
-            117. [Gamon & Surfus 1999; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1046/j.1469-8137.1999.00424.x/abstract); 高
+            117. [Gamon & Surfus 1999; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1046/j.1469-8137.1999.00424.x/abstract); 20170519済・引
                 - Assessing leaf pigment content and activity with a reflectometer
-                - 場所確保の色がつよい
+                - ~~場所確保の色がつよい~~ ちゃんと読んだら研究要素が強かったので訂正
                     - “..., leaf reflectance has not been regarded as a particularly accurate method for assessing leaf pigment content... (because) pigments in the intact leaf are integrally bound with leaf structures.”
                 - PRIの経時変化について言及 (Fig. 4)
                     - イントロでは、“Under typical room temperatures (25–30°C), a complete transition usually takes *c*. 5 min, but this can vary depending on the physiological state of the leaf.”
-                    - 
-                    
+                    - 妙に照射後8 minにこだわっている
+                    - この時点でも、ΔPRI (`Gamon & Berry 2012`や`Hmimina et al. 2014`で出てくる) で解析している
+                - スペクトルの解析手法がいくつか挙げられている
+                - “shade環境の葉でも、xanthophyllをfull-sunlightの半分くらいは持っているが、昼間でもcycleはほとんど回していない (Fig. 6b)。無駄な投資に思えるが、これはsun-fleckに備えた‘bet-hedging’だろう。陽性のヒマワリだから遺伝的に調節幅がなくて多くなっているのかも。”
+                - 非常にエレガントな論文  
                 
             118. [Peñuelas & Filella 1998; Trend in Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138598012138); <FONT color="green">20170420済</FONT>
                 - Visible and near-infrared reflectance techniques for diagnosing plant physiological status
@@ -1135,10 +1138,12 @@ Integration
                 
         - 9
         
-            156. [Gamon et al. 1997; Oecologia](https://link.springer.com/article/10.1007/s004420050337); 高
+            156. [Gamon et al. 1997; Oecologia](https://link.springer.com/article/10.1007/s004420050337); 20170519済・引
                 - The photochemical ref̄ectance index: an optical indicator of photosynthetic radiation use effciency across species, functional types, and nutrient levels
                 - PRIのPPFD・CO<sub>2</sub>への時間応答
-                    - 時間応答系だと、あとは、`Peñuelas et al. 1995` (リーズナブルなレンジ)、`Méthy 2000` (個人的に不信)、`Rascher et al. 2007` (イメージングでやっている)
+                    - 時間応答系だと、あとは、`Peñuelas et al. 1995`、`Méthy 2000` (個人的に不信)、`Rascher et al. 2007` (イメージングでやっている)、`Rahimzadeh-Bajgiran et al. 2012`
+                - 531nmのシグナルは、526/545の２コンポーネントだけど、545の方は膜pH勾配由来のもので、強度依存性はほぼなし
+                    - “The 545-nm component apparent in the reflectace dierence spectra (Fig. 7) is most likely related to chloroplast conformational changes associated with the buildup of the pH gradient, and not directly to the conversion of violaxanthin to antheraxanthin and zeaxanthin.”
                 
             157.  [Fankhauser & Batschauer 2016; Cell](http://www.sciencedirect.com/science/article/pii/S0092867415017079); <FONT color="cyan">20170509済</FONT>
                 - Shadow on the plant: a strategy to exit
@@ -1167,7 +1172,7 @@ Integration
                     - “Exciting new evidence ... lending plants shape their microbiome to enhance” defense
                 - まだアクセス権がないので、印刷待ち
             
-            160. [Thomas et al. 2017; Funct Plant Biol](http://www.publish.csiro.au/FP/FP16127); 20170512
+            160. [Thomas et al. 2017; Funct Plant Biol](http://www.publish.csiro.au/FP/FP16127); 20170512済
                 - Observation of plant–pathogen interaction by simultaneous hyperspectral imaging reflection and transmission measurements
                 - Univ. BonnのMahleinグループ
                     - ResearchGate経由でRequest
@@ -1325,7 +1330,7 @@ Integration
               
       - 15
       
-          175. [Wong & Gamon 2015; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13159/full); 20170515摘
+          175. [Wong & Gamon 2015a; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13159/full); 20170515摘
               - Three causes of variation in the photochemical reflectance index (PRI) in evergreen conifers
               - 色素組成変化 > 極度の低温により生じるアルベドの変化 > xanthophyll cycle
               - アルベド変化は当面は気にしなくていい
@@ -1334,7 +1339,7 @@ Integration
               - Effects of irradiance and photosynthetic downregulation on the photochemical reflectance index in Douglas-fir and ponderosa pine
               - 光合成速度・気孔コンダクタンスのmidday depressionがPRIでも確認されている
               
-          177. [Wong & Gamon](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13251/full);
+          177. [Wong & Gamon 2015b; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13251/full); 低
               - The photochemical reflectance index provides an optical indicator of spring photosynthetic activation in evergreen conifers
       
           - 雑記
@@ -1384,7 +1389,7 @@ Integration
               
       - 18
       
-          182. [Walter et al. 2004; Plant Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1055/s-2004-817828/abstract); 
+          182. [Walter et al. 2004; Plant Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1055/s-2004-817828/abstract); 低
               - Transitions in photosynthetic parameters of midvein and interveinal regions of leaves and their importance during leaf growth and development
               
           183. [Hemming et al. 2008; Acta Hort](http://www.actahort.org/books/797/797_68.htm); 20170518概
@@ -1392,3 +1397,53 @@ Integration
               - 散乱フィルムを買おうと思ったので参考に
               - Made in Japanだし、Fクリーンがいいが...小売していないんだよなぁ
                   - 問い合わせた
+          
+          - 雑記
+              - キャンパス内で牛が鳴いていてうるさい...
+              - キャンパス内でホタルも見えるらしい
+              - 遠いところに来たものだ、という感慨
+              
+      - 19
+      
+          184. [Dall'Osto et al. 2017; Nat Plant](https://www.nature.com/articles/nplants201733); 20170519概
+              - Two mechanisms for dissipation of excess light in monomeric and trimeric light-harvesting complexes
+              - Dall'Osto, Niyogi, Bassiというメンツ
+                  - Nature Plantsは強ラボの草刈り場感があるなぁ...
+              - 「PSIIのLHCII-trimerは維持したままLHCII-monomerをtriple know-outした株 (NoM) を作ったから解析するぜ」
+                  - 光合成系はかなり重要そうなコンポーネントを壊しても成育するから不思議
+                  - fail safe設計がしっかりしている
+                  - NoM npq1 lut2とかいうクインティプルが...
+              - NoMは２層性NPQ誘導のうち、速い方を示さない
+              - 哀しいことに、Nature Plantsは購読されていないので、研究遂行経費購入
+          
+          185. [Guo & Trotter 2004; Funct Plant Biol](http://www.publish.csiro.au/fp/FP03185); 20170519済
+              - Estimating photosynthetic light-use efficiency using the photochemical reflectance index: variations among species
+              - ７種のPRIをY<sub>II</sub>・LUEと相関
+                  - *P*<sub>n</sub>とLUEの図はどっちかでいい (Fig. 1)
+                      - ただ固定のPPFDで割っているだけ、のはず
+                      - なのに*C. robusta*だけLUEでバーが拡大しているのはなんなんだ
+                  - 同図でPRI vs LUEを出しているので、PRI vs *P*<sub>n</sub>の相関は必要ない (Fig. 5)
+                      - *Y*<sub>II</sub> vs *P*<sub>n</sub>は固定PPFDで抜き出しているのに (Fig. 4)
+                      - “PRIだと種でばらつきますよ”、を強くみせるフェアじゃないやりかた
+                  - 図の重複が多い論文だ
+              - carotenoid量と光合成の下流の能力の関係についての考察はイカン
+                  - *P*<sub>max</sub>の高い強光型でcar/chl比が低い→光防御の必要が小さいからだ、という解釈
+                  - carotenoid総量は強光型の植物で多い傾向 (Table 2) にあり、熱放散のキャパシティも絶対値は大きい
+                  - 強光型は (水不足とかで) いざ阻害を受けるとなれば被害が大きいから、防御能も高い
+                  - 集光との関係性として議論すべきところ
+              - データはいいとして、いろいろイマイチな論文
+              - 哀しい私費その2
+                  - Funct Plant Biolはいい雑誌なのに...
+                  
+          - 雑記
+              - 山口大の文献複写サービスを使って上ふたつを閲覧
+                  - 最新号はリクエストできない
+                  - 値段は届いてからわかる
+                  - およそ１週間かかる
+                      - 今回は11日リクエストで、19日着、682円成
+                  - 科研費払いにするには、事前に事務に許可を貰う必要がある (事後建て替えはNG)
+                      - 値段が事前にわからない時点でアレなかんじ
+                      - 誰も幸せにならないシステムだなぁ
+                      - 不正をして後世に面倒事を残した人を恨むのみ
+                      - どうせ研究遂行経費払いにするんだけども...
+              - PCEの論文の著作権譲渡確認書類にサイン、そろそろpreview版がアップされるころ
