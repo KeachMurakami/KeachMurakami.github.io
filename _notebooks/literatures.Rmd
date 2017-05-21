@@ -971,7 +971,7 @@ Integration
             132. [Peñuelas et al. 1995; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1469-8137.1995.tb03064.x/abstract); 20170420済
                 - Assessment of photosynthetic radiation-use efficiency with spectral reflectance
                 - 光強度変化への応答は、PRIではY<sub>II</sub>より遅い
-                - “some species exhibited additional complicating features that could have influenced *R*<sub>531</sub>, including significant chloro- plast movement in *Phaseolus vulgaris* and a small xanthophyll content in the shade-adapted leaves of *Hedera canariensis* (unpublished).”
+                - “some species exhibited additional complicating features that could have influenced *R*<sub>531</sub>, including significant chloroplast movement in *Phaseolus vulgaris* and a small xanthophyll content in the shade-adapted leaves of *Hedera canariensis* (unpublished).”
                 
             133. [Gamon et al. 1992; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/003442579290059S); 20170420済
                 - A narrow-waveband spectral index that tracks diurnal changes in photosynthetic efficiency
@@ -1271,179 +1271,190 @@ Integration
                     - “..., the lutein deepoxidase cycle appears to be involved in energy dis- sipation (García-Plazaola et al., 2007)”
                     - “..., the lutein deepoxidation cycle has been observed in many species, including some trees (García-Plazaola et al., 2002; Matsubara et al., 2007), but to our knowledge its presence or function in conifers has not yet been conclusively demonstrated.”
                 
-      - 12
-      
-          170. [Soudani et al. 2014; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425714000303); 低
-              - Relationships between photochemical reflectance index and light-use efficiency in deciduous and evergreen broadleaf forests
-              
-          171. [Hmimina et al. 2015; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12509/abstract); 20170512概
-              - Deconvolution of pigment and physiologically related photochemical reflectance index variability at the canopy scale over an entire growing season
-              - `Hmimina et al. 2015`のLUEはこれと同じなら*P*<sub>n</sub>/PPFD
-                  - どうせモデルで出しているんだから、*R*<sub>d</sub>も補正した方がいいのに
-              - $PRI(t) = PRI_\rm{o} + \Delta PRI ~ \times ~ error\_funct(\dfrac{PPFD(t)}{PPFD_\rm{sat}})$でPRIをモデル化
-                  - 誤差関数の扱いが変じゃないか？
-                  - kineticsにするなら、履歴系の関数にする必要があるような
-              - Fig. 4は重複データなような？
-                  - そもそもガス交換の測定の詳細がないから十分に理解できない
-              - 引用には使いづらい
-              
-          172. [Nakaji et al. 2006; Int J Remote Sens](http://www.tandfonline.com/doi/abs/10.1080/01431160500329528); 高・未取得
-              - Seasonal changes in the relationship between photochemical reflectance index and photosynthetic light use efficiency of Japanese larch needles
-                    - ResearchGate経由でRequest
-              - `Hmimina et al. 2014, 2015`から
-                  - “Good relationships between the PRI and LUE over short periods have been shown for several species at the leaf (Gamon et al. 1992, 1997; Penuelas et al. 1995; Guo & Trotter 2004; Nakaji et al. 2006) and canopy scale (Filella et al. 1996; Trotter et al. 2002; Wu et al. 2010).”
-              - 光合成研究の`中路 2009`の詳細？
-          
-          173. [Hall et al. 2008; Rmote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425708001144); 低
-              - Multi-angle remote sensing of forest light use efficiency by observing PRI variation with canopy shadow fraction
-              - `Gamon & Berry 2012`の最後の方で触れられていた
-                  - 最後の方でちらっと振れるのは多くの場合、「これいいじゃん。直接は本筋とは関係ないけど、普及させたい。」だと思うので
-                  - “Recent studies that correct for sunlit fraction (Hall et al., 2008) are an exciting step in this direction, ...”
-              - 樹冠レベルでのPRI測定は複数角度で測るべし、って話
-                  
-                  
-          <!-- 173. [Takizawa et al. 2007; BBA](http://www.sciencedirect.com/science/article/pii/S0005272807001557) -->
-          <!--     - The thylakoid proton motive force *in vivo*. Quantitative, non-invasive probes, energetics, and regulatory consequences of light-induced *pmf* -->
-          <!--     - WSU Kramerグループ -->
-          <!--     - `Hmimina et al. 2015`から -->
-          <!--         - “The speed of xanthophyll de-epoxidation, which is associated with changes in the PRI, followed a Gaussian curve with changes in light intensity (Takizawa et al. 2007).” -->
-          <!--     - まさかPRIから*pmf*まで飛ばされるとは、Hmiminaさん、手広い -->
-          <!--         - が、もう少しいい文献がある気がする -->
-          
-          - 雑記
-              - ラボにデスクチェアが届いた
-              - 私物も事務に届くという羞恥プレイなのか...
-              - K大K氏からお誘い
-      
-      - 14
-      
-          174. [Rahimzadeh-Bajgiran et al. 2012](https://link.springer.com/article/10.1007/s11120-012-9747-4); 20170514済
-              - Relationships between the photochemical reflectance index (PRI) and chlorophyll fluorescence parameters and plant pigment indices at different leaf growth stages
-              - 大政研の知らない人だ
-              - PRIドリフトの補正でCPRIという指標を提案
-                  - `Gamon & Berry 2012`や`Hmimina et al. 2014`の指標と比べてどうだろう
-                  - CPRIとdark-adapted PRIの相関を取ればわかるが...
-              
-          - 雑記
-              - PRIの像を掴んだので、一瞬で読めるになっている
-              - あとはreview/meta-analysis系の数報を読んでインプットはお終い
-              
-      - 15
-      
-          175. [Wong & Gamon 2015a; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13159/full); 20170515摘
-              - Three causes of variation in the photochemical reflectance index (PRI) in evergreen conifers
-              - 色素組成変化 > 極度の低温により生じるアルベドの変化 > xanthophyll cycle
-              - アルベド変化は当面は気にしなくていい
-          
-          176. [Gamon & Bond 2013, Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425713001193); 20170515摘
-              - Effects of irradiance and photosynthetic downregulation on the photochemical reflectance index in Douglas-fir and ponderosa pine
-              - 光合成速度・気孔コンダクタンスのmidday depressionがPRIでも確認されている
-              
-          177. [Wong & Gamon 2015b; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13251/full); 低
-              - The photochemical reflectance index provides an optical indicator of spring photosynthetic activation in evergreen conifers
-      
-          - 雑記
-              - Remote Sensing を出しているMDPIはBeall's list に載ったようだが、`Zhang et al. 2016`を読むに、いいんでないか？
-              - グループがいいだけ、って話もあるので要観察
-              
-      - 16
-      
-          178. [Kramer et al. 2016; HortTechnology](http://horttech.ashspublications.org/content/26/5/558.abstract); <FONT color="green">中</FONT>
-              - Statistics in a horticultural journal: problems and solutions
-              - サーベイとレビューまで、といったところ？
-              - 要旨までみても“solutions”に対応する何かは“教育”にしか読めない
-              - ある程度統計をやると、どのアプローチも統計的には完全ではないことがわかるせいで苦しむことになるんだよなあ
-          
-          179. [Konishi et al. 2008; ](https://link.springer.com/chapter/10.1007/978-1-4020-6709-9_141); 20170516済
-              - Spatiotemporal changes in PRI and NPQ under different light intensity gradients on leaf surfaces
-              - 大政研の小西さん
-                  - 大政先生が共著のは全部個人ページにアーカイブされているが...大丈夫なのか...？
-              - 光合成のinduction時のNPQとPRIのleaf-scaleでの空間分布を出している
-              - NPQは葉脈でコンパートメント化しているが、PRIは均一、という論調だが、Fig. 1は逆のように見える
-                  - “In Fig 1, NPQ on the leaf was heterogeneously observed (A),while PRI was homogeneously distributed (B)”
-              - PRIの変化は小さい、みたいなフレーズがあるが、画像を見る限り相対値の勾配はNPQと同レベルでありそう？
-                  - “In spite of the relatively large NPQ grdation, the pigment changes were not large enough to be detected by PRI”
-                  
-          - 雑記
-              - ボスと論文の流れのディスカッションを少し
-              − 光合成学会のポスターで丸一日
-              - 凝り性を発揮して、仕事が遅い
-      
-      - 17
-      
-          180. [Ibaraki & Shigemoto 2013; J Agric Meteorol](https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.1/_article/-char/en/); 20170617済 (再)
-              - Estimation of supplemental lighting efficiency based on PPFD distribution on the canopy surface
-              - 装置の確認
-              
-          181. [Ooms et al. 2016; Nat Commun](https://www.nature.com/articles/ncomms12699); <FONT color="green">無</FONT>
-              - Photon management for augmented photosynthesis
-              - 藻類培養での光利用について
-              - いつまで続くか...
-      
-          - 雑記
-              - ポスターを完成して共著者へ送信
-                  - 結局、作業1.5日、構想で2日くらい？
-              - 統計と似たもので、文献読みも多くやると、「これももうやられている」「あれのマイナーチェンジでしかない」という苦しみが生じる
-                  - 引用が少ない研究者は、エンジニアタイプで解決すべき問題ありきだから、読む必要を感じていない
-                  - あるいは、努力する気がない (学生は多くの場合これか)
-              
-      - 18
-      
-          182. [Walter et al. 2004; Plant Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1055/s-2004-817828/abstract); 低
-              - Transitions in photosynthetic parameters of midvein and interveinal regions of leaves and their importance during leaf growth and development
-              
-          183. [Hemming et al. 2008; Acta Hort](http://www.actahort.org/books/797/797_68.htm); 20170518概
-              - Diffuse greenhouse covering materials – material technology, measurements and evaluation of pptical properties 
-              - 散乱フィルムを買おうと思ったので参考に
-              - Made in Japanだし、Fクリーンがいいが...小売していないんだよなぁ
-                  - 問い合わせた
-          
-          - 雑記
-              - キャンパス内で牛が鳴いていてうるさい...
-              - キャンパス内でホタルも見えるらしい
-              - 遠いところに来たものだ、という感慨
-              
-      - 19
-      
-          184. [Dall'Osto et al. 2017; Nat Plant](https://www.nature.com/articles/nplants201733); 20170519概
-              - Two mechanisms for dissipation of excess light in monomeric and trimeric light-harvesting complexes
-              - Dall'Osto, Niyogi, Bassiというメンツ
-                  - Nature Plantsは強ラボの草刈り場感があるなぁ...
-              - 「PSIIのLHCII-trimerは維持したままLHCII-monomerをtriple know-outした株 (NoM) を作ったから解析するぜ」
-                  - 光合成系はかなり重要そうなコンポーネントを壊しても成育するから不思議
-                  - fail safe設計がしっかりしている
-                  - NoM npq1 lut2とかいうクインティプルが...
-              - NoMは２層性NPQ誘導のうち、速い方を示さない
-              - 哀しいことに、Nature Plantsは購読されていないので、研究遂行経費購入
-          
-          185. [Guo & Trotter 2004; Funct Plant Biol](http://www.publish.csiro.au/fp/FP03185); 20170519済
-              - Estimating photosynthetic light-use efficiency using the photochemical reflectance index: variations among species
-              - ７種のPRIをY<sub>II</sub>・LUEと相関
-                  - *P*<sub>n</sub>とLUEの図はどっちかでいい (Fig. 1)
-                      - ただ固定のPPFDで割っているだけ、のはず
-                      - なのに*C. robusta*だけLUEでバーが拡大しているのはなんなんだ
-                  - 同図でPRI vs LUEを出しているので、PRI vs *P*<sub>n</sub>の相関は必要ない (Fig. 5)
-                      - *Y*<sub>II</sub> vs *P*<sub>n</sub>は固定PPFDで抜き出しているのに (Fig. 4)
-                      - “PRIだと種でばらつきますよ”、を強くみせるフェアじゃないやりかた
-                  - 図の重複が多い論文だ
-              - carotenoid量と光合成の下流の能力の関係についての考察はイカン
-                  - *P*<sub>max</sub>の高い強光型でcar/chl比が低い→光防御の必要が小さいからだ、という解釈
-                  - carotenoid総量は強光型の植物で多い傾向 (Table 2) にあり、熱放散のキャパシティも絶対値は大きい
-                  - 強光型は (水不足とかで) いざ阻害を受けるとなれば被害が大きいから、防御能も高い
-                  - 集光との関係性として議論すべきところ
-              - データはいいとして、いろいろイマイチな論文
-              - 哀しい私費その2
-                  - Funct Plant Biolはいい雑誌なのに...
-                  
-          - 雑記
-              - 山口大の文献複写サービスを使って上ふたつを閲覧
-                  - 最新号はリクエストできない
-                  - 値段は届いてからわかる
-                  - およそ１週間かかる
-                      - 今回は11日リクエストで、19日着、682円成
-                  - 科研費払いにするには、事前に事務に許可を貰う必要がある (事後建て替えはNG)
-                      - 値段が事前にわからない時点でアレなかんじ
-                      - 誰も幸せにならないシステムだなぁ
-                      - 不正をして後世に面倒事を残した人を恨むのみ
-                      - どうせ研究遂行経費払いにするんだけども...
-              - PCEの論文の著作権譲渡確認書類にサイン、そろそろpreview版がアップされるころ
+        - 12
+        
+            170. [Soudani et al. 2014; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425714000303); 低
+                - Relationships between photochemical reflectance index and light-use efficiency in deciduous and evergreen broadleaf forests
+                
+            171. [Hmimina et al. 2015; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12509/abstract); 20170512概
+                - Deconvolution of pigment and physiologically related photochemical reflectance index variability at the canopy scale over an entire growing season
+                - `Hmimina et al. 2015`のLUEはこれと同じなら*P*<sub>n</sub>/PPFD
+                    - どうせモデルで出しているんだから、*R*<sub>d</sub>も補正した方がいいのに
+                - $PRI(t) = PRI_\rm{o} + \Delta PRI ~ \times ~ error\_funct(\dfrac{PPFD(t)}{PPFD_\rm{sat}})$でPRIをモデル化
+                    - 誤差関数の扱いが変じゃないか？
+                    - kineticsにするなら、履歴系の関数にする必要があるような
+                - Fig. 4は重複データなような？
+                    - そもそもガス交換の測定の詳細がないから十分に理解できない
+                - 引用には使いづらい
+                
+            172. [Nakaji et al. 2006; Int J Remote Sens](http://www.tandfonline.com/doi/abs/10.1080/01431160500329528); 高・未取得
+                - Seasonal changes in the relationship between photochemical reflectance index and photosynthetic light use efficiency of Japanese larch needles
+                      - ResearchGate経由でRequest
+                - `Hmimina et al. 2014, 2015`から
+                    - “Good relationships between the PRI and LUE over short periods have been shown for several species at the leaf (Gamon et al. 1992, 1997; Penuelas et al. 1995; Guo & Trotter 2004; Nakaji et al. 2006) and canopy scale (Filella et al. 1996; Trotter et al. 2002; Wu et al. 2010).”
+                - 光合成研究の`中路 2009`の詳細？
+            
+            173. [Hall et al. 2008; Rmote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425708001144); 低
+                - Multi-angle remote sensing of forest light use efficiency by observing PRI variation with canopy shadow fraction
+                - `Gamon & Berry 2012`の最後の方で触れられていた
+                    - 最後の方でちらっと振れるのは多くの場合、「これいいじゃん。直接は本筋とは関係ないけど、普及させたい。」だと思うので
+                    - “Recent studies that correct for sunlit fraction (Hall et al., 2008) are an exciting step in this direction, ...”
+                - 樹冠レベルでのPRI測定は複数角度で測るべし、って話
+                    
+                    
+            <!-- 173. [Takizawa et al. 2007; BBA](http://www.sciencedirect.com/science/article/pii/S0005272807001557) -->
+            <!--     - The thylakoid proton motive force *in vivo*. Quantitative, non-invasive probes, energetics, and regulatory consequences of light-induced *pmf* -->
+            <!--     - WSU Kramerグループ -->
+            <!--     - `Hmimina et al. 2015`から -->
+            <!--         - “The speed of xanthophyll de-epoxidation, which is associated with changes in the PRI, followed a Gaussian curve with changes in light intensity (Takizawa et al. 2007).” -->
+            <!--     - まさかPRIから*pmf*まで飛ばされるとは、Hmiminaさん、手広い -->
+            <!--         - が、もう少しいい文献がある気がする -->
+            
+            - 雑記
+                - ラボにデスクチェアが届いた
+                - 私物も事務に届くという羞恥プレイなのか...
+                - K大K氏からお誘い
+        
+        - 14
+        
+            174. [Rahimzadeh-Bajgiran et al. 2012](https://link.springer.com/article/10.1007/s11120-012-9747-4); 20170514済
+                - Relationships between the photochemical reflectance index (PRI) and chlorophyll fluorescence parameters and plant pigment indices at different leaf growth stages
+                - 大政研の知らない人だ
+                - PRIドリフトの補正でCPRIという指標を提案
+                    - `Gamon & Berry 2012`や`Hmimina et al. 2014`の指標と比べてどうだろう
+                    - CPRIとdark-adapted PRIの相関を取ればわかるが...
+                
+            - 雑記
+                - PRIの像を掴んだので、一瞬で読めるになっている
+                - あとはreview/meta-analysis系の数報を読んでインプットはお終い
+                
+        - 15
+        
+            175. [Wong & Gamon 2015a; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13159/full); 20170515摘
+                - Three causes of variation in the photochemical reflectance index (PRI) in evergreen conifers
+                - 色素組成変化 > 極度の低温により生じるアルベドの変化 > xanthophyll cycle
+                - アルベド変化は当面は気にしなくていい
+            
+            176. [Gamon & Bond 2013, Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425713001193); 20170515摘
+                - Effects of irradiance and photosynthetic downregulation on the photochemical reflectance index in Douglas-fir and ponderosa pine
+                - 光合成速度・気孔コンダクタンスのmidday depressionがPRIでも確認されている
+                
+            177. [Wong & Gamon 2015b; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13251/full); 低
+                - The photochemical reflectance index provides an optical indicator of spring photosynthetic activation in evergreen conifers
+        
+            - 雑記
+                - Remote Sensing を出しているMDPIはBeall's list に載ったようだが、`Zhang et al. 2016`を読むに、いいんでないか？
+                - グループがいいだけ、って話もあるので要観察
+                
+        - 16
+        
+            178. [Kramer et al. 2016; HortTechnology](http://horttech.ashspublications.org/content/26/5/558.abstract); <FONT color="green">中</FONT>
+                - Statistics in a horticultural journal: problems and solutions
+                - サーベイとレビューまで、といったところ？
+                - 要旨までみても“solutions”に対応する何かは“教育”にしか読めない
+                - ある程度統計をやると、どのアプローチも統計的には完全ではないことがわかるせいで苦しむことになるんだよなあ
+            
+            179. [Konishi et al. 2008; ](https://link.springer.com/chapter/10.1007/978-1-4020-6709-9_141); 20170516済
+                - Spatiotemporal changes in PRI and NPQ under different light intensity gradients on leaf surfaces
+                - 大政研の小西さん
+                    - 大政先生が共著のは全部個人ページにアーカイブされているが...大丈夫なのか...？
+                - 光合成のinduction時のNPQとPRIのleaf-scaleでの空間分布を出している
+                - NPQは葉脈でコンパートメント化しているが、PRIは均一、という論調だが、Fig. 1は逆のように見える
+                    - “In Fig 1, NPQ on the leaf was heterogeneously observed (A),while PRI was homogeneously distributed (B)”
+                - PRIの変化は小さい、みたいなフレーズがあるが、画像を見る限り相対値の勾配はNPQと同レベルでありそう？
+                    - “In spite of the relatively large NPQ grdation, the pigment changes were not large enough to be detected by PRI”
+                    
+            - 雑記
+                - ボスと論文の流れのディスカッションを少し
+                − 光合成学会のポスターで丸一日
+                - 凝り性を発揮して、仕事が遅い
+        
+        - 17
+        
+            180. [Ibaraki & Shigemoto 2013; J Agric Meteorol](https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.1/_article/-char/en/); 20170617済 (再)
+                - Estimation of supplemental lighting efficiency based on PPFD distribution on the canopy surface
+                - 装置の確認
+                
+            181. [Ooms et al. 2016; Nat Commun](https://www.nature.com/articles/ncomms12699); <FONT color="green">無</FONT>
+                - Photon management for augmented photosynthesis
+                - 藻類培養での光利用について
+                - いつまで続くか...
+        
+            - 雑記
+                - ポスターを完成して共著者へ送信
+                    - 結局、作業1.5日、構想で2日くらい？
+                - 統計と似たもので、文献読みも多くやると、「これももうやられている」「あれのマイナーチェンジでしかない」という苦しみが生じる
+                    - 引用が少ない研究者は、エンジニアタイプで解決すべき問題ありきだから、読む必要を感じていない
+                    - あるいは、努力する気がない (学生は多くの場合これか)
+                
+        - 18
+        
+            182. [Walter et al. 2004; Plant Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1055/s-2004-817828/abstract); 低
+                - Transitions in photosynthetic parameters of midvein and interveinal regions of leaves and their importance during leaf growth and development
+                
+            183. [Hemming et al. 2008; Acta Hort](http://www.actahort.org/books/797/797_68.htm); 20170518概
+                - Diffuse greenhouse covering materials – material technology, measurements and evaluation of pptical properties 
+                - 散乱フィルムを買おうと思ったので参考に
+                - Made in Japanだし、Fクリーンがいいが...小売していないんだよなぁ
+                    - 問い合わせた
+            
+            - 雑記
+                - キャンパス内で牛が鳴いていてうるさい...
+                - キャンパス内でホタルも見えるらしい
+                - 遠いところに来たものだ、という感慨
+                
+        - 19
+        
+            184. [Dall'Osto et al. 2017; Nat Plant](https://www.nature.com/articles/nplants201733); 20170519概
+                - Two mechanisms for dissipation of excess light in monomeric and trimeric light-harvesting complexes
+                - Dall'Osto, Niyogi, Bassiというメンツ
+                    - Nature Plantsは強ラボの草刈り場感があるなぁ...
+                - 「PSIIのLHCII-trimerは維持したままLHCII-monomerをtriple know-outした株 (NoM) を作ったから解析するぜ」
+                    - 光合成系はかなり重要そうなコンポーネントを壊しても成育するから不思議
+                    - fail safe設計がしっかりしている
+                    - NoM npq1 lut2とかいうクインティプルが...
+                - NoMは２層性NPQ誘導のうち、速い方を示さない
+                - 哀しいことに、Nature Plantsは購読されていないので、研究遂行経費購入
+            
+            185. [Guo & Trotter 2004; Funct Plant Biol](http://www.publish.csiro.au/fp/FP03185); 20170519済
+                - Estimating photosynthetic light-use efficiency using the photochemical reflectance index: variations among species
+                - ７種のPRIをY<sub>II</sub>・LUEと相関
+                    - *P*<sub>n</sub>とLUEの図はどっちかでいい (Fig. 1)
+                        - ただ固定のPPFDで割っているだけ、のはず
+                        - なのに*C. robusta*だけLUEでバーが拡大しているのはなんなんだ
+                    - 同図でPRI vs LUEを出しているので、PRI vs *P*<sub>n</sub>の相関は必要ない (Fig. 5)
+                        - *Y*<sub>II</sub> vs *P*<sub>n</sub>は固定PPFDで抜き出しているのに (Fig. 4)
+                        - “PRIだと種でばらつきますよ”、を強くみせるフェアじゃないやりかた
+                    - 図の重複が多い論文だ
+                - carotenoid量と光合成の下流の能力の関係についての考察はイカン
+                    - *P*<sub>max</sub>の高い強光型でcar/chl比が低い→光防御の必要が小さいからだ、という解釈
+                    - carotenoid総量は強光型の植物で多い傾向 (Table 2) にあり、熱放散のキャパシティも絶対値は大きい
+                    - 強光型は (水不足とかで) いざ阻害を受けるとなれば被害が大きいから、防御能も高い
+                    - 集光との関係性として議論すべきところ
+                - データはいいとして、いろいろイマイチな論文
+                - 哀しい私費その2
+                    - Funct Plant Biolはいい雑誌なのに...
+                    
+            - 雑記
+                - 山口大の文献複写サービスを使って上ふたつを閲覧
+                    - 最新号はリクエストできない
+                    - 値段は届いてからわかる
+                    - およそ１週間かかる
+                        - 今回は11日リクエストで、19日着、682円成
+                    - 科研費払いにするには、事前に事務に許可を貰う必要がある (事後建て替えはNG)
+                        - 値段が事前にわからない時点でアレなかんじ
+                        - 誰も幸せにならないシステムだなぁ
+                        - 不正をして後世に面倒事を残した人を恨むのみ
+                        - どうせ研究遂行経費払いにするんだけども...
+                - PCEの論文の著作権譲渡確認書類にサイン、そろそろpreview版がアップされるころ
+                
+        - 21
+        
+            - 雑記
+                - 装置２台の故障とドライバ問題の確認
+                    - 自責で壊した・使えなくなったときに、どうにかせずに去るやつはどうしようもない
+                    - ストレスフル
+                    - 会社の対応の差が沁みる
+                        - すごく頑張ってくれる会社
+                        - 金はしっかり要求するが仕事はしっかりしている会社
+                        - 社内で情報が伝わっていない会社
