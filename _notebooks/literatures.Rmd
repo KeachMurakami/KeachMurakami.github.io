@@ -1458,3 +1458,28 @@ Integration
                         - すごく頑張ってくれる会社
                         - 金はしっかり要求するが仕事はしっかりしている会社
                         - 社内で情報が伝わっていない会社
+                        
+        - 22
+        
+            186. [Wang & Sonobe 2016; Geoscience and Remote Sensing Symposium (IGARSS)](http://ieeexplore.ieee.org/abstract/document/7729441/); 高・未取得
+                - Tracing photosynthetic electron transport rate based on hyperspectral reflectance
+                - 文献複写依頼
+                - dmNDなる3波長利用指標がよろしいとのこと
+                    - LUEではなく、ETRで書くあたり、かなり厳密？
+                    - 過学習的なアレかも？
+                - IEEEってやつがいまだによくわかっていない
+                    - Proceeding扱いか、論文扱いか
+                    - “sign in to view”ってfigの欄に書いてあるから、わざわざアカウント作ったら、“is outside your subscription”ときたもんだ
+            
+            187. [Sonobe & Wang 2015; Funct Plant Biol](); 低・未取得
+                - Assessing the xanthophyll cycle in natural beech leaves with hyperspectral reflectance
+                - RGリクエスト送付
+        
+        - 23
+        
+            - 雑記
+                - 装置の動作確認
+                    - 「あの装置にはこのソフトないと動かないんでした、すみません」からの「お送りしたソフトがそちらの研究室の装置とバージョンが違ったのかもしれません。装置のシリアル番号を確認してみて貰えますか？」じゃねーよ。ガキの使いかよ。といいたい。
+                    - 「実はVAIOとちょっと相性悪くってー」ってPC新しく装置用に買うけどこれでいいか？って確認したじゃん。
+                    - この会社は独立しても絶対に使わない決意をした。
+                - 移動してからストレスが溜まっているなぁ。
