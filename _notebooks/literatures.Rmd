@@ -1483,3 +1483,9 @@ Integration
                     - 「実はVAIOとちょっと相性悪くってー」ってPC新しく装置用に買うけどこれでいいか？って確認したじゃん。
                     - この会社は独立しても絶対に使わない決意をした。
                 - 移動してからストレスが溜まっているなぁ。
+        
+        - 24
+        
+            188. [Miyaji et al. 2015; Nat Commun](http://www.sciencedirect.com/science/article/pii/S1360138596800197#); <FONT color = "green"></FONT>
+                - AtPHT4;4 is a chloroplast-localized ascorbate transporter in *Arabidopsis*
+                - xanthophyll cycleのイラストを探していた (Fig. 6a)
