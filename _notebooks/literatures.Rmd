@@ -1486,6 +1486,26 @@ Integration
         
         - 24
         
-            188. [Miyaji et al. 2015; Nat Commun](http://www.sciencedirect.com/science/article/pii/S1360138596800197#); <FONT color = "green"></FONT>
+            188. [Miyaji et al. 2015; Nat Commun](http://www.sciencedirect.com/science/article/pii/S1360138596800197#); <FONT color = "green">無</FONT>
                 - AtPHT4;4 is a chloroplast-localized ascorbate transporter in *Arabidopsis*
                 - xanthophyll cycleのイラストを探していた (Fig. 6a)
+        
+        - 25
+        
+            189. [Bailey-Serres & Ma 2017; Nature](http://www.nature.com/nature/journal/v545/n7655/full/nature22497.html); <FONT color = "cyan">20170525済</FONT>
+                - An immunity boost combats crop disease
+                - Natureメールアラートの[ハイライト](http://www.natureasia.com/ja-jp/nature/highlights/86058)から誘導で
+                - 生産性を損なわずに病害抵抗性を付与した、という連続した２本のレターについて
+                    - translatome解析でimmunity-enhancing geneの調節機構の把握
+                    - 遺伝子操作でコレを応用 (直下の`Xu et al. 2017`)
+                - 基礎的な生物学の知識をそろそろ本格的につけねば
+                    - っていっつも思うけど、やらないんだよなあ
+                    - たぶん、バイオ実験をやりたくないからというのが大きい
+        
+            190. [Xu et al. 2017; Nature](http://www.nature.com/nature/journal/v545/n7655/full/nature22372.html); 低
+                - uORF-mediated translation allows engineered plant disease resistance without fitness costs
+                - 染色写真がサイケデリックでイケてる
+                - 最近のNature系の図は、なんでexcel風イケてない配色になっているのか...
+                
+            - 雑記
+                - 床に光合成学会用ポスターを敷いて眺めていたら思いがけない交流が生まれた
