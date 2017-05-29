@@ -16,7 +16,7 @@ library(knitr)
 del_link <- F
 add_if <- F
 
-# Record generator
+  # Record generator
 ToRecord <-
   function(title, authors, year, in_what, type, url = NULL){
     if(url == "" | del_link) {
@@ -47,6 +47,7 @@ ToKable <-
 
 speaker <- function(text) paste0("<sup>○</sup>", text)
 correspond <- function(text) paste0(text, "<sup>+</sup>")
+new_item <- function(text) paste0("<FONT color='red'><sup>New </sup></FONT>", text)
 
 # Frequently appears
 KM <- "<FONT color='green'>Keach Murakami</FONT>"
@@ -107,12 +108,12 @@ journal_articles <-
       "https://www.jstage.jst.go.jp/article/ecb/55/1/55_1/_article"),
     
     ToRecord(
-      "<FONT color='red'><sup>New </sup></FONT>Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport",
+      new_item("Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport"),
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
-      "Accepted",
+      "in press",
       "Original Article",
       paste0("Plant, Cell & Environment", impacts[6]),
-      "")
+      "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
   )
 ```
 
@@ -170,9 +171,9 @@ symp_int <-
 symp_domestic <-
   c(
     ToRecord(
-      "<FONT color='red'><sup>New </sup></FONT>光化学系I・II間での励起エネルギー分配比の非破壊定量法の開発",
+      "光化学系I・II間での励起エネルギー分配比の非破壊定量法の開発",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
-      "2017<参加予定>",
+      "2017",
       "Poster",
       "第 8 回日本光合成学会年会<br>滋賀, 5月",
       ""),
