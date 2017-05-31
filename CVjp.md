@@ -1,11 +1,11 @@
 ---
-title: "経歴 (日本語)"
+title: CV-jp
 output: html_document
-permalink: /about/CVjp/
+permalink: /CVjp/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-04-12  </FONT><br>
+<FONT color="grey">Last update: 2017-05-31 20:38:23  </FONT><br>
 
 ------
 
@@ -59,9 +59,23 @@ layout: default
 
 <br>
 
+### 研究費獲得状況
+
+|year            |title                                                                                                                                                                    |category                       |budget      |
+|:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------|:-----------|
+|2014.4-2017.3   |光化学系の反応速度に基づく種々の分光分布下の光合成速度推定法の開発<a href = 'https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-14J09372/' target='_blank'> (link)</a>     |特別研究員奨励費 (DC1, 代表者) |3,200,000円 |
+|2017.04-2020.03 |個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発<a href = 'https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17J04736/' target='_blank'> (link)</a> |特別研究員奨励費 (PD, 代表者)  |4,550,000円 |
+
+\* リンク先は国立情報学研究所運営のKAKENページ
+
+------
+
+<br>
+
 ### 学会活動
 
 |Year  |Society            |
 |:-----|:------------------|
 |2012- |日本生物環境工学会 |
 |2013- |日本農業気象学会   |
+|2017- |日本光合成学会     |

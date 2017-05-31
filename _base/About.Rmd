@@ -5,7 +5,7 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-04-28  </FONT><br>
+<FONT color="grey">Last update: `r lubridate::now()`  </FONT><br>
 
 -----
 
@@ -16,17 +16,18 @@ layout: default
 ### Author
 
 <ruby>村上<rp>（</rp><rt>むらかみ</rt><rp>）</rp></ruby>   <ruby>貴一<rp>（</rp><rt>きいち</rt><rp>）</rp></ruby> 博士 (農学)  
-Keach MURAKAMI (PhD)
+Keach MURAKAMI (Ph.D.)
 
-[CV jpn](https://keachmurakami.github.io/about/CVjp/) / [CV eng](https://keachmurakami.github.io/about/CVen/)  
+[CV jpn](https://keachmurakami.github.io/CVjp/) / [CV eng](https://keachmurakami.github.io/CVen/)  
 
-#### 現所属
+### Affiliation
 
-2017.04 \~  
+#### Present 
+
+2017.04 \~ 2020.03  
 山口大学 大学院創成科学研究科の生物環境情報工学研究室で博士研究員をしています  
 
-Address: 1677-1 Yoshida, Yamaguchi, 753-8515 Japan  
-Office: Room #323  
+Address: 1677-1 Yoshida, Yamaguchi, 753-8515 Japan (Room #323)  
 E-mail: keach+yamaguchi-u.ac.jp  
 
 <br>
@@ -48,11 +49,12 @@ E-mail: keach+yamaguchi-u.ac.jp
 
 ### 研究
 
-- 研究紹介→ 作成予定  
+- 研究紹介
+    - 作成予定  
 - 論文など
-    - [PublicationList](https://keachmurakami.github.io/publication_list/)  
+    - [Publications](https://keachmurakami.github.io/publications/)  
     - [GoogleScholar](https://scholar.google.co.jp/citations?user=IgtMr-oAAAAJ&hl=en)  
-    - [ORCID id](https://orcid.org/0000-0001-8150-9535)  
+    <!-- - [ORCID id](https://orcid.org/0000-0001-8150-9535)   -->
     - [ResearchGate](https://www.researchgate.net/profile/Keach_Murakami) 
 
 <br>

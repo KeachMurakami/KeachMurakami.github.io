@@ -2,11 +2,11 @@
 title: Publications
 # output: html_document
 output: word_document
-permalink: /about/publications/
+permalink: /publications/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-05-29  </FONT><br>
+<FONT color="grey">Last update: 2017-05-31 15:32:00  </FONT><br>
 
 
 

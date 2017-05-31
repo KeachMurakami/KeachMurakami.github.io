@@ -1,11 +1,11 @@
 ---
-title: "経歴 (日本語)"
+title: CV-jp
 output: html_document
-permalink: /about/CVjp/
+permalink: /CVjp/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-04-12  </FONT><br>
+<FONT color="grey">Last update: `r lubridate::now()`  </FONT><br>
 
 ------
 
@@ -36,7 +36,7 @@ library(knitr)
 <br>
 
 ### 学歴
-```{r Education, echo = F}
+```{r education, echo = F}
 data.frame(
   Year = c("2008.03",
            "2008.04",
@@ -64,7 +64,7 @@ data.frame(
 <br>
 
 ### 職歴
-```{r Professional_Experience, echo = F}
+```{r post, echo = F}
 data.frame(
   Year = c("2014.4-2017.3", "2017.04-2020.03"),
   Category = c("日本学術振興会 特別研究員 (DC1)",
@@ -79,12 +79,37 @@ data.frame(
 
 <br>
 
+### 研究費獲得状況
+```{r grant, echo = F}
+data.frame(
+  year = c("2014.4-2017.3", "2017.04-2020.03"),
+  title = c("光化学系の反応速度に基づく種々の分光分布下の光合成速度推定法の開発",
+            "個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発"),
+  category = c("特別研究員奨励費 (DC1, 代表者)",
+               "特別研究員奨励費 (PD, 代表者)"),
+  budget = c("3,200,000円", 
+            "4,550,000円"),
+  URL = c("https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-14J09372/",
+         "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17J04736/")
+) %>%
+  mutate(title = paste0(title, "<a href = '", URL, "' target='_blank'> (link)</a>")) %>%
+  select(-URL) %>%
+  kable
+```
+
+\* リンク先は国立情報学研究所運営のKAKENページ
+
+------
+
+<br>
+
 ### 学会活動
 ```{r Academic_Society_Membership, echo = F}
 data.frame(
-  Year = c("2012-", "2013-"),
+  Year = c("2012-", "2013-", "2017-"),
   Society = c("日本生物環境工学会",
-              "日本農業気象学会")
+              "日本農業気象学会",
+              "日本光合成学会")
 ) %>%
   kable
 ```
