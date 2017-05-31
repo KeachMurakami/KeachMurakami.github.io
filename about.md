@@ -5,7 +5,7 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-05-31 15:31:39  </FONT><br>
+<FONT color="grey">Last update: 2017-05-31 20:44:07  </FONT><br>
 
 -----
 
@@ -13,16 +13,19 @@ layout: default
 
 -----
 
-### Author
+### 著者
 
 <ruby>村上<rp>（</rp><rt>むらかみ</rt><rp>）</rp></ruby>   <ruby>貴一<rp>（</rp><rt>きいち</rt><rp>）</rp></ruby> 博士 (農学)  
 Keach MURAKAMI (Ph.D.)
 
-[CV jpn](https://keachmurakami.github.io/CVjp/) / [CV eng](https://keachmurakami.github.io/CVen/)  
+[CV jp](https://keachmurakami.github.io/CVjp/) / [CV en](https://keachmurakami.github.io/CVen/)  
 
-### Affiliation
+<br>
+<br>
 
-#### Present 
+-----
+
+### 所属
 
 2017.04 \~ 2020.03  
 山口大学 大学院創成科学研究科の生物環境情報工学研究室で博士研究員をしています  
@@ -92,9 +95,9 @@ E-mail: keach+yamaguchi-u.ac.jp
 
 #### 趣味  
 
-* サッカー  
-    * 都リーグ社会人4部 (2015~2016)  
-    * サッカー審判員4級 (2015~2016)  
+- サッカー  
+    - 都リーグ社会人4部 (2015~2016)  
+    - サッカー審判員4級 (2015~2016)  
 
 <img src="/figure/base/about/Football_Stats-1.png" title="plot of chunk Football_Stats" alt="plot of chunk Football_Stats" width="100%" />
 
