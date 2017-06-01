@@ -53,10 +53,12 @@ new_item <- function(text) paste0("<FONT color='red'><sup>New </sup></FONT>", te
 KM <- "<FONT color='green'>Keach Murakami</FONT>"
 RM <- "Ryo Matsuda"
 KF <- "Kazuhiro Fujiwara"
+YI <- "Yasuomi Ibaraki"
 
 KM_ <- "<FONT color='green'>村上 貴一</FONT>"
 RM_ <- "松田 怜"
 KF_ <- "富士原 和宏"
+YI_ <- "荊木 康臣"
 
 ```
 
@@ -171,11 +173,19 @@ symp_int <-
 symp_domestic <-
   c(
     ToRecord(
+      new_item("葉面反射画像計測による光合成光利用効率の光環境変化に対する応答の評価の試み"),
+      paste(speaker(KM_), YI_, sep = ", "),
+      "2017 (予定)",
+      "Oral (予定)",
+      "日本生物環境工学会 2017 年松山大会<br>愛媛, 8月30日~9月4日",
+      ""),
+
+    ToRecord(
       "光化学系I・II間での励起エネルギー分配比の非破壊定量法の開発",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2017",
       "Poster",
-      "第 8 回日本光合成学会年会<br>滋賀, 5月",
+      "第 8 回日本光合成学会年会<br>滋賀, 5月27日~5月28日",
       ""),
 
     ToRecord(
