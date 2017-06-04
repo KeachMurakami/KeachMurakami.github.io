@@ -1607,3 +1607,9 @@ Integration
                     - 変更部位をドラッグしてdeleteぽちってinsertぽちって、ってもう
                     - なぜか頑なにハイフンを消す担当者
                     - Springerもそうだったが、この方向性は簡便してくれんかな
+        
+        - 02
+        
+            202. [Allen 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12577/abstract); <FONT color="green">2017
+                - Why we need to know the structure of phosphorylated chloroplast light-harvesting complex II
+                
