@@ -1610,6 +1610,16 @@ Integration
         
         - 02
         
-            202. [Allen 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12577/abstract); <FONT color="green">2017
+            202. [Allen 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12577/abstract); <FONT color="green">低</FONT>
                 - Why we need to know the structure of phosphorylated chloroplast light-harvesting complex II
                 
+        - 06
+        
+            203. [Darko et al. 2014; Phil Trans R Soc B](http://rstb.royalsocietypublishing.org/content/369/1640/20130243); <FONT color="green">無</FONT>
+                - Photosynthesis under artificial light: the shift in primary and secondary metabolism
+                - 知らないグループとメンバー
+                - レビューだが、十分に拾えている印象ではなく、目的もよくわからん
+                    - “The capacity of LEDs to mimic the effects of natural light in terms of energy and information, thus ensuring the growth and development of photosynthetic organisms, and the potential for manipulating the plant metabolism to produce functionalized foods through changes in the intensity and wavelength are also reviewed here using selected examples.”
+                - 読まないでいいと判断
+                
+            
