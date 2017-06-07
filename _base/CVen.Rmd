@@ -65,7 +65,7 @@ data.frame(
 ### Grant
 ```{r grant, echo = F}
 data.frame(
-  year = c("2014.4-2017.3", "2017.04-2020.03"),
+  year = c("2014.04--2017.03", "2017.04--2020.03"),
   title = c("Estimation of photosynthetic electron transport rate from light spectrum based on photochemical reactions at photosystems",
             "Development of a state-space model of leaf photosynthetic characteristics for prediction and regulation of whole-plant photosynthesis"),
   category = c("Grant-in-Aid for JSPS Fellows (DC1)",
@@ -80,7 +80,7 @@ data.frame(
   kable
 ```
 
-\* linked to KAKEN pages maintained by National Institute of Informatics (NII) of JAPAN.
+\* <FONT color="grey">linked to KAKEN pages maintained by National Institute of Informatics (NII) of JAPAN.</FONT>
 
 ------
 

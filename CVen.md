@@ -5,7 +5,7 @@ permalink: /CVen/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-05-31 20:38:23  </FONT><br>
+<FONT color="grey">Last update: 2017-06-02 10:06:36  </FONT><br>
 
 ------
 
@@ -50,12 +50,12 @@ layout: default
 
 ### Grant
 
-|year            |title                                                                                                                                                                                                                                   |category                            |budget        |
-|:---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------|:-------------|
-|2014.4-2017.3   |Estimation of photosynthetic electron transport rate from light spectrum based on photochemical reactions at photosystems<a href = 'https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-14J09372/' target='_blank'> (link)</a>             |Grant-in-Aid for JSPS Fellows (DC1) |JPY 3,200,000 |
-|2017.04-2020.03 |Development of a state-space model of leaf photosynthetic characteristics for prediction and regulation of whole-plant photosynthesis<a href = 'https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-17J04736/' target='_blank'> (link)</a> |Grant-in-Aid for JSPS Fellows (PD)  |JPY 4,550,000 |
+|year             |title                                                                                                                                                                                                                                   |category                            |budget        |
+|:----------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------|:-------------|
+|2014.04--2017.03 |Estimation of photosynthetic electron transport rate from light spectrum based on photochemical reactions at photosystems<a href = 'https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-14J09372/' target='_blank'> (link)</a>             |Grant-in-Aid for JSPS Fellows (DC1) |JPY 3,200,000 |
+|2017.04--2020.03 |Development of a state-space model of leaf photosynthetic characteristics for prediction and regulation of whole-plant photosynthesis<a href = 'https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-17J04736/' target='_blank'> (link)</a> |Grant-in-Aid for JSPS Fellows (PD)  |JPY 4,550,000 |
 
-\* linked to KAKEN pages maintained by National Institute of Informatics (NII) of JAPAN.
+\* <FONT color="grey">linked to KAKEN pages maintained by National Institute of Informatics (NII) of JAPAN.</FONT>
 
 ------
 
