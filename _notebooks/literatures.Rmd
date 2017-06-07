@@ -1622,4 +1622,25 @@ Integration
                     - “The capacity of LEDs to mimic the effects of natural light in terms of energy and information, thus ensuring the growth and development of photosynthetic organisms, and the potential for manipulating the plant metabolism to produce functionalized foods through changes in the intensity and wavelength are also reviewed here using selected examples.”
                 - 読まないでいいと判断
                 
+        
+        - 07
+        
+            204. [Chiang et al. 2017; Ann Appl Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/aab.12362/abstract); 低
+                - A discussion on disease severity index values. Part I: warning on inherent errors and suggestions to maximise accuracy
+                - 病害程度の指標化の問題点について
+                - 面積ベースで指標化すると、系統誤差が出る
+                - abstractを読んだ限り、解決法は書いていないっぽい
+                - 自分と近い、「人の登るはしごを揺らす族」
+                
+            205. [Kochetova et al. 2018?; Photosynthetica](https://link.springer.com/article/10.1007/s11099-017-0736-x); 無
+                - Long-term acclimation of barley photosynthetic apparatus to narrow-band red and blue light
+                - モスクワ州大グループ (コレスポが指定されていないので分からないが、Averchevaグループ？)
+                - この内容で松田論文、Trouwborst論文などを引いてなくてサーベイ甘そうなので読まず
+                - F685/F735とか
+                - Rだけだとmalfunctionalっぽい、って話には触れない
             
+            206. [Stutz et al. 2017; JXB](https://academic.oup.com/jxb/article/doi/10.1093/jxb/erx155/3858257/Inside-out-efflux-of-carbon-dioxide-from-leaves#87685941); 低
+                - Inside out: efflux of carbon dioxide from leaves represents more than leaf metabolism
+                - タイトルが回りくどいのはあまりよろしくない
+                - 呼吸速度が転流を反映するという話っぽい
+                - 新しさ...?
