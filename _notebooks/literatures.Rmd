@@ -1664,3 +1664,12 @@ Integration
         
             - 雑記
                 - `EBImage::readImage`は画像の型を指定してもそんなに速くならない...?
+        
+        - 12
+        
+            - 207. [Huang et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-017-0389-4); 20170612概
+                - Superoxide generated in the chloroplast stroma causes photoinhibition of photosystem I in the shade-establishing tree species *Psychotria henryi*
+                - Psychotria henryiは強光でPSI阻害が起こる珍しい植物
+                - Ctrl vs +MV vs +tocophenol の比較で議論している
+                - Psychotria henryiは日本語では出てこないアカネ科ボチョウジ属の植物でwikiによると現在も種数が増えているらしい
+                - 新規な光合成システムが構築されうる種なのか？
