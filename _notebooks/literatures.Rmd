@@ -1673,3 +1673,8 @@ Integration
                 - Ctrl vs +MV vs +tocophenol の比較で議論している
                 - Psychotria henryiは日本語では出てこないアカネ科ボチョウジ属の植物でwikiによると現在も種数が増えているらしい
                 - 新規な光合成システムが構築されうる種なのか？
+        
+        - 13
+        
+            - 雑記
+                - 春先から探していた中古のPanasonicのインキュベータ (MIR-554) をようやく確保
