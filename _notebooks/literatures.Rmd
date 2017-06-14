@@ -1667,7 +1667,7 @@ Integration
         
         - 12
         
-            - 207. [Huang et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-017-0389-4); 20170612概
+            207. [Huang et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-017-0389-4); 20170612概
                 - Superoxide generated in the chloroplast stroma causes photoinhibition of photosystem I in the shade-establishing tree species *Psychotria henryi*
                 - Psychotria henryiは強光でPSI阻害が起こる珍しい植物
                 - Ctrl vs +MV vs +tocophenol の比較で議論している
@@ -1678,3 +1678,20 @@ Integration
         
             - 雑記
                 - 春先から探していた中古のPanasonicのインキュベータ (MIR-554) をようやく確保
+                
+        - 14
+        
+            208. [Atherton et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2017.00309/abstract); 低
+                - Spatial variation of leaf optical properties in a boreal forest is influenced by species and light environment
+                - Porcar-Castell グループ
+                - 新しさはないように思う
+                
+            209. [Rahimzadeh-Bajgiran et al. 2017; Remote Sens](); 20170614概
+                - Estimating chlorophyll fluorescence parameters using the joint Fraunhofer line depth and laser-induced saturation pulse (FLD-LISP) method in different plant species
+                - 大政研
+                - レーザーで飽和パルスを焚く
+                    - 以前に現ボスとも話をしたが、葉を焼きそう
+                    - エンジニアリング的には面白い
+                    - Kolber式のLIFTの方が圧倒的にエレガント
+                - いまいちわかってないが、レーザー飽和を使うと「広域で使える」という太陽光クロロフィル蛍光のメリットを殺さない？
+                
