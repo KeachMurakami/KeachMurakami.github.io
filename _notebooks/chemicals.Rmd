@@ -82,13 +82,14 @@ format
 - PSIの人工的な電子受容体
 - Mehlerを起こしたいとき (ROSを生成したいとき) など
 - NADPHからの電子受容
-- “It is well known that MV can catalyze a rapid, light- dependent depletion of chloroplast stromal reductants, in- cluding NADPH and ascorbate (Ort and Izawa, 1973; Aristarkhov et al., 1987).” (Feild et al. 1998; Plant Physiol)
+- “It is well known that MV can catalyze a rapid, light-dependent depletion of chloroplast stromal reductants, including NADPH and ascorbate (Ort and Izawa, 1973; Aristarkhov et al., 1987).” (Feild et al. 1998; Plant Physiol)
 
 ### 文献
 
 - Endo et al. (1999)
 - Feild et al. (1998)
 - Huang et al. (2017)
+- Gilemore & Yamamoto (1992)
 
 ## *n*-PG
 
