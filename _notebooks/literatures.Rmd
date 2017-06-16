@@ -1697,7 +1697,7 @@ Integration
                 
         - 15
         
-            210. [Ridley 1977; Plant Physiol](http://www.plantphysiol.org/content/59/4/724.short); 20170615概
+            210. [Ridley 1977; Plant Physiol](http://www.plantphysiol.org/content/59/4/724.short); 20170615摘
                 - Interaction of chloroplasts with inhibitors. induction of chlorosis by diuron during prolonged illumination *in vitro*
                 - DCMU入れたらNPQ上がるよね...って不安になってざっと漁った結果
                 
@@ -1705,9 +1705,40 @@ Integration
                 - Dark induction of zeaxanthin-dependent nonphotochemical fluorescence quenching mediated by ATP
                 - レタスはNPQは大きく変動する割に、constitutive成分が小さい。これは、レタス近縁種にユニークなlutein置換できる色素のせいでは？とのこと
                     - “The reason for low constitutive NPQ in lettuce ... may be related to lactucaxanthin, a xanthophyll that is unique to *Lactuca sativa* L. and closely related species (35). Lactucaxanthin appears to partialy substitute for lutein in the light-harvesting Chl-a/b protein complex in lettuce.”
-
+                    
             - 雑記
                 - 去年の学会でアポをとったセンセイに客員研究員の受入依頼を送信した
                     - だいたいのことは「案ずるよりなんとやら」ではあるが、いつだって産むまでがつらい
                     - さっそくお返事があって、おっけーよ、とのことで恐らく来年４月から南半球
                     - 奇遇にもいま日本で休暇中とのこと
+            
+        - 16
+            - 昨日につづき、NPQ周りを掘り
+        
+            212. [Müller et al. 2001; Plant Physiol](http://www.plantphysiol.org/content/125/4/1558.full); 20170616済 (再)
+                - Non-photochemical quenching. A response to excess light energy
+                - Niyogiグループ
+                - qEがやっぱりしっくりこない
+                    - lumen pH が低いときにはNPQが高いのは確かにそうだけど、pH勾配がNPQの直接の原因ではないように思う
+                    - 例えばフラッシュでPQが完全還元されたときのYii低下は、アクティブに熱放散されたというよりは、受動的な起こる副作用、と解釈したほうが気持ちいい
+                    - と、論文で書こう
+                - xanthophyll cycle は分スケール
+                    -  “This interconversion occurs on a timescale of minutes as part of a xanthophyll cycle...”
+                    
+            213. [Derks et al. 2015; BBA](http://www.sciencedirect.com/science/article/pii/S000527281500033X); <FONT color = "green">高</FONT>
+                - Diverse mechanisms for photoprotection in photosynthesis. Dynamic regulation of photosystem II excitation in response to rapid environmental change
+                - 初見っぽい (Bruceグループ, カナダBrock Univ.)
+            
+            214. [Merlier et al. 2017; Photochem Photobiol Sci](http://pubs.rsc.org/en/content/articlelanding/2017/pp/c6pp00416d#!divAbstract); 低
+                - Potential use of the PRI and active fluorescence for the diagnosis of the physiological state of plants under ozone exposure and high atmospheric vapor pressure deficit
+                - with Hmimina & Soudani
+                - とりあえず落としたが、優先度はひくそう
+                - abstractに“poorly understood”と書くと、かなり印象が悪いな
+                - $\Delta$PRI (厳密には違う) が、NPQと相関など
+            
+            215. [Cazzaniga et al. 2013; Plant J](http://onlinelibrary.wiley.com/wol1/doi/10.1111/tpj.12314/full); 20170616概
+                - Interaction between avoidance of photon absorption, excess energy dissipation and zeaxanthin synthesis against photooxidative stress in *Arabidopsis*
+                - VeronaのBassi & 九大の和田グループ
+                - xanthophyll cycleとphototropismの光阻害への寄与を比較する
+                - *phot2*, *npq1* (Zea synthesis), vs *npq4* (PsbS)
+                - 予想通り、additiveに作用する
