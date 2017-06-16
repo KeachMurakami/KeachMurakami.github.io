@@ -38,19 +38,17 @@ format
 
 3-(3,4-dichlorophenyl)-1, 1-dimethylurea
 
-### 特性
+- 特性
+    - MW 233.1 g mol^-1^
+    - DBMIBと並んで有名どころ
+    - PSII-Q~B~キノン電子受容体部に結合する
+    - ざっくり10 µM オーダーで使用
+    - ADAMAのカーメックス顆粒水和剤がリーズナブルでいいかも？
+        - 80%DCMUなので、
 
-- MW 233.1 g mol^-1^
-- DBMIBと並んで有名どころ
-- PSII-Q~B~キノン電子受容体部に結合する
-- ざっくり10 µM オーダーで使用
-- ADAMAのカーメックス顆粒水和剤がリーズナブルでいいかも？
-    - 80%DCMUなので、
-
-### 文献
-
-- Rosso et al. (2006)
-- 沈 (2009)
+- 文献
+    - Rosso et al. (2006)
+    - 沈 (2009)
 
 ----
 
@@ -58,15 +56,13 @@ format
 
 2,5-dibromo-3-methyl-6-isopropyl-1,4-benzoquinone
 
-### 特性
+- 特性
+    - 有名どころ
+    - cytochrome *b*~6~*f* 複合体のPQ結合部位に結合する
+    - “DBMIBは10 μM 以上の濃度ではシトクロムb*6*f複合体をスキップして光化学系Ⅰに直接電子を渡すようになるので注意が必要である” (光合成事典)
 
-- 有名どころ
-- cytochrome *b*~6~*f* 複合体のPQ結合部位に結合する
-- “DBMIBは10 μM 以上の濃度ではシトクロムb*6*f複合体をスキップして光化学系Ⅰに直接電子を渡すようになるので注意が必要である” (光合成事典)
-
-### 文献
-
-- Rosso et al. (2006)
+- 文献
+    - Rosso et al. (2006)
 
 
 ----
@@ -75,79 +71,68 @@ format
 
 1,1'-dimethyl-4,4'-bipyridinium
 
-### 特性
+- 特性
+    - 有名どころ、その３
+        - = パラコート
+    - PSIの人工的な電子受容体
+    - Mehlerを起こしたいとき (ROSを生成したいとき) など
+    - NADPHからの電子受容
+    - “It is well known that MV can catalyze a rapid, light-dependent depletion of chloroplast stromal reductants, including NADPH and ascorbate (Ort and Izawa, 1973; Aristarkhov et al., 1987).” (Feild et al. 1998; Plant Physiol)
 
-- 有名どころ、その３
-    - = パラコート
-- PSIの人工的な電子受容体
-- Mehlerを起こしたいとき (ROSを生成したいとき) など
-- NADPHからの電子受容
-- “It is well known that MV can catalyze a rapid, light-dependent depletion of chloroplast stromal reductants, including NADPH and ascorbate (Ort and Izawa, 1973; Aristarkhov et al., 1987).” (Feild et al. 1998; Plant Physiol)
-
-### 文献
-
-- Endo et al. (1999)
-- Feild et al. (1998)
-- Huang et al. (2017)
-- Gilemore & Yamamoto (1992)
+- 文献
+    - Endo et al. (1999)
+    - Feild et al. (1998)
+    - Huang et al. (2017)
+    - Gilemore & Yamamoto (1992)
 
 ## *n*-PG
 
 *n*-propyl gallate (3,4,5-trihydroxy benzoic acid n-propyl ester)
 
-### 特性
+- 特性
+    - PTOX依存の酸素発生を阻害する
+        - SHAMより強い阻害剤
+    - 元々はAOXsの阻害剤っぽい
+    - “Thus, AOXs and PTOX share similar structural and catalytic features.” (Josse et al. 2003)
 
-- PTOX依存の酸素発生を阻害する
-    - SHAMより強い阻害剤
-- 元々はAOXsの阻害剤っぽい
-- “Thus, AOXs and PTOX share similar structural and catalytic features.” (Josse et al. 2003)
-
-### 文献
-
-- Shirao et al. (2013)
-- Josse et al. (2003)
+- 文献
+    - Shirao et al. (2013)
+    - Josse et al. (2003)
 
 
 ----
 
 ## Norflurazon
 
-### 特性
+- 特性
+    - カロテノイドの合成を阻害することで、光阻害を誘導する
+    - 光要求性除草剤として利用
 
-- カロテノイドの合成を阻害することで、光阻害を誘導する
-- 光要求性除草剤として利用
-
-### 文献
-
-- `REF`
+- 文献
+    - `REF`
 
 
 ---
 
 ## nigericin
 
-### 特性
+- 特性
+    - “dissipates the ΔpH without significantly affecting the potential gradient.” (Joliot & Johnson 2011)
 
-- “dissipates the ΔpH without significantly affecting the potential gradient.” (Joliot & Johnson 2011)
-
-### 文献
-
-- 
-- 使用文献2
+- 文献
+    - `REF`
 
 
 ----
 
 ## Lincomycin
 
-### 特性
+- 特性
+    - タンパク質合成の阻害剤
+    - PSIIタンパク (D1) の修復を止めるために使う場合が多い
 
-- タンパク質合成の阻害剤
-- PSIIタンパク (D1) の修復を止めるために使う場合が多い
-
-### 文献
-
-- `REF`
+- 文献
+    - `REF`
 
 
 ----
@@ -161,13 +146,11 @@ format
 
 - nitroblue tetrazolium
 
-### 特性
+- 特性
+    - superoxideを検出
 
-- superoxideを検出
-
-### 文献
-
-- Driever & Baker (2013)
+- 文献
+    - Driever & Baker (2013)
 
 
 ----
@@ -175,14 +158,12 @@ format
 ## [Amplex Red](https://www.thermofisher.com/order/catalog/product/A12222)
 
 
-### 特性
+- 特性
+    - H~2~O~2~を検出
+    - 530 nm 励起-580 nm 蛍光
 
-- H~2~O~2~を検出
-- 530 nm 励起-580 nm 蛍光
-
-### 文献
-
-- Miller et al. (2009)
+- 文献
+    - Miller et al. (2009)
 
 
 ----
@@ -190,18 +171,16 @@ format
 ## [Singlet Oxygen Sensor Green](https://www.thermofisher.com/order/catalog/product/A12222)
 
 
-### 特性
+- 特性
+    - 一重項酸素 (^1^O~2~) を検出
+    - 504 nm 励起-525 nm 蛍光
+    - 短波長の光に反応して蛍光を発する可能性 (Hideg, 2008)
+    - 光照射によって蛍光プローブ自体から一重項酸素が発生する可能性 (Kim et al, 2013)
 
-- 一重項酸素 (^1^O~2~) を検出
-- 504 nm 励起-525 nm 蛍光
-- 短波長の光に反応して蛍光を発する可能性 (Hideg, 2008)
-- 光照射によって蛍光プローブ自体から一重項酸素が発生する可能性 (Kim et al, 2013)
-
-### 文献
-
-- [Driever et al. (2009)](https://link.springer.com/protocol/10.1007%2F978-1-59745-289-2_7)
-- [Price et al. (2009)](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1751-1097.2009.00555.x/abstract)
-- [Flors et al. (2006)](https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erj181)
+- 文献
+    - [Driever et al. (2009)](https://link.springer.com/protocol/10.1007%2F978-1-59745-289-2_7)
+    - [Price et al. (2009)](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1751-1097.2009.00555.x/abstract)
+    - [Flors et al. (2006)](https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erj181)
 
 
 # ミトコンドリア呼吸の阻害剤
@@ -210,60 +189,52 @@ format
 
 ## rotenone
 
-### 特性
+- 特性
+    - ミトコンドリア電子伝達複合体IでのNADH分解を阻害する
+        - 植物だと耐性NDHがあるので即死はしない
+    - ピエリシジンも同様
+    - “Rotenone is an inhibitor of the type-I primary oxidoreductase of mitochondria that catalyzes electron transfer from NADH to the quinone pool and is coupled to transmembrane proton translocation” (Feild et al. 1998; Plant Physiol)
 
-- ミトコンドリア電子伝達複合体IでのNADH分解を阻害する
-    - 植物だと耐性NDHがあるので即死はしない
-- ピエリシジンも同様
-- “Rotenone is an inhibitor of the type-I primary oxidoreductase of mitochondria that catalyzes electron transfer from NADH to the quinone pool and is coupled to transmembrane proton translocation” (Feild et al. 1998; Plant Physiol)
-
-### 文献
-
-- Feild et al. (1998)
+#- 文献
+    - Feild et al. (1998)
 
 
 ----
 
 ## Malonic acid
 
-### 特性
+- 特性
+    - ミトコンドリア電子伝達複合体IIでのコハク酸の分解を阻害する
 
-- ミトコンドリア電子伝達複合体IIでのコハク酸の分解を阻害する
-
-### 文献
-
-- `REF`
+- 文献
+    - `REF`
 
 
 ----
 
 ## Antimycin A
 
-### 特性
+- 特性
+    - ミトコンドリア電子伝達複合体IIIでのcyt *c*への電子伝達を阻害する
+        - 致命的
+    - prg5型CEF-PSIも阻害する
 
-- ミトコンドリア電子伝達複合体IIIでのcyt *c*への電子伝達を阻害する
-    - 致命的
-- prg5型CEF-PSIも阻害する
-
-### 文献
-
-- Okegawa et al. 2008
-- Nishikawa et al. 2012
+- 文献
+    - Okegawa et al. 2008
+    - Nishikawa et al. 2012
 
 
 ----
 
 ## CO/KCN/NaN<sub>2</sub>
 
-### 特性
+- 特性
+    - ミトコンドリア電子伝達複合体IVでのO<sub>2</sub>->H<sub>2</sub>Oを阻害する
+    - “CO is a well-known inhibitor of hemoprotein oxidases such as Cyt oxidase, in which CO exerts its inhibitory effect by competing with oxygen for the sixth coordinate of the heme *a* iron.” (Feild et al. 1998; Plant Physiol, p. 1212)
 
-- ミトコンドリア電子伝達複合体IVでのO<sub>2</sub>->H<sub>2</sub>Oを阻害する
-- “CO is a well-known inhibitor of hemoprotein oxidases such as Cyt oxidase, in which CO exerts its inhibitory effect by competing with oxygen for the sixth coordinate of the heme *a* iron.” (Feild et al. 1998; Plant Physiol, p. 1212)
-
-### 文献
-
-- Bennoun (1982)
-- Feild et al. (1998)
+- 文献
+    - Bennoun (1982)
+    - Feild et al. (1998)
 
 ----
 
@@ -271,31 +242,27 @@ format
 
 salicylhydroxamic acid
 
-### 特性
+- 特性
+    - AOXsを阻害する
+    - PTOX依存の酸素発生を阻害する
+        - *n*-PGより弱い阻害剤
 
-- AOXsを阻害する
-- PTOX依存の酸素発生を阻害する
-    - *n*-PGより弱い阻害剤
-
-### 文献
-
-- Bennoun (1982)
-- Josse et al. (2003)
-- Dang et al. (2014)
+- 文献
+    - Bennoun (1982)
+    - Josse et al. (2003)
+    - Dang et al. (2014)
 
 
 ----
 
 ## Myxothiazol
 
-### 特性
+- 特性
+    - cyt *bc*~1~を阻害する
+    - cyanobacteriaでは、SHAMとMyxoの同時添加でミトコンドリア電子伝達が完全に停止する
 
-- cyt *bc*~1~を阻害する
-- cyanobacteriaでは、SHAMとMyxoの同時添加でミトコンドリア電子伝達が完全に停止する
-
-### 文献
-
-- Dang et al. (2014)
+- 文献
+    - Dang et al. (2014)
 
 
 # 活性酸素除去剤
@@ -304,11 +271,24 @@ salicylhydroxamic acid
 
 ## α-tocophenol
 
-### 
+- 特性 
+    - 一重項酸素を除去
+        - 2,2,5,7,8-pentamethyl-6-chromanol (PMC) など
 
-- 一重項酸素を除去
-    - 2,2,5,7,8-pentamethyl-6-chromanol (PMC) など
+- 文献
+    - Huang et al. (2017)
 
-### 文献
 
-- Huang et al. (2017)
+# 活性酸素除去剤
+
+==========
+
+## DTT
+
+Dithiothreitol
+
+- 特性
+    - xanthophyllの変換を止める
+    
+- 文献
+    - Gilemore & Yamamoto (1992)
