@@ -1742,3 +1742,22 @@ Integration
                 - xanthophyll cycleとphototropismの光阻害への寄与を比較する
                 - *phot2*, *npq1* (Zea synthesis), vs *npq4* (PsbS)
                 - 予想通り、additiveに作用する
+        
+        - 17
+        
+            - 雑記
+                - MacBook Airが届いたのでセットアップ
+                    - Chrome, R, Rstudio, TeX, Dropbox, Githubあたり
+                    - 現環境は回線速度が遅いようでTeX (3.1GB) のダウンロードに数時間を要した
+        
+        - 20
+        
+            - 雑記
+                - ３日とおしで測定
+                    - ぐったりした
+                    - コンディション悪いときにゼミでぐだると攻撃的になる
+                    - 大人になりたい
+                - チャンバ納品完了
+                - 光源周りがまだ届かない
+                - 全体的に納品遅いな
+
