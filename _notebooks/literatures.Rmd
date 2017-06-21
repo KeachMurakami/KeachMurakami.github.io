@@ -1760,4 +1760,8 @@ Integration
                 - チャンバ納品完了
                 - 光源周りがまだ届かない
                 - 全体的に納品遅いな
-
+                
+        - 21
+        
+            - 解析日
+            - surface pro2, Mac mini, Macbook airとも、file mtimeのミリ秒は保持しないくさい (f*ck)
