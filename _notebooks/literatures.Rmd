@@ -1780,3 +1780,29 @@ Integration
                 - Plant architecture (分蘖や分枝の構造のことの模様) に関係する遺伝子をうまいことやりましょう、という話
                 - SQUAMOSA PROMOTER BINDING PROTEIN (SBP)-like でSPLらしい
                     - 再帰的だ
+                
+            - 雑記
+                - データ解析が概ね終わり、ぼちぼち満足のいくデータ
+                - 若干の修正と反復測定
+                - DUAL-PAM/Fについての問い合わせ
+                    - Y<sub>ND</sub>・Y<sub>NA</sub>は測定が難しく、絶対値で議論するものではないと思う
+                    
+        - 23
+        
+            218. [Park & Runkle 2017; Environ Exp Bot](http://www.sciencedirect.com/science/article/pii/S0098847216302738); 20170623概
+                - Far-red radiation promotes growth of seedlings by increasing leaf expansion and whole-plant net assimilation
+                - アメリカの施設園芸研究はサイエンスではなくエンジニアリング
+                - 新しいことは含まれておらず、読んで楽しいものでない
+                - 実用への要求が強いんだろうなぁ
+                
+            219. [Son et al. 2016; Hortic Environ Biotechnol](https://link.springer.com/article/10.1007/s13580-016-0068-y); 20170623摘
+                - Application of supplementary white and pulsed light-emitting diodes to lettuce grown in a plant factory with artificial lighting
+                - 図のみちらみ
+                - M1N氏に投げたいが...読んでくれなさそう
+                - アジア人、とくに中韓の苗字バリエーションの少なさがファイル整理と個人認識の重大な障害になりつつある...
+                
+            - 雑記
+                - 学振PD＆科研費のダブル持ちを目指すべく、テーマをもにょもにょ考える
+                    - 両方伸ばせる感じにしたい
+                    - 物品見積り依頼をいくつか
+                - 若者の論文よまなさがやばいなぁ
