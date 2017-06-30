@@ -1440,7 +1440,7 @@ Integration
                     - 最新号はリクエストできない
                     - 値段は届いてからわかる
                     - およそ１週間かかる
-                        - 今回は11日リクエストで、19日着、682円成
+                        - 今回は11日リクエストで、19日着、682円也
                     - 科研費払いにするには、事前に事務に許可を貰う必要がある (事後建て替えはNG)
                         - 値段が事前にわからない時点でアレなかんじ
                         - 誰も幸せにならないシステムだなぁ
@@ -1814,3 +1814,25 @@ Integration
                     - 年間30万円くらいのうちの課題の間接経費は電気代に溶けているのか？
                     - 国立大全体で一括のシステムとか作れないものなのか？
                     - ブログ行き案件かと思ったけど、to whomだ
+            
+        - 28
+        
+            220. [Samodelov & Zurbriggen 2017; Trend Plant Sci](http://www.cell.com/trends/plant-science/abstract/S1360-1385(17)30106-1); <FONT, color = "green">低</FONT>
+                - Quantitatively understanding plant signaling: novel theoretical–experimental approaches
+                - みんなここに向かうんだよなあ
+                
+        - 29
+        
+            221. [Köhl et al. 2017; Funct Plant Biol](http://www.publish.csiro.au/fp/FP17051); 20170629摘
+                - Performance of *Arabidopsis thaliana* under different light qualities: comparison of light-emitting diodes to fluorescent lamp
+                - 複写依頼で585円也
+                - Max Planckのグループ
+                - 「蛍光灯じゃなくてLEDでいいでしょ」、を言うための研究
+                - 研究所の刷新に合わせてやった感？
+                - `G`だけの１元解析ならいいけど、結局`GxE`項がないことを示すべき、ということになるんじゃないかなぁ
+                - `Schöttler & Tóth 2014`で光分配の話しているらしいので落とそう
+                    - と思ったらレビューか
+            
+            222. [Schöttler & Tóth 2014; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2014.00188/abstract); <FONT, color = "green">中</FONT>
+                - Photosynthetic complex stoichiometry dynamics in higher plants: environmental acclimation and photosynthetic flux control
+                
