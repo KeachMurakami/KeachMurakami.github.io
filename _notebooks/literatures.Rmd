@@ -1844,3 +1844,10 @@ Integration
                 - 生環要旨を仕上げ
                 - 予定では土曜あがりだったのに、コンディションを崩す
                 - 夏風邪？
+            
+        - 03
+        
+            223. [Pantazopoulou et al. 2017; PNAS](http://www.pnas.org/content/early/2017/06/21/1702275114.short); 高
+                - Neighbor detection at the leaf tip adaptively regulates upward leaf movement through spatial auxin dynamics
+                - UtrechtとWageningen (生態のAnten、functional structual modelingのEvers)
+                - Auxin mutantを使って、スポットFRでsystemic signalingを作って、FSMでhyponastyの光獲得適応度解析、かな？
