@@ -1851,3 +1851,41 @@ Integration
                 - Neighbor detection at the leaf tip adaptively regulates upward leaf movement through spatial auxin dynamics
                 - UtrechtとWageningen (生態のAnten、functional structual modelingのEvers)
                 - Auxin mutantを使って、スポットFRでsystemic signalingを作って、FSMでhyponastyの光獲得適応度解析、かな？
+                
+        - 04
+        
+            224. [Frank et al. 2017; Global Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/gcb.13802/abstract); 20170704摘
+                - Risk of genetic maladaptation due to climate change in three major European tree species
+                - タイトル面白そう
+                - 分野違いのテクニカルタームが多く、やや掴みかねるが、seed source climate (種子形成期条件？) を入力として、multicariate genecological modelなるもので、その種子由来の苗のパラメータを出して、将来の気候条件でのリスクを出す
+                    - 多変量の重回帰をAICあたりでモデル選択しているっぽい
+                - この論文だと、maladaptationのニュアンスは、「順化が変な方向に向かっている」ではなく、「順化が生育条件におっついていない」という感じ？
+            
+            225. [Tian et al. 2017; JXB](https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erx213); 高
+                - Effects of periodic photoinhibitory light exposure on physiology and productivity of Arabidopsis plants grown under low light
+                - Rubanグループ
+                - これはタイトルは面白くなさそうだけど内容は非常によろしい
+                - 変動光への順化は来るだろうなぁ、と思ってたけどようやく来たか
+                - 30 min 強光1800の阻害処理を１日３回でしばらく栽培
+                    - HL-rossete, HL-seedlingは、systemicな話ではなく、処理開始ステージ
+                - 2 week の阻害処理後には、無処理のctrlと同程度の光合成フェノーム
+                    - 暗順化時のqPでredox解析
+                    - CEFフラックスとか光分配とか、変わってないかなぁ
+                    - 当然調べていそうだけど出していないということはそういうこと？
+                - 阻害処理により葉面積は小さくなるが、DWは大きくなる
+                    - 総受光量を考えればそりゃそうか？
+                    - fatalな阻害 (頻度・持続時間を変える) だと？
+                    - 程度の問題で、fatalにもpositiveにもなりそう
+            
+            - 雑記
+                - 院生室にvisiting scholarが３人増えた
+                - となりのこの人はFacebookするため日本まで来たのかなぁ...
+            
+        - 05
+            
+            226. [塩見 2008; 蛋白質 核酸 酵素](http://mol.medicalonline.jp/library/archive/search?jo=ac0tkksb&ye=2008&vo=53&issue=15&UserID=133.62.255.254); <FONT color = "green">20170705済</FONT>
+                - ノンコーディングRNA研究の魅力とその現状
+                - Hort Resの[non-coding RNA review](https://www.nature.com/articles/hortres201731) (読んでない) を見て、他でも聞いたことあるし読んどくかー的な
+                - 生物の遺伝子にポリモーフィズムを実装するための仕組みっぽい
+                - やっぱり分子生物学はハードルが高い
+                    - 金の小槌を振りかぶることができないと勝負にすらならない
