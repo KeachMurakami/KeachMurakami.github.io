@@ -1889,3 +1889,11 @@ Integration
                 - 生物の遺伝子にポリモーフィズムを実装するための仕組みっぽい
                 - やっぱり分子生物学はハードルが高い
                     - 金の小槌を振りかぶることができないと勝負にすらならない
+            
+        - 06
+        
+            227. [Springer et al. 2017; Remote Sens](http://www.mdpi.com/2072-4292/9/7/691); 中
+                - Parallel seasonal patterns of photosynthesis, fluorescence, and reflectance indices in boreal trees
+                - Gamonグループ
+                - 分光指標をトラッキングする話
+                    - はたからみていると銅鉄実験っぽさがある
