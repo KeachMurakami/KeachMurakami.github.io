@@ -1897,3 +1897,51 @@ Integration
                 - Gamonグループ
                 - 分光指標をトラッキングする話
                     - はたからみていると銅鉄実験っぽさがある
+                
+        - 08
+        
+            228. [Lanoue et al. 2017; Front Plant Sci](https://doi.org/10.3389/fpls.2017.01076); 20170708概
+                - The effect of spectral quality on daily patterns of gas exchange, biomass gain, and water-use-efficiency in tomatoes and lisianthus: an assessment of whole plant measurements
+                - 図とDiscussionを斜め読み
+                - R, G, B, R+W, RB, HPS, FLなど比較
+                - 論文と関係ないけど、FrontiersはいきなりPDFダウンロードではなくブラウザで見られるようにしてほしい
+                
+            229. [Cope & Bugbee 2013; HortScience](http://hortsci.ashspublications.org/content/48/4/504.short); 20170708概
+                - Spectral effects of three types of white light-emitting diodes on plant growth and development: absolute versus relative amounts of blue light
+                - 白色LEDを比べる話
+                - AusPhenoでもちらっと触れていたような (きおくあいまい)
+            
+            230. [Golding & Johnson 2003; Planta](https://link.springer.com/article/10.1007%2Fs00425-003-1077-5?LI=true); 20170708済
+                - Down-regulation of linear and activation of cyclic electron transport during drought
+                - 乾燥ストレス vs CEF-PSIのスターター
+                - 図4が図3と一緒というなかなかの誤植: [Erratum](https://link.springer.com/article/10.1007/s00425-003-1188-z)
+                - このひとが“photosynthetic control”というフレーズを使い始めたっぽい？
+                
+            231. [Sonoike 1999; J Photochem Photobiol B](http://www.sciencedirect.com/science/article/pii/S1011134499000305); 20170708概
+                - The different roles of chilling temperatures in the photoinhibition of photosystem I and photosystem II
+                - いまさら落とした
+                - 予備実験とかして絞ったんだろうな、という風なエレガントなデータだ
+                
+            - 雑記
+                - 学祭だったが、関与なし
+                - ホームページくそださいな
+                - 学祭で花火は新鮮
+            
+        - 10
+        
+            232. [Tschiersch et al. 2017; Plant Method](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-017-0204-4); 無
+                - Establishment of integrated protocols for automated high throughput kinetic chlorophyll fluorescence analyses
+                - Fluorcamとベルトコンベアを作りました、って話
+                - ソフト的なところはなんもなし？
+            
+            233. [Amrhein et al. 2017; PeerJ](https://peerj.com/articles/3544/); 低
+                - The earth is flat (*p* > 0.05): significance thresholds and the crisis of unreplicable research
+                - 有名な“The earth is round (*p* < .05)”をもじったタイトル
+                - 効果量あるいは再現性の話はOA誌とも相性いい
+                    - OAで出すならPeerJ・eLifeがいいなぁ
+                - ASAのアレ以来、*p*値トークが増えている印象でよろしい
+            
+            - 雑記
+                - 学会参加費の早割をのがしていた...
+                - 暫定プログラムでオーラス
+                - 共著者に「今週中にお送りします」メールをして自分を追い込むスタイル
