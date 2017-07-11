@@ -1945,3 +1945,13 @@ Integration
                 - 学会参加費の早割をのがしていた...
                 - 暫定プログラムでオーラス
                 - 共著者に「今週中にお送りします」メールをして自分を追い込むスタイル
+            
+        - 11
+        
+            234. [Schymansky et al.2017; Hydrol Earth Syst Sci](http://www.hydrol-earth-syst-sci.net/21/3377/2017/); 無
+                - Technical note: An experimental set-up to measure latent and sensible heat fluxes from (artificial) plant leaves
+                - 葉の熱収支とガス交換を同時に測定するシステムを作った話
+                
+            235. [Lee et al. 2017; Trend Plant Sci](http://www.cell.com/trends/plant-science/abstract/S1360-1385(17)30132-2); <FONT, color = "green">低</FONT>
+                - Multiple routes of light signaling during root photomorphogenesis
+                - 根での光センシングについてのレビュー
