@@ -1955,3 +1955,12 @@ Integration
             235. [Lee et al. 2017; Trend Plant Sci](http://www.cell.com/trends/plant-science/abstract/S1360-1385(17)30132-2); <FONT, color = "green">低</FONT>
                 - Multiple routes of light signaling during root photomorphogenesis
                 - 根での光センシングについてのレビュー
+            
+        - 12
+        
+            236. [Théroux-Rancourt et al. 2017; New Phytol]();
+                - The bias of a two-dimensional view: comparing two-dimensional and three-dimensional mesophyll surface area estimates using noninvasive imaging
+                - 筆頭はUC Davis、Brodersonがシニアに入っている
+                - 図 (データじゃなくて) が全てエレガントだ
+                - MicroCT (高そう) を使って、3D構造を解析する話
+                - 知見自体の新しさはあまりないっぽいような
