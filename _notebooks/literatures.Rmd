@@ -1958,9 +1958,16 @@ Integration
             
         - 12
         
-            236. [Théroux-Rancourt et al. 2017; New Phytol]();
+            236. [Théroux-Rancourt et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14687/abstract); 低
                 - The bias of a two-dimensional view: comparing two-dimensional and three-dimensional mesophyll surface area estimates using noninvasive imaging
                 - 筆頭はUC Davis、Brodersonがシニアに入っている
                 - 図 (データじゃなくて) が全てエレガントだ
                 - MicroCT (高そう) を使って、3D構造を解析する話
                 - 知見自体の新しさはあまりないっぽいような
+            
+        - 13
+        
+            - 雑記
+                - 博論の未投稿部分を投稿論文化したので、共著者 (元ボスたち) に送信
+                - これで一応、キレイな体になれる
+                - 2017abcはかたい、dは投稿までは行きそうだけど年をまたぎそう
