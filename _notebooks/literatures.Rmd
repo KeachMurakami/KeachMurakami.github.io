@@ -1971,3 +1971,34 @@ Integration
                 - 博論の未投稿部分を投稿論文化したので、共著者 (元ボスたち) に送信
                 - これで一応、キレイな体になれる
                 - 2017abcはかたい、dは投稿までは行きそうだけど年をまたぎそう
+            
+        - 14
+        
+            237. [Brodribb et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/07/06/pp.17.00552?rss=1); 無・未刊・未取得
+                - Optical measurement of stem xylem vulnerability
+                - 茎部でのキャビテーションを光学計測する手法について
+                - 詳細は読んでないけど、とりあえず
+            
+            238. [Noridomi et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007/s11120-017-0419-2); 低
+                - Opposite domination of cyclic and pseudocyclic electron flows in short-illuminated dark-adapted leaves of angiosperms and gymnosperms
+                - 裸子・被子でCEFの組成が違うね、って話っぽい
+                - 暗処理した葉への1 s SP後のPSII蛍光の下がりの多項回帰でflv, ndhCEF, pgrCEFを議論  
+                
+            239. [Tomar & Jajoo 2017; Funct Plant Biol](http://www.publish.csiro.au/fp/FP17121); 低・未取得
+                - PSI becomes more tolerant to fluoranthene through the initiation of cyclic electron flow
+                - fluorantheneは多環芳香族炭化水素の一種で有機系の阻害剤らしい
+                - 環境汚染系？
+                    - 大気汚染物質の模様 [大気汚染による植物の環境ストレスを活性酸素消去剤を用いて緩和する方法の検討](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-21310023/)(KAKENサイト) など
+                    
+            240. [Crisp et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/07/13/tpc.16.00828?rss=1); 中・未刊・未取得
+                - Rapid recovery gene downregulation during excess-light stress and recovery in Arabidopsis
+                - Early viewを見た感じ、良さそう
+                - omicsは図が強い
+                
+            241. [Vizsnyiczai et al. 2017; Nat Commun](https://www.nature.com/articles/ncomms15974); 無
+                - Light controlled 3D micromotors powered by bacteria
+                - 作るの楽しそう
+                
+            242. [Jackson et al. 2017; eLife](https://doi.org/10.7554/eLife.26023); 無
+                - Topological analysis of multicellular complexity in the plant hypocotyl
+                - eLifeかっこいいなぁ
