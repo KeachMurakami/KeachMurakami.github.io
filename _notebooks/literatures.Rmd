@@ -2002,3 +2002,13 @@ Integration
             242. [Jackson et al. 2017; eLife](https://doi.org/10.7554/eLife.26023); 無
                 - Topological analysis of multicellular complexity in the plant hypocotyl
                 - eLifeかっこいいなぁ
+            
+        - 15
+        
+            243. [Saudreau et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13026/abstract); 未刊・未取得・20170715摘
+                - Temperature heterogeneity over leaf surfaces: the contribution of the lamina microtopography
+                - 葉面での熱的不均一性を、3Dモデルを組んで熱収支計算から解析する話
+                - 図を見た感じ、空間分布はあっていないが、平均は合うとのabst
+                
+            - 雑記
+                - なぜPlant Physiolの図はいもいのか...
