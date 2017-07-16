@@ -774,10 +774,15 @@ Integration
 
         - 07
 
-            100. [Charbonnier et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12964/abstract); 高・未刊
+            100. [Charbonnier et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12964/abstract); 20170716摘
                 - Increased light-use efficiency sustains net primary productivity of shaded coffee plants in agroforestry system
                 - 知らない人ばかり
                 - 植生による遮光下での受光量の低下と光利用効率の向上を個体レベルから圃場レベルで解析
+                - 2年間の経時データを使った大規模なやつ
+                - “遮蔽された葉は、受光量の低下を光利用効率の向上で多少なりとも補うことで、空間的均一性を高める”というのはどーなのか
+                - 受光量60%減 & LUE50%増だと、積は40%減だから、NPPステイブルはウソじゃない...？
+                    - “We found that although irradiance was reduced by 60% below crowns of shade trees, coffee light-use efficiency increased by 50%, leaving net primary productivity fairly stable across all shade levels.”
+                - introが“2050年には100億人を養わないといけない”、からはいった時点で読む気を失った
 
             101. [Trouwborst et al. 2016; EEB](http://www.sciencedirect.com/science/article/pii/S0098847215000854); 20170407済 (再)
                 - Plasticity of photosynthesis after the ‘red light syndrome’ in cucumber
@@ -785,9 +790,18 @@ Integration
 
         - 09
 
-            102. [Harbinson & Yin 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12572/abstract); 高・未刊
+            102. [Harbinson & Yin 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12572/abstract); 20170716済
                 - A model for the irradiance responses of photosynthesis
                 - ある程度かぶっていそうな、嫌な予感がする
+                - 20170716読み進め、被ってはいない。非常によろしい論文だ。
+                    - あと１年早く出せてたら引用してもらえていただろうか？
+                - 筆頭著者とは残念な発表をしたオーストラリアで面識がある
+                    - 遺伝・統計・光合成生理を扱うWageningenのひと
+                    - 多くの統計屋がそうであるように、beautifullyとかelegantとかnaturally emergesとか、ポエティックな言葉づかい
+                    - M先生曰く、Foyerと組んだり、Aroと組んだり、と変な経歴らしい
+                - PSIがリミットする状態が多いからP700だけでモデルを組む、というスタンス
+                - 定常状態での酸化還元・電子フローをモデル化してる
+                - 大枠はつかめたが、再読必須
 
             103. [Luján et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007/s11120-017-0375-x); 低
                 - A simple and efficient method to prepare pure dimers and monomers of the cytochrome *b*<sub>6</sub>*f* complex from spinach
@@ -2012,3 +2026,8 @@ Integration
                 
             - 雑記
                 - なぜPlant Physiolの図はいもいのか...
+            
+        - 16
+        
+            - 雑記
+                - 優先度: 高をいくつか潰し (Charboninnier et al. 2017; PCE, Harbinson & Yin 2017 Physiol Plant)
