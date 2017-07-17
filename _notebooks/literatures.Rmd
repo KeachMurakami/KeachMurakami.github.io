@@ -2031,3 +2031,18 @@ Integration
         
             - 雑記
                 - 優先度: 高をいくつか潰し (Charboninnier et al. 2017; PCE, Harbinson & Yin 2017 Physiol Plant)
+                
+        - 17
+        
+            244. [Zivcak et al. 2013; Photosynth Res](https://link.springer.com/article/10.1007/s11120-013-9885-3); 低
+                - Photosynthetic electron transport and specific photoprotective responses in wheat leaves under drought stress
+                - Allakhverdievグループ
+                - `Gas/flu/P700 params ~ PPFD * time * drought`の解析
+                - 光分配 a<sub>II</sub>も出てきている
+                    - Laisk plotのフィッティング
+            
+            - 雑記
+                - F先生より、論文コメント
+                    - 先生、添付忘れてます...
+                - C先生より、visiting fellowの手続きについて連絡
+                    - CVの書き方がよくわからん...
