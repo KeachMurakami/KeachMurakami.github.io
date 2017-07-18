@@ -5,7 +5,7 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-05-31 20:44:07  </FONT><br>
+<FONT color="grey">Last update: 2017-07-18 21:09:52  </FONT><br>
 
 -----
 
@@ -18,7 +18,9 @@ layout: default
 <ruby>村上<rp>（</rp><rt>むらかみ</rt><rp>）</rp></ruby>   <ruby>貴一<rp>（</rp><rt>きいち</rt><rp>）</rp></ruby> 博士 (農学)  
 Keach MURAKAMI (Ph.D.)
 
-[CV jp](https://keachmurakami.github.io/CVjp/) / [CV en](https://keachmurakami.github.io/CVen/)  
+- CV
+    - [Jpn](https://keachmurakami.github.io/CVjp/)
+    - [Eng](https://keachmurakami.github.io/CVen/) ([download](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_base/CV_20170718.pdf))
 
 <br>
 <br>
