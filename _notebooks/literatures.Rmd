@@ -2046,3 +2046,40 @@ Integration
                     - 先生、添付忘れてます...
                 - C先生より、visiting fellowの手続きについて連絡
                     - CVの書き方がよくわからん...
+                
+        - 18
+        
+            245. [Bucksch et al. 2017; FPS](http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/full); <FONT color = "green">低</FONT>
+                - Morphological plant modeling: unleashing geometric and topological potential within the plant sciences
+                - マウント取りの論文、って感じ
+                - 研究論文にメンバーの写真入れるのはちょっと...
+                    - なんでこれを通したんだMarcelis
+                - Frontiersの印象が下がる一方だ
+            
+            246. [Stinziano et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12911/abstract); 中
+                - The rapid *A*–*C*<sub>i</sub> response: photosynthesis in the phenomic era
+                - 動的にCO<sub>2</sub>濃度を変化させることで、高速にA-Ciカーブを得る？
+                - 直感的には、気孔開度でバイアスが掛かりそうだが...？
+                - 読むべきではある論文？
+            
+            247. [Hirt et al. 2017; Nat Ecol Evol](https://www.nature.com/articles/s41559-017-0241-4); 無
+                - A general scaling law reveals why the largest animals are not the fastest
+                - 吸熱・発熱の熱的制御が速度に及ぼす影響が、水棲生物と陸棲・飛行生物で逆転するのもエレガントだし、恐竜のスピードもキャッチーだ
+                - 美しいなぁ
+                
+                
+            - 雑記
+                - 山口は霧がものすごいなぁ
+                - C先生にCVを送信
+            
+        - 19
+        
+            248. [Tietz et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12924/abstract); 
+                - NPQ<sub>(T)</sub>: a chlorophyll fluorescence parameter for rapid estimation and imaging of non-photochemical quenching of excitons in photosystem-II-associated antenna complexes
+                - Kramerグループ
+                - F<sub>m</sub>測定の時間コストの問題を回避するために新しい熱放散パラメータを、という論文
+            
+            - 雑記
+                - 夏バテ気味だ
+                - 口腔・歯科衛生系のpredatory journalからメールが多いのだが、なぜだ？
+                - 相関解析に良さそうなパッケージ -> https://github.com/drsimonj/corrr
