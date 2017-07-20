@@ -2083,3 +2083,15 @@ Integration
                 - 夏バテ気味だ
                 - 口腔・歯科衛生系のpredatory journalからメールが多いのだが、なぜだ？
                 - 相関解析に良さそうなパッケージ -> https://github.com/drsimonj/corrr
+                
+        - 20
+        
+            249. [Trchounian et al. 2017; Book chapter ](https://link.springer.com/chapter/10.1007/978-3-319-44081-1_2); 低
+                - Plant cell redox homeostasis and reactive oxygen species
+                - 本の編者も著者たちも知らない人率高すぎるが、大丈夫か？自分が詳しくないだけか？
+                - 無料だったので一応おとす貧乏性
+        
+            - 雑記
+                - M先生より、論文コメント
+                    - D論のときにも指摘されたが、ここはなぁ...
+                - そこは置いといて、英文校正に投げた
