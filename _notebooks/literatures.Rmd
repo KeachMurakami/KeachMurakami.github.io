@@ -2096,3 +2096,12 @@ Integration
                     - D論のときにも指摘されたが、ここはなぁ...
                 - そこは置いとけるとこだったので、ほかを反映して英文校正に投げた
                     - 研究遂行経費 (非課税私費) でやるか
+                
+        - 22
+        
+            250. [Avercheva et al. 2014; Adv Space Res](http://www.sciencedirect.com/science/article/pii/S0273117714001501?via%3Dihub); 低
+                - Biochemical, photosynthetic and productive parameters of Chinese cabbage grown under blue–red LED assembly designed for space agriculture
+                - 初ジャーナル
+                - ロシアはソ連時代からの宇宙志向が植物でも？
+                
+            
