@@ -135,6 +135,7 @@ tags: memo
         - Integrative Food, Nutrition and Metabolism (2016/12/07)
         - Innovative Energy & Research (2017/01/02)
         - Global Advanced Research Journal of Agricultural Science (GARJAS) (2017/01/11)
+    - まとめ切れなくなってきたのでやめた
 
 
 # 読み仕事
@@ -166,12 +167,6 @@ tags: memo
 - [発声練習](http://next49.hatenadiary.jp/entry/20080105/p3) とても参考になる。  
 - [アレ待チろまん](http://www.aremachi.com/) 専門は分子細胞生理学っぽい。  
 - [Take a Risk：林岳彦の研究メモ](http://takehiko-i-hayashi.hatenablog.com/) リスク学と統計学。  
-
-### 企業・会社
-
-- [日本環境計測のブログ](http://emj.sblo.jp/) 日本環境計測株式会社さん。エンジニア魂を感じる。  
-
-
 
 ## 研究助成
 
