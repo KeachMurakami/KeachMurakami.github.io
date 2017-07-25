@@ -16,9 +16,15 @@ tags: memo
 
 ## 校正コメント
 
+- セミコロン
+
 > One of the purposes of a semicolon (;) is to indicate that two independent clauses (clauses that can function as complete sentences) are related (e.g., The children played in the rain; hence, they caught a cold). A colon, on the other hand, is used to draw attention to the text that follows (e.g., The course includes the following subjects: Art, History, and Music). Since they serve different purposes, one cannot be used in place of the other.
 
+- paper, work, study, experiments.
+
 > In an academic context, “paper” implies a formal written composition that is intended to be published, presented, etc. The “study” on the other hand, is the actual work carried out. Usually a paper reports on certain details of a study, such as the method used, its finding, and conclusions derived from the study. Therefore, it would be odd to say that experiments were carried out in the paper. The experiments were carried out at the time of conducting the research, that is, during the study, and not during the writing of the paper to report the detail of the study. Hence, it is appropriate to use the word “study” and not “paper.”
+
+- 制限用法・非制限用法がいつもわからなくなる
 
 > Use commas before “including” and “such as,” when followed by a nonrestrictive, nonessential phrase or clause.
 e.g., The new policy applies to everyone, including faculty.
@@ -26,9 +32,25 @@ Do not use a comma if such as is part of a restrictive clause
 e.g., Trees such as oaks and elms do not grow at this altitude
 Here we have a restrictive phrase. We are not trying to say that no trees grow at this altitude – we’re restricting the statement to specific types of trees: oak and elms.
 
+- 名詞・動詞
+
 > The subject of a sentence is the noun that performs the action (verb) described in the sentence. For example, in the sentence, “The girl sings,” the girl is the subject and sings is the verb. In a grammatically correct sentence, singular subjects are accompanied by singular verbs (e.g., The girl sings) and plural subjects by plural verbs (The girls sing).
+
+- 冠詞
 
 > Please not that “a” and “an” are indefinite (non-specific) articles. They are used when referring to something in general (e.g., I need a phone), when referring to something new, unknown, or introduced for the first time (e.g., I have a car), or to introduce the type of thing you are talking about (e.g., This is an excellent book).
 In contrast, “the” is a definite (specific) article. It is used when referring to something already known to the reader or which has been previously mentioned. Please review here and throughout the text.
 
+- allaw vs enable
 > Please note that “to allow” means to permit or give permission whereas “to enable” means to provide the means or power, or to make something possible or easy. The latter is the appropriate word in this context. 
+
+
+## 校正での気づき
+
+- 理由節を呼ぶときには、as, since, becauseだが、校正者により好みは違う
+    - as禁止派
+        - 恐らく、誤解の余地があるからだろう
+    - since->as派
+        - 恐らく、短縮が狙いで、「sinceって書くくらいならbecause書けや」と思っている
+    - 目下、because->since or as派はいないので、安全にいくならbecauseがいいだろう
+        - と思ったらbecause->since派がいた
