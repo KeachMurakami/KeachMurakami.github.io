@@ -115,7 +115,18 @@ journal_articles <-
       "in press",
       "Original Article",
       paste0("Plant, Cell & Environment", impacts[6]),
-      "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
+      "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract"),
+    
+    ToRecord(
+      new_item("A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems"),
+      paste(correspond(KM), correspond(RM), KF, sep = ", "),
+      "submitted",
+      "Original Article",
+      "-",
+      "-")
+      # paste0("Planta", impacts[7]),
+      # "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
+
   )
 ```
 
