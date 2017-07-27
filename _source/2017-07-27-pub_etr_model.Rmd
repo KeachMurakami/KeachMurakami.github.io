@@ -10,5 +10,6 @@ tags: lab log
 - 引用などコミコミで5181 words (本文は4243 words)  
 - これで東大博士時代のデータは出し切り  
 - 最近はどこの雑誌でも、abstractとは別で、さらに簡潔にまとまったもの (highlights、main conclusionsなど) を出せ、と言うようだ
-- 投稿先は、最近よく勧誘メールがくるPlant Direct (wileyのOA誌) と少し迷いつつ、先立つものの都合もあり他誌へ
-    - Plant Directはeditorial boardもしっかりしてそうだし、ASPB & SEB & Wileyという布陣だから期待している
+- 最近よく勧誘メールがくるPlant Directへの投稿を少し検討したが、先立つものの都合もあり他誌へ
+    - Plant Directはeditorial boardもしっかりしてそうだし、ASPB & SEB & Wileyという布陣でOA誌のなかではかなり魅力的
+    - eLife > Plant Direct > Scientific Report, PLoS ONE, Frontiersみたいな状況になると予想
