@@ -1,5 +1,5 @@
 ---
-title: "論文投稿 (Regular_006)"
+title: "論文投稿 (Regular_005)"
 output: html_document
 layout: post
 tags: lab log
