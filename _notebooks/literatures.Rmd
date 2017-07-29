@@ -2131,3 +2131,9 @@ Integration
                 - 公開の博論審査にお邪魔した
                     - 略歴紹介とか花束贈呈とかあって、ほほうってなる
                     
+        - 29
+        
+            251. [Song et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13041/abstract); 未刊・未取得
+                - The impact of modifying photosystem antenna size on canopy photosynthetic efficiency
+                - Don OrtとXinguang Zhu (Systems biologyの人らしい)
+                - 
