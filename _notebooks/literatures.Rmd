@@ -2136,4 +2136,9 @@ Integration
             251. [Song et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13041/abstract); 未刊・未取得
                 - The impact of modifying photosystem antenna size on canopy photosynthetic efficiency
                 - Don OrtとXinguang Zhu (Systems biologyの人らしい)
-                - 
+            
+        - 31
+        
+            - 雑記
+                - ゼミで博士論文スライドを出した (いまさら)
+                
