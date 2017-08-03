@@ -147,10 +147,21 @@ Integration
                 - photodamageを受けた葉緑体が液胞中心に移動する
                 - 「移動して、そのあとどうなる」が意図的に書かれていなさそう
 
-            13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); 高
+            13. [Kono et al. 2017; PCP](https://academic.oup.com/pcp/article/doi/10.1093/pcp/pcw215/2948616/Photoprotection-of-PSI-by-Far-Red-Light-Against); 20170803済
                 - Photoprotection of PSI by Far-Red Light Against the Fluctuating Light-Induced Photoinhibition in Arabidopsis thaliana and Field-Grown Plants
                 - FRで変動光下でのPSI阻害が抑制できる話
                 - 内容は既知のものなので、引用されている文献など、知識収集メインで読むべし
+                - 20170803読んだ
+                - PSIの回復が遅い話の文献
+                    - “... once PSI is damaged, repair and/or de novo PSI syn- thesis are very slow (Kudoh and Sonoike 2002)”
+                - NDH-CEF経路を潰すと、FRでの光防御の恩恵が得られない
+                    - NDH-CEFが恒常的に低fluxであるっぽくて、FR照射に関連した何か (例えばリン酸化で切り離しとか) で切り替えられるbufferみたいになってるのかなぁ
+                    - 釈然としないが、経過観察
+                - CEFだと、結局のところ光エネルギーは消費できてもP700+を還元して落ち着かせられない (またまわってくるから) のでP700<sup>+</sup>のNPQの作用が重要だろう、という話
+                    - PSIIのNPQ誘導でinflux自体を下げれば、問題なくなるから、CEFだけでも持つのでは？と思う
+                    - Redoxの経時のイメージが重要な気がする
+                    - ここらへんはsystems biologyっぽく全体を一気に捉えないときつい = ぼくが個人レベルでできるような研究ではないので、パス
+                    - ややステップ幅が広く、行間を補完しながら読む必要のあるDiscussionである
 
 
         - 28
@@ -2141,4 +2152,11 @@ Integration
         
             - 雑記
                 - ゼミで博士論文スライドを出した (いまさら)
+                
+    - 08
+    
+        - 03
+        
+            - 雑記
+                - ここ数日、測定が続きで少しくたびれた
                 
