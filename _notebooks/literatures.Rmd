@@ -31,6 +31,7 @@ output:
     - Nature Plants (契約なし)
     - Philos Trans R Soc (契約なし)
     - Plant Cell (刊行後しばらくアクセス権なし)
+    - Plant Cell Physiol (刊行後しばらくアクセス権なし)
 
 ```{r, eval = F}
 library(rvest)
@@ -2167,3 +2168,19 @@ Integration
                     - 日陰でやってたのに、ひたすら暑い
                     - フィールド屋さんはすごい
                 - physiol plant に投げた論文がeditor assignにまだ届かぬ (5日目)
+                
+        - 06
+        
+            252. [Evans et al. 2017; PCP](https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx103/4056559/Light-Quality-Affects-Chloroplast-Electron); 必・未刊・未取得
+                - Light quality affects chloroplast electron transport rates estimated from chl fluorescence measurements
+                - Evans、とvon CaemmererとLI-CORの人
+                - 内容は予想できるが、必要に応じて今の原稿で引きたい
+                - どの項まで定量してからやっている？
+                    - 青色光だとETRを２倍近く過大評価
+                    - 深度の問題で解析している？
+                    - ETRを比べているので、ネストせずにやるのは難しいはずだから、光分配は解析していないはず
+                        - やってないのにabstで非光合成色素に言及せずに深度のみに行くとは考えにくいので、解析しているのか？
+                - PCP (Oxford系?) がしばらく読めないのは痛いなぁ
+        
+            - 雑記
+                - 帰りにちょうちん祭りを流す
