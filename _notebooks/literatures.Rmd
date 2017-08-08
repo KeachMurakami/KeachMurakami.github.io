@@ -2184,3 +2184,46 @@ Integration
         
             - 雑記
                 - 帰りにちょうちん祭りを流す
+        
+        - 07
+        
+            - 雑記
+                - 科研費申請を考える
+                    - KAKENでタイトル眺め
+                - 学振から書類が届いたので、スキャンしてC先生にメール
+                    - 英文メールしんどい
+                    
+        - 08
+        
+            253. [三中 2016; 心理学評論](http://team1mile.com/sjpr59-1/contents_comment/minaka2016/); <FONT color="green">20170808済</FONT>
+                - 統計学の現場は一枚岩ではない
+                - QRPsっていわれてもプレミアリーグのアレ (QPR) がうかぶ
+                    - questionable research practicesらしい
+                - 三中先生に限らず、統計屋はたのしそうに論文を書いていて非常によろしい
+                - 仮説ありきのStrong inferenceとガチンコバトルになるよなぁ
+                - wet研究やるとどうしてもstar countingに走る
+            
+            254. [久保 2003; 生物科学](http://www.ruralnet.or.jp/seibutsu/054_03.htm); <FONT color="green">20170808済</FONT>
+                - 樹木・森林生態学「よく出る」誤用統計学の基本わざ
+                - 253から
+                
+            255. [Johnson 1999; J Wildl Manage](http://www.jstor.org/stable/3802789?seq=1#fndtn-page_scan_tab_contents); <FONT color="green">中</FONT>
+                - The insignificance of statistical significance testing
+                - wildlifeはlで略すのか
+                - 同、253から
+            
+            256. [Sato et al. 2017; PCP](https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx110/4061461/FLUCTUATINGlIGHTACCLIMATION-PROTEIN1-conserved-in); 中・未刊・未取得
+                - FLUCTUATING-lIGHT-ACCLIMATION PROTEIN1, conserved in oxygenic phototrophs, regulates H+ homeostasis and non-photochemical quenching in chloroplasts
+                - 河野さんも共著で入っている東工大増田研
+                - abstだけ読むと、変動光応答のキーというよりは、強光→弱光時のNPQ低下に支配的なだけでは？
+                    - って思ったけど、そもそもほとんど全ての応答に時間遅れがあるわけで、変動光応答のキーというものは存在しない、あるいは全ての要素がキーである、といってもいい
+                - 待ち
+            
+            - 雑記
+                - 科研申請、「方向はこれでいくかー」っていうのはざっくりうまる
+                    - 一応、予備データになるものを東大時代にとってある
+                    - ただ、関連する論文が出せてないので、そこが弱い
+                    - もう少し練る
+                    - 最悪いまはとれなくても数年内にはとれそう
+                - 科研申請の学内締切は10月半ばらしい
+                    - 情報が届きづらいので警戒必要そう
