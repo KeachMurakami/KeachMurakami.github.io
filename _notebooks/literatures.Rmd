@@ -2209,7 +2209,7 @@ Integration
                 
             255. [Johnson 1999; J Wildl Manage](http://www.jstor.org/stable/3802789?seq=1#fndtn-page_scan_tab_contents); <FONT color="green">中</FONT>
                 - The insignificance of statistical significance testing
-                - wildlifeはlで略すのか
+                - wildlifeはwildlで略すのか
                 - 同、253から
             
             256. [Sato et al. 2017; PCP](https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx110/4061461/FLUCTUATINGlIGHTACCLIMATION-PROTEIN1-conserved-in); 中・未刊・未取得
@@ -2227,3 +2227,33 @@ Integration
                     - 最悪いまはとれなくても数年内にはとれそう
                 - 科研申請の学内締切は10月半ばらしい
                     - 情報が届きづらいので警戒必要そう
+            
+        - 09
+        
+            257. [Bezryadina et al. 2017; Phys Rev Letter](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.058101); 無
+                - Nonlinear Self-Action of Light through Biological Suspensions
+                - バクテリアの凝集程度をコントロールして前方散乱させるライトガイド、散乱膜にする
+                - かっとんでるな
+                
+            258. [Suorsa et al. 2016; Mol Plant](http://www.sciencedirect.com/science/article/pii/S1674205215004542); 20170809摘
+                - PGR5-PGRL1-Dependent Cyclic Electron Transport Modulates Linear Electron Transport Rate in <i>Arabidopsis thaliana</i>
+                - in pressを脱していたので、とりあえず落としてAbstのみ
+                    - LEFとCEFの解析のため、LEF活性が小さくなるようにPSII系のquintuple mutant ($\Delta5$) を作成
+                    - dark-light transition時に、$\Delta5$はLEFの低下をCEFで補っており、NPQが活発
+                    - $\Delta5$に更にqE, NDH-CEF, or pgr5-pgrl1の欠損を付加して (sextuple...)、PGR5経路の重要性を提示
+                    - pgr5のsingle mutantだと変動光致死だが、$\Delta5$-pgr5のsextupleだとサバイヴ
+                - CEF/LEF or CET/LETはどっちが主流になるだろう
+                    - 寺島ラボ、Chowラボ、三宅ラボが`F`だからそっちで書いているが、Aroラボ、鹿内ラボ、Allakhverdievラボは`T`
+                    - インパクトがある論文を書きがちなのは、molecularな研究が多い後者
+            
+            - 雑記
+                - physiol plant投稿中の論文がようやくeditor assignまで進んだ
+                - PCE論文のproofの第2稿が届いて確認
+                    - 現所属表示の関係で、ダブルコレスポなのに自分にだけ*がついてやや難ありなので、修正を依頼
+                    - 前回の指摘で数字か記号かアルファベットで現所属を表示して、といったのが若干うまくなかった、と反省
+                - KAKENの話を先生とちらほら
+                    - 自分のなかで学振課題の比重がかなり重いから、いろいろ考える
+                    - 若手 & 萌芽で出したらというアドバイス
+                    - 仮に３つ抱えたら、単独では実施しきれない
+                        - 学生主導でっていうのはぼくの側の気持ちの問題で無理だなぁ
+                        - テクニシャンさんを雇うってのは現実的にありえるのか？
