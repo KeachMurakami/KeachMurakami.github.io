@@ -2262,3 +2262,9 @@ Integration
         
             - 雑記
                 - physiol plantへ投げた論文がAwaiting Reviewer Assignmentに
+            
+        - 11
+        
+            - 雑記
+                - シンボリックリンクを使いこなせるようになり、非常にグッド
+                - ただ、knitrだとシンボル側からアクセスできないっぽいので、やや難
