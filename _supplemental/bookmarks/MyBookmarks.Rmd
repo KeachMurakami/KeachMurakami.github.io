@@ -107,10 +107,10 @@ tags: memo
     - アメリカのPIさんのメモ
 
 ## 査読
-まだやったことないけど、近々くるだろう
 
 - [英語論文の査読表現集](https://staff.aist.go.jp/a.ohta/japanese/study/Review_ex_top.htm)
 - [投稿論文の査読のしかたを考える](http://takenaka-akio.org/doc/researcher/reviewer.html)  
+- [誰も教えてくれなかった査読（ピアレビュー）のやり方、査読レポートの書き方](http://scienceandtechnology.jp/archives/12812)
 
 ## 一般
 普段遣いの英語がわからん
