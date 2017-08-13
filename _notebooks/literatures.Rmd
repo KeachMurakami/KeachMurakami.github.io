@@ -2268,3 +2268,17 @@ Integration
             - 雑記
                 - シンボリックリンクを使いこなせるようになり、非常にグッド
                 - ただ、knitrだとシンボル側からアクセスできないっぽいので、やや難
+            
+        - 12
+        
+            259. [Zavafer et al. 2017; Sci Rep](https://www.nature.com/articles/s41598-017-07671-1); 低
+                - Mechanism of Photodamage of the Oxygen Evolving Mn Cluster of Photosystem II by Excessive Light Energy
+                - PSII光阻害の2stepが概ね終わったかんじ？
+            
+            - 雑記
+                - スライドをreveal.jsに完全以降するべく作ってたけど、これは魔
+                    - Rで出した図を差分表示するとき、オブジェクトの配置の手打ち感が致命的
+                    - ここらへんをwrapするスクリプトを組むにはhtmlの簡単なお勉強がいる
+                - 撤退するつもりでパワポいじったら久々すぎて、作り方を忘れている...
+                - 結局、revealjsに戻る
+                - 雑スラな人になる、という手もある
