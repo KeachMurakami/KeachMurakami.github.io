@@ -2282,3 +2282,23 @@ Integration
                 - 撤退するつもりでパワポいじったら久々すぎて、作り方を忘れている...
                 - 結局、revealjsに戻る
                 - 雑スラな人になる、という手もある
+        
+        - 13
+          
+            - 雑記
+                - Philos Transが光合成特集っぽいので明日チェック@自宅
+                    - すぐダウンロードできないと忘れてしまうからやっぱりよろしくない
+                    - [toc](http://rstb.royalsocietypublishing.org/content/372/1730)だけはっとく
+            
+        - 14
+        
+            260. [Waese et al. 2017; Plant Physiol](http://www.plantcell.org/content/early/2017/08/14/tpc.17.00073?rss=1); 未刊・未取得
+                - ePlant: Visualizing and Exploring Multiple Levels of Data for Hypothesis Generation in Plant Biology
+                - Trontoのグループ
+                - eLifeに出して落ちてそう (しょうもない感想)
+                
+            - 雑記
+                - 電子伝達モデル論文がようやく査読開始
+                - 今日は終日測定、あいまに生環工スライドづくり
+                    - いちおう、最低ラインには達したかんじ？
+                
