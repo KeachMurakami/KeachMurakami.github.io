@@ -2302,3 +2302,12 @@ Integration
                 - 今日は終日測定、あいまに生環工スライドづくり
                     - いちおう、最低ラインには達したかんじ？
                 
+        - 17
+        
+            261. [Ruban 2017; Phil Trans R Soc B](http://rstb.royalsocietypublishing.org/content/372/1730/20160393); <FONT color = "green">中</FONT>
+                - Quantifying the efficiency of photoprotection
+                - qPd推し
+                
+            262. [Tayler & Long 2017; Phil Trans R Soc B](http://rstb.royalsocietypublishing.org/content/372/1730/20160543); 中
+                - Slow induction of photosynthesis on shade to sun transitions in wheat may cost at least 21% of productivity
+                - だろうさね
