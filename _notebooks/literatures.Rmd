@@ -2311,3 +2311,22 @@ Integration
             262. [Tayler & Long 2017; Phil Trans R Soc B](http://rstb.royalsocietypublishing.org/content/372/1730/20160543); 中
                 - Slow induction of photosynthesis on shade to sun transitions in wheat may cost at least 21% of productivity
                 - だろうさね
+            
+        - 18
+        
+            263. [Osmond et al. 2017; Funct Plant Biol](http://www.publish.csiro.au/FP/FP17024); 高
+                - Relative functional and optical absorption cross-sections of PSII and other photosynthetic parameters monitored *in situ*, at a distance with a time resolution of a few seconds, using a prototype light induced fluorescence transient (LIFT) device
+                - “PAMとほとんど同等かそれ以上の情報をクロロフィル蛍光から拾ってくるのに、LIFTは多くの文献で言及されていない”
+                    - 見落としていて申し訳ない気持ち
+                    - Walzと組んでガンガン普及させてるPAMと比べるとどうしても...
+                    - [Soliense](http://www.soliense.com/index.php)という会社が商品化担当らしい
+                        - おしゃれなページだが、Footerがはみ出している
+                        - 代理店を問い合わせる
+            
+            - 雑記
+                - [キプロスでCIGRの国際学会](http://www.cigr2018.org/)
+                    - 北キプロスはトルコがバックになって独立体裁だが、国際的には承認されていないらしい
+                    - 会場は北
+                    - 12/14がearly bird締め、翌01/05がabst締め
+                - ついでに[IHC](http://www.ihc2018.org/en/WORKSHOPS.html)
+                    - 10/31がabst締め
