@@ -2337,3 +2337,15 @@ Integration
             264. [Lichtenberg et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/08/18/pp.17.00820?rss=1); 中・未刊・未取得
                 - Light sheet microscopy imaging of light absorption and photosynthesis distribution in plant tissue
                 - この技術、最近ぽつぽつ出ているが、はやるか？
+            
+        - 20
+        
+            265. [Tikkanen & Grebe 2017; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12618/abstract); 
+                - Switching off photoprotection of photosystem I – a novel tool for gradual PSI photoinhibition
+                - データがほぼないが、１次研究ではないのか？
+                - 測定光と、PSII過剰励起光と、阻害誘導用の飽和パルス光を併用して、系間のRedoxを制御する、というコンセプト
+                - tipsが多すぎてジェネラルな技術にはなりえない、と個人的には思う
+                
+            - 雑記
+                - つい光合成生理系の論文に目が行くが、今後を考えると改めねば
+                - reveal.jsにかなり親しんできた
