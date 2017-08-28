@@ -2372,3 +2372,51 @@ Integration
         
             - 雑記
                 - rmd + revealスタイルはやっつけスライド作るのに最強だ (新入生への説明スライド作成)
+        
+        - 24
+      
+            - 雑記
+                - physiol plantのがWaiting Editor decisionに
+                    - 査読が8日で短すぎだからrejectな気がする
+                    - もともとダメ元だったのでさもありなん感はある
+                    - 次どこにだそう
+                - スキャナ (ScanSnap ix500) が届いた
+                    - 速いしコンパクトだしめちゃくちゃいい
+                    - デメリットはソフト周りがばらついていて、無駄機能が多いくらい？
+                    
+        - 25
+        
+            267. [Su et al. 2017; Science](http://science.sciencemag.org/content/357/6353/815); 無
+                - Structure and assembly mechanism of plant C<sub>2</sub>S<sub>2</sub>M<sub>2</sub>-type PSII-LHCII supercomplex
+                - 構造解析系
+                - M2のattach/detachを調節して集光機能を変えているとかそんな感じ
+                - 金の小槌で力いっぱい叩く系だという認識
+            
+            - 以下、Forthcoming papersブックマークを削る
+            
+            268. [Schymanski & Or 2016; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12700/abstract); 無
+                - Wind increases leaf water use efficiency
+                - ETH
+                
+            269. [Miner et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12871/abstract); <FONT color="green">低</FONT>
+                - Estimating the sensitivity of stomatal conductance tophotosynthesis: a review
+                - Colorado State Univ & UCB
+                - 参考になりそう
+            
+            270. [Engineer et al. 2016; Trend Plant Sci](http://www.sciencedirect.com/science/article/pii/S1360138515002290); <FONT color="green">低</FONT>
+                - CO<sub>2</sub> sensing and CO<sub>2</sub> regulation of stomatal conductance: advances and open questions
+                - UC San Diego
+                - とりあえず
+        
+        - 28
+        
+            271. [Goltsev et al. 2016; Rus J Plant Physiol](https://link.springer.com/article/10.1134/S1021443716050058); <FONT color="green">低・引</FONT>
+                - Variable chlorophyll fluorescence and its use for assessing physiological condition of plant photosynthetic apparatus
+                - Allakhverdiev、Kalajiなど
+                - OJIPカーブ周りの解説
+                - しっかりしたメソドロジー系レビュー
+            
+            - 雑記
+                - reject with invitation of resubmission を戦うことにした
+                - 休んでから考えると、案外やれる気になる
+                - これで負けるとどん底な気持ちになるんだろう
