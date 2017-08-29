@@ -68,7 +68,9 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 
 - [朱鷺の杜](http://ibisforest.org/index.php?FrontPage)  
 
+### Deep Learning
 
+- [Custom Vision](https://customvision.ai/)
 
 ## 時系列解析ネタ
 
