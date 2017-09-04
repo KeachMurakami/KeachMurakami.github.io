@@ -2420,3 +2420,15 @@ Integration
                 - reject with invitation of resubmission を戦うことにした
                 - 休んでから考えると、案外やれる気になる
                 - これで負けるとどん底な気持ちになるんだろう
+        
+    - 09
+        
+    
+        - 04
+        
+            272. [Szechyńska-Hebda et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fphys.2017.00684/abstract); <FONT color="green">低・未刊・未取得</FONT>
+                - Electrical Signalling, Photosynthesis and Systemic Acquired Acclimation
+                - 
+                
+            - 雑記
+                - 学会から帰還、学会中も新着論文はみていたが、ちょうど少ないタイミングだった
