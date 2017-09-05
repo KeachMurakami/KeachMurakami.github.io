@@ -2428,7 +2428,21 @@ Integration
         
             272. [Szechyńska-Hebda et al. 2017; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fphys.2017.00684/abstract); <FONT color="green">低・未刊・未取得</FONT>
                 - Electrical Signalling, Photosynthesis and Systemic Acquired Acclimation
-                - 
+                - Systemic regulationの人たち
                 
             - 雑記
                 - 学会から帰還、学会中も新着論文はみていたが、ちょうど少ないタイミングだった
+            
+        
+        - 05
+        
+            273. [Suthaparan et al. 2017; J Photochem Photobiol](http://www.sciencedirect.com/science/article/pii/S1011134417307327); 低・未刊・未取得
+                - Daily light integral and day light quality: Potentials and pitfalls of nighttime UV treatments on cucumber powdery mildew
+                - ノルウェーのグループ
+                - UVでのうどんこ病抑制効果は、栽培時の高PFD、長明期、高青PFDで低下、UV->R->明期で向上
+                - とりあえず２次関数でフィットするメンタリティが理解できないが、何かが見つかっているのかもしれない
+            
+            - 雑記
+                - 科研費をもぞもぞと書き始めた
+                - 0稿までがしんどいなぁ
+                - 論文も書かないと...
