@@ -2446,3 +2446,18 @@ Integration
                 - 科研費をもぞもぞと書き始めた
                 - 0稿までがしんどいなぁ
                 - 論文も書かないと...
+        
+        - 06
+        
+            274. [Kawada et al. 2017; Biol J](http://www.sciencedirect.com/science/article/pii/S0006349517308081); 低
+                - Spatially different tissue-scale diffusivity shapes ANGUSTIFOLIA3 gradient in growing leaves
+                - [基生研プレスリリース](http://www.nibb.ac.jp/press/2017/09/06.html)から
+                - カタチが拡散で決まる、というのは直感的にしっくりくる
+                - かっこいい
+                
+            275. [Calvo et al. 2017; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13065/abstract); <FONT color="cyan">無</FONT>
+                - Are plants sentinent?
+                - PCEじゃなかったら似非か、って思うところ
+            
+            - 雑記
+                - 科研費学内締切は10/12
