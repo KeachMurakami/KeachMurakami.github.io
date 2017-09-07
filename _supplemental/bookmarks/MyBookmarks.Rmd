@@ -178,6 +178,7 @@ tags: memo
 - [一般財団法人 旗影会](http://www.nakashima-foundation.org/kieikai/index.html) 畜産、畜産工業その他農畜産、食品工業等に関する学術研究  
 - [公益財団法人 新技術開発財団](http://www.sgkz.or.jp/) 広く科学技術に関する独創的な研究や新技術 (会社への助成)  
 - [公益財団法人 前川報恩会](http://www.mayekawa.org/) 球温暖化対策を目的とした、熱エネルギーの有効利用に資する研究 農業分野等との学際的研究も含む）  
+- [一般社団法人ヤンマー資源循環支援機構](https://www.yanmar.com/jp/shigenjunkan/) 資源循環型の持続可能な農林水産業の取組み/農林水産資源の活用
 
 ## 海外渡航助成
 
@@ -201,7 +202,8 @@ tags: memo
 - [JTS-10](http://www.ollie.co.jp/JTS.html) デモをワークショップでみたやつ。  
 - [酵素法　食品分析試薬　Fキット](https://premium.ipros.jp/azmax/product/detail/2000166418/) どこかの学会で見たやつ。安価・簡単に成分分析ができる。  
 - [CO2コントローラー「NMA-VRCシリーズ」](http://group.chcsys.net/jp/co2monitor) 質の割に安い...?
-- [冷却CCDカメラ](http://www.bitran.co.jp/ccd/product/bu40/) CCDといえばこの会社感
+- [冷却CCDカメラ](http://www.bitran.co.jp/ccd/product/bu40/) CCDといえばこの会社感。
+- [茎内流量](http://dynamax.com/products/transpiration-sap-flow/dynagage-sap-flow-sensor) 九大が使っているやつ。
 
 
 ## 中古装置
