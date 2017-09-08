@@ -208,6 +208,10 @@ aes(col)に複数のスケールをマッピングする
 - [tweenr](https://github.com/thomasp85/tweenr) Interpolate your data  
 - [ggalluvial](https://github.com/corybrunson/ggalluvial)Sanky diagramっぽい
 
+#### bayesplot
+RStanの結果をぱぱっと
+
+- [Bayesplotパッケージはいいよ](http://kosugitti.net/archives/5870)
 
 #### Plotly
 インタラクティブな作図  
