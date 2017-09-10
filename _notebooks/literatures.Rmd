@@ -2484,3 +2484,17 @@ Integration
                 - 結局、週末に仕事が残った
                     - 学会はさんだせいか、ギアが落ちた
                     - クリエイティブ枠が多かった
+                
+        - 09
+        
+            276. [Liu & Last 2017; PNAS](http://www.pnas.org/content/early/2017/08/29/1712206114.abstract); 中
+                - A chloroplast thylakoid lumen protein is required for proper photosynthetic acclimation of plants under fluctuating light environments
+                - Michigan State Univのグループ
+                    - Kramerの後ラボ？
+                - 変動光に適切に順化とは...
+                    - 強光時にすみやかに誘導される消去系がある、くらいのニュアンス？
+                    - うまいことまとめると論文になりそうだけど、誰かやれよ、って感じ？
+                - MAINTENANCE OF PHOTOSYSTEM II UNDER HIGH LIGHT 2 (MPH2; encoded by At4g02530)
+            
+            - 雑記
+                - 推薦書案を送付
