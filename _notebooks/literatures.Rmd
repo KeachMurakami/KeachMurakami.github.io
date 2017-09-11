@@ -2485,7 +2485,7 @@ Integration
                     - 学会はさんだせいか、ギアが落ちた
                     - クリエイティブ枠が多かった
                 
-        - 09
+        - 10
         
             276. [Liu & Last 2017; PNAS](http://www.pnas.org/content/early/2017/08/29/1712206114.abstract); 中
                 - A chloroplast thylakoid lumen protein is required for proper photosynthetic acclimation of plants under fluctuating light environments
@@ -2498,3 +2498,22 @@ Integration
             
             - 雑記
                 - 推薦書案を送付
+                
+        - 11
+            
+            277. [Lawaetz & Stedmon 2009; Appl Spectrosc](http://journals.sagepub.com/doi/abs/10.1366/000370209788964548); 低
+                - Fluorescence Intensity Calibration Using the Raman Scatter Peak of Water
+                - 某学会の要旨で見て
+                - Raman分光の原理などを少し勉強してざらっと
+                - どのくらいの精度の測定器が必要なのか、が問題
+            
+            278. [Goldstein et al. 2017; Nat Ene](https://www.nature.com/articles/nenergy2017143); 未取得・低
+                - Sub-ambient non-evaporative fluid cooling with the sky
+                    - 放射冷却パネルデバイスで3--5度程度の冷却効果
+                    - 温室とかに使えないかねえ
+                    - フリーアクセスじゃないので行くか行かないか...
+                    - Nature系列くらい全部購読しておいてほしいなぁ...
+                    
+            - 雑記
+                - 誕生日の研究室作法に従い、ケーキを食す
+                - 論文書きも佳境、明日中に再投稿できそう
