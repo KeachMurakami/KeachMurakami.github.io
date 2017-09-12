@@ -2517,3 +2517,45 @@ Integration
             - 雑記
                 - 誕生日の研究室作法に従い、ケーキを食す
                 - 論文書きも佳境、明日中に再投稿できそう
+            
+        - 12
+        
+            279. [Deram et al. 2014; HortScience](http://hortsci.ashspublications.org/content/49/4/448.full); 20170912摘
+                - Supplemental Lighting Orientation and Red-to-blue Ratio of Light-emitting Diodes for Greenhouse Tomato Production
+                - カナダMcGillのグループ
+                - 哲学のない実験系だ
+                - Mendelayに推されて
+                    - ScholarやResearchGateは光合成生理学系のサジェストが多いが、こっちはまだコレ系が多い
+                    - profにあるデータをアップデートしてないからか
+            
+            280. [Lobo et al. 2013; Photosynthetica](https://link.springer.com/article/10.1007/s11099-013-0045-y); 低
+                - Fitting net photosynthetic light-response curves with Microsoft Excel - a critical look at the models
+                - ブラジルのグループ
+                - パラメータ数振ってAICをみない人たち
+                
+            281. [Long et al. 1993; Planta](https://link.springer.com/article/10.1007%2FBF00195081?LI=true); 20170912概
+                - Quantum yields for uptake of carbon dioxide in C<sub>3</sub> vascular plants of contrasting habitats and taxonomic groupings
+                - いまさらダウンロード
+                - `Björkman & Demmig 1987`のO<sub>2</sub>発生収率と比べると見えてくる
+            
+            282. [Tenreira et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/08/31/tpc.16.00949); 無・未取得・未刊
+                - A specific gibberellin 20-oxidase dictates the flowering-runnering decision in diploid strawberry
+                - ジベレリン酸化酵素がイチゴの花成・ランナー形成の決定で支配的らしい
+                - イチゴのランナーはコントロール難しいとかなんとか聞いたので気になった
+                
+            283. [Walker et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/09/11/tpc.16.00961?rss=1); 高・未取得・未刊
+                - Root architecture shaping by the environment is orchestrated by dynamic gene expression in space and time
+                - 根での例だが、これはゴールしている
+                - クアドラプル・ファースト、セクスタプル・セカンド、トリプル・サードという謎構造
+                
+            - 雑記
+            
+                - 再投稿用原稿を共著者へ送信
+                    - F先生から電話でレスポンスがあってびびる
+                    - M先生からも当日レスポンス
+                    - 目上の人たちにこれをやられたら下は頑張るしかない
+                    - レターを英文校閲依頼まで
+                - 実験装置の校正に関する問い合わせに応答
+                    - 先週月曜/火曜にwebフォームから送っての今日では話にならない
+                    - ついでにフォームを受信した旨のメール通知がなかった、納品した製品のバージョンをこちらに問い合わせる、メールでという指定を無視して電話→ボスが対応→自分に連絡で２倍の時間をかけさせる、と減点３つ
+                - 自分がPIになったらここは絶対使わないリストが増えるなあ
