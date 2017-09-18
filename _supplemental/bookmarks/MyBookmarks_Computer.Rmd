@@ -101,6 +101,10 @@ BasicTeXで準備→設定→R Markdownファイルの作成までやっても
 - [Stan Advent Calendar 2016](http://qiita.com/advent-calendar/2016/stan)
 
 
+## 個別
+
+- [折れ線へのあてはめ](http://ito-hi.blog.so-net.ne.jp/2017-09-18-1) 散布図から２本の折れ線をStanで掘り出す
+
 
 -------
 
