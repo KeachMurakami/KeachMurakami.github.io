@@ -2578,3 +2578,30 @@ Integration
             - 雑記
                 - 季節の変わり目で風邪気味
                 - Newハンダゴテを買ったら非常に捗った
+            
+        - 19
+        
+            284. [Golovatskaya & Karnachuk 2014; Rus J Plant Physiol](https://link.springer.com/article/10.1134/S1021443715060084); <FONT color="green">低</FONT>
+                - Role of green light in physiological activity of plants
+                - ロシアの国研系の人たち
+                - Mendeleyのレターから
+                - 個人的には、緑色光の受容体周りは眉唾だと思っている
+                    - 青色光受容体の一部が緑バンドで反応し、それを除外できているのかが不明瞭な例が多い
+                        - 緑あるだろう、を仮説でスタートするタイプの実験が多い印象
+                    - 緑をセンスする受容体の機能はFR受容体と重複することから冗長な機能になる
+                        - ただ、青色光受容体が複数あることからも、重複自体はあるのでこれは微妙
+                    
+            285. [Morales et al. 201X; Plant Physiol](http://www.plantphysiol.org/content/early/2017/09/18/pp.17.00779); 中・未刊・未取得
+                - In silico analysis of the regulation of the photosynthetic electron transport chain in C3 plants
+                - Wageningenのシミュレーション組 & Kramer、筆頭は博士学生
+                - 自分のD論もそうだけど、in silico系ってのは設計した時点で終わるから、解析というのは変な気もする
+                - こういうのに引用される人間になりたい
+                
+            - 雑記
+                - さきがけ・CRESTの結果が出た
+                    - 元ラボの性格的にそういうのから離れがち
+                    - でもさきがけに出せるようなネタを考えないと、のたれ死にそう
+                - ANU行きが着々と
+                    - visiting scholarなどの滞在者用のシステムがwebにあってよくできている
+                    - 滞在先の先生は名誉教授で受入はできないので、形式的には受入先が別ラボとなる
+                    - やりづらそう
