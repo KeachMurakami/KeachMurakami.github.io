@@ -2610,5 +2610,22 @@ Integration
         
             - 雑記
                 - visiting fellowでVISAを出すには、研究計画の文書が必要
-                - 「ざっくりした話は前したから、とりあえず書いて」とのお達しで書く
-                - 科研もありーのくそ忙しい
+                    - 「ざっくりした話は前したから、とりあえず書いて」とのお達しで書く
+                    - 科研もありーのくそ忙しい
+                - PhysiolPlant誌は、Round2に無事進んだ
+                    - 担当editorさんは仕事速いのに
+                    
+        - 21
+        
+            286. [Carlos & Ballaré 2017; TPS](http://www.cell.com/trends/plant-science/fulltext/S1360-1385(17)30200-5?rss=yes); <FONT color="green">20170921済</FONT>
+                - Phytochrome Responses: Think Globally, Act Locally
+                - phyB系のhyponastyはlocally ristricted response
+                - tipでのFR感知→auxinのpetioleへの移動→auxinの屈曲→hyponasty (`Pantazopoulou et al. 2017`と`Michaud et al. 2017`)
+                    - “... rosette plants have evolved a clever system to concentrate light sensing in the outermost tip of the leaf and to relay the information to the leaf base, ”
+                    - `Pantazopoulou et al. 2017`での3Dモデルと光環境シミュレートによると、adaptive (なにとくらべて？)
+                    - 読まないと
+                    
+          287. [Michaud et al. 2017; PNAS](http://www.pnas.org/content/114/28/7444); 中
+              - Local auxin production underlies a spatially restricted neighbor-detection response in <i>Arabidopsis</i>
+              - `Carlos & Ballaré 2017`から
+              - 自分との関係性から、`Pantazopoulou et al. 2017`の方が優先
