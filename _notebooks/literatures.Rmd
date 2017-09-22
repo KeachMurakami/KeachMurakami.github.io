@@ -2629,3 +2629,11 @@ Integration
               - Local auxin production underlies a spatially restricted neighbor-detection response in <i>Arabidopsis</i>
               - `Carlos & Ballaré 2017`から
               - 自分との関係性から、`Pantazopoulou et al. 2017`の方が優先
+          
+      - 22
+
+
+          - 雑記
+              - ANUの方の研究計画はOK
+              - 科研にも混ぜ込む感じにする
+                  - 萌芽と若手の内容をスイッチ
