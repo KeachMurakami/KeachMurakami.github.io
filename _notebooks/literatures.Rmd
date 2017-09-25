@@ -2651,3 +2651,26 @@ Integration
               
           - 雑記
               - ANU研究計画をC先生に送付
+          
+      - 25
+      
+          290. [Fanourakis et al. 2017; EEB](http://www.sciencedirect.com/science/article/pii/S0098847217302204); 20170925摘・未刊
+              - Differential effects of elevated air humidity on stomatal closing ability of <i>Kalanchoë blossfeldiana</i> between the C3 and CAM states
+              - Aarhus大学 (Denmark) のOttosen Lab
+                  - このグループは結構近しい内容だから気になっている
+                  - 純・農業工学、って感じ
+              - CAM-C3の両態をとるカランコエでhigh RHのgs影響を評価
+                  - high RHのgs低下はC3状態に限られるらしい
+              
+          291. [Bressan et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007/s11120-017-0444-1); 20170925摘
+              - Loss of LHCI system a ects LHCII re-distribution between thylakoid domains upon state transitions
+              - Verona組
+              - `Bressan et al. 2016; Nat Plants`の続き
+              - LHCIを4つ潰すと、PSIIが補填するが、state transitionがうまいこと働いていないらしい
+              - これほど崩してもphenotypeに出ない、ってすごいよなぁ
+              - abstがちょっと下手くそな気がする (with respect toが３回とか)
+              
+          - 雑記
+              - 科研にくるしむ
+                  - なによりも手が足りない
+                  - 周りの手を期待できないのがきついなぁ
