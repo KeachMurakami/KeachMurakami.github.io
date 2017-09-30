@@ -112,6 +112,10 @@ tags: memo
 - [投稿論文の査読のしかたを考える](http://takenaka-akio.org/doc/researcher/reviewer.html)  
 - [誰も教えてくれなかった査読（ピアレビュー）のやり方、査読レポートの書き方](http://scienceandtechnology.jp/archives/12812)
 
+- 査読をオープンにしている雑誌
+    - [関連記事 | Wiley](http://www.wiley.co.jp/blog/pse/?p=35788)
+    - [European Journal of Neuroscience](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1460-9568)
+
 ## 一般
 普段遣いの英語がわからん
 

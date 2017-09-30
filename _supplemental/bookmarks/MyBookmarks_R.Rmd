@@ -160,6 +160,12 @@ Simple web scraping for R
 - [rvestによるWebスクレイピング](https://book.mynavi.jp/manatee/detail/id=59386)  
 
 
+### 時系列解析
+
+#### [KFAS]()
+
+- [\[R\] 非ガウシアン状態空間対応パッケージ, KFAS の使い方](http://ill-identified.hatenablog.com/entry/2017/09/24/215620)
+
 ### 画像解析
 
 #### [EBImage]()

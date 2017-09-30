@@ -79,6 +79,11 @@ webでフリーのMCMC解説だと一番丁寧な印象。
 - [Rで計量時系列分析：AR, MA, ARMA, ARIMAモデル, 予測](http://tjo.hatenablog.com/entry/2013/07/12/184704)
 - [時系列データへの回帰分析](http://logics-of-blue.com/time-series-regression/) Logics of Blueでの単位根検定 (ADF)、共和分検定、一般化最小二乗法 (GLS)の解説
 - [生態学のデータ解析 - 時系列データ解析](http://hosho.ees.hokudai.ac.jp/~kubo/ce/TimeSeriesData.html)
+- [実務の現場に多い時系列データ分析の際に注意しておきたい点を列挙してみる](http://tjo.hatenablog.com/entry/2017/09/22/190000)
+
+## ベイズ統計
+
+- [Rで学ぶ主にベイズ統計学](http://rtokei.tech/)
 
 
 ## 統計ネタの多いブログ
