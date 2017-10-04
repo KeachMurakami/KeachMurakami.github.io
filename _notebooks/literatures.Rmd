@@ -2696,3 +2696,44 @@ Integration
               - Kinetics of photosystem II electron transport: a mathematical analysis based on chlorophyll fluorescence induction
               - CEF-PSIIにフォーカスしている印象
               - よまないとだけど、Laiskの論文はとてもしんどい
+          
+  - 10
+  
+      - 02
+      
+          293. [Jensen et al. 2018; Sci Hort](http://www.sciencedirect.com/science/article/pii/S0304423817305538); 中
+              - Spectral quality of supplemental LED grow light permanently alters stomatal functioning and chilling tolerance in basil (<i>Ocimum basilicum</i> L.)
+              - permanentlyはちょっと盛ってない？
+                  - 気孔の密度なんかは一度決まれば変わりにくいわけで...
+              - もう少ししっかり読む必要はある
+              
+          294. [Bourget 2008; HortScience](http://hortsci.ashspublications.org/content/43/7/1944.abstract); <FONT color="green">20171002済</FONT>
+              - An introduction to light-emitting diodes
+              - わかりやすい
+              - 2008時点で250--1000 nm まで出せていたのか
+              - LEDは1920年代にはもうできていたが、60年代までは実用レベルではなかったらしい
+                  - “Although the LED was invented in the 1920s, a practical visible-light version (red) was not developed until the early 1960s (Zheludev, 2007)”
+              - ムーアの法則的なアレ
+          
+          - 雑記
+              - 若手研究の申請書をI先生に送信
+                  - コメントで「やっぱりパンチ薄いよなぁ...」と感じた
+              
+      - 03
+      
+          295. [Lee et al. 2017; Nat Plant](https://www.nature.com/articles/s41477-017-0022-8); 無
+              - Structure of the triose-phosphate/phosphate translocator reveals the basis of substrate specificity
+              - リン酸 (TP) の葉緑体外への排出のtranslocatorの機能
+          
+          296. [Yamawo & Mukai 2017; Proc R Soc B ](http://rspb.royalsocietypublishing.org/content/284/1857/20170800.long); 未取得
+              - Seeds integrate biological information about conspecific and allospecific neighbours
+              - ProcRSは純粋にとても面白い研究が多いなぁ
+                  - 金のハンマーで殴る系の研究ではなく、着眼と機転が効いている
+              - [解説系サイト](https://academist-cf.com/journal/?p=6046)から
+          
+      - 04
+      
+          297. [Ramcharan et al. 2017; arXiv](https://arxiv.org/abs/1707.03717); 20171004概
+              - Using Transfer Learning for Image-Based Cassava Disease Detection
+              - キャッサバ葉での病害を転移学習でラベルづけ (TensorFlow)
+              - これくらいクリアな絵であれば、元画像400枚ずつ程度でいけるらしい
