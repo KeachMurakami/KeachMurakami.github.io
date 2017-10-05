@@ -2737,3 +2737,11 @@ Integration
               - Using Transfer Learning for Image-Based Cassava Disease Detection
               - キャッサバ葉での病害を転移学習でラベルづけ (TensorFlow)
               - これくらいクリアな絵であれば、元画像400枚ずつ程度でいけるらしい
+          
+      - 05
+      
+          - 雑記
+              - ３誌４回目の投稿に向け、共著者送信
+                  - マテメソ後だしスタイルは個人的には嫌い
+                  - どこもかしこもword提出を要求してきてツライ
+              
