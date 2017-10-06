@@ -2745,3 +2745,13 @@ Integration
                   - マテメソ後だしスタイルは個人的には嫌い
                   - どこもかしこもword提出を要求してきてツライ
               
+      - 06
+      
+          298. [Olsen & Westneat 2015; Method Ecol Evol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/2041-210X.12326/abstract); 20171004概
+              - StereoMorph: an R package for the collection of 3D landmarks and curves using a stereo camera set-up
+              - 平面位置あわせパッケージ探し
+              - コレじゃない
+      
+          - 雑記
+              - 電子伝達論文を3誌目 (PCP) に投稿
+              
