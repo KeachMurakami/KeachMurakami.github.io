@@ -14,10 +14,12 @@ output:
 - `未刊`はin press
 - `未取得`はダウンロードしていないもの
 - `有償`はアクセス権がなくて有償なもの、おもに書籍
-- 文字: Research article
-- <FONT color="green">文字</FONT>: Review article
-- <FONT color="blue">文字</FONT>: Meta analysis
-- <FONT color="cyan">文字</FONT>: Other article without data
+- 分類
+    - 文字: Research article
+    - <FONT color="green">文字</FONT>: Review article
+    - <FONT color="blue">文字</FONT>: Meta analysis
+    - <FONT color="grey">文字</FONT>: Technical reports
+    - <FONT color="cyan">文字</FONT>: Other article without data
 
 アクセスできないリスト
 
@@ -2754,4 +2756,21 @@ Integration
       
           - 雑記
               - 電子伝達論文を3誌目 (PCP) に投稿
-              
+          
+    - 08
+        
+        299. [Kitao et al. 2017; PCP](); <FONT color="grey">20171008概</FONT>
+            - A practical approach to estimate diffusional leakages of leaf chamber of open gas exchange systems using intact leaves
+            - 森林研究・整備機構 (旧: 森林総研) の北海道グループ
+            - LI6400シリーズでのリークの補正について
+            - 暗条件でリーク係数をとってきて、固定値として適用する
+        
+        300. [Li & Tang. 2017; Comput Electron Agric](http://www.sciencedirect.com/science/article/pii/S0168169917303277); 20171008概
+            - Developing a low-cost 3D plant morphological traits characterization system
+            - マシンビジョンでゴリ押し
+            - 引用文献なんかは参考になるのでは、という判断で落とす
+            - これでリストに上げたのが、300本目
+                - しっかり読んだ本数はざっくり70
+            
+        - 雑記
+            - Mac MiniをHigh Sierraにアップデートしたら、MS word2016が固まるわ入力が変だわであわわ
