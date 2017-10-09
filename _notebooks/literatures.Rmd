@@ -2762,7 +2762,7 @@ Integration
         299. [Kitao et al. 2017; PCP](); <FONT color="grey">20171008概</FONT>
             - A practical approach to estimate diffusional leakages of leaf chamber of open gas exchange systems using intact leaves
             - 森林研究・整備機構 (旧: 森林総研) の北海道グループ
-            - LI6400シリーズでのリークの補正について
+            - LI6400シリーズでのリークの補正につい
             - 暗条件でリーク係数をとってきて、固定値として適用する
         
         300. [Li & Tang. 2017; Comput Electron Agric](http://www.sciencedirect.com/science/article/pii/S0168169917303277); 20171008概
@@ -2774,3 +2774,8 @@ Integration
             
         - 雑記
             - Mac MiniをHigh Sierraにアップデートしたら、MS word2016が固まるわ入力が変だわであわわ
+            
+    - 09
+    
+        - 雑記
+            - 若手がおおむね
