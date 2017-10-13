@@ -2759,7 +2759,7 @@ Integration
           
     - 08
         
-        299. [Kitao et al. 2017; PCP](); <FONT color="grey">20171008概</FONT>
+        299. [Kitao et al. 2017; PCP](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13032/abstract); <FONT color="grey">20171008概</FONT>
             - A practical approach to estimate diffusional leakages of leaf chamber of open gas exchange systems using intact leaves
             - 森林研究・整備機構 (旧: 森林総研) の北海道グループ
             - LI6400シリーズでのリークの補正につい
@@ -2779,3 +2779,54 @@ Integration
     
         - 雑記
             - 若手がおおむね
+        
+    - 10
+    
+        301. [Kozai 2013; Proc Jpn Acad Ser B](https://www.jstage.jst.go.jp/article/pjab/89/10/89_PJA8910B-01/_article); <FONT color="green">20171010概</FONT>
+            - Resource use efficiency of closed plant production system with artificial light: Concept, estimation and application to plant factory
+        
+        - 雑記
+            - 頭から切り離せなくて、締切ぎりぎりまで手を出してしまう癖をどうにかしたい
+                - 一点集中でいい状態なら良いけども、いい加減きついことが増えている
+                - 完璧主義者のよくないメンタリティ
+                - 前ボスに「手の抜き方を覚えるのも大事」と言われたなぁ
+
+    - 11
+        
+        - 雑記
+            - 科研費若手がいちおう終了
+                - html記入部分も案外しんどい
+                - 明日もう一度チェック
+            
+    - 12
+    
+        302. [Kamilaris et al. 2017; Compute Electron Agric](http://www.sciencedirect.com/science/article/pii/S0168169917301230); <FONT color="green">無</FONT> 
+            - A review on the practice of big data analysis in agriculture
+            
+        - 雑記
+            - 若手研究の申請書を電子提出した
+        
+    - 13
+    
+        303. [Baccini et al. 2017; Science](http://science.sciencemag.org/content/358/6360/230); 20171013摘
+            - Tropical forests are a net carbon source based on aboveground measurements of gain and loss
+            - 地上部だけみると、熱帯林はCの排出源
+            - 高齢の森林はCO2吸収剤としてよりはむしろCO2発生源である、という話の熱帯林版？
+            - MODIS画像から、なのでC存在量はモデルか回帰だろう
+        
+        304. [Annunziata et al. 2017; JXB](https://academic.oup.com/jxb/article/68/16/4463/3897659/Getting-back-to-nature-a-reality-check-for); <FONT color="green">20171014済</FONT>
+            - Getting back to nature: a reality check for experiments in controlled environments
+            - Max PlancのJohn E. Lunnグループ
+            - 好みの論文
+                - 今年いちばんかな？
+                - ひとの登る梯子を揺らすもの
+                - `Murakami et al. 2017a`も引いていただきたかった
+            - おなじことを考えていても、書き方だよなぁ
+            - Max Plancは蛍光灯もLEDもだいたい一緒、的な論文も出していたが...なかなか
+            
+        305. [Gómez et al. 2017; Photosynth Res](https://rd.springer.com/article/10.1007%2Fs11120-017-0449-9); 20171014摘
+            - Faster photosynthetic induction in tobacco by expressing cyanobacterial flavodiiron proteins in chloroplasts
+            - アルゼンチンのLodeyroグループ
+            - タバコでFlvを発現させると、変動光に強くなる
+            - 進化的なはなしとしては面白いかも
+                - 液相の方が変動成分がきっと強いんだろうな
