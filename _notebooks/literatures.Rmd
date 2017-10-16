@@ -2814,7 +2814,7 @@ Integration
             - 高齢の森林はCO2吸収剤としてよりはむしろCO2発生源である、という話の熱帯林版？
             - MODIS画像から、なのでC存在量はモデルか回帰だろう
         
-        304. [Annunziata et al. 2017; JXB](https://academic.oup.com/jxb/article/68/16/4463/3897659/Getting-back-to-nature-a-reality-check-for); <FONT color="green">20171014済</FONT>
+        304. [Annunziata et al. 2017; JXB](https://academic.oup.com/jxb/article/68/16/4463/3897659/Getting-back-to-nature-a-reality-check-for); <FONT color="green">20171013済</FONT>
             - Getting back to nature: a reality check for experiments in controlled environments
             - Max PlancのJohn E. Lunnグループ
             - 好みの論文
@@ -2824,9 +2824,22 @@ Integration
             - おなじことを考えていても、書き方だよなぁ
             - Max Plancは蛍光灯もLEDもだいたい一緒、的な論文も出していたが...なかなか
             
-        305. [Gómez et al. 2017; Photosynth Res](https://rd.springer.com/article/10.1007%2Fs11120-017-0449-9); 20171014摘
+        305. [Gómez et al. 2017; Photosynth Res](https://rd.springer.com/article/10.1007%2Fs11120-017-0449-9); 20171013摘
             - Faster photosynthetic induction in tobacco by expressing cyanobacterial flavodiiron proteins in chloroplasts
             - アルゼンチンのLodeyroグループ
             - タバコでFlvを発現させると、変動光に強くなる
             - 進化的なはなしとしては面白いかも
                 - 液相の方が変動成分がきっと強いんだろうな
+            
+    - 14
+    
+        306. [Zhen & van Iersel, 2017; J Am Soc Hort Sci](); 20171014摘・引
+            - Photochemical acclimation of three contrasting species to different light levels: Implications for optimizing supplemental lighting
+            - やっぱり環境研カラーだ
+        
+    - 16
+    
+        - 雑記
+            - なんだかんだゼミ資料つくるの時間がかかりすぎる
+            - 学振の発表だったらしいが、こっちではまわりに出している人がそもそもいないような
+                - 知らないだけで、かなり差が生まれるよなぁ
