@@ -2843,3 +2843,25 @@ Integration
             - なんだかんだゼミ資料つくるの時間がかかりすぎる
             - 学振の発表だったらしいが、こっちではまわりに出している人がそもそもいないような
                 - 知らないだけで、かなり差が生まれるよなぁ
+            
+    - 17
+    
+        307. [Kaiser et al. 2017; JXB](https://academic.oup.com/jxb/article/doi/10.1093/jxb/erx357/4553117/Elevated-CO2-increases-photosynthesis-in); 低
+            - Elevated CO<sub>2</sub> increases photosynthesis in fluctuating irradiance regardless of photosynthetic induction state
+            - WageningenのMarcelis、Harbinsonなど
+            - そりゃそうだろう的なタイトルで、生理学的な新しさも恐らくない
+            - 筆頭著者は農学系の変動光-光合成だと恐らくトップだ
+        
+        308. [Srivastava et al. 2018; ECS Journal of Solid State Science and Technology](); 20171018摘
+            - Spectroscopy of Mn4+ in double perovskites, La2LiSbO6 and La2MgTiO6: deep red photon generators for agriculture LEDs
+            - LED開発の工学系
+            - この人、Laiskの論文を引用している
+                - 正しい引用だが、外の人が分かるレベルではないだろう
+                
+    - 18
+        
+        309. [Su et al. 2017; Photosynth Res](https://rd.springer.com/article/10.1007%2Fs11120-017-0435-2); 20171018摘
+            - Different <i>Arabidopsis thaliana</i> photosynthetic and defense responses to hemibiotrophic pathogen induced by local or distal inoculation of <i>Burkholderia phytofirmans</i>
+            - Reims Univ Dhondt‐Cordelier lab
+            - 葉あるいは種子にPGPRとPseudomonasを接種し、PR1とPDF1.2の発現、PSII・PSIでの反応をみている
+            - 日スケールは3日まで
