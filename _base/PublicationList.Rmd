@@ -8,7 +8,7 @@ layout: default
 
 <FONT color="grey">Last update: `r lubridate::now()`  </FONT><br>
 
-```{r, message = F, echo = F}
+```{r, message = F, echo = F, warning = F}
 library(magrittr)
 library(dplyr)
 library(knitr)
@@ -112,7 +112,7 @@ journal_articles <-
     ToRecord(
       new_item("Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport"),
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
-      "in press",
+      "2017",
       "Original Article",
       paste0("Plant, Cell & Environment", impacts[6]),
       "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract"),
@@ -120,10 +120,10 @@ journal_articles <-
     ToRecord(
       new_item("A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems"),
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
-      "submitted",
+      "Under review",
       "Original Article",
-      "-",
-      "-")
+      "",
+      "")
       # paste0("Planta", impacts[7]),
       # "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
 
@@ -184,10 +184,18 @@ symp_int <-
 symp_domestic <-
   c(
     ToRecord(
-      new_item("葉面反射画像計測による光合成光利用効率の光環境変化に対する応答の評価の試み"),
+      new_item("分光反射画像計測による葉位別光合成速度推定にむけて: PRIの光応答の評価"),
       paste(speaker(KM_), YI_, sep = ", "),
-      "2017 (予定)",
-      "Oral (予定)",
+      "2017",
+      "Oral",
+      "日本農業気象学会 中国四国支部大会<br>鳥取, 12月7日~12月8日",
+      ""),
+    
+    ToRecord(
+      "葉面反射画像計測による光合成光利用効率の光環境変化に対する応答の評価の試み",
+      paste(speaker(KM_), YI_, sep = ", "),
+      "2017",
+      "Oral",
       "日本生物環境工学会 2017 年松山大会<br>愛媛, 8月30日~9月4日",
       ""),
 
