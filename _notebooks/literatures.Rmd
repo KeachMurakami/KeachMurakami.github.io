@@ -2886,3 +2886,13 @@ Integration
             - Ortグループ
             - 群落光合成モデルで、少Chlの効能を解析
             - Chl-deficit系mutantはよく見るが、みんなそういうビジョンでやっているのか？
+        
+    - 25
+    
+        311. [Kaneko 2017; chemometrics and intelligent laboratory systems](https://www.sciencedirect.com/science/article/pii/S0169743917304161); 20171025概
+            - A new measure of regression model accuracy that considers applicability domains
+            - 回帰モデルの新しい評価指標
+                - 複数の回帰モデルから未知のxに対応するyの推定に適したモデルを選ぶのに、xが含まれる領域、という考え方をとる
+                - 範囲が狭ければ線形でもいいじゃん、を地で走る
+                - 範囲でxyをとっている時点で、データ生成プロセスの推定になるのでは...？
+            - [著者HPでの解説](http://datachemeng.com/newmeasureregressionmodelaccuracyad/)
