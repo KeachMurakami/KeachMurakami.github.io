@@ -2896,3 +2896,29 @@ Integration
                 - 範囲が狭ければ線形でもいいじゃん、を地で走る
                 - 範囲でxyをとっている時点で、データ生成プロセスの推定になるのでは...？
             - [著者HPでの解説](http://datachemeng.com/newmeasureregressionmodelaccuracyad/)
+        
+    - 26
+    
+        - 雑記
+            - IHCのアブストを先生に送信
+                - やや無理攻めしたところをキレイに打ち返されたので、該当箇所は消す
+            
+    - 27
+    
+        312. [Yanai et al. 2017; Sci Rep](https://www.nature.com/articles/srep44860); 20171027概
+            - Optimum soil frost depth to alleviate climate change effects in cold region agriculture
+            - 北農研廣田さんグループ
+            - 適切な凍結深度を提案している
+                - 深すぎると、春の営農開始の遅延/亜酸化窒素発生量の増加が起こる
+                - 浅すぎると、野良イモの凍死が十分に実施されない
+            - 雪割りはコンセプトがエレガント
+                - 十分に経緯を知らないのだけれど、意外と新しい技術だったらしい (`Hirota et al. 2011`)
+                
+        313. [Hirota et al. 2011; Mitigation and Adaptation Strategies for Global Change](https://link.springer.com/article/10.1007/s11027-011-9296-8); 20171027概
+            - Soil frost control: agricultural adaptation to climate variability in a cold region of Japan
+            - 312の関連
+        
+        - 雑記
+            - 最近InTechからの執筆依頼が立て続けに来ている
+                - ほかのPredatoryなのとは違って、本も自分の専門にキチンとあっているし、東工大とも提携？しているみたいだし
+                - うーん
