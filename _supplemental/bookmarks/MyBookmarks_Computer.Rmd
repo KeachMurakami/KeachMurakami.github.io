@@ -26,6 +26,7 @@ tags: memo
 ## Libraries
 
 - NumPy
+    - [NumPy for R (and S-Plus) users](http://mathesaurus.sourceforge.net/r-numpy.html)
 - Pandas
     - 概ねdplyr/tidyrらしい
     - [Python pandas 関連エントリの目次](http://sinhrks.hatenablog.com/entry/2015/04/28/235430)
