@@ -6,7 +6,7 @@ permalink: /publications/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-10-20 22:10:53  </FONT><br>
+<FONT color="grey">Last update: 2017-10-30 20:15:32  </FONT><br>
 
 
 
@@ -37,7 +37,7 @@ layout: default
 
 <!-- ##### 国際学会 -->
 
-<!-- - 3件 -->
+<!-- - 4件 -->
 <!--     - 筆頭での口頭発表: 1件 -->
 <!--     - 筆頭でのポスター発表: 2件 -->
 
@@ -88,11 +88,12 @@ layout: default
 ### Presentations in International Academic Conferences
 
 
-|Title                                                                                                                                                                                                                                              |Year |Category |Venue.Date                                                                                                          |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----|:--------|:-------------------------------------------------------------------------------------------------------------------|
-|Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper<br>&emsp;<sup>○</sup><FONT color='green'>Keach Murakami</FONT>, Ryo Matsuda, Kazuhiro Fujiwara        |2012 |Poster   |7th International Symposium on Light in Horticultural Systems (LightSym 2012).<br>Wageningen, The Netherlands. Oct. |
-|A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light<br>&emsp;<sup>○</sup><FONT color='green'>Keach Murakami</FONT>, Ryo Matsuda, Kazuhiro Fujiwara |2015 |Poster   |GreenSys 2015.<br>Évora, Portugal. July.                                                                            |
-|Non-destructive estimation of light energy distribution between photosystems<br>&emsp;<sup>○</sup><FONT color='green'>Keach Murakami</FONT>, Ryo Matsuda, Kazuhiro Fujiwara                                                                        |2016 |Oral     |ICEC/AusPheno 2016.<br>Canberra, Australia. Sep.                                                                    |
+|Title                                                                                                                                                                                                                                              |Year |Category |Venue.Date                                                                                                                           |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----|:--------|:------------------------------------------------------------------------------------------------------------------------------------|
+|Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper<br>&emsp;<sup>○</sup><FONT color='green'>Keach Murakami</FONT>, Ryo Matsuda, Kazuhiro Fujiwara        |2012 |Poster   |7th International Symposium on Light in Horticultural Systems (LightSym 2012).<br>Wageningen, The Netherlands. 2012/10/15-2012/10/18 |
+|A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light<br>&emsp;<sup>○</sup><FONT color='green'>Keach Murakami</FONT>, Ryo Matsuda, Kazuhiro Fujiwara |2015 |Poster   |GreenSys 2015.<br>Évora, Portugal. 2015/07/19-2015/07/23                                                                             |
+|Non-destructive estimation of light energy distribution between photosystems<br>&emsp;<sup>○</sup><FONT color='green'>Keach Murakami</FONT>, Ryo Matsuda, Kazuhiro Fujiwara                                                                        |2016 |Oral     |ICEC/AusPheno 2016.<br>Canberra, Australia. 2016/09/18-2016/09/23                                                                    |
+|<FONT color='red'><sup>New </sup></FONT>Spectral imaging for evaluation of spatial distributions of leaf photosynthetic light use efficiency<br>&emsp;<sup>○</sup><FONT color='green'>Keach Murakami</FONT>, Yasuomi Ibaraki                       |2018 |Poster   |IHC2018.<br>Istanbul, Turkey, 2018/08/12-2018/08/16                                                                                  |
 
 <br>
 
@@ -100,21 +101,21 @@ layout: default
 ### Presentations in Domestic Academic Conferences
 
 
-|Title                                                                                                                                                                              |Year |Category |Venue.Date                                                 |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----|:--------|:----------------------------------------------------------|
-|トマト養液栽培における葉面積指数推定モデルの構築: 気孔コンダクタンスモデルの検討<br>&emsp;<sup>○</sup>松田 怜, <FONT color='green'>村上 貴一</FONT>, 富士原 和宏                   |2012 |Poster   |日本農業気象学会 2012 年全国大会<br>大阪, 3月              |
-|異なるピーク波長の LED を用いた混合光照射下における個葉の光合成量子収率<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                            |2013 |Oral     |日本生物環境工学会 2013 年香川大会<br>高松, 9月            |
-|インゲンマメ下位葉への単色 LED 光照射が上位葉の光合成特性に及ぼす影響<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                              |2013 |Oral     |日本生物環境工学会 2012 年東京大会<br>東京, 9月            |
-|下位葉補光・終夜補光の光質が植物の光合成特性と成育に及ぼす影響<br>&emsp;<sup>○</sup>松田 怜, 山埜 拓人, <FONT color='green'>村上 貴一</FONT>, 富士原 和宏                          |2014 |Oral     |日本農業気象学会 2014 年全国大会<br>札幌, 3月              |
-|種々のピーク波長の LED を用いた混合光照射下におけるコスレタス葉の光合成量子収率<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                    |2014 |Oral     |日本農業気象学会 2014 年全国大会<br>札幌, 3月              |
-|異なる狭波長帯 LED 光の混合照射下における個葉の総光合成速度の推定<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                                  |2014 |Poster   |第 5 回日本光合成学会年会<br>奈良, 5月                     |
-|栽培中の遠赤色光添加は栽培後の葉の光合成速度を小さくするのか？<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                                     |2015 |Oral     |日本生物環境工学会 2015 年宮崎大会<br>宮崎, 9月            |
-|異なる分光分布の光照射下で成育した葉の光合成速度比較結果は測定光分光分布に影響される<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏               |2015 |Oral     |日本農業気象学会 2015 年全国大会<br>つくば, 3月            |
-|夜間に照射する LED 光の分光分布および PPFD がトマト苗の成育および可視障害に及ぼす影響<br>&emsp;<sup>○</sup>松田 怜, 山埜 拓人, <FONT color='green'>村上 貴一</FONT>, 富士原 和宏   |2016 |Oral     |日本農業気象学会 2016 年全国大会<br>岡山, 3月              |
-|サンプルサイズ（<i>n</i>）の検定力分析による決定 ―グロースチャンバでの植物栽培試験での例—<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏          |2016 |Poster   |日本農業気象学会 2016 年全国大会<br>岡山, 3月              |
-|<FONT color='red'><sup>New </sup></FONT>分光反射画像計測による葉位別光合成速度推定にむけて: PRIの光応答の評価<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 荊木 康臣 |2017 |Oral     |日本農業気象学会 中国四国支部大会<br>鳥取, 12月7日~12月8日 |
-|葉面反射画像計測による光合成光利用効率の光環境変化に対する応答の評価の試み<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 荊木 康臣                                    |2017 |Oral     |日本生物環境工学会 2017 年松山大会<br>愛媛, 8月30日~9月4日 |
-|光化学系I・II間での励起エネルギー分配比の非破壊定量法の開発<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                                        |2017 |Poster   |第 8 回日本光合成学会年会<br>滋賀, 5月27日~5月28日         |
+|Title                                                                                                                                                                              |Year |Category |Venue.Date                                                        |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----|:--------|:-----------------------------------------------------------------|
+|インゲンマメ下位葉への単色 LED 光照射が上位葉の光合成特性に及ぼす影響<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                              |2012 |Oral     |日本生物環境工学会 2012 年東京大会<br>東京, 2012/09/04-2012/09/07 |
+|トマト養液栽培における葉面積指数推定モデルの構築: 気孔コンダクタンスモデルの検討<br>&emsp;<sup>○</sup>松田 怜, <FONT color='green'>村上 貴一</FONT>, 富士原 和宏                   |2012 |Poster   |日本農業気象学会 2012 年全国大会<br>大阪, 2012/03/13-2012/03/17   |
+|異なるピーク波長の LED を用いた混合光照射下における個葉の光合成量子収率<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                            |2013 |Oral     |日本生物環境工学会 2013 年香川大会<br>高松, 2013/09/02-2013/09/05 |
+|下位葉補光・終夜補光の光質が植物の光合成特性と成育に及ぼす影響<br>&emsp;<sup>○</sup>松田 怜, 山埜 拓人, <FONT color='green'>村上 貴一</FONT>, 富士原 和宏                          |2014 |Oral     |日本農業気象学会 2014 年全国大会<br>札幌, 2014/03/18-2014/03/21   |
+|種々のピーク波長の LED を用いた混合光照射下におけるコスレタス葉の光合成量子収率<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                    |2014 |Oral     |日本農業気象学会 2014 年全国大会<br>札幌, 2014/03/18-2014/03/21   |
+|異なる狭波長帯 LED 光の混合照射下における個葉の総光合成速度の推定<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                                  |2014 |Poster   |第 5 回日本光合成学会年会<br>奈良, 2014/05/30-2014/05/31          |
+|栽培中の遠赤色光添加は栽培後の葉の光合成速度を小さくするのか？<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                                     |2015 |Oral     |日本生物環境工学会 2015 年宮崎大会<br>宮崎, 2015/09/08-2015/09/11 |
+|異なる分光分布の光照射下で成育した葉の光合成速度比較結果は測定光分光分布に影響される<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏               |2015 |Oral     |日本農業気象学会 2015 年全国大会<br>つくば, 2015/03/16-2015/03/19 |
+|夜間に照射する LED 光の分光分布および PPFD がトマト苗の成育および可視障害に及ぼす影響<br>&emsp;<sup>○</sup>松田 怜, 山埜 拓人, <FONT color='green'>村上 貴一</FONT>, 富士原 和宏   |2016 |Oral     |日本農業気象学会 2016 年全国大会<br>岡山, 2016/03/14-2016/03/17   |
+|サンプルサイズ（<i>n</i>）の検定力分析による決定 ―グロースチャンバでの植物栽培試験での例—<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏          |2016 |Poster   |日本農業気象学会 2016 年全国大会<br>岡山, 2016/03/14-2016/03/17   |
+|<FONT color='red'><sup>New </sup></FONT>分光反射画像計測による葉位別光合成速度推定にむけて: PRIの光応答の評価<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 荊木 康臣 |2017 |Oral     |日本農業気象学会 中国四国支部大会<br>鳥取, 2017/12/07-2017/12/08  |
+|葉面反射画像計測による光合成光利用効率の光環境変化に対する応答の評価の試み<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 荊木 康臣                                    |2017 |Oral     |日本生物環境工学会 2017 年松山大会<br>愛媛, 2017/08/30-2017/09/04 |
+|光化学系I・II間での励起エネルギー分配比の非破壊定量法の開発<br>&emsp;<sup>○</sup><FONT color='green'>村上 貴一</FONT>, 松田 怜, 富士原 和宏                                        |2017 |Poster   |第 8 回日本光合成学会年会<br>滋賀, 2017/05/27-2017/05/28          |
 
 ----
 
