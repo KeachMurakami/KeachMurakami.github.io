@@ -2922,3 +2922,9 @@ Integration
             - 最近InTechからの執筆依頼が立て続けに来ている
                 - ほかのPredatoryなのとは違って、本も自分の専門にキチンとあっているし、東工大とも提携？しているみたいだし
                 - うーん
+            
+    - 31
+    
+        314. [Adao et al. 2017; Remote Sens](http://www.mdpi.com/2072-4292/9/11/1110); <FONT color="green">無</FONT>
+            - Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing and Applications for Agriculture and Forestry
+            - 流行っているので、ぺら見
