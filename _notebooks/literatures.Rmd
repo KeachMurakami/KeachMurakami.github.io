@@ -2928,3 +2928,29 @@ Integration
         314. [Adao et al. 2017; Remote Sens](http://www.mdpi.com/2072-4292/9/11/1110); <FONT color="green">無</FONT>
             - Hyperspectral Imaging: A Review on UAV-Based Sensors, Data Processing and Applications for Agriculture and Forestry
             - 流行っているので、ぺら見
+        
+- 11
+
+    - 01
+    
+        315. [寺島 1999; 生物と化学](https://www.jstage.jst.go.jp/article/kagakutoseibutsu1962/37/4/37_4_266/_article/references/-char/ja/); <FONT color="green">20171101済</FONT>
+            - 光合成系としての葉の構造
+            - 大阪時代の寺島先生
+            - 内部反射スペクトルについて調べていたら発見
+            
+    - 02
+    
+        316. [Wang et al. 2017; Plant Cell](http://www.plantcell.org/content/early/2017/11/01/tpc.17.00694?rss=1); 低・未刊・未取得
+            - Unexpected Connections between Humidity and Ion Transport Discovered using a Model to Bridge Guard Cell-to-Leaf Scales
+            - Glasgow、Essex、Cambridgeなど、イギリス系のグループ
+            - 環境調節系の人間なのでタイトルに文句をつけたくなる
+                - expected but qualitative くらいだろう
+            - 内容自体はさっと見た感じ面白そう
+                - in silicoにしたい人たち
+            
+        317. [Evans 2013; Plant Physiol](http://www.plantphysiol.org/content/162/4/1780.short); <FONT color="green">低</FONT>
+            - Improving Photosynthesis
+            - ばっくりしたタイトルだが、主にRubiscoまわりにフォーカス
+            
+        - 雑記
+            - [なにがあったのだ...](https://link.springer.com/article/10.1007%2Fs11120-017-0356-0)
