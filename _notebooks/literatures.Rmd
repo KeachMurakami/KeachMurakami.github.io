@@ -2954,3 +2954,10 @@ Integration
             
         - 雑記
             - [なにがあったのだ...](https://link.springer.com/article/10.1007%2Fs11120-017-0356-0)
+        
+    - 04
+    
+        318. [Rascher & Nedbal 2006; Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526606001531); <FONT color = "green>低</FONT>
+            - Dynamics of photosynthesis in fluctuating light
+            - NedbalはあのNedbalっぽい
+            - あんまり最近の変動光に絡んで来てはいないが...
