@@ -2985,3 +2985,13 @@ Integration
         - 雑記
             - 捗った
                 - 予想とは結構ちがうデータが出てやや困る
+            
+    - 09
+    
+        319. [Moualeu-Ngangue et al. 2017; New Phytol](http://onlinelibrary.wiley.com/doi/10.1111/nph.14260/abstract); 低
+            - A new method to estimate photosynthetic parameters through net assimilation rate−intercellular space CO<sub>2</sub> concentration (*A*−*C*<sub>i</sub>) curve and chlorophyll fluorescence measurements
+            - Leibniz Universitat Hannover と INRA
+            - これはかなりダメな論文な気がするが...
+                - gm、吸収率、光分配が定常でないことを認め、パラメータとして追加してフィット
+                - 典型的な「多パラメータ追加でR^2あがったおじさん」
+                - タイトルも情報量ないし
