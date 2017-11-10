@@ -2995,3 +2995,49 @@ Integration
                 - gm、吸収率、光分配が定常でないことを認め、パラメータとして追加してフィット
                 - 典型的な「多パラメータ追加でR^2あがったおじさん」
                 - タイトルも情報量ないし
+            
+    - 10
+    
+        320. [Kowalski 2012; Journal of Atomospheric Sciences](http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-11-0299.1); <FONT color="grey">低</FONT>
+            - Exact Averaging of Atmospheric State and Flow Variables
+            - [農環研の金さん・宮田さんの論文紹介ページ](http://www.naro.affrc.go.jp/archive/niaes/magazine/148/mgzn14806.html)から
+                - 気温の空間平均計算では、空気密度 (mol/m3) を考慮する必要があるので算術平均は不適という一例
+                - 「大気の保持する熱量 (?)」、みたいな考え方ならたしかにそう
+                - ただ「気温の植物への影響」みたいな場合には、正しいのは算術平均じゃない？
+            - 重要そうなのだが、2012の論文なのに引用数が5ということで、デファクトスタンダードではなさそう
+            
+        321. [Davies & Smyth 2017; Glob Change Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/gcb.13927/abstract); <FONT color="green">20171110概</FONT>
+            - Why artificial light at night should be a focus for global change research in the 21st century
+            - 夜間の人工光の問題性、光害についてのレビュー
+            - Y先生の論文は引用されていなかったり
+            - 引用に良さそう
+            
+        322. [Benjamin et al. 2017; Nat Human Behaiv](https://www.nature.com/articles/s41562-017-0189-z); <FONT color="grey">中</FONT>
+            - Redefine statistical significance
+            - 新規事象の発見についてはP値を0.05ではなく0.005にしろ、と
+            - この血判状の中にwet側は何人いるのか...
+            
+        323. [宮尾・水澤 1999; 化学と生物](https://katosei.jsbba.or.jp/index.php?aid=103522&place_num=1); <FONT color="green">20111110済</FONT>
+            - 強光環境から身を守る植物の防御機構
+            
+  
+        324. [Murchie & Niyogi 2011; Plant Physiol](http://www.plantphysiol.org/content/155/1/86.short); <FONT color="green">20171110済</FONT>
+            - Manipulation of Photoprotection to Improve Plant Photosynthesis
+            - 信頼できるふたりぐみ、読んでなかった
+            - この特集号はとりあえず全部よむか
+            
+        - 変動環境での同化機会損失の定量評価論文を探す
+        
+        325. [Zhu et al. 2004; JXB](https://academic.oup.com/jxb/article/55/400/1167/528659); 20171110済・引
+            - The slow reversibility of photosystem II thermal energy dissipation on transfer from high to low light may cause large losses in carbon gain by crop canopies: a theoretical analysis
+            - Ortグループ
+            - 時代をかなり先どっている
+                1. ランダム生成したキャンピーをレイ・トレースし、受光量の日変化をモデル化
+                2. 既知パラメータを複数込みのFv/FmのPPFD依存温度応答から、経験式で過去24 h の履歴情報からPSII量子収率の日変化を算出
+                3. 光合成モデルでPn推定
+            - 変量はchilling-susceptible/tolerant、温度、PPFD、といったところ
+            - canopy pn で12.8--32% のロス
+            
+        326. [Naumburg & Ellsworth 2002; Tree Physiol](https://academic.oup.com/treephys/article-abstract/22/6/393/1695191); 高・引
+            - Short-term light and leaf photosynthetic dynamics affect estimates of daily understory photosynthesis in four tree species
+            - 日曜の移動中に読もう
