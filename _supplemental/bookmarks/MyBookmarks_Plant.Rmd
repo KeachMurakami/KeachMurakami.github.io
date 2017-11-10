@@ -26,6 +26,7 @@ output:
 - [新光合成 光エネルギー変換システムの再最適化](http://photosynthesis.nibb.ac.jp/)  
 - [PLANT STOMATA ENCYCLOPEDIA](https://plantstomata.wordpress.com/)
 - [Discussion meeting issue ‘Enhancing photosynthesis in crop plants: targets for improvement’](http://rstb.royalsocietypublishing.org/content/372/1730)
+- [Enhancing Photosynthesis (2011; Focus Issues of *Plant Physiology*)](http://www.plantphysiol.org/content/155/1)
 
 ### 光形態形成・光質応答
 
