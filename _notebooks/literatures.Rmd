@@ -3041,3 +3041,12 @@ Integration
         326. [Naumburg & Ellsworth 2002; Tree Physiol](https://academic.oup.com/treephys/article-abstract/22/6/393/1695191); 高・引
             - Short-term light and leaf photosynthetic dynamics affect estimates of daily understory photosynthesis in four tree species
             - 日曜の移動中に読もう
+        
+    
+    - 11
+    
+        327.[Ushijima et al. 2017; Cell](http://www.cell.com/cell/abstract/S0092-8674(17)31240-0); 低
+            - Light Controls Protein Localization through Phytochrome-Mediated Alternative Promoter Selection
+            - 九大グループ
+            - こんだけ著者いて全員日本人、ってのが日本らしい
+            - 遺伝子のpolymorphism (プログラムの方の) について
