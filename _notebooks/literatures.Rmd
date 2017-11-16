@@ -3091,3 +3091,16 @@ Integration
             - 初の (ちゃんとした) 学会座長依頼が届いたした
                 - 拝命した
                 - 殺す系の質問はしないようにしよう
+            
+    - 16
+        
+        331. [Tosens et al. 2016; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.13719/full); 低
+            - The photosynthetic capacity in 35 ferns and fern allies: mesophyll CO<sub>2</sub> diffusion as a key trait
+            - 葉肉コンダクタンスを幅広く
+            
+        332. [Lehmeier et al. 2017; Plant J](http://onlinelibrary.wiley.com/wol1/doi/10.1111/tpj.13727/full); 低
+            - Cell density and airspace patterning in the leaf can be manipulated to increase leaf photosynthetic capacity
+            - タイトルが面白い
+            
+        - 雑記
+            - ここ数日、測定と解析ばかりで読み書きが進んでいないなぁ
