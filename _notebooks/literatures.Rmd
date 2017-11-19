@@ -3104,3 +3104,18 @@ Integration
             
         - 雑記
             - ここ数日、測定と解析ばかりで読み書きが進んでいないなぁ
+        
+    - 19
+    
+        - 雑記
+            - 金曜・土曜でFarquhar workshop@東大小柴ホール
+                - 環境研の先生、スタッフ陣、後輩に会えた
+                - 会場では、OF大E先生、K大K先生組など
+            - 移動するとよく体調を崩す
+                - 移動先でのイベントでの精神的な疲れなのか、揺れ耐性のなさなのか
+                - 空港までのアクセスがなぁ...
+                - 日曜日に起きたら13:00だった
+                
+        333. [Grassi & Magnani 2005; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2005.01333.x/abstract); 低
+            - Stomatal, mesophyll conductance and biochemical limitations to photosynthesis as affected by drought and leaf ontogeny in ash and oak trees
+            - workshopで*g*<sub>m</sub>へのフォーカスが強かったので
