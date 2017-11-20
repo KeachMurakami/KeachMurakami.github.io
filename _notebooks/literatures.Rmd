@@ -3119,3 +3119,9 @@ Integration
         333. [Grassi & Magnani 2005; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2005.01333.x/abstract); 低
             - Stomatal, mesophyll conductance and biochemical limitations to photosynthesis as affected by drought and leaf ontogeny in ash and oak trees
             - workshopで*g*<sub>m</sub>へのフォーカスが強かったので
+        
+    - 20
+    
+        334. [Zhang et al. 2017; Remote Sens](http://www.mdpi.com/2072-4292/9/11/1189); 高
+            - Photochemical Reflectance Index (PRI) for Detecting Responses of Diurnal and Seasonal Photosynthetic Activity to Experimental Drought and Warming in a Mediterranean Shrubland
+            - Penuelasグループ
