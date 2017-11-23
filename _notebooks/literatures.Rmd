@@ -3118,10 +3118,39 @@ Integration
                 
         333. [Grassi & Magnani 2005; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2005.01333.x/abstract); 低
             - Stomatal, mesophyll conductance and biochemical limitations to photosynthesis as affected by drought and leaf ontogeny in ash and oak trees
-            - workshopで*g*<sub>m</sub>へのフォーカスが強かったので
+            - workshopで<i>g</i><sub>m</sub>へのフォーカスが強かったので
         
     - 20
     
         334. [Zhang et al. 2017; Remote Sens](http://www.mdpi.com/2072-4292/9/11/1189); 高
             - Photochemical Reflectance Index (PRI) for Detecting Responses of Diurnal and Seasonal Photosynthetic Activity to Experimental Drought and Warming in a Mediterranean Shrubland
             - Penuelasグループ
+        
+    - 23
+        
+        - 光合成の葉面不均一について
+    
+        335. [Terashima 1992; Photosynth Res](https://link.springer.com/article/10.1007/BF00035537); <FONT color="green">20171123摘</FONT>
+            - Anatomy of non-uniform leaf photosynthesis
+            - おもに気孔の絡み
+        
+        336. [Nardini et al. 2008; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1365-3040.2008.01798.x/abstract); 低
+            - Heterogeneity of gas exchange rates over the leaf surface in tobacco: an effect of hydraulic architecture?
+            - イタリア Univ Trieste の初見グループ
+            
+        337. [Li et al. 2013; PLoS One](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0066016); 20171123済
+            - The Heterogeneity and Spatial Patterning of Structure and Physiology across the Leaf Surface in Giant Leaves of <i>Alocasia macrorrhiza</i>
+            - 中心機関がよくわからない
+            - 葉のpetiole起点からの距離で<i>Y</i><sub>II</sub>、<i>P</i><sub>n</sub>、 <i>g</i><sub>s</sub>、Chl、厚さなど
+            - ６枚とってきて、各種パラメータを測定した、というレポート
+            - “ガス交換を各点1--2分”て、大丈夫かこれ？
+            - 草本だと、tipの方が光合成・蒸散が活発らしいとのこと
+        
+        - ここまで
+        
+        338. [Williams et al. 2009; Estuaries and Coasts](https://link.springer.com/article/10.1007/s12237-008-9114-z); 20171123済
+            - Effects of the Herbicide Diuron on Cordgrass (<i>Spartina foliosa</i>) Reflectance and Photosynthetic Parameters
+            - 初論文
+                - Estuaries = 河口
+            - DCMU vs PRIの唯一
+            - 河川の汚染をイメージした研究
