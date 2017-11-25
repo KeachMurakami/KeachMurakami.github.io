@@ -5,7 +5,7 @@ permalink: /CVen/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-06-02 10:06:36  </FONT><br>
+<FONT color="grey">Last update: 2017-11-25 22:10:56  </FONT><br>
 
 ------
 
@@ -68,3 +68,4 @@ layout: default
 |2012- |Japanese Society of Agricultural, Biological and Environmental Engineers and Scientists |
 |2013- |The Society of Agricultural Meteorology of Japan                                        |
 |2017- |The Japanese Association for Photosynthesis Research                                    |
+|2017- |International Society for Horticultural Science                                         |

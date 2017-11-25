@@ -5,7 +5,7 @@ permalink: /CVjp/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-06-02 10:06:37  </FONT><br>
+<FONT color="grey">Last update: 2017-11-25 22:11:04  </FONT><br>
 
 ------
 
@@ -74,8 +74,9 @@ layout: default
 
 ### 学会活動
 
-|Year  |Society            |
-|:-----|:------------------|
-|2012- |日本生物環境工学会 |
-|2013- |日本農業気象学会   |
-|2017- |日本光合成学会     |
+|Year  |Society                                         |
+|:-----|:-----------------------------------------------|
+|2012- |日本生物環境工学会                              |
+|2013- |日本農業気象学会                                |
+|2017- |日本光合成学会                                  |
+|2017- |International Society for Horticultural Science |
