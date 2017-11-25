@@ -3154,3 +3154,14 @@ Integration
                 - Estuaries = 河口
             - DCMU vs PRIの唯一
             - 河川の汚染をイメージした研究
+        
+    - 24
+    
+        339. [Sperdouli & Moustakas 2012; Plant Biol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1438-8677.2011.00473.x/abstract); 低
+            - Spatio-temporal heterogeneity in <i>Arabidopsis thaliana</i> leaves under drought stress
+            - ギリシャ Aristotle Univ
+            - 乾燥ストレスがあると、光合成機能の不均一さが顕著に
+
+        - 雑記
+            - PCPの査読がWaiting Decisionに移行したので、そろそろ...
+            
