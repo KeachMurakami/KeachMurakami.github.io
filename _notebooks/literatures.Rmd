@@ -3170,3 +3170,10 @@ Integration
         - 雑記
             - 鍵穴に挿しっぱだったので、キーを外して密室にしたら、留学生氏にJesusとややキレされた
             - 甘えるな
+        
+    - 29
+    
+        340. [Miao et al. 2016; J Integr Agric](http://www.sciencedirect.com/science/article/pii/S2095311915612023); 無
+            - Blue light is more essential than red light for maintaining the activities of photosystem II and I and photosynthetic electron transport capacity in cucumber leaves
+            - 北京大学
+            - 読む必要はなさそう
