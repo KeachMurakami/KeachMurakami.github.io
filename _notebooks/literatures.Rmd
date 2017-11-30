@@ -3177,3 +3177,9 @@ Integration
             - Blue light is more essential than red light for maintaining the activities of photosystem II and I and photosynthetic electron transport capacity in cucumber leaves
             - 北京大学
             - 読む必要はなさそう
+        
+    - 30
+        
+        341. [de Reuille et al. 2014; eLife](https://elifesciences.org/articles/05864); 低
+            - MorphoGraphX: A platform for quantifying morphogenesis in 4D
+            - かっこいい
