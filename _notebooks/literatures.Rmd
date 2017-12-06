@@ -3192,3 +3192,12 @@ num_paper <-
   342. [Slattery et al. 2018; Plant Physiol](http://www.plantphysiol.org/content/early/2017/11/30/pp.17.01234?rss=1); <FONT color="green">低・未刊・未取得</Font>
     - The impacts of fluctuating light on crop performance
     - 変動光です
+    
+- 05
+
+  - 雑記
+    - 県の農業センターと胡蝶蘭の農家を見学
+      - 両方とも非常に面白い
+      - とくに、後者ではとてもエレガントな生態学系の仮説が
+    - いちおう、支部会のスライド完成 (おそい)
+      - Revealjsがほぼ取説ノールックでかけるようになった
