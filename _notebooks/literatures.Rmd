@@ -3238,3 +3238,25 @@ num_paper <-
     - スライドの接続でぐだったのが心残り
     - 「ポスドクだから優秀賞を」、という心配りを感じて申し訳無さが...
       - 精進しよう
+      
+- 11
+
+  347. [Demarsy et al. 2018; Trend Plant Sci](http://www.cell.com/trends/plant-science/fulltext/S1360-1385(17)30272-8); <FONT color="green">高</FONT>
+    - Coping with ‘Dark Sides of the Sun’ through Photoreceptor Signaling
+    - Geneva, Goldschmidt-Clermontグループ
+    - PSII障害の話
+    - 最近こういうwit系のタイトルおおい
+      - 商売っけのあるジャーナル (CNS, OA系) に多い
+      - たまにならいいけど食傷気味
+  
+- 12
+
+  348. [Takizawa et al. 2007; BBA](http://www.sciencedirect.com/science/article/pii/S0005272807001557); 低
+    - The thylakoid proton motive force <i>in vivo</i>. Quantitative, non-invasive probes, energetics, and regulatory consequences of light-induced <i>pmf</i>
+    - Kramer lab
+    - 
+    
+  349. [Li & Yang 2015; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2015.00704/abstract); <FONT color = "green">20171212済</FONT>
+    - Advantages of diffuse light for horticultural production and perspectives for further research
+    - D論の抜粋的な
+    - そーね、って感じの内容
