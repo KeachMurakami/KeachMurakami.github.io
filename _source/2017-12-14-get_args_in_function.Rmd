@@ -15,7 +15,7 @@ library(knitr)
 引数が多くなると`result %>% mutate(input1, input2, ....) %>% return` が長くなるし、修正に不便なので、引数を一括で足したい。
 
 ```{r, message = F, warning = F}
-library(magrittr)
+library(tidyverse)
 
 f1 <- 
   function(a = 3, b = 2, c){
