@@ -1,0 +1,55 @@
+---
+title: "関数への全引数をmutateで追加する (R"
+output: html_document
+layout: post
+tags: lab R datahandling 
+---
+
+```{r setup, message = F, include = F, warning = F}
+library(knitr)
+```
+
+はまったのでメモ。
+
+複数パラメータを引数にとる自作関数で感度分析するとき、出力のデータフレームには入力したパラメータがあってほしい。
+引数が多くなると`result %>% mutate(input1, input2, ....) %>% return` が長くなるし、修正に不便なので、引数を一括で足したい。
+
+```{r, message = F, warning = F}
+library(tidyverse)
+library(rlang)
+
+f1 <- 
+  function(a = 3, b = 2, c){
+    args <- as.list(environment())
+    
+    tibble(result = a + b + c) %>%
+      mutate(rlang::UQS(args))
+  }
+
+f2 <-
+  function(a = 3, b = 2, c){
+    args <- as.list(match.call())[-1]
+    
+    tibble(result = a + b + c) %>%
+      mutate(rlang::UQS(args))
+  }
+```
+
+```{r}
+f1(a = 3, b = 2, c = 1)
+f2(a = 3, b = 2, c = 1)
+
+1:2 %>%
+  purrr::map(~ f1(c = .))
+1:2 %>%
+  purrr::map(~ f2(c = .))
+1:2 %>%
+  purrr::map(~ f2(a = 3, b = 2, c = .))
+```
+
+`match.call()`はよく実装されているけど、相性いまいち。`match.call()`で環境をうまく指定すればいけそう？
+`environment()`で関数内環境でのオブジェクトを取る感じだけど、ネストしはじめると怖い？
+
+```{r}
+devtools::session_info()
+```
