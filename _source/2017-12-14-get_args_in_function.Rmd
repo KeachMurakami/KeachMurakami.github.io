@@ -51,6 +51,10 @@ f2(a = 3, b = 2, c = 1)
 `match.call()`自体の動作する環境をうまく指定すればいけそう？
 `environment()`でOKではあるが、関数内環境でのオブジェクトを全部受け取る感じなので、ネストしはじめると怖いような気もする。
 
+#### 参考
+
+[Get all Parameters as List](https://stackoverflow.com/questions/11885207/get-all-parameters-as-list?noredirect=1&lq=1)
+
 ```{r}
 devtools::session_info()
 ```
