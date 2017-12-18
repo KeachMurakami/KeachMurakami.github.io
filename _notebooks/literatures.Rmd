@@ -3254,9 +3254,76 @@ num_paper <-
   348. [Takizawa et al. 2007; BBA](http://www.sciencedirect.com/science/article/pii/S0005272807001557); 低
     - The thylakoid proton motive force <i>in vivo</i>. Quantitative, non-invasive probes, energetics, and regulatory consequences of light-induced <i>pmf</i>
     - Kramer lab
-    - 
     
   349. [Li & Yang 2015; Front Plant Sci](http://journal.frontiersin.org/article/10.3389/fpls.2015.00704/abstract); <FONT color = "green">20171212済</FONT>
     - Advantages of diffuse light for horticultural production and perspectives for further research
-    - D論の抜粋的な
+    - D論の抜粋的な温室内の散乱光環境化についてのはなし
     - そーね、って感じの内容
+
+- 13
+
+  350. [Liesche & Patrick 2017; F1000Research](https://f1000research.com/articles/6-2096); <FONT color = "green">低</FONT>
+    - An update on phloem transport: a simple bulk flow under complex regulation
+    - F1000は扱いにやや困る感じだけどとりあえず
+    
+  - 雑記
+    - 忘年会@Rocca
+    
+- 14
+
+  - 雑記
+    - PRIイメージングは個体レベルだとパッケージの構成を結構変えないとダメ臭い
+      - 設計が甘いんだよなぁ...
+      - うーん
+    
+- 15
+
+  351. [Esteban et al. 2017; New Phytol](http://onlinelibrary.wiley.com/wol1/doi/10.1111/nph.14932/full); <FONT color="blue">20171215済</FONT>
+    - On the recalcitrant use of Arnon's method for chlorophyll determination
+    - 自分も`Murakami et al. 2014; Plant Biol`ではArnonを使っている
+      - “同一グループ内での過去の研究との比較”、という点での使用であり、‘hand-me-down’との指摘通り
+      - ちなみこのときは、Arnonをダイレクトには引用していない (based on `Makino et al. 1997` のような書き方)
+      - 潜在的にはもっと多くありそう？
+    - でも結局`Murakami et al. 2016; Physiol Plant`ではPorraに変えた
+      - Open-data的なことになっていけばね...
+    - 低収入の国で多い、の下りはややアレな気がするが
+    - 同一グループ内での相対比較に留まる限り問題はなく、困るのは誰かといったら著者を含むメタ解析屋だろう
+      - 階層パラメータひとつ増やして解析するだけの話か
+      - コレ系を書くと、「まぁそうだけどさ...、おまえwet系知らんやろ...」ってなるのは統計も一緒
+      - 互換係数的なのでも出せればよろしい
+  
+
+- 16
+
+  352. [Morales et al. 2018; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13119/abstract); 中・未刊・未取得
+    - Dynamic modelling of limitations on improving leaf CO2 assimilation under fluctuating irradiance
+    - Wageningen モデル組 (Harbinson)
+    - 定常光合成にパラメータ突っ込む
+      - “by adding the effects of energy-dependent non-photochemical quenching (qE), chloroplast movement, photoinhibition, regulation of enzyme activity in the Calvin cycle, metabolite concentrations, and dynamic CO2 diffusion”
+      - パラメータ多すぎなので、“モデルが合う”についてはそりゃそーだでOK
+      - 重要なのは、各パラメータの寄与度の解析
+      - 概してCalvin回路活性化と気孔開口がリミットするが、弱光ではqEと葉緑体移動の沈静化の遅さが原因
+    
+  353. [Jesus et al. 201X; Photochem Photociol Sci](http://pubs.rsc.org/en/Content/ArticleLanding/2018/PP/C7PP00300E#!divAbstract); 20171216概
+    - An insight into the photodynamic approach versus copper formulations in the control of <i>Pseudomonas syringae</i> pv. <i>actinidiae</i> in kiwi plants
+    - Univ Aveiro, Portugal
+    - 光増感剤を散布して太陽光によりROS生成して殺菌したいというやつ
+    
+  354. [Wada et al. 2018; Plant Physiol](http://www.plantphysiol.org/content/early/2017/12/14/pp.17.01335?rss=1); 低・未刊・未取得
+    - Flavodiiron protein substitutes for cyclic electron flow without competing CO2 assimilation
+    - 東北大牧野Lab
+    - コケのFlvをイネに導入する話
+    - Flvは陸上に出る段階で失ったんだっけ？
+
+  - 雑記
+    - KerasでDeep Learningを試した
+      - 画像から連続値特徴量を抽出する系の回帰学習
+      - 簡単に組めるな...
+    
+- 18
+
+  - 雑記
+    - イメージングのパッケージを練り直しつつ、データ解析
+      - この方向性で貯めれば行ける？
+      - Sparse modelingとかそんな感じ？
+      - 実験レベルでの局所管理をどうにかしたいなぁ
