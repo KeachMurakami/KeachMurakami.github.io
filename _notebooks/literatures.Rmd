@@ -3327,3 +3327,17 @@ num_paper <-
       - この方向性で貯めれば行ける？
       - Sparse modelingとかそんな感じ？
       - 実験レベルでの局所管理をどうにかしたいなぁ
+    
+- 19
+
+  355. [Moya et al. 2004; Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425704000756); 低
+    - A new instrument for passive remote sensing 1. Measurements of sunlight-induced chlorophyll fluorescence
+    - Univ Illes BalearsのFlexas Group
+      - 改めて調べたら、Mallorca島にあるのね
+    - SIFの実証の古典っぽい
+
+- 22
+
+  - 雑記
+    - 測定続きでへたれた
+    - 農業気象の発表登録をすっかり忘れていた。28日まで
