@@ -86,6 +86,7 @@ tags: memo
 
 - [科学技術論文の書き方](http://www.okada-lab.org/Ronbun/TableOfContents.php)
 - [松尾ぐみの論文執筆](http://ymatsuo.com/old2/matsuogumi_eigo_ronbun.htm)
+- [修士論文の作り方](http://itolab.is.ocha.ac.jp/~itot/message/msthesis.html)
 
 ### 英語  
 
