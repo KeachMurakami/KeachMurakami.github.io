@@ -3341,3 +3341,23 @@ num_paper <-
   - 雑記
     - 測定続きでへたれた
     - 農業気象の発表登録をすっかり忘れていた。28日まで
+
+- 25
+
+  356. [Dietz et al. 2016; Plant Physiol](http://www.plantphysiol.org/content/171/3/1541); <FONT color="green">中</FONT>
+
+- 26
+  
+  357. [Silva-Perez et al. 2017; JXB](https://academic.oup.com/jxb/advance-article/doi/10.1093/jxb/erx421/4772616); 低
+    - Hyperspectral reflectance as a tool to measure biochemical and physiological traits in wheat
+    - ANU Evans & Furbank
+    - 主成分分析で形質評価するという、いってしまえばレトロな話
+    - 作図ツールが気になる
+      - 色がおしゃれ
+      - Pythonな気もする
+      
+  358. [Kramer et al. 2004; TPS](http://www.sciencedirect.com/science/article/pii/S1360138504001281); <FONT; color = "green">20171226概</FONT>
+    - Dynamic flexibility in the light reactions of photosynthesis governed by both electron and proton transfer reactions
+    - 2004はqLの論文だけだと思って見落としていた
+    - 図がちゃらいな (褒めている)
+    - やっぱりこのあたりは因果関係が自分のなかで整理できていない
