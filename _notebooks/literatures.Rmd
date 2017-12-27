@@ -3361,3 +3361,20 @@ num_paper <-
     - 2004はqLの論文だけだと思って見落としていた
     - 図がちゃらいな (褒めている)
     - やっぱりこのあたりは因果関係が自分のなかで整理できていない
+  
+- 27
+
+  359. [Nakaji et al. 2006; Int J Remote Sens](http://www.tandfonline.com/doi/abs/10.1080/01431160500329528); 20171227済
+    - Seasonal changes in the relationship between photochemical reflectance index and photosynthetic light use efficiency of Japanese larch needles
+    - 旧国環研
+    - ４バンドイメージングカメラでカラマツのPRIの季節変動
+    - NDVIで変動可能幅、PRIのオフセットで光利用効率っぽいパラメタを作ってLUE回帰
+      - NDVIは共変量になっている気がする
+      - つまり、季節とPPFDの交絡
+    - 複写依頼で386円
+
+  360. [Filella et al. 1996; Physiol Plant](http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1399-3054.1996.tb00204.x/full); 20171227済
+    - Relationship between photosynthetic radiation-use efficiency of barley canopies and the photochemical reflectance index (PRI)
+    - Penuelas group
+    - わりと初期のPRI研究なので、お試し、という感じか
+    - 個葉・キャノピー
