@@ -1,17 +1,23 @@
 ---
 title: Publications
 # output: html_document
-output: word_document
+output: html_document
 permalink: /publications/
 layout: default
 ---
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+  integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+  integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+  crossorigin=""></script>
+</head>
 
 <FONT color="grey">Last update: `r lubridate::now()`  </FONT><br>
 
 ```{r, message = F, echo = F, warning = F}
-library(magrittr)
-library(dplyr)
-library(knitr)
+library(fudukue)
 
 del_link <- F
 add_if <- F
@@ -48,6 +54,7 @@ ToKable <-
 speaker <- function(text) paste0("<sup>○</sup>", text)
 correspond <- function(text) paste0(text, "<sup>+</sup>")
 new_item <- function(text) paste0("<FONT color='red'><sup>New </sup></FONT>", text)
+coming_item <- function(text) paste0("<FONT color='grey'>", text, "</FONT>")
 
 # Frequently appears
 KM <- "<FONT color='green'>Keach Murakami</FONT>"
@@ -63,7 +70,7 @@ YI_ <- "荊木 康臣"
 ```
 
 
-```{r journal, message = F, echo = F}
+```{r journal, message = F, echo = F, warning = F}
 impacts <-
   Vectorize(ifelse)(add_if, paste0("<br><FONT color='grey'>IF: ", c(0.467, 2.216, 3.520, 1.538, NA, 6.169), "</FONT>"), "")
 
@@ -112,15 +119,25 @@ journal_articles <-
     ToRecord(
       new_item("Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport"),
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
-      "2017",
+      "2018",
       "Original Article",
       paste0("Plant, Cell & Environment", impacts[6]),
       "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract"),
     
     ToRecord(
-      new_item("A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems"),
+      "A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems",
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
       "Under review",
+      "Original Article",
+      "",
+      ""),
+      # paste0("Planta", impacts[7]),
+      # "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
+
+    ToRecord(
+      coming_item("Short-term response of photochemical reflectance index (PRI) during photosynthetic induction: time delay and correlation against photochemical yield of photosystem II."),
+      paste(correspond(KM), YI, sep = ", "),
+      "Forthcoming",
       "Original Article",
       "",
       "")
@@ -192,7 +209,15 @@ symp_int <-
 symp_domestic <-
   c(
     ToRecord(
-      new_item("分光反射画像計測による葉位別光合成速度推定にむけて: PRIの光応答の評価"),
+      new_item("分光画像計測による光合成速度分布解析の試み"),
+      paste(speaker(KM_), YI_, sep = ", "),
+      "2018",
+      "Oral",
+      "日本農業気象学会 2018 年全国大会<br>鳥取, 2018/03/13-2018/03/17",
+      ""),
+
+    ToRecord(
+      "分光反射画像計測による葉位別光合成速度推定にむけて: PRIの光応答の評価",
       paste(speaker(KM_), YI_, sep = ", "),
       "2017",
       "Oral",
@@ -333,7 +358,7 @@ symp_domestic <-
 
 ### Journal Articles
 
-```{r, message = F, echo = F}
+```{r, message = F, echo = F, warning = F}
 journal_articles %>%
   ToKable(in_what = "Journal")
 ```
@@ -379,4 +404,75 @@ symp_domestic %>%
 # rmarkdown::render("~/Dropbox/KeachMurakami.github.io/PublicationList.Rmd")
 # knit(input = "~/Dropbox/KeachMurakami.github.io/PublicationList.Rmd",
 #      output = "~/Dropbox/KeachMurakami.github.io/PublicationList.md")
+```
+
+```{r map, echo = F, eval = F}
+library(leaflet)
+
+work_location <-
+  data.frame(
+    name = c("東大環境研", "山口大荊木研"),
+    lat = c(35.7167, 34.1492),
+    lng = c(139.7616, 131.4691),
+    from = c("2012/Apr", "2017/Apr"),
+    to = c("2017/Mar", "2020/Mar")
+  ) %>%
+  mutate(popup=paste(name, "<br/>", from, "--", to))
+  # mutate(popup=paste(sprintf('<a href="%s">%s</a>', url, name), opens, major, sep="<br/>"))
+
+
+# name, lat, lng, from, to, url
+
+# ECB
+`_symp_ecb2012` <- c("日本生物環境工学会@東大", 35.7167, 139.7616, "2012-09-04", "2012-09-07", "")
+`_symp_ecb2013` <- c("日本生物環境工学会@香川大", 34.3428, 134.0380, "2013-09-02", "2013-09-05", "")
+`_symp_ecb2014` <- c("日本生物環境工学会@明治大御茶ノ水", 35.697224, 139.761536, "2014-09-09", "2014-09-11", "")
+`_symp_ecb2015` <- c("日本生物環境工学会@宮崎", 31.9603, 131.4704, "2015-09-08", "2015-09-11", "")
+`_symp_ecb2017` <- c("日本生物環境工学会@愛媛大樽味", 33.8389, 132.7919, "2017-08-30", "2017-09-04", "")
+
+# AgrMet
+`_symp_agrmet2014` <- c("日本農業気象学会全国大会@北大", 43.0719, 141.3449, "2014-03-18", "2014-03-21", "")
+`_symp_agrmet2015` <- c("日本農業気象学会全国大会@つくば", 36.074657, 140.117862, "2015-03-16", "2015-03-19", "")
+`_symp_agrmet2016` <- c("日本農業気象学会全国大会@岡山大津山", 34.6874, 133.9222, "2016-03-14", "2016-03-17", "")
+`_symp_agrmet2017` <- c("日本農業気象学会全国大会@北里大十和田", 40.6242, 141.2379, "2017-03-14", "2017-03-17", "-")
+`_symp_agrmet2017block` <- c("日本農業気象学会 中国四国支部大会", 35.5152, 134.1734, "2017-12-07", "2017-12-08", "")
+
+# Photosynthesis
+`_symp_photosyn2014` <- c("日本光合成学会年会@近畿大奈良", 34.6720, 135.7325, "2014-05-30", "2014-05-31", "")
+`_symp_photosyn2015` <- c("日本光合成学会年会@岡山", 34.6682, 133.9164, "2015-05-22", "2015-05-23", "-")
+`_symp_photosyn2017` <- c("日本光合成学会年会@龍谷大瀬田", 34.9642, 135.9405, "2017-05-27", "2017-05-28", "")
+
+# Horticulture
+`_symp_hort2015spr` <- c("園芸学会@千葉大西千葉", 35.6253, 140.1033, "2015-03-28", "2015-03-29", "-")
+`_symp_hort2016spr` <- c("園芸学会@東京農大本厚木", 35.4325, 139.3457, "2016-03-26", "2016-03-27", "-")
+`_symp_hort2017spr` <- c("園芸学会@日本大藤沢", 35.3804, 139.4688, "2017-03-19", "2017-03-20", "-")
+
+# Others
+`_symp_botany2014` <- c("植物学会@明治大生田", 35.613543, 139.548751, "2014-09-12", "2017-09-14", "-")
+`_symp_ecol2017` <- c("日本生態学会大会@早稲田大", 35.7087, 139.7196, "2017-03-14", "2017-03-18", "-")
+
+# Interanational
+`_symp_lightsym2012` <- c("LightSym2012@Wageningen Univ (The Netherlands)", 51.985223, 5.663653, "2015-07-19", "2015-07-23", "")
+`_symp_greensys2015` <- c("GreenSys2015@University of Evora (Portugal)", 38.573125, -7.905660, "2015-07-19", "2015-07-23", "")
+`_symp_auspheno2016` <- c("ICEC|AusPheno2016@CSIRO (Australia)", -35.273162, 149.115286, "2016-07-19", "2015-07-23", "")
+
+convert_symp_log_to_df <-
+  function(symp_log){
+    matrix(symp_log) %>%
+    t %>%
+    as_data_frame %>%
+    set_names(c("name", "lat", "lng", "from", "to", "url")) %>%
+    mutate(lat = as.numeric(lat), lng = as.numeric(lng))
+  }
+
+`_symp_log` <-
+  ls(pattern = "^_symp") %>%
+  map(get) %>%
+  map_df(convert_symp_log_to_df) %>%
+  mutate(popup = paste(name, "<br/>", from, "--", to))
+
+map_symp <-
+  leaflet(`_symp_log`) %>% 
+  addTiles() %>%
+  addMarkers(lng = ~lng, lat = ~lat, popup = ~popup)
 ```
