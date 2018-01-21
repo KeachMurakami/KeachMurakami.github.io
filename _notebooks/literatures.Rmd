@@ -3378,3 +3378,109 @@ num_paper <-
     - Penuelas group
     - わりと初期のPRI研究なので、お試し、という感じか
     - 個葉・キャノピー
+
+- 28
+
+  - 雑記
+    - 大掃除、留学生J氏の風邪薬購入、送別会改め忘年会その２、と慌ただしい一日
+    
+# 2018
+
+## 01
+
+- 03
+
+  361. [Drolet et al. 2005 Remote Sens Environ](http://www.sciencedirect.com/science/article/pii/S0034425705002348)
+    - A MODIS-derived photochemical reflectance index to detect inter-annual variations in the photosynthetic light-use efficiency of a boreal deciduous forest
+    
+
+- 06
+
+  - 雑記
+    - 最近、変異系のタンパクで３文字でないのが多いが、命名規則はどうなっているのだろう？
+    - 26^3だとすぐ埋まるわなぁ
+    - 種名をラストにつけるルールもあったりするし、混沌だ
+  
+- 07
+
+  362. [Carey & Pipin 2018; PLoS Comp Biol](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871); <FONT color="cyan">20180107済</FONT>
+    - Ten simple rules for biologists learning to program
+    - ポジション取り要素？
+    - RのCommunityでrladiesってにわかもいいとこじゃねーの？
+    - “Rule 7: Develop good habits early on”は難しいよなぁ...
+      - 再現性キープ、個別管理、コードの分離・粒度の意識とか...
+      - 完全にrmarkdownで解析、パッケージ化なんかはうまくできるようにはなってきたな
+  
+- 10
+
+  363. [Parsons et al. 2018; eLife](https://elifesciences.org/articles/32486); <FONT color="grey">20180110摘</FONT>
+    - Unit of analysis issues in laboratory-based research
+    - 擬似反復を許さないR勢
+    - UoAというフレーズは初見
+    - はやってるね
+    
+  364. [Altman & Bland 1997; BMJ](http://www.bmj.com/content/314/7098/1874); <FONT color="grey">20180110済</FONT>
+    - Statistics Notes: Units of analysis
+    - `Parsons et al. (2018)`から
+    - UoAの初出らしい、医学系研究者向けの簡単なnote
+      - 医学系の統計は下がひどそう
+    - 階層性データの最下層をマージするべし、という古典的なはなし
+
+- 15
+  - 雑記
+    - 次の論文の固まった稿 (Regular_006) をI先生へ送付
+      - 査読に回ったら (outside the scope で弾かれなければ) Acceptは間違いない、という自信がある
+    - 農業気象の発表申込
+      - 見切り発車再び
+      - 最近まずい
+
+- 16
+
+  365. [Czarnockaa & Karpińskia 2018; Free Radical Biology and Medicine](https://www.sciencedirect.com/science/article/pii/S0891584918300212); <FONT color="green">中・未刊・未取得</FONT>
+    - Friend or foe? Reactive oxygen species production, scavenging and signaling in plant response to environmental stresses
+    - `Karpinski et al. (1999; *Science*)`のあの人
+    - 自分のなかでは、読み物として、という位置づけ？
+      - ミクロに走ると戦えなくなるのはD論のときに十分に学んだので
+      
+  - 雑記
+    - Regular_006にさっそくコメントを貰った
+      - ありがたい
+      - どうにか即日で英文校閲まで
+    - Regular_005の直しを進めよう
+    - あと農業気象の要旨も
+
+- 17
+  
+  366. [Caglar et al. 2018; PeerJ](https://peerj.com/articles/4251/); 低
+    - Sicegar: R package for sigmoidal and double-sigmoidal curve fitting
+    - 上がりプラトー下がりを２つのシグモイドでフィットするパッケージ
+    - 名前覚えにくいなぁ
+      - SIngle CEll Growth Analysis in R
+      - 著者の名前のいじりかと思った
+      
+- 19
+
+  367. [Matsui 2016, Cur Opin Plant Biol](http://www.sciencedirect.com/science/article/pii/S1369526616300735?via%3Dihub); <FONT color = "green">20180119概</FONT>
+    - A portion of plant airborne communication is endorsed by uptake and metabolism of volatile organic compounds
+    - 上の階の松井先生
+    - 揮発性物質による個体間コミュニケーション
+    - エンジニアリング的にアプローチできるとしたら、風だよなぁ
+
+- 20
+
+  368. [Yoshinaka et al. 2018; AoB](https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcy001/4818231); 低
+    - The role of biomass allocation between lamina and petioles in a game of light competition in a dense stand of an annual plant
+    - 東北大彦坂研
+  
+  369. [佐瀬 2018; 領域融合レビュー](); 
+    - 植物における遺伝子とトランスポゾンとの相互作用と環境への適応
+    - molecularへの食わず嫌いをどうにかすべく
+    
+- 21
+
+  - 雑記
+    - 査読対応用にキュウリのlight curveをとった
+      - High lightで測るのはめちゃくちゃ久しぶりだなぁ
+      - Pn 32くらいまで出てテンションがあがった
+    - 学内のセミナーの構成練りなど
+      
