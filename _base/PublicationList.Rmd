@@ -127,7 +127,7 @@ journal_articles <-
     ToRecord(
       "A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems",
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
-      "Under review",
+      "Revising for resubmission",
       "Original Article",
       "",
       ""),
@@ -135,9 +135,9 @@ journal_articles <-
       # "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
 
     ToRecord(
-      coming_item("Short-term response of photochemical reflectance index (PRI) during photosynthetic induction: time delay and correlation against photochemical yield of photosystem II."),
+      "Time course of the photochemical reflectance index (PRI) during photosynthetic induction: its correlation with the photochemical yield of photosystem II",
       paste(correspond(KM), YI, sep = ", "),
-      "Forthcoming",
+      "Submitted",
       "Original Article",
       "",
       "")
@@ -213,7 +213,7 @@ symp_domestic <-
       paste(speaker(KM_), YI_, sep = ", "),
       "2018",
       "Oral",
-      "日本農業気象学会 2018 年全国大会<br>鳥取, 2018/03/13-2018/03/17",
+      "日本農業気象学会 2018 年全国大会<br>@九大伊都, 2018/03/13-2018/03/17",
       ""),
 
     ToRecord(
@@ -221,7 +221,7 @@ symp_domestic <-
       paste(speaker(KM_), YI_, sep = ", "),
       "2017",
       "Oral",
-      "日本農業気象学会 中国四国支部大会<br>鳥取, 2017/12/07-2017/12/08",
+      "日本農業気象学会 中国四国支部大会<br>@鳥大, 2017/12/07-2017/12/08",
       ""),
     
     ToRecord(
@@ -229,7 +229,7 @@ symp_domestic <-
       paste(speaker(KM_), YI_, sep = ", "),
       "2017",
       "Oral",
-      "日本生物環境工学会 2017 年松山大会<br>愛媛, 2017/08/30-2017/09/04",
+      "日本生物環境工学会 2017 年松山大会<br>@愛媛大樽味, 2017/08/30-2017/09/04",
       ""),
 
     ToRecord(
@@ -237,7 +237,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2017",
       "Poster",
-      "第 8 回日本光合成学会年会<br>滋賀, 2017/05/27-2017/05/28",
+      "第 8 回日本光合成学会年会<br>@龍谷大瀬田, 2017/05/27-2017/05/28",
       ""),
 
     ToRecord(
@@ -245,7 +245,7 @@ symp_domestic <-
       paste(speaker(RM_), "山埜 拓人", KM_, KF_, sep = ", "),
       "2016",
       "Oral",
-      "日本農業気象学会 2016 年全国大会<br>岡山, 2016/03/14-2016/03/17",
+      "日本農業気象学会 2016 年全国大会<br>@岡山大, 2016/03/14-2016/03/17",
       ""),
     
     ToRecord(
@@ -253,7 +253,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2016",
       "Poster",
-      "日本農業気象学会 2016 年全国大会<br>岡山, 2016/03/14-2016/03/17",
+      "日本農業気象学会 2016 年全国大会<br>@岡山大, 2016/03/14-2016/03/17",
       ""),
     
     ToRecord(
@@ -261,7 +261,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2015",
       "Oral",
-      "日本生物環境工学会 2015 年宮崎大会<br>宮崎, 2015/09/08-2015/09/11",
+      "日本生物環境工学会 2015 年宮崎大会<br>@シーガイア(宮崎), 2015/09/08-2015/09/11",
       ""),
     
     ToRecord(
@@ -269,7 +269,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2015",
       "Oral",
-      "日本農業気象学会 2015 年全国大会<br>つくば, 2015/03/16-2015/03/19",
+      "日本農業気象学会 2015 年全国大会<br>@文部科学省研究交流センター(つくば), 2015/03/16-2015/03/19",
       ""),
     
     ToRecord(
@@ -277,7 +277,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2014",
       "Poster",
-      "第 5 回日本光合成学会年会<br>奈良, 2014/05/30-2014/05/31",
+      "第 5 回日本光合成学会年会<br>@近畿大奈良, 2014/05/30-2014/05/31",
       ""),
   
     ToRecord(
@@ -285,7 +285,7 @@ symp_domestic <-
       paste(speaker(RM_), "山埜 拓人", KM_, KF_, sep = ", "),
       "2014",
       "Oral",
-      "日本農業気象学会 2014 年全国大会<br>札幌, 2014/03/18-2014/03/21",
+      "日本農業気象学会 2014 年全国大会<br>@北大, 2014/03/18-2014/03/21",
       ""),
     
     ToRecord(
@@ -293,7 +293,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2014",
       "Oral",
-      "日本農業気象学会 2014 年全国大会<br>札幌, 2014/03/18-2014/03/21",
+      "日本農業気象学会 2014 年全国大会<br>@北大, 2014/03/18-2014/03/21",
       ""),
     
     ToRecord(
@@ -301,7 +301,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2013",
       "Oral",
-      "日本生物環境工学会 2013 年香川大会<br>高松, 2013/09/02-2013/09/05",
+      "日本生物環境工学会 2013 年香川大会<br>@香川大, 2013/09/02-2013/09/05",
       ""),
     
     ToRecord(
@@ -309,7 +309,7 @@ symp_domestic <-
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2012",
       "Oral",
-      "日本生物環境工学会 2012 年東京大会<br>東京, 2012/09/04-2012/09/07",
+      "日本生物環境工学会 2012 年東京大会<br>@東大弥生, 2012/09/04-2012/09/07",
       ""),
     
     ToRecord(
@@ -317,7 +317,7 @@ symp_domestic <-
       paste(speaker(RM_), KM_, KF_, sep = ", "),
       "2012",
       "Poster",
-      "日本農業気象学会 2012 年全国大会<br>大阪, 2012/03/13-2012/03/17",
+      "日本農業気象学会 2012 年全国大会<br>@大阪府大中百舌鳥, 2012/03/13-2012/03/17",
       "")
   )
 ```
