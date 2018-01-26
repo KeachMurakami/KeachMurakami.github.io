@@ -3484,3 +3484,10 @@ num_paper <-
       - Pn 32くらいまで出てテンションがあがった
     - 学内のセミナーの構成練りなど
       
+
+- 22
+
+  370. [Iizumi et al, 2018; J Agric Meteorol](https://www.jstage.jst.go.jp/article/agrmet/74/1/74_D-17-00021/_article/-char/en);     - <FONT color="cyan">20180121済</FONT>
+    - Emerging research topics in agricultural meteorology and assessment of climate change adaptation
+    - 飯泉さんたち
+    - あまり中身はない...のか？
