@@ -331,7 +331,7 @@ num_paper <-
 
 - 10
 
-  37. [Vialet-Chabrand et al. 2017; Plant Physiol](http://www.plantphysiol.org/content/early/2017/02/09/pp.16.01767.short?rss=1); 高
+  37. [Vialet-Chabrand et al. 2017b; Plant Physiol](http://www.plantphysiol.org/content/early/2017/02/09/pp.16.01767.short?rss=1); 高
     - Importance of fluctuations in light on ~~pant~~ plant photosynthetic acclimation
     - ~~タイトルがtypoってる (pantじゃなくてplantだろう、たぶん)~~治った
     - 変動光、はやってる
@@ -3489,5 +3489,123 @@ num_paper <-
 
   370. [Iizumi et al, 2018; J Agric Meteorol](https://www.jstage.jst.go.jp/article/agrmet/74/1/74_D-17-00021/_article/-char/en);     - <FONT color="cyan">20180121済</FONT>
     - Emerging research topics in agricultural meteorology and assessment of climate change adaptation
-    - 飯泉さんたち
+    - 農研機構、飯泉さんたち
     - あまり中身はない...のか？
+    
+- 29
+
+  371. [Matthews et al. 2018; Plant Physiol](http://www.plantphysiol.org/content/early/2018/01/25/pp.17.01809); 中・未刊・未取得
+    - Acclimation to fluctuating light impacts the rapidity and diurnal rhythm of stomatal conductance
+    - Lawson Lab
+    - gsの光応答変動をdevonvolutionで気孔応答の時定数を分離、みたいな
+    - こういう系の実験、ガス交換の遅れ項を考えていないけどいいのか？
+    - Stanで組んでいる模様
+    
+  372. [Vialet-Chabrand et al. 2017a; Plant Physiol](http://www.plantphysiol.org/content/174/2/603); 高
+    - Temporal Dynamics of Stomatal Behavior: Modeling and Implications for Photosynthesis and Water Use
+    - Lawson Lab
+      - 変動光で応用に近いところ
+    - 気孔応答を時間ステップの差分モデリングのようなアプローチで
+    - この時点ではexcelマクロで頑張っているのか
+      - ダウンロードできへんがな... 
+    
+  373. [Buckley 2017; Plant Physiol](http://www.plantphysiol.org/content/174/2/572); 20180128摘
+    - Modeling Stomatal Conductance
+    - 空気・根圏の乾燥に応じた膨圧変化により、葉内のどこかでABAが発生し、気孔を開閉する
+    - 最適化ベースのCowan & Farquharが復権
+    - プロセスモデル・最適化モデルとも、計測可能なパラメータとのリンクがなされ、扱いやすくなってきてはいるので、経験モデルに立ち代わり生理生態界隈を直に席巻するだろう
+  
+- 30
+
+  383. [de Vries et al. 2018; AoB](https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcx212/4823055); 低
+    - Elucidating the interaction between light competition and herbivore feeding patterns using functional–structural plant modelling
+    - Wageningen のEvers group
+    - モデルでElucidateって矛盾しているよね
+    - ggplot2だ
+  
+- 31
+
+  384. [Purcell et al. 2018; AoB](https://academic.oup.com/aob/advance-article/doi/10.1093/aob/mcx208/4823760);  <FONT color="blue">20180131摘</FONT>
+    - Increasing stomatal conductance in response to rising atmospheric CO<sub>2</sub>
+    - Trinity College Dublin @ Ireland
+    - 「high VPDな環境では、CO2濃度上昇により、気孔開度が上がりうる」という光合成最適化モデルによる予想がFACE実験のメタ解析でも確認されるという話
+    
+  385. [Berger et al. 2007; JXB](https://academic.oup.com/jxb/article/58/15-16/4019/454268); <FONT color="green">20180131概</FONT>
+    - Plant physiology meets phytopathology: plant primary metabolism and plant–pathogen interactions
+    - Universitaet Wuerzburg
+    - 病害infection時の空間的なPSII収率への影響の簡単なレビュー
+  
+  386. [Fiorani et al. 2012; Cur Opin Biotechnol](https://www.sciencedirect.com/science/article/pii/S0958166911007531); <FONT color="green">20180131概</FONT>
+    - Imaging plants dynamics in heterogenic environments
+    - Rascher・Schurrなど、ドイツ系
+    
+  387. [Doughty et al. 2011; Oecologia](https://link.springer.com/article/10.1007%2Fs00442-010-1800-4); 20180131概
+    - Predicting tropical plant physiology from leaf and canopy spectroscopy
+    - 熱帯の光合成生産性をPLS (偏最小二乗回帰) で評価
+    - 種間差なんかをどうにかできるかもね、
+
+## 02
+
+- 06
+
+  388. [Kvalheim et al. 2018; J Chemom](http://onlinelibrary.wiley.com/wol1/doi/10.1002/cem.2993/abstract); 20180206概
+    - Determination of optimum number of components in partial least squares regression from distributions of the root-mean-squared error obtained by Monte Carlo resampling
+    - PLSの回帰コンポーネント数をうまく決める
+    - 回帰するためのデータが十分にあれば、ではある
+  
+  389. [Wood et al. 2018; Nat Plant](https://www.nature.com/articles/s41477-017-0092-7); 20180206済
+    - Dynamic thylakoid stacking regulates the balance between linear and cyclic photosynthetic electron transfer
+    - UK Johnsonグループ
+    - グラナの３次元的な空間的な配置により、電子伝達が制御されている、という話
+      - いい論文だなぁ
+      - 追いつけるビジョンがない
+    - PSI-LHCI-LHCIIの超複合体形成は、実質的にLHCIIがPSIIから切り離されてエネルギーのやりとりを支配する、というよりは、そもそもラメラでキープされているフリーなL-trimerを取り込んだ結果、と解釈
+      - 光強度での超複合体形成ではenergy partitioning的には影響があまりない、というのとリンク
+    - dark-adaptedな状態ではstackを増えているので、PSIIとPSIが局在分離されたような形になる、それによりPQが酸化よりの状態でキープされるため、CETの立ち上がりが促進される
+      - どっちを基点とみなすか、で考え方が代わりそう
+      - エントロピー的には、どっちがベースなのか、がこれに応えそう
+        - 動き方がイメージできないのでどっちが負荷っぽいのかわからん...
+    - ２年前のゼミで「近いうちにこれがくるはずです」と予言した通りの展開
+      - 予想できるが、自分で実行はできないのが哀しいところ
+      - 次にすぐ来るのは、stacking調節時の分子間の引力・斥力のエネルギー計算と電子の移動経路のシミュレーションみたいなやつ
+      - かなり先の展開は、Systems Biologyで全体をモデル化する話
+    - 東大から届いて980円也
+      - なんだかなぁ
+    
+- 07
+
+  390. [Fernández-Marín et al. 2018; Trees](https://link.springer.com/article/10.1007/s00468-018-1660-9);
+    - When the sun never sets: daily changes in pigment composition in three subarctic woody plants during the summer solstice
+    - Porcar-Castellグループ
+    - 白夜時への順化の種依存
+      - 多色素をごりっととって、AICモデル選択でPPFD/Seazon/積算時間の各項が効いているかを解析
+      - やっていることは地味だけど、仮説・検証がエレガント
+  
+  391. [Hall et al. 1971; ](https://www.sciencedirect.com/science/article/pii/0006291X71907613?via%3Dihub); 
+    - Photosynthetic control in isolated spinach chloroplasts with endogenous and artificial electron acceptors
+    - Photosythetic control問題
+      - こんな古くからあるのか
+  
+- 15
+
+  392. [Kaiser et al. 2018; Plant Physiol](http://www.plantphysiol.org/content/176/2/977); 低
+    - Fluctuating Light Takes Crop Photosynthesis on a Rollercoaster Ride
+    - Harbinsonグループ
+      - この人は毎度タイトルがちゃらい
+    - 変動光のUpdate Topics 
+    
+- 17
+
+  393. [Neugart & Schreiner 2018; Sci Hort](https://www.sciencedirect.com/science/article/pii/S0304423818300967); <FONT color="green>20180217概</FONT>
+    - UVB and UVA as eustressors in horticultural and agricultural crops
+    - Leibniz
+    - UV全般の羅列系レビュー
+    - 図も雑だし、あまり信頼にたるレビューではないように思える
+
+- 19
+
+  394. [Smith 2012; Psycol Methods](http://psycnet.apa.org/record/2012-20361-001); ; <FONT color="green>高</FONT>
+    - Single-Case Experimental Designs: A Systematic Review of Published Research and Current Standards
+    - 擬似反復型の経時計測実験の話
+      - [単一事例実験計画とは何か（エビデンスレベルとは何か）](https://ameblo.jp/yusaku-ohkubo/entry-12275943213.html)
+      -tau-uなる指標もできているらしい
