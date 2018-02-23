@@ -159,6 +159,7 @@ tags: memo
 - [学会発表の心得](http://takenaka-akio.org/index_01.html)  
 - [伝わるデザイン 研究発表のユニバーサルデザイン](http://tsutawarudesign.web.fc2.com/)  
 - [研究発表Tips（プレゼンおよび資料作成のコツ）](http://maruyama.w3.kanazawa-u.ac.jp/20_presentation_tips.html) 注意点のまとめ
+- [『メッセージとストーリーのない発表はカスだ！』卒業論文・修士論文　プレゼンテーションの心得](http://keigomi29.hatenablog.com/entry/2014/02/11/140251) 
 
 ## 進捗・報告
 
@@ -184,6 +185,7 @@ tags: memo
 - [公益財団法人 新技術開発財団](http://www.sgkz.or.jp/) 広く科学技術に関する独創的な研究や新技術 (会社への助成)  
 - [公益財団法人 前川報恩会](http://www.mayekawa.org/) 球温暖化対策を目的とした、熱エネルギーの有効利用に資する研究 農業分野等との学際的研究も含む）  
 - [一般社団法人ヤンマー資源循環支援機構](https://www.yanmar.com/jp/shigenjunkan/) 資源循環型の持続可能な農林水産業の取組み/農林水産資源の活用
+- [公益財団法人 日本生命財団](http://www.nihonseimei-zaidan.or.jp/kankyo/index.html) 環境問題研究助成
 
 ## 海外渡航助成
 

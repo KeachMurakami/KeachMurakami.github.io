@@ -61,10 +61,15 @@ output:
 
 ## データ提供
 
+
+### Open
 - [CyVerse](http://www.cyverse.org/) あまり活発ではない印象だが...  
 - [ASTER Spectral Library - Version 2.0](http://speclib.jpl.nasa.gov/) 分光分布ライブラリ
 - [Natural Phenomena Simulation Group@University of Waterloo](http://www.npsg.uwaterloo.ca/data/leaves.php) 色素の吸収スペクトル  
 - [MeteoCrop](http://meteocrop.dc.affrc.go.jp/)
+
+### Share
+- [YuMake](https://www.yumake.jp/api/weather-api) 各種気象情報API、日射量予測を36 h 先まで
 
 # 施設園芸系
 

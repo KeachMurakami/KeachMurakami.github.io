@@ -213,6 +213,7 @@ aes(col)に複数のスケールをマッピングする
 - [gganimate](https://github.com/dgrtwo/gganimate) Create easy animations with ggplot2  
 - [tweenr](https://github.com/thomasp85/tweenr) Interpolate your data  
 - [ggalluvial](https://github.com/corybrunson/ggalluvial)Sanky diagramっぽい
+- [patchword](https://github.com/thomasp85/patchwork) gridExtra系列
 
 #### bayesplot
 RStanの結果をぱぱっと
@@ -275,6 +276,9 @@ RStanの結果をぱぱっと
 - [Authentication of Shiny-server Application Using a Simple Method](http://withr.me/authentication-of-shiny-server-application-using-a-simple-method/) Shinyでパスワード保護  
     - 予め指定したPWに適合しない場合は表示を抑える、というシンプルな戦略  
 - [R - ShinyによるWebアプリケーション作成Tips: shinydashboardでの画面遷移制御](http://qiita.com/tomotagwork/items/bc061a363eb36382d2e2)
+- [「ShinyModule」で中規模Shinyアプリをキレイにする](http://ksmzn.hatenablog.com/entry/shiny-module)
+    - 名前空間をうまいことやっているはなし
+- [crosstalk](http://rstudio.github.io/crosstalk/index.html) htmlwidget系で、複数のパネルだったり図と表をリンクさせて可視化する
 
 - [Shiny app for sun paths and light transmission calculation](http://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform/Applications) Shinyアプリを付けている素敵論文  
 
@@ -356,6 +360,10 @@ UIがよさそう
 
 - [Improving R animated GIFs with tweenr](http://lenkiefer.com/2016/05/29/improving-R-animated-gifs-with-tweenr)  
 
+# Web系
+
+- [Creating Websites with R Markdown and blogdown
+](https://slides.yihui.name/2018-blogdown-rstudio-conf-Yihui-Xie.html#1) yihuiのスライド
 
 
 # 個別案件
@@ -369,7 +377,9 @@ UIがよさそう
 - [knitr + マークダウンでクールなLaTeXっぽい表](http://rstudio-pubs-static.s3.amazonaws.com/13917_e79b7454b3ca4819a3255ab2f09d84f2.html)  
 - [Rで解析：レポートに便利な表の作成「xtable」パッケージ](https://www.karada-good.net/analyticsr/r-302/)  
 
+ArduinoとRの連携
 
+- [Connecting the real world to R with an Arduino](https://magesblog.com/post/2015-02-17-reading-arduino-data-directly-into-r/) 通信部分は結局...
 
 # 未分類
 
