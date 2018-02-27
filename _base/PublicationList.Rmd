@@ -127,7 +127,7 @@ journal_articles <-
     ToRecord(
       "A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems",
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
-      "Revising for resubmission",
+      "Resubmitted",
       "Original Article",
       "",
       ""),
@@ -175,7 +175,7 @@ symp_int <-
       new_item("Spectral imaging for evaluation of spatial distributions of leaf photosynthetic light use efficiency"),
       paste(speaker(KM), YI, sep = ", "),
       "2018",
-      "Poster",
+      "Oral",
       "IHC2018.<br>Istanbul, Turkey, 2018/08/12-2018/08/16",
       ""),
     
@@ -208,6 +208,14 @@ symp_int <-
 ```{r symposiums_domestic, message = F, echo = F}
 symp_domestic <-
   c(
+    ToRecord(
+      new_item("深層学習を用いた葉面積推定に関する研究"),
+      paste(speaker(YI_), "水畑 順太", KM_, sep = ", "),
+      "2018",
+      "Oral",
+      "日本農業気象学会 2018 年全国大会<br>@九大伊都, 2018/03/13-2018/03/17",
+      ""),
+    
     ToRecord(
       new_item("分光画像計測による光合成速度分布解析の試み"),
       paste(speaker(KM_), YI_, sep = ", "),
