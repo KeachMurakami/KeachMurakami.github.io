@@ -137,7 +137,7 @@ journal_articles <-
     ToRecord(
       "Time course of the photochemical reflectance index (PRI) during photosynthetic induction: its correlation with the photochemical yield of photosystem II",
       paste(correspond(KM), YI, sep = ", "),
-      "Submitted",
+      "Under review",
       "Original Article",
       "",
       "")
