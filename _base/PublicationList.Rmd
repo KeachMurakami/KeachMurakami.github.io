@@ -24,14 +24,16 @@ add_if <- F
 
   # Record generator
 ToRecord <-
-  function(title, authors, year, in_what, type, url = NULL){
+  function(number = "", title, authors, year, in_what, type, url = NULL){
     if(url == "" | del_link) {
-      c(Title = paste0(title, "<br>&emsp;", authors),
+      c(No = number,
+        Title = paste0(title, "<br>&emsp;", authors),
         Year = year,
         In = in_what,
         Type = type)
     } else {
-      c(Title = paste0("<a href = '", url, "' target='_blank'>", title, "</a><br>&emsp;", authors),
+      c(No = number,
+        Title = paste0("<a href = '", url, "' target='_blank'>", title, "</a><br>&emsp;", authors),
         Year = year,
         In = in_what,
         Type = type)
@@ -42,12 +44,13 @@ ToRecord <-
 ToKable <-
   function(PublicationList, in_what){
   PublicationList %<>%
-      matrix(byrow = T, ncol = 4)
-  colnames(PublicationList) = c('Title', 'Year', 'Category', in_what)
+      matrix(byrow = T, ncol = 5)
+  colnames(PublicationList) = c('No', 'Title', 'Year', 'Category', in_what)
   PublicationList %>%
     data.frame %>%
     # arrange(desc(Year), Category) %>%
-    arrange(Year, Category) %>%
+    arrange(desc(No), desc(Year), Category) %>%
+    rename(` ` = No) %>%
     kable
   }
 
@@ -74,9 +77,10 @@ YI_ <- "荊木 康臣"
 impacts <-
   Vectorize(ifelse)(add_if, paste0("<br><FONT color='grey'>IF: ", c(0.467, 2.216, 3.520, 1.538, NA, 6.169), "</FONT>"), "")
 
-journal_articles <-
+original_articles <-
   c(
     ToRecord(
+      "001",
       "Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper",
       paste(KM, correspond(RM), KF, sep = ", "),
       "2013",
@@ -85,6 +89,7 @@ journal_articles <-
       "https://www.jstage.jst.go.jp/article/agrmet/69/2/69_69.2.2/_article"),
     
      ToRecord(
+       "002",
        "Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus</i> spectrum",
        paste(KM, correspond(RM), KF, sep = ", "),
        "2014",
@@ -93,6 +98,7 @@ journal_articles <-
        "http://onlinelibrary.wiley.com/wol1/doi/10.1111/plb.12055/abstract"),
      
     ToRecord(
+      "003",
       "Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves",
       paste(correspond(KM), RM, KF, sep = ", "),
       "2016",
@@ -101,23 +107,8 @@ journal_articles <-
       "http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12421/abstract"),
     
     ToRecord(
-      "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
-      paste(correspond(RM), "Takuto Yamano", KM, KF, sep = ", "),
-      "2016",
-      "Original Article",
-      paste0("Scientia Horticulturae", impacts[4]),
-      "http://www.sciencedirect.com/science/article/pii/S0304423815303198"),
-      
-    ToRecord(
-      "A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions",
-      paste(correspond(KM), RM, KF, sep = ", "),
-      "2017",
-      "Letter",
-      paste0("Environmental Control in Biology", impacts[5]),
-      "https://www.jstage.jst.go.jp/article/ecb/55/1/55_1/_article"),
-    
-    ToRecord(
-      new_item("Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport"),
+      "004",
+      "Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport",
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
       "2018",
       "Original Article",
@@ -125,6 +116,7 @@ journal_articles <-
       "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract"),
     
     ToRecord(
+      "",
       "A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems",
       paste(correspond(KM), correspond(RM), KF, sep = ", "),
       "Resubmitted",
@@ -135,15 +127,34 @@ journal_articles <-
       # "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
 
     ToRecord(
-      "Time course of the photochemical reflectance index (PRI) during photosynthetic induction: its correlation with the photochemical yield of photosystem II",
+      "005",
+      new_item("Time course of the photochemical reflectance index (PRI) during photosynthetic induction: its relationship with the photochemical yield of photosystem II"),
       paste(correspond(KM), YI, sep = ", "),
-      "Under review",
+      "In press",
       "Original Article",
-      "",
+      "Physiologia Plantarum",
       "")
-      # paste0("Planta", impacts[7]),
-      # "http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract")
+  )
 
+other_articles <-
+  c(
+    ToRecord(
+      "co-authored",
+      "Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury",
+      paste(correspond(RM), "Takuto Yamano", KM, KF, sep = ", "),
+      "2016",
+      "Original Article",
+      paste0("Scientia Horticulturae", impacts[4]),
+      "http://www.sciencedirect.com/science/article/pii/S0304423815303198"),
+      
+    ToRecord(
+      "letter",
+      "A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions",
+      paste(correspond(KM), RM, KF, sep = ", "),
+      "2017",
+      "letter",
+      paste0("Environmental Control in Biology", impacts[5]),
+      "https://www.jstage.jst.go.jp/article/ecb/55/1/55_1/_article")
   )
 ```
 
@@ -151,6 +162,7 @@ journal_articles <-
 books <-
   c(
     ToRecord(
+      "01",
       "Light- and CO<sub>2</sub>-dependent systemic regulation of photosynthesis",
       paste(correspond(RM), KM, sep = ", "),
       "2016",
@@ -159,6 +171,7 @@ books <-
       "http://www.springer.com/in/book/9783319256863"),
     
     ToRecord(
+      "02",
       "Optical and physiological properties of a leaf",
       paste(correspond(KM), RM, sep = ", "),
       "2016",
@@ -172,6 +185,7 @@ books <-
 symp_int <-
   c(  
     ToRecord(
+      "04",
       new_item("Spectral imaging for evaluation of spatial distributions of leaf photosynthetic light use efficiency"),
       paste(speaker(KM), YI, sep = ", "),
       "2018",
@@ -180,6 +194,7 @@ symp_int <-
       ""),
     
     ToRecord(
+      "03",
       "Non-destructive estimation of light energy distribution between photosystems",
       paste(speaker(KM), RM, KF, sep = ", "),
       "2016",
@@ -188,6 +203,7 @@ symp_int <-
       ""),
     
     ToRecord(
+      "02",
       "A difference in net photosynthetic rate between leaves grown with and without far-red light depends on the spectral distribution of measuring light",
       paste(speaker(KM), RM, KF, sep = ", "),
       "2015",
@@ -196,6 +212,7 @@ symp_int <-
       ""),
     
     ToRecord(
+      "01",
       "Effect of supplemental lighting to a lower leaf using LEDs with different wavelengths on leaf photosynthetic characteristics in sweet pepper",
       paste(speaker(KM), RM, KF, sep = ", "),
       "2012",
@@ -209,7 +226,8 @@ symp_int <-
 symp_domestic <-
   c(
     ToRecord(
-      new_item("深層学習を用いた葉面積推定に関する研究"),
+      "014",
+      "深層学習を用いた葉面積推定に関する研究",
       paste(speaker(YI_), "水畑 順太", KM_, sep = ", "),
       "2018",
       "Oral",
@@ -217,7 +235,8 @@ symp_domestic <-
       ""),
     
     ToRecord(
-      new_item("分光画像計測による光合成速度分布解析の試み"),
+      "015",
+      "分光画像計測による光合成速度分布解析の試み",
       paste(speaker(KM_), YI_, sep = ", "),
       "2018",
       "Oral",
@@ -225,6 +244,7 @@ symp_domestic <-
       ""),
 
     ToRecord(
+      "013",
       "分光反射画像計測による葉位別光合成速度推定にむけて: PRIの光応答の評価",
       paste(speaker(KM_), YI_, sep = ", "),
       "2017",
@@ -233,6 +253,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "012",
       "葉面反射画像計測による光合成光利用効率の光環境変化に対する応答の評価の試み",
       paste(speaker(KM_), YI_, sep = ", "),
       "2017",
@@ -241,6 +262,7 @@ symp_domestic <-
       ""),
 
     ToRecord(
+      "011",
       "光化学系I・II間での励起エネルギー分配比の非破壊定量法の開発",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2017",
@@ -249,6 +271,7 @@ symp_domestic <-
       ""),
 
     ToRecord(
+      "010",
       "夜間に照射する LED 光の分光分布および PPFD がトマト苗の成育および可視障害に及ぼす影響",
       paste(speaker(RM_), "山埜 拓人", KM_, KF_, sep = ", "),
       "2016",
@@ -257,6 +280,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "009",
       "サンプルサイズ（<i>n</i>）の検定力分析による決定 ―グロースチャンバでの植物栽培試験での例—",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2016",
@@ -265,6 +289,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "008",
       "栽培中の遠赤色光添加は栽培後の葉の光合成速度を小さくするのか？",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2015",
@@ -273,6 +298,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "007",
       "異なる分光分布の光照射下で成育した葉の光合成速度比較結果は測定光分光分布に影響される",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2015",
@@ -281,6 +307,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "006",
       "異なる狭波長帯 LED 光の混合照射下における個葉の総光合成速度の推定",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2014",
@@ -289,6 +316,7 @@ symp_domestic <-
       ""),
   
     ToRecord(
+      "005",
       "下位葉補光・終夜補光の光質が植物の光合成特性と成育に及ぼす影響",
       paste(speaker(RM_), "山埜 拓人", KM_, KF_, sep = ", "),
       "2014",
@@ -297,6 +325,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "004",
       "種々のピーク波長の LED を用いた混合光照射下におけるコスレタス葉の光合成量子収率",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2014",
@@ -305,6 +334,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "003",
       "異なるピーク波長の LED を用いた混合光照射下における個葉の光合成量子収率",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2013",
@@ -313,6 +343,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "002",
       "インゲンマメ下位葉への単色 LED 光照射が上位葉の光合成特性に及ぼす影響",
       paste(speaker(KM_), RM_, KF_, sep = ", "),
       "2012",
@@ -321,6 +352,7 @@ symp_domestic <-
       ""),
     
     ToRecord(
+      "001",
       "トマト養液栽培における葉面積指数推定モデルの構築: 気孔コンダクタンスモデルの検討",
       paste(speaker(RM_), KM_, KF_, sep = ", "),
       "2012",
@@ -338,8 +370,6 @@ symp_domestic <-
 
 <!-- ##### 査読付き論文 -->
 
-<!-- - `r length(journal_articles)/4`報 -->
-<!--     - 筆頭での原著論文: 3報 -->
 
 <!-- ##### 英文書籍 -->
 
@@ -366,8 +396,19 @@ symp_domestic <-
 
 ### Journal Articles
 
+#### Original and first-author
+
 ```{r, message = F, echo = F, warning = F}
-journal_articles %>%
+original_articles %>%
+  ToKable(in_what = "Journal")
+```
+
+<br>
+
+#### Others
+
+```{r, message = F, echo = F, warning = F}
+other_articles %>%
   ToKable(in_what = "Journal")
 ```
 
