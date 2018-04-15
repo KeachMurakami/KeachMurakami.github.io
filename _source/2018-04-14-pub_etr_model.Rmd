@@ -1,0 +1,9 @@
+---
+title: "査読結果 (Regular_005, 3誌目へ再投稿)"
+output: html_document
+layout: post
+tags: lab log
+---
+
+[苦戦している論文](https://keachmurakami.github.io/2018/02/27/pub_etr_model.html)の査読結果が返ってきた。
+Minor revisionでよさそう。
