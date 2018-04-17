@@ -14,7 +14,7 @@ layout: default
   crossorigin=""></script>
 </head>
 
-<FONT color="grey">Last update: 2018-04-09 21:15:18  </FONT><br>
+<FONT color="grey">Last update: 2018-04-15 14:12:49  </FONT><br>
 
 
 
@@ -66,7 +66,7 @@ layout: default
 
 |    |Title                                                                                                                                                                                                                                                                                                                                                                                            |Year        |Category         |Journal                             |
 |:---|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:----------------|:-----------------------------------|
-|005 |<FONT color='red'><sup>New </sup></FONT>Time course of the photochemical reflectance index (PRI) during photosynthetic induction: its relationship with the photochemical yield of photosystem II<br>&emsp;<FONT color='green'>Keach Murakami</FONT><sup>+</sup>, Yasuomi Ibaraki                                                                                                                |In press    |Original Article |Physiologia Plantarum               |
+|005 |<a href = 'http://dx.doi.org/10.1111/ppl.12745' target='_blank'><FONT color='red'><sup>New </sup></FONT>Time course of the photochemical reflectance index (PRI) during photosynthetic induction: its relationship with the photochemical yield of photosystem II</a><br>&emsp;<FONT color='green'>Keach Murakami</FONT><sup>+</sup>, Yasuomi Ibaraki                                            |In press    |Original Article |Physiologia Plantarum               |
 |004 |<a href = 'http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12986/abstract' target='_blank'>Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport</a><br>&emsp;<FONT color='green'>Keach Murakami</FONT><sup>+</sup>, Ryo Matsuda<sup>+</sup>, Kazuhiro Fujiwara                                            |2018        |Original Article |Plant, Cell & Environment           |
 |003 |<a href = 'http://onlinelibrary.wiley.com/wol1/doi/10.1111/ppl.12421/abstract' target='_blank'>Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves</a><br>&emsp;<FONT color='green'>Keach Murakami</FONT><sup>+</sup>, Ryo Matsuda, Kazuhiro Fujiwara                                  |2016        |Original Article |Physiologia Plantarum               |
 |002 |<a href = 'http://onlinelibrary.wiley.com/wol1/doi/10.1111/plb.12055/abstract' target='_blank'>Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of <i>Phaseolus vulgaris</i>: effects of photosynthetic photon flux density (PPFD) <i>versus</i> spectrum</a><br>&emsp;<FONT color='green'>Keach Murakami</FONT>, Ryo Matsuda<sup>+</sup>, Kazuhiro Fujiwara |2014        |Original Article |Plant Biology                       |
