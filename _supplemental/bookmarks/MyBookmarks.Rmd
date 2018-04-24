@@ -63,6 +63,7 @@ tags: memo
 ## 国際グループ
 
 - [IPCC](http://www.ipcc.ch/index.htm/)  
+- [GCP](http://www.globalcarbonproject.org/carbonbudget/17/presentation.htm) CO2 emission 系
 
 
 
@@ -186,6 +187,7 @@ tags: memo
 - [公益財団法人 前川報恩会](http://www.mayekawa.org/) 球温暖化対策を目的とした、熱エネルギーの有効利用に資する研究 農業分野等との学際的研究も含む）  
 - [一般社団法人ヤンマー資源循環支援機構](https://www.yanmar.com/jp/shigenjunkan/) 資源循環型の持続可能な農林水産業の取組み/農林水産資源の活用
 - [公益財団法人 日本生命財団](http://www.nihonseimei-zaidan.or.jp/kankyo/index.html) 環境問題研究助成
+- [公益財団法人 住友財団](http://www.sumitomo.or.jp/) 若手の基礎研究、採択率10%弱
 
 ## 海外渡航助成
 

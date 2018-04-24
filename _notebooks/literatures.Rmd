@@ -19,7 +19,7 @@ output:
     - <FONT color="green">文字</FONT>: Review article
     - <FONT color="blue">文字</FONT>: Meta analysis
     - <FONT color="grey">文字</FONT>: Technical reports
-    - <FONT color="cyan">文字</FONT>: Other article without data
+    - <FONT color="cyan">文字</FONT>: Other categories (without data)
 
 アクセスできないリスト
 
@@ -1495,9 +1495,11 @@ num_paper <-
       - Proceeding扱いか、論文扱いか
       - “sign in to view”ってfigの欄に書いてあるから、わざわざアカウント作ったら、“is outside your subscription”ときたもんだ
   
-  187. [Sonobe & Wang 2015; Funct Plant Biol](); 低・未取得
+  187. [Sonobe & Wang 2015; Funct Plant Biol](); 20180405済
     - Assessing the xanthophyll cycle in natural beech leaves with hyperspectral reflectance
     - RGリクエスト送付
+    - 結局、文献複写したが、なんだか微妙
+    - なんで阻害処理をプロットしないかな
   
 - 23
 
@@ -3189,7 +3191,7 @@ num_paper <-
       - 月曜になってようやく通知が出た
       - 日曜に色々と確認した時間が無駄に...
       
-  342. [Slattery et al. 2018; Plant Physiol](http://www.plantphysiol.org/content/early/2017/11/30/pp.17.01234?rss=1); <FONT color="green">低・未刊・未取得</Font>
+  342. [Slattery et al. 2018; Plant Physiol](http://www.plantphysiol.org/content/early/2017/11/30/pp.17.01234?rss=1); <FONT color="green">低</Font>
     - The impacts of fluctuating light on crop performance
     - 変動光です
     
@@ -3204,7 +3206,7 @@ num_paper <-
 
 - 07
 
-  343. [Towsend et al. 2018; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13107/abstract); <FONT color = "green">低・未刊・未取得</FONT>
+  343. [Townsend et al. 2018; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.13107/abstract); <FONT color = "green">低</FONT>
     - Dynamic interplay between photodamage and photoprotection in photosystem II
     - Ruban グループ
   
@@ -3581,10 +3583,11 @@ num_paper <-
       - 多色素をごりっととって、AICモデル選択でPPFD/Seazon/積算時間の各項が効いているかを解析
       - やっていることは地味だけど、仮説・検証がエレガント
   
-  391. [Hall et al. 1971; ](https://www.sciencedirect.com/science/article/pii/0006291X71907613?via%3Dihub); 
+  391. [Hall et al. 1971; *Biochemical and Biophysical Research Communications* ](https://www.sciencedirect.com/science/article/pii/0006291X71907613?via%3Dihub); 摘
     - Photosynthetic control in isolated spinach chloroplasts with endogenous and artificial electron acceptors
     - Photosythetic control問題
       - こんな古くからあるのか
+    - 言葉がわからん State 4とか平然と出てくるがなんや
   
 - 15
 
@@ -3604,7 +3607,7 @@ num_paper <-
 
 - 19
 
-  394. [Smith 2012; Psycol Methods](http://psycnet.apa.org/record/2012-20361-001); ; <FONT color="green>高</FONT>
+  394. [Smith 2012; Psychol Methods](http://psycnet.apa.org/record/2012-20361-001); <FONT color="green>高</FONT>
     - Single-Case Experimental Designs: A Systematic Review of Published Research and Current Standards
     - 擬似反復型の経時計測実験の話
       - [単一事例実験計画とは何か（エビデンスレベルとは何か）](https://ameblo.jp/yusaku-ohkubo/entry-12275943213.html)
@@ -3642,3 +3645,604 @@ num_paper <-
     - 土日は２次試験だから入構できない
       - 張り紙で済まして通知なしとか、ほんとうにここは21世紀の日本なのか？
       - 査読対応を再チェックとイメージング用パッケージの仕様練りでもしよう
+
+- 25
+
+  395. [Devireddy et al. 2018; Sci Signal](http://stke.sciencemag.org/content/11/518/eaam9514/tab-pdf); 20180226済
+    - Coordinating the overall stomatal response of plants: Rapid leaf-to-leaf communication during light stress
+    - 気孔開度の調節のsystemic signaling
+    - 丁寧かつインテンシブに各種パラメータをとるタイプの実験
+      - ABA、RH、HL処理時のABA、H2O2、気孔開度などを調査
+    - 結局ROSシグナリング系なのか (Fig. 7)
+    - 最近のHigh impactな論文は、イントロで結論書くよな
+    - DPI: ROS/Ca<sup>2+</sup> wave inhibitor
+    - LaCl<sub>3</sub>: calcium wave inhibitor
+    - High RH (80--85%) でlocal/systemic調節が止まるのはやや違和感があるが、程度問題か
+    - 気孔が閉じる方へのsystemic signalingで、remote葉の光耐性があがる
+      - 水利用側のストレス耐性、って意味ね
+      - 60 min の処理だから、水利用の方が効いてくる
+      - 照射直後だと、どっちかというとsystemicを受けた葉の方がダメージを強く受けそう (CO2供給不足でROS発生しそう)
+  
+- 27
+
+  396. [山田 2018; ヒューマンインターフェース学会誌](https://www.his.gr.jp/journal/archives.cgi?c=download&pk=86); <FONT color="green>20180227済</FONT>
+    - 再現可能性問題をハックする ---是非に及ばぬ研究コミュニティからの包囲網---
+    - 著者がプレプリント版 (かな？) を配布しているが、この特集号自体がOAでないってのは失笑ものでは？
+    - データスヌーピング、って初めて聴いた
+      - バリデートなしのモデルってことでいい感じ？
+      - 名前つけるほどのことなのか？
+    - Results-build publishing をプッシュ
+      - 査読抜けのための不正、という構図だから計画案の時点で審査すべき、という話
+      - 探索的研究はできないということになってしまう
+        - もちろんGrantのタイプを分ければいいが、分けたらそっちに人気が集まることが予想される
+      - 倫理の制約でスタート段階が長そうな社会・心理系、どうしても大規模になり競争相手が少ない (or 仲間) な天文・物理系なんかではいけそう
+      - 競争的かつやってみてからの瞬発力を問われるバイオ系ではいまのところ現実的ではない
+    - 追試問題
+      - カメラはぼくも賛成、全研究室にgoogle glass的なのを配備してくれ、という感じ
+      - 卒論を追試はいいアイデア
+        - ただし有名で実施しやすい研究にのみ票が集まることが自明
+        
+  397. [Trafimow et al. *Preprint*; PeerJ](https://peerj.com/preprints/3411/); <FONT color="green>摘</FONT>
+    - Manipulating the alpha level cannot cure significance testing – comments on "Redefine statistical significance"
+    - ガチンコバトルか
+    - 血判状出せばいいというものでもなかろう
+    - そもそもp-valueベースの“ありなし”を完全にやめろという主張
+    - “When evaluating the strength of the evidence, we should consider, for example, auxiliary assumptions, the strength of the experimental design, or implications for applications.”
+      - これは大切だけど、個人的には逃げにしか感じない
+      - だから統計屋と組んでやらんとね、っていつもの話だけど、属人化しない手法をこそ提案すべきだろ
+      
+  398. [山田 & 上田 蛋白質 核酸 酵素](http://www.mbsj.jp/admins/ethics_and_edu/PNE/5_article.pdf);  <FONT color="green>20180227済</FONT>
+    - 大規模データの解析における問題点 DNAマイクロアレイによる遺伝子発現量の測定を例として
+    - “Knockoff変数によるFDR”という解説を某ページで見て ([原著](https://projecteuclid.org/euclid.aos/1438606853))、改めてFDRを確認
+    - 1群t検定、2群t検定、多重比較 (Bonferroni、FDR) まで
+    - Biological replicate的なところは明言を避けるスタイル
+    
+  - 雑記
+    - Regular_006を再投稿
+      - 某所でreject12回というワードを見たので、勇気づけられた
+      - が、そろそろ終わらせたい
+    
+- 28
+
+  399. [Sapala et al. 2018; eLife](https://elifesciences.org/articles/32794); 無
+    - Why plants make puzzle cells, and how their shape emerges
+    - Max Planc, Richard Smithグループ
+    - 物理モデル (応力とか剪断とかそういう変形っぽい) で表皮細胞の複雑な形状をモデル化
+    - エレガントだなぁ
+
+## 03
+
+- 06
+
+  400. [Delker et al. 2017; Trend Plant Sci](http://www.cell.com/trends/plant-science/fulltext/S1360-1385(17)30021-3); <FONT color="green>低
+</FONT>
+    - Thermosensing Enlightened
+    - Phy B がR/FR x temp センサーっていう話
+    
+- 08
+
+  401. [Ptushenko et al. 2018; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-018-0494-z); 中
+    - Three phases of energy-dependent induction of P+700 and Chl a fluorescence in <i>Tradescantia fluminensis</i> leaves
+    - Tikhonov group
+    - ツユクサのinduction時の電子伝達をDual-PAMで網羅的に
+    - 定常状態で外部からのCyt Q-cycleへの電子流入を予想
+      - ぼくにとって都合の良い結果ではある
+      - 具体的になにか、ってよくわからんのよね
+
+  402. [Głowacka et al. 2018; Nat Commun](https://www.nature.com/articles/s41467-018-03231-x); 20180308済
+    - Photosystem II Subunit S overexpression increases the efficiency of water use in a field-grown crop
+    - Don Ort, Kris Niyogi, Stephen Longというメンツ
+    - PsbS過剰発現でフィールドレベルで水利用が向上するという話
+      - 気孔閉鎖に由来しており、成育自体も落ちているのでいまいち
+      - ラボレベルだと効かないとかありそう
+      
+- 09
+
+  403. [Kohzuma & Hikosaka BBRC; 2018](https://www.sciencedirect.com/science/article/pii/S0006291X18304388); 20180309済
+    - Physiological validation of photochemical reflectance index (PRI) as a photosynthetic parameter using <i>Arabidopsis thaliana</i> mutants
+    - Kramer labにいた人、いまは東北の助教なのか
+    - npq1とnpq4を使って、数レベルのpHでbufferを浸潤したときのPRI
+    - lumen pH モニタとして使いたいらしい
+    
+- 13
+
+  404. [Muraoka et al. 2000; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1046/j.1365-3040.2000.00547.x/abstract); 中
+    - Contributions of diffusional limitation, photoinhibition and photorespiration to midday depression of photosynthesis in Arisaema heterophyllum in natural high light
+    - 生態屋さんオールスター感がある
+    - IDEというストレス指標 (九大T氏発表から)
+      - (1 - A / A<sub>350</sub>) * 100という値
+      - AはCa350での実光合成速度で、拡散由来のリミテーションが強くなるとここが低下していく
+    
+  - 雑記
+    - 農業気象初日
+  
+- 14
+
+  405. [Schwarz et al. 2017; Photosynth Res](https://link.springer.com/article/10.1007%2Fs11120-017-0447-y); 低
+    - Photosystem I-LHCII megacomplexes respond to high light and aging in plants
+    - Michigan State Univ, Schwarz
+    - PSI-LHCIIの強光・弱光・老化にあたっての動き
+    
+  406. [Hasegawa et al. 2013; FPB](http://www.publish.csiro.au/FP/fp12357); 
+    - 
+  
+  407. [Walker et al. ](https://www.annualreviews.org/doi/pdf/10.1146/annurev-arplant-043015-111709); <FONT color="green">低</FONT>
+    - The Costs of Photorespiration to Food Production Now and in the Future
+    - 
+    
+- 16
+
+  408. [Soleh et al. 2016; PCE](http://onlinelibrary.wiley.com/wol1/doi/10.1111/pce.12674/abstract); 20180319済
+    - Factors underlying genotypic differences in the induction of photosynthesis in soybean [Glycine max (L.) Merr.]
+    - K大T氏のスライドから
+    - ダイズ７品種のinductionをざっと
+      - あまり強みがわからなかった
+      - オリジナリティは？
+      - 流路分の遅れを補正していないので、induction時定数は定性比較にしかならなさそう
+      - うーん...
+    - “Further, photosynthesis during sunflecks has been found to account for 40% of the total carbon gain in dense plant canopies (Jackson et al. 1991)”
+    
+    
+  409. [Daudet et al. 2002; J Theor Biol](https://www.sciencedirect.com/science/article/pii/S0022519301924737); 20180319済
+    - Generalized Münch Coupling between Sugar and Water Fluxes for Modelling Carbon Allocation as Affected by Water Status
+    - INRAのグループ
+    - N研S氏スライドから
+    - 転流フローのモデル化、これでよさそう
+    - xylem-phloem couplingを組み込まないと結論が代わりうる
+      - 当然
+    - Functional-structural modelingはここらへんから来ているのか
+      - 定義がよくわからんのだよな
+      - 物理的な距離を組み込んだ、っていうニュアンスでいいのだろうか？
+      - 連続性の仮定で解くと抵抗ベースになってトポロジカルな話でしかなくなる
+    
+  410. [Sakurai et al. 2015; PCP](https://academic.oup.com/pcp/article/56/4/631/2756501);
+    - In Silico Simulation Modeling Reveals the Importance of the Casparian Strip for Efficient Silicon Uptake in Rice Roots
+    - N研S氏スライド
+
+  411. [Sakurai et al. 2017; Front Plant Sci](https://www.frontiersin.org/articles/10.3389/fpls.2017.01187/full); 
+    - A Model of Silicon Dynamics in Rice: An Analysis of the Investment Efficiency of Si Transporters
+    - N研S氏スライド
+
+- 19
+
+  412. [Innes et al. 2018; Sci Hort](https://www.sciencedirect.com/science/article/pii/S0304423818301511); 20180319摘
+    - UV radiation as a tool to control growth, morphology and transpiration of poinsettia (Euphorbia pulcherrima) in variable aerial environments
+    - Norway Torreグループ
+    - UVとRHの交互作用
+    - UVはここを見とけばよさそう？
+    
+  413. [Yang et al. 2018; EEB](https://www.sciencedirect.com/science/article/pii/S0098847218300583); 20180319摘
+    - Effect of interactions between light intensity and red-to-far-red ratio on the photosynthesis of soybean leaves under shade condition
+    - 四川農業大学
+    - PPFDとR/FRの交互作用
+      - R/FRのみ変化させる区がないのはキモチ悪い
+    - iTRAQという手法でCtrl vs LowLight・Shade (LowLight・LowR/FR) の比較をプロテオミクスなど
+    
+  414. [Bantis et al. 2018; Sci Hort](https://www.sciencedirect.com/science/article/pii/S0304423818301420); <FONT color="green">20180319摘</FONT>
+    - Current status and recent achievements in the field of horticulture with the use of light-emitting diodes (LEDs)
+    - Greece Thrace Univ
+    - “More research would add valuable knowledge in order to validate the appropriate and ideal wavelength combinations for important plant species and phytochemicals, as well as to deeply understand the impact of less studied wavelengths (UV, Y, G) on plants.”
+      - うーん...
+      - レビューで見ているところも、ぶっかけ試験屋さんっぽい
+      
+  415. [Long et al. 2015; Cell](https://www.sciencedirect.com/science/article/pii/S0092867415003062); <FONT color="green">引</FONT>
+    - Meeting the Global Food Demand of the Future by Engineering Crop Photosynthesis and Yield Potential
+    - IllinoisのStephen Long
+    - 領域レビュー系
+    
+  416. [Jackson et al. 1991; Plant Physiol](http://www.plantphysiol.org/content/95/2/498.short); 
+    - Nonsteady-State Photosynthesis following an Increase in Photon Flux Density (PFD)
+    - Keith Mottグループ
+    - 農業寄り変動光の走りかな？
+    - `Soleh et al. 2016`から
+      - “Further, photosynthesis during sunflecks has been found to account for 40% of the total carbon gain in dense plant canopies (Jackson et al. 1991)”
+      
+  417. [Hikosaka 2003; Am Natural](https://www.journals.uchicago.edu/doi/pdfplus/10.1086/376576); 20180405済
+    - A Model of Dynamics of Leaves and Nitrogen in a Plant Canopy: An Integration of Canopy Photosynthesis, Leaf Life Span, and Nitrogen Use Efficiency
+    - 複写依頼
+    - Rで実装半分まで
+    
+  418. [Sinoquet et al. 2001; PCe](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1365-3040.2001.00694.x); 中
+    -RATP: a model for simulating the spatial distribution of radiation absorption, transpiration and photosynthesis within canopies: application to an isolated tree crown
+      - RATPはradiation absorption, transpiration and photosynthesisの略
+    - INRAのグループ
+    - `Daudet et al. 2002`から
+
+  419. [Vos et al. 2010](https://academic.oup.com/jxb/article/61/8/2101/485723); <FONT color="green">20180319済</FONT>
+    - Functional–structural plant modelling: a new versatile tool in crop science
+    - WageningenグループのFSPモデル普及開始のレビュー
+      - あそこだと、どうせモデルを公開することはないんだろうなー感
+    - 食わず嫌い気味だったけど、概念としては優れている
+      - いまの集権された感じになっても仕方ない
+      - 実用的なアプリケーションとしては弱いか？
+        - FPS自体が重なり構造などの下では均一化の運命
+        - in situでの動的な生成・解析がどうしても弱くなりそう (解析環境の要求が高い)
+
+- 20
+
+  - 雑記
+    - 卒業/修了式
+
+- 22
+
+  420. [Yang et al. 2018; Environ Exp Bot](https://www.sciencedirect.com/science/article/pii/S0098847218303952); 20180322摘
+    - Response of photosynthetic capacity of tomato leaves to different LED light wavelength
+    - Key Laboratory of Protected Horticulture of Education Ministry and Liaoning Province
+    - 栽培光LED色振ってCEFとか見ている
+      - とりあえず網羅的に、って感じ
+      - fig. 8がコアだけど、分配0.5でやったらずれるし、定性的な結論としても怪しいレベル
+    - DualPAM v 1.19にYii・YiのLight curveをフィットする機能があるらしい
+      - ETRに変換してから飽和関数フィットぽい
+      - 非直角にすればいいのに？
+    
+  421. [Bancal & Soltani 2002; JXB](https://academic.oup.com/jxb/article/53/376/1919/599180);
+    - Source–sink partitioning. Do we need Münch?
+    - INRA
+    
+  422. [Townsend et al. 2018; BBA](https://www.sciencedirect.com/science/article/pii/S0005272818300380); 低
+    - The causes of altered chlorophyll fluorescence quenching induction in the Arabidopsis mutant lacking all minor antenna complexes
+    - Ruban グループ
+    - minor antenna全潰しミュータントで、qEクエンチングの解析
+    - “This study indicates that minor antenna is not necessary for NPQ”
+    
+  423. [Bressan et al. 2018; Environ Exp Bot](https://www.sciencedirect.com/science/article/pii/S0098847218303344); 低
+    - Light harvesting complex I is essential for Photosystem II photoprotection under variable light conditions in Arabidopsis thaliana
+    - Bassi, Dall'Osto
+    - イタリアも強いな
+    - 「XXXは必要ない」よりは「YYYが必要だ」の方がダイレクトな証明だ
+  
+  - 雑記
+    - 研究遂行経費を消化していく
+      - ANU滞在
+        - HND-SYD往復の航空券 (20180322済)
+        - SYD->ANUバス
+        - Airbnbで宿泊リクエスト (20180323済)
+          - ２軒目でOKが出た
+      - IHC\@トルコ
+        - SYD-IST往復の航空券 (20180329済)
+      - PCをアップデート
+        - Macbook Pro or ThinkPad X1
+        - 結局、Lenovo (20180331済)
+        - MBPのタッチバーは本当にアホの所業だ
+        
+- 23
+
+  424. [Bechtold et al. 2018; JXB ](https://academic.oup.com/jxb/advance-article-abstract/doi/10.1093/jxb/ery106/4942353?redirectedFrom=fulltext); 未刊・未取得・低
+    - To defend or to grow: Lessons from Arabidopsis C24
+    - Essex Univ, Mullineauxグループ (でいいのかな)
+    - arabidopsisのC24という系統はabioticにもbioticにもいい感じで反応するらしいのでざっと概観する、という話らしい
+  
+
+- 25
+
+  - 雑記
+    - PRI論文がAccept pending revisionで返ってきた
+      - Reviewer 2が渋いが、Editorが好意的なのでまっとうに直せば通る
+      - 3人とも明確に指摘するタイプの査読だから、対応もしやすい
+      - さくっと終わらせよう
+      - ETRモデル論文より先に終わることがほぼ確定したかな...
+
+  425. [Peguero-Pina et al. 2013; JXB](https://academic.oup.com/jxb/article/64/6/1649/586471); 20180326済
+    - Three pools of zeaxanthin in Quercus coccifera leaves during light transitions with different roles in rapidly reversible photoprotective energy dissipation and photoprotection
+    - Spainのグループ
+    - 査読対応でこれ読めといわれているので
+    - オリジナリティはあまり感じないのだけども
+      - うーん、うん？
+      - short-termでのZ/AVZとNPQのリンクを見ている、というだけ
+      - Yiiみてねーじゃねーか、査読者にいいたい
+    
+- 26
+
+  426. [Möttus et al. 2017; Plant Methods](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-017-0184-4); 20180326済み
+    - In situ measurement of Scots pine needle PRI
+    - Finland Turku Univの物理系の人らしい
+    - 査読対応で読めといわれた
+    - PRIをexpでフィットして延長した値との差分、という系
+    - exponentialって書くなら回帰しろよーというリクエスト
+    - constitutive / facultativeを分離するためのサンプルサイズ計算なんかもしている丁寧な論文
+    - 引用しよう
+    
+- 28
+
+  427. [Hubbart et al. 2018; Commun Biol](https://www.nature.com/articles/s42003-018-0026-6); 
+    - Enhanced thylakoid photoprotection can increase yield and canopy radiation use efficiency in rice
+    - Murchie Lab
+    - OXPsbS流行ってるな
+    - ついにCommunications Biologyがきた
+      - 権威ある出版社もPredatoryとやっていることはあまり変わらないのがなぁ
+      - 5年くらい後がどうなるか、だ
+    
+  428. [Matello et al. 2018; Sci Hort](https://www.sciencedirect.com/science/article/pii/S0304423818301456);
+    - Influence of blue/red vs. white LED light treatments on biomass, shoot morphology, and quality parameters of hydroponically grown kale
+    - University of Tennessee, Kopsell lab
+    - これはレッドオーシャンだ
+    - Graphical abstractが脳死している
+  
+  429. [Trebst 1980; Book chapter](https://www.sciencedirect.com/science/article/pii/S0076687980690673); 
+    - Inhibitors in electron flow: Tools for the functional and structural localization of carriers and energy conservation sites
+    - 光合成系の阻害剤をざっとまとめてあるレビュー
+    - 沈先生の日本語解説でinhibitor節でまるっと引用しているので
+    
+- 29
+
+  - 雑記
+    - 査読対応が概ね
+      - 土曜で終わらせるキモチ
+      - 21世紀の相関係数と名高いMICを使ってみた
+      - “I have only a few minor comments...”からの31コメント連打
+        - a few とは...
+    - 終わったら科研費の報告書だ
+    - あと、査読コメントワードクラウドというネタをRで書きたい
+      - 査読コメントの頻度分析
+      - 出現頻度とAccept率の相関、的なやつ
+    
+- 31
+
+  430. [](https://pubs.acs.org/doi/abs/10.1021/bi00176a043)
+  
+  - 雑記
+    - 経費使い切り
+      - 国外移動系が多かったこともあり、130万以上の経費計上
+      - 経費っても非課税ってだけで自腹だからなぁ...
+      
+## 04
+
+- 01
+
+  - 雑記
+    - 論文書いてると吐き気がする
+      - ディスプレイ疲れなのか、花粉なのか、メンタルなのか
+      
+- 02
+
+  431. [Earl & Ennahli 2004; Photosynth Res](https://link.springer.com/article/10.1007/s11120-004-1454-3); 20180402摘
+    - Estimating photosynthetic electron transport via chlorophyll fluorometry without Photosystem II light saturation
+    - 非飽和系のETR測定
+    - LIFTの亜種
+    - やれそう？信号抽出がネックだよなぁ
+    
+  432. [Kramer et al. 2003; Trend Plant Sci](https://www.sciencedirect.com/science/article/pii/S1360138502000109); <FONT color="green">20180402済</FONT>
+    - Balancing the central roles of the thylakoid proton gradient
+    - pmfの各要素の寄与の分離の話、すごくわかりやすい
+  
+  433. [Noctor et al. 1991; BBA](https://www.sciencedirect.com/science/article/pii/S0005272805801434); 20180402済
+    - The relationship between zeaxanthin, energy-dependent quenching of chlorophyll fluorescence, and trans-thylakoid pH gradient in isolated chloroplasts
+    - 9-AAで$\Delta$pHを評価している話
+
+  434. [Wheeler et al. 2008; Adv Space Sci](https://www.sciencedirect.com/science/article/pii/S0273117707007065); 20180402概
+    - Crop productivities and radiation use efficiencies for bioregenerative life support
+    - いまさらダウンロード
+    
+- 04
+
+  435. [Markwell et al. 1995; Photosynth Res](https://link.springer.com/article/10.1007/BF00032301); 20180404済
+    - Calibration of the Minolta SPAD-502 leaf chlorophyll meter
+    - SPADをキャリブレートするテクニカルレター
+    
+- 05
+
+  - 雑記
+    - PRI論文を返送
+      - Acceptになるなら今週中な気がする
+      
+- 06
+
+  - 雑記
+    - Editorial Officeのチェックで論文のスタイルと文法について修正
+      - Editorに渡る前にこんなしっかり読んでくれるのか
+      - これだかこの雑誌が好きなんだ
+
+  436. [Anten 1995; Oecologia](https://link.springer.com/article/10.1007/BF00329431); 
+    - Patterns of light and nitrogen distribution in relation to whole canopy carbon gain in C3 and C4 mono- and dicotyledonous species
+    - `Hikosaka 2003`から
+    
+- 08
+
+  437. [Smith et al. 2017; JXB](https://academic.oup.com/jxb/article-lookup/doi/10.1093/jxb/erx098); <FONT color="green">20180409済</FONT>
+    - Don't ignore the green light: exploring diverse roles in plant processes
+    - Murchieグループ
+    - ようやくダウンロード
+      - Oxford系は1年後にOpenAccessになるのか？
+    - Green LEDの強度が弱い話 (‘Green gap’)
+      - ‘This is likely because of the problem known as the ‘green gap’ (Krames et al., 2007; Pleasants, 2013). Up until recently, LEDs in the ‘green’ por- tion of the spectrum able to produce irradiance with the required ef ciency for horticultural lighting were limited to the 520–540 nm waveband and the ef ciency of higher wave- length green light, speci cally up to 570 nm, was inadequate.’
+    - Car/Chl比は0.1--0.5のレンジらしい
+      - ‘In comparison with chlorophyll they are less abundant, with ratios of carotenoid to chlorophyll varying between 0.1 to 0.5 depending on species and conditions (Murchie and Horton, 1998; Murchie et al., 2002).’
+    - 深度系のGreenは定量的にも良いと思うけど、シグナル系はどうも信じられない
+      - 光源と葉がべたづけでPPFDいわれてもなぁ
+    - FRとGの冗長経路をなぜ作る必要があるのか？がキーとなる気はする
+      - 時間スケール違いで２つ作る？
+
+  438. [Oakenfull & Davis 2017; PCE](https://onlinelibrary.wiley.com/doi/full/10.1111/pce.13033); <FONT color="green">無</FONT>
+    - Shining a light on the Arabidopsis circadian clock
+    - 一応
+
+  - 雑記
+    - `Hikosaka 2003 Am Nat`の移植にうまくいかなかった理由がようやくわかった
+      - Eqn (6) が a<sub>r</sub> x *n*<sub>L</sub> + b<sub>r</sub>の誤記なんだな...
+      - 時間をかなり無駄にした
+      - ついでに数値解析で解くと、離散化の仕方で収束がかなり変わる
+      - ここらへんはRだからってのもあって怖いな
+    - ANU滞在用にデビットカード口座
+      - 郵便局から本人限定受取郵便物の不在票
+      - 再配達依頼にいまどき電話orFAXとかアホかと
+      
+- 10
+
+  - 雑記
+    - 都リーグでご一緒したBさん共著のNatureが読めない
+      - A small peptide modulates stomatal control via abscisic acid in long-distance signalling
+    
+  439. [Yamamoto et al. 2016; Nat Plant](https://www.nature.com/articles/nplants201612); 低
+    - Artificial remodelling of alternative electron flow by flavodiiron proteins in Arabidopsis
+    - 京大鹿内研
+    - Flv
+    - ResearchGateにアップしてくれているのはありがたい
+    
+- 11
+
+  - 雑記
+    - 新年度のゼミ
+    - 進捗どうですかに対して「就活」はさすがにどうなんだ
+    
+  440. [深谷 2016; 日本生態学会誌](https://www.jstage.jst.go.jp/article/seitai/66/2/66_375/_article/-char/ja/); <FONT color="green">20180411摘</FONT>
+    - 状態空間モデルによる時系列解析とその生態学への応用
+    
+  
+- 12
+
+  - 雑記
+    - FluorCamを実用レベルで試運転
+      - やはり同業の某社と比べてしまうな
+      - あっちのほうが好み
+    - 査読依頼がきた
+      - ご縁があった雑誌ではないけど受けることにする
+      - 自分の論文引用されてねーじゃねーか
+  
+- 13
+
+  441. [Hou et al. 2015; PCE](https://onlinelibrary.wiley.com/doi/full/10.1111/pce.12427); 20180416済
+    - Systemic signalling in photosynthetic induction of Rumex K-1 (Rumex patientia × Rumex tianschaious) leaves
+    - 査読から
+    - タデ
+      - 林床植物で、順化能力が高そうだったらしい
+      - 外来種とかそういう観点ではなさそう
+    - 4葉のこしてsignal generatorな葉の枚数だったり位置だったりをスライドする実験系
+      - signal generatorの枚数はinductionに効かない
+      - signal generatorへの強度は光飽和的？
+      - 下から上へのシグナルはなし
+      - TCAで師部を潰すと反応消失
+    - シンプルでいい実験・データだ
+
+  - 雑記
+    - 査読done
+      - ただでこんなしっかり読んで貰えるシステムってすごい
+        - ゼミ (=有料) なんかよりよっぽど読んでコメントする
+      - Chargeのバカ高いOA誌の査読は受けないでおきたい
+      
+- 15
+
+  442. [Wu et al. 2018; J Plant Res](https://link.springer.com/article/10.1007/s10265-018-1027-8); 低
+    - Leaf area and photosynthesis of newly emerged trifoliolate leaves are regulated by mature leaves in soybean
+    - systemic regulation
+    - 中国の研究機関の構造をざっくり知っておきたいな
+      - CAS、Key laboratory、大学の３本柱なのか？
+    - systemic signaling はNPQ制御や気孔応答などの物質の生産・分解を伴わない即応答系のやつ、systemic regulation は形態、タンパク組成などの物質の生産・分解を含むプロセス、と考えるといいのか？
+  
+  - 雑記
+    - Regular_005がMinor revisionで返ってきた
+      - この論文は反省が多い
+      - 結局、PCEのときにまとめて出してしまうべきデータだったんだよなぁ
+      - 無理筋感がある
+
+- 16
+  
+  443. [Ikawa et al. 2018; Glob Change Biol](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.13981); 低
+    - Increasing canopy photosynthesis in rice can be achieved without a large increase in water use—A model based on free‐air CO2 enrichment
+    - 伊川さん
+    - 王道を征く感じだ
+    - モデルの結果はいつだって can be どまりではあるが、界隈を引っ張る駆動力になる
+    
+- 17
+
+  444. [Jokel et al. 2018; Plant J](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.13897); 20180417摘
+    - Hunting the main player enabling Chlamydomonas reinhardtii growth under fluctuating light
+    - Allahverdiyeva lab
+    - ChlamyではFlv欠損はマイルド変動光でも致死、pgr5/pgrl1はネガティブだけど非致死
+    - 色がしゃれおつ
+    - Fig. 7はわかりやすくていいな
+    
+- 18
+
+  445. [Jensen 2018; Cur Opin Plant Biol](https://www.sciencedirect.com/science/article/pii/S1369526617302066);
+    - Phloem physics: mechanisms, constraints, and perspectives
+    - とりあえず
+    
+    
+- 19
+
+  - 雑記
+    - 最近おおい Material & Methods を後ろに送る雑誌
+      - High impact journalによくある
+      - 査読で「結果で唐突にパラメータが出てくる」と言われてもそういう仕組みだよなーって思った
+        - 自分が他誌で読んでてもそうだし、査読者のキモチもよく分かる
+      - 出版社が結果のキャッチーさに寄せすぎな印象
+    
+    - ETR論文をPCPに再投稿
+      - 査読アドバイスに応じて概念図を入れた
+      - 絵心とデザインセンスがほしいなぁ
+      
+    - 某和書のかきはじめ
+      - パート分け章執筆はやーな感じになりそうだなぁ
+      - 文章のスタイルが違いすぎる
+      
+- 20
+
+  - 雑記
+    - PCPの論文がUnder Reviewになっている恐怖
+      - 「著者こんなんかえしてきたんで、査読者のみなさんに一応流しときますね」であってほしい限り
+  
+- 21 
+
+  446. [Khan et al. 2018; EMBO Rep](http://embor.embopress.org/content/early/2018/04/12/embr.201845731); <FONT color="cyan">20180422済</FONT>
+    - Put science first and formatting later
+    - うむ
+    - htmlで投稿させてくれ
+    - とくにMS wordのみ受付というふざけた状態は許されん
+    - 一方で、referenceが正しく整っていない論文のクオリティは低い、という一般論にも同意できるし、どっちもどっちか？
+    
+  447. [Pinnola & Bassi 2018; Biochem Soc Trans](http://www.biochemsoctrans.org/content/46/2/467.full-text.pdf); 未取得
+    - Molecular mechanisms involved in plant photoprotection
+    
+- 23
+
+  448. [Cardons et al. 2018; Essays Biochem](http://essays.biochemistry.org/content/62/1/85); <FONT color="green">20180423済</FONT>
+    - Enhancing photosynthesis in plants: the light reactions
+    - ChlororespirationのPeter Nixonラボ、Imperial College London
+    - 新しい情報が非常に多かった
+    - 以下、へーとなったリスト
+      - クロロフィルを減らしていく方向性が流行っている
+        - soybean: lower amounts of leaf chlorophyll could result in 9% savings in leaf nitrogen without penalties in the rates of photosynthesis (Walker et al. 2017 Plant Physiol)
+        - rice: rice with up to 50% less chlorophyll content showed an increase in the rates of photosynthesis of up to 40%, displayed elevated concen- trations of ribulose-1,5-bisphosphate carboxylase/oxygenase and faster growth rates, which translated into similar yields to the wild-type in less time (Gu et al. 2017 Field Crop Res)
+        - Arabidopsis: Arabidopsis thaliana, possibly affected in the regulation of chlorophyll synthesis, showed improvements in light use, which translated into a 50% increase in the amounts of accumulated glucose and fructose, as well as more than 10% dry-weight biomass in mature plants
+        - クロロフィルを減らしてN利用のバランスが、ではなくてphotoinactivationが減ったとかだったら面白いな
+        - 因果推論の問題
+      - アンテナをいじる系も一応ちらっと
+        - 藻類からFRアンテナをとってくる、っていうのはPSII/PSI比の増加も必要そうだし、なんだか筋が悪そうな印象をうける
+        - ロマン枠: Even more complex yet, is the possibility of engineering plants that could express different photosystems and antennae in different parts of the canopy or dynamically in response to fluctuating light conditions
+          - ただし文法がよくわからん (強調構文？)
+      - 膜トランスポータは対象とするイオン意外もなんやかんやしてlumen pH制御に関与する
+        - アクアポリンのCO2透過と同じ流れか
+        - Arabidopsis mutants with a silenced two-pore K+ channel (TPK3) in the thylakoid membrane displayed reduced NPQ and enhanced $\Delta\psi$, which resulted in PSII damage under high-light conditions (Carraretto et al. 2013 Science)
+        - Another study on the function of a K+ efflux antiporter (KEA3) in the thylakoid showed that it was needed for efficient deactivation of NPQ and recovery of productive photochemistry in a transition from high-light to low-light (Armbruster et al. 2014; Nat Com)
+      - 藻類は強い話
+        - sunlightの2倍の強度で耐えるクロレラ株もいる (90%をcyclicに回す)
+        - ある種の珪藻はPSII-CEFを1 s で起動するし、NPQも早くかつ強く回る
+          - 珪藻は海洋光合成 (> 全熱帯林光合成) の45%を占めているらしい
+
+  449. [Sowden et al. 2018; Essays Biochem](http://essays.biochemistry.org/content/62/1/21); 未取得
+    - The role of chloroplasts in plant pathology
+    
+  450. [Gutteridge 2018; Essays Biochem](http://essays.biochemistry.org/content/62/1/1); 未取得
+    - The impact of a changing atmosphere on chloroplast function, photosynthesis, yield, and food security
+    
+  451. [Davis et al. 2016; eLife](https://elifesciences.org/articles/16921); 低
+    - Limitations to photosynthesis by proton motive force-induced photosystem II photodamage
+    - David Kramer ラボ
+    - 膜トランスポータのOXで、pmf形成を加速し変動効果での光阻害を抑え、光合成を高める
+    - `Cardons et al. 2018`から
+    
+  - 雑記
+    - PC届かんがな
+      - 配送トラッキングを見たら出国に間に合わん
+      - 一回キャンセルして現地で書い直しに変更
+      - 荷物は減るが、Windows機がないのはやや不安ではある
+      
+  452. [Ganesan 2018; Philos Trans R Soc](http://rstb.royalsocietypublishing.org/content/373/1748/20170067?rss=1); 
+    - Epigenetics: the first 25 centuries
+    - この巻がEpigenetics特集
+    - さらっと読めそうなのでこれだけ
+    
+- 24
+
+  - 雑記
+    - Acceptがきた

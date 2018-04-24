@@ -346,6 +346,11 @@ UIがよさそう
 - [リスト](http://www.sankey-diagrams.com/sankey-diagram-software/) 発見  
 - [Sankey Diagrams in R?](http://stackoverflow.com/questions/9968433/sankey-diagrams-in-r)  
 
+## Particle simulation
+
+- [particles](https://github.com/thomasp85/particles)
+  - [Let it flow, let it flow, let it flow](https://www.data-imaginist.com/2018/let-it-flow-let-it-flow-let-it-flow/) 作成者のメモ
+
 ## [d3.js Data-Driven Documents](https://d3js.org/)
 可視化に強いので手を出したい。いずれ。  
 
@@ -359,6 +364,7 @@ UIがよさそう
 ただし、プレゼンで「わかった気にさせる」場合には有効  
 
 - [Improving R animated GIFs with tweenr](http://lenkiefer.com/2016/05/29/improving-R-animated-gifs-with-tweenr)  
+
 
 # Web系
 
