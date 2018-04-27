@@ -20,7 +20,7 @@ Keach MURAKAMI (Ph.D.)
 
 - CV
     - [Jpn](https://keachmurakami.github.io/CVjp/)
-    - [Eng](https://keachmurakami.github.io/CVen/) ([download](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_base/CV_20170718.pdf))
+    - [Eng](https://keachmurakami.github.io/CVen/) ([download](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_base/CV.pdf))
 
 <br>
 <br>
@@ -105,6 +105,7 @@ E-mail: keach+yamaguchi-u.ac.jp
 library(lubridate)
 library(ggplot2)
 library(tidyverse)
+library(plotly)
 
 football_stats <-
   read.csv("~/Dropbox/R/my.data/MyFootball.csv") %>%
@@ -126,7 +127,8 @@ football_dat <-
            Contribute = Goal + Assist,
            Label = ifelse(Contribute != 0, paste0("Goal: ", Goal, "\nAssist: ", Assist), ""))
 
-football_dat %>%
+# football_fig <-
+  football_dat %>%
   ggplot(aes(x = week, y = wday, fill = Appearance_min, col = Contribute, label = Label)) +
   theme_light(base_size = 11) +
   geom_tile(col = "white") +
@@ -137,6 +139,10 @@ football_dat %>%
   labs(x = "weeks", y = "", fill = "Appearance [min]") +
   guides(col = F) +
   facet_grid(Year ~ ., switch = "y")
+
+# football_fig %>%
+  # ggplotly()
+  
 ```
 
 <br>

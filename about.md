@@ -5,7 +5,7 @@ permalink: /about/
 layout: default
 ---
 
-<FONT color="grey">Last update: 2017-07-18 21:09:52  </FONT><br>
+<FONT color="grey">Last update: 2018-04-27 12:32:11  </FONT><br>
 
 -----
 
@@ -20,7 +20,7 @@ Keach MURAKAMI (Ph.D.)
 
 - CV
     - [Jpn](https://keachmurakami.github.io/CVjp/)
-    - [Eng](https://keachmurakami.github.io/CVen/) ([download](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_base/CV_20170718.pdf))
+    - [Eng](https://keachmurakami.github.io/CVen/) ([download](https://github.com/KeachMurakami/KeachMurakami.github.io/blob/master/_base/CV.pdf))
 
 <br>
 <br>
@@ -101,7 +101,22 @@ E-mail: keach+yamaguchi-u.ac.jp
     - 都リーグ社会人4部 (2015~2016)  
     - サッカー審判員4級 (2015~2016)  
 
-<img src="/figure/base/about/Football_Stats-1.png" title="plot of chunk Football_Stats" alt="plot of chunk Football_Stats" width="100%" />
+
+```
+## Error in file(file, "rt"): cannot open the connection
+```
+
+```
+## Error in eval(lhs, parent, parent): object 'football_stats' not found
+```
+
+```
+## Error in eval(lhs, parent, parent): object 'football_stats' not found
+```
+
+```
+## Error in eval(lhs, parent, parent): object 'football_dat' not found
+```
 
 <br>
 <br>
