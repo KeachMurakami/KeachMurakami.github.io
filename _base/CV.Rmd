@@ -13,13 +13,11 @@ header-includes:
   - \pagestyle{fancy}
   - \fancyhf{}
   - \lhead{Curriculum Vitae}
-  - \rhead{Keach MURAKAMI | 2017-07-18}
+  - \rhead{Keach MURAKAMI | `r lubridate::today()`}
 output:
   pdf_document:
     latex_engine: xelatex
     number_sections: TRUE
-bibliography: ~/Dropbox/r_packages/fudukue/bibtex/Full.bib
-csl: plant_cell_environ.csl
 ---
 
 \newpage
@@ -27,15 +25,12 @@ csl: plant_cell_environ.csl
 # Personal and contact information
 
 - Name: Keach MURAKAMI (Ph.D.)
-    - Passport name: Kiichi MURAKAMI
-- Contact information
+- Contact information:
     - Office address: 1677--1, Yoshida, Yamaguchi-shi, Yamaguchi, Japan (753--8515)
     - Phone & Fax: +81--83--933--5864
     - Email: keach.murakami@gmail.com / keach@yamaguchi-u.ac.jp
 
 # Education and professional experience
-
-I have analyzed light-quality responses of leaf photosythetic electron transport by gas-exchange and fluoresence/absorptance measurements with mathematical models.
 
 ## Education
 
@@ -45,7 +40,7 @@ I have analyzed light-quality responses of leaf photosythetic electron transport
 
 ## Professional experience
 
-- 2017.03--
+- 2017.04--2020.03
     - JSPS Postdoctoral Research Fellow, Graduate School of Sciences and Technology for Innovation, Yamaguchi University, Japan
 - 2014.04--2017.03
     - JSPS Research Fellow, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Japan
@@ -67,31 +62,32 @@ I have analyzed light-quality responses of leaf photosythetic electron transport
     - Budget amount: 3,200,000 JPY
 
 
-# Bibliography (2014--)
+# Bibliography (2013--)
 
 ## Original articles (peer-reviewed)
 
-1. \underline{Murakami K.}, Matsuda R.\* & Fujiwara K. (2014) “Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of *phaseolus vulgaris*: Effects of photosynthetic photon flux density (PPFD) *versus* spectrum”. Plant Biology **16**, 16--21.
+- 7. \underline{Murakami K.}\* & Ibaraki Y. (in press) “Time course of the photochemical reflectance index (PRI) during photosynthetic induction: its relationship with the photochemical yield of photosystem II”. *Physiologia Plantarum*. in press. [LINK](http://dx.doi.org/10.1111/ppl.12745).
 
-2. Matsuda R.\*, Yamano T., \underline{Murakami K.} & Fujiwara K. (2016) “Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury”. *Scientia Horticulturae* **198**, 363--369.
+- 6. \underline{Murakami K.}\*, Matsuda R.\* & Fujiwara K. (in press) “A mathematical model of photosynthetic electron transport in response to light spectrum based on excitation energy distributed to photosystems”. *Plant and Cell Physiology*. in press. [LINK](http://dx.doi.org/10.1093/pcp/pcy085).
 
-3. \underline{Murakami K.}\*, Matsuda R. & Fujiwara K. (2016) “Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves”. *Physiologia Plantarum* **158**, 213–224.
+- 5. \underline{Murakami K.}\*, Matsuda R.\* & Fujiwara K. (2018) “Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport”. *Plant, Cell & Environment*. **41**, 148--159. [LINK](https://doi.org/10.1111/pce.12986).
 
+- 4. \underline{Murakami K.}\*, Matsuda R. & Fujiwara K. (2016) “Interaction between the spectral photon flux density distributions of light during growth and for measurements in net photosynthetic rates of cucumber leaves”. *Physiologia Plantarum* **158**, 213–224. [LINK](https://doi.org/10.1111/ppl.12421).
 
-4. \underline{Murakami K.}\*, Matsuda R.\* & Fujiwara K. (in press) “Quantification of excitation energy distribution between photosystems based on a mechanistic model of photosynthetic electron transport”. *Plant, Cell & Environment*. doi:10.1111/pce.12986.
+- 3. Matsuda R.\*, Yamano T., \underline{Murakami K.} & Fujiwara K. (2016) “Effects of spectral distribution and photosynthetic photon flux density for overnight LED light irradiation on tomato seedling growth and leaf injury”. *Scientia Horticulturae* **198**, 363--369. [LINK](https://doi.org/10.1016/j.scienta.2015.11.045).
+
+- 2. \underline{Murakami K.}, Matsuda R.\* & Fujiwara K. (2014) “Light-induced systemic regulation of photosynthesis in primary and trifoliate leaves of *phaseolus vulgaris*: Effects of photosynthetic photon flux density (PPFD) *versus* spectrum”. Plant Biology **16**, 16--21. [LINK](https://doi.org/10.1111/plb.12055).
+
+- 1. \underline{Murakami K.}, Matsuda R.\* & Fujiwara K. (2013) “Effects of supplemental lighting to a lower leaf using light-emitting diodes with different spectra on the leaf photosynthetic rate in sweet pepper”. *Journal of Agricultural Meteorology* **69**, 55--63. [LINK](https://doi.org/10.2480/agrmet.69.2.2).
 
 
 ## Other articles (peer-reviewed)
 
-3. \underline{Murakami K.}\*, Matsuda R. & Fujiwara K. (2017) “A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions”. *Environmental Control in Biology* **55**, 1--6.
+- 1. \underline{Murakami K.}\*, Matsuda R. & Fujiwara K. (2017) “A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions”. *Environmental Control in Biology* **55**, 1--6. [LINK](https://doi.org/10.2525/ecb.55.1).
 
 
 ## Book Chapters
 
-1. Matsuda R\*. & \underline{Murakami K.} (2016) “Light- and CO~2~-dependent systemic regulation of photosynthesis”. *In* Progress in botany (*eds* U. Lüttge, M. F. Cánovas, & R. Matyssek), Vol. 77, pp. 151--166. Springer International Publishing, Switzerland. (Peer-reviewed)
+- 2. \underline{Murakami K.}\* & Matsuda R. (2016) “Optical and physiological properties of a leaf”. *In* LED lighting for urban agriculture (*eds* T. Kozai, K. Fujiwara, & E. S. Runkle), pp. 113--123. Springer Singapore. [LINK](https://doi.org/10.1007/978-981-10-1848-0_8).
 
-2. \underline{Murakami K.}\* & Matsuda R. (2016) “Optical and physiological properties of a leaf”. *In* LED lighting for urban agriculture (*eds* T. Kozai, K. Fujiwara, & E. S. Runkle), pp. 113--123. Springer Singapore.
-
-\newpage
-
-[@Murakami_et_al2014PB; @Murakami_et_al2016PP; @Murakami_et_al2017PCE; @Matsuda_et_al2016SH; @Murakami_et_al2017ECB; @Matsuda_Murakami2016Chap; @Murakami_Matsuda2016Chap]
+- 1. Matsuda R\*. & \underline{Murakami K.} (2016) “Light- and CO~2~-dependent systemic regulation of photosynthesis”. *In* Progress in botany (*eds* U. Lüttge, M. F. Cánovas, & R. Matyssek), Vol. 77, pp. 151--166. Springer International Publishing, Switzerland. (Peer-reviewed; [LINK](https://doi.org/10.1007/978-3-319-25688-7_4)).
