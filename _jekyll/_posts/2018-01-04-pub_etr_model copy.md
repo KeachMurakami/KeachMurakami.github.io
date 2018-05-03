@@ -1,0 +1,13 @@
+---
+title: "論文投稿 (Regular_005, 3誌目へ再投稿)"
+output: html_document
+layout: post
+tags: lab log
+---
+
+[年始めに再投稿可リジェクトで帰ってきた論文](https://keachmurakami.github.io/2018/01/04/pub_etr_model.html)を再投稿。
+
+- ANU行きのVISAをようやく申請
+  - 5/7入りの予定
+  - もろもろ整う気がしない
+- 農業気象用のスライドをつくり始める

@@ -1,0 +1,101 @@
+---
+output: revealjs::revealjs_presentation
+---
+
+# Section1
+
+## Demo1_hook
+
+```{r}
+library(knitr)
+
+hook_fragment <-
+  function(before, options, envir) {
+    if (before) {
+      before_chunk <- paste0("<div class='fragment' data-fragment-index='", options$fragment,"' style='position:absolute;top:0;left:0'>")
+    } else {
+      after_chunk <- "</div>"
+      ## code to be run after a chunk
+    }
+}
+
+knit_hooks$set(fragment = hook_fragment)
+```
+
+
+## Demo1_rmarkdown
+
+```{r}
+# <div style="position:relative; top:0px; width:700px; height:500px; margin:0 auto;">
+# ```{r fragment = 1, echo = F}
+# library(ggplot2)
+# ggplot(iris, aes(Sepal.Length, Petal.Length, col = Species, group = Species)) +
+#   geom_point()
+# ```
+# ```{r fragment = 3, echo = F}
+# ggplot(iris, aes(Sepal.Length, Petal.Length, col = Species, group = Species)) +
+#   geom_point() +
+#   geom_smooth(method = "lm")
+# ```
+# </div>
+# <br>
+# <div class="fragment" data-fragment-index="2">- Plot points</div>
+# <div class="fragment" data-fragment-index="4">- Add regression lines</div>
+```
+
+## Demo1_output
+
+<div style="position:relative; top:0px; width:700px; height:500px; margin:0 auto;">
+```{r fragment = 1, echo = F}
+library(ggplot2)
+ggplot(iris, aes(Sepal.Length, Petal.Length, col = Species, group = Species)) +
+  geom_point()
+```
+```{r fragment = 3, echo = F}
+ggplot(iris, aes(Sepal.Length, Petal.Length, col = Species, group = Species)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+</div>
+<br>
+<div class="fragment" data-fragment-index="2">- Plot points</div>
+<div class="fragment" data-fragment-index="4">- Add regression lines</div>
+
+# Section2
+
+## Demo2_function
+
+```{r}
+
+list_ggplot2 <-
+  list(
+    a = ggplot(mtcars, aes(cyl, mpg)) + geom_point(),
+    b = ggplot(mtcars, aes(cyl, mpg)) + geom_point() + geom_smooth(method = "lm")
+  )
+  
+  
+  
+chunk_body1 <-
+  c("```{r fragment=1}",
+    "print(list_ggplot2[1])",
+    "```")
+
+chunk_body2 <-
+  c("```{r fragment=2}",
+    "print(list_ggplot2[2])",
+    "```")
+```
+
+## Demo2_code
+
+<div style="position:relative; top:0px; width:700px; height:500px; margin:0 auto;">
+```{r eval = F}
+knitr::read_chunk(lines = chunk_body1)
+knitr::read_chunk(lines = chunk_body2)
+```
+</div>
+
+
+## Demo2_output
+
+`r knitr::read_chunk(lines = chunk_body1)`
