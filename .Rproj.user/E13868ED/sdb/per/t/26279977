@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: About\n---\n\n<FONT color=\"grey\">Last update: `r lubridate::now()`  </FONT><br>\n\n------\n\n```{r, message = F, echo = F, warning = F}\nlibrary(tidyverse)\nlibrary(knitr)\nopts_chunk$set(echo = FALSE, warning = F)\n```\n\n### Author\n\nKeach MURAKAMI (Ph.D.)  \n<ruby>村上<rp>（</rp><rt>むらかみ</rt><rp>）</rp></ruby>   <ruby>貴一<rp>（</rp><rt>きいち</rt><rp>）</rp></ruby>\n\n------\n\n### Education\n\n```{r Education, echo = F}\ndata.frame(\n  Year = c(\"2012.03\", \"2014.03\", \"2017.03\"),\n  Degree = c(\"B.S. in Agricultural Engineering, The University of Tokyo\",\n             \"M.S. in Agricultural Engineering, The University of Tokyo\",\n             \"Ph.D. in Agricultural Engineering, The University of Tokyo\")\n) %>%\n  kable\n```\n\n------\n\n### Professional Experience\n\n```{r Professional_Experience, echo = F}\ndata.frame(\n  Year = c(\"2014.04--2017.03\", \"2017.04--2020.03\"),\n  Category = c(\"JSPS Research Fellow (DC1)\", \"JSPS Postdoctoral Research Fellow (PD)\"),\n  Affiliation =\n    c(\"Graduate School of Agricultural and Life Sciences, The University of Tokyo, Japan\",\n      \"Graduate School of Sciences and Technology for Innovation, Yamaguchi University, Japan\"),\n  Advisor = c(\"Prof: Kazuhiro Fujiwara\",\n              \"Prof: Yasuomi Ibaraki\")\n) %>%\n  kable\n```\n\n------\n\n### Grant\n\n```{r grant, echo = F}\ndata.frame(\n  year = c(\"2014.04--2017.03\", \"2017.04--2020.03\"),\n  title = c(\"Estimation of photosynthetic electron transport rate from light spectrum based on photochemical reactions at photosystems\",\n            \"Development of a state-space model of leaf photosynthetic characteristics for prediction and regulation of whole-plant photosynthesis\"),\n  category = c(\"Grant-in-Aid for JSPS Fellows (DC1)\",\n               \"Grant-in-Aid for JSPS Fellows (PD)\"),\n  budget = c(\"JPY 3,200,000\", \n            \"JPY 4,550,000\"),\n  URL = c(\"https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-14J09372/\",\n         \"https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-17J04736/\")\n) %>%\n  mutate(title = paste0(title, \"<a href = '\", URL, \"' target='_blank'> (link)</a>\")) %>%\n  select(-URL) %>%\n  kable\n```\n\n\\* <FONT color=\"grey\">linked to KAKEN pages maintained by National Institute of Informatics (NII) of JAPAN.</FONT>\n\n------\n\n### Academic Society Membership\n\n```{r Academic_Society_Membership, echo = F}\ndata.frame(\n  Year = c(\"2012-\", \"2013-\", \"2017-\", \"2017-\"),\n  Society = c(\"Japanese Society of Agricultural, Biological and Environmental Engineers and Scientists\",\n              \"The Society of Agricultural Meteorology of Japan\",\n              \"The Japanese Association for Photosynthesis Research\",\n              \"International Society for Horticultural Science\")\n) %>%\n  kable\n```\n",
+    "created" : 1524613036624.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2226138182",
+    "id" : "26279977",
+    "lastKnownWriteTime" : 1524569690,
+    "last_content_update" : 1524569690,
+    "path" : "~/Dropbox/mylog/content/About_eng.Rmd",
+    "project_path" : "content/About_eng.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

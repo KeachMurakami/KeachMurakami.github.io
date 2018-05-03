@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "newly_installed <- dir(.libPaths())\n\nload(\"~/Dropbox/working.dir/2018-04-24-installed.Rdata\")\n\nnewly_installed[!(newly_installed %in% installed)]\n",
+    "created" : 1524567242008.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "396398754",
+    "id" : "147FA0FF",
+    "lastKnownWriteTime" : 8029407292191408128,
+    "last_content_update" : 1524621141601,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

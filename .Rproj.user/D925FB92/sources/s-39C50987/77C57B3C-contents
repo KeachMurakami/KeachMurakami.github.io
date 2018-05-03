@@ -1,0 +1,33 @@
+A <- data.frame(x_a = c(8, 1, 4, 4, 3),
+                y_a = c(11, 23, 31, 51, 52),
+                index_a = 1:5)
+B <- data.frame(x_b = c(74, 20, 48, 68, 85, 78, 51, 24, 75, 59, 99, 32, 56, 71, 63),
+                y_b = c(57, 54, 25, 38, 24, 17, 50, 40, 20, 9, 23, 22, 56, 8, 53),
+                index_b = 1:15)
+
+xa <- c(8, 1, 4, 4, 3)
+ya <- c(11, 23, 31, 51, 52)
+xb = c(74, 20, 48, 68, 85, 78, 51, 24, 75, 59, 99, 32, 56, 71, 63)
+yb = c(57, 54, 25, 38, 24, 17, 50, 40, 20, 9, 23, 22, 56, 8, 53)
+
+tidyr::crossing(A, B) %>%
+  dplyr::mutate(distance = sqrt((x_a - x_b)^2 + (y_a - y_b)^2)) %>%
+  dplyr::group_by(index_a) %>%
+  dplyr::arrange(distance) %>%
+  dplyr::slice(2)
+
+A <- data.frame(x = c(8, 1, 4, 4, 3),
+                y = c(11, 23, 31, 51, 52))
+B <- data.frame(x = c(74, 20, 48, 68, 85, 78, 51, 24, 75, 59, 99, 32, 56, 71, 63),
+                y = c(57, 54, 25, 38, 24, 17, 50, 40, 20, 9, 23, 22, 56, 8, 53))
+
+A %>%
+  dplyr::mutate(point_id = 1:5) %>%
+  tidyr::crossing(., B) %>%
+  dplyr::mutate(distance = sqrt((x - x1)^2 + (y - y1)^2)) %>%
+  dplyr::group_by(point_id) %>%
+  dplyr::arrange(distance) %>%
+  dplyr::slice(2)
+
+
+# 与えられた1組の(x,y)に対して、

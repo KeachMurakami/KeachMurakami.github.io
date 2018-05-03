@@ -1,0 +1,9 @@
+{
+    "path" : "~/Dropbox/mylog",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

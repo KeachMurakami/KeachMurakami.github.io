@@ -1,0 +1,181 @@
+---
+title: About
+---
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+```{r echo = F, message = F, warning = F}
+library(tidyverse)
+library(knitr)
+opts_chunk$set(echo = FALSE, warning = F, message = F)
+```
+
+<FONT color="grey">Last update: `r lubridate::now()`  </FONT><br>
+
+---
+
+## 人物
+
+### 著者
+
+<ruby>村上<rp>（</rp><rt>むらかみ</rt><rp>）</rp></ruby>   <ruby>貴一<rp>（</rp><rt>きいち</rt><rp>）</rp></ruby> 博士 (農学)  
+Keach MURAKAMI (Ph.D.)
+
+- E-mail: keach.murakami+gmail.com
+- [CV](https://www.dropbox.com/sh/iifrhaxt3rauv0m/AACqpUHhxcXPIaoColJHmKLaa?preview=CV.pdf)
+
+### 所属
+
+2018.05--2019.01  
+The Australian National UniversityのChow laboratoryで客員研究員をしています
+
+2017.04--2020.03  
+山口大学大学院創成科学研究科の生物環境情報工学研究室で博士研究員をしています  
+
+### 履歴
+
+```{r education, echo = F}
+data.frame(
+  Year = c("2008.03",
+           "2008.04",
+           "2010.04",
+           "2012.03",
+           "2012.04",
+           "2014.03",
+           "2014.04",
+           "2017.03"),
+  Degree = c("鳥取県立米子東高等学校 卒業",
+             "東京大学 理科一類 入学",
+             "東京大学 農学部 生物・環境工学専修 進学",
+             "同 卒業",
+             "東京大学 大学院農学生命科学研究科 生物・環境工学専攻 修士課程 入学",
+             "同 修了",
+             "東京大学 大学院農学生命科学研究科 生物・環境工学専攻 博士後期課程 進学",
+             "同 修了"
+             )
+  ) %>%
+  kable
+```
+
+---
+
+## 研究
+
+### 専門分野  
+
+- 生物環境工学  
+- 光合成生理学  
+
+### 研究テーマ  
+
+- 高等植物の光合成電子伝達の光質応答 (博士課程 @ 東大環境研)
+- 光合成特性の光環境応答のモデル化と予測 (学振PD @ 山口大荊木研)
+
+### 論文など
+
+- [Publications](https://keachmurakami.github.io/publications/)
+- [<i class="ai ai-google-scholar ai-2x"></i>](https://scholar.google.co.jp/citations?user=IgtMr-oAAAAJ&hl=en) / [<i class="ai ai-orcid ai-2x"></i>](https://orcid.org/0000-0001-8150-9535) / [<i class="ai ai-researchgate ai-2x"></i>](https://www.researchgate.net/profile/Keach_Murakami) 
+
+### 職歴
+
+```{r post, echo = F}
+data.frame(
+  Year = c("2014.04--2017.03", "2017.04--2020.03"),
+  Category = c("日本学術振興会 特別研究員 (DC1)",
+               "日本学術振興会 特別研究員 (PD)"),
+  Advisor = c("受入研究者: 富士原 和宏 教授 (生物環境工学研究室)",
+              "受入研究者: 荊木 康臣 教授 (生物環境情報工学研究室)")
+) %>%
+  kable
+```
+
+### 研究費獲得状況
+
+```{r grant, echo = F}
+data.frame(
+  Year = c("2014.04--2017.03", "2017.04--2020.03"),
+  Title = c("光化学系の反応速度に基づく種々の分光分布下の光合成速度推定法の開発",
+            "個体光合成量の制御と予測のための個葉の光合成特性の経時推移モデルの開発"),
+  Category = c("特別研究員奨励費 (DC1, 代表者)",
+               "特別研究員奨励費 (PD, 代表者)"),
+  Budget = c("3,200,000円", 
+            "4,550,000円"),
+  URL = c("https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-14J09372/",
+         "https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-17J04736/")
+) %>%
+  mutate(Title = paste0(Title, "<a href = '", URL, "' target='_blank'> (link)</a>")) %>%
+  select(-URL) %>%
+  kable
+```
+
+\* <FONT color="grey">リンク先は国立情報学研究所運営のKAKENページ</FONT>
+
+### 学会活動
+
+```{r Academic_Society_Membership, echo = F}
+data.frame(
+  Year = c("2012-", "2013-", "2017-", "2017-"),
+  Society = c("日本生物環境工学会",
+              "日本農業気象学会",
+              "日本光合成学会",
+              "International Society for Horticultural Science")
+) %>%
+  kable
+```
+
+---
+
+## そのほかのこと
+
+### 好きなもの
+
+- サッカー  
+    - 部活・サークル (--2015)
+    - 都リーグ社会人4部 (2015--2016)  
+    - サッカー審判員4級 (2015--2016)  
+    - 観るだけ (2017--)
+- [R](https://www.r-project.org/)
+
+```{r Football_Stats, eval = F, echo = F, message = F, warning = F, out.width = '100%', fig.asp = .5, dpi = 500}
+library(lubridate)
+library(ggplot2)
+library(tidyverse)
+library(plotly)
+
+football_stats <-
+  read.csv("~/Dropbox/R/my.data/MyFootball.csv") %>%
+    mutate(Date = ymd(Date))
+
+
+blank_days <-
+  football_stats$Date %>%
+    range %>%
+    {seq(.[1], .[2], by = "1 day")} %>%
+    data.frame(Date = ., Appearance_min = 0) %>%
+    filter(!(Date %in% football_stats$Date))
+
+football_dat <-
+  football_stats %>%
+    bind_rows(., blank_days) %>%
+    mutate(Year = year(Date), week = week(Date), wday = wday(Date),
+           Goal = Goal_By_Head + Goal_By_RightFoot + Goal_By_LeftFoot + Goal_By_Other,
+           Contribute = Goal + Assist,
+           Label = ifelse(Contribute != 0, paste0("Goal: ", Goal, "\nAssist: ", Assist), ""))
+
+# football_fig <-
+  football_dat %>%
+  ggplot(aes(x = week, y = wday, fill = Appearance_min, col = Contribute, label = Label)) +
+  theme_light(base_size = 11) +
+  geom_tile(col = "white") +
+  geom_text(size = 2) +
+  scale_color_gradient(low = "black", high = "magenta") +
+  scale_fill_gradient(low = "grey80", high = "green", na.value = "grey75") +
+  scale_y_continuous(breaks = 1:7, labels = c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"), expand = c(0, 0)) +
+  labs(x = "weeks", y = "", fill = "Appearance [min]") +
+  guides(col = F) +
+  facet_grid(Year ~ ., switch = "y")
+
+# football_fig %>%
+  # ggplotly()
+  
+```

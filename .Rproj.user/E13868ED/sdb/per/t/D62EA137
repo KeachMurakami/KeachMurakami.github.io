@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: About\n---\n\n<FONT color=\"grey\">Last update: `r lubridate::now()`  </FONT><br>\n\n\n\n### 著者\n\n<ruby>村上<rp>（</rp><rt>むらかみ</rt><rp>）</rp></ruby>   <ruby>貴一<rp>（</rp><rt>きいち</rt><rp>）</rp></ruby> 博士 (農学)  \nKeach MURAKAMI (Ph.D.)\n\nCV ([Jpn](https://keachmurakami.github.io/CVjp/)/[Eng](https://keachmurakami.github.io/CVen/))\n\n\n### 所属\n\n2017.04 \\~ 2020.03  \n山口大学 大学院創成科学研究科の生物環境情報工学研究室で博士研究員をしています  \n\nAddress: 1677-1 Yoshida, Yamaguchi, 753-8515 Japan (Room #323)  \nE-mail: keach+yamaguchi-u.ac.jp  \n\n\n#### 旧所属\n\n<FONT color=\"grey\">\n\n2014.04 ~ 2017.03  <br>\n東京大学 大学院農学生命科学研究科の生物環境工学研究室所属の博士課程学生でした<br><br>\n\n2014.04 ~ 2017.03  <br>\n東京大学 大学院農学生命科学研究科の生物環境工学研究室所属の博士課程学生でした<br><br>\n\n</FONT>\n\n\n### 研究\n\n- 研究紹介\n    - 作成予定  \n- 論文\n    - [Publications](https://keachmurakami.github.io/publications/)  \n    - [GoogleScholar](https://scholar.google.co.jp/citations?user=IgtMr-oAAAAJ&hl=en)  \n    - [ORCID id](https://orcid.org/0000-0001-8150-9535)\n    - [ResearchGate](https://www.researchgate.net/profile/Keach_Murakami) \n\n\n### 好きなこと\n\n- サッカー  \n    - 部活・サークル (--2015)\n    - 都リーグ社会人4部 (2015--2016)  \n    - サッカー審判員4級 (2015--2016)  \n    - 観るだけ (2017--)\n- きれいに整えること\n    - [R](https://www.r-project.org/)\n\n```{r Football_Stats, eval = F, echo = F, message = F, warning = F, out.width = '100%', fig.asp = .5, dpi = 500}\nlibrary(lubridate)\nlibrary(ggplot2)\nlibrary(tidyverse)\nlibrary(plotly)\n\nfootball_stats <-\n  read.csv(\"~/Dropbox/R/my.data/MyFootball.csv\") %>%\n    mutate(Date = ymd(Date))\n\n\nblank_days <-\n  football_stats$Date %>%\n    range %>%\n    {seq(.[1], .[2], by = \"1 day\")} %>%\n    data.frame(Date = ., Appearance_min = 0) %>%\n    filter(!(Date %in% football_stats$Date))\n\nfootball_dat <-\n  football_stats %>%\n    bind_rows(., blank_days) %>%\n    mutate(Year = year(Date), week = week(Date), wday = wday(Date),\n           Goal = Goal_By_Head + Goal_By_RightFoot + Goal_By_LeftFoot + Goal_By_Other,\n           Contribute = Goal + Assist,\n           Label = ifelse(Contribute != 0, paste0(\"Goal: \", Goal, \"\\nAssist: \", Assist), \"\"))\n\n# football_fig <-\n  football_dat %>%\n  ggplot(aes(x = week, y = wday, fill = Appearance_min, col = Contribute, label = Label)) +\n  theme_light(base_size = 11) +\n  geom_tile(col = \"white\") +\n  geom_text(size = 2) +\n  scale_color_gradient(low = \"black\", high = \"magenta\") +\n  scale_fill_gradient(low = \"grey80\", high = \"green\", na.value = \"grey75\") +\n  scale_y_continuous(breaks = 1:7, labels = c(\"Sun\", \"Mon\", \"Tue\", \"Wed\", \"Thu\", \"Fri\", \"Sat\"), expand = c(0, 0)) +\n  labs(x = \"weeks\", y = \"\", fill = \"Appearance [min]\") +\n  guides(col = F) +\n  facet_grid(Year ~ ., switch = \"y\")\n\n# football_fig %>%\n  # ggplotly()\n  \n```\n",
+    "created" : 1524613035654.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2571859131",
+    "id" : "D62EA137",
+    "lastKnownWriteTime" : 1524613192,
+    "last_content_update" : 1524613192380,
+    "path" : "~/Dropbox/mylog/content/About_jpn.Rmd",
+    "project_path" : "content/About_jpn.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Rのアップデート (ver. 3.5.0)\"\noutput: html_document\nlayout: post\ntags: lab log\n---\n\n色々と一段落ついたのでRを3.3からアップデート\nちょうど20180424に3.5.0がリリースされたのでそれを。\n\n関係しそうなメジャーな変更点\n\n- New function isFALSE() defined analogously to isTRUE().\n\n- factor(x, levels, labels) now allows duplicated labels (not duplicated levels!). Hence you can map different values of x to the same level directly.\n\n```{r}\ncategory <- factor(x = 1:3, labels = c(\"dog\", \"cat\", \"dog\"), levels = c(1, 2, 3))\n\ntibble(name = c(\"シバ\", \"ミケ\", \"コリー\"), size = c(10, 3, 12), category) %>%\n  ggplot(aes(x = name, y = size, fill = category)) +\n  geom_bar(stat = \"identity\")\n\n```\n\n- POSIXt objects can now also be rounded or truncated to month or year.",
+    "created" : 1524620145049.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3659970723",
+    "id" : "EE103491",
+    "lastKnownWriteTime" : 1524622002,
+    "last_content_update" : 1524622002005,
+    "path" : "~/Dropbox/KeachMurakami.github.io/_source/2018-04-25-R_3_5_0.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
