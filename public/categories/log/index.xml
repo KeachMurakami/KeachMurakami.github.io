@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Log on MyLog</title>
+    <link>/categories/log/</link>
+    <description>Recent content in Log on MyLog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/log/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>査読対応 (Regular_005, 3誌目再round2)</title>
+      <link>/2018/04/19/%E6%9F%BB%E8%AA%AD%E5%AF%BE%E5%BF%9C-regular_005-3%E8%AA%8C%E7%9B%AE%E5%86%8Dround2/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/19/%E6%9F%BB%E8%AA%AD%E5%AF%BE%E5%BF%9C-regular_005-3%E8%AA%8C%E7%9B%AE%E5%86%8Dround2/</guid>
+      <description>Minor revisionだった論文を修正して返送。 概念図の追加など。
+ 和書の分担章の執筆を開始 学会要旨以外で衆目に触れる日本語文書を書くのははじめて  plot(1:10) </description>
+    </item>
+    
+  </channel>
+</rss>

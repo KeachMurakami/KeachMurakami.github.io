@@ -1,0 +1,121 @@
+---
+title: "二項演算子 %in% を改良したかった"
+date: 2016-03-10
+---
+
+```{r setup, eval = TRUE, echo = FALSE, message= F}
+require(MASS)
+require(ggplot2)
+require(RColorBrewer) 
+require(grid)
+require(plyr)
+require(dplyr)
+require(reshape2)
+require(xlsx)
+require(knitr)
+require(gtable)
+require(foreach)
+require(gridExtra)
+require(magrittr)
+require(agricolae)
+require(stringr)
+require(data.table)
+require(lubridate)
+require(scales)
+require(pforeach)
+require(devtools)
+require(tidyr)
+require(slackr)
+require(RCurl)
+opts_chunk$set(eval = TRUE,
+               error = FALSE,
+               prompt = FALSE,
+               message = FALSE,
+               echo = TRUE,
+               fig.hight = 4,
+               fig.width = 10,
+               warning =FALSE)
+```
+
+`%in%`をよく使う  
+```{r demo1}
+iris %>%
+  filter(Species %in% "setosa") %>%
+  head
+```
+
+`data.table::between`もよく使う  
+```{r demo2}
+# rows 4.5 ≤ Petal.Length ≤ 5.5
+iris %>%
+  filter(between(Petal.Length, 4.5, 5.5)) %>%
+  head
+
+# rows !(4.5 ≤ Petal.Length ≤ 5.5)
+iris %>%
+  filter(!between(Petal.Length, 4.5, 5.5)) %>%
+  head
+```
+
+排反を取得したいときにこんな感じで書きたくなる  
+が、エラーを吐かれる  
+```{r demo3, eval = F}
+iris %>%
+  filter(Species !%in% "setosa")
+
+Error: unexpected '!' in:
+"iris %>%
+  filter(Species !"
+```
+
+`%in%`の背反をとるにはこう書く  
+```{r demo4}
+iris %>%
+  filter(!(Species %in% "setosa")) %>%
+  head
+```
+直感的ではない(ように思う)  
+
+### `!%in%`を実装したかった  
+`%in%`の中身  
+```{r demo5}
+# バッククオートで囲むと参照できる
+`%in%`
+```
+
+`!%in%`を素直に試みる  
+```{r NG, eval = F}
+`!%in%` <-
+  function (x, table){
+    !match(x, table, nomatch = 0L) > 0L
+  }
+
+# 関数作成はできる
+`!%in%` %>%
+  print
+
+# 実行はできない
+iris %>%
+  filter(Species !%in% "setosa")
+
+Error: unexpected '!' in:
+"iris %>%
+  filter(Species !"
+```
+
+できなかった  
+ので、代替品を作っておいた  
+```{r OK}
+`%!in%` <-
+  function (x, table){
+    !match(x, table, nomatch = 0L) > 0L
+  }
+
+iris %>%
+  filter(Species %!in% "setosa") %>%
+  head
+```
+
+```{r info}
+session_info()
+```

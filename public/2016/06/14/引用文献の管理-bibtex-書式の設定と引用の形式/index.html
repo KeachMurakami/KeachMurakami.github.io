@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.18.1" />
+
+
+<title>引用文献の管理 (bibtex; 書式の設定と引用の形式) - MyLog</title>
+<meta property="og:title" content="引用文献の管理 (bibtex; 書式の設定と引用の形式) - MyLog">
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about_eng/">About (Eng)</a></li>
+    
+    <li><a href="/about_jpn/">About (Jpn)</a></li>
+    
+    <li><a href="/publicationlist/">Publication</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">引用文献の管理 (bibtex; 書式の設定と引用の形式)</h1>
+
+    
+    <span class="article-date">2016/06/14</span>
+    
+
+    <div class="article-content">
+      <div id="--" class="section level3">
+<h3>論文に引用文献リストをさくっと挿入したい (メモ２: 書式の設定と本文中での引用の形式)</h3>
+<div class="section level4">
+<h4>引用文献の書式の変更</h4>
+<p>引用文献のタイトルが、斜体、下付き・上付きなどを含む場合、書式を指定する必要がある。</p>
+<p>文献のタイトルが、</p>
+<ul>
+<li>The 1<sup>st</sup> paper reporting O<sub>2</sub> evolution from photosystem II of <em>Arabidopsis thaliana</em></li>
+</ul>
+<p>であれば、</p>
+<ul>
+<li><code>title = {The 1{$^{st}$} paper reporting {O}{$_{2}$} evolution from photosystem {II} of \textit{Arabidopsis thaliana}}</code></li>
+</ul>
+<p>と書くことになる</p>
+<ul>
+<li>大文字のままにする → <code>{O}</code>
+<ul>
+<li>指定しておかないと小文字になる場合があるので</li>
+</ul></li>
+<li>斜体にする → <del><code>\it{}</code></del> → 正しくは<code>\textit{}</code>
+<ul>
+<li><code>\it{}</code>だと、<code>}</code>以降もイタリックになる (20160616)</li>
+<li><code>\it{}</code>で生成されるタグが<code>\em</code>であり、重複・衝突することが原因っぽい (20160616)</li>
+</ul></li>
+<li>上・下付きにする → <code>{$_{}$}</code>・<code>{$^{}$}</code>
+<ul>
+<li>{}内はTeX記法が適用されるので数学記号なども同様に記入できる</li>
+</ul></li>
+<li>特殊文字 → コピペが楽
+<ul>
+<li>あるいは<a href="http://www.bibtex.org/SpecialSymbols/">公式</a>を見つつタグを打ち</li>
+</ul></li>
+</ul>
+</div>
+<div class="section level4">
+<h4>本文中での引用の形式</h4>
+<p><span class="citation">@XXXで引用するときの</span>、“XXX”は“citation identifier”というらしい</p>
+<ul>
+<li><span class="citation">@XXXをそのまま書くと</span>、文中での引用
+<ul>
+<li>Rmd: <code>@Hoge2015 reported that ...</code></li>
+<li>output: Hoge (2015) reported that …</li>
+</ul></li>
+<li><code>[ ]</code><a href="mailto:で@XXXを囲むと">で@XXXを囲むと</a>、括弧付きでの引用
+<ul>
+<li>Rmd: <code>... was reported [@Hoge2015]</code></li>
+<li>ouput: … was reported (Hoge, 2015)</li>
+</ul></li>
+<li><code>[ ]</code><a href="mailto:で複数の@XXXを囲むと">で複数の@XXXを囲むと</a>、同一括弧内での複数文献の引用
+<ul>
+<li>Rmd: <code>... was reported [@Hoge2015; @Hoge2016]</code></li>
+<li>ouput: … was reported (Hoge, 2015, 2016)
+<ul>
+<li>YAMLのclsで指定したフォーマットに合わせていい感じに結合してくれる → (Hoge et al. 2015ab, 2016)</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="section level3">
+<h3>参考ページ</h3>
+<p><a href="http://www.bibtex.org/SpecialSymbols/">bibtex.org</a></p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            Powered by <a href="https://gohugo.io/" class="footer-links-kudos">Hugo</a>, <a href="https://github.com/rstudio/blogdown" class="footer-links-kudos">blogdown</a>, and <a href="https://pages.github.com/" class="footer-links-kudos">GitHub Pages</a>.
+          </li>
+        </ul>
+        <ul class="footer-links">
+          <li>
+            Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" class="footer-links-kudos">Creative Commons Attribution 4.0 International license</a>.
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

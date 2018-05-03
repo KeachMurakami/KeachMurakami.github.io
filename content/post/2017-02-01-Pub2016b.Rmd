@@ -1,0 +1,16 @@
+---
+title: "論文掲載 (Letter_001)"
+date: 2017-02-01
+---
+
+解説記事のような論文 (letter) が公開されました  
+
+> “A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions”  
+> Keach Murakami, Ryo Matsuda, Kazuhiro Fujiwara, *Environmental Control in Biology*, Vol. 55: 1--6.  
+> [Open Access (J-STAGE)](https://www.jstage.jst.go.jp/article/ecb/55/1/55_1/_article)  
+
+---- 
+
+進捗時は2016年でも掲載時には2017年となるとき、この備忘録のタイトル表記をどうするか...  
+通し番号にすると非筆頭の論文が面倒なことになる  
+ユニークなIDを振るのがいい？

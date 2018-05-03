@@ -1,0 +1,52 @@
+---
+title: "引用文献の管理 (bibtex; 書式の設定と引用の形式)"
+date: 2016-06-14
+---
+
+### 論文に引用文献リストをさくっと挿入したい (メモ２: 書式の設定と本文中での引用の形式)
+
+#### 引用文献の書式の変更
+
+引用文献のタイトルが、斜体、下付き・上付きなどを含む場合、書式を指定する必要がある。
+
+文献のタイトルが、
+
+- The 1<sup>st</sup> paper reporting O<sub>2</sub> evolution from photosystem II of _Arabidopsis thaliana_
+
+であれば、
+
+- `title = {The 1{$^{st}$} paper reporting {O}{$_{2}$} evolution from photosystem {II} of \textit{Arabidopsis thaliana}}`
+
+と書くことになる  
+
+- 大文字のままにする → `{O}`
+    - 指定しておかないと小文字になる場合があるので
+- 斜体にする → ~~`\it{}`~~ → 正しくは`\textit{}`
+    - `\it{}`だと、`}`以降もイタリックになる (20160616)
+    - `\it{}`で生成されるタグが`\em`であり、重複・衝突することが原因っぽい (20160616)
+- 上・下付きにする → `{$_{}$}`・`{$^{}$}`
+    - {}内はTeX記法が適用されるので数学記号なども同様に記入できる
+- 特殊文字 → コピペが楽
+    - あるいは[公式](http://www.bibtex.org/SpecialSymbols/)を見つつタグを打ち
+
+
+#### 本文中での引用の形式
+
+@XXXで引用するときの、"XXX"は"citation identifier"というらしい   
+
+- @XXXをそのまま書くと、文中での引用
+    - Rmd: `@Hoge2015 reported that ...`
+    - output: Hoge (2015) reported that ...
+    
+- `[ ]`で@XXXを囲むと、括弧付きでの引用
+    - Rmd: `... was reported [@Hoge2015]`
+    - ouput: ... was reported (Hoge, 2015)
+
+- `[ ]`で複数の@XXXを囲むと、同一括弧内での複数文献の引用
+    - Rmd: `... was reported [@Hoge2015; @Hoge2016]`
+    - ouput: ... was reported (Hoge, 2015, 2016)
+        - YAMLのclsで指定したフォーマットに合わせていい感じに結合してくれる → (Hoge et al. 2015ab, 2016)
+
+
+### 参考ページ
+[bibtex.org](http://www.bibtex.org/SpecialSymbols/)  

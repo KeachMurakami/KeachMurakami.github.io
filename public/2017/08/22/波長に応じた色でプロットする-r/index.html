@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.18.1" />
+
+
+<title>波長に応じた色でプロットする (R - MyLog</title>
+<meta property="og:title" content="波長に応じた色でプロットする (R - MyLog">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about_eng/">About (Eng)</a></li>
+    
+    <li><a href="/about_jpn/">About (Jpn)</a></li>
+    
+    <li><a href="/publicationlist/">Publication</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">波長に応じた色でプロットする (R</h1>
+
+    
+    <span class="article-date">2017/08/22</span>
+    
+
+    <div class="article-content">
+      <p>研究でしばしば波長に関係するデータを出すため、波長に応じた色でプロットしたい場合が多い。</p>
+<p>波長から色の変換の各種定数は、<a href="http://www.natural-science.or.jp/article/20160513143413.php">このページ</a>から。文字列から色コードへの変換が汚いが、いちおうOK。</p>
+<div class="section level4">
+<h4>関数</h4>
+<pre class="r"><code>library(tidyverse)
+library(stringr)
+
+lambda2color &lt;-
+  Vectorize(
+    function(lambda){
+      # central wavelength [nm]
+      central &lt;- 
+        c(red = 700.0,
+          green = 546.1,
+          blue = 435.8,
+          orange = 605.0,
+          yellow = 580.0,
+          cyan = 490.0,
+          purple = 400.0)
+  
+      # half width [nm]
+      half_width &lt;-
+        c(red = 90,
+          green = 80,
+          blue = 80,
+          orange = 60,
+          yellow = 50,
+          cyan = 50,
+          purple = 40)
+  
+      # intensity of seven colors
+      intensity &lt;-
+        c(red = .95,
+          green = .74,
+          blue = .75,
+          orange = .40,
+          yellow = .10,
+          cyan = .30,
+          purple = .30)
+  
+      norms &lt;-
+        intensity * exp( - (lambda - central)^2 / half_width^2)
+      
+      r &lt;- sum(norms[c(&quot;red&quot;, &quot;orange&quot;, &quot;purple&quot;)])
+      g &lt;- sum(norms[c(&quot;green&quot;, &quot;orange&quot;, &quot;yellow&quot;, &quot;cyan&quot;, &quot;purple&quot;)] * c(1, .715, .83, 1, .5))
+      b &lt;- sum(norms[c(&quot;blue&quot;, &quot;orange&quot;, &quot;cyan&quot;, &quot;purple&quot;)] * c(1, .23, 1, 1))
+      
+      r_8bit &lt;- min(255, round(r*255, 0))
+      g_8bit &lt;- min(255, round(g*255, 0))
+      b_8bit &lt;- min(255, round(b*255, 0))
+      
+      # to hexadecimal
+      
+      to_hex &lt;-
+        function(x){
+          hexed &lt;-
+            as.hexmode(x) %&gt;%
+            as.character
+          if(str_count(hexed) == 1){
+            paste0(&quot;0&quot;, hexed) %&gt;% return
+          } else {
+            hexed
+          }
+        }
+      
+      # #rrggbb
+      paste0(&quot;#&quot;, to_hex(r_8bit), to_hex(g_8bit), to_hex(b_8bit)) %&gt;%
+        return
+    }
+  )
+
+color_scale_bar &lt;-
+  function(wavelength, y, ...){
+    lapply(wavelength, function(i){
+      annotate(geom = &quot;point&quot;, x = i, y = y, col = lambda2color(i), ...)
+    })
+  }</code></pre>
+</div>
+<div class="section level4">
+<h4>デモ</h4>
+<pre class="r"><code>test_df &lt;-
+  data_frame(wavelength = 400:800, value = sin(wavelength/2 / pi))
+
+test_df %&gt;%
+  ggplot(aes(x = wavelength, y = value, col = factor(wavelength))) +
+  guides(col = F) +
+  geom_point() +
+  geom_line(aes(group = NA)) +
+  scale_color_manual(values = lambda2color(test_df$wavelength))</code></pre>
+<p><img src="/post/2017-08-22-rainbow_plot_files/figure-html/demo-1.png" width="672" /></p>
+<pre class="r"><code>test_df %&gt;%
+  ggplot(aes(x = wavelength, y = value)) +
+  guides(col = F) +
+  geom_point() +
+  geom_line(aes(group = NA)) +
+  color_scale_bar(wavelength = 400:800, y = -1)</code></pre>
+<p><img src="/post/2017-08-22-rainbow_plot_files/figure-html/demo-2.png" width="672" /></p>
+</div>
+<div class="section level4">
+<h4>参考ページ</h4>
+<p><a href="http://www.natural-science.or.jp/article/20160513143413.php">光の波長からRGBを算出する関数の定義</a></p>
+<pre class="r"><code>devtools::session_info()</code></pre>
+<pre><code>## Session info -------------------------------------------------------------</code></pre>
+<pre><code>##  setting  value                       
+##  version  R version 3.4.4 (2018-03-15)
+##  system   x86_64, darwin15.6.0        
+##  ui       X11                         
+##  language (EN)                        
+##  collate  en_US.UTF-8                 
+##  tz       Asia/Tokyo                  
+##  date     2018-04-24</code></pre>
+<pre><code>## Packages -----------------------------------------------------------------</code></pre>
+<pre><code>##  package    * version    date       source                          
+##  assertthat   0.2.0      2017-04-11 CRAN (R 3.4.0)                  
+##  backports    1.1.0      2017-05-22 CRAN (R 3.4.0)                  
+##  base       * 3.4.4      2018-03-15 local                           
+##  bindr        0.1        2016-11-13 CRAN (R 3.4.0)                  
+##  bindrcpp     0.2        2017-06-17 CRAN (R 3.4.0)                  
+##  blogdown     0.6        2018-04-18 CRAN (R 3.4.4)                  
+##  bookdown     0.7        2018-02-18 CRAN (R 3.4.3)                  
+##  broom        0.4.2      2017-02-13 CRAN (R 3.4.0)                  
+##  cellranger   1.1.0      2016-07-27 CRAN (R 3.4.0)                  
+##  cli          1.0.0      2017-11-05 cran (@1.0.0)                   
+##  colorspace   1.3-2      2016-12-14 CRAN (R 3.4.0)                  
+##  compiler     3.4.4      2018-03-15 local                           
+##  crayon       1.3.4      2017-09-16 cran (@1.3.4)                   
+##  datasets   * 3.4.4      2018-03-15 local                           
+##  devtools     1.13.5     2018-02-18 cran (@1.13.5)                  
+##  digest       0.6.15     2018-01-28 cran (@0.6.15)                  
+##  dplyr      * 0.7.4      2017-09-28 cran (@0.7.4)                   
+##  evaluate     0.10.1     2017-06-24 cran (@0.10.1)                  
+##  forcats    * 0.2.0      2017-01-23 CRAN (R 3.4.0)                  
+##  foreign      0.8-69     2017-06-22 CRAN (R 3.4.4)                  
+##  ggplot2    * 2.2.1      2016-12-30 CRAN (R 3.4.0)                  
+##  glue         1.2.0      2017-10-29 cran (@1.2.0)                   
+##  graphics   * 3.4.4      2018-03-15 local                           
+##  grDevices  * 3.4.4      2018-03-15 local                           
+##  grid         3.4.4      2018-03-15 local                           
+##  gtable       0.2.0      2016-02-26 CRAN (R 3.4.0)                  
+##  haven        1.1.0      2017-07-09 cran (@1.1.0)                   
+##  hms          0.3        2016-11-22 CRAN (R 3.4.0)                  
+##  htmltools    0.3.6      2017-04-28 CRAN (R 3.4.0)                  
+##  httr         1.3.1      2017-08-20 cran (@1.3.1)                   
+##  jsonlite     1.5        2017-06-01 CRAN (R 3.4.0)                  
+##  knitr        1.17       2017-08-10 cran (@1.17)                    
+##  labeling     0.3        2014-08-23 CRAN (R 3.4.0)                  
+##  lattice      0.20-35    2017-03-25 CRAN (R 3.4.4)                  
+##  lazyeval     0.2.1      2017-10-29 cran (@0.2.1)                   
+##  lubridate    1.7.1      2017-11-03 cran (@1.7.1)                   
+##  magrittr     1.5        2014-11-22 CRAN (R 3.4.0)                  
+##  memoise      1.1.0      2017-04-21 CRAN (R 3.4.0)                  
+##  methods    * 3.4.4      2018-03-15 local                           
+##  mnormt       1.5-5      2016-10-15 CRAN (R 3.4.0)                  
+##  modelr       0.1.1      2017-07-24 CRAN (R 3.4.1)                  
+##  munsell      0.4.3      2016-02-13 CRAN (R 3.4.0)                  
+##  nlme         3.1-131.1  2018-02-16 CRAN (R 3.4.4)                  
+##  parallel     3.4.4      2018-03-15 local                           
+##  pkgconfig    2.0.1      2017-03-21 CRAN (R 3.4.0)                  
+##  plyr         1.8.4      2016-06-08 CRAN (R 3.4.0)                  
+##  psych        1.7.5      2017-05-03 CRAN (R 3.4.0)                  
+##  purrr      * 0.2.4      2017-10-18 cran (@0.2.4)                   
+##  R6           2.2.2      2017-06-17 CRAN (R 3.4.0)                  
+##  Rcpp         0.12.16    2018-03-13 cran (@0.12.16)                 
+##  readr      * 1.1.1      2017-05-16 CRAN (R 3.4.0)                  
+##  readxl       1.0.0      2017-04-18 CRAN (R 3.4.0)                  
+##  reshape2     1.4.2      2016-10-22 CRAN (R 3.4.0)                  
+##  rlang        0.2.0      2018-02-20 CRAN (R 3.4.3)                  
+##  rmarkdown    1.7        2017-11-10 cran (@1.7)                     
+##  rprojroot    1.2        2017-01-16 CRAN (R 3.4.0)                  
+##  rstudioapi   0.7        2017-09-07 cran (@0.7)                     
+##  rvest        0.3.2      2016-06-17 CRAN (R 3.4.0)                  
+##  scales       0.5.0.9000 2017-11-16 Github (hadley/scales@d767915)  
+##  stats      * 3.4.4      2018-03-15 local                           
+##  stringi      1.1.6      2017-11-17 cran (@1.1.6)                   
+##  stringr    * 1.3.0      2018-02-19 cran (@1.3.0)                   
+##  tibble     * 1.3.4      2017-08-22 cran (@1.3.4)                   
+##  tidyr      * 0.7.2      2017-10-16 cran (@0.7.2)                   
+##  tidyverse  * 1.2.1      2017-11-14 CRAN (R 3.4.2)                  
+##  tools        3.4.4      2018-03-15 local                           
+##  utils      * 3.4.4      2018-03-15 local                           
+##  withr        2.1.2      2018-04-24 Github (jimhester/withr@79d7b0d)
+##  xfun         0.1        2018-01-22 CRAN (R 3.4.3)                  
+##  xml2         1.2.0      2018-01-24 cran (@1.2.0)                   
+##  yaml         2.1.14     2016-11-12 CRAN (R 3.4.0)</code></pre>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            Powered by <a href="https://gohugo.io/" class="footer-links-kudos">Hugo</a>, <a href="https://github.com/rstudio/blogdown" class="footer-links-kudos">blogdown</a>, and <a href="https://pages.github.com/" class="footer-links-kudos">GitHub Pages</a>.
+          </li>
+        </ul>
+        <ul class="footer-links">
+          <li>
+            Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" class="footer-links-kudos">Creative Commons Attribution 4.0 International license</a>.
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
