@@ -1,0 +1,98 @@
+---
+title: CV-en
+output: html_document
+permalink: /CVen/
+layout: default
+---
+
+<FONT color="grey">Last update: `r lubridate::now()`  </FONT><br>
+
+------
+
+```{r, message = F, echo = F, warning = F}
+library(fudukue)
+opts_chunk$set(echo = FALSE, warning = F)
+```
+
+<!-- ### Expertise -->
+<!-- ```{r Expertise, echo = F} -->
+
+<!-- ``` -->
+
+<!-- ------ -->
+
+<!-- ### Research Areas -->
+<!-- ```{r Research_Areas, echo = F} -->
+
+<!-- ``` -->
+
+<br>
+
+### Education
+```{r Education, echo = F}
+data.frame(
+  Year = c("2012.03", "2014.03", "2017.03"),
+  Degree = c("B.S. in Agricultural Engineering, The University of Tokyo",
+             "M.S. in Agricultural Engineering, The University of Tokyo",
+             "Ph.D. in Agricultural Engineering, The University of Tokyo")
+) %>%
+  kable
+```
+
+------
+
+<br>
+
+### Professional Experience
+```{r Professional_Experience, echo = F}
+data.frame(
+  Year = c("2014.04--2017.03", "2017.04--2020.03"),
+  Category = c("JSPS Research Fellow (DC1)", "JSPS Postdoctoral Research Fellow (PD)"),
+  Affiliation =
+    c("Graduate School of Agricultural and Life Sciences, The University of Tokyo, Japan",
+      "Graduate School of Sciences and Technology for Innovation, Yamaguchi University, Japan"),
+  Advisor = c("Prof: Kazuhiro Fujiwara",
+              "Prof: Yasuomi Ibaraki")
+) %>%
+  kable
+```
+
+------
+
+<br>
+
+### Grant
+```{r grant, echo = F}
+data.frame(
+  year = c("2014.04--2017.03", "2017.04--2020.03"),
+  title = c("Estimation of photosynthetic electron transport rate from light spectrum based on photochemical reactions at photosystems",
+            "Development of a state-space model of leaf photosynthetic characteristics for prediction and regulation of whole-plant photosynthesis"),
+  category = c("Grant-in-Aid for JSPS Fellows (DC1)",
+               "Grant-in-Aid for JSPS Fellows (PD)"),
+  budget = c("JPY 3,200,000", 
+            "JPY 4,550,000"),
+  URL = c("https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-14J09372/",
+         "https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-17J04736/")
+) %>%
+  mutate(title = paste0(title, "<a href = '", URL, "' target='_blank'> (link)</a>")) %>%
+  select(-URL) %>%
+  kable
+```
+
+\* <FONT color="grey">linked to KAKEN pages maintained by National Institute of Informatics (NII) of JAPAN.</FONT>
+
+------
+
+<br>
+
+### Academic Society Membership
+```{r Academic_Society_Membership, echo = F}
+data.frame(
+  Year = c("2012-", "2013-", "2017-", "2017-"),
+  Society = c("Japanese Society of Agricultural, Biological and Environmental Engineers and Scientists",
+              "The Society of Agricultural Meteorology of Japan",
+              "The Japanese Association for Photosynthesis Research",
+              "International Society for Horticultural Science")
+) %>%
+  kable
+```
