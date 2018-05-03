@@ -1,5 +1,8 @@
-baseurl = "/"
-languageCode = "en-us"
+baseurl = "/https://keachmurakami.github.io/"
+relativeurls = true
+publishDir = "docs"
+hasCJKLanguage = true
+languageCode = "ja-jp"
 title = "MyLog"
 theme = "hugo-lithium"
 googleAnalytics = ""
