@@ -1,9 +1,0 @@
----
-title: "論文受理 (Letter_001)"
-date: 2016-10-19
----
-
-論文が受理されました  
-
-> “A basis for selecting light spectral distribution for evaluating leaf photosynthetic rates of plants grown under different light spectral distributions”  
-> Keach Murakami, Ryo Matsuda, Kazuhiro Fujiwara, *Environmental Control in Biology*, in press.

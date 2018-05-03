@@ -1,6 +1,0 @@
----
-title: "jekyll -> Hugo"
-date: 2018-05-03
----
-
-- `servr` + `jekyll`から`blogdown` + `hugo`に移動

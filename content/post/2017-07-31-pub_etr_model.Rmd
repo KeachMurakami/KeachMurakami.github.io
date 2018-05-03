@@ -1,8 +1,0 @@
----
-title: "論文投稿 (Regular_005, 2誌目)"
-date: 2017-07-31
----
-
-[キックされた電子伝達モデル論文](https://keachmurakami.github.io/2017/07/30/pub_etr_model.html)のフォーマットを修正して、他誌へ挑戦。
-
-- 今日は新３年生歓迎会で焼肉
