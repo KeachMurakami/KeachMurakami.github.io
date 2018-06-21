@@ -1,0 +1,13 @@
+# Site settings
+title : My log
+email : keach.murakami@gmail.com
+url : "http://locahost:4000" # the base hostname & protocol for your site
+github_username : KeachMurakami
+gems :
+  - jekyll-feed
+encoding : utf-8
+markdown : kramdown
+comments :
+  provider : disqus
+  disqus :
+    short_name : keachmurakami
